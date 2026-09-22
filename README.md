@@ -60,9 +60,11 @@ Add the Markdown splitter for the Google Docs export.
 Add the Greek/Strong's layer (TAGNT from STEPBible, CC BY 4.0).
 Add a service worker so the whole thing works offline as an installable PWA.
 
-Run on Commentary:
+### Run on Commentary:
+
 node scripts/build-notes.mjs sources/matthew-commentary-en.txt en MAT
 node scripts/build-notes.mjs sources/matthew-commentary-es.txt es MAT
 
-More English translations:
+### More English translations:
+
 https://ebible.org/
