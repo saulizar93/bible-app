@@ -197,8 +197,8 @@ body {
 /* study notes */
 .note {
   margin-bottom: 1.4em;
-  content-visibility: auto;
-  contain-intrinsic-size: auto 140px;
+  /*content-visibility: auto;
+  contain-intrinsic-size: auto 140px;*/
 }
 .note.hit {
   background: var(--hit);
