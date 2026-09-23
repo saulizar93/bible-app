@@ -62,12 +62,13 @@ export default function App() {
     go({ book: BOOKS[n - 1].id, chapter: c, verse: null });
   };
 
-  const pick = (o) =>
+  const pick = (o) => {
     go({
-      book: o.id,
-      chapter: Math.min(o.chapter, o.chapters),
+      book: o.book,
+      chapter: o.chapter,
       verse: o.verse,
     });
+  };
 
   const jumpFromConcordance = (ref) => {
     go(ref);
