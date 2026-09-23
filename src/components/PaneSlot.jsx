@@ -3,8 +3,8 @@ import { PANE_OPTIONS, optionFor } from '../data.js';
 import BiblePane from './BiblePane.jsx';
 import NotesPane from './NotesPane.jsx';
 
-export default function PaneSlot({ code, refPos, highlight, onSelect }) {
-  const opt = optionFor(code);
+export default function PaneSlot({ code, refPos, highlight, onSelect, strongsOn, onWordClick }) {
+  const opt = optionFor(code) || PANE_OPTIONS[0];
   const scroller = useRef(null);
 
   return (
@@ -27,7 +27,14 @@ export default function PaneSlot({ code, refPos, highlight, onSelect }) {
       </header>
       <div className="pane-body" ref={scroller}>
         {opt.kind === 'bible'
-          ? <BiblePane code={opt.code} refPos={refPos} highlight={highlight} scroller={scroller} />
+          ? <BiblePane
+              code={opt.code}
+              refPos={refPos}
+              highlight={highlight}
+              scroller={scroller}
+              strongsOn={strongsOn && !!opt.strongs}
+              onWordClick={onWordClick}
+            />
           : <NotesPane lang={opt.lang} refPos={refPos} highlight={highlight} scroller={scroller} />}
       </div>
     </section>

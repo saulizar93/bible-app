@@ -1,4 +1,5 @@
 import { get, set } from "idb-keyval";
+import { normalizeStrong } from "./strongsCode.js";
 
 const DATA_VERSION = 1; // bump to invalidate every cached Bible chapter
 const NOTES_VERSION = 1; // bump separately — notes change far more often
@@ -6,7 +7,13 @@ const NOTES_VERSION = 1; // bump separately — notes change far more often
 // One combined list drives both pane dropdowns, so either side can hold
 // a translation or a notes set.
 export const PANE_OPTIONS = [
-  { code: "kjv", label: "KJV", kind: "bible", lang: "en" },
+  {
+    code: "kjv-strong",
+    label: "KJV w/Greek",
+    kind: "bible",
+    lang: "en",
+    strongs: true,
+  },
   { code: "bsb", label: "BSB", kind: "bible", lang: "en" },
   { code: "msb", label: "MSB", kind: "bible", lang: "en" },
   { code: "lsv", label: "LSV", kind: "bible", lang: "en" },
@@ -36,7 +43,15 @@ function cachedFetch(key, url) {
     const res = await fetch(url);
     if (res.status === 404) return null; // "nothing written yet" — not an error
     if (!res.ok) throw new Error(`${url}: ${res.status}`);
-    const data = await res.json();
+    let data;
+    try {
+      data = await res.json();
+    } catch {
+      // Some dev servers (Vite's SPA fallback among them) return index.html
+      // with a 200 status for a missing file instead of a real 404 — treat
+      // "not valid JSON" the same as "not found" rather than throwing.
+      return null;
+    }
     set(key, data).catch(() => {});
     return data;
   })();
@@ -65,4 +80,42 @@ export function keyCovers(key, v) {
 }
 export function keyStart(key) {
   return parseInt(key, 10);
+}
+
+/* ---------- Strong's: lexicon + concordance ---------- */
+
+const SHARD_SIZE = 500;
+const shardStart = (n) => Math.floor((n - 1) / SHARD_SIZE) * SHARD_SIZE + 1;
+
+/** Encode/decode a verse reference as a single sortable integer. */
+export const vidOf = (bookNum, chapter, verse) =>
+  bookNum * 1_000_000 + chapter * 1_000 + verse;
+export const decodeVid = (vid) => ({
+  n: Math.floor(vid / 1_000_000),
+  c: Math.floor((vid % 1_000_000) / 1_000),
+  v: vid % 1_000,
+});
+
+/** Look up one Strong's number's dictionary entry, e.g. loadStrongsEntry("G26"). */
+export async function loadStrongsEntry(rawCode) {
+  const code = normalizeStrong(rawCode);
+  const num = parseInt(code.slice(1), 10);
+  const shard = shardStart(num);
+  const data = await cachedFetch(
+    `strongs/greek/${shard}`,
+    `/data/strongs/greek/${shard}.json`,
+  );
+  return data ? data[code] || null : null;
+}
+
+/** All verse ids where this Strong's number occurs, e.g. loadConcordance("G26"). */
+export async function loadConcordance(rawCode) {
+  const code = normalizeStrong(rawCode);
+  const num = parseInt(code.slice(1), 10);
+  const shard = shardStart(num);
+  const data = await cachedFetch(
+    `concord/greek/${shard}`,
+    `/data/concord/greek/${shard}.json`,
+  );
+  return (data && data[code]) || [];
 }

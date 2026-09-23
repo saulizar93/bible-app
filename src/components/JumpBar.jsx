@@ -1,4 +1,4 @@
-export default function JumpBar({ query, onQueryChange, open, onOpenChange, options, placeholder, onSubmit, onPick, onStep }) {
+export default function JumpBar({ query, onQueryChange, open, onOpenChange, options, placeholder, onSubmit, onPick, onStep, strongsOn, onToggleStrongs }) {
   return (
     <form className="jump" onSubmit={onSubmit} autoComplete="off">
       <button type="button" onClick={() => onStep(-1)} aria-label="Previous chapter">‹</button>
@@ -24,6 +24,15 @@ export default function JumpBar({ query, onQueryChange, open, onOpenChange, opti
           </ul>
         )}
       </div>
+      <button
+        type="button"
+        className={strongsOn ? 'strongs-toggle on' : 'strongs-toggle'}
+        aria-pressed={strongsOn}
+        onClick={onToggleStrongs}
+        title="Underline Strong's-tagged Greek words"
+      >
+        Gk
+      </button>
       <button type="button" onClick={() => onStep(1)} aria-label="Next chapter">›</button>
     </form>
   );
