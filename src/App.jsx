@@ -5,6 +5,7 @@ import { loadBook, PANE_OPTIONS } from "./data.js";
 import JumpBar from "./components/JumpBar.jsx";
 import PaneSlot from "./components/PaneSlot.jsx";
 import StrongsPanel from "./components/StrongsPanel.jsx";
+import SelectionBar from "./components/SelectionBar.jsx";
 import "./app.css";
 
 export default function App() {
@@ -163,8 +164,10 @@ export default function App() {
       const text = `${paragraphs.join("\n\n")}\n\n${citation}`;
 
       await navigator.clipboard.writeText(text);
+      return true;
     } catch (error) {
       console.error("Could not copy verses:", error);
+      return false;
     }
   }, [verseSelection, refPos.book, refPos.chapter]);
 
@@ -240,24 +243,12 @@ export default function App() {
       </div>
 
       {verseSelection.verses.size > 0 && (
-        <div className="selection-bar">
-          <span>
-            {verseSelection.verses.size}{" "}
-            {verseSelection.verses.size === 1 ? "verse" : "verses"} selected
-          </span>
-
-          <button onClick={copySelectedVerses}>Copy</button>
-
-          <button
-            className="selection-close"
-            onClick={() =>
-              setVerseSelection({ source: null, verses: new Set() })
-            }
-            aria-label="Clear selection"
-          >
-            ×
-          </button>
-        </div>
+        <SelectionBar
+          count={verseSelection.verses.size}
+          selectionKey={verseSelection.verses}
+          onCopy={copySelectedVerses}
+          onClear={() => setVerseSelection({ source: null, verses: new Set() })}
+        />
       )}
     </div>
   );

@@ -108,7 +108,10 @@ function renderTokens(tokens, onWordClick) {
         key={i}
         className="sw"
         data-strong={code}
-        onClick={() => onWordClick(code, tok.t)}
+        onClick={(e) => {
+          e.stopPropagation();
+          onWordClick(code, tok.t);
+        }}
       >
         {tok.t}
       </span>
