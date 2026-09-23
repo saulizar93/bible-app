@@ -7,9 +7,12 @@ export default function BiblePane({
   code,
   refPos,
   highlight,
+  selectedVerses,
   scroller,
   strongsOn,
   onWordClick,
+  onVerseClick,
+  onVerseToggle,
 }) {
   const [book, setBook] = useState(null);
   const [error, setError] = useState(null);
@@ -58,9 +61,36 @@ export default function BiblePane({
       <p
         key={i}
         data-v={i + 1}
-        className={highlight === i + 1 ? "verse hit" : "verse"}
+        className={[
+          "verse",
+          highlight === i + 1 ? "hit" : "",
+          selectedVerses?.has(i + 1) ? "selected" : "",
+        ]
+          .filter(Boolean)
+          .join(" ")}
+        onClick={(e) => {
+          e.stopPropagation();
+          onVerseToggle?.(i + 1);
+        }}
       >
-        <span className="vnum">{i + 1}</span>
+        <span
+          className="vnum"
+          onClick={(e) => {
+            e.stopPropagation();
+            onVerseClick?.(i + 1);
+          }}
+          role="button"
+          tabIndex={0}
+          onKeyDown={(e) => {
+            if (e.key === "Enter" || e.key === " ") {
+              e.preventDefault();
+              e.stopPropagation();
+              onVerseClick?.(i + 1);
+            }
+          }}
+        >
+          {i + 1}
+        </span>
         {tokens ? renderTokens(tokens, onWordClick) : text}
       </p>
     );

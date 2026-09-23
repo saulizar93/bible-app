@@ -8,20 +8,52 @@ const NOTES_VERSION = 1; // bump separately — notes change far more often
 // a translation or a notes set.
 export const PANE_OPTIONS = [
   {
+    code: "kjv",
+    label: "KJV",
+    kind: "bible",
+    lang: "en",
+    citation: "KJV",
+  },
+  {
     code: "kjv-strong",
     label: "KJV w/Greek",
     kind: "bible",
     lang: "en",
     strongs: true,
+    citation: "KJV",
   },
-  { code: "bsb", label: "BSB", kind: "bible", lang: "en" },
-  { code: "msb", label: "MSB", kind: "bible", lang: "en" },
-  { code: "lsv", label: "LSV", kind: "bible", lang: "en" },
-  { code: "drc1750", label: "DRC1750", kind: "bible", lang: "en" },
-  { code: "rv1909", label: "RV1909", kind: "bible", lang: "es" },
-  { code: "rvg", label: "RVG", kind: "bible", lang: "es" },
-  { code: "notes:en", label: "Notes (EN)", kind: "notes", lang: "en" },
-  { code: "notes:es", label: "Notas (ES)", kind: "notes", lang: "es" },
+  { code: "bsb", label: "BSB", kind: "bible", lang: "en", citation: "BSB" },
+  { code: "msb", label: "MSB", kind: "bible", lang: "en", citation: "MSB" },
+  { code: "lsv", label: "LSV", kind: "bible", lang: "en", citation: "LSV" },
+  {
+    code: "drc1750",
+    label: "DRC1750",
+    kind: "bible",
+    lang: "en",
+    citation: "DRC1750",
+  },
+  {
+    code: "rv1909",
+    label: "RV1909",
+    kind: "bible",
+    lang: "es",
+    citation: "RV1909",
+  },
+  { code: "rvg", label: "RVG", kind: "bible", lang: "es", citation: "RVG" },
+  {
+    code: "notes:en",
+    label: "Notes (EN)",
+    kind: "notes",
+    lang: "en",
+    citation: "Notes (EN)",
+  },
+  {
+    code: "notes:es",
+    label: "Notas (ES)",
+    kind: "notes",
+    lang: "es",
+    citation: "Notas (ES)",
+  },
 ];
 export const optionFor = (code) => PANE_OPTIONS.find((o) => o.code === code);
 

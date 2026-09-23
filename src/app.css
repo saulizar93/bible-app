@@ -178,14 +178,52 @@ body {
   background: var(--hit);
   border-radius: 4px;
 }
-.vnum {
+.verse.selected {
+  background: color-mix(in srgb, var(--hit) 70%, transparent);
+  border-radius: 4px;
+  outline: 1px solid var(--hit);
+}
+/* .vnum {
   font:
     600 12px/1 ui-sans-serif,
     system-ui;
   color: var(--dim);
   vertical-align: 0.35em;
   margin-right: 5px;
+  cursor: pointer;
+} */
+.vnum {
+  display: inline-block;
+  font:
+    600 12px/1 ui-sans-serif,
+    system-ui;
+  color: var(--dim);
+  vertical-align: 0.35em;
+  margin-right: 5px;
+  padding: 2px 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+  transition:
+    background-color 0.12s ease,
+    color 0.12s ease,
+    transform 0.08s ease;
 }
+
+.vnum:hover {
+  background: var(--hit);
+  color: var(--fg);
+}
+
+.vnum:active {
+  transform: scale(0.92);
+}
+
+.vnum:focus-visible {
+  outline: 2px solid var(--fg);
+  outline-offset: 1px;
+}
+
 .dim {
   color: var(--dim);
 }
@@ -323,6 +361,50 @@ body {
   border: 1px solid var(--line);
   border-radius: 999px;
   color: var(--fg);
+}
+
+.selection-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  min-height: 52px;
+  padding: 8px 16px;
+
+  background: var(--bg);
+  border-top: 1px solid var(--line);
+  box-shadow: 0 -4px 16px rgb(0 0 0 / 15%);
+}
+
+.selection-bar button {
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 7px 14px;
+  background: none;
+  color: var(--fg);
+}
+
+.selection-bar button:hover {
+  background: var(--hit);
+}
+
+.selection-bar button:active {
+  transform: scale(0.96);
+}
+
+.selection-close {
+  font-size: 20px;
+  line-height: 1;
+  padding: 5px 9px !important;
 }
 
 @media (min-width: 900px) {
