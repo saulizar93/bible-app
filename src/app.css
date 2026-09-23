@@ -345,22 +345,61 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
-.strongs-refs {
+.strongs-occurrences {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
 }
-.strongs-refs button {
+.strongs-occurrences li + li {
+  border-top: 1px solid var(--line);
+}
+.strongs-occurrences button {
+  display: block;
+  width: 100%;
+  text-align: left;
   font: inherit;
-  font-size: 14px;
-  padding: 5px 10px;
   background: none;
-  border: 1px solid var(--line);
-  border-radius: 999px;
+  border: 0;
+  padding: 9px 4px;
   color: var(--fg);
+  cursor: pointer;
+  border-radius: 6px;
+  transition:
+    background-color 0.12s ease,
+    transform 0.08s ease;
+}
+.strongs-occurrences button:hover {
+  background: color-mix(in srgb, var(--fg) 6%, transparent);
+}
+.strongs-occurrences button:active {
+  background: var(--hit);
+  transform: scale(0.98);
+}
+.strongs-occurrences button:focus-visible {
+  outline: 2px solid var(--fg);
+  outline-offset: -2px;
+}
+
+.occ-ref {
+  display: block;
+  font:
+    700 11px/1 ui-sans-serif,
+    system-ui;
+  letter-spacing: 0.02em;
+  color: var(--dim);
+  margin-bottom: 3px;
+}
+.occ-text {
+  display: block;
+  font-size: 14px;
+  line-height: 1.45;
+}
+.occ-text strong {
+  font-weight: 700;
+}
+.strongs-more {
+  padding: 8px 4px;
+  font-size: 13px;
 }
 
 .selection-bar {

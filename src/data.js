@@ -7,13 +7,13 @@ const NOTES_VERSION = 1; // bump separately — notes change far more often
 // One combined list drives both pane dropdowns, so either side can hold
 // a translation or a notes set.
 export const PANE_OPTIONS = [
-  {
-    code: "kjv",
-    label: "KJV",
-    kind: "bible",
-    lang: "en",
-    citation: "KJV",
-  },
+  // {
+  //   code: "kjv",
+  //   label: "KJV",
+  //   kind: "bible",
+  //   lang: "en",
+  //   citation: "KJV",
+  // },
   {
     code: "kjv-strong",
     label: "KJV w/Greek",
@@ -56,6 +56,11 @@ export const PANE_OPTIONS = [
   },
 ];
 export const optionFor = (code) => PANE_OPTIONS.find((o) => o.code === code);
+
+/** Which translation's code holds Strong's-tagged data — used to fetch
+ *  verse context for occurrence snippets without hardcoding "kjv-strong". */
+export const strongsSourceCode = () =>
+  PANE_OPTIONS.find((o) => o.strongs)?.code;
 
 /* ---------- memory -> IndexedDB -> network ---------- */
 

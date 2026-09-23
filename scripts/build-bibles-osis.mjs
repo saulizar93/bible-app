@@ -198,8 +198,22 @@ function tokenizeVerse(raw) {
   const tokens = [];
   const wordRegex = /<w\b([^>]*)>([\s\S]*?)<\/w>/gi;
   let match;
+  let last = 0;
+
+  // Text sitting between or after <w> tags — punctuation, and words the KJV
+  // translators supplied with no Greek behind them (marked <transChange
+  // type="added">) — has no Strong's number of its own, but it's still part
+  // of the verse and needs to end up in the token stream, or it silently
+  // disappears (which is what was happening to every comma and period).
+  const pushPlain = (chunk) => {
+    const cleaned = normalizeText(chunk.replace(/<[^>]+>/g, " "));
+    if (!cleaned) return;
+    for (const w of cleaned.split(/\s+/)) if (w) tokens.push({ t: w });
+  };
 
   while ((match = wordRegex.exec(raw)) !== null) {
+    pushPlain(raw.slice(last, match.index));
+
     const attributes = match[1] || "";
     const content = match[2] || "";
 
@@ -221,20 +235,34 @@ function tokenizeVerse(raw) {
       : allStrongs[allStrongs.length - 1] || null;
 
     const text = normalizeText(content.replace(/<[^>]+>/g, ""));
-    if (!text) continue;
+    if (text) {
+      const token = { t: text };
+      if (strong) token.s = strong;
+      tokens.push(token);
+    }
+    last = wordRegex.lastIndex;
+  }
+  pushPlain(raw.slice(last)); // trailing text after the final </w>
 
-    const token = { t: text };
-    if (strong) token.s = strong;
-    tokens.push(token);
+  // Fold stray punctuation-only tokens into the previous token, so a period
+  // or comma doesn't become its own floating clickable/underlined span.
+  const merged = [];
+  for (const tok of tokens) {
+    if (/^[,.;:!?"'"”'’)\]]+$/.test(tok.t) && merged.length) {
+      merged[merged.length - 1] = { ...merged[merged.length - 1], t: merged[merged.length - 1].t + tok.t };
+    } else {
+      merged.push(tok);
+    }
   }
 
-  // Text outside any <w> element (should be rare) is kept as an untagged token.
-  if (tokens.length === 0) {
+  // Text outside any <w> element for the whole verse (should be rare) is
+  // kept as a single untagged token.
+  if (merged.length === 0) {
     const plain = normalizeText(raw.replace(/<[^>]+>/g, ""));
     if (plain) return [{ t: plain }];
   }
 
-  return tokens;
+  return merged;
 }
 
 // ============================================================
