@@ -171,7 +171,7 @@ export async function loadStrongsEntry(rawCode) {
   const shard = shardStart(num);
   const data = await cachedFetch(
     `strongs/greek/${shard}`,
-    `/data/strongs/greek/${shard}.json`,
+    `${import.meta.env.BASE_URL}data/strongs/greek/${shard}.json`,
   );
   return data ? data[code] || null : null;
 }
@@ -183,7 +183,7 @@ export async function loadConcordance(rawCode) {
   const shard = shardStart(num);
   const data = await cachedFetch(
     `concord/greek/${shard}`,
-    `/data/concord/greek/${shard}.json`,
+    `${import.meta.env.BASE_URL}data/concord/greek/${shard}.json`,
   );
   return (data && data[code]) || [];
 }
