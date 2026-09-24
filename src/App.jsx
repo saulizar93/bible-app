@@ -9,6 +9,7 @@ import SelectionBar from "./components/SelectionBar.jsx";
 import "./app.css";
 
 export default function App() {
+  console.log("APP RENDER", new Date().toISOString());
   const [refPos, setRefPos] = useState({
     book: "MAT",
     chapter: 1,
