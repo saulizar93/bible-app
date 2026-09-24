@@ -132,7 +132,7 @@ function cachedFetch(key, url) {
 export const loadBook = (code, bookNum) =>
   cachedFetch(
     `bible/${code}/${bookNum}@${DATA_VERSION}`,
-    `/data/bibles/${code}/${bookNum}.json`,
+    `${import.meta.env.BASE_URL}data/bibles/${code}/${bookNum}.json`,
   );
 
 export const loadNotes = (lang, bookNum, chapter) =>
