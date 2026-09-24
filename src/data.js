@@ -138,7 +138,7 @@ export const loadBook = (code, bookNum) =>
 export const loadNotes = (lang, bookNum, chapter) =>
   cachedFetch(
     `notes/${lang}/${bookNum}/${chapter}@${NOTES_VERSION}`,
-    `/data/notes/${lang}/${bookNum}/${chapter}.json`,
+    `${import.meta.env.BASE_URL}data/notes/${lang}/${bookNum}/${chapter}.json`,
   );
 
 /** Does verse `v` fall inside a note's key, "7" or "3-5"? */
