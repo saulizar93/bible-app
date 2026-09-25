@@ -44,9 +44,18 @@ export default function BookPicker({ onSelect, onClose }) {
     setChapter(c);
     setStep("verse");
   };
-  const pickVerse = (v) => onSelect({ book: book.id, chapter, verse: v });
-  const wholeChapter = () => onSelect({ book: book.id, chapter, verse: null });
-
+  const pickVerse = (v) =>
+    onSelect({
+      ...book,
+      chapter,
+      verse: v,
+    });
+  const wholeChapter = () =>
+    onSelect({
+      ...book,
+      chapter,
+      verse: null,
+    });
   const back = () => {
     if (step === "verse") setStep("chapter");
     else if (step === "chapter") setStep("book");

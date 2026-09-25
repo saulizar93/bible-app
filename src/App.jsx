@@ -65,8 +65,8 @@ export default function App() {
 
   const pick = (o) => {
     go({
-      book: o.book,
-      chapter: o.chapter,
+      book: o.id,
+      chapter: Math.min(o.chapter, o.chapters),
       verse: o.verse,
     });
   };
