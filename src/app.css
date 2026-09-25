@@ -140,6 +140,14 @@ body {
   flex-direction: column;
   min-height: 0;
 }
+/* NEW: wraps each PaneSlot so SplitPanes.jsx can size it via inline flex-basis
+   without fighting .pane's own flex:1 rule below. */
+.pane-slot {
+  display: flex;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+}
 .pane {
   flex: 1;
   display: flex;
@@ -164,9 +172,44 @@ body {
   overscroll-behavior: contain;
   padding: 10px 16px 40vh;
 }
+/* NEW: draggable divider. Was a static 1px line; now a 16px touch/mouse hit
+   area (comfortable to grab) with the visible line kept thin via ::after,
+   plus a small grip bar via ::before so it reads as "draggable" even
+   without hover (touch has no hover state). The drag logic itself lives in
+   SplitPanes.jsx, which reads this element's container's computed
+   flex-direction to decide whether a drag moves vertically or horizontally
+   — so this stays in sync with the row/column media query below for free. */
 .divider {
-  height: 1px;
+  flex: none;
+  position: relative;
+  background: none;
+  z-index: 3;
+  touch-action: none;
+  width: 100%;
+  height: 16px;
+  cursor: row-resize;
+}
+.divider::after {
+  content: "";
+  position: absolute;
   background: var(--line);
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 1px;
+  transform: translateY(-50%);
+}
+.divider::before {
+  content: "";
+  position: absolute;
+  background: var(--dim);
+  border-radius: 2px;
+  opacity: 0.5;
+  left: 50%;
+  top: 50%;
+  width: 28px;
+  height: 3px;
+  transform: translate(-50%, -50%);
 }
 
 .verse {
@@ -183,15 +226,6 @@ body {
   border-radius: 4px;
   outline: 1px solid var(--hit);
 }
-/* .vnum {
-  font:
-    600 12px/1 ui-sans-serif,
-    system-ui;
-  color: var(--dim);
-  vertical-align: 0.35em;
-  margin-right: 5px;
-  cursor: pointer;
-} */
 .vnum {
   display: inline-block;
   font:
@@ -636,8 +670,24 @@ body {
   .panes {
     flex-direction: row;
   }
+  /* NEW: divider flips to a vertical bar for horizontal dragging when panes
+     are side by side. */
   .divider {
+    width: 16px;
+    height: 100%;
+    cursor: col-resize;
+  }
+  .divider::after {
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    right: auto;
     width: 1px;
     height: auto;
+    transform: translateX(-50%);
+  }
+  .divider::before {
+    width: 3px;
+    height: 28px;
   }
 }

@@ -6,6 +6,7 @@ import JumpBar from "./components/JumpBar.jsx";
 import PaneSlot from "./components/PaneSlot.jsx";
 import StrongsPanel from "./components/StrongsPanel.jsx";
 import SelectionBar from "./components/SelectionBar.jsx";
+import SplitPanes from "./components/SplitPanes.jsx";
 import "./app.css";
 
 export default function App() {
@@ -190,7 +191,7 @@ export default function App() {
       />
 
       <div className="content-row">
-        <main className="panes">
+        <SplitPanes>
           <PaneSlot
             code={top}
             refPos={refPos}
@@ -207,7 +208,6 @@ export default function App() {
               setRefPos((prev) => ({ ...prev, verse: null }))
             }
           />
-          <div className="divider" />
           <PaneSlot
             code={bottom}
             refPos={refPos}
@@ -226,7 +226,7 @@ export default function App() {
               setRefPos((prev) => ({ ...prev, verse: null }))
             }
           />
-        </main>
+        </SplitPanes>
 
         {selection && (
           <>
