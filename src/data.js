@@ -45,7 +45,7 @@ export const PANE_OPTIONS = [
   },
   {
     code: "drc1750",
-    label: "DRC1750 (Catholic from Latin)",
+    label: "DCR (Catholic-Latin)",
     kind: "bible",
     lang: "en",
     citation: "DRC1750",
@@ -66,7 +66,7 @@ export const PANE_OPTIONS = [
   },
   {
     code: "torres-amat",
-    label: "Torres-Amat (Catolica del Latin)",
+    label: "BTA (Católica-Latín)",
     kind: "bible",
     lang: "es",
     citation: "Torres-Amat",
