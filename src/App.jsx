@@ -1,4 +1,4 @@
-import { useState, useCallback, startTransition } from "react";
+import { useState, useCallback, useEffect, startTransition } from "react";
 import { BOOKS, byId, parseRef, suggest } from "./books.js";
 import { usePrefetchNextChapter } from "./hooks/usePrefetchNextChapter.js";
 import { loadBook, PANE_OPTIONS } from "./data.js";
@@ -7,30 +7,101 @@ import PaneSlot from "./components/PaneSlot/PaneSlot.jsx";
 import StrongsPanel from "./components/StrongsPanel/StrongsPanel.jsx";
 import SelectionBar from "./components/SelectionBar/SelectionBar.jsx";
 import SplitPanes from "./components/SplitPanes/SplitPanes.jsx";
+import LanguageSelectionModal from "./components/Modals/LanguageSelectionModal.jsx";
 import "./app.css";
+
+const STORAGE_KEYS = {
+  LANG: "app_lang",
+  REF_POS: "app_ref_pos",
+  TOP_PANE: "app_top_pane",
+  BOTTOM_PANE: "app_bottom_pane",
+};
 
 export default function App() {
   console.log("APP RENDER", new Date().toISOString());
-  const [refPos, setRefPos] = useState({
-    book: "MAT",
-    chapter: 1,
-    verse: null,
+
+  // 1. Language State
+  const [lang, setLang] = useState(() =>
+    localStorage.getItem(STORAGE_KEYS.LANG),
+  );
+  const [showLangModal, setShowLangModal] = useState(
+    () => !localStorage.getItem(STORAGE_KEYS.LANG),
+  );
+
+  // 2. Position State (Persisted)
+  const [refPos, setRefPos] = useState(() => {
+    const saved = localStorage.getItem(STORAGE_KEYS.REF_POS);
+    if (saved) {
+      try {
+        return JSON.parse(saved);
+      } catch (e) {
+        console.error("Failed to parse saved refPos", e);
+      }
+    }
+    return { book: "MAT", chapter: 1, verse: null };
   });
+
+  // Top Pane State Initializer
+  const [top, setTop] = useState(() => {
+    const saved = localStorage.getItem(STORAGE_KEYS.TOP_PANE);
+    if (saved) return saved;
+    const currentLang = localStorage.getItem(STORAGE_KEYS.LANG);
+    return currentLang === "es" ? "rvg" : "kjv-strong";
+  });
+
+  // Bottom Pane State Initializer
+  const [bottom, setBottom] = useState(() => {
+    const saved = localStorage.getItem(STORAGE_KEYS.BOTTOM_PANE);
+    if (saved) return saved;
+    const currentLang = localStorage.getItem(STORAGE_KEYS.LANG);
+    return currentLang === "es" ? "notes:es" : "notes:en";
+  });
+
   const [verseSelection, setVerseSelection] = useState({
     source: null,
     verses: new Set(),
   });
-  const [top, setTop] = useState("kjv-strong");
-  const [bottom, setBottom] = useState("notes:en"); // your Matthew commentary, by default
+
   const [query, setQuery] = useState("");
   const [open, setOpen] = useState(false);
   const [strongsOn, setStrongsOn] = useState(false);
-  const [selection, setSelection] = useState(null); // { code: "G26", word: "love" } | null
+  const [selection, setSelection] = useState(null);
 
-  const book = byId[refPos.book];
+  const book = byId[refPos.book] || byId["MAT"];
   const options = open ? suggest(query) : [];
 
   usePrefetchNextChapter(refPos, book, top, bottom);
+
+  // Sync state changes to localStorage
+  useEffect(() => {
+    localStorage.setItem(STORAGE_KEYS.REF_POS, JSON.stringify(refPos));
+  }, [refPos]);
+
+  useEffect(() => {
+    localStorage.setItem(STORAGE_KEYS.TOP_PANE, top);
+  }, [top]);
+
+  useEffect(() => {
+    localStorage.setItem(STORAGE_KEYS.BOTTOM_PANE, bottom);
+  }, [bottom]);
+
+  // Language Selection Handler
+  const handleSelectLanguage = (selectedLang) => {
+    // 1. Persist the language choice
+    localStorage.setItem(STORAGE_KEYS.LANG, selectedLang);
+    setLang(selectedLang);
+    setShowLangModal(false);
+
+    // 2. Explicitly set top and bottom defaults based on selected language
+    const defaultTop = selectedLang === "es" ? "rvg" : "kjv-strong";
+    const defaultBottom = selectedLang === "es" ? "notes:es" : "notes:en";
+
+    setTop(defaultTop);
+    setBottom(defaultBottom);
+
+    localStorage.setItem(STORAGE_KEYS.TOP_PANE, defaultTop);
+    localStorage.setItem(STORAGE_KEYS.BOTTOM_PANE, defaultBottom);
+  };
 
   const go = useCallback((next) => {
     setRefPos(next);
@@ -83,7 +154,6 @@ export default function App() {
 
   const toggleVerse = useCallback((code, verse) => {
     setVerseSelection((prev) => {
-      // Clicking a different Bible starts a new selection.
       if (prev.source !== code) {
         return {
           source: code,
@@ -92,7 +162,6 @@ export default function App() {
       }
 
       const verses = new Set(prev.verses);
-
       if (verses.has(verse)) {
         verses.delete(verse);
       } else {
@@ -118,7 +187,6 @@ export default function App() {
 
     try {
       const bookData = await loadBook(source, opt.n);
-
       const chapterVerses = bookData?.v?.[refPos.chapter];
 
       if (!chapterVerses) return;
@@ -186,6 +254,14 @@ export default function App() {
 
   return (
     <div className={strongsOn ? "app strongs-on" : "app"}>
+      {/* First-time Language Selection Modal */}
+      {showLangModal && (
+        <LanguageSelectionModal
+          lang="es"
+          onSelectLanguage={handleSelectLanguage}
+        />
+      )}
+
       <JumpBar
         query={query}
         onQueryChange={setQuery}
@@ -248,7 +324,7 @@ export default function App() {
               code={selection.code}
               word={selection.word}
               currentBookId={refPos.book}
-              onClose={() => setSelection(null)}
+              onClose={handleCloseStrongs}
               onJump={jumpFromConcordance}
             />
           </>
