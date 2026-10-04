@@ -1,0 +1,157 @@
+.strongs-ref {
+  margin: 0 0 0.6em;
+}
+/* Strong's underlining: toggled by adding/removing one class — no re-render
+   of the verse text needed when the button is pressed. */
+.sw {
+  pointer-events: none;
+}
+.strongs-on .sw {
+  pointer-events: auto;
+  cursor: pointer;
+  text-decoration: underline dotted;
+  text-decoration-color: var(--dim);
+  text-underline-offset: 3px;
+}
+.strongs-on .sw:active {
+  background: var(--hit);
+  border-radius: 3px;
+}
+
+/* Definition panel: centered modal on phones, docked sidebar on wide screens. */
+.strongs-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgb(0 0 0 / 0.35);
+  z-index: 20;
+}
+.strongs-panel {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: min(92vw, 420px);
+  max-height: 80vh;
+  overflow-y: auto;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: 0 20px 60px rgb(0 0 0 / 0.35);
+  z-index: 21;
+  padding: 18px;
+}
+.strongs-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 32px;
+  height: 32px;
+  background: none;
+  border: 0;
+  font-size: 20px;
+  color: var(--dim);
+  border-radius: 8px;
+}
+.strongs-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 2px;
+}
+.strongs-code {
+  font:
+    700 13px/1 ui-sans-serif,
+    system-ui;
+  color: var(--dim);
+}
+.strongs-greek {
+  font-size: 22px;
+}
+.strongs-translit {
+  margin: 0 0 0.6em;
+}
+.strongs-kjv {
+  color: var(--dim);
+  font-size: 15px;
+}
+.strongs-sub {
+  margin: 1em 0 0.4em;
+  font-size: 13px;
+  color: var(--dim);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.strongs-occurrences {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.strongs-occurrences li + li {
+  border-top: 1px solid var(--line);
+}
+.strongs-occurrences button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  font: inherit;
+  background: none;
+  border: 0;
+  padding: 9px 4px;
+  color: var(--fg);
+  cursor: pointer;
+  border-radius: 6px;
+  transition:
+    background-color 0.12s ease,
+    transform 0.08s ease;
+}
+.strongs-occurrences button:hover {
+  background: color-mix(in srgb, var(--fg) 6%, transparent);
+}
+.strongs-occurrences button:active {
+  background: var(--hit);
+  transform: scale(0.98);
+}
+.strongs-occurrences button:focus-visible {
+  outline: 2px solid var(--fg);
+  outline-offset: -2px;
+}
+
+.occ-ref {
+  display: block;
+  font:
+    700 11px/1 ui-sans-serif,
+    system-ui;
+  letter-spacing: 0.02em;
+  color: var(--dim);
+  margin-bottom: 3px;
+}
+.occ-text {
+  display: block;
+  font-size: 14px;
+  line-height: 1.45;
+}
+.occ-text strong {
+  font-weight: 700;
+}
+.strongs-more {
+  padding: 8px 4px;
+  font-size: 13px;
+}
+@media (min-width: 900px) {
+  .strongs-backdrop {
+    display: none;
+  }
+  .strongs-panel {
+    position: static;
+    transform: none;
+    width: 320px;
+    max-width: 320px;
+    height: 100%;
+    max-height: none;
+    border-radius: 0;
+    border: 0;
+    border-left: 1px solid var(--line);
+    box-shadow: none;
+    flex: none;
+  }
+}

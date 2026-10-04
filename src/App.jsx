@@ -2,11 +2,11 @@ import { useState, useCallback } from "react";
 import { BOOKS, byId, parseRef, suggest } from "./books.js";
 import { usePrefetchNextChapter } from "./hooks/usePrefetchNextChapter.js";
 import { loadBook, PANE_OPTIONS } from "./data.js";
-import JumpBar from "./components/JumpBar.jsx";
-import PaneSlot from "./components/PaneSlot.jsx";
-import StrongsPanel from "./components/StrongsPanel.jsx";
-import SelectionBar from "./components/SelectionBar.jsx";
-import SplitPanes from "./components/SplitPanes.jsx";
+import JumpBar from "./components/JumpBar/JumpBar.jsx";
+import PaneSlot from "./components/PaneSlot/PaneSlot.jsx";
+import StrongsPanel from "./components/StrongsPanel/StrongsPanel.jsx";
+import SelectionBar from "./components/SelectionBar/SelectionBar.jsx";
+import SplitPanes from "./components/SplitPanes/SplitPanes.jsx";
 import "./app.css";
 
 export default function App() {

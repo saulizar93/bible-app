@@ -1,4 +1,5 @@
-import { useRef, useState, useCallback } from 'react';
+import { useRef, useState, useCallback } from "react";
+import "./SplitPanes.css";
 
 const MIN_PCT = 15;
 const MAX_PCT = 85;
@@ -14,7 +15,7 @@ const MAX_PCT = 85;
 export default function SplitPanes({ children }) {
   const [first, second] = children;
   const containerRef = useRef(null);
-  const orientationRef = useRef('column');
+  const orientationRef = useRef("column");
   const draggingRef = useRef(false);
   const [pct, setPct] = useState(50);
 
@@ -22,7 +23,7 @@ export default function SplitPanes({ children }) {
     const container = containerRef.current;
     if (!container) return;
     orientationRef.current =
-      getComputedStyle(container).flexDirection === 'row' ? 'row' : 'column';
+      getComputedStyle(container).flexDirection === "row" ? "row" : "column";
     draggingRef.current = true;
     e.currentTarget.setPointerCapture?.(e.pointerId);
   }, []);
@@ -32,7 +33,7 @@ export default function SplitPanes({ children }) {
     const container = containerRef.current;
     if (!container) return;
     const rect = container.getBoundingClientRect();
-    const isRow = orientationRef.current === 'row';
+    const isRow = orientationRef.current === "row";
     const pos = isRow ? e.clientX - rect.left : e.clientY - rect.top;
     const size = isRow ? rect.width : rect.height;
     if (size <= 0) return;
@@ -56,7 +57,7 @@ export default function SplitPanes({ children }) {
         onPointerUp={endDrag}
         onPointerCancel={endDrag}
       />
-      <div className="pane-slot" style={{ flex: '1 1 auto' }}>
+      <div className="pane-slot" style={{ flex: "1 1 auto" }}>
         {second}
       </div>
     </main>

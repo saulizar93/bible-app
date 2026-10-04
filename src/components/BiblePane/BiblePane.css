@@ -1,0 +1,58 @@
+.vnum {
+  display: inline-block;
+  font:
+    600 12px/1 ui-sans-serif,
+    system-ui;
+  color: var(--dim);
+  vertical-align: 0.35em;
+  margin-right: 5px;
+  padding: 2px 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+  transition:
+    background-color 0.12s ease,
+    color 0.12s ease,
+    transform 0.08s ease;
+}
+
+.vnum:hover {
+  background: var(--hit);
+  color: var(--fg);
+}
+
+.vnum:active {
+  transform: scale(0.92);
+}
+
+.vnum:focus-visible {
+  outline: 2px solid var(--fg);
+  outline-offset: 1px;
+}
+
+.verse {
+  margin: 0 0 0.55em;
+  content-visibility: auto;
+  contain-intrinsic-size: auto 60px;
+}
+.verse.hit {
+  background: var(--hit);
+  border-radius: 4px;
+}
+.verse.selected {
+  background: color-mix(in srgb, var(--hit) 70%, transparent);
+  border-radius: 4px;
+  outline: 1px solid var(--hit);
+}
+
+.strongs-underline {
+  pointer-events: auto;
+  cursor: pointer;
+  text-decoration: underline dotted;
+  text-decoration-color: var(--dim);
+  text-underline-offset: 3px;
+}
+.strongs-underline:active {
+  background: var(--hit);
+  border-radius: 3px;
+}

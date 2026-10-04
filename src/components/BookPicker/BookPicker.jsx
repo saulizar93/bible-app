@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
-import { BOOKS } from "../books.js";
-import { loadBook, strongsSourceCode } from "../data.js";
+import { BOOKS } from "../../books.js";
+import { loadBook, strongsSourceCode } from "../../data.js";
+import "./BookPicker.css";
 
 /**
  * Book -> chapter -> verse grid picker. An alternative to typing a

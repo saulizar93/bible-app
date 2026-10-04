@@ -1,7 +1,8 @@
 import { useRef } from "react";
-import { PANE_OPTIONS, optionFor } from "../data.js";
-import BiblePane from "./BiblePane.jsx";
-import NotesPane from "./NotesPane.jsx";
+import { PANE_OPTIONS, optionFor } from "../../data.js";
+import BiblePane from "../BiblePane/BiblePane.jsx";
+import NotesPane from "../NotesPane/NotesPane.jsx";
+import "./PaneSlot.css";
 
 export default function PaneSlot({
   code,

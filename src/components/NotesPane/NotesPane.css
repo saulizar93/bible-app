@@ -1,0 +1,32 @@
+/* study notes */
+.note {
+  margin-bottom: 1.4em;
+  /*content-visibility: auto;
+  contain-intrinsic-size: auto 140px;*/
+}
+.note.hit {
+  background: var(--hit);
+  border-radius: 8px;
+  padding: 6px 8px;
+  margin-inline: -8px;
+}
+.note-ref {
+  display: block;
+  font:
+    700 12px/1 ui-sans-serif,
+    system-ui;
+  letter-spacing: 0.02em;
+  color: var(--dim);
+  margin-bottom: 0.35em;
+}
+.note-p {
+  margin: 0 0 0.6em;
+}
+.note-hl {
+  margin: 0.6em 0;
+  padding: 0.5em 0.8em;
+  border-left: 3px solid var(--dim);
+  font-style: italic;
+  color: var(--fg);
+  background: color-mix(in srgb, var(--fg) 5%, transparent);
+}

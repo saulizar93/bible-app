@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
-import { byId } from "../books.js";
-import { loadNotes, keyCovers, keyStart } from "../data.js";
+import { byId } from "../../books.js";
+import { loadNotes, keyCovers, keyStart } from "../../data.js";
+import "./NotesPane.css";
 
 export default function NotesPane({ lang, refPos, highlight, scroller }) {
   const [notes, setNotes] = useState(null); // null = loading, {} = loaded-empty

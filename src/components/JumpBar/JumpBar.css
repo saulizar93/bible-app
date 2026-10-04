@@ -1,0 +1,101 @@
+/* quick jump bar */
+.jump {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--line);
+  position: sticky;
+  top: env(safe-area-inset-top, 0px);
+  background: var(--bg);
+  z-index: 5;
+}
+.jump > button {
+  flex: none;
+  width: 50px;
+  height: 40px;
+  font-size: 22px;
+  line-height: 1;
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  color: var(--fg);
+}
+
+.field {
+  position: relative;
+  flex: 1;
+}
+.field input {
+  width: 100%;
+  height: 40px;
+  padding: 0 12px;
+  font: inherit;
+  font-size: 16px;
+  background: none;
+  color: var(--fg);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+.menu {
+  position: absolute;
+  inset-inline: 0;
+  top: 46px;
+  margin: 0;
+  padding: 4px;
+  list-style: none;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 0.18);
+  max-height: 50vh;
+  overflow-y: auto;
+}
+.menu button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 10px 12px;
+  font: inherit;
+  background: none;
+  border: 0;
+  border-radius: 8px;
+  color: var(--fg);
+}
+.jump-book {
+  flex: 0 0 auto;
+
+  border: 1px solid var(--line);
+  border-radius: 7px;
+
+  background: none;
+  color: var(--fg);
+
+  font: inherit;
+  cursor: pointer;
+}
+
+.jump-book:hover {
+  background: var(--hit);
+}
+
+.jump-book:active {
+  transform: scale(0.96);
+}
+.strongs-toggle {
+  flex: none;
+  height: 40px;
+  padding: 0 12px;
+  font:
+    700 14px/1 ui-sans-serif,
+    system-ui;
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  color: var(--dim);
+}
+.strongs-toggle.on {
+  background: var(--fg);
+  color: var(--bg);
+  border-color: var(--fg);
+}

@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
-import { byId } from "../books.js";
-import { loadBook } from "../data.js";
-import { normalizeStrong } from "../strongsCode.js";
+import { byId } from "../../books.js";
+import { loadBook } from "../../data.js";
+import { normalizeStrong } from "../../strongsCode.js";
+import "./BiblePane.css";
 
 export default function BiblePane({
   code,
@@ -106,7 +107,7 @@ function renderTokens(tokens, onWordClick) {
     const word = code ? (
       <span
         key={i}
-        className="sw"
+        className="strongs-underline"
         data-strong={code}
         onClick={(e) => {
           e.stopPropagation();

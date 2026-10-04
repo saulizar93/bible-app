@@ -1,0 +1,43 @@
+.selection-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  min-height: 52px;
+  padding: 8px 16px;
+
+  background: var(--bg);
+  border-top: 1px solid var(--line);
+  box-shadow: 0 -4px 16px rgb(0 0 0 / 15%);
+}
+
+.selection-bar button {
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 7px 14px;
+  background: none;
+  color: var(--fg);
+}
+
+.selection-bar button:hover {
+  background: var(--hit);
+}
+
+.selection-bar button:active {
+  transform: scale(0.96);
+}
+
+.selection-close {
+  font-size: 20px;
+  line-height: 1;
+  padding: 5px 9px !important;
+}

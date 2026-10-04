@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import "./SelectionBar.css";
 
 /**
  * Bottom bar shown while one or more verses are selected. Owns its own

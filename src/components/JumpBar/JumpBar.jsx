@@ -1,5 +1,6 @@
-import BookPicker from "./BookPicker.jsx";
+import BookPicker from "../BookPicker/BookPicker.jsx";
 import { useState } from "react";
+import "./JumpBar.css";
 
 export default function JumpBar({
   query,

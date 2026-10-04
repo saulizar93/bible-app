@@ -1,13 +1,14 @@
 import { useState, useEffect } from "react";
-import { byNum } from "../books.js";
+import { byNum } from "../../books.js";
 import {
   loadStrongsEntry,
   loadConcordance,
   loadBook,
   decodeVid,
   strongsSourceCode,
-} from "../data.js";
-import { normalizeStrong } from "../strongsCode.js";
+} from "../../data.js";
+import { normalizeStrong } from "../../strongsCode.js";
+import "./StrongsPanel.css";
 
 const MAX_SHOWN = 50;
 
@@ -114,7 +115,7 @@ export default function StrongsPanel({ code, word, onClose, onJump }) {
         <p className="dim">No lexicon entry found for {code}.</p>
       ) : (
         <>
-          {entry.def && <p className="note-p">{entry.def}</p>}
+          {entry.def && <p className="strongs-ref">{entry.def}</p>}
           {entry.deriv && <p className="dim">{entry.deriv}</p>}
           {entry.kjv && <p className="strongs-kjv">KJV usage: {entry.kjv}</p>}
         </>
