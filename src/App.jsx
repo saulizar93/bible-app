@@ -65,7 +65,7 @@ export default function App() {
       n = Math.min(n + 1, 66);
       c = 1;
     }
-    go({ book: BOOKS[n - 1].id, chapter: c, verse: null });
+    go({ book: BOOKS[n - 1].id, chapter: c, verse: 1 });
   };
 
   const pick = (o) => {
