@@ -117,6 +117,13 @@
   transform: scale(0.96);
 }
 
+.picker-cell.current {
+  background: var(--fg);
+  color: var(--bg);
+  border-color: var(--fg);
+  font-weight: 700;
+}
+
 .picker-cell:focus-visible,
 .picker-back:focus-visible,
 .picker-close:focus-visible,

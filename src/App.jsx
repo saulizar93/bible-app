@@ -48,7 +48,11 @@ export default function App() {
   const submit = (e) => {
     e.preventDefault();
     const parsed = parseRef(query);
-    if (parsed) go(parsed);
+    if (parsed) {
+      go(parsed);
+      return true;
+    }
+    return false;
   };
 
   const step = (delta) => {
@@ -182,6 +186,8 @@ export default function App() {
         open={open}
         onOpenChange={setOpen}
         options={options}
+        book={book}
+        chapter={refPos.chapter}
         placeholder={`${book.en} ${refPos.chapter}`}
         onSubmit={submit}
         onPick={pick}

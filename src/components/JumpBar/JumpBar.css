@@ -1,8 +1,9 @@
-/* quick jump bar */
+/* quick jump bar header */
 .jump {
   display: flex;
-  gap: 8px;
+  gap: 6px;
   align-items: center;
+  justify-content: space-between;
   padding: 8px 10px;
   border-bottom: 1px solid var(--line);
   position: sticky;
@@ -10,49 +11,258 @@
   background: var(--bg);
   z-index: 5;
 }
-.jump > button {
-  flex: none;
-  width: 50px;
-  height: 40px;
-  font-size: 22px;
+
+.nav-step {
+  flex: 0 0 38px;
+  width: 38px;
+  height: 38px;
+  font-size: 20px;
   line-height: 1;
+  display: grid;
+  place-items: center;
   background: none;
   border: 1px solid var(--line);
+  border-radius: 9px;
+  color: var(--fg);
+  cursor: pointer;
+  user-select: none;
+  transition:
+    background-color 0.12s ease,
+    transform 0.08s ease;
+}
+
+.nav-step:hover {
+  background: var(--hit);
+}
+
+.nav-step:active {
+  transform: scale(0.94);
+}
+
+.book-picker-trigger {
+  flex: 1 1 auto;
+  min-width: 0;
+  max-width: 300px;
+  height: 38px;
+  margin: 0 auto;
+  padding: 0 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  color: var(--fg);
+  font: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+  transition:
+    background-color 0.12s ease,
+    border-color 0.12s ease,
+    transform 0.08s ease;
+}
+
+.book-picker-trigger:hover {
+  background: var(--hit);
+}
+
+.book-picker-trigger:active {
+  transform: scale(0.98);
+}
+
+.book-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.picker-caret {
+  font-size: 10px;
+  color: var(--dim);
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.jump-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.search-trigger {
+  flex: 0 0 38px;
+  width: 38px;
+  height: 38px;
+  display: grid;
+  place-items: center;
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  color: var(--fg);
+  cursor: pointer;
+  transition:
+    background-color 0.12s ease,
+    transform 0.08s ease;
+}
+
+.search-trigger:hover {
+  background: var(--hit);
+}
+
+.search-trigger:active {
+  transform: scale(0.94);
+}
+
+.search-icon {
+  display: block;
+}
+
+.strongs-toggle {
+  flex: none;
+  height: 38px;
+  padding: 0 10px;
+  font:
+    700 13px/1 ui-sans-serif,
+    system-ui;
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  color: var(--dim);
+  cursor: pointer;
+  transition:
+    background-color 0.12s ease,
+    color 0.12s ease,
+    border-color 0.12s ease;
+}
+
+.strongs-toggle.on {
+  background: var(--fg);
+  color: var(--bg);
+  border-color: var(--fg);
+}
+
+/* -------------------------
+   Search popup modal
+   ------------------------- */
+
+.search-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  background: rgb(0 0 0 / 45%);
+}
+
+.search-modal {
+  position: fixed;
+  z-index: 2001;
+  top: max(env(safe-area-inset-top, 0px) + 10px, 14px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(520px, calc(100vw - 20px));
+  max-height: min(600px, calc(100vh - 40px));
+  background: var(--bg);
+  color: var(--fg);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: 0 16px 50px rgb(0 0 0 / 30%);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--line);
+}
+
+.search-input-wrap {
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.search-input-icon {
+  position: absolute;
+  left: 12px;
+  color: var(--dim);
+  pointer-events: none;
+}
+
+.search-input {
+  width: 100%;
+  height: 40px;
+  padding: 0 34px 0 38px;
+  font: inherit;
+  font-size: 16px;
+  background: color-mix(in srgb, var(--fg) 4%, transparent);
+  color: var(--fg);
+  border: 1px solid var(--line);
   border-radius: 10px;
+  outline: none;
+  transition: border-color 0.15s ease;
+}
+
+.search-input:focus {
+  border-color: var(--fg);
+}
+
+.search-clear-btn {
+  position: absolute;
+  right: 8px;
+  width: 24px;
+  height: 24px;
+  display: grid;
+  place-items: center;
+  background: none;
+  border: 0;
+  border-radius: 50%;
+  color: var(--dim);
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.search-clear-btn:hover {
   color: var(--fg);
 }
 
-.field {
-  position: relative;
-  flex: 1;
-}
-.field input {
-  width: 100%;
-  height: 40px;
-  padding: 0 12px;
-  font: inherit;
-  font-size: 16px;
+.search-cancel-btn {
   background: none;
-  color: var(--fg);
-  border: 1px solid var(--line);
-  border-radius: 10px;
+  border: 0;
+  color: var(--dim);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  white-space: nowrap;
 }
-.menu {
-  position: absolute;
-  inset-inline: 0;
-  top: 46px;
-  margin: 0;
-  padding: 4px;
+
+.search-cancel-btn:hover {
+  background: var(--hit);
+  color: var(--fg);
+}
+
+.search-results-menu {
   list-style: none;
-  background: var(--bg);
-  border: 1px solid var(--line);
-  border-radius: 12px;
-  box-shadow: 0 10px 30px rgb(0 0 0 / 0.18);
-  max-height: 50vh;
+  margin: 0;
+  padding: 6px;
+  max-height: 48vh;
   overflow-y: auto;
 }
-.menu button {
-  display: block;
+
+.search-results-menu button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
   text-align: left;
   padding: 10px 12px;
@@ -61,41 +271,15 @@
   border: 0;
   border-radius: 8px;
   color: var(--fg);
-}
-.jump-book {
-  flex: 0 0 auto;
-
-  border: 1px solid var(--line);
-  border-radius: 7px;
-
-  background: none;
-  color: var(--fg);
-
-  font: inherit;
   cursor: pointer;
+  transition: background-color 0.1s ease;
 }
 
-.jump-book:hover {
+.search-results-menu button:hover {
   background: var(--hit);
 }
 
-.jump-book:active {
-  transform: scale(0.96);
+.search-result-main {
+  font-weight: 500;
 }
-.strongs-toggle {
-  flex: none;
-  height: 40px;
-  padding: 0 12px;
-  font:
-    700 14px/1 ui-sans-serif,
-    system-ui;
-  background: none;
-  border: 1px solid var(--line);
-  border-radius: 10px;
-  color: var(--dim);
-}
-.strongs-toggle.on {
-  background: var(--fg);
-  color: var(--bg);
-  border-color: var(--fg);
-}
+

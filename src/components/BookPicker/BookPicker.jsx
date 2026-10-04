@@ -15,11 +15,19 @@ import "./BookPicker.css";
  * picked, and reads the verse count off the array length that's already
  * there for free.
  */
-export default function BookPicker({ onSelect, onClose }) {
+export default function BookPicker({ onSelect, onClose, currentBook }) {
   const [step, setStep] = useState("book"); // 'book' | 'chapter' | 'verse'
   const [book, setBook] = useState(null);
   const [chapter, setChapter] = useState(null);
   const [verseCount, setVerseCount] = useState(null);
+
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === "Escape") onClose();
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [onClose]);
 
   useEffect(() => {
     if (step !== "verse" || !book || !chapter) return;
@@ -107,7 +115,11 @@ export default function BookPicker({ onSelect, onClose }) {
                 <button
                   key={b.id}
                   type="button"
-                  className="picker-cell"
+                  className={
+                    currentBook?.id === b.id
+                      ? "picker-cell current"
+                      : "picker-cell"
+                  }
                   onClick={() => pickBook(b)}
                 >
                   {b.id}
@@ -120,7 +132,11 @@ export default function BookPicker({ onSelect, onClose }) {
                 <button
                   key={b.id}
                   type="button"
-                  className="picker-cell"
+                  className={
+                    currentBook?.id === b.id
+                      ? "picker-cell current"
+                      : "picker-cell"
+                  }
                   onClick={() => pickBook(b)}
                 >
                   {b.id}
