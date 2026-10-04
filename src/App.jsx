@@ -188,6 +188,7 @@ export default function App() {
         options={options}
         book={book}
         chapter={refPos.chapter}
+        panes={[top, bottom]}
         placeholder={`${book.en} ${refPos.chapter}`}
         onSubmit={submit}
         onPick={pick}

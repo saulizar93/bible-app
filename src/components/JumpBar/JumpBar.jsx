@@ -1,5 +1,8 @@
 import { useState, useEffect, useRef } from "react";
 import BookPicker from "../BookPicker/BookPicker.jsx";
+import { byId, parseRef } from "../../books.js";
+import { searchAvailablePanes, splitSnippet } from "../../search.js";
+import { optionFor } from "../../data.js";
 import "./JumpBar.css";
 
 export default function JumpBar({
@@ -10,6 +13,7 @@ export default function JumpBar({
   options,
   book,
   chapter,
+  panes,
   placeholder,
   onSubmit,
   onPick,
@@ -19,9 +23,19 @@ export default function JumpBar({
 }) {
   const [bookPickerOpen, setBookPickerOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
+  const [wordMatches, setWordMatches] = useState([]);
+  const [isSearching, setIsSearching] = useState(false);
+  const [searchedQuery, setSearchedQuery] = useState("");
   const searchInputRef = useRef(null);
 
   const displayTitle = book ? `${book.en} ${chapter}` : placeholder;
+  const parsedRef = parseRef(query);
+  const parsedBook = parsedRef ? byId[parsedRef.book] : null;
+
+  const activeSources = [...new Set(panes || [])]
+    .map(optionFor)
+    .filter(Boolean);
+  const activeSourcesLabel = activeSources.map((s) => s.label).join(" & ");
 
   useEffect(() => {
     if (!searchOpen) return;
@@ -45,16 +59,84 @@ export default function JumpBar({
     }
   }, [searchOpen]);
 
+  // Execute word search debounced across active panes
+  useEffect(() => {
+    if (!searchOpen) {
+      setWordMatches([]);
+      setIsSearching(false);
+      setSearchedQuery("");
+      return;
+    }
+
+    const trimmed = (query || "").trim();
+    if (trimmed.length < 2) {
+      setWordMatches([]);
+      setIsSearching(false);
+      setSearchedQuery("");
+      return;
+    }
+
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => {
+      setIsSearching(true);
+      setSearchedQuery(trimmed);
+      searchAvailablePanes(trimmed, panes || [], book?.id || "MAT", {
+        signal: controller.signal,
+        onProgress: (partial) => {
+          setWordMatches(partial);
+        },
+        maxResults: 120,
+      })
+        .then((results) => {
+          if (!controller.signal.aborted) {
+            setWordMatches(results);
+            setIsSearching(false);
+          }
+        })
+        .catch(() => {
+          if (!controller.signal.aborted) {
+            setIsSearching(false);
+          }
+        });
+    }, 320);
+
+    return () => {
+      clearTimeout(timeoutId);
+      controller.abort();
+    };
+  }, [query, searchOpen, panes, book?.id]);
+
   const handleFormSubmit = (e) => {
     e.preventDefault();
+    if (parsedRef && parsedBook) {
+      onPick({
+        id: parsedRef.book,
+        chapter: parsedRef.chapter,
+        verse: parsedRef.verse,
+        chapters: parsedBook.chapters,
+      });
+      setSearchOpen(false);
+      return;
+    }
+
     const success = onSubmit(e);
-    if (success !== false) {
+    if (success) {
       setSearchOpen(false);
     }
   };
 
   const handleSelectOption = (o) => {
     onPick(o);
+    setSearchOpen(false);
+  };
+
+  const handleSelectMatch = (match) => {
+    onPick({
+      id: match.bookId,
+      chapter: match.chapter,
+      verse: match.verse,
+      chapters: match.chapters,
+    });
     setSearchOpen(false);
   };
 
@@ -158,7 +240,7 @@ export default function JumpBar({
             className="search-modal"
             role="dialog"
             aria-modal="true"
-            aria-label="Search reference"
+            aria-label="Search reference or word"
           >
             <form
               className="search-form"
@@ -185,7 +267,7 @@ export default function JumpBar({
                   ref={searchInputRef}
                   className="search-input"
                   value={query}
-                  placeholder="Jump to verse (e.g. Jn 3:16, Mt 5)..."
+                  placeholder="Search verse (e.g. Jn 3:16) or word (e.g. grace)..."
                   onChange={(e) => {
                     onQueryChange(e.target.value);
                     onOpenChange(true);
@@ -199,6 +281,8 @@ export default function JumpBar({
                     onClick={() => {
                       onQueryChange("");
                       onOpenChange(false);
+                      setWordMatches([]);
+                      setSearchedQuery("");
                       searchInputRef.current?.focus();
                     }}
                     aria-label="Clear search"
@@ -219,24 +303,125 @@ export default function JumpBar({
               </button>
             </form>
 
-            {open && options.length > 0 && (
-              <ul className="search-results-menu">
-                {options.map((o) => (
-                  <li key={o.id}>
-                    <button
-                      type="button"
-                      onClick={() => handleSelectOption(o)}
-                    >
-                      <span className="search-result-main">
-                        {o.en} {Math.min(o.chapter, o.chapters)}
-                        {o.verse ? `:${o.verse}` : ""}
-                      </span>
-                      <span className="dim"> · {o.es}</span>
-                    </button>
-                  </li>
-                ))}
-              </ul>
-            )}
+            <div className="search-sources-bar">
+              <span className="search-sources-label">In:</span>
+              <span className="search-sources-names">
+                {activeSourcesLabel || "Active panes"}
+              </span>
+              {isSearching && (
+                <span className="search-spinner" aria-live="polite">
+                  Searching…
+                </span>
+              )}
+            </div>
+
+            <div className="search-results-container">
+              {parsedRef && parsedBook && (
+                <div className="search-jump-card">
+                  <button
+                    type="button"
+                    className="search-jump-btn"
+                    onClick={() => {
+                      onPick({
+                        id: parsedRef.book,
+                        chapter: parsedRef.chapter,
+                        verse: parsedRef.verse,
+                        chapters: parsedBook.chapters,
+                      });
+                      setSearchOpen(false);
+                    }}
+                  >
+                    <span className="search-jump-icon">📖</span>
+                    <div className="search-jump-info">
+                      <div className="search-jump-title">
+                        Go to {parsedBook.en} {parsedRef.chapter}
+                        {parsedRef.verse ? `:${parsedRef.verse}` : ""}
+                      </div>
+                      <div className="dim">Jump directly to this passage</div>
+                    </div>
+                  </button>
+                </div>
+              )}
+
+              {wordMatches.length > 0 && (
+                <>
+                  <div className="search-section-header">
+                    <span>
+                      Matches for “{searchedQuery}” ({wordMatches.length}
+                      {wordMatches.length >= 120 ? "+" : ""})
+                    </span>
+                  </div>
+                  <ul className="search-results-list">
+                    {wordMatches.map((m) => (
+                      <li key={m.id} className="search-result-item">
+                        <button
+                          type="button"
+                          onClick={() => handleSelectMatch(m)}
+                        >
+                          <div className="search-match-head">
+                            <span className="search-match-ref">
+                              {m.bookName} {m.chapter}:{m.verseRange || m.verse}
+                            </span>
+                            <span className={`search-badge ${m.kind}`}>
+                              {m.sourceLabel}
+                            </span>
+                          </div>
+                          <div className="search-match-snippet">
+                            {splitSnippet(m.snippet, searchedQuery).map(
+                              (part, i) =>
+                                part.highlight ? (
+                                  <strong
+                                    key={i}
+                                    className="search-highlight"
+                                  >
+                                    {part.text}
+                                  </strong>
+                                ) : (
+                                  part.text
+                                ),
+                            )}
+                          </div>
+                        </button>
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+
+              {open &&
+                options.length > 0 &&
+                wordMatches.length === 0 &&
+                !parsedRef && (
+                  <ul className="search-results-menu">
+                    {options.map((o) => (
+                      <li key={o.id}>
+                        <button
+                          type="button"
+                          onClick={() => handleSelectOption(o)}
+                        >
+                          <span className="search-result-main">
+                            {o.en} {Math.min(o.chapter, o.chapters)}
+                            {o.verse ? `:${o.verse}` : ""}
+                          </span>
+                          <span className="dim"> · {o.es}</span>
+                        </button>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+
+              {!isSearching &&
+                searchedQuery &&
+                wordMatches.length === 0 &&
+                !parsedRef && (
+                  <div className="search-empty">
+                    <p>
+                      No matches found for “{searchedQuery}” in{" "}
+                      {activeSourcesLabel || "active panes"}.
+                    </p>
+                  </div>
+                )}
+            </div>
           </div>
         </>
       )}
