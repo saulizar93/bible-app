@@ -1,5 +1,6 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useMemo } from "react";
 import BookPicker from "../BookPicker/BookPicker.jsx";
+import BookFilterChart from "../BookFilterChart/BookFilterChart.jsx";
 import { byId, parseRef } from "../../books.js";
 import { searchAvailablePanes, splitSnippet } from "../../search.js";
 import { optionFor } from "../../data.js";
@@ -24,6 +25,7 @@ export default function JumpBar({
   const [bookPickerOpen, setBookPickerOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [wordMatches, setWordMatches] = useState([]);
+  const [selectedBookFilter, setSelectedBookFilter] = useState(null);
   const [isSearching, setIsSearching] = useState(false);
   const [searchedQuery, setSearchedQuery] = useState("");
   const searchInputRef = useRef(null);
@@ -36,6 +38,7 @@ export default function JumpBar({
     .map(optionFor)
     .filter(Boolean);
   const activeSourcesLabel = activeSources.map((s) => s.label).join(" & ");
+  const maxResults = 1000;
 
   useEffect(() => {
     if (!searchOpen) return;
@@ -61,6 +64,7 @@ export default function JumpBar({
 
   // Execute word search debounced across active panes
   useEffect(() => {
+    setSelectedBookFilter(null);
     if (!searchOpen) {
       setWordMatches([]);
       setIsSearching(false);
@@ -85,7 +89,7 @@ export default function JumpBar({
         onProgress: (partial) => {
           setWordMatches(partial);
         },
-        maxResults: 120,
+        maxResults: maxResults,
       })
         .then((results) => {
           if (!controller.signal.aborted) {
@@ -105,6 +109,27 @@ export default function JumpBar({
       controller.abort();
     };
   }, [query, searchOpen, panes, book?.id]);
+
+  const chartItems = useMemo(() => {
+    if (!wordMatches.length) return [];
+    const map = new Map();
+    for (const m of wordMatches) {
+      if (!map.has(m.bookId)) {
+        map.set(m.bookId, {
+          key: m.bookId,
+          label: m.bookName,
+          count: 0,
+        });
+      }
+      map.get(m.bookId).count += 1;
+    }
+    return Array.from(map.values()).sort((a, b) => b.count - a.count);
+  }, [wordMatches]);
+
+  const displayedMatches = useMemo(() => {
+    if (!selectedBookFilter) return wordMatches;
+    return wordMatches.filter((m) => m.bookId === selectedBookFilter);
+  }, [wordMatches, selectedBookFilter]);
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
@@ -282,6 +307,7 @@ export default function JumpBar({
                       onQueryChange("");
                       onOpenChange(false);
                       setWordMatches([]);
+                      setSelectedBookFilter(null);
                       setSearchedQuery("");
                       searchInputRef.current?.focus();
                     }}
@@ -313,6 +339,11 @@ export default function JumpBar({
                   Searching…
                 </span>
               )}
+            </div>
+
+            <div className="search-search-info dim">
+              Current book is searched first · Up to{" "}
+              {maxResults.toLocaleString()} matches
             </div>
 
             <div className="search-results-container">
@@ -347,12 +378,20 @@ export default function JumpBar({
                 <>
                   <div className="search-section-header">
                     <span>
-                      Matches for “{searchedQuery}” ({wordMatches.length}
-                      {wordMatches.length >= 120 ? "+" : ""})
+                      Matches for “{searchedQuery}” ({displayedMatches.length}
+                      {selectedBookFilter ? ` of ${wordMatches.length}` : ""})
                     </span>
                   </div>
+
+                  <BookFilterChart
+                    items={chartItems}
+                    selectedKey={selectedBookFilter}
+                    onSelectKey={setSelectedBookFilter}
+                    totalCount={wordMatches.length}
+                  />
+
                   <ul className="search-results-list">
-                    {wordMatches.map((m) => (
+                    {displayedMatches.map((m) => (
                       <li key={m.id} className="search-result-item">
                         <button
                           type="button"
@@ -370,10 +409,7 @@ export default function JumpBar({
                             {splitSnippet(m.snippet, searchedQuery).map(
                               (part, i) =>
                                 part.highlight ? (
-                                  <strong
-                                    key={i}
-                                    className="search-highlight"
-                                  >
+                                  <strong key={i} className="search-highlight">
                                     {part.text}
                                   </strong>
                                 ) : (

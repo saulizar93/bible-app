@@ -1,4 +1,5 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
+import BookFilterChart from "../BookFilterChart/BookFilterChart.jsx";
 import { byNum } from "../../books.js";
 import {
   loadStrongsEntry,
@@ -15,10 +16,12 @@ const MAX_SHOWN = 50;
 export default function StrongsPanel({ code, word, onClose, onJump }) {
   const [entry, setEntry] = useState(undefined); // undefined = loading, null = not found
   const [refs, setRefs] = useState(null);
+  const [selectedBookNum, setSelectedBookNum] = useState(null);
   const [rows, setRows] = useState(null);
 
   useEffect(() => {
     let alive = true;
+    setSelectedBookNum(null);
     setEntry(undefined);
     setRefs(null);
     loadStrongsEntry(code)
@@ -40,13 +43,39 @@ export default function StrongsPanel({ code, word, onClose, onJump }) {
     };
   }, [code]);
 
-  // Once we know which verses this word occurs in, fetch whatever books are
-  // needed (deduped — loadBook is already cached, so re-visiting a book you
-  // just read costs nothing) and build a snippet with the matching word bolded.
+  const bookChartItems = useMemo(() => {
+    if (!refs || refs.length === 0) return [];
+    const map = new Map();
+    for (const vid of refs) {
+      const n = Math.floor(vid / 1_000_000);
+      map.set(n, (map.get(n) || 0) + 1);
+    }
+    return Array.from(map.entries())
+      .map(([n, count]) => {
+        const b = byNum[n];
+        return {
+          key: n,
+          label: b ? b.en : `Book ${n}`,
+          count,
+        };
+      })
+      .sort((a, b) => b.count - a.count);
+  }, [refs]);
+
+  const filteredRefs = useMemo(() => {
+    if (!refs) return null;
+    if (!selectedBookNum) return refs;
+    return refs.filter(
+      (vid) => Math.floor(vid / 1_000_000) === selectedBookNum,
+    );
+  }, [refs, selectedBookNum]);
+
+  // Fetch verse data for filtered references and build display rows
   useEffect(() => {
-    if (!refs) return;
+    if (!filteredRefs) return;
     let alive = true;
-    const shown = refs.slice(0, MAX_SHOWN);
+    setRows(null);
+    const shown = filteredRefs.slice(0, MAX_SHOWN);
     const decoded = shown.map((vid) => ({ vid, ...decodeVid(vid) }));
     const bookNums = [...new Set(decoded.map((d) => d.n))];
     const srcCode = strongsSourceCode();
@@ -80,7 +109,7 @@ export default function StrongsPanel({ code, word, onClose, onJump }) {
     return () => {
       alive = false;
     };
-  }, [refs, code]);
+  }, [filteredRefs, code]);
 
   return (
     <aside
@@ -121,8 +150,20 @@ export default function StrongsPanel({ code, word, onClose, onJump }) {
         </>
       )}
 
+      {refs && refs.length > 0 && (
+        <BookFilterChart
+          items={bookChartItems}
+          selectedKey={selectedBookNum}
+          onSelectKey={setSelectedBookNum}
+          totalCount={refs.length}
+        />
+      )}
+
       <h4 className="strongs-sub">
-        Other occurrences{refs ? ` (${refs.length})` : ""}
+        Other occurrences
+        {filteredRefs
+          ? ` (${selectedBookNum ? filteredRefs.length : refs.length})`
+          : ""}
       </h4>
       {refs === null || rows === null ? (
         <p className="dim">Loading…</p>
@@ -161,9 +202,9 @@ export default function StrongsPanel({ code, word, onClose, onJump }) {
                 </li>
               ),
           )}
-          {refs.length > MAX_SHOWN && (
+          {filteredRefs.length > MAX_SHOWN && (
             <li className="dim strongs-more">
-              +{refs.length - MAX_SHOWN} more not shown
+              +{filteredRefs.length - MAX_SHOWN} more not shown
             </li>
           )}
         </ul>
