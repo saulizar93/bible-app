@@ -1,4 +1,4 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback, startTransition } from "react";
 import { BOOKS, byId, parseRef, suggest } from "./books.js";
 import { usePrefetchNextChapter } from "./hooks/usePrefetchNextChapter.js";
 import { loadBook, PANE_OPTIONS } from "./data.js";
@@ -178,6 +178,13 @@ export default function App() {
     }
   }, [verseSelection, refPos.book, refPos.chapter]);
 
+  const handleCloseStrongs = () => {
+    // Marking state reset as a non-blocking transition prevents thread lockup
+    startTransition(() => {
+      setSelection(null);
+    });
+  };
+
   return (
     <div className={strongsOn ? "app strongs-on" : "app"}>
       <JumpBar
@@ -237,10 +244,7 @@ export default function App() {
 
         {selection && (
           <>
-            <div
-              className="strongs-backdrop"
-              onClick={() => setSelection(null)}
-            />
+            <div className="strongs-backdrop" onClick={handleCloseStrongs} />
             <StrongsPanel
               code={selection.code}
               word={selection.word}
