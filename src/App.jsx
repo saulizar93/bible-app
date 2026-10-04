@@ -244,6 +244,7 @@ export default function App() {
             <StrongsPanel
               code={selection.code}
               word={selection.word}
+              currentBookId={refPos.book}
               onClose={() => setSelection(null)}
               onJump={jumpFromConcordance}
             />
