@@ -178,12 +178,11 @@ export default function App() {
     }
   }, [verseSelection, refPos.book, refPos.chapter]);
 
-  const handleCloseStrongs = () => {
-    // Marking state reset as a non-blocking transition prevents thread lockup
+  const handleCloseStrongs = useCallback(() => {
     startTransition(() => {
       setSelection(null);
     });
-  };
+  }, []);
 
   return (
     <div className={strongsOn ? "app strongs-on" : "app"}>

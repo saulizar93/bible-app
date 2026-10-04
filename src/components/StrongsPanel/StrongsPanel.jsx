@@ -120,8 +120,9 @@ export default function StrongsPanel({
     });
   };
 
+  // FIX C: Skip charting loops entirely when occurrences are collapsed
   const bookChartItems = useMemo(() => {
-    if (!refs || refs.length === 0) return [];
+    if (!showOccurrences || !refs || refs.length === 0) return [];
     const map = new Map();
     for (let i = 0; i < refs.length; i++) {
       const vid = refs[i];
@@ -135,7 +136,14 @@ export default function StrongsPanel({
         count,
       }))
       .sort((a, b) => b.count - a.count);
-  }, [refs]);
+  }, [showOccurrences, refs]);
+
+  // FIX B: Flush heavy state right before triggering close
+  const handleSafeClose = () => {
+    setRefs(null);
+    setRows(null);
+    onClose();
+  };
 
   const filteredRefs = useMemo(() => {
     if (!refs) return null;
@@ -224,7 +232,7 @@ export default function StrongsPanel({
       <button
         type="button"
         className="strongs-close"
-        onClick={onClose}
+        onClick={handleSafeClose}
         aria-label="Close"
       >
         ×
