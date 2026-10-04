@@ -257,7 +257,7 @@ export default function App() {
       {/* First-time Language Selection Modal */}
       {showLangModal && (
         <LanguageSelectionModal
-          lang="es"
+          lang="en"
           onSelectLanguage={handleSelectLanguage}
         />
       )}
