@@ -13,7 +13,6 @@ import "./StrongsPanel.css";
 
 const CHUNK_SIZE = 30;
 
-// Helper to look up book number by book ID (e.g., "MAT", "MRK", "LUK") or name
 function getBookNum(book) {
   if (typeof book === "number") return book;
   if (!book) return null;
@@ -33,6 +32,11 @@ export default function StrongsPanel({
   onJump,
 }) {
   const [entry, setEntry] = useState(undefined);
+
+  // Occurrences UI toggle state
+  const [showOccurrences, setShowOccurrences] = useState(false);
+  const [loadingConcordance, setLoadingConcordance] = useState(false);
+
   const [refs, setRefs] = useState(null);
   const [selectedBookNum, setSelectedBookNum] = useState(null);
   const [visibleCount, setVisibleCount] = useState(CHUNK_SIZE);
@@ -42,8 +46,13 @@ export default function StrongsPanel({
 
   const prevCountRef = useRef(0);
 
+  // 1. Light initial load: Fetch ONLY the Strong's definition
   useEffect(() => {
     let alive = true;
+
+    // Reset all occurrence state when opening a new code
+    setShowOccurrences(false);
+    setLoadingConcordance(false);
     setSelectedBookNum(null);
     setVisibleCount(CHUNK_SIZE);
     prevCountRef.current = 0;
@@ -59,41 +68,48 @@ export default function StrongsPanel({
         if (alive) setEntry(null);
       });
 
-    const timer = setTimeout(() => {
-      loadConcordance(code)
-        .then((list) => {
-          if (alive) {
-            setRefs(list);
-            if (list && list.length > 0) {
-              const activeBookNum = getBookNum(currentBookId);
-
-              // Check if the current reader book has occurrences for this word
-              const hasCurrentBookMatches =
-                activeBookNum &&
-                list.some(
-                  (vid) => Math.floor(vid / 1_000_000) === activeBookNum,
-                );
-
-              // Default to active reader book if matches exist; otherwise fallback to top-occurring book
-              if (hasCurrentBookMatches) {
-                setSelectedBookNum(activeBookNum);
-              } else {
-                const topBook = Math.floor(list[0] / 1_000_000);
-                setSelectedBookNum(topBook);
-              }
-            }
-          }
-        })
-        .catch(() => {
-          if (alive) setRefs([]);
-        });
-    }, 50);
-
     return () => {
       alive = false;
-      clearTimeout(timer);
     };
-  }, [code, currentBookId]); // <--- Re-run when code or currentBookId changes
+  }, [code]);
+
+  // 2. Fetch Concordance list ONLY when user clicks "Show occurrences"
+  const handleToggleOccurrences = () => {
+    if (showOccurrences) {
+      setShowOccurrences(false);
+      return;
+    }
+
+    setShowOccurrences(true);
+
+    // If already loaded for this code, skip re-fetching
+    if (refs !== null) return;
+
+    setLoadingConcordance(true);
+    loadConcordance(code)
+      .then((list) => {
+        setRefs(list || []);
+        if (list && list.length > 0) {
+          const activeBookNum = getBookNum(currentBookId);
+          const hasCurrentBookMatches =
+            activeBookNum &&
+            list.some((vid) => Math.floor(vid / 1_000_000) === activeBookNum);
+
+          if (hasCurrentBookMatches) {
+            setSelectedBookNum(activeBookNum);
+          } else {
+            const topBook = Math.floor(list[0] / 1_000_000);
+            setSelectedBookNum(topBook);
+          }
+        }
+      })
+      .catch(() => {
+        setRefs([]);
+      })
+      .finally(() => {
+        setLoadingConcordance(false);
+      });
+  };
 
   const handleSelectBook = (key) => {
     startTransition(() => {
@@ -129,8 +145,9 @@ export default function StrongsPanel({
     );
   }, [refs, selectedBookNum]);
 
+  // 3. Incrementally fetch verse text snippets only when occurrences are expanded
   useEffect(() => {
-    if (!filteredRefs) return;
+    if (!showOccurrences || !filteredRefs) return;
     let alive = true;
 
     const startIndex = prevCountRef.current;
@@ -188,7 +205,7 @@ export default function StrongsPanel({
     return () => {
       alive = false;
     };
-  }, [filteredRefs, visibleCount, code]);
+  }, [showOccurrences, filteredRefs, visibleCount, code]);
 
   const remainingCount = filteredRefs
     ? Math.max(0, filteredRefs.length - visibleCount)
@@ -238,73 +255,97 @@ export default function StrongsPanel({
         </>
       )}
 
-      {refs && refs.length > 0 && (
-        <BookFilterChart
-          items={bookChartItems}
-          selectedKey={selectedBookNum}
-          onSelectKey={handleSelectBook}
-          totalCount={refs.length}
-        />
-      )}
+      {/* Toggle button to load occurrences on demand */}
+      <div className="strongs-occurrences-toggle">
+        <button
+          type="button"
+          className="strongs-toggle-btn"
+          onClick={handleToggleOccurrences}
+        >
+          {showOccurrences ? "Hide occurrences" : "Show other occurrences"}
+        </button>
+      </div>
 
-      <h4 className="strongs-sub">
-        Occurrences
-        {filteredRefs
-          ? ` (${selectedBookNum ? filteredRefs.length : refs.length})`
-          : ""}
-      </h4>
+      {showOccurrences && (
+        <>
+          {loadingConcordance ? (
+            <p className="dim">Loading concordance data…</p>
+          ) : refs && refs.length > 0 ? (
+            <>
+              <BookFilterChart
+                items={bookChartItems}
+                selectedKey={selectedBookNum}
+                onSelectKey={handleSelectBook}
+                totalCount={refs.length}
+              />
 
-      {refs === null || (rows === null && isPending) ? (
-        <p className="dim">Loading occurrences…</p>
-      ) : rows === null || rows.length === 0 ? (
-        <p className="dim">No tagged occurrences found.</p>
-      ) : (
-        <ul className="strongs-occurrences">
-          {rows.map(
-            (row) =>
-              row.book && (
-                <li key={row.vid}>
-                  <button
-                    type="button"
-                    onClick={() =>
-                      onJump({
-                        book: row.book.id,
-                        chapter: row.chapter,
-                        verse: row.verse,
-                      })
-                    }
-                  >
-                    <span className="occ-ref">
-                      {row.book.en} {row.chapter}:{row.verse}
-                    </span>
-                    <span className="occ-text">
-                      {row.segments.map((seg, i) => (
-                        <span key={i}>
-                          {i > 0 ? " " : ""}
-                          {seg.bold ? <strong>{seg.t}</strong> : seg.t}
-                        </span>
-                      ))}
-                    </span>
-                  </button>
-                </li>
-              ),
+              <h4 className="strongs-sub">
+                Occurrences
+                {filteredRefs
+                  ? ` (${selectedBookNum ? filteredRefs.length : refs.length})`
+                  : ""}
+              </h4>
+
+              {rows === null && isPending ? (
+                <p className="dim">Loading occurrences…</p>
+              ) : rows === null || rows.length === 0 ? (
+                <p className="dim">No tagged occurrences found.</p>
+              ) : (
+                <ul className="strongs-occurrences">
+                  {rows.map(
+                    (row) =>
+                      row.book && (
+                        <li key={row.vid}>
+                          <button
+                            type="button"
+                            onClick={() =>
+                              onJump({
+                                book: row.book.id,
+                                chapter: row.chapter,
+                                verse: row.verse,
+                              })
+                            }
+                          >
+                            <span className="occ-ref">
+                              {row.book.en} {row.chapter}:{row.verse}
+                            </span>
+                            <span className="occ-text">
+                              {row.segments.map((seg, i) => (
+                                <span key={i}>
+                                  {i > 0 ? " " : ""}
+                                  {seg.bold ? <strong>{seg.t}</strong> : seg.t}
+                                </span>
+                              ))}
+                            </span>
+                          </button>
+                        </li>
+                      ),
+                  )}
+
+                  {remainingCount > 0 && (
+                    <li className="strongs-more-item">
+                      <button
+                        type="button"
+                        className="strongs-load-more"
+                        onClick={handleLoadMore}
+                        disabled={loadingMore}
+                      >
+                        {loadingMore
+                          ? "Loading next batch…"
+                          : `Load More (+${Math.min(
+                              CHUNK_SIZE,
+                              remainingCount,
+                            )} of ${remainingCount} left)`}
+                      </button>
+                    </li>
+                  )}
+                </ul>
+              )}
+            </>
+          ) : (
+            <p className="dim">No occurrences found for this word.</p>
           )}
-
-          {remainingCount > 0 && (
-            <li className="strongs-more-item">
-              <button
-                type="button"
-                className="strongs-load-more"
-                onClick={handleLoadMore}
-                disabled={loadingMore}
-              >
-                {loadingMore
-                  ? "Loading next batch…"
-                  : `Load More (+${Math.min(CHUNK_SIZE, remainingCount)} of ${remainingCount} left)`}
-              </button>
-            </li>
-          )}
-        </ul>
+        </>
       )}
     </aside>
   );
