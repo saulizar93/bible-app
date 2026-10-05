@@ -289,7 +289,7 @@ export default function App() {
             onSelect={setTop}
             strongsOn={strongsOn}
             onWordClick={(code, word, tok) =>
-              setSelection({ code, word, morph: tok?.m, form: tok?.g })
+              setSelection({ code, word, morph: tok?.m, form: tok?.g, source: top })
             }
             onVerseClick={selectVerse}
             onVerseToggle={(verse) => toggleVerse(top, verse)}
@@ -309,7 +309,7 @@ export default function App() {
             onSelect={setBottom}
             strongsOn={strongsOn}
             onWordClick={(code, word, tok) =>
-              setSelection({ code, word, morph: tok?.m, form: tok?.g })
+              setSelection({ code, word, morph: tok?.m, form: tok?.g, source: bottom })
             }
             onVerseClick={selectVerse}
             onVerseToggle={(verse) => toggleVerse(bottom, verse)}
@@ -327,6 +327,7 @@ export default function App() {
               word={selection.word}
               morph={selection.morph}
               form={selection.form}
+              source={selection.source}
               lang={lang || "en"}
               currentBookId={refPos.book}
               onClose={handleCloseStrongs}

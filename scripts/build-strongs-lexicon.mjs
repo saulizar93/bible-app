@@ -43,9 +43,15 @@ function detag(s) {
     /<strongsref\b[^>]*\blanguage="(\w+)"[^>]*\bstrongs="0*(\d+)"[^>]*\/?>/gi,
     (_, lang, n) => ` ${lang.toUpperCase().startsWith('HEB') ? 'H' : 'G'}${n} `,
   );
-  return decodeEntities(withRefs.replace(/<[^>]+>/g, ' '))
+  // Inline Greek words without a number: <greek unicode="ἄγαν" translit="ágan"/> -> "ἄγαν (ágan)"
+  const withGreek = withRefs.replace(/<greek\b[^>]*?\/>/gi, (tag) => {
+    const u = tag.match(/\bunicode="([^"]*)"/)?.[1];
+    const t = tag.match(/\btranslit="([^"]*)"/)?.[1];
+    return u ? ` ${u}${t ? ` (${t})` : ''} ` : ' ';
+  });
+  return decodeEntities(withGreek.replace(/<[^>]+>/g, ' '))
     .replace(/\s+/g, ' ')
-    .replace(/\s+([,;.:)])/g, '$1')
+    .replace(/\s+([,;.:)\]])/g, '$1')
     .replace(/^:--\s*/, '')
     .trim();
 }

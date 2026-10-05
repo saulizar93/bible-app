@@ -1,19 +1,25 @@
 #!/usr/bin/env node
 /**
- * Build the Strong's + morphology KJV straight from the CrossWire SWORD module
- * "KJV (1769) with Strongs Numbers and Morphology and CatchWords" (v3.1, zText).
+ * Build a Strong's-tagged Bible straight from a CrossWire SWORD module (zText,
+ * OSIS markup), e.g.
+ *   - "KJV (1769) with Strongs Numbers and Morphology and CatchWords" (v3.1)
+ *   - "Reina-Valera 1909 con números de Strong" (SpaRV1909, enciphered)
  *
- * No SWORD library or diatheke needed — this reads the module's compressed
- * files directly (.bzs block index, .bzv verse index, .bzz zlib blocks), so
- * nothing is filtered out the way a diatheke text export filters morphology.
+ * No SWORD library or diatheke needed — this reads the module's .conf and its
+ * compressed files directly (.bzs block index, .bzv verse index, .bzz zlib
+ * blocks, deciphered first when the .conf has a CipherKey), so nothing is
+ * filtered out the way a diatheke text export filters morphology.
  *
- *   node scripts/build-kjv-sword.mjs <module root> [--out <dir>]
+ *   node scripts/build-sword-bible.mjs <module root> --out <dir>
  *
- *   <module root> = the folder containing mods.d/ and modules/
+ *   <module root> = the unzipped module: the folder containing mods.d/ and modules/
  *   --out         = output folder (default public/data/bibles/kjv-strong)
+ *   --keep-titles = keep Psalm titles (inline at the start of verse 1, as most
+ *                   Spanish editions print them). Default: dropped, as in the KJV data.
  *
- * Example:
- *   node scripts/build-kjv-sword.mjs "C:/Users/saulo/Downloads/KJV (1)"
+ * Examples:
+ *   node scripts/build-sword-bible.mjs "C:/Users/saulo/Downloads/KJV (1)" --out public/data/bibles/kjv-strong
+ *   node scripts/build-sword-bible.mjs "C:/Users/saulo/Downloads/SpaRV1909" --out public/data/bibles/rv1909-strong
  *
  * Output (same shape the app already reads, with two new optional token keys):
  *   { b, c, v: { "1": ["verse text", ...] },
@@ -27,6 +33,8 @@
  *     it = 1 for words the translators supplied (printed in italics in the KJV)
  *     r  = 1 for words of Jesus (red letter)
  *     dn = 1 for the divine name (printed LORD / GOD in small caps)
+ *     j  = 1 when the source has no space before this token (a tag boundary
+ *          inside a word: "Gessur" + "i", "Beth-baal" + "-meón")
  *
  * Verse text is kept identical to the previous build: Psalm titles, Psalm 119
  * acrostic headings and the translators' marginal notes are not included.
@@ -41,13 +49,75 @@ const outIdx = args.indexOf("--out");
 const outDir = path.resolve(outIdx >= 0 ? args[outIdx + 1] : "public/data/bibles/kjv-strong");
 const root = args.find((a, i) => !a.startsWith("--") && (outIdx < 0 || i !== outIdx + 1));
 if (!root) {
-  console.error('usage: node scripts/build-kjv-sword.mjs "<SWORD module root>" [--out <dir>]');
+  console.error('usage: node scripts/build-sword-bible.mjs "<SWORD module root>" [--out <dir>]');
   process.exit(1);
 }
-const dataDir = path.join(root, "modules", "texts", "ztext", "kjv");
-if (!fs.existsSync(path.join(dataDir, "ot.bzz"))) {
-  console.error(`Can't find ${path.join(dataDir, "ot.bzz")} — point this at the folder that contains mods.d/ and modules/.`);
+
+// ------------------------------------------------------------
+// Module .conf: where the data lives, and the cipher key if any
+// ------------------------------------------------------------
+const confDir = path.join(root, "mods.d");
+const confFile = fs.existsSync(confDir) && fs.readdirSync(confDir).find((f) => f.endsWith(".conf"));
+if (!confFile) {
+  console.error(`No .conf file in ${confDir} — point this at the unzipped module folder that contains mods.d/ and modules/.`);
   process.exit(1);
+}
+const conf = Object.fromEntries(
+  fs.readFileSync(path.join(confDir, confFile), "utf8").split(/\r?\n/)
+    .map((l) => l.match(/^([A-Za-z_]+)=(.*)$/)).filter(Boolean).map((m) => [m[1], m[2].trim()]),
+);
+if (conf.ModDrv && conf.ModDrv.toLowerCase() !== "ztext") {
+  console.error(`Unsupported module driver ${conf.ModDrv} (only zText).`);
+  process.exit(1);
+}
+const dataDir = path.join(root, conf.DataPath || "");
+if (!fs.existsSync(path.join(dataDir, "ot.bzz"))) {
+  console.error(`Can't find ${path.join(dataDir, "ot.bzz")} — check DataPath in ${confFile}.`);
+  process.exit(1);
+}
+const cipherKey = conf.CipherKey || "";
+const keepTitles = args.includes("--keep-titles");
+console.log(`${conf.Description || confFile}${cipherKey ? " (enciphered)" : ""}`);
+
+// ------------------------------------------------------------
+// Sapphire II stream cipher (SWORD's sapphire.cpp). Enciphered modules
+// ship their key in the .conf; each compressed block is deciphered with a
+// freshly keyed cipher before it is inflated.
+// ------------------------------------------------------------
+function decipher(buf, key) {
+  const k = Buffer.from(key, "latin1");
+  const c = new Uint8Array(256);
+  for (let i = 0; i < 256; i++) c[i] = i;
+  let rsum = 0, keypos = 0;
+  const keyrand = (limit) => {
+    if (!limit) return 0;
+    let retry = 0, mask = 1, u;
+    while (mask < limit) mask = (mask << 1) + 1;
+    do {
+      rsum = (c[rsum] + k[keypos++]) & 255;
+      if (keypos >= k.length) { keypos = 0; rsum = (rsum + k.length) & 255; }
+      u = mask & rsum;
+      if (++retry > 11) u %= limit;
+    } while (u > limit);
+    return u;
+  };
+  for (let i = 255; i >= 1; i--) {
+    const t = keyrand(i);
+    const s = c[i]; c[i] = c[t]; c[t] = s;
+  }
+  let rotor = c[1], ratchet = c[3], avalanche = c[5], lastPlain = c[7], lastCipher = c[rsum];
+  const out = Buffer.alloc(buf.length);
+  for (let j = 0; j < buf.length; j++) {
+    ratchet = (ratchet + c[rotor]) & 255;
+    rotor = (rotor + 1) & 255;
+    const s = c[lastCipher];
+    c[lastCipher] = c[ratchet]; c[ratchet] = c[lastPlain]; c[lastPlain] = c[rotor]; c[rotor] = s;
+    avalanche = (avalanche + c[s]) & 255;
+    lastPlain = buf[j] ^ c[(c[ratchet] + c[rotor]) & 255] ^ c[c[(c[lastPlain] + c[lastCipher] + c[avalanche]) & 255]];
+    lastCipher = buf[j];
+    out[j] = lastPlain;
+  }
+  return out;
 }
 
 // ------------------------------------------------------------
@@ -65,7 +135,8 @@ function openTestament(name) {
     if (!blocks.has(i)) {
       const off = bzs.readUInt32LE(i * 12);
       const size = bzs.readUInt32LE(i * 12 + 4);
-      blocks.set(i, zlib.inflateSync(bzz.subarray(off, off + size)));
+      const raw = bzz.subarray(off, off + size);
+      blocks.set(i, zlib.inflateSync(cipherKey ? decipher(raw, cipherKey) : raw));
     }
     return blocks.get(i);
   };
@@ -141,7 +212,8 @@ let redLetter = false; // <q who="Jesus" sID/eID> milestones can span verses
 
 function parseWord(tag) {
   const lemmaParts = attr(tag, "lemma").split(/\s+/).filter(Boolean);
-  const strongs = lemmaParts.filter((p) => p.startsWith("strong:")).map((p) => normalizeStrong(p.slice(7)));
+  // "strong:H0430" (KJV) / "Strong:H0430" (RV1909) — prefix case varies by module
+  const strongs = lemmaParts.filter((p) => /^strong:/i.test(p)).map((p) => normalizeStrong(p.slice(7)));
   const greek = lemmaParts.filter((p) => p.startsWith("lemma.TR:")).map((p) => p.slice(9));
   const morphs = attr(tag, "morph").split(/\s+/).filter(Boolean)
     .map((p) => (p.includes(":") ? p.slice(p.indexOf(":") + 1) : p));
@@ -161,12 +233,14 @@ function parseWord(tag) {
 }
 
 function tokenizeVerse(raw) {
-  const clean = raw
-    .replace(/<note\b[\s\S]*?<\/note>/g, "")   // marginal notes + catchwords
-    .replace(/<title\b[\s\S]*?<\/title>/g, ""); // Psalm titles, acrostic heads
+  let clean = raw.replace(/<note\b[\s\S]*?<\/note>/g, ""); // marginal notes + catchwords
+  clean = keepTitles
+    ? clean.replace(/<\/title>/g, "</title> ") // keep the title, separated from verse text
+    : clean.replace(/<title\b[\s\S]*?<\/title>/g, ""); // Psalm titles, acrostic heads
 
   const tokens = [];
-  let italic = 0, divine = 0, word = null; // word = { info, text, it, r, dn }
+  let italic = 0, divine = 0, word = null; // word = { info, text, it, r, dn, j }
+  let spaced = true; // whitespace seen since the last token (or start of verse)
 
   const flags = (o, it, r, dn) => {
     if (it) o.it = 1;
@@ -183,7 +257,13 @@ function tokenizeVerse(raw) {
         if (italic) word.it = true;
         if (divine) word.dn = true;
       } else {
-        for (const w of text.split(/\s+/)) if (w) tokens.push(flags({ t: w }, italic, redLetter, divine));
+        for (const part of text.match(/\s+|\S+/g) || []) {
+          if (/^\s/.test(part)) { spaced = true; continue; }
+          const tok = flags({ t: part }, italic, redLetter, divine);
+          if (!spaced && tokens.length) tok.j = 1;
+          tokens.push(tok);
+          spaced = false;
+        }
       }
       continue;
     }
@@ -195,12 +275,18 @@ function tokenizeVerse(raw) {
       if (closing) {
         if (word) {
           const t = word.text.replace(/\s+/g, " ").trim();
-          if (t) tokens.push(flags({ t, ...word.info }, word.it, word.r, word.dn));
+          if (t) {
+            const tok = flags({ t, ...word.info }, word.it, word.r, word.dn);
+            if (word.j) tok.j = 1;
+            tokens.push(tok);
+            spaced = /\s$/.test(word.text);
+          }
         }
         word = null;
       } else if (!selfClosing) {
         // self-closing <w/> = a Greek word with no English rendering: skip
-        word = { info: parseWord(piece), text: "", it: italic > 0, r: redLetter, dn: false };
+        word = { info: parseWord(piece), text: "", it: italic > 0, r: redLetter, dn: false,
+                 j: !spaced && tokens.length > 0 };
       }
     } else if (name === "transChange") {
       if (closing) italic = Math.max(0, italic - 1);
@@ -217,18 +303,20 @@ function tokenizeVerse(raw) {
   }
 
   // Fold punctuation-only tokens into the previous token (unchanged rule),
-  // and an opening bracket/quote into the token after it, so "(For" stays
-  // one word instead of "( For".
+  // and an opening bracket/quote/¿/¡ into the token after it, so "(For" and
+  // "¿Quién" stay one word instead of "( For" / "¿ Quién".
   const merged = [];
   let pending = "";
   for (const tok of tokens) {
-    if (/^[(\[“‘]+$/.test(tok.t)) {
+    if (/^[(\[“‘¿¡«]+$/.test(tok.t)) {
       pending += tok.t;
-    } else if (/^[,.;:!?"'”’)\]]+$/.test(tok.t) && merged.length) {
+    } else if (/^[,.;:!?"'”’)\]»]+$/.test(tok.t) && merged.length) {
       const prev = merged[merged.length - 1];
       merged[merged.length - 1] = { ...prev, t: prev.t + tok.t };
     } else {
-      merged.push(pending ? { ...tok, t: pending + tok.t } : tok);
+      const next = pending ? { ...tok, t: pending + tok.t } : { ...tok };
+      if (pending) delete next.j; // "¿" + "Quién": the space (if any) belongs before "¿"
+      merged.push(next);
       pending = "";
     }
   }
@@ -237,7 +325,7 @@ function tokenizeVerse(raw) {
 }
 
 function tokensToText(tokens) {
-  return tokens.map((t) => t.t).join(" ")
+  return tokens.map((t, i) => (i && !t.j ? " " : "") + t.t).join("")
     .replace(/\s+([,.;:!?])/g, "$1")
     .replace(/\s+([”’])/g, "$1")
     .replace(/([“‘])\s+/g, "$1")

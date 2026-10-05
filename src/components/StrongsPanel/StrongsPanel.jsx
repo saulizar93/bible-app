@@ -7,6 +7,7 @@ import {
   loadBook,
   decodeVid,
   strongsSourceCode,
+  optionFor,
 } from "../../data.js";
 import { normalizeStrong } from "../../strongsCode.js";
 import { decodeMorph, decodeHebrewPos } from "../../morph.js";
@@ -30,6 +31,7 @@ export default function StrongsPanel({
   word,
   morph,
   form,
+  source,
   lang = "en",
   currentBookId,
   onClose,
@@ -75,7 +77,7 @@ export default function StrongsPanel({
     return () => {
       alive = false;
     };
-  }, [code]);
+  }, [code, source]);
 
   // 2. Fetch Concordance list ONLY when user clicks "Show occurrences"
   const handleToggleOccurrences = () => {
@@ -90,7 +92,7 @@ export default function StrongsPanel({
     if (refs !== null) return;
 
     setLoadingConcordance(true);
-    loadConcordance(code)
+    loadConcordance(code, source)
       .then((list) => {
         setRefs(list || []);
         if (list && list.length > 0) {
@@ -174,7 +176,8 @@ export default function StrongsPanel({
 
     const decoded = newBatch.map((vid) => ({ vid, ...decodeVid(vid) }));
     const bookNums = [...new Set(decoded.map((d) => d.n))];
-    const srcCode = strongsSourceCode();
+    // Snippets come from the translation the word was tapped in (if it's tagged).
+    const srcCode = optionFor(source)?.strongs ? source : strongsSourceCode();
 
     Promise.all(
       bookNums.map((n) => loadBook(srcCode, n).then((data) => [n, data])),
@@ -217,7 +220,7 @@ export default function StrongsPanel({
     return () => {
       alive = false;
     };
-  }, [showOccurrences, filteredRefs, visibleCount, code]);
+  }, [showOccurrences, filteredRefs, visibleCount, code, source]);
 
   const remainingCount = filteredRefs
     ? Math.max(0, filteredRefs.length - visibleCount)

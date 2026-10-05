@@ -1,5 +1,32 @@
 # AI Decision & Architecture Log
 
+## 2026-10-04: RV1909 con Strong (rv1909-strong) + Gk/Heb Toggle Label
+
+### User Request
+
+- Parse the SWORD module "Reina-Valera 1909 con números de Strong" (SpaRV1909) and add it as `rv1909-strong` with Strong's tags, the same way as the KJV.
+- Show the Strong's toggle as "Heb" in the Old Testament and "Gk" in the New Testament.
+
+### Decisions & Changes
+
+1. **Generic SWORD reader (`scripts/build-kjv-sword.mjs` renamed to `scripts/build-sword-bible.mjs`)**:
+   - Reads the module's `.conf` (DataPath, CipherKey) instead of a hard-coded KJV path.
+   - Implements SWORD's Sapphire II cipher: SpaRV1909 is enciphered; the key ships in its `.conf`.
+   - `Strong:` prefix matched case-insensitively (RV1909 capitalizes it).
+   - New `--keep-titles` flag keeps Psalm titles inline at the start of verse 1 (used for RV1909, matching the existing `rv1909`; the KJV still drops them).
+   - Tokens get `j: 1` when the source has no space before them (tags splitting a word: "Gessur" + "i", "Díjete" + "lo"); text building and `BiblePane` skip the space for those. Opening "¿", "¡", "«" attach to the next word.
+   - KJV regression: rebuilt `kjv-strong` differs in one verse only (Exodus 32:32 "sin —;" -> "sin—;").
+   - Usage:
+     - `node scripts/build-sword-bible.mjs "<KJV module>" --out public/data/bibles/kjv-strong`
+     - `node scripts/build-sword-bible.mjs "<SpaRV1909 module>" --keep-titles --out public/data/bibles/rv1909-strong`
+2. **`public/data/bibles/rv1909-strong/`**: 390,759 tagged words (no morphology in this module), 15.3 MB raw / 3.5 MB gzipped. Text is identical letter-for-letter to the existing `rv1909` except 122 spacing fixes (e.g. "sáca lo" -> "sácalo", "¿ Quién" -> "¿Quién").
+3. **Per-translation concordance**: `build-concordance.mjs` takes an optional output root; RV1909's is at `public/data/concord/rv1909-strong/{greek,hebrew}` (KJV stays at `public/data/concord/{greek,hebrew}`). `PANE_OPTIONS[].concord` maps each tagged translation to its folder.
+   - `node scripts/build-concordance.mjs public/data/bibles/rv1909-strong public/data/concord/rv1909-strong`
+4. **App**: `rv1909-strong` added to `PANE_OPTIONS` ("RV1909 c/Strong (TR)"); the selection remembers which pane a word came from (`source`), so "Show other occurrences" uses that translation's concordance and verse snippets.
+5. **`JumpBar`**: toggle reads "Heb" for books 1–39 and "Gk" for 40–66.
+6. **Greek lexicon**: inline Greek words without a number (`<greek unicode="ἄγαν" .../>`) were dropped ("from (much)"); now "from ἄγαν (ágan) (much)". 492 fields fixed.
+7. **License note**: the RV1909 text is public domain, but the Strong's tagging (Rubén Gómez) is marked "Copyrighted; Permission to distribute granted to CrossWire". Publishing `rv1909-strong` on GitHub Pages redistributes the tagging — get the editor's permission first, or keep it out of the deployed build.
+
 ## 2026-10-04: Hebrew Lexicon, Hebrew Concordance, Greek Lexicon Cross-References
 
 ### User Request
@@ -25,7 +52,7 @@
 
 ### Decisions & Changes
 
-1. **New build script (`scripts/build-kjv-sword.mjs`)**:
+1. **New build script (`scripts/build-kjv-sword.mjs`, now `scripts/build-sword-bible.mjs`)**:
    - Reads the module's zText files (`.bzs/.bzv/.bzz`) directly with Node's zlib — no SWORD/diatheke install needed, and nothing is filtered out (the old diatheke export had dropped morphology).
    - Validates structure: 66 books, 1,189 chapters, 31,102 verses.
    - Keeps the existing token format and adds optional keys: `m` (morph code: Robinson for Greek, `TH8xxx` for Hebrew verbs), `g` (Greek word as in the TR), `it` (translator-supplied italics), `r` (words of Jesus), `dn` (divine name). The last three are stored for future display, not yet rendered.

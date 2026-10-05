@@ -31,6 +31,7 @@ export default function JumpBar({
   const searchInputRef = useRef(null);
 
   const displayTitle = book ? `${book.en} ${chapter}` : placeholder;
+  const isOT = (book?.n ?? 40) <= 39; // books 1–39: Hebrew/Aramaic; 40–66: Greek
   const parsedRef = parseRef(query);
   const parsedBook = parsedRef ? byId[parsedRef.book] : null;
 
@@ -224,9 +225,13 @@ export default function JumpBar({
             className={strongsOn ? "strongs-toggle on" : "strongs-toggle"}
             aria-pressed={strongsOn}
             onClick={onToggleStrongs}
-            title="Underline Strong's-tagged Greek words"
+            title={
+              isOT
+                ? "Underline Strong's-tagged Hebrew words"
+                : "Underline Strong's-tagged Greek words"
+            }
           >
-            Gk
+            {isOT ? "Heb" : "Gk"}
           </button>
 
           <button

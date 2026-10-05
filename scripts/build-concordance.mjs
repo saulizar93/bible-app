@@ -4,7 +4,12 @@
  * Strong's tags are present) and build a reverse index: Strong's number -> every
  * verse it occurs in. Run this AFTER build-bibles.mjs for that translation.
  *
- *   node scripts/build-concordance.mjs public/data/bibles/kjv
+ *   node scripts/build-concordance.mjs public/data/bibles/kjv-strong
+ *   node scripts/build-concordance.mjs public/data/bibles/rv1909-strong public/data/concord/rv1909-strong
+ *
+ * The optional second argument is the output root (default public/data/concord),
+ * so each tagged translation can have its own concordance. src/data.js maps a
+ * translation to its folder via PANE_OPTIONS[].concord.
  *
  * Output: public/data/concord/greek/<shardStart>.json  -> { "G26": [40024012, ...], ... }
  *         public/data/concord/hebrew/<shardStart>.json -> { "H1254": [1001001, ...], ... }
@@ -17,7 +22,7 @@ import { normalizeStrong } from '../src/strongsCode.js';
 const SHARD_SIZE = 500;
 const shardStart = n => Math.floor((n - 1) / SHARD_SIZE) * SHARD_SIZE + 1;
 
-const [bibleDir] = process.argv.slice(2);
+const [bibleDir, outRoot = path.join('public', 'data', 'concord')] = process.argv.slice(2);
 if (!bibleDir) {
   console.error('usage: build-concordance.mjs <path/to/public/data/bibles/kjv>');
   process.exit(1);
@@ -61,7 +66,7 @@ for (const [code, vids] of index) {
 // Greek and Hebrew numbers overlap (G26 vs H26), so each language gets its own folder.
 let files = 0;
 for (const [lang, prefix] of [['greek', 'G'], ['hebrew', 'H']]) {
-  const outDir = path.join('public', 'data', 'concord', lang);
+  const outDir = path.join(outRoot, lang);
   fs.mkdirSync(outDir, { recursive: true });
   for (const [shard, obj] of shards) {
     const part = Object.fromEntries(Object.entries(obj).filter(([c]) => c[0] === prefix));
@@ -71,4 +76,4 @@ for (const [lang, prefix] of [['greek', 'G'], ['hebrew', 'H']]) {
   }
 }
 
-console.log(`${index.size} Strong's numbers, ${files} shard files -> public/data/concord/{greek,hebrew}`);
+console.log(`${index.size} Strong's numbers, ${files} shard files -> ${outRoot}/{greek,hebrew}`);

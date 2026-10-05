@@ -119,6 +119,7 @@ function renderTokens(tokens, onWordClick) {
     ) : (
       <span key={i}>{tok.t}</span>
     );
-    return i === 0 ? [word] : [<span key={`sp${i}`}> </span>, word];
+    // `j` = no space in the source before this token (a tag boundary inside a word)
+    return i === 0 || tok.j ? [word] : [<span key={`sp${i}`}> </span>, word];
   });
 }

@@ -17,10 +17,11 @@ export const PANE_OPTIONS = [
   // },
   {
     code: "kjv-strong",
-    label: "KJV w/Greek (TR)",
+    label: "KJV w/Strong (TR)",
     kind: "bible",
     lang: "en",
     strongs: true,
+    concord: "", // concordance at data/concord/{greek,hebrew}
     citation: "KJV",
   },
   {
@@ -56,6 +57,15 @@ export const PANE_OPTIONS = [
     label: "RV1909 (TR)",
     kind: "bible",
     lang: "es",
+    citation: "RV1909",
+  },
+  {
+    code: "rv1909-strong",
+    label: "RV1909 c/Strong (TR)",
+    kind: "bible",
+    lang: "es",
+    strongs: true,
+    concord: "rv1909-strong/", // data/concord/rv1909-strong/{greek,hebrew}
     citation: "RV1909",
   },
   {
@@ -180,15 +190,18 @@ export async function loadStrongsEntry(rawCode) {
   return data ? data[code] || null : null;
 }
 
-/** All verse ids where this Strong's number occurs, e.g. loadConcordance("G26") or ("H1254"). */
-export async function loadConcordance(rawCode) {
+/** All verse ids where this Strong's number occurs, e.g. loadConcordance("G26") or ("H1254").
+ *  `source` = the tagged translation the word was tapped in (each has its own
+ *  concordance, since translations tag different verses); defaults to the KJV. */
+export async function loadConcordance(rawCode, source) {
   const code = normalizeStrong(rawCode);
   const num = parseInt(code.slice(1), 10);
   const shard = shardStart(num);
   const lang = langOf(code);
+  const dir = `${optionFor(source)?.concord ?? optionFor(strongsSourceCode())?.concord ?? ""}${lang}`;
   const data = await cachedFetch(
-    `concord/${lang}/${shard}@${LEXICON_VERSION}`,
-    `${import.meta.env.BASE_URL}data/concord/${lang}/${shard}.json`,
+    `concord/${dir}/${shard}@${LEXICON_VERSION}`,
+    `${import.meta.env.BASE_URL}data/concord/${dir}/${shard}.json`,
   );
   return (data && data[code]) || [];
 }
