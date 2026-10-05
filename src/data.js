@@ -1,8 +1,9 @@
 import { get, set } from "idb-keyval";
 import { normalizeStrong } from "./strongsCode.js";
 
-const DATA_VERSION = 1; // bump to invalidate every cached Bible chapter
+const DATA_VERSION = 2; // bump to invalidate every cached Bible chapter
 const NOTES_VERSION = 1; // bump separately — notes change far more often
+const LEXICON_VERSION = 2; // bump when strongs/ or concord/ data is rebuilt
 
 // One combined list drives both pane dropdowns, so either side can hold
 // a translation or a notes set.
@@ -154,6 +155,8 @@ export function keyStart(key) {
 
 const SHARD_SIZE = 500;
 const shardStart = (n) => Math.floor((n - 1) / SHARD_SIZE) * SHARD_SIZE + 1;
+/** "H1254" -> "hebrew", "G26" -> "greek" — the two numbering systems overlap. */
+const langOf = (code) => (code[0] === "H" ? "hebrew" : "greek");
 
 /** Encode/decode a verse reference as a single sortable integer. */
 export const vidOf = (bookNum, chapter, verse) =>
@@ -164,26 +167,28 @@ export const decodeVid = (vid) => ({
   v: vid % 1_000,
 });
 
-/** Look up one Strong's number's dictionary entry, e.g. loadStrongsEntry("G26"). */
+/** Look up one Strong's number's dictionary entry, e.g. loadStrongsEntry("G26") or ("H1254"). */
 export async function loadStrongsEntry(rawCode) {
   const code = normalizeStrong(rawCode);
   const num = parseInt(code.slice(1), 10);
   const shard = shardStart(num);
+  const lang = langOf(code);
   const data = await cachedFetch(
-    `strongs/greek/${shard}`,
-    `${import.meta.env.BASE_URL}data/strongs/greek/${shard}.json`,
+    `strongs/${lang}/${shard}@${LEXICON_VERSION}`,
+    `${import.meta.env.BASE_URL}data/strongs/${lang}/${shard}.json`,
   );
   return data ? data[code] || null : null;
 }
 
-/** All verse ids where this Strong's number occurs, e.g. loadConcordance("G26"). */
+/** All verse ids where this Strong's number occurs, e.g. loadConcordance("G26") or ("H1254"). */
 export async function loadConcordance(rawCode) {
   const code = normalizeStrong(rawCode);
   const num = parseInt(code.slice(1), 10);
   const shard = shardStart(num);
+  const lang = langOf(code);
   const data = await cachedFetch(
-    `concord/greek/${shard}`,
-    `${import.meta.env.BASE_URL}data/concord/greek/${shard}.json`,
+    `concord/${lang}/${shard}@${LEXICON_VERSION}`,
+    `${import.meta.env.BASE_URL}data/concord/${lang}/${shard}.json`,
   );
   return (data && data[code]) || [];
 }

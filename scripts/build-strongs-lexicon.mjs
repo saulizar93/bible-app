@@ -37,7 +37,17 @@ function decodeEntities(s) {
     .replace(/&amp;/g, '&');
 }
 function detag(s) {
-  return decodeEntities(s.replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim();
+  // Keep cross-references readable: <strongsref language="GREEK" strongs="303"/> -> "G303"
+  // (they used to be dropped, leaving text like "from and the base of ;").
+  const withRefs = s.replace(
+    /<strongsref\b[^>]*\blanguage="(\w+)"[^>]*\bstrongs="0*(\d+)"[^>]*\/?>/gi,
+    (_, lang, n) => ` ${lang.toUpperCase().startsWith('HEB') ? 'H' : 'G'}${n} `,
+  );
+  return decodeEntities(withRefs.replace(/<[^>]+>/g, ' '))
+    .replace(/\s+/g, ' ')
+    .replace(/\s+([,;.:)])/g, '$1')
+    .replace(/^:--\s*/, '')
+    .trim();
 }
 function attr(block, tag, name) {
   const m = block.match(new RegExp(`<${tag}\\b[^>]*\\b${name}="([^"]*)"`));

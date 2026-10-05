@@ -9,6 +9,7 @@ import {
   strongsSourceCode,
 } from "../../data.js";
 import { normalizeStrong } from "../../strongsCode.js";
+import { decodeMorph, decodeHebrewPos } from "../../morph.js";
 import "./StrongsPanel.css";
 
 const CHUNK_SIZE = 30;
@@ -27,6 +28,9 @@ function getBookNum(book) {
 export default function StrongsPanel({
   code,
   word,
+  morph,
+  form,
+  lang = "en",
   currentBookId,
   onClose,
   onJump,
@@ -240,7 +244,15 @@ export default function StrongsPanel({
 
       <div className="strongs-head">
         <span className="strongs-code">{code}</span>
-        {entry?.gr && <span className="strongs-greek">{entry.gr}</span>}
+        {entry?.gr && (
+          <span
+            className={code.startsWith("H") ? "strongs-greek strongs-hebrew" : "strongs-greek"}
+            lang={code.startsWith("H") ? "he" : "grc"}
+            dir={code.startsWith("H") ? "rtl" : undefined}
+          >
+            {entry.gr}
+          </span>
+        )}
       </div>
 
       {entry?.tr && (
@@ -251,6 +263,10 @@ export default function StrongsPanel({
       )}
       {word && <p className="dim">Translated “{word}” here.</p>}
 
+      {(morph || form || entry?.pos) && (
+        <MorphBlock morph={morph} form={form} pos={entry?.pos} lang={lang} />
+      )}
+
       {entry === undefined ? (
         <p className="dim">Loading definition…</p>
       ) : entry === null ? (
@@ -260,6 +276,23 @@ export default function StrongsPanel({
           {entry.def && <p className="strongs-ref">{entry.def}</p>}
           {entry.deriv && <p className="dim">{entry.deriv}</p>}
           {entry.kjv && <p className="strongs-kjv">KJV usage: {entry.kjv}</p>}
+          {entry.outline?.length > 0 && (
+            <details className="strongs-outline">
+              <summary>{lang === "es" ? "Significados (esquema)" : "Meanings (outline)"}</summary>
+              <ul>
+                {entry.outline.map((line, i) => {
+                  // "1a2) ..." -> depth 3 (number / letter / number levels)
+                  const label = line.match(/^(\w+)\)/)?.[1] || "";
+                  const depth = (label.match(/\d+|[a-z]+/g) || [""]).length;
+                  return (
+                    <li key={i} style={{ paddingLeft: `${(depth - 1) * 14}px` }}>
+                      {line}
+                    </li>
+                  );
+                })}
+              </ul>
+            </details>
+          )}
         </>
       )}
 
@@ -356,5 +389,44 @@ export default function StrongsPanel({
         </>
       )}
     </aside>
+  );
+}
+
+/** Parsing of the tapped word: Greek case/number/gender or verb tense/voice/mood,
+ *  Hebrew verb stem + form — plus the Greek word as it stands in the TR. */
+function MorphBlock({ morph, form, pos, lang }) {
+  const isEs = lang === "es";
+  let d = decodeMorph(morph, lang);
+  // Hebrew nouns/adjectives aren't parsed in the KJV module; fall back to the
+  // dictionary's part of speech + gender ("n-f" -> Noun · Feminine).
+  if (!d && pos) {
+    const [first, ...rest] = decodeHebrewPos(pos, lang);
+    d = { pos: first, fields: rest.map((v) => ({ k: /^(Mascul|Femen|Femin)/.test(v) ? "gender" : "pos2", v })) };
+  }
+  return (
+    <div className="strongs-morph">
+      <div className="morph-head">
+        <span className="morph-label">{isEs ? "Análisis" : "Parsing"}</span>
+        {morph && <code className="morph-code">{morph}</code>}
+      </div>
+      {d && (
+        <div className="morph-chips">
+          {d.pos && <span className="morph-chip pos">{d.pos}</span>}
+          {d.fields.map((f, i) => (
+            <span key={i} className={`morph-chip ${f.k}`}>
+              {f.v}
+            </span>
+          ))}
+        </div>
+      )}
+      {form && (
+        <p className="morph-form dim">
+          {isEs ? "Texto Recibido: " : "Textus Receptus: "}
+          <span lang="grc" className="strongs-greek">
+            {form}
+          </span>
+        </p>
+      )}
+    </div>
   );
 }

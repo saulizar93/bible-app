@@ -111,7 +111,7 @@ function renderTokens(tokens, onWordClick) {
         data-strong={code}
         onClick={(e) => {
           e.stopPropagation();
-          onWordClick(code, tok.t);
+          onWordClick(code, tok.t, tok);
         }}
       >
         {tok.t}

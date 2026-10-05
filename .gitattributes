@@ -1,0 +1,4 @@
+# Generated Bible/lexicon data: one huge JSON line per file. Treat as binary for
+# diffs so VS Code Source Control and git diff do not try to render them.
+public/data/**/*.json -diff linguist-generated=true
+sources/** -diff

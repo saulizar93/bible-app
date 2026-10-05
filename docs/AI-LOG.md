@@ -1,5 +1,43 @@
 # AI Decision & Architecture Log
 
+## 2026-10-04: Hebrew Lexicon, Hebrew Concordance, Greek Lexicon Cross-References
+
+### User Request
+
+- Hebrew words had no definitions, no `strongs/hebrew` folder and no Hebrew concordance.
+
+### Decisions & Changes
+
+1. **Hebrew lexicon (`scripts/build-strongs-hebrew.mjs`, `sources/StrongHebrewG.xml`)**: OpenScriptures Strong's Hebrew XML (marked Public Domain; the JSON version in the same repo is CC-BY-SA, so the XML was used). Writes `public/data/strongs/hebrew/<shard>.json` (8,674 entries, 18 shards, 2.7 MB) with lemma, transliteration, pronunciation, part of speech + gender (`n-m`, `n-f`, ...), derivation (cross-references kept as "אֱלוֹהַּ (ʼĕlôwahh, H433)"), definition, KJV usage and the stem-by-stem sense outline.
+   - Run: `node scripts/build-strongs-hebrew.mjs sources/StrongHebrewG.xml`
+2. **Concordance (`scripts/build-concordance.mjs`)**: now indexes H numbers too, into `public/data/concord/hebrew/` (Greek and Hebrew numbers overlap, so separate folders).
+3. **Greek lexicon fix (`scripts/build-strongs-lexicon.mjs`)**: `<strongsref>` cross-references were dropped ("from and the base of ;"); now kept as "from G303 and the base of G939;". Leading ":--" removed from KJV usage. Rebuilt `public/data/strongs/greek/` — no other field changed.
+4. **`src/data.js`**: Strong's/concordance lookups pick `greek` or `hebrew` by prefix; cache keys now include `LEXICON_VERSION` (2) so phones refetch rebuilt lexicon/concordance files.
+5. **`src/morph.js`**: `decodeHebrewPos()` for dictionary part-of-speech/gender codes (EN/ES).
+6. **`StrongsPanel`**: Hebrew lemma right-to-left with Hebrew font; Hebrew nouns/adjectives show part of speech + gender from the dictionary (the KJV module only parses verbs); collapsible "Meanings (outline)".
+7. **`.gitattributes`**: `public/data/**/*.json` and `sources/**` marked `-diff` so VS Code Source Control / git don't try to text-diff huge single-line JSON files.
+
+## 2026-10-04: KJV Rebuilt from SWORD Module with Morphology
+
+### User Request
+
+- Reparse the KJV from the CrossWire SWORD module "King James Version (1769) with Strongs Numbers and Morphology and CatchWords" (v3.1) so word morphology (case, number, gender; verb tense/voice/mood; Hebrew verb stem/form) displays in the app.
+
+### Decisions & Changes
+
+1. **New build script (`scripts/build-kjv-sword.mjs`)**:
+   - Reads the module's zText files (`.bzs/.bzv/.bzz`) directly with Node's zlib — no SWORD/diatheke install needed, and nothing is filtered out (the old diatheke export had dropped morphology).
+   - Validates structure: 66 books, 1,189 chapters, 31,102 verses.
+   - Keeps the existing token format and adds optional keys: `m` (morph code: Robinson for Greek, `TH8xxx` for Hebrew verbs), `g` (Greek word as in the TR), `it` (translator-supplied italics), `r` (words of Jesus), `dn` (divine name). The last three are stored for future display, not yet rendered.
+   - Usage: `node scripts/build-kjv-sword.mjs "C:/Users/saulo/Downloads/KJV (1)"` then `node scripts/build-concordance.mjs public/data/bibles/kjv-strong`.
+2. **Data (`public/data/bibles/kjv-strong/`, `public/data/concord/greek/`)**:
+   - Verse text identical to the previous build except 185 verses where a stray space after "(" was removed ("( out of" -> "(out of").
+   - Fixed about 4,400 wrong Strong's tags (plus 239 verses with wrong word boundaries) caused by the old parser swallowing self-closing `<w/>` elements (e.g. Matthew 1:7 "And" was G3588 "the", now G1161 δέ). Concordance rebuilt.
+   - Size 15.5 MB -> 19.8 MB raw (4.0 MB gzipped).
+3. **Morphology decoder (`src/morph.js`)**: decodes all 1,062 Robinson codes and all 134 Hebrew TVM codes in the module, English and Spanish labels. Hebrew table verified entry-by-entry (studybible.info Strong's H8675–H8809). Hebrew nouns have no gender data in this source.
+4. **UI**: `BiblePane` passes the tapped token; `App` stores `morph`/`form` in the selection and passes `lang`; `StrongsPanel` shows a "Parsing" block (chips) and the TR form.
+5. **`src/data.js`**: `DATA_VERSION` 1 -> 2 so phones drop cached KJV books.
+
 ## 2026-10-03: Header Navigation & Search Popup Refactor
 
 ### User Request

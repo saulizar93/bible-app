@@ -6,7 +6,8 @@
  *
  *   node scripts/build-concordance.mjs public/data/bibles/kjv
  *
- * Output: public/data/concord/greek/<shardStart>.json -> { "G26": [40024012, ...], ... }
+ * Output: public/data/concord/greek/<shardStart>.json  -> { "G26": [40024012, ...], ... }
+ *         public/data/concord/hebrew/<shardStart>.json -> { "H1254": [1001001, ...], ... }
  * Verse ids are encoded as book*1_000_000 + chapter*1_000 + verse (see data.js vidOf).
  */
 import fs from 'node:fs';
@@ -36,7 +37,7 @@ for (const file of fs.readdirSync(bibleDir)) {
       const vid = bookNum * 1_000_000 + Number(chapter) * 1_000 + verseNum;
       for (const tok of tokens) {
         const code = normalizeStrong(tok.s);
-        if (!code || !code.startsWith('G')) continue; // Greek only, for now
+        if (!code || !/^[GH]\d+$/.test(code)) continue;
         if (!index.has(code)) index.set(code, new Set());
         index.get(code).add(vid);
       }
@@ -57,10 +58,17 @@ for (const [code, vids] of index) {
   shards.get(shard)[code] = [...vids].sort((a, b) => a - b);
 }
 
-const outDir = path.join('public', 'data', 'concord', 'greek');
-fs.mkdirSync(outDir, { recursive: true });
-for (const [shard, obj] of shards) {
-  fs.writeFileSync(path.join(outDir, `${shard}.json`), JSON.stringify(obj));
+// Greek and Hebrew numbers overlap (G26 vs H26), so each language gets its own folder.
+let files = 0;
+for (const [lang, prefix] of [['greek', 'G'], ['hebrew', 'H']]) {
+  const outDir = path.join('public', 'data', 'concord', lang);
+  fs.mkdirSync(outDir, { recursive: true });
+  for (const [shard, obj] of shards) {
+    const part = Object.fromEntries(Object.entries(obj).filter(([c]) => c[0] === prefix));
+    if (!Object.keys(part).length) continue;
+    fs.writeFileSync(path.join(outDir, `${shard}.json`), JSON.stringify(part));
+    files++;
+  }
 }
 
-console.log(`${index.size} Strong's numbers, ${shards.size} shard files -> ${outDir}`);
+console.log(`${index.size} Strong's numbers, ${files} shard files -> public/data/concord/{greek,hebrew}`);

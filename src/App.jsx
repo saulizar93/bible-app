@@ -288,7 +288,9 @@ export default function App() {
             }
             onSelect={setTop}
             strongsOn={strongsOn}
-            onWordClick={(code, word) => setSelection({ code, word })}
+            onWordClick={(code, word, tok) =>
+              setSelection({ code, word, morph: tok?.m, form: tok?.g })
+            }
             onVerseClick={selectVerse}
             onVerseToggle={(verse) => toggleVerse(top, verse)}
             onClearHighlight={() =>
@@ -306,7 +308,9 @@ export default function App() {
             }
             onSelect={setBottom}
             strongsOn={strongsOn}
-            onWordClick={(code, word) => setSelection({ code, word })}
+            onWordClick={(code, word, tok) =>
+              setSelection({ code, word, morph: tok?.m, form: tok?.g })
+            }
             onVerseClick={selectVerse}
             onVerseToggle={(verse) => toggleVerse(bottom, verse)}
             onClearHighlight={() =>
@@ -321,6 +325,9 @@ export default function App() {
             <StrongsPanel
               code={selection.code}
               word={selection.word}
+              morph={selection.morph}
+              form={selection.form}
+              lang={lang || "en"}
               currentBookId={refPos.book}
               onClose={handleCloseStrongs}
               onJump={jumpFromConcordance}
