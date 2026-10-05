@@ -460,3 +460,14 @@
   color: var(--muted);
   text-align: center;
 }
+
+/* Narrow phones: tighter gaps so the extra settings/menu buttons fit */
+@media (max-width: 420px) {
+  .jump {
+    gap: 4px;
+    padding: 8px 6px;
+  }
+  .book-picker-trigger {
+    padding: 0 8px;
+  }
+}

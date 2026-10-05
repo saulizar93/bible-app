@@ -1,7 +1,7 @@
 .vnum {
   display: inline-block;
   font:
-    600 12px/1 ui-sans-serif,
+    600 max(8px, calc(12px * var(--verse-num-scale, 1))) / 1 ui-sans-serif,
     system-ui;
   color: var(--dim);
   vertical-align: 0.35em;
@@ -55,4 +55,21 @@
 .strongs-underline:active {
   background: var(--hit);
   border-radius: 3px;
+}
+
+/* Copyright notice at the very bottom of the scrollable pane. .pane-body
+   (PaneSlot.css) normally ends with 40vh of padding so the last verse can
+   scroll to the top; when a notice is present that padding moves above the
+   notice instead, so the scroll room is the same and the notice sits at the
+   very end. Keep 40vh in sync with PaneSlot.css. */
+.pane-body:has(> .pane-copyright) {
+  padding-bottom: 0;
+}
+.pane-copyright {
+  margin: max(2.2em, calc(40vh - 4em)) 0 0;
+  padding: 0.8em 0 1rem;
+  border-top: 1px solid var(--line);
+  font: 12px/1.5 ui-sans-serif, system-ui, sans-serif;
+  color: var(--dim);
+  text-align: center;
 }

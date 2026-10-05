@@ -1,5 +1,65 @@
 # AI Decision & Architecture Log
 
+## 2026-10-04: Language Switch + Default Panes in Settings
+
+### User Request
+
+- Change `app_lang` between "en" and "es" from the app.
+- Set a default translation or notes set for each of the two panes.
+
+### Decisions & Changes
+
+1. **Language** (`SettingsModal`, top section): English / Español buttons call `changeLanguage` in `App.jsx`, which writes localStorage `app_lang` and updates `lang` state, so the interface switches immediately. Panes are not changed (the first-run `LanguageSelectionModal` still picks language-based panes).
+2. **Default panes** (`SettingsModal`, bottom section): one select per pane listing every `PANE_OPTIONS` entry (English / Español / Study notes), plus "Remember last used" (the previous behavior). Stored as localStorage `app_default_top` / `app_default_bottom`; empty = removed.
+   - On startup a valid default wins over `app_top_pane` / `app_bottom_pane` (last used). Changing panes while reading still works; the next launch returns to the default.
+   - Choosing a default also switches that pane immediately.
+   - A default pointing at a removed translation is ignored (`savedDefault` checks `optionFor`).
+
+## 2026-10-04: Verse Number Size Setting + Info Pages Dock Like the Strong's Panel
+
+### User Request
+
+- Let users change the size of the (clickable) verse numbers.
+- Info pages (hamburger menu) should appear exactly like the Strong's panel: docked to the side on desktop, a modal on phones with an × and click-away to close, with the Bible/notes panes always visible behind.
+
+### Decisions & Changes
+
+1. **Verse number size**: new setting `numScale` (50–200 % of the default 12px, independent of text size; min 8px), saved as localStorage `app_verse_num_scale`. `SettingsModal` has a "Verse number size" row and the sample shows a verse number. `App.jsx` sets `--verse-num-scale`; `.vnum` (BiblePane.css) uses it instead of following the text size.
+2. **InfoPanel placement**: moved inside `.content-row` (next to `SplitPanes`), so the existing `StrongsPanel.css` rules apply unchanged: ≥900px a 320px sidebar beside the panes (no backdrop); below that a centered card over a translucent backdrop, closed by × or tapping the backdrop.
+3. **One side panel at a time**: opening an info page closes the Strong's panel and tapping a Strong's word closes the info page, so desktop never shows two sidebars.
+4. Noted, not changed: `src/index.css` (Vite template) caps `#root` at 1126px wide, leaving empty space on large monitors.
+
+## 2026-10-04: Reading Settings + Hamburger Menu With Info Pages
+
+### User Request
+
+- Settings button (left of the JumpBar, right of "previous") opening a modal to change text size (percentages) and font.
+- Hamburger button next to it with a dropdown: About the Author, About the Bible Translations, Bible Manipulations, Bibliography — each opening a Strong's-style panel with placeholder text for the author's notes.
+
+### Decisions & Changes
+
+1. **Header order**: ‹ | ⚙ settings | ☰ menu | Book Chapter ▾ | 🔍 | Gk/Heb | ›. Gaps tighten under 420px so it fits phones.
+2. **`src/settings.js`** (new): sizes 50/75/100/125/150/175/200 %, fonts Default (Charter), Georgia, Times New Roman, Arial, Verdana, Helvetica (system fonts — no downloads, works offline). Saved in localStorage `app_font_scale` / `app_font_family`.
+3. **`SettingsModal`** (new): live sample text, size chips, font buttons (each shown in its own font), Reset / Done; EN/ES labels. Changes apply immediately.
+4. **Applying settings**: `App.jsx` sets `--reading-scale` / `--reading-font` on `.app`; `.pane-body` (PaneSlot.css) uses them for Bible and notes panes; verse numbers scale too (clamped 10–20px). Header, panels and menus keep their normal size.
+5. **`src/pages.js`** (new) lists the menu pages; **`MainMenu`** (new) is the hamburger + dropdown (closes on outside click / Escape).
+6. **`InfoPanel`** (new): reuses the Strong's panel look; loads `public/data/pages/<id>.<lang>.md` (falls back to English). Supports a small Markdown subset: `#`/`##`/`###` headings, `-` bullets, `**bold**`, `*italic*`, `[link](https://...)`, blank-line paragraphs. Rendered as React elements (no innerHTML).
+7. **Placeholder pages**: `public/data/pages/{author,translations,manipulations,bibliography}.{en,es}.md`. To add a page: add it to `src/pages.js` and create its two `.md` files.
+
+## 2026-10-04: Strong's Toggle Only With Tagged Panes + Copyright Notices
+
+### User Request
+
+- Show the Gk/Heb button only when a Strong's-tagged translation is selected.
+- Show each translation's copyright at the very bottom of the scrollable pane, under every chapter.
+
+### Decisions & Changes
+
+1. **`JumpBar`**: the toggle renders only if `top` or `bottom` is a `PANE_OPTIONS` entry with `strongs: true` (currently `kjv-strong`, `rv1909-strong`).
+2. **`src/data.js`**: every translation has a `copyright` string, taken from its own source files (eBible `copr.htm`, SWORD `.conf`, DRC front matter). Torres-Amat (built from an epub with no license page) is marked public domain on the basis of the 1823–1825 translation date. Notes panes have none.
+3. **`BiblePane`**: renders `<p class="pane-copyright">` after the last verse.
+4. **`BiblePane.css`**: when a notice is present, `.pane-body:has(> .pane-copyright)` drops its 40vh bottom padding and the notice's top margin supplies the same space, so the last verse can still scroll to the top and the notice sits at the very end. (A negative-margin version was tried first; Chrome still added the full padding after it.) Keep the 40vh in sync with `PaneSlot.css`.
+
 ## 2026-10-04: Biblia Platense (Straubinger) added as `platense`
 
 ### User Request

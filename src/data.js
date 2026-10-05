@@ -6,7 +6,8 @@ const NOTES_VERSION = 1; // bump separately — notes change far more often
 const LEXICON_VERSION = 3; // bump when strongs/ or concord/ data is rebuilt
 
 // One combined list drives both pane dropdowns, so either side can hold
-// a translation or a notes set.
+// a translation or a notes set. `copyright` is shown under the last verse of
+// every chapter (BiblePane).
 export const PANE_OPTIONS = [
   // {
   //   code: "kjv",
@@ -23,6 +24,7 @@ export const PANE_OPTIONS = [
     strongs: true,
     concord: "", // concordance at data/concord/{greek,hebrew}
     citation: "KJV",
+    copyright: "King James Version (1769). Public Domain. Strong's numbers and morphology © 2003–2023 CrossWire Bible Society (KJV2003 Project), licensed for any use.",
   },
   {
     code: "bsb",
@@ -30,6 +32,7 @@ export const PANE_OPTIONS = [
     kind: "bible",
     lang: "en",
     citation: "BSB",
+    copyright: "Berean Standard Bible. Public Domain. BSB Publishing, LLC.",
   },
   {
     code: "msb",
@@ -37,6 +40,7 @@ export const PANE_OPTIONS = [
     kind: "bible",
     lang: "en",
     citation: "MSB",
+    copyright: "Majority Standard Bible. Public Domain. Berean Bible Translation Committee.",
   },
   {
     code: "lsv",
@@ -44,6 +48,7 @@ export const PANE_OPTIONS = [
     kind: "bible",
     lang: "en",
     citation: "LSV",
+    copyright: "Literal Standard Version © 2020 Covenant Press. Licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0).",
   },
   {
     code: "drc1750",
@@ -51,6 +56,7 @@ export const PANE_OPTIONS = [
     kind: "bible",
     lang: "en",
     citation: "DRC1750",
+    copyright: "Douay-Rheims Bible, Challoner revision (1749–1752). Public Domain.",
   },
   {
     code: "rv1909",
@@ -58,6 +64,7 @@ export const PANE_OPTIONS = [
     kind: "bible",
     lang: "es",
     citation: "RV1909",
+    copyright: "Reina-Valera 1909. Dominio público.",
   },
   {
     code: "rv1909-strong",
@@ -67,6 +74,8 @@ export const PANE_OPTIONS = [
     strongs: true,
     concord: "rv1909-strong/", // data/concord/rv1909-strong/{greek,hebrew}
     citation: "RV1909",
+    copyright:
+      "Reina-Valera 1909. Dominio público. Números de Strong © Rubén Gómez; distribución autorizada a CrossWire Bible Society.",
   },
   {
     code: "rvg",
@@ -74,6 +83,7 @@ export const PANE_OPTIONS = [
     kind: "bible",
     lang: "es",
     citation: "RVG",
+    copyright: "Santa Biblia Reina Valera Gómez © 2004, 2010, 2023 Dr. Humberto Gómez Caballero. Derechos reservados. Prohibida su reproducción con fines de lucro.",
   },
   {
     code: "torres-amat",
@@ -81,6 +91,7 @@ export const PANE_OPTIONS = [
     kind: "bible",
     lang: "es",
     citation: "Torres-Amat",
+    copyright: "Biblia de Torres Amat (1823–1825), traducción de Félix Torres Amat. Dominio público.",
   },
   {
     code: "platense",
@@ -88,6 +99,7 @@ export const PANE_OPTIONS = [
     kind: "bible",
     lang: "es",
     citation: "Straubinger",
+    copyright: "Biblia Platense, traducción de Mons. Juan Straubinger (1948). Dominio público.",
   },
   {
     code: "notes:en",

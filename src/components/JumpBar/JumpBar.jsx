@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, useMemo } from "react";
 import BookPicker from "../BookPicker/BookPicker.jsx";
 import BookFilterChart from "../BookFilterChart/BookFilterChart.jsx";
+import MainMenu from "../MainMenu/MainMenu.jsx";
 import { byId, parseRef } from "../../books.js";
 import { searchAvailablePanes, splitSnippet } from "../../search.js";
 import { optionFor } from "../../data.js";
@@ -21,6 +22,9 @@ export default function JumpBar({
   onStep,
   strongsOn,
   onToggleStrongs,
+  lang = "en",
+  onOpenSettings,
+  onOpenPage,
 }) {
   const [bookPickerOpen, setBookPickerOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
@@ -32,6 +36,8 @@ export default function JumpBar({
 
   const displayTitle = book ? `${book.en} ${chapter}` : placeholder;
   const isOT = (book?.n ?? 40) <= 39; // books 1–39: Hebrew/Aramaic; 40–66: Greek
+  // Only offer the Strong's toggle when a pane shows a Strong's-tagged translation.
+  const hasStrongsPane = (panes || []).some((c) => optionFor(c)?.strongs);
   const parsedRef = parseRef(query);
   const parsedBook = parsedRef ? byId[parsedRef.book] : null;
 
@@ -181,6 +187,21 @@ export default function JumpBar({
 
         <button
           type="button"
+          className="nav-step settings-trigger"
+          onClick={onOpenSettings}
+          aria-label={lang === "es" ? "Ajustes de lectura" : "Reading settings"}
+          title={lang === "es" ? "Ajustes de lectura" : "Reading settings"}
+        >
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="3" />
+            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" />
+          </svg>
+        </button>
+
+        <MainMenu lang={lang} onOpenPage={onOpenPage} />
+
+        <button
+          type="button"
           className="book-picker-trigger"
           onClick={() => setBookPickerOpen(true)}
           aria-label="Choose Bible book, chapter, and verse"
@@ -220,6 +241,7 @@ export default function JumpBar({
             </svg>
           </button>
 
+          {hasStrongsPane && (
           <button
             type="button"
             className={strongsOn ? "strongs-toggle on" : "strongs-toggle"}
@@ -233,6 +255,7 @@ export default function JumpBar({
           >
             {isOT ? "Heb" : "Gk"}
           </button>
+          )}
 
           <button
             type="button"

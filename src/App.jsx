@@ -1,13 +1,16 @@
 import { useState, useCallback, useEffect, startTransition } from "react";
 import { BOOKS, byId, parseRef, suggest } from "./books.js";
 import { usePrefetchNextChapter } from "./hooks/usePrefetchNextChapter.js";
-import { loadBook, PANE_OPTIONS } from "./data.js";
+import { loadBook, PANE_OPTIONS, optionFor } from "./data.js";
 import JumpBar from "./components/JumpBar/JumpBar.jsx";
 import PaneSlot from "./components/PaneSlot/PaneSlot.jsx";
 import StrongsPanel from "./components/StrongsPanel/StrongsPanel.jsx";
 import SelectionBar from "./components/SelectionBar/SelectionBar.jsx";
 import SplitPanes from "./components/SplitPanes/SplitPanes.jsx";
 import LanguageSelectionModal from "./components/Modals/LanguageSelectionModal.jsx";
+import SettingsModal from "./components/SettingsModal/SettingsModal.jsx";
+import InfoPanel from "./components/InfoPanel/InfoPanel.jsx";
+import { loadSettings, saveSettings, fontStack } from "./settings.js";
 import "./app.css";
 
 const STORAGE_KEYS = {
@@ -15,7 +18,21 @@ const STORAGE_KEYS = {
   REF_POS: "app_ref_pos",
   TOP_PANE: "app_top_pane",
   BOTTOM_PANE: "app_bottom_pane",
+  // Optional per-pane defaults chosen in Settings: when set, the app always
+  // opens with them (instead of the last-used pane). Empty = remember last used.
+  DEFAULT_TOP: "app_default_top",
+  DEFAULT_BOTTOM: "app_default_bottom",
 };
+
+/** A saved default pane code, if it still exists in PANE_OPTIONS. */
+function savedDefault(key) {
+  try {
+    const code = localStorage.getItem(key);
+    return code && optionFor(code) ? code : "";
+  } catch {
+    return "";
+  }
+}
 
 export default function App() {
   // 1. Language State
@@ -41,6 +58,8 @@ export default function App() {
 
   // Top Pane State Initializer
   const [top, setTop] = useState(() => {
+    const def = savedDefault(STORAGE_KEYS.DEFAULT_TOP);
+    if (def) return def;
     const saved = localStorage.getItem(STORAGE_KEYS.TOP_PANE);
     if (saved) return saved;
     const currentLang = localStorage.getItem(STORAGE_KEYS.LANG);
@@ -49,6 +68,8 @@ export default function App() {
 
   // Bottom Pane State Initializer
   const [bottom, setBottom] = useState(() => {
+    const def = savedDefault(STORAGE_KEYS.DEFAULT_BOTTOM);
+    if (def) return def;
     const saved = localStorage.getItem(STORAGE_KEYS.BOTTOM_PANE);
     if (saved) return saved;
     const currentLang = localStorage.getItem(STORAGE_KEYS.LANG);
@@ -64,6 +85,29 @@ export default function App() {
   const [open, setOpen] = useState(false);
   const [strongsOn, setStrongsOn] = useState(false);
   const [selection, setSelection] = useState(null);
+  const [settings, setSettings] = useState(loadSettings); // reading text size + font
+  const [settingsOpen, setSettingsOpen] = useState(false);
+  const [infoPage, setInfoPage] = useState(null); // id from pages.js, or null
+  const [defaultPanes, setDefaultPanes] = useState(() => ({
+    top: savedDefault(STORAGE_KEYS.DEFAULT_TOP),
+    bottom: savedDefault(STORAGE_KEYS.DEFAULT_BOTTOM),
+  }));
+
+  // Settings: switch the interface language (app_lang). Panes are left as they are.
+  const changeLanguage = (next) => {
+    localStorage.setItem(STORAGE_KEYS.LANG, next);
+    setLang(next);
+  };
+
+  // Settings: set (or clear, with "") a pane's default. A chosen default is
+  // also shown right away.
+  const changeDefaultPane = (which, code) => {
+    const key = which === "top" ? STORAGE_KEYS.DEFAULT_TOP : STORAGE_KEYS.DEFAULT_BOTTOM;
+    if (code) localStorage.setItem(key, code);
+    else localStorage.removeItem(key);
+    setDefaultPanes((prev) => ({ ...prev, [which]: code }));
+    if (code) (which === "top" ? setTop : setBottom)(code);
+  };
 
   const book = byId[refPos.book] || byId["MAT"];
   const options = open ? suggest(query) : [];
@@ -82,6 +126,10 @@ export default function App() {
   useEffect(() => {
     localStorage.setItem(STORAGE_KEYS.BOTTOM_PANE, bottom);
   }, [bottom]);
+
+  useEffect(() => {
+    saveSettings(settings);
+  }, [settings]);
 
   // Language Selection Handler
   const handleSelectLanguage = (selectedLang) => {
@@ -251,7 +299,15 @@ export default function App() {
   }, []);
 
   return (
-    <div className={strongsOn ? "app strongs-on" : "app"}>
+    <div
+      className={strongsOn ? "app strongs-on" : "app"}
+      style={{
+        // read by .pane-body (PaneSlot.css) and .vnum (BiblePane.css)
+        "--reading-scale": settings.scale / 100,
+        "--reading-font": fontStack(settings.font),
+        "--verse-num-scale": settings.numScale / 100,
+      }}
+    >
       {/* First-time Language Selection Modal */}
       {showLangModal && (
         <LanguageSelectionModal
@@ -275,7 +331,27 @@ export default function App() {
         onStep={step}
         strongsOn={strongsOn}
         onToggleStrongs={() => setStrongsOn((v) => !v)}
+        lang={lang || "en"}
+        onOpenSettings={() => setSettingsOpen(true)}
+        onOpenPage={(id) => {
+          setSelection(null); // one side panel at a time
+          setInfoPage(id);
+        }}
       />
+
+      {settingsOpen && (
+        <SettingsModal
+          settings={settings}
+          onChange={setSettings}
+          onClose={() => setSettingsOpen(false)}
+          lang={lang || "en"}
+          onLangChange={changeLanguage}
+          defaultPanes={defaultPanes}
+          onDefaultPaneChange={changeDefaultPane}
+        />
+      )}
+
+
 
       <div className="content-row">
         <SplitPanes>
@@ -288,9 +364,10 @@ export default function App() {
             }
             onSelect={setTop}
             strongsOn={strongsOn}
-            onWordClick={(code, word, tok) =>
-              setSelection({ code, word, morph: tok?.m, form: tok?.g, source: top })
-            }
+            onWordClick={(code, word, tok) => {
+              setInfoPage(null); // one side panel at a time
+              setSelection({ code, word, morph: tok?.m, form: tok?.g, source: top });
+            }}
             onVerseClick={selectVerse}
             onVerseToggle={(verse) => toggleVerse(top, verse)}
             onClearHighlight={() =>
@@ -308,9 +385,10 @@ export default function App() {
             }
             onSelect={setBottom}
             strongsOn={strongsOn}
-            onWordClick={(code, word, tok) =>
-              setSelection({ code, word, morph: tok?.m, form: tok?.g, source: bottom })
-            }
+            onWordClick={(code, word, tok) => {
+              setInfoPage(null); // one side panel at a time
+              setSelection({ code, word, morph: tok?.m, form: tok?.g, source: bottom });
+            }}
             onVerseClick={selectVerse}
             onVerseToggle={(verse) => toggleVerse(bottom, verse)}
             onClearHighlight={() =>
@@ -318,6 +396,17 @@ export default function App() {
             }
           />
         </SplitPanes>
+
+        {/* Info pages (hamburger menu) dock exactly like the Strong's panel:
+            a sidebar inside .content-row on wide screens, a modal over the
+            panes on phones (StrongsPanel.css @media 900px). */}
+        {infoPage && (
+          <InfoPanel
+            pageId={infoPage}
+            lang={lang || "en"}
+            onClose={() => setInfoPage(null)}
+          />
+        )}
 
         {selection && (
           <>

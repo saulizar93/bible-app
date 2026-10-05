@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { byId } from "../../books.js";
-import { loadBook } from "../../data.js";
+import { loadBook, optionFor } from "../../data.js";
 import { normalizeStrong } from "../../strongsCode.js";
 import "./BiblePane.css";
 
@@ -55,7 +55,9 @@ export default function BiblePane({
     );
   if (!verses) return <p className="dim">Loading…</p>;
 
-  return verses.map((text, i) => {
+  const copyright = optionFor(code)?.copyright;
+
+  const verseEls = verses.map((text, i) => {
     if (!text) return null;
     const tokens = tokensByVerse?.[i];
     return (
@@ -96,6 +98,13 @@ export default function BiblePane({
       </p>
     );
   });
+
+  return (
+    <>
+      {verseEls}
+      {copyright && <p className="pane-copyright">{copyright}</p>}
+    </>
+  );
 }
 
 /** Render a verse's tokens as spans, with a single space between each.

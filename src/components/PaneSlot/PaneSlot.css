@@ -14,3 +14,9 @@
   overscroll-behavior: contain;
   padding: 10px 16px 40vh;
 }
+
+/* Reading settings (SettingsModal): --reading-scale / --reading-font are set on .app */
+.pane-body {
+  font-size: calc(17px * var(--reading-scale, 1));
+  font-family: var(--reading-font, inherit);
+}
