@@ -83,6 +83,13 @@ export const PANE_OPTIONS = [
     citation: "Torres-Amat",
   },
   {
+    code: "platense",
+    label: "Straubinger (Católica)",
+    kind: "bible",
+    lang: "es",
+    citation: "Straubinger",
+  },
+  {
     code: "notes:en",
     label: "Notes (EN)",
     kind: "notes",

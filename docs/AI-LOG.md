@@ -1,5 +1,25 @@
 # AI Decision & Architecture Log
 
+## 2026-10-04: Biblia Platense (Straubinger) added as `platense`
+
+### User Request
+
+- Parse the SWORD module SpaPlatense (Biblia Platense, Straubinger, 1948; Public Domain) and add it to the Bibles.
+
+### Decisions & Changes
+
+1. **`scripts/build-sword-bible.mjs`** (KJV and RV1909 output re-verified byte-identical):
+   - Books matched by OSIS name instead of position; books the app lacks are skipped (Tob, Jdt, Wis, Sir, Bar, 1Macc, 2Macc).
+   - Non-KJV versifications allowed (structure check only enforced for KJV v11n); trailing empty slots trimmed for non-KJV versifications only.
+   - Section headings (`x-s`, `x-ms`, ...) and book introductions always dropped; `--keep-titles` keeps only Psalm titles. Footnotes dropped (13,088 Straubinger notes — candidate for a future notes pane).
+   - Block markup (poetry lines, paragraphs) separates words.
+   - Plain-text modules are written as `{ b, c, v }` (no `w`).
+   - New `--vulg-psalms`: Vulgate -> Hebrew/English Psalm chapters (9 -> 9+10, 10–112 -> 11–113, 113 -> 114+115, 114+115 -> 116, 116–145 -> 117–146, 146+147 -> 147), then titles counted as their own verse merged into verse 1 (59 psalms) so all 150 psalms match KJV verse counts.
+   - Usage: `node scripts/build-sword-bible.mjs "<unzipped SpaPlatense>" --vulg-psalms --out public/data/bibles/platense`
+2. **`public/data/bibles/platense/`**: 66 books, 3.9 MB raw / 1.3 MB gzipped.
+3. **`src/data.js`**: `platense` added after Torres-Amat ("Straubinger (Católica)", citation "Straubinger"). Torres-Amat not touched.
+4. **Known gaps**: 56 chapters still differ from KJV verse counts by 1–2 (Vulgate chapter/verse boundaries: e.g. Gen 31/32, Job 39–41, Dan 3, some NT chapters), so verse sync can be one off there. Esther has 16 and Daniel 14 chapters (Vulgate additions); the book picker only reaches the first 10 / 12.
+
 ## 2026-10-04: Bilingual Lexicon Definitions (def-en / def-es)
 
 ### User Request

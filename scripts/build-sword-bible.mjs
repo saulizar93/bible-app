@@ -16,6 +16,16 @@
  *   --out         = output folder (default public/data/bibles/kjv-strong)
  *   --keep-titles = keep Psalm titles (inline at the start of verse 1, as most
  *                   Spanish editions print them). Default: dropped, as in the KJV data.
+ *                   Section headings, book introductions and footnotes are always dropped.
+ *   --vulg-psalms = the module uses Vulgate Psalm numbering (Versification=Vulg):
+ *                   renumber to the Hebrew/English chapters the rest of the app uses
+ *                   (Vulg 9 -> 9+10, 10-112 -> 11-113, 113 -> 114+115, 114+115 -> 116,
+ *                   116-145 -> 117-146, 146+147 -> 147), then merge a title counted
+ *                   as its own verse into verse 1 so verse numbers match the KJV.
+ *
+ * Books are matched by OSIS name (Gen, Exod, ... Rev). Books the app doesn't
+ * have (deuterocanonical: Tob, Jdt, Wis, Sir, Bar, 1Macc, 2Macc) are skipped.
+ * Modules without Strong's tags are written as plain text ({ b, c, v } only).
  *
  * Examples:
  *   node scripts/build-sword-bible.mjs "C:/Users/saulo/Downloads/KJV (1)" --out public/data/bibles/kjv-strong
@@ -77,6 +87,15 @@ if (!fs.existsSync(path.join(dataDir, "ot.bzz"))) {
 }
 const cipherKey = conf.CipherKey || "";
 const keepTitles = args.includes("--keep-titles");
+const vulgPsalms = args.includes("--vulg-psalms");
+const kjvVersification = !conf.Versification || conf.Versification === "KJV";
+
+// OSIS book names in the app's canonical order (index + 1 = book number).
+const OSIS_BOOKS = ("Gen Exod Lev Num Deut Josh Judg Ruth 1Sam 2Sam 1Kgs 2Kgs 1Chr 2Chr Ezra Neh Esth Job " +
+  "Ps Prov Eccl Song Isa Jer Lam Ezek Dan Hos Joel Amos Obad Jonah Mic Nah Hab Zeph Hag Zech Mal " +
+  "Matt Mark Luke John Acts Rom 1Cor 2Cor Gal Eph Phil Col 1Thess 2Thess 1Tim 2Tim Titus Phlm Heb " +
+  "Jas 1Pet 2Pet 1John 2John 3John Jude Rev").split(" ");
+const BOOK_NUM = new Map(OSIS_BOOKS.map((id, i) => [id, i + 1]));
 console.log(`${conf.Description || confFile}${cipherKey ? " (enciphered)" : ""}`);
 
 // ------------------------------------------------------------
@@ -159,39 +178,80 @@ function openTestament(name) {
 // Book/chapter headers are recognized by their OSIS start tags, and the
 // totals are checked against the known KJV counts below.
 // ------------------------------------------------------------
-const BOOK_START = /<div\b(?=[^>]*\btype="book")(?=[^>]*\bsID=)[^>]*>/;
+const BOOK_START = /<div\b(?=[^>]*\btype="book")(?=[^>]*\bsID=)[^>]*\bosisID="([^"]+)"[^>]*>/;
 const CHAPTER_START = /<chapter\b(?=[^>]*\bsID=)[^>]*\bosisID="[^".]+\.(\d+)"[^>]*>/;
 
 const books = new Map(); // bookNum -> Map(chapter -> [raw verse strings])
-for (const [name, firstBook] of [["ot", 1], ["nt", 40]]) {
+const skipped = [];
+for (const name of ["ot", "nt"]) {
   const t = openTestament(name);
-  let bookNum = firstBook - 1;
+  let bookNum = null; // null = a book the app doesn't have (skip its entries)
   let chapter = 0;
   for (let i = 2; i < t.count; i++) {
     const raw = t.entry(i);
-    if (BOOK_START.test(raw)) {
-      bookNum++;
+    const bk = raw.match(BOOK_START);
+    if (bk) {
+      bookNum = BOOK_NUM.get(bk[1]) ?? null;
+      if (bookNum) books.set(bookNum, new Map());
+      else skipped.push(bk[1]);
       chapter = 0;
-      books.set(bookNum, new Map());
       continue;
     }
     const ch = raw.match(CHAPTER_START);
     if (ch) {
       chapter = Number(ch[1]);
-      books.get(bookNum).set(chapter, []);
+      if (bookNum) books.get(bookNum).set(chapter, []);
       continue;
     }
-    books.get(bookNum).get(chapter).push(raw);
+    if (bookNum && chapter) books.get(bookNum).get(chapter).push(raw);
   }
 }
+
+// Non-KJV versifications (e.g. Vulg) have slots past the end of the translated
+// text: drop trailing empty verses there. KJV-versified modules keep their empty
+// slots so verse numbers stay fixed (RV1909 leaves a few KJV verses blank).
+if (!kjvVersification) for (const chapters of books.values()) {
+  for (const verses of chapters.values()) {
+    while (verses.length && !verses[verses.length - 1].replace(/<[^>]+>/g, "").trim()) verses.pop();
+  }
+}
+
+if (vulgPsalms && books.has(19)) books.set(19, renumberVulgatePsalms(books.get(19)));
+
+/** Vulgate -> Hebrew/English Psalm chapters (module verses are Hebrew-numbered). */
+function renumberVulgatePsalms(vulg) {
+  const v = (c) => vulg.get(c) || [];
+  const out = new Map();
+  for (let c = 1; c <= 8; c++) out.set(c, v(c));
+  out.set(9, v(9).slice(0, 21));
+  out.set(10, v(9).slice(21));
+  for (let c = 10; c <= 112; c++) out.set(c + 1, v(c));
+  out.set(114, v(113).slice(0, 8));
+  out.set(115, v(113).slice(8));
+  out.set(116, [...v(114), ...v(115)]);
+  for (let c = 116; c <= 145; c++) out.set(c + 1, v(c));
+  out.set(147, [...v(146), ...v(147)]);
+  for (let c = 148; c <= 150; c++) out.set(c, v(c));
+  return new Map([...out].sort((a, b) => a[0] - b[0]));
+}
+
+/** Hebrew numbering counts a Psalm's title as verse 1 (sometimes 1–2); the
+ *  English numbering the app uses doesn't. Merge those leading title verses
+ *  into verse 1 — `extra` = how many verses this psalm has beyond the English count. */
+const ENGLISH_PSALM_VERSES = [6,12,8,8,12,10,17,9,20,18,7,8,6,7,5,11,15,50,14,9,13,31,6,10,22,12,14,9,11,12,24,11,22,22,28,12,40,22,13,17,13,11,5,26,17,11,9,14,20,23,19,9,6,7,23,13,11,11,17,12,8,12,11,10,13,20,7,35,36,5,24,20,28,23,10,12,20,72,13,19,16,8,18,12,13,17,7,18,52,17,16,15,5,23,11,13,12,9,9,5,8,28,22,35,45,48,43,13,31,7,10,10,9,8,18,19,2,29,176,7,8,9,4,8,5,6,5,6,8,8,3,18,3,3,21,26,9,8,24,13,10,7,12,15,21,10,20,14,9,6];
 
 const nChapters = [...books.values()].reduce((n, b) => n + b.size, 0);
 const nVerses = [...books.values()].reduce(
   (n, b) => n + [...b.values()].reduce((m, vs) => m + vs.length, 0), 0);
-if (books.size !== 66 || nChapters !== 1189 || nVerses !== 31102) {
+if (kjvVersification && (books.size !== 66 || nChapters !== 1189 || nVerses !== 31102)) {
   console.error(`Unexpected structure: ${books.size} books, ${nChapters} chapters, ${nVerses} verses (expected 66 / 1189 / 31102).`);
   process.exit(1);
 }
+if (books.size !== 66) {
+  console.error(`Only ${books.size} of the 66 books were found.`);
+  process.exit(1);
+}
+if (skipped.length) console.log(`Skipped (not in the app): ${[...new Set(skipped)].join(", ")}`);
 
 // ------------------------------------------------------------
 // Tokenize one verse's OSIS
@@ -209,6 +269,7 @@ function decodeEntities(s) {
 const attr = (tag, name) => tag.match(new RegExp(`\\b${name}="([^"]*)"`))?.[1] ?? "";
 
 let redLetter = false; // <q who="Jesus" sID/eID> milestones can span verses
+const BLOCK_TAGS = new Set(["l", "lg", "p", "div", "milestone", "chapter", "lb", "closer", "title", "list", "item"]);
 
 function parseWord(tag) {
   const lemmaParts = attr(tag, "lemma").split(/\s+/).filter(Boolean);
@@ -234,9 +295,12 @@ function parseWord(tag) {
 
 function tokenizeVerse(raw) {
   let clean = raw.replace(/<note\b[\s\S]*?<\/note>/g, ""); // marginal notes + catchwords
-  clean = keepTitles
-    ? clean.replace(/<\/title>/g, "</title> ") // keep the title, separated from verse text
-    : clean.replace(/<title\b[\s\S]*?<\/title>/g, ""); // Psalm titles, acrostic heads
+  // Psalm titles (no type, or type="psalm") are kept only with --keep-titles;
+  // section headings (x-s), major headings (x-ms), acrostic heads etc. never are.
+  clean = clean.replace(/<title\b([^>]*)>([\s\S]*?)<\/title>/g, (all, attrs, inner) => {
+    const type = attrs.match(/\btype="([^"]*)"/)?.[1];
+    return keepTitles && (!type || type === "psalm") ? `${inner} ` : " ";
+  });
 
   const tokens = [];
   let italic = 0, divine = 0, word = null; // word = { info, text, it, r, dn, j }
@@ -270,6 +334,9 @@ function tokenizeVerse(raw) {
     const name = piece.match(/^<\/?([A-Za-z]+)/)?.[1];
     const closing = piece.startsWith("</");
     const selfClosing = piece.endsWith("/>");
+    // Block-level markup (poetry lines, paragraphs, milestones) separates words
+    // even when the source has no whitespace there.
+    if (BLOCK_TAGS.has(name) && !word) spaced = true;
 
     if (name === "w") {
       if (closing) {
@@ -337,18 +404,28 @@ function tokensToText(tokens) {
 // ------------------------------------------------------------
 fs.mkdirSync(outDir, { recursive: true });
 let bytes = 0, gz = 0, withMorph = 0, tagged = 0;
+const psalmMerges = [];
 for (const [bookNum, chapters] of books) {
   const book = { b: bookNum, c: chapters.size, v: {}, w: {} };
+  let bookTagged = false;
   for (const [ch, verses] of chapters) {
+    let tokenized = verses.map(tokenizeVerse);
+    if (vulgPsalms && bookNum === 19) {
+      const extra = tokenized.length - (ENGLISH_PSALM_VERSES[ch - 1] ?? tokenized.length);
+      if (extra > 0) {
+        tokenized = [tokenized.slice(0, extra + 1).flat(), ...tokenized.slice(extra + 1)];
+        psalmMerges.push(`${ch}(+${extra})`);
+      }
+    }
     book.v[ch] = [];
     book.w[ch] = [];
-    for (const raw of verses) {
-      const tokens = tokenizeVerse(raw);
-      for (const t of tokens) { if (t.s) tagged++; if (t.m) withMorph++; }
+    for (const tokens of tokenized) {
+      for (const t of tokens) { if (t.s) { tagged++; bookTagged = true; } if (t.m) withMorph++; }
       book.v[ch].push(tokensToText(tokens));
       book.w[ch].push(tokens);
     }
   }
+  if (!bookTagged) delete book.w; // plain-text translation: verse strings only
   const json = JSON.stringify(book);
   fs.writeFileSync(path.join(outDir, `${bookNum}.json`), json);
   bytes += Buffer.byteLength(json);
@@ -358,3 +435,4 @@ for (const [bookNum, chapters] of books) {
 console.log(`66 books, ${nChapters} chapters, ${nVerses} verses -> ${outDir}`);
 console.log(`${tagged.toLocaleString()} Strong's-tagged words, ${withMorph.toLocaleString()} with morphology`);
 console.log(`${(bytes / 1048576).toFixed(1)} MB raw, ${(gz / 1048576).toFixed(1)} MB gzipped`);
+if (psalmMerges.length) console.log(`Psalm titles merged into verse 1: ${psalmMerges.join(" ")}`);
