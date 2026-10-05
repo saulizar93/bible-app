@@ -45,7 +45,7 @@ export const PANE_OPTIONS = [
   },
   {
     code: "drc1750",
-    label: "DCR (Catholic-Latin)",
+    label: "DRC (Catholic-Latin)",
     kind: "bible",
     lang: "en",
     citation: "DRC1750",

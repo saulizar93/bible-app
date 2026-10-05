@@ -18,8 +18,6 @@ const STORAGE_KEYS = {
 };
 
 export default function App() {
-  console.log("APP RENDER", new Date().toISOString());
-
   // 1. Language State
   const [lang, setLang] = useState(() =>
     localStorage.getItem(STORAGE_KEYS.LANG),
