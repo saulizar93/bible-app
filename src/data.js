@@ -3,7 +3,7 @@ import { normalizeStrong } from "./strongsCode.js";
 
 const DATA_VERSION = 2; // bump to invalidate every cached Bible chapter
 const NOTES_VERSION = 1; // bump separately — notes change far more often
-const LEXICON_VERSION = 2; // bump when strongs/ or concord/ data is rebuilt
+const LEXICON_VERSION = 3; // bump when strongs/ or concord/ data is rebuilt
 
 // One combined list drives both pane dropdowns, so either side can hold
 // a translation or a notes set.

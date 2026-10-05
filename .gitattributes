@@ -2,3 +2,5 @@
 # diffs so VS Code Source Control and git diff do not try to render them.
 public/data/**/*.json -diff linguist-generated=true
 sources/** -diff
+# ...except the lexicons: Spanish definitions ("def-es") are edited by hand there.
+public/data/strongs/**/*.json diff

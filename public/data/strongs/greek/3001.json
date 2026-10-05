@@ -1,1 +1,3602 @@
-{"G3001":{"gr":"λάχανον","tr":"láchanon","pron":"lakh'-an-on","deriv":"from λαχαίνω (lachaínō) (to dig);","def":"a vegetable","kjv":"herb."},"G3002":{"gr":"Λεββαῖος","tr":"Lebbaîos","pron":"leb-bah'-yos","deriv":"of uncertain origin;","def":"Lebbæus, a Christian","kjv":"Lebbæus."},"G3003":{"gr":"λεγεών","tr":"legeṓn","pron":"leg-eh-ohn'","deriv":"of Latin origin;","def":"a \"legion\", i.e. Roman regiment (figuratively)","kjv":"legion."},"G3004":{"gr":"λέγω","tr":"légō","pron":"leg'-o","deriv":"a primary verb;","def":"properly, to \"lay\" forth, i.e. (figuratively) relate (in words (usually of systematic or set discourse; whereas G2036 and G5346 generally refer to an individual expression or speech respectively; while G4483 is properly to break silence merely, and G2980 means an extended or random harangue)); by implication, to mean","kjv":"ask, bid, boast, call, describe, give out, name, put forth, say(-ing, on), shew, speak, tell, utter."},"G3005":{"gr":"λεῖμμα","tr":"leîmma","pron":"lime'-mah","deriv":"from G3007;","def":"a remainder","kjv":"remnant."},"G3006":{"gr":"λεῖος","tr":"leîos","pron":"li'-os","deriv":"apparently a primary word;","def":"smooth, i.e. \"level\"","kjv":"smooth."},"G3007":{"gr":"λείπω","tr":"leípō","pron":"li'-po","deriv":"a primary verb;","def":"to leave, i.e. (intransitively or passively) to fail or be absent","kjv":"be destitute (wanting), lack."},"G3008":{"gr":"λειτουργέω","tr":"leitourgéō","pron":"li-toorg-eh'-o","deriv":"from G3011;","def":"to be a public servant, i.e. (by analogy) to perform religious or charitable functions (worship, obey, relieve)","kjv":"minister."},"G3009":{"gr":"λειτουργία","tr":"leitourgía","pron":"li-toorg-ee'-ah","deriv":"from G3008;","def":"public function (as priest (\"liturgy\") or almsgiver)","kjv":"ministration(-try), service."},"G3010":{"gr":"λειτουργικός","tr":"leitourgikós","pron":"li-toorg-ik-os'","deriv":"from the same as G3008;","def":"functional publicly (\"liturgic\"); i.e. beneficient","kjv":"ministering."},"G3011":{"gr":"λειτουργός","tr":"leitourgós","pron":"li-toorg-os'","deriv":"from a derivative of G2992 and G2041;","def":"a public servant, i.e. a functionary in the Temple or Gospel, or (genitive case) a worshipper (of God) or benefactor (of man)","kjv":"minister(-ed)."},"G3012":{"gr":"λέντιον","tr":"léntion","pron":"len'-tee-on","deriv":"of Latin origin;","def":"a \"linen\" cloth, i.e. apron","kjv":"towel."},"G3013":{"gr":"λεπίς","tr":"lepís","pron":"lep-is'","deriv":"from λέπω (lépō) (to peel);","def":"a flake","kjv":"scale."},"G3014":{"gr":"λέπρα","tr":"lépra","pron":"lep'-rah","deriv":"from the same as G3013;","def":"scaliness, i.e. \"leprosy\"","kjv":"leprosy."},"G3015":{"gr":"λεπρός","tr":"leprós","pron":"lep-ros'","deriv":"from the same as G3014;","def":"scaly, i.e. leprous (a leper)","kjv":"leper."},"G3016":{"gr":"λεπτόν","tr":"leptón","pron":"lep-ton'","deriv":"neuter of a derivative of the same as G3013;","def":"something scaled (light), i.e. a small coin","kjv":"mite."},"G3017":{"gr":"Λευΐ","tr":"Leuḯ","pron":"lyoo'-ee","deriv":"of Hebrew origin ( H3878);","def":"Levi, the name of three Israelites","kjv":"Levi."},"G3018":{"gr":"Λευΐς","tr":"Leuḯs","pron":"lyoo-is'","deriv":"a form of G3017;","def":"Lewis (i.e. Levi), a Christian","kjv":"Levi."},"G3019":{"gr":"Λευΐτης","tr":"Leuḯtēs","pron":"lyoo-ee'-tace","deriv":"from G3017;","def":"a Levite, i.e. descendant of Levi","kjv":"Levite."},"G3020":{"gr":"Λευϊτικός","tr":"Leuïtikós","pron":"lyoo-it'-ee-kos","deriv":"from G3019;","def":"Levitic, i.e. relating to the Levites","kjv":"Levitical."},"G3021":{"gr":"λευκαίνω","tr":"leukaínō","pron":"lyoo-kah'-ee-no","deriv":"from G3022;","def":"to whiten","kjv":"make white, whiten."},"G3022":{"gr":"λευκός","tr":"leukós","pron":"lyoo-kos'","deriv":"from λύκη (lýkē) (\"light\");","def":"white","kjv":"white."},"G3023":{"gr":"λέων","tr":"léōn","pron":"leh-ohn'","deriv":"a primary word;","def":"a \"lion\"","kjv":"lion."},"G3024":{"gr":"λήθη","tr":"lḗthē","pron":"lay'-thay","deriv":"from G2990;","def":"forgetfulness","kjv":"+ forget."},"G3025":{"gr":"ληνός","tr":"lēnós","pron":"lay-nos'","deriv":"apparently a primary word;","def":"a trough, i.e. wine-vat","kjv":"winepress."},"G3026":{"gr":"λῆρος","tr":"lēros","pron":"lay'-ros","deriv":"apparently a primary word;","def":"twaddle, i.e. an incredible story","kjv":"idle tale."},"G3027":{"gr":"λῃστής","tr":"lēistḗs","pron":"lace-tace'","deriv":"from ληΐζομαι (lēḯzomai) (to plunder);","def":"a brigand","kjv":"robber, thief."},"G3028":{"gr":"λῆμψις","tr":"lēmpsis","pron":"lape'-sis","deriv":"from G2983;","def":"receipt (the act)","kjv":"receiving."},"G3029":{"gr":"λίαν","tr":"lían","pron":"lee'-an","deriv":"of uncertain affinity;","def":"much (adverbially)","kjv":"exceeding, great(-ly), sore, very (+ chiefest)."},"G3030":{"gr":"λίβανος","tr":"líbanos","pron":"lib'-an-os","deriv":"of foreign origin ( H3828);","def":"the incense-tree, i.e. (by implication) incense itself","kjv":"frankincense."},"G3031":{"gr":"λιβανωτός","tr":"libanōtós","pron":"lib-an-o-tos'","deriv":"from G3030;","def":"frankincense, i.e. (by extension) a censer for burning it","kjv":"censer."},"G3032":{"gr":"Λιβερτῖνος","tr":"Libertînos","pron":"lib-er-tee'-nos","deriv":"of Latin origin;","def":"a Roman freedman","kjv":"Libertine."},"G3033":{"gr":"Λιβύη","tr":"Libýē","pron":"lib-oo'-ay","deriv":"probably from G3047;","def":"Libye, a region of Africa","kjv":"Libya."},"G3034":{"gr":"λιθάζω","tr":"litházō","pron":"lith-ad'-zo","deriv":"from G3037;","def":"to lapidate","kjv":"stone."},"G3035":{"gr":"λίθινος","tr":"líthinos","pron":"lith-ee'-nos","deriv":"from G3037;","def":"stony, i.e. made of stone","kjv":"of stone."},"G3036":{"gr":"λιθοβολέω","tr":"lithoboléō","pron":"lith-ob-ol-eh'-o","deriv":"from a compound of G3037 and G906;","def":"to throw stones, i.e. lapidate","kjv":"stone, cast stones."},"G3037":{"gr":"λίθος","tr":"líthos","pron":"lee'-thos","deriv":"apparently a primary word;","def":"a stone (literally or figuratively)","kjv":"(mill-, stumbling-)stone."},"G3038":{"gr":"λιθόστρωτος","tr":"lithóstrōtos","pron":"lith-os'-tro-tos","deriv":"from G3037 and a derivative of G4766;","def":"stone-strewed, i.e. a tessellated mosaic on which the Roman tribunal was placed","kjv":"Pavement."},"G3039":{"gr":"λικμάω","tr":"likmáō","pron":"lik-mah'-o","deriv":"from λικμός (likmós), the equivalent of λίκνον (líknon) (a winnowing fan or basket);","def":"to winnow, i.e. (by analogy), to triturate","kjv":"grind to powder."},"G3040":{"gr":"λιμήν","tr":"limḗn","pron":"lee-mane'","deriv":"apparently a primary word;","def":"a harbor","kjv":"haven."},"G3041":{"gr":"λίμνη","tr":"límnē","pron":"lim'-nay","deriv":"probably from G3040 (through the idea of nearness of shore);","def":"a pond (large or small)","kjv":"lake."},"G3042":{"gr":"λιμός","tr":"limós","pron":"lee-mos'","deriv":"probably from G3007 (through the idea of destitution);","def":"a scarcity of food","kjv":"dearth, famine, hunger."},"G3043":{"gr":"λίνον","tr":"línon","pron":"lee'-non","deriv":"probably a primary word;","def":"flax, i.e. (by implication) \"linen\"","kjv":"linen."},"G3044":{"gr":"Λίνος","tr":"Línos","pron":"lee'-nos","deriv":"perhaps from G3043;","def":"Linus, a Christian","kjv":"Linus."},"G3045":{"gr":"λιπαρός","tr":"liparós","pron":"lip-ar-os'","deriv":"from λίπος (lípos) (grease);","def":"fat, i.e. (figuratively) sumptuous","kjv":"dainty."},"G3046":{"gr":"λίτρα","tr":"lítra","pron":"lee'-trah","deriv":"of Latin origin (libra);","def":"a pound in weight","kjv":"pound."},"G3047":{"gr":"λίψ","tr":"líps","pron":"leeps","deriv":"probably from λείβω (leíbō) (to pour a \"libation\");","def":"the south(- west) wind (as bringing rain, i.e. (by extension) the south quarter)","kjv":"southwest."},"G3048":{"gr":"λογία","tr":"logía","pron":"log-ee'-ah","deriv":"from G3056 (in the commercial sense);","def":"a contribution","kjv":"collection, gathering."},"G3049":{"gr":"λογίζομαι","tr":"logízomai","pron":"log-id'-zom-ahee","deriv":"middle voice from G3056;","def":"to take an inventory, i.e. estimate (literally or figuratively)","kjv":"conclude, (ac-)count (of), + despise, esteem, impute, lay, number, reason, reckon, suppose, think (on)."},"G3050":{"gr":"λογικός","tr":"logikós","pron":"log-ik-os'","deriv":"from G3056;","def":"rational (\"logical\")","kjv":"reasonable, of the word."},"G3051":{"gr":"λόγιον","tr":"lógion","pron":"log'-ee-on","deriv":"neuter of G3052;","def":"an utterance (of God)","kjv":"oracle."},"G3052":{"gr":"λόγιος","tr":"lógios","pron":"log'-ee-os","deriv":"from G3056;","def":"fluent, i.e. an orator","kjv":"eloquent."},"G3053":{"gr":"λογισμός","tr":"logismós","pron":"log-is-mos'","deriv":"from G3049;","def":"computation, i.e. (figuratively) reasoning (conscience, conceit)","kjv":"imagination, thought."},"G3054":{"gr":"λογομαχέω","tr":"logomachéō","pron":"log-om-akh-eh'-o","deriv":"from a compound of G3056 and G3164;","def":"to be disputatious (on trifles)","kjv":"strive about words."},"G3055":{"gr":"λογομαχία","tr":"logomachía","pron":"log-om-akh-ee'-ah","deriv":"from the same as G3054;","def":"disputation about trifles (\"logomachy\")","kjv":"strife of words."},"G3056":{"gr":"λόγος","tr":"lógos","pron":"log'-os","deriv":"from G3004;","def":"something said (including the thought); by implication, a topic (subject of discourse), also reasoning (the mental faculty) or motive; by extension, a computation; specially, (with the article in John) the Divine Expression (i.e. Christ)","kjv":"account, cause, communication, X concerning, doctrine, fame, X have to do, intent, matter, mouth, preaching, question, reason, + reckon, remove, say(-ing), shew, X speaker, speech, talk, thing, + none of these things move me, tidings, treatise, utterance, word, work."},"G3057":{"gr":"λόγχη","tr":"lónchē","pron":"long'-khay","deriv":"perhaps a primary word;","def":"a \"lance\"","kjv":"spear."},"G3058":{"gr":"λοιδορέω","tr":"loidoréō","pron":"loy-dor-eh'-o","deriv":"from G3060;","def":"to reproach, i.e. vilify","kjv":"revile."},"G3059":{"gr":"λοιδορία","tr":"loidoría","pron":"loy-dor-ee'-ah","deriv":"from G3060;","def":"slander or vituperation","kjv":"railing, reproach(-fully)."},"G3060":{"gr":"λοίδορος","tr":"loídoros","pron":"loy'-dor-os","deriv":"from λοιδός (loidós) (mischief);","def":"abusive, i.e. a blackguard","kjv":"railer, reviler."},"G3061":{"gr":"λοιμός","tr":"loimós","pron":"loy'-mos","deriv":"of uncertain affinity;","def":"a plague (literally, the disease, or figuratively, a pest)","kjv":"pestilence(-t)."},"G3062":{"gr":"λοιποί","tr":"loipoí","pron":"loy-poy'","deriv":"masculine plural of a derivative of G3007;","def":"remaining ones","kjv":"other, which remain, remnant, residue, rest."},"G3063":{"gr":"λοιπόν","tr":"loipón","pron":"loy-pon'","deriv":"neuter singular of the same as G3062;","def":"something remaining (adverbially)","kjv":"besides, finally, furthermore, (from) henceforth, moreover, now, + it remaineth, then."},"G3064":{"gr":"λοιποῦ","tr":"loipoû","pron":"loy-poo'","deriv":"genitive case singular of the same as G3062;","def":"remaining time","kjv":"from henceforth."},"G3065":{"gr":"Λουκᾶς","tr":"Loukâs","pron":"loo-kas'","deriv":"contracted from Latin Lucanus;","def":"Lucas, a Christian","kjv":"Lucas, Luke."},"G3066":{"gr":"Λούκιος","tr":"Loúkios","pron":"loo'-kee-os","deriv":"of Latin origin;","def":"illuminative; Lucius, a Christian","kjv":"Lucius."},"G3067":{"gr":"λουτρόν","tr":"loutrón","pron":"loo-tron'","deriv":"from G3068;","def":"a bath, i.e. (figuratively), baptism","kjv":"washing."},"G3068":{"gr":"λούω","tr":"loúō","pron":"loo'-o","deriv":"a primary verb;","def":"to bathe (the whole person; whereas G3538 means to wet a part only, and G4150 to wash, cleanse garments exclusively)","kjv":"wash."},"G3069":{"gr":"Λύδδα","tr":"Lýdda","pron":"lud'-dah","deriv":"of Hebrew origin ( H3850);","def":"Lydda (i.e. Lod), a place in Palestine","kjv":"Lydda."},"G3070":{"gr":"Λυδία","tr":"Lydía","pron":"loo-dee'-ah","deriv":"properly, feminine of Ludios (of foreign origin) (a Lydian, in Asia Minor);","def":"Lydia, a Christian woman","kjv":"Lydia."},"G3071":{"gr":"Λυκαονία","tr":"Lykaonía","pron":"loo-kah-on-ee'-ah","deriv":"perhaps remotely from G3074;","def":"Lycaonia, a region of Asia Minor","kjv":"Lycaonia."},"G3072":{"gr":"Λυκαονιστί","tr":"Lykaonistí","pron":"loo-kah-on-is-tee'","deriv":"adverb from a derivative of G3071;","def":"Lycaonistically, i.e. in the language of the Lycaonians","kjv":"in the speech of Lycaonia."},"G3073":{"gr":"Λυκία","tr":"Lykía","pron":"loo-kee'-ah","deriv":"probably remotely from G3074;","def":"Lycia, a province of Asia Minor","kjv":"Lycia."},"G3074":{"gr":"λύκος","tr":"lýkos","pron":"loo'-kos","deriv":"perhaps akin to the base of G3022 (from the whitish hair);","def":"a wolf","kjv":"wolf."},"G3075":{"gr":"λυμαίνομαι","tr":"lymaínomai","pron":"loo-mah'-ee-nom-ahee","deriv":"middle voice from a probably derivative of G3089 (meaning filth);","def":"properly, to soil, i.e. (figuratively) insult (maltreat)","kjv":"make havock of."},"G3076":{"gr":"λυπέω","tr":"lypéō","pron":"loo-peh'-o","deriv":"from G3077;","def":"to distress; reflexively or passively, to be sad","kjv":"cause grief, grieve, be in heaviness, (be) sorrow(-ful), be (make) sorry."},"G3077":{"gr":"λύπη","tr":"lýpē","pron":"loo'-pay","deriv":"apparently a primary word;","def":"sadness","kjv":"grief, grievous, + grudgingly, heaviness, sorrow."},"G3078":{"gr":"Λυσανίας","tr":"Lysanías","pron":"loo-san-ee'-as","deriv":"from G3080 and ἀνία (anía) (trouble);","def":"grief-dispelling; Lysanias, a governor of Abilene","kjv":"Lysanias."},"G3079":{"gr":"Λυσίας","tr":"Lysías","pron":"loo-see'-as","deriv":"of uncertain affinity;","def":"Lysias, a Roman","kjv":"Lysias."},"G3080":{"gr":"λύσις","tr":"lýsis","pron":"loo'-sis","deriv":"from G3089;","def":"a loosening, i.e. (specially), divorce","kjv":"to be loosed."},"G3081":{"gr":"λυσιτελεῖ","tr":"lysiteleî","pron":"loo-sit-el-i'","deriv":"third person singular present indicative active of a derivative of a compound of G3080 and G5056;","def":"impersonally, it answers the purpose, i.e. is advantageous","kjv":"it is better."},"G3082":{"gr":"Λύστρα","tr":"Lýstra","pron":"loos'-trah","deriv":"of uncertain origin;","def":"Lystra, a place in Asia Minor","kjv":"Lystra."},"G3083":{"gr":"λύτρον","tr":"lýtron","pron":"loo'-tron","deriv":"from G3089;","def":"something to loosen with, i.e. a redemption price (figuratively, atonement)","kjv":"ransom."},"G3084":{"gr":"λυτρόω","tr":"lytróō","pron":"loo-tro'-o","deriv":"from G3083;","def":"to ransom (literally or figuratively)","kjv":"redeem."},"G3085":{"gr":"λύτρωσις","tr":"lýtrōsis","pron":"loo'-tro-sis","deriv":"from G3084;","def":"a ransoming (figuratively)","kjv":"+ redeemed, redemption."},"G3086":{"gr":"λυτρωτής","tr":"lytrōtḗs","pron":"loo-tro-tace'","deriv":"from G3084;","def":"a redeemer (figuratively)","kjv":"deliverer."},"G3087":{"gr":"λυχνία","tr":"lychnía","pron":"lookh-nee'-ah","deriv":"from G3088;","def":"a lamp-stand (literally or figuratively)","kjv":"candlestick."},"G3088":{"gr":"λύχνος","tr":"lýchnos","pron":"lookh'-nos","deriv":"from the base of G3022;","def":"a portable lamp or other illuminator (literally or figuratively)","kjv":"candle, light."},"G3089":{"gr":"λύω","tr":"lýō","pron":"loo'-o","deriv":"a primary verb;","def":"to \"loosen\" (literally or figuratively)","kjv":"break (up), destroy, dissolve, (un-)loose, melt, put off."},"G3090":{"gr":"Λωΐς","tr":"Lōḯs","pron":"lo-ece'","deriv":"of uncertain origin;","def":"Lois, a Christian woman","kjv":"Lois."},"G3091":{"gr":"Λώτ","tr":"Lṓt","pron":"lote","deriv":"of Hebrew origin ( H3876);","def":"Lot, a patriarch","kjv":"Lot."},"G3092":{"gr":"Μαάθ","tr":"Maáth","pron":"mah-ath'","deriv":"probably of Hebrew origin;","def":"Maath, an Israelite","kjv":"Maath."},"G3093":{"gr":"Μαγδαλά","tr":"Magdalá","pron":"mag-dal-ah'","deriv":"of Chaldee origin (compare H4026);","def":"the tower; Magdala (i.e. Migdala), a place in Palestine","kjv":"Magdala."},"G3094":{"gr":"Μαγδαληνή","tr":"Magdalēnḗ","pron":"mag-dal-ay-nay'","deriv":"feminine of a derivative of G3093;","def":"a female Magdalene, i.e. inhabitant of Magdala","kjv":"Magdalene."},"G3095":{"gr":"μαγεία","tr":"mageía","pron":"mag-i'-ah","deriv":"from G3096;","def":"\"magic\"","kjv":"sorcery."},"G3096":{"gr":"μαγεύω","tr":"mageúō","pron":"mag-yoo'-o","deriv":"from G3097;","def":"to practice magic","kjv":"use sorcery."},"G3097":{"gr":"μάγος","tr":"mágos","pron":"mag'-os","deriv":"of foreign origin ( H7248);","def":"a Magian, i.e. Oriental scientist; by implication, a magician","kjv":"sorcerer, wise man."},"G3098":{"gr":"Μαγώγ","tr":"Magṓg","pron":"mag-ogue'","deriv":"of Hebrew origin ( H4031);","def":"Magog, a foreign nation, i.e. (figuratively) an Antichristian party","kjv":"Magog."},"G3099":{"gr":"Μαδιάν","tr":"Madián","pron":"mad-ee-on'","deriv":"of Hebrew origin ( H4080);","def":"Madian (i.e. Midian), a region of Arabia","kjv":"Madian."},"G3100":{"gr":"μαθητεύω","tr":"mathēteúō","pron":"math-ayt-yoo'-o","deriv":"from G3101;","def":"intransitively, to become a pupil; transitively, to disciple, i.e. enrol as scholar","kjv":"be disciple, instruct, teach."},"G3101":{"gr":"μαθητής","tr":"mathētḗs","pron":"math-ay-tes'","deriv":"from G3129;","def":"a learner, i.e. pupil","kjv":"disciple."},"G3102":{"gr":"μαθήτρια","tr":"mathḗtria","pron":"math-ay'-tree-ah","deriv":"feminine from G3101;","def":"a female pupil","kjv":"disciple."},"G3103":{"gr":"Μαθουσάλα","tr":"Mathousála","pron":"math-oo-sal'-ah","deriv":"of Hebrew origin ( H4968);","def":"Mathusala (i.e. Methushelach), an antediluvian","kjv":"Mathusala."},"G3104":{"gr":"Μαϊνάν","tr":"Maïnán","pron":"mahee-nan'","deriv":"probably of Hebrew origin;","def":"Mainan, an Israelite","kjv":"Mainan."},"G3105":{"gr":"μαίνομαι","tr":"maínomai","pron":"mah'-ee-nom-ahee","deriv":"middle voice from a primary μάω (máō) (to long for;","def":"through the idea of insensate craving); to rave as a \"maniac\"","kjv":"be beside self (mad)."},"G3106":{"gr":"μακαρίζω","tr":"makarízō","pron":"mak-ar-id'-zo","deriv":"from G3107;","def":"to beatify, i.e. pronounce (or esteem) fortunate","kjv":"call blessed, count happy."},"G3107":{"gr":"μακάριος","tr":"makários","pron":"mak-ar'-ee-os","deriv":"a prolonged form of the poetical μάκαρ (mákar) (meaning the same);","def":"supremely blest; by extension, fortunate, well off","kjv":"blessed, happy(X -ier)."},"G3108":{"gr":"μακαρισμός","tr":"makarismós","pron":"mak-ar-is-mos'","deriv":"from G3106;","def":"beatification, i.e. attribution of good fortune","kjv":"blessedness."},"G3109":{"gr":"Μακεδονία","tr":"Makedonía","pron":"mak-ed-on-ee'-ah","deriv":"from G3110;","def":"Macedonia, a region of Greece","kjv":"Macedonia."},"G3110":{"gr":"Μακεδών","tr":"Makedṓn","pron":"mak-ed'-ohn","deriv":"of uncertain derivation;","def":"a Macedon (Macedonian), i.e. inhabitant of Macedonia","kjv":"of Macedonia, Macedonian."},"G3111":{"gr":"μάκελλον","tr":"mákellon","pron":"mak'-el-lon","deriv":"of Latin origin (macellum);","def":"a butcher's stall, meat market or provision-shop","kjv":"shambles."},"G3112":{"gr":"μακράν","tr":"makrán","pron":"mak-ran'","deriv":"feminine accusative case singular of G3117 ( G3598 being implied);","def":"at a distance (literally or figuratively)","kjv":"(a-)far (off), good (great) way off."},"G3113":{"gr":"μακρόθεν","tr":"makróthen","pron":"mak-roth'-en","deriv":"adverb from G3117;","def":"from a distance or afar","kjv":"afar off, from far."},"G3114":{"gr":"μακροθυμέω","tr":"makrothyméō","pron":"mak-roth-oo-meh'-o","deriv":"from the same as G3116;","def":"to be long-spirited, i.e. (objectively) forbearing or (subjectively) patient","kjv":"bear (suffer) long, be longsuffering, have (long) patience, be patient, patiently endure."},"G3115":{"gr":"μακροθυμία","tr":"makrothymía","pron":"mak-roth-oo-mee'-ah","deriv":"from the same as G3116;","def":"longanimity, i.e. (objectively) forbearance or (subjectively) fortitude","kjv":"longsuffering, patience."},"G3116":{"gr":"μακροθυμώς","tr":"makrothymṓs","pron":"mak-roth-oo-moce'","deriv":"adverb of a compound of G3117 and G2372;","def":"with long (enduring) temper, i.e. leniently","kjv":"patiently."},"G3117":{"gr":"μακρός","tr":"makrós","pron":"mak-ros'","deriv":"from G3372;","def":"long (in place (distant) or time (neuter plural))","kjv":"far, long."},"G3118":{"gr":"μακροχρόνιος","tr":"makrochrónios","pron":"mak-rokh-ron'-ee-os","deriv":"from G3117 and G5550;","def":"long-timed, i.e. long-lived","kjv":"live long."},"G3119":{"gr":"μαλακία","tr":"malakía","pron":"mal-ak-ee'-ah","deriv":"from G3120;","def":"softness, i.e. enervation (debility)","kjv":"disease."},"G3120":{"gr":"μαλακός","tr":"malakós","pron":"mal-ak-os'","deriv":"of uncertain affinity;","def":"soft, i.e. fine (clothing); figuratively, a catamite","kjv":"effeminate, soft."},"G3121":{"gr":"Μαλελεήλ","tr":"Maleleḗl","pron":"mal-el-eh-ale'","deriv":"of Hebrew origin ( H4111);","def":"Maleleel (i.e. Mahalalel), an antediluvian","kjv":"Maleleel."},"G3122":{"gr":"μάλιστα","tr":"málista","pron":"mal'-is-tah","deriv":"neuter plural of the superlative of an apparently primary adverb μάλα (mála) (very);","def":"(adverbially) most (in the greatest degree) or particularly","kjv":"chiefly, most of all, (e-)specially."},"G3123":{"gr":"μᾶλλον","tr":"mâllon","pron":"mal'-lon","deriv":"neuter of the comparative of the same as G3122;","def":"(adverbially) more (in a greater degree) or rather","kjv":"+ better, X far, (the) more (and more), (so) much (the more), rather."},"G3124":{"gr":"Μάλχος","tr":"Málchos","pron":"mal'-khos","deriv":"of Hebrew origin ( H4429);","def":"Malchus, an Israelite","kjv":"Malchus."},"G3125":{"gr":"μάμμη","tr":"mámmē","pron":"mam'-may","deriv":"of natural origin (\"mammy\");","def":"a grandmother","kjv":"grandmother."},"G3126":{"gr":"μαμμωνᾶς","tr":"mammōnâs","pron":"mam-mo-nas'","deriv":"of Chaldee origin (confidence, i.e. wealth, personified);","def":"mammonas, i.e. avarice (deified)","kjv":"mammon."},"G3127":{"gr":"Μαναήν","tr":"Manaḗn","pron":"man-ah-ane'","deriv":"of uncertain origin;","def":"Manaën, a Christian","kjv":"Manaen."},"G3128":{"gr":"Μανασσῆς","tr":"Manassēs","pron":"man-as-sace'","deriv":"of Hebrew origin ( H4519);","def":"Mannasses (i.e. Menashsheh), an Israelite","kjv":"Manasses."},"G3129":{"gr":"μανθάνω","tr":"manthánō","pron":"man-than'-o","deriv":"prolongation from a primary verb, another form of which, μαθέω (mathéō), is used as an alternate in certain tenses;","def":"to learn (in any way)","kjv":"learn, understand."},"G3130":{"gr":"μανία","tr":"manía","pron":"man-ee'-ah","deriv":"from G3105;","def":"craziness","kjv":"(+ make) X mad."},"G3131":{"gr":"μάννα","tr":"mánna","pron":"man'-nah","deriv":"of Hebrew origin ( H4478);","def":"manna (i.e. man), an edible gum","kjv":"manna."},"G3132":{"gr":"μαντεύομαι","tr":"manteúomai","pron":"mant-yoo'-om-ahee","deriv":"from a derivative of G3105 (meaning a prophet, as supposed to rave through inspiration);","def":"to divine, i.e. utter spells (under pretense of foretelling","kjv":"by soothsaying."},"G3133":{"gr":"μαραίνω","tr":"maraínō","pron":"mar-ah'-ee-no","deriv":"of uncertain affinity;","def":"to extinguish (as fire), i.e. (figuratively and passively) to pass away","kjv":"fade away."},"G3134":{"gr":"μαρὰν ἀθά","tr":"maràn athá","pron":"mar'-an ath'-ah","deriv":"of Chaldee origin (meaning our Lord has come);","def":"maranatha, i.e. an exclamation of the approaching divine judgment","kjv":"Maran-atha."},"G3135":{"gr":"μαργαρίτης","tr":"margarítēs","pron":"mar-gar-ee'-tace","deriv":"from μάργαρος (márgaros) (a pearl-oyster);","def":"a pearl","kjv":"pearl."},"G3136":{"gr":"Μάρθα","tr":"Mártha","pron":"mar'-thah","deriv":"probably of Chaldee origin (meaning mistress);","def":"Martha, a Christian woman","kjv":"Martha."},"G3137":{"gr":"Μαρία","tr":"María","pron":"mar-ee'-ah","deriv":"of Hebrew origin ( H4813);","def":"Maria or Mariam (i.e. Mirjam), the name of six Christian females","kjv":"Mary."},"G3138":{"gr":"Μάρκος","tr":"Márkos","pron":"mar'-kos","deriv":"of Latin origin;","def":"Marcus, a Christian","kjv":"Marcus, Mark."},"G3139":{"gr":"μάρμαρος","tr":"mármaros","pron":"mar'-mar-os","deriv":"from μαρμαίρω (marmaírō) (to glisten);","def":"marble (as sparkling white)","kjv":"marble."},"G3140":{"gr":"μαρτυρέω","tr":"martyréō","pron":"mar-too-reh'-o","deriv":"from G3144;","def":"to be a witness, i.e. testify (literally or figuratively)","kjv":"charge, give (evidence), bear record, have (obtain, of) good (honest) report, be well reported of, testify, give (have) testimony, (be, bear, give, obtain) witness."},"G3141":{"gr":"μαρτυρία","tr":"martyría","pron":"mar-too-ree'-ah","deriv":"from G3144;","def":"evidence given (judicially or genitive case)","kjv":"record, report, testimony, witness."},"G3142":{"gr":"μαρτύριον","tr":"martýrion","pron":"mar-too'-ree-on","deriv":"neuter of a presumed derivative of G3144;","def":"something evidential, i.e. (genitive case) evidence given or (specially), the Decalogue (in the sacred Tabernacle)","kjv":"to be testified, testimony, witness."},"G3143":{"gr":"μαρτύρομαι","tr":"martýromai","pron":"mar-too'-rom-ahee","deriv":"middle voice from G3144;","def":"to be adduced as a witness, i.e. (figuratively) to obtest (in affirmation or exhortation)","kjv":"take to record, testify."},"G3144":{"gr":"μάρτυς","tr":"mártys","pron":"mar'-toos","deriv":"of uncertain affinity;","def":"a witness (literally (judicially) or figuratively (genitive case)); by analogy, a \"martyr\"","kjv":"martyr, record, witness."},"G3145":{"gr":"μασσάομαι","tr":"massáomai","pron":"mas-sah'-om-ahee","deriv":"from a primary μάσσω (mássō) (to handle or squeeze);","def":"to chew","kjv":"gnaw."},"G3146":{"gr":"μαστιγόω","tr":"mastigóō","pron":"mas-tig-o'-o","deriv":"from G3148;","def":"to flog (literally or figuratively)","kjv":"scourge."},"G3147":{"gr":"μαστίζω","tr":"mastízō","pron":"mas-tid'-zo","deriv":"from G3149;","def":"to whip (literally)","kjv":"scourge."},"G3148":{"gr":"μάστιξ","tr":"mástix","pron":"mas'-tix","deriv":"probably from the base of G3145 (through the idea of contact);","def":"a whip (literally, the Roman flagellum for criminals; figuratively, a disease)","kjv":"plague, scourging."},"G3149":{"gr":"μαστός","tr":"mastós","pron":"mas-tos'","deriv":"from the base of G3145;","def":"a (properly, female) breast (as if kneaded up)","kjv":"pap."},"G3150":{"gr":"ματαιολογία","tr":"mataiología","pron":"mat-ah-yol-og-ee'-ah","deriv":"from G3151;","def":"random talk, i.e. babble","kjv":"vain jangling."},"G3151":{"gr":"ματαιολόγος","tr":"mataiológos","pron":"mat-ah-yol-og'-os","deriv":"from G3152 and G3004;","def":"an idle (i.e. senseless or mischievous) talker, i.e. a wrangler","kjv":"vain talker."},"G3152":{"gr":"μάταιος","tr":"mátaios","pron":"mat'-ah-yos","deriv":"from the base of G3155;","def":"empty, i.e. (literally) profitless, or (specially), an idol","kjv":"vain, vanity."},"G3153":{"gr":"ματαιότης","tr":"mataiótēs","pron":"mat-ah-yot'-ace","deriv":"from G3152;","def":"inutility; figuratively, transientness; morally, depravity","kjv":"vanity."},"G3154":{"gr":"ματαιόω","tr":"mataióō","pron":"mat-ah-yo'-o","deriv":"from G3152;","def":"to render (passively, become) foolish, i.e. (morally) wicked or (specially), idolatrous","kjv":"become vain."},"G3155":{"gr":"μάτην","tr":"mátēn","pron":"mat'-ane","deriv":"accusative case of a derivative of the base of G3145 (through the idea of tentative manipulation, i.e. unsuccessful search, or else of punishment);","def":"folly, i.e. (adverbially) to no purpose","kjv":"in vain."},"G3156":{"gr":"Ματθαῖος","tr":"Matthaîos","pron":"mat-thah'-yos","deriv":"a shorter form of G3161;","def":"Matthæus (i.e. Matthitjah), an Israelite and a Christian","kjv":"Matthew."},"G3157":{"gr":"Ματθάν","tr":"Matthán","pron":"mat-than'","deriv":"of Hebrew origin ( H4977);","def":"Matthan (i.e. Mattan), an Israelite","kjv":"Matthan."},"G3158":{"gr":"Ματθάτ","tr":"Matthát","pron":"mat-that'","deriv":"probably a shortened form of G3161;","def":"Matthat (i.e. Mattithjah), the name of two Israelites","kjv":"Mathat."},"G3159":{"gr":"Ματθίας","tr":"Matthías","pron":"mat-thee'-as","deriv":"apparently a shortened form of G3161;","def":"Matthias (i.e. Mattithjah), an Israelite","kjv":"Matthias."},"G3160":{"gr":"Ματταθά","tr":"Mattathá","pron":"mat-tath-ah'","deriv":"probably a shortened form of G3161 (compare H4992);","def":"Mattatha (i.e. Mattithjah), an Israelite","kjv":"Mattatha."},"G3161":{"gr":"Ματταθίας","tr":"Mattathías","pron":"mat-tath-ee'-as","deriv":"of Hebrew origin ( H4993);","def":"Mattathias (i.e. Mattithjah), an Israelite and a Christian","kjv":"Mattathias."},"G3162":{"gr":"μάχαιρα","tr":"máchaira","pron":"makh'-ahee-rah","deriv":"probably feminine of a presumed derivative of G3163;","def":"a knife, i.e. dirk; figuratively, war, judicial punishment","kjv":"sword."},"G3163":{"gr":"μάχη","tr":"máchē","pron":"makh'-ay","deriv":"from G3164;","def":"a battle, i.e. (figuratively) controversy","kjv":"fighting, strive, striving."},"G3164":{"gr":"μάχομαι","tr":"máchomai","pron":"makh'-om-ahee","deriv":"middle voice of an apparently primary verb;","def":"to war, i.e. (figuratively) to quarrel, dispute","kjv":"fight, strive."},"G3165":{"gr":"μέ","tr":"mé","pron":"meh","deriv":"a shorter (and probably original) form of G1691;","def":"me","kjv":"I, me, my."},"G3166":{"gr":"μεγαλαυχέω","tr":"megalauchéō","pron":"meg-al-ow-kheh'-o","deriv":"from a compound of G3173 and αὐχέω (auchéō) (to boast; akin to G837 and G2744);","def":"to talk big, i.e. be grandiloquent (arrogant, egotistic)","kjv":"boast great things."},"G3167":{"gr":"μεγαλεῖος","tr":"megaleîos","pron":"meg-al-i'-os","deriv":"from G3173;","def":"magnificent, i.e. (neuter, plural as noun) a conspicuous favor, or (subjectively) perfection","kjv":"great things, wonderful works."},"G3168":{"gr":"μεγαλειότης","tr":"megaleiótēs","pron":"meg-al-i-ot'-ace","deriv":"from G3167;","def":"superbness, i.e. glory or splendor","kjv":"magnificence, majesty, mighty power."},"G3169":{"gr":"μεγαλοπρεπής","tr":"megaloprepḗs","pron":"meg-al-op-rep-ace'","deriv":"from G3173 and G4241;","def":"befitting greatness or magnificence (majestic)","kjv":"excellent."},"G3170":{"gr":"μεγαλύνω","tr":"megalýnō","pron":"meg-al-oo'-no","deriv":"from G3173;","def":"to make (or declare) great, i.e. increase or (figuratively) extol","kjv":"enlarge, magnify, shew great."},"G3171":{"gr":"μεγάλως","tr":"megálōs","pron":"meg-al'-oce","deriv":"adverb from G3173;","def":"much","kjv":"greatly."},"G3172":{"gr":"μεγαλωσύνη","tr":"megalōsýnē","pron":"meg-al-o-soo'-nay","deriv":"from G3173;","def":"greatness, i.e. (figuratively) divinity (often God himself)","kjv":"majesty."},"G3173":{"gr":"μέγας","tr":"mégas","pron":"meg'-as","deriv":"(including the prolonged forms, feminine μεγάλη (megálē), plural μεγάλοι (megáloi), etc.; compare also G3176, G3187);","def":"big (literally or figuratively, in a very wide application)","kjv":"(+ fear) exceedingly, great(-est), high, large, loud, mighty, + (be) sore (afraid), strong, X to years."},"G3174":{"gr":"μέγεθος","tr":"mégethos","pron":"meg'-eth-os","deriv":"from G3173;","def":"magnitude (figuratively)","kjv":"greatness."},"G3175":{"gr":"μεγιστᾶνες","tr":"megistânes","pron":"meg-is-tan'-es","deriv":"plural from G3176;","def":"grandees","kjv":"great men, lords."},"G3176":{"gr":"μέγιστος","tr":"mégistos","pron":"meg'-is-tos","deriv":"superlative of G3173;","def":"greatest or very great","kjv":"exceeding great."},"G3177":{"gr":"μεθερμηνεύω","tr":"methermēneúō","pron":"meth-er-mane-yoo'-o","deriv":"from G3326 and G2059;","def":"to explain over, i.e. translate","kjv":"(by) interpret(-ation)."},"G3178":{"gr":"μέθη","tr":"méthē","pron":"meth'-ay","deriv":"apparently a primary word;","def":"an intoxicant, i.e. (by implication) intoxication","kjv":"drunkenness."},"G3179":{"gr":"μεθίστημι","tr":"methístēmi","pron":"meth-is'-tay-mee","deriv":"from G3326 and G2476;","def":"to transfer, i.e. carry away, depose or (figuratively) exchange, seduce","kjv":"put out, remove, translate, turn away."},"G3180":{"gr":"μεθοδεία","tr":"methodeía","pron":"meth-od-i'-ah","deriv":"from a compound of G3326 and G3593 (compare \"method\");","def":"travelling over, i.e. travesty (trickery)","kjv":"wile, lie in wait."},"G3181":{"gr":"μεθόριος","tr":"methórios","pron":"meth-or'-ee-os","deriv":"from G3326 and G3725;","def":"bounded alongside, i.e. contiguous (neuter plural as noun, frontier)","kjv":"border."},"G3182":{"gr":"μεθύσκω","tr":"methýskō","pron":"meth-oos'-ko","deriv":"a prolonged (transitive) form of G3184;","def":"to intoxicate","kjv":"be drunk(-en)."},"G3183":{"gr":"μέθυσος","tr":"méthysos","pron":"meth'-oo-sos","deriv":"from G3184;","def":"tipsy, i.e. (as noun) a sot","kjv":"drunkard."},"G3184":{"gr":"μεθύω","tr":"methýō","pron":"meth-oo'-o","deriv":"from another form of G3178;","def":"to drink to intoxication, i.e. get drunk","kjv":"drink well, make (be) drunk(-en)."},"G3185":{"gr":"μεῖζον","tr":"meîzon","pron":"mide'-zon","deriv":"neuter of G3187;","def":"(adverbially) in greater degree","kjv":"the more."},"G3186":{"gr":"μειζότερος","tr":"meizóteros","pron":"mide-zot'-er-os","deriv":"continued comparative of G3187;","def":"still larger (figuratively)","kjv":"greater."},"G3187":{"gr":"μείζων","tr":"meízōn","pron":"mide'-zone","deriv":"irregular comparative of G3173;","def":"larger (literally or figuratively, specially, in age)","kjv":"elder, greater(-est), more."},"G3188":{"gr":"μέλαν","tr":"mélan","pron":"mel'-an","deriv":"neuter of G3189 as noun;","def":"ink","kjv":"ink."},"G3189":{"gr":"μέλας","tr":"mélas","pron":"mel'-as","deriv":"apparently a primary word;","def":"black","kjv":"black."},"G3190":{"gr":"Μελεᾶς","tr":"Meleâs","pron":"mel-eh-as'","deriv":"of uncertain origin;","def":"Meleas, an Israelite","kjv":"Meleas."},"G3191":{"gr":"μελετάω","tr":"meletáō","pron":"mel-et-ah'-o","deriv":"from a presumed derivative of G3199;","def":"to take care of, i.e. (by implication) revolve in the mind","kjv":"imagine, (pre-)meditate."},"G3192":{"gr":"μέλι","tr":"méli","pron":"mel'-ee","deriv":"apparently a primary word;","def":"honey","kjv":"honey."},"G3193":{"gr":"μελίσσιος","tr":"melíssios","pron":"mel-is'-see-os","deriv":"from G3192;","def":"relating to honey, i.e. bee (comb)","kjv":"honeycomb."},"G3194":{"gr":"Μελίτη","tr":"Melítē","pron":"mel-ee'-tay","deriv":"of uncertain origin;","def":"Melita, an island in the Mediterranean","kjv":"Melita."},"G3195":{"gr":"μέλλω","tr":"méllō","pron":"mel'-lo","deriv":"a strengthened form of G3199 (through the idea of expectation);","def":"to intend, i.e. be about to be, do, or suffer something (of persons or things, especially events; in the sense of purpose, duty, necessity, probability, possibility, or hesitation)","kjv":"about, after that, be (almost), (that which is, things, + which was for) to come, intend, was to (be), mean, mind, be at the point, (be) ready, + return, shall (begin), (which, that) should (after, afterwards, hereafter) tarry, which was for, will, would, be yet."},"G3196":{"gr":"μέλος","tr":"mélos","pron":"mel'-os","deriv":"of uncertain affinity;","def":"a limb or part of the body","kjv":"member."},"G3197":{"gr":"Μελχί","tr":"Melchí","pron":"mel-khee'","deriv":"of Hebrew origin ( H4428 with pronominal suffix, my king);","def":"Melchi (i.e. Malki), the name of two Israelites","kjv":"Melchi."},"G3198":{"gr":"Μελχισεδέκ","tr":"Melchisedék","pron":"mel-khis-ed-ek'","deriv":"of Hebrew origin ( H4442);","def":"Melchisedek (i.e. Malkitsedek), a patriarch","kjv":"Melchisedec."},"G3199":{"gr":"μέλω","tr":"mélō","pron":"mel'-o","deriv":"a primary verb;","def":"to be of interest to, i.e. to concern (only third person singular present indicative used impersonally, it matters)","kjv":"(take) care."},"G3200":{"gr":"μεμβράνα","tr":"membrána","pron":"mem-bran'-ah","deriv":"of Latin origin (\"membrane\");","def":"a (written) sheep-skin","kjv":"parchment."},"G3201":{"gr":"μέμφομαι","tr":"mémphomai","pron":"mem'-fom-ahee","deriv":"middle voice of an apparently primary verb;","def":"to blame","kjv":"find fault."},"G3202":{"gr":"μεμψίμοιρος","tr":"mempsímoiros","pron":"mem-psim'-oy-ros","deriv":"from a presumed derivative of G3201 and μοῖρα (moîra) (fate; akin to the base of G3313);","def":"blaming fate, i.e. querulous (discontented)","kjv":"complainer."},"G3303":{"gr":"μέν","tr":"mén","pron":"men","deriv":"a primary particle;","def":"properly, indicative of affirmation or concession (in fact); usually followed by a contrasted clause with G1161 (this one, the former, etc.)","kjv":"even, indeed, so, some, truly, verily."},"G3304":{"gr":"μενοῦνγε","tr":"menoûnge","pron":"men-oon'-geh","deriv":"from G3303 and G3767 and G1065;","def":"so then at least","kjv":"nay but, yea doubtless (rather, verily)."},"G3305":{"gr":"μέντοι","tr":"méntoi","pron":"men'-toy","deriv":"from G3303 and G5104;","def":"indeed though, i.e. however","kjv":"also, but, howbeit, nevertheless, yet."},"G3306":{"gr":"μένω","tr":"ménō","pron":"men'-o","deriv":"a primary verb;","def":"to stay (in a given place, state, relation or expectancy)","kjv":"abide, continue, dwell, endure, be present, remain, stand, tarry (for), X thine own."},"G3307":{"gr":"μερίζω","tr":"merízō","pron":"mer-id'-zo","deriv":"from G3313;","def":"to part, i.e. (literally) to apportion, bestow, share, or (figuratively) to disunite, differ","kjv":"deal, be difference between, distribute, divide, give part."},"G3308":{"gr":"μέριμνα","tr":"mérimna","pron":"mer'-im-nah","deriv":"from G3307 (through the idea of distraction);","def":"solicitude","kjv":"care."},"G3309":{"gr":"μεριμνάω","tr":"merimnáō","pron":"mer-im-nah'-o","deriv":"from G3308;","def":"to be anxious about","kjv":"(be, have) care(-ful), take thought."},"G3310":{"gr":"μερίς","tr":"merís","pron":"mer-ece'","deriv":"feminine of G3313;","def":"a portion, i.e. province, share or (abstractly) participation","kjv":"part (X -akers)."},"G3311":{"gr":"μερισμός","tr":"merismós","pron":"mer-is-mos'","deriv":"from G3307;","def":"a separation or distribution","kjv":"dividing asunder, gift."},"G3312":{"gr":"μεριστής","tr":"meristḗs","pron":"mer-is-tace'","deriv":"from G3307;","def":"an apportioner (administrator)","kjv":"divider."},"G3313":{"gr":"μέρος","tr":"méros","pron":"mer'-os","deriv":"from an obsolete but more primary form of μείρομαι (meíromai) (to get as a section or allotment);","def":"a division or share (literally or figuratively, in a wide application)","kjv":"behalf, course, coast, craft, particular (+ -ly), part (+ -ly), piece, portion, respect, side, some sort(-what)."},"G3314":{"gr":"μεσημβρία","tr":"mesēmbría","pron":"mes-ame-bree'-ah","deriv":"from G3319 and G2250;","def":"midday; by implication, the south","kjv":"noon, south."},"G3315":{"gr":"μεσιτεύω","tr":"mesiteúō","pron":"mes-it-yoo'-o","deriv":"from G3316;","def":"to interpose (as arbiter), i.e (by implication) to ratify (as surety)","kjv":"confirm."},"G3316":{"gr":"μεσίτης","tr":"mesítēs","pron":"mes-ee'-tace","deriv":"from G3319;","def":"a go-between, i.e. (simply) an internunciator, or (by implication) a reconciler (intercessor)","kjv":"mediator."},"G3317":{"gr":"μεσονύκτιον","tr":"mesonýktion","pron":"mes-on-ook'-tee-on","deriv":"neuter of compound of G3319 and G3571;","def":"midnight (especially as a watch)","kjv":"midnight."},"G3318":{"gr":"Μεσοποταμία","tr":"Mesopotamía","pron":"mes-op-ot-am-ee'-ah","deriv":"from G3319 and G4215;","def":"Mesopotamia (as lying between the Euphrates and the Tigris; compare H763), a region of Asia","kjv":"Mesopotamia."},"G3319":{"gr":"μέσος","tr":"mésos","pron":"mes'-os","deriv":"from G3326;","def":"middle (as an adjective or (neuter) noun)","kjv":"among, X before them, between, + forth, mid(-day, -night), midst, way."},"G3320":{"gr":"μεσότοιχον","tr":"mesótoichon","pron":"mes-ot'-oy-khon","deriv":"from G3319 and G5109;","def":"a partition (figuratively)","kjv":"middle wall."},"G3321":{"gr":"μεσουράνημα","tr":"mesouránēma","pron":"mes-oo-ran'-ay-mah","deriv":"from a presumed compound of G3319 and G3772;","def":"mid-sky","kjv":"midst of heaven."},"G3322":{"gr":"μεσόω","tr":"mesóō","pron":"mes-o'-o","deriv":"from G3319;","def":"to form the middle, i.e. (in point of time), to be half-way over","kjv":"be about the midst."},"G3323":{"gr":"Μεσσίας","tr":"Messías","pron":"mes-see'-as","deriv":"of Hebrew origin ( H4899);","def":"the Messias (i.e. Mashiach), or Christ","kjv":"Messias."},"G3324":{"gr":"μεστός","tr":"mestós","pron":"mes-tos'","deriv":"of uncertain derivation;","def":"replete (literally or figuratively)","kjv":"full."},"G3325":{"gr":"μεστόω","tr":"mestóō","pron":"mes-to'-o","deriv":"from G3324;","def":"to replenish, i.e. (by implication) to intoxicate","kjv":"fill."},"G3326":{"gr":"μετά","tr":"metá","pron":"met-ah'","deriv":"a primary preposition (often used adverbially);","def":"properly, denoting accompaniment; \"amid\" (local or causal); modified variously according to the case (genitive association, or accusative succession) with which it is joined; occupying an intermediate position between G575 or G1537 and G1519 or G4314; less intimate than G1722 and less close than G4862)","kjv":"after(-ward), X that he again, against, among, X and, + follow, hence, hereafter, in, of, (up-)on, + our, X and setting, since, (un-)to, + together, when, with (+ -out)."},"G3327":{"gr":"μεταβαίνω","tr":"metabaínō","pron":"met-ab-ah'-ee-no","deriv":"from G3326 and the base of G939;","def":"to change place","kjv":"depart, go, pass, remove."},"G3328":{"gr":"μεταβάλλω","tr":"metabállō","pron":"met-ab-al'-lo","deriv":"from G3326 and G906;","def":"to throw over, i.e. (middle voice figuratively) to turn about in opinion","kjv":"change mind."},"G3329":{"gr":"μετάγω","tr":"metágō","pron":"met-ag'-o","deriv":"from G3326 and G718;","def":"to lead over, i.e. transfer (direct)","kjv":"turn about."},"G3330":{"gr":"μεταδίδωμι","tr":"metadídōmi","pron":"met-ad-id'-o-mee","deriv":"from G3326 and G1325;","def":"to give over, i.e. share","kjv":"give, impart."},"G3331":{"gr":"μετάθεσις","tr":"metáthesis","pron":"met-ath'-es-is","deriv":"from G3346;","def":"transposition, i.e. transferral (to heaven), disestablishment (of a law)","kjv":"change, removing, translation."},"G3332":{"gr":"μεταίρω","tr":"metaírō","pron":"met-ah'-ee-ro","deriv":"from G3326 and G142;","def":"to betake oneself, i.e. remove (locally)","kjv":"depart."},"G3333":{"gr":"μετακαλέω","tr":"metakaléō","pron":"met-ak-al-eh'-o","deriv":"from G3326 and G2564;","def":"to call elsewhere, i.e. summon","kjv":"call (for, hither)."},"G3334":{"gr":"μετακινέω","tr":"metakinéō","pron":"met-ak-ee-neh'-o","deriv":"from G3326 and G2795;","def":"to stir to a place elsewhere, i.e. remove (figuratively)","kjv":"move away."},"G3335":{"gr":"μεταλαμβάνω","tr":"metalambánō","pron":"met-al-am-ban'-o","deriv":"from G3326 and G2983;","def":"to participate; genitive case, to accept (and use)","kjv":"eat, have, be partaker, receive, take."},"G3336":{"gr":"μετάλημψις","tr":"metálēmpsis","pron":"met-al'-ape-sis","deriv":"from G3335;","def":"participation","kjv":"taking."},"G3337":{"gr":"μεταλλάσσω","tr":"metallássō","pron":"met-al-las'-so","deriv":"from G3326 and G236;","def":"to exchange","kjv":"change."},"G3338":{"gr":"μεταμέλλομαι","tr":"metaméllomai","pron":"met-am-el'-lom-ahee","deriv":"from G3326 and the middle voice of G3199;","def":"to care afterwards, i.e. regret","kjv":"repent (self)."},"G3339":{"gr":"μεταμορφόω","tr":"metamorphóō","pron":"met-am-or-fo'-o","deriv":"from G3326 and G3445;","def":"to transform (literally or figuratively, \"metamorphose\")","kjv":"change, transfigure, transform."},"G3340":{"gr":"μετανοέω","tr":"metanoéō","pron":"met-an-o-eh'-o","deriv":"from G3326 and G3539;","def":"to think differently or afterwards, i.e. reconsider (morally, feel compunction)","kjv":"repent."},"G3341":{"gr":"μετάνοια","tr":"metánoia","pron":"met-an'-oy-ah","deriv":"from G3340;","def":"(subjectively) compunction (for guilt, including reformation); by implication, reversal (of (another's) decision)","kjv":"repentance."},"G3342":{"gr":"μεταξύ","tr":"metaxý","pron":"met-ax-oo'","deriv":"from G3326 and a form of G4862;","def":"betwixt (of place or person); (of time) as adjective, intervening, or (by implication) adjoining","kjv":"between, mean while, next."},"G3343":{"gr":"μεταπέμπω","tr":"metapémpō","pron":"met-ap-emp'-o","deriv":"from G3326 and G3992;","def":"to send from elsewhere, i.e. (middle voice) to summon or invite","kjv":"call (send) for."},"G3344":{"gr":"μεταστρέφω","tr":"metastréphō","pron":"met-as-tref'-o","deriv":"from G3326 and G4762;","def":"to turn across, i.e. transmute or (figuratively) corrupt","kjv":"pervert, turn."},"G3345":{"gr":"μετασχηματίζω","tr":"metaschēmatízō","pron":"met-askh-ay-mat-id'-zo","deriv":"from G3326 and a derivative of G4976;","def":"to transfigure or disguise; figuratively, to apply (by accommodation)","kjv":"transfer, transform (self)."},"G3346":{"gr":"μετατίθημι","tr":"metatíthēmi","pron":"met-at-ith'-ay-mee","deriv":"from G3326 and G5087;","def":"to transfer, i.e. (literally) transport, (by implication) exchange, (reflexively) change sides, or (figuratively) pervert","kjv":"carry over, change, remove, translate, turn."},"G3347":{"gr":"μετέπειτα","tr":"metépeita","pron":"met-ep'-i-tah","deriv":"from G3326 and G1899;","def":"thereafter","kjv":"afterward."},"G3348":{"gr":"μετέχω","tr":"metéchō","pron":"met-ekh'-o","deriv":"from G3326 and G2192;","def":"to share or participate; by implication, belong to, eat (or drink)","kjv":"be partaker, pertain, take part, use."},"G3349":{"gr":"μετεωρίζω","tr":"meteōrízō","pron":"met-eh-o-rid'-zo","deriv":"from a compound of G3326 and a collateral form of G142 or perhaps rather G109 (compare \"meteor\");","def":"to raise in mid-air, i.e. (figuratively) suspend (passively, fluctuate or be anxious)","kjv":"be of doubtful mind."},"G3350":{"gr":"μετοικεσία","tr":"metoikesía","pron":"met-oy-kes-ee'-ah","deriv":"from a derivative of a compound of G3326 and G3624;","def":"a change of abode, i.e. (specially), expatriation","kjv":"X brought, carried(-ying) away (in-)to."},"G3351":{"gr":"μετοικίζω","tr":"metoikízō","pron":"met-oy-kid'-zo","deriv":"from the same as G3350;","def":"to transfer as a settler or captive, i.e colonize or exile","kjv":"carry away, remove into."},"G3352":{"gr":"μετοχή","tr":"metochḗ","pron":"met-okh-ay'","deriv":"from G3348;","def":"participation, i.e. intercourse","kjv":"fellowship."},"G3353":{"gr":"μέτοχος","tr":"métochos","pron":"met'-okh-os","deriv":"from G3348;","def":"participant, i.e. (as noun) a sharer; by implication, an associate","kjv":"fellow, partaker, partner."},"G3354":{"gr":"μετρέω","tr":"metréō","pron":"met-reh'-o","deriv":"from G3358;","def":"to measure (i.e. ascertain in size by a fixed standard); by implication, to admeasure (i.e. allot by rule)","kjv":"figuratively, to estimate:--measure, mete."},"G3355":{"gr":"μετρητής","tr":"metrētḗs","pron":"met-ray-tace'","deriv":"from G3354;","def":"a measurer, i.e. (specially), a certain standard measure of capacity for liquids","kjv":"firkin."},"G3356":{"gr":"μετριοπαθέω","tr":"metriopathéō","pron":"met-ree-op-ath-eh'-o","deriv":"from a compound of the base of G3357 and G3806;","def":"to be moderate in passion, i.e. gentle (to treat indulgently)","kjv":"have compassion."},"G3357":{"gr":"μετρίως","tr":"metríōs","pron":"met-ree'-oce","deriv":"adverb from a derivative of G3358;","def":"moderately, i.e. slightly","kjv":"a little."},"G3358":{"gr":"μέτρον","tr":"métron","pron":"met'-ron","deriv":"an apparently primary word;","def":"a measure (\"metre\"), literally or figuratively; by implication, a limited portion (degree)","kjv":"measure."},"G3359":{"gr":"μέτωπον","tr":"métōpon","pron":"met'-o-pon","deriv":"from G3326 and ops (the face);","def":"the forehead (as opposite the countenance)","kjv":"forehead."},"G3360":{"gr":"μέχρι","tr":"méchri","pron":"mekh'-ree","deriv":"from G3372;","def":"as far as, i.e. up to a certain point (as a preposition, of extent (denoting the terminus, whereas G891 refers especially to the space of time or place intervening) or conjunction)","kjv":"till, (un-)to, until."},"G3361":{"gr":"μή","tr":"mḗ","pron":"may","deriv":"a primary particle of qualified negation (whereas G3756 expresses an absolute denial);","def":"(adverb) not, (conjunction) lest; also (as an interrogative implying a negative answer (whereas G3756 expects an affirmative one)) whether","kjv":"any but (that), X forbear, + God forbid, + lack, lest, neither, never, no (X wise in), none, nor, (can-)not, nothing, that not, un(-taken), without."},"G3362":{"gr":"ἐὰν μή","tr":"eàn mḗ","pron":"eh-an' may","deriv":"i.e. G1437 and G3361;","def":"if not, i.e. unless","kjv":"X before, but, except, if, no, (if, + whosoever) not."},"G3363":{"gr":"ἵνα μή","tr":"hína mḗ","pron":"hin'-ah may","deriv":"i.e. G2443 and G3361;","def":"in order (or so) that not","kjv":"albeit not, lest, that, no(-t, (-thing))."},"G3364":{"gr":"οὐ μή","tr":"ou mḗ","pron":"oo may","deriv":"i.e. G3756 and G3361;","def":"a double negative strengthening the denial; not at all","kjv":"any more, at all, by any (no) means, neither, never, no (at all), in no case (wise), nor ever, not (at all, in any wise)."},"G3365":{"gr":"μηδαμῶς","tr":"mēdamōs","pron":"may-dam-oce'","deriv":"adverb from a compound of G3361 and ἀμός (amós) (somebody);","def":"by no means","kjv":"not so."},"G3366":{"gr":"μηδέ","tr":"mēdé","pron":"may-deh'","deriv":"from G3361 and G1161;","def":"but not, not even; in a continued negation, nor","kjv":"neither, nor (yet), (no) not (once, so much as)."},"G3367":{"gr":"μηδείς","tr":"mēdeís","pron":"may-dice'","deriv":"from G3361 and G1520;","def":"not even one (man, woman, thing)","kjv":"any (man, thing), no (man), none, not (at all, any man, a whit), nothing, + without delay."},"G3368":{"gr":"μηδέποτε","tr":"mēdépote","pron":"may-dep'-ot-eh","deriv":"from G3366 and G4218;","def":"not even ever","kjv":"never."},"G3369":{"gr":"μηδέπω","tr":"mēdépō","pron":"may-dep'-o","deriv":"from G3366 and G4452;","def":"not even yet","kjv":"not yet."},"G3370":{"gr":"Μῆδος","tr":"Mēdos","pron":"may'-dos","deriv":"of foreign origin (compare H4074);","def":"a Median, or inhabitant of Media","kjv":"Mede."},"G3371":{"gr":"μηκέτι","tr":"mēkéti","pron":"may-ket'-ee","deriv":"from G3361 and G2089;","def":"no further","kjv":"any longer, (not) henceforth, hereafter, no henceforward (longer, more, soon), not any more."},"G3372":{"gr":"μῆκος","tr":"mēkos","pron":"may'-kos","deriv":"probably akin to G3173;","def":"length (literally or figuratively)","kjv":"length."},"G3373":{"gr":"μηκύνω","tr":"mēkýnō","pron":"may-koo'-no","deriv":"from G3372;","def":"to lengthen, i.e. (middle voice) to enlarge","kjv":"grow up."},"G3374":{"gr":"μηλωτή","tr":"mēlōtḗ","pron":"may-lo-tay'","deriv":"from μῆλον (mēlon) (a sheep);","def":"a sheep-skin","kjv":"sheepskin."},"G3375":{"gr":"μήν","tr":"mḗn","pron":"mane","deriv":"a stronger form of G3303;","def":"a particle of affirmation (only with G2229); assuredly","kjv":"+ surely."},"G3376":{"gr":"μήν","tr":"mḗn","pron":"mane","deriv":"a primary word;","def":"a month","kjv":"month."},"G3377":{"gr":"μηνύω","tr":"mēnýō","pron":"may-noo'-o","deriv":"probably from the same base as G3145 and G3415 (i.e. μάω (máō), to strive);","def":"to disclose (through the idea of mental effort and thus calling to mind), i.e. report, declare, intimate","kjv":"shew, tell."},"G3378":{"gr":"μὴ οὐκ","tr":"mḕ ouk","pron":"ouk","deriv":"i.e. G3361 and G3756;","def":"as interrogative and negative, is it not that?","kjv":"neither (followed by no), + never, not."},"G3379":{"gr":"μήποτε","tr":"mḗpote","pron":"may'-pot-eh","deriv":"from G3361 and G4218;","def":"not ever; also if (or lest) ever (or perhaps)","kjv":"if peradventure, lest (at any time, haply), not at all, whether or not."},"G3380":{"gr":"μήπω","tr":"mḗpō","pron":"may'-po","deriv":"from G3361 and G4452;","def":"not yet","kjv":"not yet."},"G3381":{"gr":"μήπως","tr":"mḗpōs","pron":"may'-pos","deriv":"from G3361 and G4458;","def":"lest somehow","kjv":"lest (by any means, by some means, haply, perhaps)."},"G3382":{"gr":"μηρός","tr":"mērós","pron":"may-ros'","deriv":"perhaps a primary word;","def":"a thigh","kjv":"thigh."},"G3383":{"gr":"μήτε","tr":"mḗte","pron":"may'-teh","deriv":"from G3361 and G5037;","def":"not too, i.e. (in continued negation) neither or nor; also, not even","kjv":"neither, (n-)or, so as much."},"G3384":{"gr":"μήτηρ","tr":"mḗtēr","pron":"may'-tare","deriv":"apparently a primary word;","def":"a \"mother\" (literally or figuratively, immediate or remote)","kjv":"mother."},"G3385":{"gr":"μήτι","tr":"mḗti","pron":"may'-tee","deriv":"from G3361 and the neuter of G5100;","def":"whether at all","kjv":"not (the particle usually not expressed, except by the form of the question)."},"G3386":{"gr":"μήτιγε","tr":"mḗtige","pron":"may'-tig-eh","deriv":"from G3385 and G1065;","def":"not at all then, i.e. not to say (the rather still)","kjv":"how much more."},"G3387":{"gr":"μήτις","tr":"mḗtis","pron":"may'-tis","deriv":"from G3361 and G5100;","def":"whether any","kjv":"any (sometimes unexpressed except by the simple interrogative form of the sentence)."},"G3388":{"gr":"μήτρα","tr":"mḗtra","pron":"may'-trah","deriv":"from G3384;","def":"the matrix","kjv":"womb."},"G3389":{"gr":"μητραλῴας","tr":"mētralṓias","pron":"may-tral-o'-as","deriv":"from G3384 and the base of G257;","def":"a mother-thresher, i.e. matricide","kjv":"murderer of mothers."},"G3390":{"gr":"μητρόπολις","tr":"mētrópolis","pron":"may-trop'-ol-is","deriv":"from G3384 and G4172;","def":"a mother city, i.e. \"metropolis\"","kjv":"chiefest city."},"G3391":{"gr":"μία","tr":"mía","pron":"mee'-ah","deriv":"irregular feminine of G1520;","def":"one or first","kjv":"a (certain), + agree, first, one, X other."},"G3392":{"gr":"μιαίνω","tr":"miaínō","pron":"me-ah'-ee-no","deriv":"perhaps a primary verb;","def":"to sully or taint, i.e. contaminate (ceremonially or morally)","kjv":"defile."},"G3393":{"gr":"μίασμα","tr":"míasma","pron":"mee'-as-mah","deriv":"from G3392 (\"miasma\");","def":"(morally) foulness (properly, the effect)","kjv":"pollution."},"G3394":{"gr":"μιασμός","tr":"miasmós","pron":"mee-as-mos'","deriv":"from G3392;","def":"(morally) contamination (properly, the act)","kjv":"uncleanness."},"G3395":{"gr":"μίγμα","tr":"mígma","pron":"mig'-mah","deriv":"from G3396;","def":"a compound","kjv":"mixture."},"G3396":{"gr":"μίγνυμι","tr":"mígnymi","pron":"mig'-noo-mee","deriv":"a primary verb;","def":"to mix","kjv":"mingle."},"G3397":{"gr":"μικρόν","tr":"mikrón","pron":"mik-ron'","deriv":"masculine or neuter singular of G3398 (as noun);","def":"a small space of time or degree","kjv":"a (little) (while)."},"G3398":{"gr":"μικρός","tr":"mikrós","pron":"mik-ros'","deriv":"apparently a primary word;","def":"small (in size, quantity, number or (figuratively) dignity)","kjv":"least, less, little, small."},"G3399":{"gr":"Μίλητος","tr":"Mílētos","pron":"mil'-ay-tos","deriv":"of uncertain origin;","def":"Miletus, a city of Asia Minor","kjv":"Miletus."},"G3400":{"gr":"μίλιον","tr":"mílion","pron":"mil'-ee-on","deriv":"of Latin origin;","def":"a thousand paces, i.e. a \"mile\"","kjv":"mile."},"G3401":{"gr":"μιμέομαι","tr":"miméomai","pron":"mim-eh'-om-ahee","deriv":"middle voice from μῖμος (mîmos) (a \"mimic\");","def":"to imitate","kjv":"follow."},"G3402":{"gr":"μιμητής","tr":"mimētḗs","pron":"mim-ay-tace'","deriv":"from G3401;","def":"an imitator","kjv":"follower."},"G3403":{"gr":"μιμνήσκω","tr":"mimnḗskō","pron":"mim-nace'-ko","deriv":"a prolonged form of G3415 (from which some of the tenses are borrowed);","def":"to remind, i.e. (middle voice) to recall to mind","kjv":"be mindful, remember."},"G3404":{"gr":"μισέω","tr":"miséō","pron":"mis-eh'-o","deriv":"from a primary μῖσος (mîsos) (hatred);","def":"to detest (especially to persecute); by extension, to love less","kjv":"hate(-ful)."},"G3405":{"gr":"μισθαποδοσία","tr":"misthapodosía","pron":"mis-thap-od-os-ee'-ah","deriv":"from G3406;","def":"requital (good or bad)","kjv":"recompence of reward."},"G3406":{"gr":"μισθαποδότης","tr":"misthapodótēs","pron":"mis-thap-od-ot'-ace","deriv":"from G3409 and G591;","def":"a renumerator","kjv":"rewarder."},"G3407":{"gr":"μίσθιος","tr":"místhios","pron":"mis'-thee-os","deriv":"from G3408;","def":"a wage-earner","kjv":"hired servant."},"G3408":{"gr":"μισθός","tr":"misthós","pron":"mis-thos'","deriv":"apparently a primary word;","def":"pay for service (literally or figuratively), good or bad","kjv":"hire, reward, wages."},"G3409":{"gr":"μισθόω","tr":"misthóō","pron":"mis-tho'-o","deriv":"from G3408;","def":"to let out for wages, i.e. (middle voice) to hire","kjv":"hire."},"G3410":{"gr":"μίσθωμα","tr":"místhōma","pron":"mis'-tho-mah","deriv":"from G3409;","def":"a rented building","kjv":"hired house."},"G3411":{"gr":"μισθωτός","tr":"misthōtós","pron":"mis-tho-tos'","deriv":"from G3409;","def":"a wage-worker (good or bad)","kjv":"hired servant, hireling."},"G3412":{"gr":"Μιτυλήνη","tr":"Mitylḗnē","pron":"mit-oo-lay'-nay","deriv":"for μυτιλήνη (mytilḗnē) (abounding in shellfish);","def":"Mitylene (or Mytilene), a town on the island of Lesbos","kjv":"Mitylene."},"G3413":{"gr":"Μιχαήλ","tr":"Michaḗl","pron":"mikh-ah-ale'","deriv":"of Hebrew origin ( H4317);","def":"Michael, an archangel","kjv":"Michael."},"G3414":{"gr":"μνᾶ","tr":"mnâ","pron":"mnah","deriv":"of Latin origin;","def":"a mna (i.e. mina), a certain weight","kjv":"pound."},"G3415":{"gr":"μνάομαι","tr":"mnáomai","pron":"mnah'-om-ahee","deriv":"middle voice of a derivative of G3306 or perhaps of the base of G3145 (through the idea of fixture in the mind or of mental grasp);","def":"to bear in mind, i.e. recollect; by implication, to reward or punish","kjv":"be mindful, remember, come (have) in remembrance."},"G3416":{"gr":"Μνάσων","tr":"Mnásōn","pron":"mnah'-sohn","deriv":"of uncertain origin;","def":"Mnason, a Christian","kjv":"Mnason."},"G3417":{"gr":"μνεία","tr":"mneía","pron":"mni'-ah","deriv":"from G3415 or G3403;","def":"recollection; by implication, recital","kjv":"mention, remembrance."},"G3418":{"gr":"μνῆμα","tr":"mnēma","pron":"mnay'-mah","deriv":"from G3415;","def":"a memorial, i.e. sepulchral monument (burial-place)","kjv":"grave, sepulchre, tomb."},"G3419":{"gr":"μνημεῖον","tr":"mnēmeîon","pron":"mnay-mi'-on","deriv":"from G3420;","def":"a remembrance, i.e. cenotaph (place of interment)","kjv":"grave, sepulchre, tomb."},"G3420":{"gr":"μνήμη","tr":"mnḗmē","pron":"mnay'-may","deriv":"from G3403;","def":"memory","kjv":"remembrance."},"G3421":{"gr":"μνημονεύω","tr":"mnēmoneúō","pron":"mnay-mon-yoo'-o","deriv":"from a derivative of G3420;","def":"to exercise memory, i.e. recollect; by implication, to punish; also to rehearse","kjv":"make mention; be mindful, remember."},"G3422":{"gr":"μνημόσυνον","tr":"mnēmósynon","pron":"mnay-mos'-oo-non","deriv":"from G3421;","def":"a reminder (memorandum), i.e. record","kjv":"memorial."},"G3423":{"gr":"μνηστεύω","tr":"mnēsteúō","pron":"mnace-tyoo'-o","deriv":"from a derivative of G3415;","def":"to give a souvenir (engagement present), i.e. betroth","kjv":"espouse."},"G3424":{"gr":"μογιλάλος","tr":"mogilálos","pron":"mog-il-al'-os","deriv":"from G3425 and G2980;","def":"hardly talking, i.e. dumb (tongue-tied)","kjv":"having an impediment in his speech."},"G3425":{"gr":"μόγις","tr":"mógis","pron":"mog'-is","deriv":"adverb from a primary μόγος (mógos) (toil);","def":"with difficulty","kjv":"hardly."},"G3426":{"gr":"μόδιος","tr":"módios","pron":"mod'-ee-os","deriv":"of Latin origin;","def":"a modius, i.e. certain measure for things dry (the quantity or the utensil)","kjv":"bushel."},"G3427":{"gr":"μοί","tr":"moí","pron":"moy","deriv":"the simpler form of G1698;","def":"to me","kjv":"I, me, mine, my."},"G3428":{"gr":"μοιχαλίς","tr":"moichalís","pron":"moy-khal-is'","deriv":"a prolonged form of the feminine of G3432;","def":"an adulteress (literally or figuratively)","kjv":"adulteress(-ous, -y)."},"G3429":{"gr":"μοιχάω","tr":"moicháō","pron":"moy-khah'-o","deriv":"from G3432;","def":"(middle voice) to commit adultery","kjv":"commit adultery."},"G3430":{"gr":"μοιχεία","tr":"moicheía","pron":"moy-khi'-ah","deriv":"from G3431;","def":"adultery","kjv":"adultery."},"G3431":{"gr":"μοιχεύω","tr":"moicheúō","pron":"moy-khyoo'-o","deriv":"from G3432;","def":"to commit adultery","kjv":"commit adultery."},"G3432":{"gr":"μοιχός","tr":"moichós","pron":"moy-khos'","deriv":"perhaps a primary word;","def":"a (male) paramour; figuratively, apostate","kjv":"adulterer."},"G3433":{"gr":"μόλις","tr":"mólis","pron":"mol'-is","deriv":"probably by variation for G3425;","def":"with difficulty","kjv":"hardly, scarce(-ly), + with much work."},"G3434":{"gr":"Μολόχ","tr":"Molóch","pron":"mol-okh'","deriv":"of Hebrew origin ( H4432);","def":"Moloch (i.e. Molek), an idol","kjv":"Moloch."},"G3435":{"gr":"μολύνω","tr":"molýnō","pron":"mol-oo'-no","deriv":"probably from G3189;","def":"to soil (figuratively)","kjv":"defile."},"G3436":{"gr":"μολυσμός","tr":"molysmós","pron":"mol-oos-mos'","deriv":"from G3435;","def":"a stain; i.e. (figuratively) immorality","kjv":"filthiness."},"G3437":{"gr":"μομφή","tr":"momphḗ","pron":"mom-fay'","deriv":"from G3201;","def":"blame, i.e. (by implication), a fault","kjv":"quarrel."},"G3438":{"gr":"μονή","tr":"monḗ","pron":"mon-ay'","deriv":"from G3306;","def":"a staying, i.e. residence (the act or the place)","kjv":"abode, mansion."},"G3439":{"gr":"μονογενής","tr":"monogenḗs","pron":"mon-og-en-ace'","deriv":"from G3441 and G1096;","def":"only-born, i.e. sole","kjv":"only (begotten, child)."},"G3440":{"gr":"μόνον","tr":"mónon","pron":"mon'-on","deriv":"neuter of G3441 as adverb;","def":"merely","kjv":"alone, but, only."},"G3441":{"gr":"μόνος","tr":"mónos","pron":"mon'-os","deriv":"probably from G3306;","def":"remaining, i.e. sole or single; by implication, mere","kjv":"alone, only, by themselves."},"G3442":{"gr":"μονόφθαλμος","tr":"monóphthalmos","pron":"mon-of'-thal-mos","deriv":"from G3441 and G3788;","def":"one-eyed","kjv":"with one eye."},"G3443":{"gr":"μονόω","tr":"monóō","pron":"mon-o'-o","deriv":"from G3441;","def":"to isolate, i.e. bereave","kjv":"be desolate."},"G3444":{"gr":"μορφή","tr":"morphḗ","pron":"mor-fay'","deriv":"perhaps from the base of G3313 (through the idea of adjustment of parts);","def":"shape; figuratively, nature","kjv":"form."},"G3445":{"gr":"μορφόω","tr":"morphóō","pron":"mor-fo'-o","deriv":"from the same as G3444;","def":"to fashion (figuratively)","kjv":"form."},"G3446":{"gr":"μόρφωσις","tr":"mórphōsis","pron":"mor'-fo-sis","deriv":"from G3445;","def":"formation, i.e. (by implication), appearance (semblance or (concretely) formula)","kjv":"form."},"G3447":{"gr":"μοσχοποιέω","tr":"moschopoiéō","pron":"mos-khop-oy-eh'-o","deriv":"from G3448 and G4160;","def":"to fabricate the image of a bullock","kjv":"make a calf."},"G3448":{"gr":"μόσχος","tr":"móschos","pron":"mos'-khos","deriv":"probably strengthened for όσχος (óschos) (a shoot);","def":"a young bullock","kjv":"calf."},"G3449":{"gr":"μόχθος","tr":"móchthos","pron":"mokh'-thos","deriv":"from the base of G3425;","def":"toil, i.e. (by implication) sadness","kjv":"painfulness, travail."},"G3450":{"gr":"μοῦ","tr":"moû","pron":"moo","deriv":"the simpler form of G1700;","def":"of me","kjv":"I, me, mine (own), my."},"G3451":{"gr":"μουσικός","tr":"mousikós","pron":"moo-sik-os'","deriv":"from Μοῦσα (Moûsa) (a Muse);","def":"\"musical\", i.e. (as noun) a minstrel","kjv":"musician."},"G3452":{"gr":"μυελός","tr":"myelós","pron":"moo-el-os'","deriv":"perhaps a primary word;","def":"the marrow","kjv":"marrow."},"G3453":{"gr":"μυέω","tr":"myéō","pron":"moo-eh'-o","deriv":"from the base of G3466;","def":"to initiate, i.e. (by implication) to teach","kjv":"instruct."},"G3454":{"gr":"μῦθος","tr":"mŷthos","pron":"moo'-thos","deriv":"perhaps from the same as G3453 (through the idea of tuition);","def":"a tale, i.e. fiction (\"myth\")","kjv":"fable."},"G3455":{"gr":"μυκάομαι","tr":"mykáomai","pron":"moo-kah'-om-ahee","deriv":"from a presumed derivative of μύζω (mýzō) ( to \"moo\");","def":"to bellow (roar)","kjv":"roar."},"G3456":{"gr":"μυκτηρίζω","tr":"myktērízō","pron":"mook-tay-rid'-zo","deriv":"from a derivative of the base of G3455 (meaning snout, as that whence lowing proceeds);","def":"to make mouths at, i.e. ridicule","kjv":"mock."},"G3457":{"gr":"μυλικός","tr":"mylikós","pron":"moo-lee-kos'","deriv":"from G3458;","def":"belonging to a mill","kjv":"mill(-stone)."},"G3458":{"gr":"μύλος","tr":"mýlos","pron":"moo'-los","deriv":"probably ultimately from the base of G3433 (through the idea of hardship);","def":"a \"mill\", i.e. (by implication), a grinder (millstone)","kjv":"millstone."},"G3459":{"gr":"μύλων","tr":"mýlōn","pron":"moo'-lone","deriv":"from G3458;","def":"a mill-house","kjv":"mill."},"G3460":{"gr":"Μύρα","tr":"Mýra","pron":"moo'-rah","deriv":"of uncertain derivation;","def":"Myra, a place in Asia Minor","kjv":"Myra."},"G3461":{"gr":"μυριάς","tr":"myriás","pron":"moo-ree'-as","deriv":"from G3463;","def":"a ten-thousand; by extension, a \"myriad\" or indefinite number","kjv":"ten thousand."},"G3462":{"gr":"μυρίζω","tr":"myrízō","pron":"moo-rid'-zo","deriv":"from G3464;","def":"to apply (perfumed) unguent to","kjv":"anoint."},"G3463":{"gr":"μύριοι","tr":"mýrioi","pron":"moo'-ree-oi","deriv":"plural of an apparently primary word (properly, meaning very many);","def":"ten thousand; by extension, innumerably many","kjv":"ten thousand."},"G3464":{"gr":"μύρον","tr":"mýron","pron":"moo'-ron","deriv":"probably of foreign origin (compare H4753, G4666);","def":"\"myrrh\", i.e. (by implication) perfumed oil","kjv":"ointment."},"G3465":{"gr":"Μυσία","tr":"Mysía","pron":"moo-see'-ah","deriv":"of uncertain origin;","def":"Mysia, a region of Asia Minor","kjv":"Mysia."},"G3466":{"gr":"μυστήριον","tr":"mystḗrion","pron":"moos-tay'-ree-on","deriv":"from a derivative of μύω (mýō) (to shut the mouth);","def":"a secret or \"mystery\" (through the idea of silence imposed by initiation into religious rites)","kjv":"mystery."},"G3467":{"gr":"μυωπάζω","tr":"myōpázō","pron":"moo-ope-ad'-zo","deriv":"from a compound of the base of G3466 and ὤψ (ṓps) (the face; from G3700);","def":"to shut the eyes, i.e. blink (see indistinctly)","kjv":"cannot see far off."},"G3468":{"gr":"μώλωψ","tr":"mṓlōps","pron":"mo'-lopes","deriv":"from μῶλος (mōlos) (\"moil\";","def":"probably akin to the base of G3433) and probably ὤψ (ṓps) (the face; from G3700); a mole (\"black eye\") or blow-mark","kjv":"stripe."},"G3469":{"gr":"μωμάομαι","tr":"mōmáomai","pron":"mo-mah'-om-ahee","deriv":"from G3470;","def":"to carp at, i.e. censure (discredit)","kjv":"blame."},"G3470":{"gr":"μῶμος","tr":"mōmos","pron":"mo'-mos","deriv":"perhaps from G3201;","def":"a flaw or blot, i.e. (figuratively) disgraceful person","kjv":"blemish."},"G3471":{"gr":"μωραίνω","tr":"mōraínō","pron":"mo-rah'-ee-no","deriv":"from G3474;","def":"to become insipid; figuratively, to make (passively, act) as a simpleton","kjv":"become fool, make foolish, lose savour."},"G3472":{"gr":"μωρία","tr":"mōría","pron":"mo-ree'-ah","deriv":"from G3474;","def":"silliness, i.e. absurdity","kjv":"foolishness."},"G3473":{"gr":"μωρολογία","tr":"mōrología","pron":"mo-rol-og-ee'-ah","deriv":"from a compound of G3474 and G3004;","def":"silly talk, i.e. buffoonery","kjv":"foolish talking."},"G3474":{"gr":"μωρός","tr":"mōrós","pron":"mo-ros'","deriv":"probably from the base of G3466;","def":"dull or stupid (as if shut up), i.e. heedless, (morally) blockhead, (apparently) absurd","kjv":"fool(-ish, X -ishness)."},"G3475":{"gr":"Μωσεύς","tr":"Mōseús","pron":"moce-yoos'","deriv":"of Hebrew origin; ( H4872);","def":"Moseus, Moses, or Mouses (i.e. Mosheh), the Hebrew lawgiver","kjv":"Moses."},"G3476":{"gr":"Ναασσών","tr":"Naassṓn","pron":"nah-as-sone'","deriv":"of Hebrew origin ( H5177);","def":"Naasson (i.e. Nachshon), an Israelite","kjv":"Naasson."},"G3477":{"gr":"Ναγγαί","tr":"Nangaí","pron":"nang-gah'-ee","deriv":"probably of Hebrew origin (compare H5052);","def":"Nangæ (i.e. perhaps Nogach), an Israelite","kjv":"Nagge."},"G3478":{"gr":"Ναζαρέθ","tr":"Nazaréth","pron":"nad-zar-eth'","deriv":"of uncertain derivation;","def":"Nazareth or Nazaret, a place in Palestine","kjv":"Nazareth."},"G3479":{"gr":"Ναζαρηνός","tr":"Nazarēnós","pron":"nad-zar-ay-nos'","deriv":"from G3478;","def":"a Nazarene, i.e. inhabitant of Nazareth","kjv":"of Nazareth."},"G3480":{"gr":"Ναζωραῖος","tr":"Nazōraîos","pron":"nad-zo-rah'-yos","deriv":"from G3478;","def":"a Nazoræan, i.e. inhabitant of Nazareth; by extension, a Christian","kjv":"Nazarene, of Nazareth."},"G3481":{"gr":"Ναθάν","tr":"Nathán","pron":"nath-an'","deriv":"of Hebrew origin ( H5416);","def":"Nathan, an Israelite","kjv":"Nathan."},"G3482":{"gr":"Ναθαναήλ","tr":"Nathanaḗl","pron":"nath-an-ah-ale'","deriv":"of Hebrew origin ( H5417);","def":"Nathanaël (i.e. Nathanel), an Israelite and Christian","kjv":"Nathanael."},"G3483":{"gr":"ναί","tr":"naí","pron":"nahee","deriv":"a primary particle of strong affirmation;","def":"yes","kjv":"even so, surely, truth, verily, yea, yes."},"G3484":{"gr":"Ναΐν","tr":"Naḯn","pron":"nah-in'","deriv":"probably of Hebrew origin (compare H4999);","def":"Nain, a place in Palestine","kjv":"Nain."},"G3485":{"gr":"ναός","tr":"naós","pron":"nah-os'","deriv":"from a primary ναίω (naíō) (to dwell);","def":"a fane, shrine, temple","kjv":"shrine, temple."},"G3486":{"gr":"Ναούμ","tr":"Naoúm","pron":"nah-oom'","deriv":"of Hebrew origin ( H5151);","def":"Naum (i.e. Nachum), an Israelite","kjv":"Naum."},"G3487":{"gr":"νάρδος","tr":"nárdos","pron":"nar'dos","deriv":"of foreign origin (compare H5373);","def":"\"nard\"","kjv":"(spike-)nard."},"G3488":{"gr":"Νάρκισσος","tr":"Nárkissos","pron":"nar'-kis-sos","deriv":"a flower of the same name, from νάρκη (nárkē) (stupefaction, as a \"narcotic\");","def":"Narcissus, a Roman","kjv":"Narcissus."},"G3489":{"gr":"ναυαγέω","tr":"nauagéō","pron":"now-ag-eh'-o","deriv":"from a compound of G3491 and G71;","def":"to be shipwrecked (stranded, \"navigate\"), literally or figuratively","kjv":"make (suffer) shipwreck."},"G3490":{"gr":"ναύκληρος","tr":"naúklēros","pron":"now'-klay-ros","deriv":"from G3491 and G2819 (\"clerk\");","def":"a captain","kjv":"owner of a ship."},"G3491":{"gr":"ναῦς","tr":"naûs","pron":"nowce","deriv":"from νάω (náō) or νέω (néō) (to float);","def":"a boat (of any size)","kjv":"ship."},"G3492":{"gr":"ναύτης","tr":"naútēs","pron":"now'-tace","deriv":"from G3491;","def":"a boatman, i.e. seaman","kjv":"sailor, shipman."},"G3493":{"gr":"Ναχώρ","tr":"Nachṓr","pron":"nakh-ore'","deriv":"of Hebrew origin ( H5152);","def":"Nachor, the grandfather of Abraham","kjv":"Nachor."},"G3494":{"gr":"νεανίας","tr":"neanías","pron":"neh-an-ee'-as","deriv":"from a derivative of G3501;","def":"a youth (up to about forty years)","kjv":"young man."},"G3495":{"gr":"νεανίσκος","tr":"neanískos","pron":"neh-an-is'-kos","deriv":"from the same as G3494;","def":"a youth (under forty)","kjv":"young man."},"G3496":{"gr":"Νεάπολις","tr":"Neápolis","pron":"neh-ap'-ol-is","deriv":"from G3501 and G4172;","def":"new town; Neapolis, a place in Macedonia","kjv":"Neapolis."},"G3497":{"gr":"Νεεμάν","tr":"Neemán","pron":"neh-eh-man'","deriv":"of Hebrew origin ( H5283);","def":"Neeman (i.e. Naaman), a Syrian","kjv":"Naaman."},"G3498":{"gr":"νεκρός","tr":"nekrós","pron":"nek-ros'","deriv":"from an apparently primary νέκυς (nékys) (a corpse);","def":"dead (literally or figuratively; also as noun)","kjv":"dead."},"G3499":{"gr":"νεκρόω","tr":"nekróō","pron":"nek-ro'-o","deriv":"from G3498;","def":"to deaden, i.e. (figuratively) to subdue","kjv":"be dead, mortify."},"G3500":{"gr":"νέκρωσις","tr":"nékrōsis","pron":"nek'-ro-sis","deriv":"from G3499;","def":"decease; figuratively, impotency","kjv":"deadness, dying."}}
+{
+  "G3001": {
+    "gr": "λάχανον",
+    "tr": "láchanon",
+    "pron": "lakh'-an-on",
+    "deriv": "from λαχαίνω (lachaínō) (to dig);",
+    "def-en": "a vegetable",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "herb."
+  },
+  "G3002": {
+    "gr": "Λεββαῖος",
+    "tr": "Lebbaîos",
+    "pron": "leb-bah'-yos",
+    "deriv": "of uncertain origin;",
+    "def-en": "Lebbæus, a Christian",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Lebbæus."
+  },
+  "G3003": {
+    "gr": "λεγεών",
+    "tr": "legeṓn",
+    "pron": "leg-eh-ohn'",
+    "deriv": "of Latin origin;",
+    "def-en": "a \"legion\", i.e. Roman regiment (figuratively)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "legion."
+  },
+  "G3004": {
+    "gr": "λέγω",
+    "tr": "légō",
+    "pron": "leg'-o",
+    "deriv": "a primary verb;",
+    "def-en": "properly, to \"lay\" forth, i.e. (figuratively) relate (in words (usually of systematic or set discourse; whereas G2036 and G5346 generally refer to an individual expression or speech respectively; while G4483 is properly to break silence merely, and G2980 means an extended or random harangue)); by implication, to mean",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "ask, bid, boast, call, describe, give out, name, put forth, say(-ing, on), shew, speak, tell, utter."
+  },
+  "G3005": {
+    "gr": "λεῖμμα",
+    "tr": "leîmma",
+    "pron": "lime'-mah",
+    "deriv": "from G3007;",
+    "def-en": "a remainder",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "remnant."
+  },
+  "G3006": {
+    "gr": "λεῖος",
+    "tr": "leîos",
+    "pron": "li'-os",
+    "deriv": "apparently a primary word;",
+    "def-en": "smooth, i.e. \"level\"",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "smooth."
+  },
+  "G3007": {
+    "gr": "λείπω",
+    "tr": "leípō",
+    "pron": "li'-po",
+    "deriv": "a primary verb;",
+    "def-en": "to leave, i.e. (intransitively or passively) to fail or be absent",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "be destitute (wanting), lack."
+  },
+  "G3008": {
+    "gr": "λειτουργέω",
+    "tr": "leitourgéō",
+    "pron": "li-toorg-eh'-o",
+    "deriv": "from G3011;",
+    "def-en": "to be a public servant, i.e. (by analogy) to perform religious or charitable functions (worship, obey, relieve)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "minister."
+  },
+  "G3009": {
+    "gr": "λειτουργία",
+    "tr": "leitourgía",
+    "pron": "li-toorg-ee'-ah",
+    "deriv": "from G3008;",
+    "def-en": "public function (as priest (\"liturgy\") or almsgiver)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "ministration(-try), service."
+  },
+  "G3010": {
+    "gr": "λειτουργικός",
+    "tr": "leitourgikós",
+    "pron": "li-toorg-ik-os'",
+    "deriv": "from the same as G3008;",
+    "def-en": "functional publicly (\"liturgic\"); i.e. beneficient",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "ministering."
+  },
+  "G3011": {
+    "gr": "λειτουργός",
+    "tr": "leitourgós",
+    "pron": "li-toorg-os'",
+    "deriv": "from a derivative of G2992 and G2041;",
+    "def-en": "a public servant, i.e. a functionary in the Temple or Gospel, or (genitive case) a worshipper (of God) or benefactor (of man)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "minister(-ed)."
+  },
+  "G3012": {
+    "gr": "λέντιον",
+    "tr": "léntion",
+    "pron": "len'-tee-on",
+    "deriv": "of Latin origin;",
+    "def-en": "a \"linen\" cloth, i.e. apron",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "towel."
+  },
+  "G3013": {
+    "gr": "λεπίς",
+    "tr": "lepís",
+    "pron": "lep-is'",
+    "deriv": "from λέπω (lépō) (to peel);",
+    "def-en": "a flake",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "scale."
+  },
+  "G3014": {
+    "gr": "λέπρα",
+    "tr": "lépra",
+    "pron": "lep'-rah",
+    "deriv": "from the same as G3013;",
+    "def-en": "scaliness, i.e. \"leprosy\"",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "leprosy."
+  },
+  "G3015": {
+    "gr": "λεπρός",
+    "tr": "leprós",
+    "pron": "lep-ros'",
+    "deriv": "from the same as G3014;",
+    "def-en": "scaly, i.e. leprous (a leper)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "leper."
+  },
+  "G3016": {
+    "gr": "λεπτόν",
+    "tr": "leptón",
+    "pron": "lep-ton'",
+    "deriv": "neuter of a derivative of the same as G3013;",
+    "def-en": "something scaled (light), i.e. a small coin",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "mite."
+  },
+  "G3017": {
+    "gr": "Λευΐ",
+    "tr": "Leuḯ",
+    "pron": "lyoo'-ee",
+    "deriv": "of Hebrew origin ( H3878);",
+    "def-en": "Levi, the name of three Israelites",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Levi."
+  },
+  "G3018": {
+    "gr": "Λευΐς",
+    "tr": "Leuḯs",
+    "pron": "lyoo-is'",
+    "deriv": "a form of G3017;",
+    "def-en": "Lewis (i.e. Levi), a Christian",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Levi."
+  },
+  "G3019": {
+    "gr": "Λευΐτης",
+    "tr": "Leuḯtēs",
+    "pron": "lyoo-ee'-tace",
+    "deriv": "from G3017;",
+    "def-en": "a Levite, i.e. descendant of Levi",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Levite."
+  },
+  "G3020": {
+    "gr": "Λευϊτικός",
+    "tr": "Leuïtikós",
+    "pron": "lyoo-it'-ee-kos",
+    "deriv": "from G3019;",
+    "def-en": "Levitic, i.e. relating to the Levites",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Levitical."
+  },
+  "G3021": {
+    "gr": "λευκαίνω",
+    "tr": "leukaínō",
+    "pron": "lyoo-kah'-ee-no",
+    "deriv": "from G3022;",
+    "def-en": "to whiten",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "make white, whiten."
+  },
+  "G3022": {
+    "gr": "λευκός",
+    "tr": "leukós",
+    "pron": "lyoo-kos'",
+    "deriv": "from λύκη (lýkē) (\"light\");",
+    "def-en": "white",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "white."
+  },
+  "G3023": {
+    "gr": "λέων",
+    "tr": "léōn",
+    "pron": "leh-ohn'",
+    "deriv": "a primary word;",
+    "def-en": "a \"lion\"",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "lion."
+  },
+  "G3024": {
+    "gr": "λήθη",
+    "tr": "lḗthē",
+    "pron": "lay'-thay",
+    "deriv": "from G2990;",
+    "def-en": "forgetfulness",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "+ forget."
+  },
+  "G3025": {
+    "gr": "ληνός",
+    "tr": "lēnós",
+    "pron": "lay-nos'",
+    "deriv": "apparently a primary word;",
+    "def-en": "a trough, i.e. wine-vat",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "winepress."
+  },
+  "G3026": {
+    "gr": "λῆρος",
+    "tr": "lēros",
+    "pron": "lay'-ros",
+    "deriv": "apparently a primary word;",
+    "def-en": "twaddle, i.e. an incredible story",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "idle tale."
+  },
+  "G3027": {
+    "gr": "λῃστής",
+    "tr": "lēistḗs",
+    "pron": "lace-tace'",
+    "deriv": "from ληΐζομαι (lēḯzomai) (to plunder);",
+    "def-en": "a brigand",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "robber, thief."
+  },
+  "G3028": {
+    "gr": "λῆμψις",
+    "tr": "lēmpsis",
+    "pron": "lape'-sis",
+    "deriv": "from G2983;",
+    "def-en": "receipt (the act)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "receiving."
+  },
+  "G3029": {
+    "gr": "λίαν",
+    "tr": "lían",
+    "pron": "lee'-an",
+    "deriv": "of uncertain affinity;",
+    "def-en": "much (adverbially)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "exceeding, great(-ly), sore, very (+ chiefest)."
+  },
+  "G3030": {
+    "gr": "λίβανος",
+    "tr": "líbanos",
+    "pron": "lib'-an-os",
+    "deriv": "of foreign origin ( H3828);",
+    "def-en": "the incense-tree, i.e. (by implication) incense itself",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "frankincense."
+  },
+  "G3031": {
+    "gr": "λιβανωτός",
+    "tr": "libanōtós",
+    "pron": "lib-an-o-tos'",
+    "deriv": "from G3030;",
+    "def-en": "frankincense, i.e. (by extension) a censer for burning it",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "censer."
+  },
+  "G3032": {
+    "gr": "Λιβερτῖνος",
+    "tr": "Libertînos",
+    "pron": "lib-er-tee'-nos",
+    "deriv": "of Latin origin;",
+    "def-en": "a Roman freedman",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Libertine."
+  },
+  "G3033": {
+    "gr": "Λιβύη",
+    "tr": "Libýē",
+    "pron": "lib-oo'-ay",
+    "deriv": "probably from G3047;",
+    "def-en": "Libye, a region of Africa",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Libya."
+  },
+  "G3034": {
+    "gr": "λιθάζω",
+    "tr": "litházō",
+    "pron": "lith-ad'-zo",
+    "deriv": "from G3037;",
+    "def-en": "to lapidate",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "stone."
+  },
+  "G3035": {
+    "gr": "λίθινος",
+    "tr": "líthinos",
+    "pron": "lith-ee'-nos",
+    "deriv": "from G3037;",
+    "def-en": "stony, i.e. made of stone",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "of stone."
+  },
+  "G3036": {
+    "gr": "λιθοβολέω",
+    "tr": "lithoboléō",
+    "pron": "lith-ob-ol-eh'-o",
+    "deriv": "from a compound of G3037 and G906;",
+    "def-en": "to throw stones, i.e. lapidate",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "stone, cast stones."
+  },
+  "G3037": {
+    "gr": "λίθος",
+    "tr": "líthos",
+    "pron": "lee'-thos",
+    "deriv": "apparently a primary word;",
+    "def-en": "a stone (literally or figuratively)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "(mill-, stumbling-)stone."
+  },
+  "G3038": {
+    "gr": "λιθόστρωτος",
+    "tr": "lithóstrōtos",
+    "pron": "lith-os'-tro-tos",
+    "deriv": "from G3037 and a derivative of G4766;",
+    "def-en": "stone-strewed, i.e. a tessellated mosaic on which the Roman tribunal was placed",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Pavement."
+  },
+  "G3039": {
+    "gr": "λικμάω",
+    "tr": "likmáō",
+    "pron": "lik-mah'-o",
+    "deriv": "from λικμός (likmós), the equivalent of λίκνον (líknon) (a winnowing fan or basket);",
+    "def-en": "to winnow, i.e. (by analogy), to triturate",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "grind to powder."
+  },
+  "G3040": {
+    "gr": "λιμήν",
+    "tr": "limḗn",
+    "pron": "lee-mane'",
+    "deriv": "apparently a primary word;",
+    "def-en": "a harbor",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "haven."
+  },
+  "G3041": {
+    "gr": "λίμνη",
+    "tr": "límnē",
+    "pron": "lim'-nay",
+    "deriv": "probably from G3040 (through the idea of nearness of shore);",
+    "def-en": "a pond (large or small)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "lake."
+  },
+  "G3042": {
+    "gr": "λιμός",
+    "tr": "limós",
+    "pron": "lee-mos'",
+    "deriv": "probably from G3007 (through the idea of destitution);",
+    "def-en": "a scarcity of food",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "dearth, famine, hunger."
+  },
+  "G3043": {
+    "gr": "λίνον",
+    "tr": "línon",
+    "pron": "lee'-non",
+    "deriv": "probably a primary word;",
+    "def-en": "flax, i.e. (by implication) \"linen\"",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "linen."
+  },
+  "G3044": {
+    "gr": "Λίνος",
+    "tr": "Línos",
+    "pron": "lee'-nos",
+    "deriv": "perhaps from G3043;",
+    "def-en": "Linus, a Christian",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Linus."
+  },
+  "G3045": {
+    "gr": "λιπαρός",
+    "tr": "liparós",
+    "pron": "lip-ar-os'",
+    "deriv": "from λίπος (lípos) (grease);",
+    "def-en": "fat, i.e. (figuratively) sumptuous",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "dainty."
+  },
+  "G3046": {
+    "gr": "λίτρα",
+    "tr": "lítra",
+    "pron": "lee'-trah",
+    "deriv": "of Latin origin (libra);",
+    "def-en": "a pound in weight",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "pound."
+  },
+  "G3047": {
+    "gr": "λίψ",
+    "tr": "líps",
+    "pron": "leeps",
+    "deriv": "probably from λείβω (leíbō) (to pour a \"libation\");",
+    "def-en": "the south(- west) wind (as bringing rain, i.e. (by extension) the south quarter)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "southwest."
+  },
+  "G3048": {
+    "gr": "λογία",
+    "tr": "logía",
+    "pron": "log-ee'-ah",
+    "deriv": "from G3056 (in the commercial sense);",
+    "def-en": "a contribution",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "collection, gathering."
+  },
+  "G3049": {
+    "gr": "λογίζομαι",
+    "tr": "logízomai",
+    "pron": "log-id'-zom-ahee",
+    "deriv": "middle voice from G3056;",
+    "def-en": "to take an inventory, i.e. estimate (literally or figuratively)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "conclude, (ac-)count (of), + despise, esteem, impute, lay, number, reason, reckon, suppose, think (on)."
+  },
+  "G3050": {
+    "gr": "λογικός",
+    "tr": "logikós",
+    "pron": "log-ik-os'",
+    "deriv": "from G3056;",
+    "def-en": "rational (\"logical\")",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "reasonable, of the word."
+  },
+  "G3051": {
+    "gr": "λόγιον",
+    "tr": "lógion",
+    "pron": "log'-ee-on",
+    "deriv": "neuter of G3052;",
+    "def-en": "an utterance (of God)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "oracle."
+  },
+  "G3052": {
+    "gr": "λόγιος",
+    "tr": "lógios",
+    "pron": "log'-ee-os",
+    "deriv": "from G3056;",
+    "def-en": "fluent, i.e. an orator",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "eloquent."
+  },
+  "G3053": {
+    "gr": "λογισμός",
+    "tr": "logismós",
+    "pron": "log-is-mos'",
+    "deriv": "from G3049;",
+    "def-en": "computation, i.e. (figuratively) reasoning (conscience, conceit)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "imagination, thought."
+  },
+  "G3054": {
+    "gr": "λογομαχέω",
+    "tr": "logomachéō",
+    "pron": "log-om-akh-eh'-o",
+    "deriv": "from a compound of G3056 and G3164;",
+    "def-en": "to be disputatious (on trifles)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "strive about words."
+  },
+  "G3055": {
+    "gr": "λογομαχία",
+    "tr": "logomachía",
+    "pron": "log-om-akh-ee'-ah",
+    "deriv": "from the same as G3054;",
+    "def-en": "disputation about trifles (\"logomachy\")",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "strife of words."
+  },
+  "G3056": {
+    "gr": "λόγος",
+    "tr": "lógos",
+    "pron": "log'-os",
+    "deriv": "from G3004;",
+    "def-en": "something said (including the thought); by implication, a topic (subject of discourse), also reasoning (the mental faculty) or motive; by extension, a computation; specially, (with the article in John) the Divine Expression (i.e. Christ)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "account, cause, communication, X concerning, doctrine, fame, X have to do, intent, matter, mouth, preaching, question, reason, + reckon, remove, say(-ing), shew, X speaker, speech, talk, thing, + none of these things move me, tidings, treatise, utterance, word, work."
+  },
+  "G3057": {
+    "gr": "λόγχη",
+    "tr": "lónchē",
+    "pron": "long'-khay",
+    "deriv": "perhaps a primary word;",
+    "def-en": "a \"lance\"",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "spear."
+  },
+  "G3058": {
+    "gr": "λοιδορέω",
+    "tr": "loidoréō",
+    "pron": "loy-dor-eh'-o",
+    "deriv": "from G3060;",
+    "def-en": "to reproach, i.e. vilify",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "revile."
+  },
+  "G3059": {
+    "gr": "λοιδορία",
+    "tr": "loidoría",
+    "pron": "loy-dor-ee'-ah",
+    "deriv": "from G3060;",
+    "def-en": "slander or vituperation",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "railing, reproach(-fully)."
+  },
+  "G3060": {
+    "gr": "λοίδορος",
+    "tr": "loídoros",
+    "pron": "loy'-dor-os",
+    "deriv": "from λοιδός (loidós) (mischief);",
+    "def-en": "abusive, i.e. a blackguard",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "railer, reviler."
+  },
+  "G3061": {
+    "gr": "λοιμός",
+    "tr": "loimós",
+    "pron": "loy'-mos",
+    "deriv": "of uncertain affinity;",
+    "def-en": "a plague (literally, the disease, or figuratively, a pest)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "pestilence(-t)."
+  },
+  "G3062": {
+    "gr": "λοιποί",
+    "tr": "loipoí",
+    "pron": "loy-poy'",
+    "deriv": "masculine plural of a derivative of G3007;",
+    "def-en": "remaining ones",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "other, which remain, remnant, residue, rest."
+  },
+  "G3063": {
+    "gr": "λοιπόν",
+    "tr": "loipón",
+    "pron": "loy-pon'",
+    "deriv": "neuter singular of the same as G3062;",
+    "def-en": "something remaining (adverbially)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "besides, finally, furthermore, (from) henceforth, moreover, now, + it remaineth, then."
+  },
+  "G3064": {
+    "gr": "λοιποῦ",
+    "tr": "loipoû",
+    "pron": "loy-poo'",
+    "deriv": "genitive case singular of the same as G3062;",
+    "def-en": "remaining time",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "from henceforth."
+  },
+  "G3065": {
+    "gr": "Λουκᾶς",
+    "tr": "Loukâs",
+    "pron": "loo-kas'",
+    "deriv": "contracted from Latin Lucanus;",
+    "def-en": "Lucas, a Christian",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Lucas, Luke."
+  },
+  "G3066": {
+    "gr": "Λούκιος",
+    "tr": "Loúkios",
+    "pron": "loo'-kee-os",
+    "deriv": "of Latin origin;",
+    "def-en": "illuminative; Lucius, a Christian",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Lucius."
+  },
+  "G3067": {
+    "gr": "λουτρόν",
+    "tr": "loutrón",
+    "pron": "loo-tron'",
+    "deriv": "from G3068;",
+    "def-en": "a bath, i.e. (figuratively), baptism",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "washing."
+  },
+  "G3068": {
+    "gr": "λούω",
+    "tr": "loúō",
+    "pron": "loo'-o",
+    "deriv": "a primary verb;",
+    "def-en": "to bathe (the whole person; whereas G3538 means to wet a part only, and G4150 to wash, cleanse garments exclusively)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "wash."
+  },
+  "G3069": {
+    "gr": "Λύδδα",
+    "tr": "Lýdda",
+    "pron": "lud'-dah",
+    "deriv": "of Hebrew origin ( H3850);",
+    "def-en": "Lydda (i.e. Lod), a place in Palestine",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Lydda."
+  },
+  "G3070": {
+    "gr": "Λυδία",
+    "tr": "Lydía",
+    "pron": "loo-dee'-ah",
+    "deriv": "properly, feminine of Ludios (of foreign origin) (a Lydian, in Asia Minor);",
+    "def-en": "Lydia, a Christian woman",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Lydia."
+  },
+  "G3071": {
+    "gr": "Λυκαονία",
+    "tr": "Lykaonía",
+    "pron": "loo-kah-on-ee'-ah",
+    "deriv": "perhaps remotely from G3074;",
+    "def-en": "Lycaonia, a region of Asia Minor",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Lycaonia."
+  },
+  "G3072": {
+    "gr": "Λυκαονιστί",
+    "tr": "Lykaonistí",
+    "pron": "loo-kah-on-is-tee'",
+    "deriv": "adverb from a derivative of G3071;",
+    "def-en": "Lycaonistically, i.e. in the language of the Lycaonians",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "in the speech of Lycaonia."
+  },
+  "G3073": {
+    "gr": "Λυκία",
+    "tr": "Lykía",
+    "pron": "loo-kee'-ah",
+    "deriv": "probably remotely from G3074;",
+    "def-en": "Lycia, a province of Asia Minor",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Lycia."
+  },
+  "G3074": {
+    "gr": "λύκος",
+    "tr": "lýkos",
+    "pron": "loo'-kos",
+    "deriv": "perhaps akin to the base of G3022 (from the whitish hair);",
+    "def-en": "a wolf",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "wolf."
+  },
+  "G3075": {
+    "gr": "λυμαίνομαι",
+    "tr": "lymaínomai",
+    "pron": "loo-mah'-ee-nom-ahee",
+    "deriv": "middle voice from a probably derivative of G3089 (meaning filth);",
+    "def-en": "properly, to soil, i.e. (figuratively) insult (maltreat)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "make havock of."
+  },
+  "G3076": {
+    "gr": "λυπέω",
+    "tr": "lypéō",
+    "pron": "loo-peh'-o",
+    "deriv": "from G3077;",
+    "def-en": "to distress; reflexively or passively, to be sad",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "cause grief, grieve, be in heaviness, (be) sorrow(-ful), be (make) sorry."
+  },
+  "G3077": {
+    "gr": "λύπη",
+    "tr": "lýpē",
+    "pron": "loo'-pay",
+    "deriv": "apparently a primary word;",
+    "def-en": "sadness",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "grief, grievous, + grudgingly, heaviness, sorrow."
+  },
+  "G3078": {
+    "gr": "Λυσανίας",
+    "tr": "Lysanías",
+    "pron": "loo-san-ee'-as",
+    "deriv": "from G3080 and ἀνία (anía) (trouble);",
+    "def-en": "grief-dispelling; Lysanias, a governor of Abilene",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Lysanias."
+  },
+  "G3079": {
+    "gr": "Λυσίας",
+    "tr": "Lysías",
+    "pron": "loo-see'-as",
+    "deriv": "of uncertain affinity;",
+    "def-en": "Lysias, a Roman",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Lysias."
+  },
+  "G3080": {
+    "gr": "λύσις",
+    "tr": "lýsis",
+    "pron": "loo'-sis",
+    "deriv": "from G3089;",
+    "def-en": "a loosening, i.e. (specially), divorce",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "to be loosed."
+  },
+  "G3081": {
+    "gr": "λυσιτελεῖ",
+    "tr": "lysiteleî",
+    "pron": "loo-sit-el-i'",
+    "deriv": "third person singular present indicative active of a derivative of a compound of G3080 and G5056;",
+    "def-en": "impersonally, it answers the purpose, i.e. is advantageous",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "it is better."
+  },
+  "G3082": {
+    "gr": "Λύστρα",
+    "tr": "Lýstra",
+    "pron": "loos'-trah",
+    "deriv": "of uncertain origin;",
+    "def-en": "Lystra, a place in Asia Minor",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Lystra."
+  },
+  "G3083": {
+    "gr": "λύτρον",
+    "tr": "lýtron",
+    "pron": "loo'-tron",
+    "deriv": "from G3089;",
+    "def-en": "something to loosen with, i.e. a redemption price (figuratively, atonement)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "ransom."
+  },
+  "G3084": {
+    "gr": "λυτρόω",
+    "tr": "lytróō",
+    "pron": "loo-tro'-o",
+    "deriv": "from G3083;",
+    "def-en": "to ransom (literally or figuratively)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "redeem."
+  },
+  "G3085": {
+    "gr": "λύτρωσις",
+    "tr": "lýtrōsis",
+    "pron": "loo'-tro-sis",
+    "deriv": "from G3084;",
+    "def-en": "a ransoming (figuratively)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "+ redeemed, redemption."
+  },
+  "G3086": {
+    "gr": "λυτρωτής",
+    "tr": "lytrōtḗs",
+    "pron": "loo-tro-tace'",
+    "deriv": "from G3084;",
+    "def-en": "a redeemer (figuratively)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "deliverer."
+  },
+  "G3087": {
+    "gr": "λυχνία",
+    "tr": "lychnía",
+    "pron": "lookh-nee'-ah",
+    "deriv": "from G3088;",
+    "def-en": "a lamp-stand (literally or figuratively)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "candlestick."
+  },
+  "G3088": {
+    "gr": "λύχνος",
+    "tr": "lýchnos",
+    "pron": "lookh'-nos",
+    "deriv": "from the base of G3022;",
+    "def-en": "a portable lamp or other illuminator (literally or figuratively)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "candle, light."
+  },
+  "G3089": {
+    "gr": "λύω",
+    "tr": "lýō",
+    "pron": "loo'-o",
+    "deriv": "a primary verb;",
+    "def-en": "to \"loosen\" (literally or figuratively)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "break (up), destroy, dissolve, (un-)loose, melt, put off."
+  },
+  "G3090": {
+    "gr": "Λωΐς",
+    "tr": "Lōḯs",
+    "pron": "lo-ece'",
+    "deriv": "of uncertain origin;",
+    "def-en": "Lois, a Christian woman",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Lois."
+  },
+  "G3091": {
+    "gr": "Λώτ",
+    "tr": "Lṓt",
+    "pron": "lote",
+    "deriv": "of Hebrew origin ( H3876);",
+    "def-en": "Lot, a patriarch",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Lot."
+  },
+  "G3092": {
+    "gr": "Μαάθ",
+    "tr": "Maáth",
+    "pron": "mah-ath'",
+    "deriv": "probably of Hebrew origin;",
+    "def-en": "Maath, an Israelite",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Maath."
+  },
+  "G3093": {
+    "gr": "Μαγδαλά",
+    "tr": "Magdalá",
+    "pron": "mag-dal-ah'",
+    "deriv": "of Chaldee origin (compare H4026);",
+    "def-en": "the tower; Magdala (i.e. Migdala), a place in Palestine",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Magdala."
+  },
+  "G3094": {
+    "gr": "Μαγδαληνή",
+    "tr": "Magdalēnḗ",
+    "pron": "mag-dal-ay-nay'",
+    "deriv": "feminine of a derivative of G3093;",
+    "def-en": "a female Magdalene, i.e. inhabitant of Magdala",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Magdalene."
+  },
+  "G3095": {
+    "gr": "μαγεία",
+    "tr": "mageía",
+    "pron": "mag-i'-ah",
+    "deriv": "from G3096;",
+    "def-en": "\"magic\"",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "sorcery."
+  },
+  "G3096": {
+    "gr": "μαγεύω",
+    "tr": "mageúō",
+    "pron": "mag-yoo'-o",
+    "deriv": "from G3097;",
+    "def-en": "to practice magic",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "use sorcery."
+  },
+  "G3097": {
+    "gr": "μάγος",
+    "tr": "mágos",
+    "pron": "mag'-os",
+    "deriv": "of foreign origin ( H7248);",
+    "def-en": "a Magian, i.e. Oriental scientist; by implication, a magician",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "sorcerer, wise man."
+  },
+  "G3098": {
+    "gr": "Μαγώγ",
+    "tr": "Magṓg",
+    "pron": "mag-ogue'",
+    "deriv": "of Hebrew origin ( H4031);",
+    "def-en": "Magog, a foreign nation, i.e. (figuratively) an Antichristian party",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Magog."
+  },
+  "G3099": {
+    "gr": "Μαδιάν",
+    "tr": "Madián",
+    "pron": "mad-ee-on'",
+    "deriv": "of Hebrew origin ( H4080);",
+    "def-en": "Madian (i.e. Midian), a region of Arabia",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Madian."
+  },
+  "G3100": {
+    "gr": "μαθητεύω",
+    "tr": "mathēteúō",
+    "pron": "math-ayt-yoo'-o",
+    "deriv": "from G3101;",
+    "def-en": "intransitively, to become a pupil; transitively, to disciple, i.e. enrol as scholar",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "be disciple, instruct, teach."
+  },
+  "G3101": {
+    "gr": "μαθητής",
+    "tr": "mathētḗs",
+    "pron": "math-ay-tes'",
+    "deriv": "from G3129;",
+    "def-en": "a learner, i.e. pupil",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "disciple."
+  },
+  "G3102": {
+    "gr": "μαθήτρια",
+    "tr": "mathḗtria",
+    "pron": "math-ay'-tree-ah",
+    "deriv": "feminine from G3101;",
+    "def-en": "a female pupil",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "disciple."
+  },
+  "G3103": {
+    "gr": "Μαθουσάλα",
+    "tr": "Mathousála",
+    "pron": "math-oo-sal'-ah",
+    "deriv": "of Hebrew origin ( H4968);",
+    "def-en": "Mathusala (i.e. Methushelach), an antediluvian",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Mathusala."
+  },
+  "G3104": {
+    "gr": "Μαϊνάν",
+    "tr": "Maïnán",
+    "pron": "mahee-nan'",
+    "deriv": "probably of Hebrew origin;",
+    "def-en": "Mainan, an Israelite",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Mainan."
+  },
+  "G3105": {
+    "gr": "μαίνομαι",
+    "tr": "maínomai",
+    "pron": "mah'-ee-nom-ahee",
+    "deriv": "middle voice from a primary μάω (máō) (to long for;",
+    "def-en": "through the idea of insensate craving); to rave as a \"maniac\"",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "be beside self (mad)."
+  },
+  "G3106": {
+    "gr": "μακαρίζω",
+    "tr": "makarízō",
+    "pron": "mak-ar-id'-zo",
+    "deriv": "from G3107;",
+    "def-en": "to beatify, i.e. pronounce (or esteem) fortunate",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "call blessed, count happy."
+  },
+  "G3107": {
+    "gr": "μακάριος",
+    "tr": "makários",
+    "pron": "mak-ar'-ee-os",
+    "deriv": "a prolonged form of the poetical μάκαρ (mákar) (meaning the same);",
+    "def-en": "supremely blest; by extension, fortunate, well off",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "blessed, happy(X -ier)."
+  },
+  "G3108": {
+    "gr": "μακαρισμός",
+    "tr": "makarismós",
+    "pron": "mak-ar-is-mos'",
+    "deriv": "from G3106;",
+    "def-en": "beatification, i.e. attribution of good fortune",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "blessedness."
+  },
+  "G3109": {
+    "gr": "Μακεδονία",
+    "tr": "Makedonía",
+    "pron": "mak-ed-on-ee'-ah",
+    "deriv": "from G3110;",
+    "def-en": "Macedonia, a region of Greece",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Macedonia."
+  },
+  "G3110": {
+    "gr": "Μακεδών",
+    "tr": "Makedṓn",
+    "pron": "mak-ed'-ohn",
+    "deriv": "of uncertain derivation;",
+    "def-en": "a Macedon (Macedonian), i.e. inhabitant of Macedonia",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "of Macedonia, Macedonian."
+  },
+  "G3111": {
+    "gr": "μάκελλον",
+    "tr": "mákellon",
+    "pron": "mak'-el-lon",
+    "deriv": "of Latin origin (macellum);",
+    "def-en": "a butcher's stall, meat market or provision-shop",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "shambles."
+  },
+  "G3112": {
+    "gr": "μακράν",
+    "tr": "makrán",
+    "pron": "mak-ran'",
+    "deriv": "feminine accusative case singular of G3117 ( G3598 being implied);",
+    "def-en": "at a distance (literally or figuratively)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "(a-)far (off), good (great) way off."
+  },
+  "G3113": {
+    "gr": "μακρόθεν",
+    "tr": "makróthen",
+    "pron": "mak-roth'-en",
+    "deriv": "adverb from G3117;",
+    "def-en": "from a distance or afar",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "afar off, from far."
+  },
+  "G3114": {
+    "gr": "μακροθυμέω",
+    "tr": "makrothyméō",
+    "pron": "mak-roth-oo-meh'-o",
+    "deriv": "from the same as G3116;",
+    "def-en": "to be long-spirited, i.e. (objectively) forbearing or (subjectively) patient",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "bear (suffer) long, be longsuffering, have (long) patience, be patient, patiently endure."
+  },
+  "G3115": {
+    "gr": "μακροθυμία",
+    "tr": "makrothymía",
+    "pron": "mak-roth-oo-mee'-ah",
+    "deriv": "from the same as G3116;",
+    "def-en": "longanimity, i.e. (objectively) forbearance or (subjectively) fortitude",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "longsuffering, patience."
+  },
+  "G3116": {
+    "gr": "μακροθυμώς",
+    "tr": "makrothymṓs",
+    "pron": "mak-roth-oo-moce'",
+    "deriv": "adverb of a compound of G3117 and G2372;",
+    "def-en": "with long (enduring) temper, i.e. leniently",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "patiently."
+  },
+  "G3117": {
+    "gr": "μακρός",
+    "tr": "makrós",
+    "pron": "mak-ros'",
+    "deriv": "from G3372;",
+    "def-en": "long (in place (distant) or time (neuter plural))",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "far, long."
+  },
+  "G3118": {
+    "gr": "μακροχρόνιος",
+    "tr": "makrochrónios",
+    "pron": "mak-rokh-ron'-ee-os",
+    "deriv": "from G3117 and G5550;",
+    "def-en": "long-timed, i.e. long-lived",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "live long."
+  },
+  "G3119": {
+    "gr": "μαλακία",
+    "tr": "malakía",
+    "pron": "mal-ak-ee'-ah",
+    "deriv": "from G3120;",
+    "def-en": "softness, i.e. enervation (debility)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "disease."
+  },
+  "G3120": {
+    "gr": "μαλακός",
+    "tr": "malakós",
+    "pron": "mal-ak-os'",
+    "deriv": "of uncertain affinity;",
+    "def-en": "soft, i.e. fine (clothing); figuratively, a catamite",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "effeminate, soft."
+  },
+  "G3121": {
+    "gr": "Μαλελεήλ",
+    "tr": "Maleleḗl",
+    "pron": "mal-el-eh-ale'",
+    "deriv": "of Hebrew origin ( H4111);",
+    "def-en": "Maleleel (i.e. Mahalalel), an antediluvian",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Maleleel."
+  },
+  "G3122": {
+    "gr": "μάλιστα",
+    "tr": "málista",
+    "pron": "mal'-is-tah",
+    "deriv": "neuter plural of the superlative of an apparently primary adverb μάλα (mála) (very);",
+    "def-en": "(adverbially) most (in the greatest degree) or particularly",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "chiefly, most of all, (e-)specially."
+  },
+  "G3123": {
+    "gr": "μᾶλλον",
+    "tr": "mâllon",
+    "pron": "mal'-lon",
+    "deriv": "neuter of the comparative of the same as G3122;",
+    "def-en": "(adverbially) more (in a greater degree) or rather",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "+ better, X far, (the) more (and more), (so) much (the more), rather."
+  },
+  "G3124": {
+    "gr": "Μάλχος",
+    "tr": "Málchos",
+    "pron": "mal'-khos",
+    "deriv": "of Hebrew origin ( H4429);",
+    "def-en": "Malchus, an Israelite",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Malchus."
+  },
+  "G3125": {
+    "gr": "μάμμη",
+    "tr": "mámmē",
+    "pron": "mam'-may",
+    "deriv": "of natural origin (\"mammy\");",
+    "def-en": "a grandmother",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "grandmother."
+  },
+  "G3126": {
+    "gr": "μαμμωνᾶς",
+    "tr": "mammōnâs",
+    "pron": "mam-mo-nas'",
+    "deriv": "of Chaldee origin (confidence, i.e. wealth, personified);",
+    "def-en": "mammonas, i.e. avarice (deified)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "mammon."
+  },
+  "G3127": {
+    "gr": "Μαναήν",
+    "tr": "Manaḗn",
+    "pron": "man-ah-ane'",
+    "deriv": "of uncertain origin;",
+    "def-en": "Manaën, a Christian",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Manaen."
+  },
+  "G3128": {
+    "gr": "Μανασσῆς",
+    "tr": "Manassēs",
+    "pron": "man-as-sace'",
+    "deriv": "of Hebrew origin ( H4519);",
+    "def-en": "Mannasses (i.e. Menashsheh), an Israelite",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Manasses."
+  },
+  "G3129": {
+    "gr": "μανθάνω",
+    "tr": "manthánō",
+    "pron": "man-than'-o",
+    "deriv": "prolongation from a primary verb, another form of which, μαθέω (mathéō), is used as an alternate in certain tenses;",
+    "def-en": "to learn (in any way)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "learn, understand."
+  },
+  "G3130": {
+    "gr": "μανία",
+    "tr": "manía",
+    "pron": "man-ee'-ah",
+    "deriv": "from G3105;",
+    "def-en": "craziness",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "(+ make) X mad."
+  },
+  "G3131": {
+    "gr": "μάννα",
+    "tr": "mánna",
+    "pron": "man'-nah",
+    "deriv": "of Hebrew origin ( H4478);",
+    "def-en": "manna (i.e. man), an edible gum",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "manna."
+  },
+  "G3132": {
+    "gr": "μαντεύομαι",
+    "tr": "manteúomai",
+    "pron": "mant-yoo'-om-ahee",
+    "deriv": "from a derivative of G3105 (meaning a prophet, as supposed to rave through inspiration);",
+    "def-en": "to divine, i.e. utter spells (under pretense of foretelling",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "by soothsaying."
+  },
+  "G3133": {
+    "gr": "μαραίνω",
+    "tr": "maraínō",
+    "pron": "mar-ah'-ee-no",
+    "deriv": "of uncertain affinity;",
+    "def-en": "to extinguish (as fire), i.e. (figuratively and passively) to pass away",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "fade away."
+  },
+  "G3134": {
+    "gr": "μαρὰν ἀθά",
+    "tr": "maràn athá",
+    "pron": "mar'-an ath'-ah",
+    "deriv": "of Chaldee origin (meaning our Lord has come);",
+    "def-en": "maranatha, i.e. an exclamation of the approaching divine judgment",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Maran-atha."
+  },
+  "G3135": {
+    "gr": "μαργαρίτης",
+    "tr": "margarítēs",
+    "pron": "mar-gar-ee'-tace",
+    "deriv": "from μάργαρος (márgaros) (a pearl-oyster);",
+    "def-en": "a pearl",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "pearl."
+  },
+  "G3136": {
+    "gr": "Μάρθα",
+    "tr": "Mártha",
+    "pron": "mar'-thah",
+    "deriv": "probably of Chaldee origin (meaning mistress);",
+    "def-en": "Martha, a Christian woman",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Martha."
+  },
+  "G3137": {
+    "gr": "Μαρία",
+    "tr": "María",
+    "pron": "mar-ee'-ah",
+    "deriv": "of Hebrew origin ( H4813);",
+    "def-en": "Maria or Mariam (i.e. Mirjam), the name of six Christian females",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Mary."
+  },
+  "G3138": {
+    "gr": "Μάρκος",
+    "tr": "Márkos",
+    "pron": "mar'-kos",
+    "deriv": "of Latin origin;",
+    "def-en": "Marcus, a Christian",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Marcus, Mark."
+  },
+  "G3139": {
+    "gr": "μάρμαρος",
+    "tr": "mármaros",
+    "pron": "mar'-mar-os",
+    "deriv": "from μαρμαίρω (marmaírō) (to glisten);",
+    "def-en": "marble (as sparkling white)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "marble."
+  },
+  "G3140": {
+    "gr": "μαρτυρέω",
+    "tr": "martyréō",
+    "pron": "mar-too-reh'-o",
+    "deriv": "from G3144;",
+    "def-en": "to be a witness, i.e. testify (literally or figuratively)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "charge, give (evidence), bear record, have (obtain, of) good (honest) report, be well reported of, testify, give (have) testimony, (be, bear, give, obtain) witness."
+  },
+  "G3141": {
+    "gr": "μαρτυρία",
+    "tr": "martyría",
+    "pron": "mar-too-ree'-ah",
+    "deriv": "from G3144;",
+    "def-en": "evidence given (judicially or genitive case)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "record, report, testimony, witness."
+  },
+  "G3142": {
+    "gr": "μαρτύριον",
+    "tr": "martýrion",
+    "pron": "mar-too'-ree-on",
+    "deriv": "neuter of a presumed derivative of G3144;",
+    "def-en": "something evidential, i.e. (genitive case) evidence given or (specially), the Decalogue (in the sacred Tabernacle)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "to be testified, testimony, witness."
+  },
+  "G3143": {
+    "gr": "μαρτύρομαι",
+    "tr": "martýromai",
+    "pron": "mar-too'-rom-ahee",
+    "deriv": "middle voice from G3144;",
+    "def-en": "to be adduced as a witness, i.e. (figuratively) to obtest (in affirmation or exhortation)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "take to record, testify."
+  },
+  "G3144": {
+    "gr": "μάρτυς",
+    "tr": "mártys",
+    "pron": "mar'-toos",
+    "deriv": "of uncertain affinity;",
+    "def-en": "a witness (literally (judicially) or figuratively (genitive case)); by analogy, a \"martyr\"",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "martyr, record, witness."
+  },
+  "G3145": {
+    "gr": "μασσάομαι",
+    "tr": "massáomai",
+    "pron": "mas-sah'-om-ahee",
+    "deriv": "from a primary μάσσω (mássō) (to handle or squeeze);",
+    "def-en": "to chew",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "gnaw."
+  },
+  "G3146": {
+    "gr": "μαστιγόω",
+    "tr": "mastigóō",
+    "pron": "mas-tig-o'-o",
+    "deriv": "from G3148;",
+    "def-en": "to flog (literally or figuratively)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "scourge."
+  },
+  "G3147": {
+    "gr": "μαστίζω",
+    "tr": "mastízō",
+    "pron": "mas-tid'-zo",
+    "deriv": "from G3149;",
+    "def-en": "to whip (literally)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "scourge."
+  },
+  "G3148": {
+    "gr": "μάστιξ",
+    "tr": "mástix",
+    "pron": "mas'-tix",
+    "deriv": "probably from the base of G3145 (through the idea of contact);",
+    "def-en": "a whip (literally, the Roman flagellum for criminals; figuratively, a disease)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "plague, scourging."
+  },
+  "G3149": {
+    "gr": "μαστός",
+    "tr": "mastós",
+    "pron": "mas-tos'",
+    "deriv": "from the base of G3145;",
+    "def-en": "a (properly, female) breast (as if kneaded up)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "pap."
+  },
+  "G3150": {
+    "gr": "ματαιολογία",
+    "tr": "mataiología",
+    "pron": "mat-ah-yol-og-ee'-ah",
+    "deriv": "from G3151;",
+    "def-en": "random talk, i.e. babble",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "vain jangling."
+  },
+  "G3151": {
+    "gr": "ματαιολόγος",
+    "tr": "mataiológos",
+    "pron": "mat-ah-yol-og'-os",
+    "deriv": "from G3152 and G3004;",
+    "def-en": "an idle (i.e. senseless or mischievous) talker, i.e. a wrangler",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "vain talker."
+  },
+  "G3152": {
+    "gr": "μάταιος",
+    "tr": "mátaios",
+    "pron": "mat'-ah-yos",
+    "deriv": "from the base of G3155;",
+    "def-en": "empty, i.e. (literally) profitless, or (specially), an idol",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "vain, vanity."
+  },
+  "G3153": {
+    "gr": "ματαιότης",
+    "tr": "mataiótēs",
+    "pron": "mat-ah-yot'-ace",
+    "deriv": "from G3152;",
+    "def-en": "inutility; figuratively, transientness; morally, depravity",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "vanity."
+  },
+  "G3154": {
+    "gr": "ματαιόω",
+    "tr": "mataióō",
+    "pron": "mat-ah-yo'-o",
+    "deriv": "from G3152;",
+    "def-en": "to render (passively, become) foolish, i.e. (morally) wicked or (specially), idolatrous",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "become vain."
+  },
+  "G3155": {
+    "gr": "μάτην",
+    "tr": "mátēn",
+    "pron": "mat'-ane",
+    "deriv": "accusative case of a derivative of the base of G3145 (through the idea of tentative manipulation, i.e. unsuccessful search, or else of punishment);",
+    "def-en": "folly, i.e. (adverbially) to no purpose",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "in vain."
+  },
+  "G3156": {
+    "gr": "Ματθαῖος",
+    "tr": "Matthaîos",
+    "pron": "mat-thah'-yos",
+    "deriv": "a shorter form of G3161;",
+    "def-en": "Matthæus (i.e. Matthitjah), an Israelite and a Christian",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Matthew."
+  },
+  "G3157": {
+    "gr": "Ματθάν",
+    "tr": "Matthán",
+    "pron": "mat-than'",
+    "deriv": "of Hebrew origin ( H4977);",
+    "def-en": "Matthan (i.e. Mattan), an Israelite",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Matthan."
+  },
+  "G3158": {
+    "gr": "Ματθάτ",
+    "tr": "Matthát",
+    "pron": "mat-that'",
+    "deriv": "probably a shortened form of G3161;",
+    "def-en": "Matthat (i.e. Mattithjah), the name of two Israelites",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Mathat."
+  },
+  "G3159": {
+    "gr": "Ματθίας",
+    "tr": "Matthías",
+    "pron": "mat-thee'-as",
+    "deriv": "apparently a shortened form of G3161;",
+    "def-en": "Matthias (i.e. Mattithjah), an Israelite",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Matthias."
+  },
+  "G3160": {
+    "gr": "Ματταθά",
+    "tr": "Mattathá",
+    "pron": "mat-tath-ah'",
+    "deriv": "probably a shortened form of G3161 (compare H4992);",
+    "def-en": "Mattatha (i.e. Mattithjah), an Israelite",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Mattatha."
+  },
+  "G3161": {
+    "gr": "Ματταθίας",
+    "tr": "Mattathías",
+    "pron": "mat-tath-ee'-as",
+    "deriv": "of Hebrew origin ( H4993);",
+    "def-en": "Mattathias (i.e. Mattithjah), an Israelite and a Christian",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Mattathias."
+  },
+  "G3162": {
+    "gr": "μάχαιρα",
+    "tr": "máchaira",
+    "pron": "makh'-ahee-rah",
+    "deriv": "probably feminine of a presumed derivative of G3163;",
+    "def-en": "a knife, i.e. dirk; figuratively, war, judicial punishment",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "sword."
+  },
+  "G3163": {
+    "gr": "μάχη",
+    "tr": "máchē",
+    "pron": "makh'-ay",
+    "deriv": "from G3164;",
+    "def-en": "a battle, i.e. (figuratively) controversy",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "fighting, strive, striving."
+  },
+  "G3164": {
+    "gr": "μάχομαι",
+    "tr": "máchomai",
+    "pron": "makh'-om-ahee",
+    "deriv": "middle voice of an apparently primary verb;",
+    "def-en": "to war, i.e. (figuratively) to quarrel, dispute",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "fight, strive."
+  },
+  "G3165": {
+    "gr": "μέ",
+    "tr": "mé",
+    "pron": "meh",
+    "deriv": "a shorter (and probably original) form of G1691;",
+    "def-en": "me",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "I, me, my."
+  },
+  "G3166": {
+    "gr": "μεγαλαυχέω",
+    "tr": "megalauchéō",
+    "pron": "meg-al-ow-kheh'-o",
+    "deriv": "from a compound of G3173 and αὐχέω (auchéō) (to boast; akin to G837 and G2744);",
+    "def-en": "to talk big, i.e. be grandiloquent (arrogant, egotistic)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "boast great things."
+  },
+  "G3167": {
+    "gr": "μεγαλεῖος",
+    "tr": "megaleîos",
+    "pron": "meg-al-i'-os",
+    "deriv": "from G3173;",
+    "def-en": "magnificent, i.e. (neuter, plural as noun) a conspicuous favor, or (subjectively) perfection",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "great things, wonderful works."
+  },
+  "G3168": {
+    "gr": "μεγαλειότης",
+    "tr": "megaleiótēs",
+    "pron": "meg-al-i-ot'-ace",
+    "deriv": "from G3167;",
+    "def-en": "superbness, i.e. glory or splendor",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "magnificence, majesty, mighty power."
+  },
+  "G3169": {
+    "gr": "μεγαλοπρεπής",
+    "tr": "megaloprepḗs",
+    "pron": "meg-al-op-rep-ace'",
+    "deriv": "from G3173 and G4241;",
+    "def-en": "befitting greatness or magnificence (majestic)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "excellent."
+  },
+  "G3170": {
+    "gr": "μεγαλύνω",
+    "tr": "megalýnō",
+    "pron": "meg-al-oo'-no",
+    "deriv": "from G3173;",
+    "def-en": "to make (or declare) great, i.e. increase or (figuratively) extol",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "enlarge, magnify, shew great."
+  },
+  "G3171": {
+    "gr": "μεγάλως",
+    "tr": "megálōs",
+    "pron": "meg-al'-oce",
+    "deriv": "adverb from G3173;",
+    "def-en": "much",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "greatly."
+  },
+  "G3172": {
+    "gr": "μεγαλωσύνη",
+    "tr": "megalōsýnē",
+    "pron": "meg-al-o-soo'-nay",
+    "deriv": "from G3173;",
+    "def-en": "greatness, i.e. (figuratively) divinity (often God himself)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "majesty."
+  },
+  "G3173": {
+    "gr": "μέγας",
+    "tr": "mégas",
+    "pron": "meg'-as",
+    "deriv": "(including the prolonged forms, feminine μεγάλη (megálē), plural μεγάλοι (megáloi), etc.; compare also G3176, G3187);",
+    "def-en": "big (literally or figuratively, in a very wide application)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "(+ fear) exceedingly, great(-est), high, large, loud, mighty, + (be) sore (afraid), strong, X to years."
+  },
+  "G3174": {
+    "gr": "μέγεθος",
+    "tr": "mégethos",
+    "pron": "meg'-eth-os",
+    "deriv": "from G3173;",
+    "def-en": "magnitude (figuratively)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "greatness."
+  },
+  "G3175": {
+    "gr": "μεγιστᾶνες",
+    "tr": "megistânes",
+    "pron": "meg-is-tan'-es",
+    "deriv": "plural from G3176;",
+    "def-en": "grandees",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "great men, lords."
+  },
+  "G3176": {
+    "gr": "μέγιστος",
+    "tr": "mégistos",
+    "pron": "meg'-is-tos",
+    "deriv": "superlative of G3173;",
+    "def-en": "greatest or very great",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "exceeding great."
+  },
+  "G3177": {
+    "gr": "μεθερμηνεύω",
+    "tr": "methermēneúō",
+    "pron": "meth-er-mane-yoo'-o",
+    "deriv": "from G3326 and G2059;",
+    "def-en": "to explain over, i.e. translate",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "(by) interpret(-ation)."
+  },
+  "G3178": {
+    "gr": "μέθη",
+    "tr": "méthē",
+    "pron": "meth'-ay",
+    "deriv": "apparently a primary word;",
+    "def-en": "an intoxicant, i.e. (by implication) intoxication",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "drunkenness."
+  },
+  "G3179": {
+    "gr": "μεθίστημι",
+    "tr": "methístēmi",
+    "pron": "meth-is'-tay-mee",
+    "deriv": "from G3326 and G2476;",
+    "def-en": "to transfer, i.e. carry away, depose or (figuratively) exchange, seduce",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "put out, remove, translate, turn away."
+  },
+  "G3180": {
+    "gr": "μεθοδεία",
+    "tr": "methodeía",
+    "pron": "meth-od-i'-ah",
+    "deriv": "from a compound of G3326 and G3593 (compare \"method\");",
+    "def-en": "travelling over, i.e. travesty (trickery)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "wile, lie in wait."
+  },
+  "G3181": {
+    "gr": "μεθόριος",
+    "tr": "methórios",
+    "pron": "meth-or'-ee-os",
+    "deriv": "from G3326 and G3725;",
+    "def-en": "bounded alongside, i.e. contiguous (neuter plural as noun, frontier)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "border."
+  },
+  "G3182": {
+    "gr": "μεθύσκω",
+    "tr": "methýskō",
+    "pron": "meth-oos'-ko",
+    "deriv": "a prolonged (transitive) form of G3184;",
+    "def-en": "to intoxicate",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "be drunk(-en)."
+  },
+  "G3183": {
+    "gr": "μέθυσος",
+    "tr": "méthysos",
+    "pron": "meth'-oo-sos",
+    "deriv": "from G3184;",
+    "def-en": "tipsy, i.e. (as noun) a sot",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "drunkard."
+  },
+  "G3184": {
+    "gr": "μεθύω",
+    "tr": "methýō",
+    "pron": "meth-oo'-o",
+    "deriv": "from another form of G3178;",
+    "def-en": "to drink to intoxication, i.e. get drunk",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "drink well, make (be) drunk(-en)."
+  },
+  "G3185": {
+    "gr": "μεῖζον",
+    "tr": "meîzon",
+    "pron": "mide'-zon",
+    "deriv": "neuter of G3187;",
+    "def-en": "(adverbially) in greater degree",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "the more."
+  },
+  "G3186": {
+    "gr": "μειζότερος",
+    "tr": "meizóteros",
+    "pron": "mide-zot'-er-os",
+    "deriv": "continued comparative of G3187;",
+    "def-en": "still larger (figuratively)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "greater."
+  },
+  "G3187": {
+    "gr": "μείζων",
+    "tr": "meízōn",
+    "pron": "mide'-zone",
+    "deriv": "irregular comparative of G3173;",
+    "def-en": "larger (literally or figuratively, specially, in age)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "elder, greater(-est), more."
+  },
+  "G3188": {
+    "gr": "μέλαν",
+    "tr": "mélan",
+    "pron": "mel'-an",
+    "deriv": "neuter of G3189 as noun;",
+    "def-en": "ink",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "ink."
+  },
+  "G3189": {
+    "gr": "μέλας",
+    "tr": "mélas",
+    "pron": "mel'-as",
+    "deriv": "apparently a primary word;",
+    "def-en": "black",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "black."
+  },
+  "G3190": {
+    "gr": "Μελεᾶς",
+    "tr": "Meleâs",
+    "pron": "mel-eh-as'",
+    "deriv": "of uncertain origin;",
+    "def-en": "Meleas, an Israelite",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Meleas."
+  },
+  "G3191": {
+    "gr": "μελετάω",
+    "tr": "meletáō",
+    "pron": "mel-et-ah'-o",
+    "deriv": "from a presumed derivative of G3199;",
+    "def-en": "to take care of, i.e. (by implication) revolve in the mind",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "imagine, (pre-)meditate."
+  },
+  "G3192": {
+    "gr": "μέλι",
+    "tr": "méli",
+    "pron": "mel'-ee",
+    "deriv": "apparently a primary word;",
+    "def-en": "honey",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "honey."
+  },
+  "G3193": {
+    "gr": "μελίσσιος",
+    "tr": "melíssios",
+    "pron": "mel-is'-see-os",
+    "deriv": "from G3192;",
+    "def-en": "relating to honey, i.e. bee (comb)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "honeycomb."
+  },
+  "G3194": {
+    "gr": "Μελίτη",
+    "tr": "Melítē",
+    "pron": "mel-ee'-tay",
+    "deriv": "of uncertain origin;",
+    "def-en": "Melita, an island in the Mediterranean",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Melita."
+  },
+  "G3195": {
+    "gr": "μέλλω",
+    "tr": "méllō",
+    "pron": "mel'-lo",
+    "deriv": "a strengthened form of G3199 (through the idea of expectation);",
+    "def-en": "to intend, i.e. be about to be, do, or suffer something (of persons or things, especially events; in the sense of purpose, duty, necessity, probability, possibility, or hesitation)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "about, after that, be (almost), (that which is, things, + which was for) to come, intend, was to (be), mean, mind, be at the point, (be) ready, + return, shall (begin), (which, that) should (after, afterwards, hereafter) tarry, which was for, will, would, be yet."
+  },
+  "G3196": {
+    "gr": "μέλος",
+    "tr": "mélos",
+    "pron": "mel'-os",
+    "deriv": "of uncertain affinity;",
+    "def-en": "a limb or part of the body",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "member."
+  },
+  "G3197": {
+    "gr": "Μελχί",
+    "tr": "Melchí",
+    "pron": "mel-khee'",
+    "deriv": "of Hebrew origin ( H4428 with pronominal suffix, my king);",
+    "def-en": "Melchi (i.e. Malki), the name of two Israelites",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Melchi."
+  },
+  "G3198": {
+    "gr": "Μελχισεδέκ",
+    "tr": "Melchisedék",
+    "pron": "mel-khis-ed-ek'",
+    "deriv": "of Hebrew origin ( H4442);",
+    "def-en": "Melchisedek (i.e. Malkitsedek), a patriarch",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Melchisedec."
+  },
+  "G3199": {
+    "gr": "μέλω",
+    "tr": "mélō",
+    "pron": "mel'-o",
+    "deriv": "a primary verb;",
+    "def-en": "to be of interest to, i.e. to concern (only third person singular present indicative used impersonally, it matters)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "(take) care."
+  },
+  "G3200": {
+    "gr": "μεμβράνα",
+    "tr": "membrána",
+    "pron": "mem-bran'-ah",
+    "deriv": "of Latin origin (\"membrane\");",
+    "def-en": "a (written) sheep-skin",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "parchment."
+  },
+  "G3201": {
+    "gr": "μέμφομαι",
+    "tr": "mémphomai",
+    "pron": "mem'-fom-ahee",
+    "deriv": "middle voice of an apparently primary verb;",
+    "def-en": "to blame",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "find fault."
+  },
+  "G3202": {
+    "gr": "μεμψίμοιρος",
+    "tr": "mempsímoiros",
+    "pron": "mem-psim'-oy-ros",
+    "deriv": "from a presumed derivative of G3201 and μοῖρα (moîra) (fate; akin to the base of G3313);",
+    "def-en": "blaming fate, i.e. querulous (discontented)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "complainer."
+  },
+  "G3303": {
+    "gr": "μέν",
+    "tr": "mén",
+    "pron": "men",
+    "deriv": "a primary particle;",
+    "def-en": "properly, indicative of affirmation or concession (in fact); usually followed by a contrasted clause with G1161 (this one, the former, etc.)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "even, indeed, so, some, truly, verily."
+  },
+  "G3304": {
+    "gr": "μενοῦνγε",
+    "tr": "menoûnge",
+    "pron": "men-oon'-geh",
+    "deriv": "from G3303 and G3767 and G1065;",
+    "def-en": "so then at least",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "nay but, yea doubtless (rather, verily)."
+  },
+  "G3305": {
+    "gr": "μέντοι",
+    "tr": "méntoi",
+    "pron": "men'-toy",
+    "deriv": "from G3303 and G5104;",
+    "def-en": "indeed though, i.e. however",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "also, but, howbeit, nevertheless, yet."
+  },
+  "G3306": {
+    "gr": "μένω",
+    "tr": "ménō",
+    "pron": "men'-o",
+    "deriv": "a primary verb;",
+    "def-en": "to stay (in a given place, state, relation or expectancy)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "abide, continue, dwell, endure, be present, remain, stand, tarry (for), X thine own."
+  },
+  "G3307": {
+    "gr": "μερίζω",
+    "tr": "merízō",
+    "pron": "mer-id'-zo",
+    "deriv": "from G3313;",
+    "def-en": "to part, i.e. (literally) to apportion, bestow, share, or (figuratively) to disunite, differ",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "deal, be difference between, distribute, divide, give part."
+  },
+  "G3308": {
+    "gr": "μέριμνα",
+    "tr": "mérimna",
+    "pron": "mer'-im-nah",
+    "deriv": "from G3307 (through the idea of distraction);",
+    "def-en": "solicitude",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "care."
+  },
+  "G3309": {
+    "gr": "μεριμνάω",
+    "tr": "merimnáō",
+    "pron": "mer-im-nah'-o",
+    "deriv": "from G3308;",
+    "def-en": "to be anxious about",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "(be, have) care(-ful), take thought."
+  },
+  "G3310": {
+    "gr": "μερίς",
+    "tr": "merís",
+    "pron": "mer-ece'",
+    "deriv": "feminine of G3313;",
+    "def-en": "a portion, i.e. province, share or (abstractly) participation",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "part (X -akers)."
+  },
+  "G3311": {
+    "gr": "μερισμός",
+    "tr": "merismós",
+    "pron": "mer-is-mos'",
+    "deriv": "from G3307;",
+    "def-en": "a separation or distribution",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "dividing asunder, gift."
+  },
+  "G3312": {
+    "gr": "μεριστής",
+    "tr": "meristḗs",
+    "pron": "mer-is-tace'",
+    "deriv": "from G3307;",
+    "def-en": "an apportioner (administrator)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "divider."
+  },
+  "G3313": {
+    "gr": "μέρος",
+    "tr": "méros",
+    "pron": "mer'-os",
+    "deriv": "from an obsolete but more primary form of μείρομαι (meíromai) (to get as a section or allotment);",
+    "def-en": "a division or share (literally or figuratively, in a wide application)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "behalf, course, coast, craft, particular (+ -ly), part (+ -ly), piece, portion, respect, side, some sort(-what)."
+  },
+  "G3314": {
+    "gr": "μεσημβρία",
+    "tr": "mesēmbría",
+    "pron": "mes-ame-bree'-ah",
+    "deriv": "from G3319 and G2250;",
+    "def-en": "midday; by implication, the south",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "noon, south."
+  },
+  "G3315": {
+    "gr": "μεσιτεύω",
+    "tr": "mesiteúō",
+    "pron": "mes-it-yoo'-o",
+    "deriv": "from G3316;",
+    "def-en": "to interpose (as arbiter), i.e (by implication) to ratify (as surety)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "confirm."
+  },
+  "G3316": {
+    "gr": "μεσίτης",
+    "tr": "mesítēs",
+    "pron": "mes-ee'-tace",
+    "deriv": "from G3319;",
+    "def-en": "a go-between, i.e. (simply) an internunciator, or (by implication) a reconciler (intercessor)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "mediator."
+  },
+  "G3317": {
+    "gr": "μεσονύκτιον",
+    "tr": "mesonýktion",
+    "pron": "mes-on-ook'-tee-on",
+    "deriv": "neuter of compound of G3319 and G3571;",
+    "def-en": "midnight (especially as a watch)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "midnight."
+  },
+  "G3318": {
+    "gr": "Μεσοποταμία",
+    "tr": "Mesopotamía",
+    "pron": "mes-op-ot-am-ee'-ah",
+    "deriv": "from G3319 and G4215;",
+    "def-en": "Mesopotamia (as lying between the Euphrates and the Tigris; compare H763), a region of Asia",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Mesopotamia."
+  },
+  "G3319": {
+    "gr": "μέσος",
+    "tr": "mésos",
+    "pron": "mes'-os",
+    "deriv": "from G3326;",
+    "def-en": "middle (as an adjective or (neuter) noun)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "among, X before them, between, + forth, mid(-day, -night), midst, way."
+  },
+  "G3320": {
+    "gr": "μεσότοιχον",
+    "tr": "mesótoichon",
+    "pron": "mes-ot'-oy-khon",
+    "deriv": "from G3319 and G5109;",
+    "def-en": "a partition (figuratively)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "middle wall."
+  },
+  "G3321": {
+    "gr": "μεσουράνημα",
+    "tr": "mesouránēma",
+    "pron": "mes-oo-ran'-ay-mah",
+    "deriv": "from a presumed compound of G3319 and G3772;",
+    "def-en": "mid-sky",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "midst of heaven."
+  },
+  "G3322": {
+    "gr": "μεσόω",
+    "tr": "mesóō",
+    "pron": "mes-o'-o",
+    "deriv": "from G3319;",
+    "def-en": "to form the middle, i.e. (in point of time), to be half-way over",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "be about the midst."
+  },
+  "G3323": {
+    "gr": "Μεσσίας",
+    "tr": "Messías",
+    "pron": "mes-see'-as",
+    "deriv": "of Hebrew origin ( H4899);",
+    "def-en": "the Messias (i.e. Mashiach), or Christ",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Messias."
+  },
+  "G3324": {
+    "gr": "μεστός",
+    "tr": "mestós",
+    "pron": "mes-tos'",
+    "deriv": "of uncertain derivation;",
+    "def-en": "replete (literally or figuratively)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "full."
+  },
+  "G3325": {
+    "gr": "μεστόω",
+    "tr": "mestóō",
+    "pron": "mes-to'-o",
+    "deriv": "from G3324;",
+    "def-en": "to replenish, i.e. (by implication) to intoxicate",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "fill."
+  },
+  "G3326": {
+    "gr": "μετά",
+    "tr": "metá",
+    "pron": "met-ah'",
+    "deriv": "a primary preposition (often used adverbially);",
+    "def-en": "properly, denoting accompaniment; \"amid\" (local or causal); modified variously according to the case (genitive association, or accusative succession) with which it is joined; occupying an intermediate position between G575 or G1537 and G1519 or G4314; less intimate than G1722 and less close than G4862)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "after(-ward), X that he again, against, among, X and, + follow, hence, hereafter, in, of, (up-)on, + our, X and setting, since, (un-)to, + together, when, with (+ -out)."
+  },
+  "G3327": {
+    "gr": "μεταβαίνω",
+    "tr": "metabaínō",
+    "pron": "met-ab-ah'-ee-no",
+    "deriv": "from G3326 and the base of G939;",
+    "def-en": "to change place",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "depart, go, pass, remove."
+  },
+  "G3328": {
+    "gr": "μεταβάλλω",
+    "tr": "metabállō",
+    "pron": "met-ab-al'-lo",
+    "deriv": "from G3326 and G906;",
+    "def-en": "to throw over, i.e. (middle voice figuratively) to turn about in opinion",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "change mind."
+  },
+  "G3329": {
+    "gr": "μετάγω",
+    "tr": "metágō",
+    "pron": "met-ag'-o",
+    "deriv": "from G3326 and G718;",
+    "def-en": "to lead over, i.e. transfer (direct)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "turn about."
+  },
+  "G3330": {
+    "gr": "μεταδίδωμι",
+    "tr": "metadídōmi",
+    "pron": "met-ad-id'-o-mee",
+    "deriv": "from G3326 and G1325;",
+    "def-en": "to give over, i.e. share",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "give, impart."
+  },
+  "G3331": {
+    "gr": "μετάθεσις",
+    "tr": "metáthesis",
+    "pron": "met-ath'-es-is",
+    "deriv": "from G3346;",
+    "def-en": "transposition, i.e. transferral (to heaven), disestablishment (of a law)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "change, removing, translation."
+  },
+  "G3332": {
+    "gr": "μεταίρω",
+    "tr": "metaírō",
+    "pron": "met-ah'-ee-ro",
+    "deriv": "from G3326 and G142;",
+    "def-en": "to betake oneself, i.e. remove (locally)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "depart."
+  },
+  "G3333": {
+    "gr": "μετακαλέω",
+    "tr": "metakaléō",
+    "pron": "met-ak-al-eh'-o",
+    "deriv": "from G3326 and G2564;",
+    "def-en": "to call elsewhere, i.e. summon",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "call (for, hither)."
+  },
+  "G3334": {
+    "gr": "μετακινέω",
+    "tr": "metakinéō",
+    "pron": "met-ak-ee-neh'-o",
+    "deriv": "from G3326 and G2795;",
+    "def-en": "to stir to a place elsewhere, i.e. remove (figuratively)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "move away."
+  },
+  "G3335": {
+    "gr": "μεταλαμβάνω",
+    "tr": "metalambánō",
+    "pron": "met-al-am-ban'-o",
+    "deriv": "from G3326 and G2983;",
+    "def-en": "to participate; genitive case, to accept (and use)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "eat, have, be partaker, receive, take."
+  },
+  "G3336": {
+    "gr": "μετάλημψις",
+    "tr": "metálēmpsis",
+    "pron": "met-al'-ape-sis",
+    "deriv": "from G3335;",
+    "def-en": "participation",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "taking."
+  },
+  "G3337": {
+    "gr": "μεταλλάσσω",
+    "tr": "metallássō",
+    "pron": "met-al-las'-so",
+    "deriv": "from G3326 and G236;",
+    "def-en": "to exchange",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "change."
+  },
+  "G3338": {
+    "gr": "μεταμέλλομαι",
+    "tr": "metaméllomai",
+    "pron": "met-am-el'-lom-ahee",
+    "deriv": "from G3326 and the middle voice of G3199;",
+    "def-en": "to care afterwards, i.e. regret",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "repent (self)."
+  },
+  "G3339": {
+    "gr": "μεταμορφόω",
+    "tr": "metamorphóō",
+    "pron": "met-am-or-fo'-o",
+    "deriv": "from G3326 and G3445;",
+    "def-en": "to transform (literally or figuratively, \"metamorphose\")",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "change, transfigure, transform."
+  },
+  "G3340": {
+    "gr": "μετανοέω",
+    "tr": "metanoéō",
+    "pron": "met-an-o-eh'-o",
+    "deriv": "from G3326 and G3539;",
+    "def-en": "to think differently or afterwards, i.e. reconsider (morally, feel compunction)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "repent."
+  },
+  "G3341": {
+    "gr": "μετάνοια",
+    "tr": "metánoia",
+    "pron": "met-an'-oy-ah",
+    "deriv": "from G3340;",
+    "def-en": "(subjectively) compunction (for guilt, including reformation); by implication, reversal (of (another's) decision)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "repentance."
+  },
+  "G3342": {
+    "gr": "μεταξύ",
+    "tr": "metaxý",
+    "pron": "met-ax-oo'",
+    "deriv": "from G3326 and a form of G4862;",
+    "def-en": "betwixt (of place or person); (of time) as adjective, intervening, or (by implication) adjoining",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "between, mean while, next."
+  },
+  "G3343": {
+    "gr": "μεταπέμπω",
+    "tr": "metapémpō",
+    "pron": "met-ap-emp'-o",
+    "deriv": "from G3326 and G3992;",
+    "def-en": "to send from elsewhere, i.e. (middle voice) to summon or invite",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "call (send) for."
+  },
+  "G3344": {
+    "gr": "μεταστρέφω",
+    "tr": "metastréphō",
+    "pron": "met-as-tref'-o",
+    "deriv": "from G3326 and G4762;",
+    "def-en": "to turn across, i.e. transmute or (figuratively) corrupt",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "pervert, turn."
+  },
+  "G3345": {
+    "gr": "μετασχηματίζω",
+    "tr": "metaschēmatízō",
+    "pron": "met-askh-ay-mat-id'-zo",
+    "deriv": "from G3326 and a derivative of G4976;",
+    "def-en": "to transfigure or disguise; figuratively, to apply (by accommodation)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "transfer, transform (self)."
+  },
+  "G3346": {
+    "gr": "μετατίθημι",
+    "tr": "metatíthēmi",
+    "pron": "met-at-ith'-ay-mee",
+    "deriv": "from G3326 and G5087;",
+    "def-en": "to transfer, i.e. (literally) transport, (by implication) exchange, (reflexively) change sides, or (figuratively) pervert",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "carry over, change, remove, translate, turn."
+  },
+  "G3347": {
+    "gr": "μετέπειτα",
+    "tr": "metépeita",
+    "pron": "met-ep'-i-tah",
+    "deriv": "from G3326 and G1899;",
+    "def-en": "thereafter",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "afterward."
+  },
+  "G3348": {
+    "gr": "μετέχω",
+    "tr": "metéchō",
+    "pron": "met-ekh'-o",
+    "deriv": "from G3326 and G2192;",
+    "def-en": "to share or participate; by implication, belong to, eat (or drink)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "be partaker, pertain, take part, use."
+  },
+  "G3349": {
+    "gr": "μετεωρίζω",
+    "tr": "meteōrízō",
+    "pron": "met-eh-o-rid'-zo",
+    "deriv": "from a compound of G3326 and a collateral form of G142 or perhaps rather G109 (compare \"meteor\");",
+    "def-en": "to raise in mid-air, i.e. (figuratively) suspend (passively, fluctuate or be anxious)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "be of doubtful mind."
+  },
+  "G3350": {
+    "gr": "μετοικεσία",
+    "tr": "metoikesía",
+    "pron": "met-oy-kes-ee'-ah",
+    "deriv": "from a derivative of a compound of G3326 and G3624;",
+    "def-en": "a change of abode, i.e. (specially), expatriation",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "X brought, carried(-ying) away (in-)to."
+  },
+  "G3351": {
+    "gr": "μετοικίζω",
+    "tr": "metoikízō",
+    "pron": "met-oy-kid'-zo",
+    "deriv": "from the same as G3350;",
+    "def-en": "to transfer as a settler or captive, i.e colonize or exile",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "carry away, remove into."
+  },
+  "G3352": {
+    "gr": "μετοχή",
+    "tr": "metochḗ",
+    "pron": "met-okh-ay'",
+    "deriv": "from G3348;",
+    "def-en": "participation, i.e. intercourse",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "fellowship."
+  },
+  "G3353": {
+    "gr": "μέτοχος",
+    "tr": "métochos",
+    "pron": "met'-okh-os",
+    "deriv": "from G3348;",
+    "def-en": "participant, i.e. (as noun) a sharer; by implication, an associate",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "fellow, partaker, partner."
+  },
+  "G3354": {
+    "gr": "μετρέω",
+    "tr": "metréō",
+    "pron": "met-reh'-o",
+    "deriv": "from G3358;",
+    "def-en": "to measure (i.e. ascertain in size by a fixed standard); by implication, to admeasure (i.e. allot by rule)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "figuratively, to estimate:--measure, mete."
+  },
+  "G3355": {
+    "gr": "μετρητής",
+    "tr": "metrētḗs",
+    "pron": "met-ray-tace'",
+    "deriv": "from G3354;",
+    "def-en": "a measurer, i.e. (specially), a certain standard measure of capacity for liquids",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "firkin."
+  },
+  "G3356": {
+    "gr": "μετριοπαθέω",
+    "tr": "metriopathéō",
+    "pron": "met-ree-op-ath-eh'-o",
+    "deriv": "from a compound of the base of G3357 and G3806;",
+    "def-en": "to be moderate in passion, i.e. gentle (to treat indulgently)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "have compassion."
+  },
+  "G3357": {
+    "gr": "μετρίως",
+    "tr": "metríōs",
+    "pron": "met-ree'-oce",
+    "deriv": "adverb from a derivative of G3358;",
+    "def-en": "moderately, i.e. slightly",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "a little."
+  },
+  "G3358": {
+    "gr": "μέτρον",
+    "tr": "métron",
+    "pron": "met'-ron",
+    "deriv": "an apparently primary word;",
+    "def-en": "a measure (\"metre\"), literally or figuratively; by implication, a limited portion (degree)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "measure."
+  },
+  "G3359": {
+    "gr": "μέτωπον",
+    "tr": "métōpon",
+    "pron": "met'-o-pon",
+    "deriv": "from G3326 and ops (the face);",
+    "def-en": "the forehead (as opposite the countenance)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "forehead."
+  },
+  "G3360": {
+    "gr": "μέχρι",
+    "tr": "méchri",
+    "pron": "mekh'-ree",
+    "deriv": "from G3372;",
+    "def-en": "as far as, i.e. up to a certain point (as a preposition, of extent (denoting the terminus, whereas G891 refers especially to the space of time or place intervening) or conjunction)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "till, (un-)to, until."
+  },
+  "G3361": {
+    "gr": "μή",
+    "tr": "mḗ",
+    "pron": "may",
+    "deriv": "a primary particle of qualified negation (whereas G3756 expresses an absolute denial);",
+    "def-en": "(adverb) not, (conjunction) lest; also (as an interrogative implying a negative answer (whereas G3756 expects an affirmative one)) whether",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "any but (that), X forbear, + God forbid, + lack, lest, neither, never, no (X wise in), none, nor, (can-)not, nothing, that not, un(-taken), without."
+  },
+  "G3362": {
+    "gr": "ἐὰν μή",
+    "tr": "eàn mḗ",
+    "pron": "eh-an' may",
+    "deriv": "i.e. G1437 and G3361;",
+    "def-en": "if not, i.e. unless",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "X before, but, except, if, no, (if, + whosoever) not."
+  },
+  "G3363": {
+    "gr": "ἵνα μή",
+    "tr": "hína mḗ",
+    "pron": "hin'-ah may",
+    "deriv": "i.e. G2443 and G3361;",
+    "def-en": "in order (or so) that not",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "albeit not, lest, that, no(-t, (-thing))."
+  },
+  "G3364": {
+    "gr": "οὐ μή",
+    "tr": "ou mḗ",
+    "pron": "oo may",
+    "deriv": "i.e. G3756 and G3361;",
+    "def-en": "a double negative strengthening the denial; not at all",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "any more, at all, by any (no) means, neither, never, no (at all), in no case (wise), nor ever, not (at all, in any wise)."
+  },
+  "G3365": {
+    "gr": "μηδαμῶς",
+    "tr": "mēdamōs",
+    "pron": "may-dam-oce'",
+    "deriv": "adverb from a compound of G3361 and ἀμός (amós) (somebody);",
+    "def-en": "by no means",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "not so."
+  },
+  "G3366": {
+    "gr": "μηδέ",
+    "tr": "mēdé",
+    "pron": "may-deh'",
+    "deriv": "from G3361 and G1161;",
+    "def-en": "but not, not even; in a continued negation, nor",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "neither, nor (yet), (no) not (once, so much as)."
+  },
+  "G3367": {
+    "gr": "μηδείς",
+    "tr": "mēdeís",
+    "pron": "may-dice'",
+    "deriv": "from G3361 and G1520;",
+    "def-en": "not even one (man, woman, thing)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "any (man, thing), no (man), none, not (at all, any man, a whit), nothing, + without delay."
+  },
+  "G3368": {
+    "gr": "μηδέποτε",
+    "tr": "mēdépote",
+    "pron": "may-dep'-ot-eh",
+    "deriv": "from G3366 and G4218;",
+    "def-en": "not even ever",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "never."
+  },
+  "G3369": {
+    "gr": "μηδέπω",
+    "tr": "mēdépō",
+    "pron": "may-dep'-o",
+    "deriv": "from G3366 and G4452;",
+    "def-en": "not even yet",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "not yet."
+  },
+  "G3370": {
+    "gr": "Μῆδος",
+    "tr": "Mēdos",
+    "pron": "may'-dos",
+    "deriv": "of foreign origin (compare H4074);",
+    "def-en": "a Median, or inhabitant of Media",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Mede."
+  },
+  "G3371": {
+    "gr": "μηκέτι",
+    "tr": "mēkéti",
+    "pron": "may-ket'-ee",
+    "deriv": "from G3361 and G2089;",
+    "def-en": "no further",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "any longer, (not) henceforth, hereafter, no henceforward (longer, more, soon), not any more."
+  },
+  "G3372": {
+    "gr": "μῆκος",
+    "tr": "mēkos",
+    "pron": "may'-kos",
+    "deriv": "probably akin to G3173;",
+    "def-en": "length (literally or figuratively)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "length."
+  },
+  "G3373": {
+    "gr": "μηκύνω",
+    "tr": "mēkýnō",
+    "pron": "may-koo'-no",
+    "deriv": "from G3372;",
+    "def-en": "to lengthen, i.e. (middle voice) to enlarge",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "grow up."
+  },
+  "G3374": {
+    "gr": "μηλωτή",
+    "tr": "mēlōtḗ",
+    "pron": "may-lo-tay'",
+    "deriv": "from μῆλον (mēlon) (a sheep);",
+    "def-en": "a sheep-skin",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "sheepskin."
+  },
+  "G3375": {
+    "gr": "μήν",
+    "tr": "mḗn",
+    "pron": "mane",
+    "deriv": "a stronger form of G3303;",
+    "def-en": "a particle of affirmation (only with G2229); assuredly",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "+ surely."
+  },
+  "G3376": {
+    "gr": "μήν",
+    "tr": "mḗn",
+    "pron": "mane",
+    "deriv": "a primary word;",
+    "def-en": "a month",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "month."
+  },
+  "G3377": {
+    "gr": "μηνύω",
+    "tr": "mēnýō",
+    "pron": "may-noo'-o",
+    "deriv": "probably from the same base as G3145 and G3415 (i.e. μάω (máō), to strive);",
+    "def-en": "to disclose (through the idea of mental effort and thus calling to mind), i.e. report, declare, intimate",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "shew, tell."
+  },
+  "G3378": {
+    "gr": "μὴ οὐκ",
+    "tr": "mḕ ouk",
+    "pron": "ouk",
+    "deriv": "i.e. G3361 and G3756;",
+    "def-en": "as interrogative and negative, is it not that?",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "neither (followed by no), + never, not."
+  },
+  "G3379": {
+    "gr": "μήποτε",
+    "tr": "mḗpote",
+    "pron": "may'-pot-eh",
+    "deriv": "from G3361 and G4218;",
+    "def-en": "not ever; also if (or lest) ever (or perhaps)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "if peradventure, lest (at any time, haply), not at all, whether or not."
+  },
+  "G3380": {
+    "gr": "μήπω",
+    "tr": "mḗpō",
+    "pron": "may'-po",
+    "deriv": "from G3361 and G4452;",
+    "def-en": "not yet",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "not yet."
+  },
+  "G3381": {
+    "gr": "μήπως",
+    "tr": "mḗpōs",
+    "pron": "may'-pos",
+    "deriv": "from G3361 and G4458;",
+    "def-en": "lest somehow",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "lest (by any means, by some means, haply, perhaps)."
+  },
+  "G3382": {
+    "gr": "μηρός",
+    "tr": "mērós",
+    "pron": "may-ros'",
+    "deriv": "perhaps a primary word;",
+    "def-en": "a thigh",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "thigh."
+  },
+  "G3383": {
+    "gr": "μήτε",
+    "tr": "mḗte",
+    "pron": "may'-teh",
+    "deriv": "from G3361 and G5037;",
+    "def-en": "not too, i.e. (in continued negation) neither or nor; also, not even",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "neither, (n-)or, so as much."
+  },
+  "G3384": {
+    "gr": "μήτηρ",
+    "tr": "mḗtēr",
+    "pron": "may'-tare",
+    "deriv": "apparently a primary word;",
+    "def-en": "a \"mother\" (literally or figuratively, immediate or remote)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "mother."
+  },
+  "G3385": {
+    "gr": "μήτι",
+    "tr": "mḗti",
+    "pron": "may'-tee",
+    "deriv": "from G3361 and the neuter of G5100;",
+    "def-en": "whether at all",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "not (the particle usually not expressed, except by the form of the question)."
+  },
+  "G3386": {
+    "gr": "μήτιγε",
+    "tr": "mḗtige",
+    "pron": "may'-tig-eh",
+    "deriv": "from G3385 and G1065;",
+    "def-en": "not at all then, i.e. not to say (the rather still)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "how much more."
+  },
+  "G3387": {
+    "gr": "μήτις",
+    "tr": "mḗtis",
+    "pron": "may'-tis",
+    "deriv": "from G3361 and G5100;",
+    "def-en": "whether any",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "any (sometimes unexpressed except by the simple interrogative form of the sentence)."
+  },
+  "G3388": {
+    "gr": "μήτρα",
+    "tr": "mḗtra",
+    "pron": "may'-trah",
+    "deriv": "from G3384;",
+    "def-en": "the matrix",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "womb."
+  },
+  "G3389": {
+    "gr": "μητραλῴας",
+    "tr": "mētralṓias",
+    "pron": "may-tral-o'-as",
+    "deriv": "from G3384 and the base of G257;",
+    "def-en": "a mother-thresher, i.e. matricide",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "murderer of mothers."
+  },
+  "G3390": {
+    "gr": "μητρόπολις",
+    "tr": "mētrópolis",
+    "pron": "may-trop'-ol-is",
+    "deriv": "from G3384 and G4172;",
+    "def-en": "a mother city, i.e. \"metropolis\"",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "chiefest city."
+  },
+  "G3391": {
+    "gr": "μία",
+    "tr": "mía",
+    "pron": "mee'-ah",
+    "deriv": "irregular feminine of G1520;",
+    "def-en": "one or first",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "a (certain), + agree, first, one, X other."
+  },
+  "G3392": {
+    "gr": "μιαίνω",
+    "tr": "miaínō",
+    "pron": "me-ah'-ee-no",
+    "deriv": "perhaps a primary verb;",
+    "def-en": "to sully or taint, i.e. contaminate (ceremonially or morally)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "defile."
+  },
+  "G3393": {
+    "gr": "μίασμα",
+    "tr": "míasma",
+    "pron": "mee'-as-mah",
+    "deriv": "from G3392 (\"miasma\");",
+    "def-en": "(morally) foulness (properly, the effect)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "pollution."
+  },
+  "G3394": {
+    "gr": "μιασμός",
+    "tr": "miasmós",
+    "pron": "mee-as-mos'",
+    "deriv": "from G3392;",
+    "def-en": "(morally) contamination (properly, the act)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "uncleanness."
+  },
+  "G3395": {
+    "gr": "μίγμα",
+    "tr": "mígma",
+    "pron": "mig'-mah",
+    "deriv": "from G3396;",
+    "def-en": "a compound",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "mixture."
+  },
+  "G3396": {
+    "gr": "μίγνυμι",
+    "tr": "mígnymi",
+    "pron": "mig'-noo-mee",
+    "deriv": "a primary verb;",
+    "def-en": "to mix",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "mingle."
+  },
+  "G3397": {
+    "gr": "μικρόν",
+    "tr": "mikrón",
+    "pron": "mik-ron'",
+    "deriv": "masculine or neuter singular of G3398 (as noun);",
+    "def-en": "a small space of time or degree",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "a (little) (while)."
+  },
+  "G3398": {
+    "gr": "μικρός",
+    "tr": "mikrós",
+    "pron": "mik-ros'",
+    "deriv": "apparently a primary word;",
+    "def-en": "small (in size, quantity, number or (figuratively) dignity)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "least, less, little, small."
+  },
+  "G3399": {
+    "gr": "Μίλητος",
+    "tr": "Mílētos",
+    "pron": "mil'-ay-tos",
+    "deriv": "of uncertain origin;",
+    "def-en": "Miletus, a city of Asia Minor",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Miletus."
+  },
+  "G3400": {
+    "gr": "μίλιον",
+    "tr": "mílion",
+    "pron": "mil'-ee-on",
+    "deriv": "of Latin origin;",
+    "def-en": "a thousand paces, i.e. a \"mile\"",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "mile."
+  },
+  "G3401": {
+    "gr": "μιμέομαι",
+    "tr": "miméomai",
+    "pron": "mim-eh'-om-ahee",
+    "deriv": "middle voice from μῖμος (mîmos) (a \"mimic\");",
+    "def-en": "to imitate",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "follow."
+  },
+  "G3402": {
+    "gr": "μιμητής",
+    "tr": "mimētḗs",
+    "pron": "mim-ay-tace'",
+    "deriv": "from G3401;",
+    "def-en": "an imitator",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "follower."
+  },
+  "G3403": {
+    "gr": "μιμνήσκω",
+    "tr": "mimnḗskō",
+    "pron": "mim-nace'-ko",
+    "deriv": "a prolonged form of G3415 (from which some of the tenses are borrowed);",
+    "def-en": "to remind, i.e. (middle voice) to recall to mind",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "be mindful, remember."
+  },
+  "G3404": {
+    "gr": "μισέω",
+    "tr": "miséō",
+    "pron": "mis-eh'-o",
+    "deriv": "from a primary μῖσος (mîsos) (hatred);",
+    "def-en": "to detest (especially to persecute); by extension, to love less",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "hate(-ful)."
+  },
+  "G3405": {
+    "gr": "μισθαποδοσία",
+    "tr": "misthapodosía",
+    "pron": "mis-thap-od-os-ee'-ah",
+    "deriv": "from G3406;",
+    "def-en": "requital (good or bad)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "recompence of reward."
+  },
+  "G3406": {
+    "gr": "μισθαποδότης",
+    "tr": "misthapodótēs",
+    "pron": "mis-thap-od-ot'-ace",
+    "deriv": "from G3409 and G591;",
+    "def-en": "a renumerator",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "rewarder."
+  },
+  "G3407": {
+    "gr": "μίσθιος",
+    "tr": "místhios",
+    "pron": "mis'-thee-os",
+    "deriv": "from G3408;",
+    "def-en": "a wage-earner",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "hired servant."
+  },
+  "G3408": {
+    "gr": "μισθός",
+    "tr": "misthós",
+    "pron": "mis-thos'",
+    "deriv": "apparently a primary word;",
+    "def-en": "pay for service (literally or figuratively), good or bad",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "hire, reward, wages."
+  },
+  "G3409": {
+    "gr": "μισθόω",
+    "tr": "misthóō",
+    "pron": "mis-tho'-o",
+    "deriv": "from G3408;",
+    "def-en": "to let out for wages, i.e. (middle voice) to hire",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "hire."
+  },
+  "G3410": {
+    "gr": "μίσθωμα",
+    "tr": "místhōma",
+    "pron": "mis'-tho-mah",
+    "deriv": "from G3409;",
+    "def-en": "a rented building",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "hired house."
+  },
+  "G3411": {
+    "gr": "μισθωτός",
+    "tr": "misthōtós",
+    "pron": "mis-tho-tos'",
+    "deriv": "from G3409;",
+    "def-en": "a wage-worker (good or bad)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "hired servant, hireling."
+  },
+  "G3412": {
+    "gr": "Μιτυλήνη",
+    "tr": "Mitylḗnē",
+    "pron": "mit-oo-lay'-nay",
+    "deriv": "for μυτιλήνη (mytilḗnē) (abounding in shellfish);",
+    "def-en": "Mitylene (or Mytilene), a town on the island of Lesbos",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Mitylene."
+  },
+  "G3413": {
+    "gr": "Μιχαήλ",
+    "tr": "Michaḗl",
+    "pron": "mikh-ah-ale'",
+    "deriv": "of Hebrew origin ( H4317);",
+    "def-en": "Michael, an archangel",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Michael."
+  },
+  "G3414": {
+    "gr": "μνᾶ",
+    "tr": "mnâ",
+    "pron": "mnah",
+    "deriv": "of Latin origin;",
+    "def-en": "a mna (i.e. mina), a certain weight",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "pound."
+  },
+  "G3415": {
+    "gr": "μνάομαι",
+    "tr": "mnáomai",
+    "pron": "mnah'-om-ahee",
+    "deriv": "middle voice of a derivative of G3306 or perhaps of the base of G3145 (through the idea of fixture in the mind or of mental grasp);",
+    "def-en": "to bear in mind, i.e. recollect; by implication, to reward or punish",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "be mindful, remember, come (have) in remembrance."
+  },
+  "G3416": {
+    "gr": "Μνάσων",
+    "tr": "Mnásōn",
+    "pron": "mnah'-sohn",
+    "deriv": "of uncertain origin;",
+    "def-en": "Mnason, a Christian",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Mnason."
+  },
+  "G3417": {
+    "gr": "μνεία",
+    "tr": "mneía",
+    "pron": "mni'-ah",
+    "deriv": "from G3415 or G3403;",
+    "def-en": "recollection; by implication, recital",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "mention, remembrance."
+  },
+  "G3418": {
+    "gr": "μνῆμα",
+    "tr": "mnēma",
+    "pron": "mnay'-mah",
+    "deriv": "from G3415;",
+    "def-en": "a memorial, i.e. sepulchral monument (burial-place)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "grave, sepulchre, tomb."
+  },
+  "G3419": {
+    "gr": "μνημεῖον",
+    "tr": "mnēmeîon",
+    "pron": "mnay-mi'-on",
+    "deriv": "from G3420;",
+    "def-en": "a remembrance, i.e. cenotaph (place of interment)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "grave, sepulchre, tomb."
+  },
+  "G3420": {
+    "gr": "μνήμη",
+    "tr": "mnḗmē",
+    "pron": "mnay'-may",
+    "deriv": "from G3403;",
+    "def-en": "memory",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "remembrance."
+  },
+  "G3421": {
+    "gr": "μνημονεύω",
+    "tr": "mnēmoneúō",
+    "pron": "mnay-mon-yoo'-o",
+    "deriv": "from a derivative of G3420;",
+    "def-en": "to exercise memory, i.e. recollect; by implication, to punish; also to rehearse",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "make mention; be mindful, remember."
+  },
+  "G3422": {
+    "gr": "μνημόσυνον",
+    "tr": "mnēmósynon",
+    "pron": "mnay-mos'-oo-non",
+    "deriv": "from G3421;",
+    "def-en": "a reminder (memorandum), i.e. record",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "memorial."
+  },
+  "G3423": {
+    "gr": "μνηστεύω",
+    "tr": "mnēsteúō",
+    "pron": "mnace-tyoo'-o",
+    "deriv": "from a derivative of G3415;",
+    "def-en": "to give a souvenir (engagement present), i.e. betroth",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "espouse."
+  },
+  "G3424": {
+    "gr": "μογιλάλος",
+    "tr": "mogilálos",
+    "pron": "mog-il-al'-os",
+    "deriv": "from G3425 and G2980;",
+    "def-en": "hardly talking, i.e. dumb (tongue-tied)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "having an impediment in his speech."
+  },
+  "G3425": {
+    "gr": "μόγις",
+    "tr": "mógis",
+    "pron": "mog'-is",
+    "deriv": "adverb from a primary μόγος (mógos) (toil);",
+    "def-en": "with difficulty",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "hardly."
+  },
+  "G3426": {
+    "gr": "μόδιος",
+    "tr": "módios",
+    "pron": "mod'-ee-os",
+    "deriv": "of Latin origin;",
+    "def-en": "a modius, i.e. certain measure for things dry (the quantity or the utensil)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "bushel."
+  },
+  "G3427": {
+    "gr": "μοί",
+    "tr": "moí",
+    "pron": "moy",
+    "deriv": "the simpler form of G1698;",
+    "def-en": "to me",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "I, me, mine, my."
+  },
+  "G3428": {
+    "gr": "μοιχαλίς",
+    "tr": "moichalís",
+    "pron": "moy-khal-is'",
+    "deriv": "a prolonged form of the feminine of G3432;",
+    "def-en": "an adulteress (literally or figuratively)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "adulteress(-ous, -y)."
+  },
+  "G3429": {
+    "gr": "μοιχάω",
+    "tr": "moicháō",
+    "pron": "moy-khah'-o",
+    "deriv": "from G3432;",
+    "def-en": "(middle voice) to commit adultery",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "commit adultery."
+  },
+  "G3430": {
+    "gr": "μοιχεία",
+    "tr": "moicheía",
+    "pron": "moy-khi'-ah",
+    "deriv": "from G3431;",
+    "def-en": "adultery",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "adultery."
+  },
+  "G3431": {
+    "gr": "μοιχεύω",
+    "tr": "moicheúō",
+    "pron": "moy-khyoo'-o",
+    "deriv": "from G3432;",
+    "def-en": "to commit adultery",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "commit adultery."
+  },
+  "G3432": {
+    "gr": "μοιχός",
+    "tr": "moichós",
+    "pron": "moy-khos'",
+    "deriv": "perhaps a primary word;",
+    "def-en": "a (male) paramour; figuratively, apostate",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "adulterer."
+  },
+  "G3433": {
+    "gr": "μόλις",
+    "tr": "mólis",
+    "pron": "mol'-is",
+    "deriv": "probably by variation for G3425;",
+    "def-en": "with difficulty",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "hardly, scarce(-ly), + with much work."
+  },
+  "G3434": {
+    "gr": "Μολόχ",
+    "tr": "Molóch",
+    "pron": "mol-okh'",
+    "deriv": "of Hebrew origin ( H4432);",
+    "def-en": "Moloch (i.e. Molek), an idol",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Moloch."
+  },
+  "G3435": {
+    "gr": "μολύνω",
+    "tr": "molýnō",
+    "pron": "mol-oo'-no",
+    "deriv": "probably from G3189;",
+    "def-en": "to soil (figuratively)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "defile."
+  },
+  "G3436": {
+    "gr": "μολυσμός",
+    "tr": "molysmós",
+    "pron": "mol-oos-mos'",
+    "deriv": "from G3435;",
+    "def-en": "a stain; i.e. (figuratively) immorality",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "filthiness."
+  },
+  "G3437": {
+    "gr": "μομφή",
+    "tr": "momphḗ",
+    "pron": "mom-fay'",
+    "deriv": "from G3201;",
+    "def-en": "blame, i.e. (by implication), a fault",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "quarrel."
+  },
+  "G3438": {
+    "gr": "μονή",
+    "tr": "monḗ",
+    "pron": "mon-ay'",
+    "deriv": "from G3306;",
+    "def-en": "a staying, i.e. residence (the act or the place)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "abode, mansion."
+  },
+  "G3439": {
+    "gr": "μονογενής",
+    "tr": "monogenḗs",
+    "pron": "mon-og-en-ace'",
+    "deriv": "from G3441 and G1096;",
+    "def-en": "only-born, i.e. sole",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "only (begotten, child)."
+  },
+  "G3440": {
+    "gr": "μόνον",
+    "tr": "mónon",
+    "pron": "mon'-on",
+    "deriv": "neuter of G3441 as adverb;",
+    "def-en": "merely",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "alone, but, only."
+  },
+  "G3441": {
+    "gr": "μόνος",
+    "tr": "mónos",
+    "pron": "mon'-os",
+    "deriv": "probably from G3306;",
+    "def-en": "remaining, i.e. sole or single; by implication, mere",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "alone, only, by themselves."
+  },
+  "G3442": {
+    "gr": "μονόφθαλμος",
+    "tr": "monóphthalmos",
+    "pron": "mon-of'-thal-mos",
+    "deriv": "from G3441 and G3788;",
+    "def-en": "one-eyed",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "with one eye."
+  },
+  "G3443": {
+    "gr": "μονόω",
+    "tr": "monóō",
+    "pron": "mon-o'-o",
+    "deriv": "from G3441;",
+    "def-en": "to isolate, i.e. bereave",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "be desolate."
+  },
+  "G3444": {
+    "gr": "μορφή",
+    "tr": "morphḗ",
+    "pron": "mor-fay'",
+    "deriv": "perhaps from the base of G3313 (through the idea of adjustment of parts);",
+    "def-en": "shape; figuratively, nature",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "form."
+  },
+  "G3445": {
+    "gr": "μορφόω",
+    "tr": "morphóō",
+    "pron": "mor-fo'-o",
+    "deriv": "from the same as G3444;",
+    "def-en": "to fashion (figuratively)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "form."
+  },
+  "G3446": {
+    "gr": "μόρφωσις",
+    "tr": "mórphōsis",
+    "pron": "mor'-fo-sis",
+    "deriv": "from G3445;",
+    "def-en": "formation, i.e. (by implication), appearance (semblance or (concretely) formula)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "form."
+  },
+  "G3447": {
+    "gr": "μοσχοποιέω",
+    "tr": "moschopoiéō",
+    "pron": "mos-khop-oy-eh'-o",
+    "deriv": "from G3448 and G4160;",
+    "def-en": "to fabricate the image of a bullock",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "make a calf."
+  },
+  "G3448": {
+    "gr": "μόσχος",
+    "tr": "móschos",
+    "pron": "mos'-khos",
+    "deriv": "probably strengthened for όσχος (óschos) (a shoot);",
+    "def-en": "a young bullock",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "calf."
+  },
+  "G3449": {
+    "gr": "μόχθος",
+    "tr": "móchthos",
+    "pron": "mokh'-thos",
+    "deriv": "from the base of G3425;",
+    "def-en": "toil, i.e. (by implication) sadness",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "painfulness, travail."
+  },
+  "G3450": {
+    "gr": "μοῦ",
+    "tr": "moû",
+    "pron": "moo",
+    "deriv": "the simpler form of G1700;",
+    "def-en": "of me",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "I, me, mine (own), my."
+  },
+  "G3451": {
+    "gr": "μουσικός",
+    "tr": "mousikós",
+    "pron": "moo-sik-os'",
+    "deriv": "from Μοῦσα (Moûsa) (a Muse);",
+    "def-en": "\"musical\", i.e. (as noun) a minstrel",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "musician."
+  },
+  "G3452": {
+    "gr": "μυελός",
+    "tr": "myelós",
+    "pron": "moo-el-os'",
+    "deriv": "perhaps a primary word;",
+    "def-en": "the marrow",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "marrow."
+  },
+  "G3453": {
+    "gr": "μυέω",
+    "tr": "myéō",
+    "pron": "moo-eh'-o",
+    "deriv": "from the base of G3466;",
+    "def-en": "to initiate, i.e. (by implication) to teach",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "instruct."
+  },
+  "G3454": {
+    "gr": "μῦθος",
+    "tr": "mŷthos",
+    "pron": "moo'-thos",
+    "deriv": "perhaps from the same as G3453 (through the idea of tuition);",
+    "def-en": "a tale, i.e. fiction (\"myth\")",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "fable."
+  },
+  "G3455": {
+    "gr": "μυκάομαι",
+    "tr": "mykáomai",
+    "pron": "moo-kah'-om-ahee",
+    "deriv": "from a presumed derivative of μύζω (mýzō) ( to \"moo\");",
+    "def-en": "to bellow (roar)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "roar."
+  },
+  "G3456": {
+    "gr": "μυκτηρίζω",
+    "tr": "myktērízō",
+    "pron": "mook-tay-rid'-zo",
+    "deriv": "from a derivative of the base of G3455 (meaning snout, as that whence lowing proceeds);",
+    "def-en": "to make mouths at, i.e. ridicule",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "mock."
+  },
+  "G3457": {
+    "gr": "μυλικός",
+    "tr": "mylikós",
+    "pron": "moo-lee-kos'",
+    "deriv": "from G3458;",
+    "def-en": "belonging to a mill",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "mill(-stone)."
+  },
+  "G3458": {
+    "gr": "μύλος",
+    "tr": "mýlos",
+    "pron": "moo'-los",
+    "deriv": "probably ultimately from the base of G3433 (through the idea of hardship);",
+    "def-en": "a \"mill\", i.e. (by implication), a grinder (millstone)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "millstone."
+  },
+  "G3459": {
+    "gr": "μύλων",
+    "tr": "mýlōn",
+    "pron": "moo'-lone",
+    "deriv": "from G3458;",
+    "def-en": "a mill-house",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "mill."
+  },
+  "G3460": {
+    "gr": "Μύρα",
+    "tr": "Mýra",
+    "pron": "moo'-rah",
+    "deriv": "of uncertain derivation;",
+    "def-en": "Myra, a place in Asia Minor",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Myra."
+  },
+  "G3461": {
+    "gr": "μυριάς",
+    "tr": "myriás",
+    "pron": "moo-ree'-as",
+    "deriv": "from G3463;",
+    "def-en": "a ten-thousand; by extension, a \"myriad\" or indefinite number",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "ten thousand."
+  },
+  "G3462": {
+    "gr": "μυρίζω",
+    "tr": "myrízō",
+    "pron": "moo-rid'-zo",
+    "deriv": "from G3464;",
+    "def-en": "to apply (perfumed) unguent to",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "anoint."
+  },
+  "G3463": {
+    "gr": "μύριοι",
+    "tr": "mýrioi",
+    "pron": "moo'-ree-oi",
+    "deriv": "plural of an apparently primary word (properly, meaning very many);",
+    "def-en": "ten thousand; by extension, innumerably many",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "ten thousand."
+  },
+  "G3464": {
+    "gr": "μύρον",
+    "tr": "mýron",
+    "pron": "moo'-ron",
+    "deriv": "probably of foreign origin (compare H4753, G4666);",
+    "def-en": "\"myrrh\", i.e. (by implication) perfumed oil",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "ointment."
+  },
+  "G3465": {
+    "gr": "Μυσία",
+    "tr": "Mysía",
+    "pron": "moo-see'-ah",
+    "deriv": "of uncertain origin;",
+    "def-en": "Mysia, a region of Asia Minor",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Mysia."
+  },
+  "G3466": {
+    "gr": "μυστήριον",
+    "tr": "mystḗrion",
+    "pron": "moos-tay'-ree-on",
+    "deriv": "from a derivative of μύω (mýō) (to shut the mouth);",
+    "def-en": "a secret or \"mystery\" (through the idea of silence imposed by initiation into religious rites)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "mystery."
+  },
+  "G3467": {
+    "gr": "μυωπάζω",
+    "tr": "myōpázō",
+    "pron": "moo-ope-ad'-zo",
+    "deriv": "from a compound of the base of G3466 and ὤψ (ṓps) (the face; from G3700);",
+    "def-en": "to shut the eyes, i.e. blink (see indistinctly)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "cannot see far off."
+  },
+  "G3468": {
+    "gr": "μώλωψ",
+    "tr": "mṓlōps",
+    "pron": "mo'-lopes",
+    "deriv": "from μῶλος (mōlos) (\"moil\";",
+    "def-en": "probably akin to the base of G3433) and probably ὤψ (ṓps) (the face; from G3700); a mole (\"black eye\") or blow-mark",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "stripe."
+  },
+  "G3469": {
+    "gr": "μωμάομαι",
+    "tr": "mōmáomai",
+    "pron": "mo-mah'-om-ahee",
+    "deriv": "from G3470;",
+    "def-en": "to carp at, i.e. censure (discredit)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "blame."
+  },
+  "G3470": {
+    "gr": "μῶμος",
+    "tr": "mōmos",
+    "pron": "mo'-mos",
+    "deriv": "perhaps from G3201;",
+    "def-en": "a flaw or blot, i.e. (figuratively) disgraceful person",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "blemish."
+  },
+  "G3471": {
+    "gr": "μωραίνω",
+    "tr": "mōraínō",
+    "pron": "mo-rah'-ee-no",
+    "deriv": "from G3474;",
+    "def-en": "to become insipid; figuratively, to make (passively, act) as a simpleton",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "become fool, make foolish, lose savour."
+  },
+  "G3472": {
+    "gr": "μωρία",
+    "tr": "mōría",
+    "pron": "mo-ree'-ah",
+    "deriv": "from G3474;",
+    "def-en": "silliness, i.e. absurdity",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "foolishness."
+  },
+  "G3473": {
+    "gr": "μωρολογία",
+    "tr": "mōrología",
+    "pron": "mo-rol-og-ee'-ah",
+    "deriv": "from a compound of G3474 and G3004;",
+    "def-en": "silly talk, i.e. buffoonery",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "foolish talking."
+  },
+  "G3474": {
+    "gr": "μωρός",
+    "tr": "mōrós",
+    "pron": "mo-ros'",
+    "deriv": "probably from the base of G3466;",
+    "def-en": "dull or stupid (as if shut up), i.e. heedless, (morally) blockhead, (apparently) absurd",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "fool(-ish, X -ishness)."
+  },
+  "G3475": {
+    "gr": "Μωσεύς",
+    "tr": "Mōseús",
+    "pron": "moce-yoos'",
+    "deriv": "of Hebrew origin; ( H4872);",
+    "def-en": "Moseus, Moses, or Mouses (i.e. Mosheh), the Hebrew lawgiver",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Moses."
+  },
+  "G3476": {
+    "gr": "Ναασσών",
+    "tr": "Naassṓn",
+    "pron": "nah-as-sone'",
+    "deriv": "of Hebrew origin ( H5177);",
+    "def-en": "Naasson (i.e. Nachshon), an Israelite",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Naasson."
+  },
+  "G3477": {
+    "gr": "Ναγγαί",
+    "tr": "Nangaí",
+    "pron": "nang-gah'-ee",
+    "deriv": "probably of Hebrew origin (compare H5052);",
+    "def-en": "Nangæ (i.e. perhaps Nogach), an Israelite",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Nagge."
+  },
+  "G3478": {
+    "gr": "Ναζαρέθ",
+    "tr": "Nazaréth",
+    "pron": "nad-zar-eth'",
+    "deriv": "of uncertain derivation;",
+    "def-en": "Nazareth or Nazaret, a place in Palestine",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Nazareth."
+  },
+  "G3479": {
+    "gr": "Ναζαρηνός",
+    "tr": "Nazarēnós",
+    "pron": "nad-zar-ay-nos'",
+    "deriv": "from G3478;",
+    "def-en": "a Nazarene, i.e. inhabitant of Nazareth",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "of Nazareth."
+  },
+  "G3480": {
+    "gr": "Ναζωραῖος",
+    "tr": "Nazōraîos",
+    "pron": "nad-zo-rah'-yos",
+    "deriv": "from G3478;",
+    "def-en": "a Nazoræan, i.e. inhabitant of Nazareth; by extension, a Christian",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Nazarene, of Nazareth."
+  },
+  "G3481": {
+    "gr": "Ναθάν",
+    "tr": "Nathán",
+    "pron": "nath-an'",
+    "deriv": "of Hebrew origin ( H5416);",
+    "def-en": "Nathan, an Israelite",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Nathan."
+  },
+  "G3482": {
+    "gr": "Ναθαναήλ",
+    "tr": "Nathanaḗl",
+    "pron": "nath-an-ah-ale'",
+    "deriv": "of Hebrew origin ( H5417);",
+    "def-en": "Nathanaël (i.e. Nathanel), an Israelite and Christian",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Nathanael."
+  },
+  "G3483": {
+    "gr": "ναί",
+    "tr": "naí",
+    "pron": "nahee",
+    "deriv": "a primary particle of strong affirmation;",
+    "def-en": "yes",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "even so, surely, truth, verily, yea, yes."
+  },
+  "G3484": {
+    "gr": "Ναΐν",
+    "tr": "Naḯn",
+    "pron": "nah-in'",
+    "deriv": "probably of Hebrew origin (compare H4999);",
+    "def-en": "Nain, a place in Palestine",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Nain."
+  },
+  "G3485": {
+    "gr": "ναός",
+    "tr": "naós",
+    "pron": "nah-os'",
+    "deriv": "from a primary ναίω (naíō) (to dwell);",
+    "def-en": "a fane, shrine, temple",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "shrine, temple."
+  },
+  "G3486": {
+    "gr": "Ναούμ",
+    "tr": "Naoúm",
+    "pron": "nah-oom'",
+    "deriv": "of Hebrew origin ( H5151);",
+    "def-en": "Naum (i.e. Nachum), an Israelite",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Naum."
+  },
+  "G3487": {
+    "gr": "νάρδος",
+    "tr": "nárdos",
+    "pron": "nar'dos",
+    "deriv": "of foreign origin (compare H5373);",
+    "def-en": "\"nard\"",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "(spike-)nard."
+  },
+  "G3488": {
+    "gr": "Νάρκισσος",
+    "tr": "Nárkissos",
+    "pron": "nar'-kis-sos",
+    "deriv": "a flower of the same name, from νάρκη (nárkē) (stupefaction, as a \"narcotic\");",
+    "def-en": "Narcissus, a Roman",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Narcissus."
+  },
+  "G3489": {
+    "gr": "ναυαγέω",
+    "tr": "nauagéō",
+    "pron": "now-ag-eh'-o",
+    "deriv": "from a compound of G3491 and G71;",
+    "def-en": "to be shipwrecked (stranded, \"navigate\"), literally or figuratively",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "make (suffer) shipwreck."
+  },
+  "G3490": {
+    "gr": "ναύκληρος",
+    "tr": "naúklēros",
+    "pron": "now'-klay-ros",
+    "deriv": "from G3491 and G2819 (\"clerk\");",
+    "def-en": "a captain",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "owner of a ship."
+  },
+  "G3491": {
+    "gr": "ναῦς",
+    "tr": "naûs",
+    "pron": "nowce",
+    "deriv": "from νάω (náō) or νέω (néō) (to float);",
+    "def-en": "a boat (of any size)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "ship."
+  },
+  "G3492": {
+    "gr": "ναύτης",
+    "tr": "naútēs",
+    "pron": "now'-tace",
+    "deriv": "from G3491;",
+    "def-en": "a boatman, i.e. seaman",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "sailor, shipman."
+  },
+  "G3493": {
+    "gr": "Ναχώρ",
+    "tr": "Nachṓr",
+    "pron": "nakh-ore'",
+    "deriv": "of Hebrew origin ( H5152);",
+    "def-en": "Nachor, the grandfather of Abraham",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Nachor."
+  },
+  "G3494": {
+    "gr": "νεανίας",
+    "tr": "neanías",
+    "pron": "neh-an-ee'-as",
+    "deriv": "from a derivative of G3501;",
+    "def-en": "a youth (up to about forty years)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "young man."
+  },
+  "G3495": {
+    "gr": "νεανίσκος",
+    "tr": "neanískos",
+    "pron": "neh-an-is'-kos",
+    "deriv": "from the same as G3494;",
+    "def-en": "a youth (under forty)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "young man."
+  },
+  "G3496": {
+    "gr": "Νεάπολις",
+    "tr": "Neápolis",
+    "pron": "neh-ap'-ol-is",
+    "deriv": "from G3501 and G4172;",
+    "def-en": "new town; Neapolis, a place in Macedonia",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Neapolis."
+  },
+  "G3497": {
+    "gr": "Νεεμάν",
+    "tr": "Neemán",
+    "pron": "neh-eh-man'",
+    "deriv": "of Hebrew origin ( H5283);",
+    "def-en": "Neeman (i.e. Naaman), a Syrian",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "Naaman."
+  },
+  "G3498": {
+    "gr": "νεκρός",
+    "tr": "nekrós",
+    "pron": "nek-ros'",
+    "deriv": "from an apparently primary νέκυς (nékys) (a corpse);",
+    "def-en": "dead (literally or figuratively; also as noun)",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "dead."
+  },
+  "G3499": {
+    "gr": "νεκρόω",
+    "tr": "nekróō",
+    "pron": "nek-ro'-o",
+    "deriv": "from G3498;",
+    "def-en": "to deaden, i.e. (figuratively) to subdue",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "be dead, mortify."
+  },
+  "G3500": {
+    "gr": "νέκρωσις",
+    "tr": "nékrōsis",
+    "pron": "nek'-ro-sis",
+    "deriv": "from G3499;",
+    "def-en": "decease; figuratively, impotency",
+    "def-es": "Definición en español llegará pronto.",
+    "kjv": "deadness, dying."
+  }
+}

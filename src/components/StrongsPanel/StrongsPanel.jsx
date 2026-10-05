@@ -15,6 +15,21 @@ import "./StrongsPanel.css";
 
 const CHUNK_SIZE = 30;
 
+/** The app's language as saved by the language picker (localStorage "app_lang"). */
+function appLang() {
+  try {
+    return localStorage.getItem("app_lang") === "es" ? "es" : "en";
+  } catch {
+    return "en"; // storage blocked (private mode, etc.)
+  }
+}
+
+/** "es" -> entry["def-es"], "en" -> entry["def-en"]. `def` is the pre-split field
+ *  name, kept as a fallback for any lexicon file cached before the change. */
+function definitionFor(entry) {
+  return appLang() === "es" ? entry["def-es"] : entry["def-en"] ?? entry.def;
+}
+
 function getBookNum(book) {
   if (typeof book === "number") return book;
   if (!book) return null;
@@ -276,7 +291,9 @@ export default function StrongsPanel({
         <p className="dim">No lexicon entry found for {code}.</p>
       ) : (
         <>
-          {entry.def && <p className="strongs-ref">{entry.def}</p>}
+          {definitionFor(entry) && (
+            <p className="strongs-ref">{definitionFor(entry)}</p>
+          )}
           {entry.deriv && <p className="dim">{entry.deriv}</p>}
           {entry.kjv && <p className="strongs-kjv">KJV usage: {entry.kjv}</p>}
           {entry.outline?.length > 0 && (

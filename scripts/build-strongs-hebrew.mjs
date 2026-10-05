@@ -15,12 +15,14 @@
  *   pos     part of speech / gender code                  "v", "n-m", "n-f", "n-pr-m"
  *           (decoded for display by src/morph.js decodeHebrewPos)
  *   deriv   derivation                                    "a primitive root;"
- *   def     Strong's definition
+ *   def-en  Strong's definition (English)
+ *   def-es  Spanish definition — placeholder until translated by hand; kept on rebuild
  *   kjv     KJV renderings
  *   outline the numbered sense outline, by stem           ["1) to create...", "1a) (Qal) ..."]
  */
 import fs from "node:fs";
 import path from "node:path";
+import { writeLexiconShards } from "./lexicon-write.mjs";
 
 const SHARD_SIZE = 500;
 const shardStart = (n) => Math.floor((n - 1) / SHARD_SIZE) * SHARD_SIZE + 1;
@@ -82,7 +84,7 @@ for (const m of xml.matchAll(/<div type="entry" n="(\d+)">([\s\S]*?)<\/div>/g)) 
     pron: attr(head, "POS"), // this file stores the pronunciation in POS=""
     pos: attr(head, "morph"),
     deriv: note("exegesis"),
-    def: note("explanation"),
+    "def-en": note("explanation"), // "def-es" is added by writeLexiconShards
     kjv: note("translation"),
     outline: outline.length ? outline : undefined,
   };
@@ -101,11 +103,6 @@ if (!count) {
 }
 
 const outDir = path.join("public", "data", "strongs", "hebrew");
-fs.mkdirSync(outDir, { recursive: true });
-let bytes = 0;
-for (const [shard, obj] of shards) {
-  const json = JSON.stringify(obj);
-  fs.writeFileSync(path.join(outDir, `${shard}.json`), json);
-  bytes += json.length;
-}
-console.log(`Wrote ${count} Hebrew entries across ${shards.size} shard files -> ${outDir} (${(bytes / 1048576).toFixed(1)} MB)`);
+const { kept, placeholders } = writeLexiconShards(outDir, shards);
+console.log(`Wrote ${count} Hebrew entries across ${shards.size} shard files -> ${outDir}`);
+console.log(`Spanish definitions: ${kept} kept, ${placeholders} placeholders`);

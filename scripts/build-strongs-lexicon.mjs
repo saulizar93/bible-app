@@ -13,6 +13,7 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
+import { writeLexiconShards } from './lexicon-write.mjs';
 
 const SHARD_SIZE = 500;
 const shardStart = n => Math.floor((n - 1) / SHARD_SIZE) * SHARD_SIZE + 1;
@@ -77,7 +78,7 @@ for (const m of xml.matchAll(/<entry\b[^>]*\bstrongs="0*(\d+)"[^>]*>([\s\S]*?)<\
     tr: attr(block, 'greek', 'translit'),
     pron: attr(block, 'pronunciation', 'strongs'),
     deriv: tagText(block, 'strongs_derivation'),
-    def: tagText(block, 'strongs_def'),
+    'def-en': tagText(block, 'strongs_def'), // "def-es" is added by writeLexiconShards
     kjv: tagText(block, 'kjv_def'),
   };
   for (const k of Object.keys(entry)) if (entry[k] === undefined) delete entry[k];
@@ -98,9 +99,7 @@ if (!count) {
 }
 
 const outDir = path.join('public', 'data', 'strongs', 'greek');
-fs.mkdirSync(outDir, { recursive: true });
-for (const [shard, obj] of shards) {
-  fs.writeFileSync(path.join(outDir, `${shard}.json`), JSON.stringify(obj));
-}
+const { kept, placeholders } = writeLexiconShards(outDir, shards);
 
 console.log(`Wrote ${count} entries across ${shards.size} shard files -> ${outDir}`);
+console.log(`Spanish definitions: ${kept} kept, ${placeholders} placeholders`);

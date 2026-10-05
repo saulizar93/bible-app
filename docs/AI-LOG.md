@@ -1,5 +1,20 @@
 # AI Decision & Architecture Log
 
+## 2026-10-04: Bilingual Lexicon Definitions (def-en / def-es)
+
+### User Request
+
+- Give every Greek and Hebrew lexicon entry a `def-en` (English) and `def-es` (Spanish, placeholder for now, to be filled in by hand), and have StrongsPanel show the one matching localStorage `app_lang`.
+
+### Decisions & Changes
+
+1. **Lexicon data (`public/data/strongs/{greek,hebrew}/*.json`)**: `def` renamed to `def-en`; `def-es` added with the placeholder "Definición en español llegará pronto." (5,523 Greek + 8,674 Hebrew entries). Files are now written indented (one field per line) for hand editing.
+2. **`scripts/lexicon-write.mjs`** (new, shared by `build-strongs-lexicon.mjs` and `build-strongs-hebrew.mjs`): before writing a shard it reads the existing file and keeps every `def-es` that is not the placeholder, so re-running the build never erases hand-entered translations. If an existing shard is invalid JSON (e.g. a typo while editing) the build stops instead of overwriting it. Each run prints "Spanish definitions: N kept, M placeholders".
+3. **`StrongsPanel`**: reads localStorage `app_lang` — "es" shows `def-es`, otherwise `def-en` (falls back to the old `def` field).
+4. **`src/data.js`**: `LEXICON_VERSION` 2 -> 3 so phones refetch the lexicon.
+5. **`.gitattributes`**: lexicon JSON is diffable again (exception to the `public/data` -diff rule) so hand edits show in Source Control.
+6. Not translated yet: `deriv`, `kjv` and the Hebrew `outline` remain English.
+
 ## 2026-10-04: RV1909 con Strong (rv1909-strong) + Gk/Heb Toggle Label
 
 ### User Request
