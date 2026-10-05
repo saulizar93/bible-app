@@ -204,3 +204,14 @@
    - Displays match items with reference, source badge (`bible` vs `notes`), and snippet with bold highlights (`.search-highlight`).
    - Clicking a match navigates to the passage, highlights the verse in both panes, and closes the modal.
    - Fully accessible with keyboard navigation, cancellation via `AbortController`, and `Escape` support.
+
+## 2026-10-05 — Spanish Matthew commentary (full) + notes rebuild
+
+- `sources/matthew-commentary-en.txt` replaced with the Oct 5 version from Downloads (old copy in `sources/_backup/`).
+- `sources/matthew-commentary-es.txt` is now a full Spanish translation of all 28 chapters (old ch. 1–5-only file in `sources/_backup/`).
+  Conventions: "Mateo N:V:" headers, "***" highlight paragraphs kept 1:1, KJV quotes rendered with exact RVG wording and labeled (RVG),
+  other translations (BSB, ESV, NKJV…) translated and kept with their label, « » quotes, Spanish book abbreviations.
+  Verified: every English verse header has a Spanish counterpart in the same order, with matching paragraph/highlight counts.
+- Rebuilt notes: `node scripts/build-notes.mjs sources/matthew-commentary-en.txt en MAT` (897 notes) and `... es MAT` (898 notes;
+  the extra one is 22:24, which the English file spells "Matthes 22:24", so the English build folds it into 22:23).
+- Bumped `NOTES_VERSION` 1 -> 2 in `src/data.js` so cached notes refresh.
