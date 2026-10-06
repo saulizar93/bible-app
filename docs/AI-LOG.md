@@ -337,3 +337,8 @@
 - Menu: "Download App" (pages.js id `offline`) -> components/InfoPanel/OfflinePanel.jsx (install section + per-translation
   status/download/update/cancel, "Download everything", storage used).
 - Pane menus: "✓" after names that are fully downloaded; green check badge in the pill when the current one is.
+
+## 2026-10-06 — ⓘ grammar help in the Strong's panel
+
+- New src/morphGlossary.js: bilingual plain-language glossary (parts of speech, case, number, gender, person, tense, voice, mood, Robinson suffixes like PRI/NUI, Hebrew stems and forms, Kethiv/Qere, Textus Receptus, Strong's numbers) + explainMorph() that splits a code (N-PRI, V-2AAI-3S, TH8804) into its letters.
+- StrongsPanel MorphBlock: circled "i" button next to the parsing code toggles MorphHelp: "How to read the code" (letter → meaning), "What it means" (definitions of the terms used), and "Show all terms" (full glossary).

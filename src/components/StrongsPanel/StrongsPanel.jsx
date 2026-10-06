@@ -11,6 +11,7 @@ import {
 } from "../../data.js";
 import { normalizeStrong } from "../../strongsCode.js";
 import { decodeMorph, decodeHebrewPos } from "../../morph.js";
+import { explainMorph, allTerms } from "../../morphGlossary.js";
 import "./StrongsPanel.css";
 
 const CHUNK_SIZE = 30;
@@ -416,6 +417,8 @@ export default function StrongsPanel({
  *  Hebrew verb stem + form — plus the Greek word as it stands in the TR. */
 function MorphBlock({ morph, form, pos, lang }) {
   const isEs = lang === "es";
+  const [help, setHelp] = useState(false);
+  const [showAll, setShowAll] = useState(false);
   let d = decodeMorph(morph, lang);
   // Hebrew nouns/adjectives aren't parsed in the KJV module; fall back to the
   // dictionary's part of speech + gender ("n-f" -> Noun · Feminine).
@@ -428,6 +431,16 @@ function MorphBlock({ morph, form, pos, lang }) {
       <div className="morph-head">
         <span className="morph-label">{isEs ? "Análisis" : "Parsing"}</span>
         {morph && <code className="morph-code">{morph}</code>}
+        <button
+          type="button"
+          className={help ? "morph-help-btn on" : "morph-help-btn"}
+          aria-expanded={help}
+          aria-label={isEs ? "¿Qué significan estos términos?" : "What do these terms mean?"}
+          title={isEs ? "¿Qué significan estos términos?" : "What do these terms mean?"}
+          onClick={() => setHelp((v) => !v)}
+        >
+          i
+        </button>
       </div>
       {d && (
         <div className="morph-chips">
@@ -439,6 +452,7 @@ function MorphBlock({ morph, form, pos, lang }) {
           ))}
         </div>
       )}
+      {help && <MorphHelp morph={morph} decoded={d} hasForm={!!form} lang={lang} showAll={showAll} setShowAll={setShowAll} />}
       {form && (
         <p className="morph-form dim">
           {isEs ? "Texto Recibido: " : "Textus Receptus: "}
@@ -447,6 +461,56 @@ function MorphBlock({ morph, form, pos, lang }) {
           </span>
         </p>
       )}
+    </div>
+  );
+}
+
+/** The ⓘ explanation under the parsing: what each letter of the code stands
+ *  for, definitions of every term used, and optionally the whole glossary. */
+function MorphHelp({ morph, decoded, hasForm, lang, showAll, setShowAll }) {
+  const isEs = lang === "es";
+  const { segments, terms } = explainMorph(morph, decoded, lang, hasForm);
+  return (
+    <div className="morph-help">
+      {segments.length > 0 && (
+        <>
+          <p className="morph-help-title">{isEs ? "Cómo leer el código" : "How to read the code"}</p>
+          <div className="morph-segs">
+            {segments.map((s, i) => (
+              <span key={i} className="morph-seg">
+                <code>{s.code}</code>
+                <span>{s.label}</span>
+              </span>
+            ))}
+          </div>
+        </>
+      )}
+      <p className="morph-help-title">{isEs ? "Qué significa" : "What it means"}</p>
+      <dl className="morph-terms">
+        {terms.map((t) => (
+          <div key={t.key}>
+            <dt>{t.term}</dt>
+            <dd>{t.text}</dd>
+          </div>
+        ))}
+      </dl>
+      <button type="button" className="morph-all-btn" onClick={() => setShowAll((v) => !v)}>
+        {showAll ? (isEs ? "Ocultar el glosario completo" : "Hide full glossary") : isEs ? "Ver todos los términos" : "Show all terms"}
+      </button>
+      {showAll &&
+        allTerms(lang).map((g) => (
+          <div key={g.title} className="morph-all-group">
+            <p className="morph-help-title">{g.title}</p>
+            <dl className="morph-terms">
+              {g.terms.map((t) => (
+                <div key={t.key}>
+                  <dt>{t.term}</dt>
+                  <dd>{t.text}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        ))}
     </div>
   );
 }

@@ -331,3 +331,89 @@
   font-size: 15px;
   line-height: 1.45;
 }
+
+/* ---------- ⓘ grammar help ---------- */
+.morph-help-btn {
+  display: inline-grid;
+  place-items: center;
+  width: 20px;
+  height: 20px;
+  margin-left: 2px;
+  padding: 0;
+  border: 1.5px solid var(--dim);
+  border-radius: 50%;
+  background: none;
+  color: var(--dim);
+  font: italic 700 12px/1 Georgia, "Times New Roman", serif;
+  cursor: pointer;
+  flex: none;
+}
+.morph-help-btn:hover,
+.morph-help-btn.on {
+  border-color: var(--fg);
+  background: var(--fg);
+  color: var(--bg);
+}
+.morph-help {
+  margin: 10px 0 4px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--hit) 30%, transparent);
+  font: 13.5px/1.5 ui-sans-serif, system-ui, sans-serif;
+}
+.morph-help-title {
+  margin: 8px 0 5px;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--dim);
+}
+.morph-help-title:first-child {
+  margin-top: 0;
+}
+.morph-segs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.morph-seg {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 5px;
+  padding: 3px 8px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: var(--bg);
+}
+.morph-seg code {
+  font-weight: 700;
+}
+.morph-terms {
+  margin: 0;
+}
+.morph-terms > div + div {
+  margin-top: 7px;
+}
+.morph-terms dt {
+  font-weight: 700;
+}
+.morph-terms dd {
+  margin: 1px 0 0;
+}
+.morph-all-btn {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--fg);
+  font: 600 12.5px/1.2 ui-sans-serif, system-ui, sans-serif;
+  cursor: pointer;
+}
+.morph-all-group {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--line);
+}
