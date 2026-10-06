@@ -13,14 +13,7 @@
   overflow: hidden;
 }
 
-.pane-head select {
-  font: inherit;
-  font-size: 14px;
-  background: none;
-  color: var(--dim);
-  border: 0;
-  padding: 2px;
-}
+/* pane picker styles live in PaneSlot.css */
 
 /* NEW: draggable divider. Was a static 1px line; now a 16px touch/mouse hit
    area (comfortable to grab) with the visible line kept thin via ::after,

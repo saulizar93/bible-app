@@ -18,11 +18,25 @@ export default function PaneSlot({
 }) {
   const opt = optionFor(code) || PANE_OPTIONS[0];
   const scroller = useRef(null);
+  const es = (() => {
+    try {
+      return localStorage.getItem("app_lang") === "es";
+    } catch {
+      return false;
+    }
+  })();
+  const badge = opt.kind === "notes" ? (es ? "Notas" : "Notes") : opt.lang.toUpperCase();
 
   return (
     <section className="pane">
       <header className="pane-head">
-        <select value={code} onChange={(e) => onSelect(e.target.value)}>
+        <label className={`pane-picker ${opt.kind}`}>
+          <span className="pane-badge" aria-hidden="true">{badge}</span>
+          <select
+            value={code}
+            onChange={(e) => onSelect(e.target.value)}
+            aria-label={es ? "Elegir traducción o notas" : "Choose translation or notes"}
+          >
           <optgroup label="English">
             {PANE_OPTIONS.filter(
               (o) => o.kind === "bible" && o.lang === "en",
@@ -41,14 +55,18 @@ export default function PaneSlot({
               </option>
             ))}
           </optgroup>
-          <optgroup label="Study notes">
+          <optgroup label={es ? "Notas de estudio" : "Study notes"}>
             {PANE_OPTIONS.filter((o) => o.kind === "notes").map((o) => (
               <option key={o.code} value={o.code}>
                 {o.label}
               </option>
             ))}
           </optgroup>
-        </select>
+          </select>
+          <svg className="pane-caret" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true">
+            <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </label>
       </header>
       <div
         className="pane-body"

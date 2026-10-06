@@ -309,3 +309,7 @@
   into a hidden iframe, so the static GitHub Pages app needs no backend. Honeypot `_honey` for spam; `_captcha=false`.
 - First report triggers FormSubmit's one-time activation email; after activating, replace REPORT_ENDPOINT with the random
   alias FormSubmit provides to hide the address from the page source.
+
+## 2026-10-06 — Pane picker restyle
+
+- PaneSlot header: the translation/notes <select> is now a pill (bold, full-contrast text, border, hover/focus states) with a badge (EN / ES / Notes·Notas, notes in amber) and an SVG caret; native select kept for accessibility and mobile pickers. "Study notes" optgroup label follows app_lang. Old dim rule removed from SplitPanes.css.
