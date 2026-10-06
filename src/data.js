@@ -24,23 +24,36 @@ export const PANE_OPTIONS = [
     strongs: true,
     concord: "", // concordance at data/concord/{greek,hebrew}
     citation: "KJV",
-    copyright: "King James Version (1769). Public Domain. Strong's numbers and morphology © 2003–2023 CrossWire Bible Society (KJV2003 Project), licensed for any use.",
+    copyright:
+      "King James Version (1769). Public Domain. Strong's numbers and morphology © 2003–2023 CrossWire Bible Society (KJV2003 Project), licensed for any use.",
   },
   {
-    code: "bsb",
-    label: "BSB (CT)",
+    code: "bsb-strong",
+    label: "BSB w/Strong (CT)",
     kind: "bible",
     lang: "en",
+    strongs: true,
+    concord: "bsb-strong/", // data/concord/bsb-strong/{greek,hebrew}
     citation: "BSB",
-    copyright: "Berean Standard Bible. Public Domain. BSB Publishing, LLC.",
+    copyright:
+      "Berean Standard Bible. Public Domain (CC0). BSB Publishing, LLC. Strong's numbers from the CrossWire SWORD module (bsb-to-sword, v2.0).",
   },
+  // {
+  //   code: "bsb",
+  //   label: "BSB (CT)",
+  //   kind: "bible",
+  //   lang: "en",
+  //   citation: "BSB",
+  //   copyright: "Berean Standard Bible. Public Domain. BSB Publishing, LLC.",
+  // },
   {
     code: "msb",
     label: "MSB (MT)",
     kind: "bible",
     lang: "en",
     citation: "MSB",
-    copyright: "Majority Standard Bible. Public Domain. Berean Bible Translation Committee.",
+    copyright:
+      "Majority Standard Bible. Public Domain. Berean Bible Translation Committee.",
   },
   {
     code: "lsv",
@@ -48,24 +61,26 @@ export const PANE_OPTIONS = [
     kind: "bible",
     lang: "en",
     citation: "LSV",
-    copyright: "Literal Standard Version © 2020 Covenant Press. Licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0).",
+    copyright:
+      "Literal Standard Version © 2020 Covenant Press. Licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0).",
   },
   {
     code: "drc1750",
-    label: "DRC (Catholic-Latin)",
+    label: "DRC (Catholic, Latin)",
     kind: "bible",
     lang: "en",
     citation: "DRC1750",
-    copyright: "Douay-Rheims Bible, Challoner revision (1749–1752). Public Domain.",
+    copyright:
+      "Douay-Rheims Bible, Challoner revision (1749–1752). Public Domain.",
   },
-  {
-    code: "rv1909",
-    label: "RV1909 (TR)",
-    kind: "bible",
-    lang: "es",
-    citation: "RV1909",
-    copyright: "Reina-Valera 1909. Dominio público.",
-  },
+  // {
+  //   code: "rv1909",
+  //   label: "RV1909 (TR)",
+  //   kind: "bible",
+  //   lang: "es",
+  //   citation: "RV1909",
+  //   copyright: "Reina-Valera 1909. Dominio público.",
+  // },
   {
     code: "rv1909-strong",
     label: "RV1909 c/Strong (TR)",
@@ -83,23 +98,26 @@ export const PANE_OPTIONS = [
     kind: "bible",
     lang: "es",
     citation: "RVG",
-    copyright: "Santa Biblia Reina Valera Gómez © 2004, 2010, 2023 Dr. Humberto Gómez Caballero. Derechos reservados. Prohibida su reproducción con fines de lucro.",
+    copyright:
+      "Santa Biblia Reina Valera Gómez © 2004, 2010, 2023 Dr. Humberto Gómez Caballero. Derechos reservados. Prohibida su reproducción con fines de lucro.",
   },
   {
     code: "torres-amat",
-    label: "BTA (Católica-Latín)",
+    label: "BTA (Católica, Latín)",
     kind: "bible",
     lang: "es",
     citation: "Torres-Amat",
-    copyright: "Biblia de Torres Amat (1823–1825), traducción de Félix Torres Amat. Dominio público.",
+    copyright:
+      "Biblia de Torres Amat (1823–1825), traducción de Félix Torres Amat. Dominio público.",
   },
   {
     code: "platense",
-    label: "Straubinger (Católica)",
+    label: "Straubinger (Católica, TR+CT)",
     kind: "bible",
     lang: "es",
     citation: "Straubinger",
-    copyright: "Biblia Platense, traducción de Mons. Juan Straubinger (1948). Dominio público.",
+    copyright:
+      "Biblia Platense, traducción de Mons. Juan Straubinger (1948). Dominio público.",
   },
   {
     code: "notes:en",
@@ -225,31 +243,49 @@ export async function loadConcordance(rawCode, source) {
   return (data && data[code]) || [];
 }
 
-
 /** Wipe everything this app has stored on the device — the IndexedDB cache of
  *  Bible chapters, notes and lexicon shards, plus every localStorage setting —
  *  so the next load fetches only the current data. Used by Settings ▸
  *  "Clear saved data". The caller reloads the page afterwards. */
 export async function clearAllAppData() {
-  try { await clear(); } catch { /* store may not exist yet */ }
+  try {
+    await clear();
+  } catch {
+    /* store may not exist yet */
+  }
   try {
     // Also drop any other databases left by older builds of the app.
     const dbs = (await indexedDB.databases?.()) || [];
     await Promise.all(
-      dbs.filter((d) => d.name).map(
-        (d) => new Promise((resolve) => {
-          const req = indexedDB.deleteDatabase(d.name);
-          req.onsuccess = req.onerror = req.onblocked = () => resolve();
-        }),
-      ),
+      dbs
+        .filter((d) => d.name)
+        .map(
+          (d) =>
+            new Promise((resolve) => {
+              const req = indexedDB.deleteDatabase(d.name);
+              req.onsuccess = req.onerror = req.onblocked = () => resolve();
+            }),
+        ),
     );
-  } catch { /* indexedDB.databases() unsupported (older Firefox) */ }
+  } catch {
+    /* indexedDB.databases() unsupported (older Firefox) */
+  }
   try {
     if (window.caches) {
       const keys = await caches.keys();
       await Promise.all(keys.map((k) => caches.delete(k)));
     }
-  } catch { /* Cache API unavailable */ }
-  try { localStorage.clear(); } catch { /* storage blocked */ }
-  try { sessionStorage.clear(); } catch { /* storage blocked */ }
+  } catch {
+    /* Cache API unavailable */
+  }
+  try {
+    localStorage.clear();
+  } catch {
+    /* storage blocked */
+  }
+  try {
+    sessionStorage.clear();
+  } catch {
+    /* storage blocked */
+  }
 }

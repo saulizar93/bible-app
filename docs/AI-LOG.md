@@ -234,3 +234,11 @@
 
 - `src/index.css` `#root`: removed the Vite-starter `width: 1126px` centered column and its side borders; the app now spans
   the full viewport width. No component changes — panes, jump bar, Strong's/info panels already size to their container.
+
+## 2026-10-06 — BSB with Strong's (bsb-strong)
+
+- Built from the CrossWire SWORD module in Downloads/BSB (bsb-to-sword v2.0, 2026-05-10, CC0):
+  `node scripts/build-sword-bible.mjs "C:/Users/saulo/Downloads/BSB" --out public/data/bibles/bsb-strong`
+  -> 66 books, 31,102 verses, 377,402 Strong's-tagged tokens (Greek + Hebrew), no morphology in the source.
+- Concordance: `node scripts/build-concordance.mjs public/data/bibles/bsb-strong public/data/concord/bsb-strong` (13,642 numbers).
+- New PANE_OPTIONS entry `bsb-strong` ("BSB w/Strong (CT)", strongs: true, concord: "bsb-strong/"); plain `bsb` kept.
