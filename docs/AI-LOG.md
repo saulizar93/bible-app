@@ -342,3 +342,7 @@
 
 - New src/morphGlossary.js: bilingual plain-language glossary (parts of speech, case, number, gender, person, tense, voice, mood, Robinson suffixes like PRI/NUI, Hebrew stems and forms, Kethiv/Qere, Textus Receptus, Strong's numbers) + explainMorph() that splits a code (N-PRI, V-2AAI-3S, TH8804) into its letters.
 - StrongsPanel MorphBlock: circled "i" button next to the parsing code toggles MorphHelp: "How to read the code" (letter → meaning), "What it means" (definitions of the terms used), and "Show all terms" (full glossary).
+
+## 2026-10-06 — "Deuterocanonical Books" page
+
+- pages.js entry after Bible Manipulations; public/data/pages/deuterocanonical.en.md / .es.md: author's story, Hebrew canon / Josephus / NT usage, Fathers (Melito, Origen, Athanasius, Cyril, Rufinus; Augustine & Hippo/Carthage noted fairly), Damasus/Jerome and Jerome's prefaces + Letter 107, Gregory the Great, Glossa Ordinaria, Hugh of St Victor, Lyra, Ximenes, Cajetan, Leipzig 1519, Trent 1546 & 2 Macc 12 / purgatory, textual instability (Judith, Tobit recensions, Sirach, Vulgate vs modern Catholic texts), historical/theological errors, 1 Macc on the absence of prophets, 2 Macc author disclaimers and fantastic elements. Deuterocanonical quotes from the KJV 1611 Apocrypha (translated in the Spanish page).

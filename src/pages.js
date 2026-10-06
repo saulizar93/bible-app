@@ -14,6 +14,10 @@ export const INFO_PAGES = [
     id: "manipulations",
     label: { en: "Bible Manipulations", es: "Manipulaciones bíblicas" },
   },
+  {
+    id: "deuterocanonical",
+    label: { en: "Deuterocanonical Books", es: "Libros deuterocanónicos" },
+  },
   { id: "bibliography", label: { en: "Bibliography", es: "Bibliografía" } },
   { id: "author", label: { en: "About the Author", es: "Acerca del autor" } },
   // Not a Markdown page: InfoPanel shows the ReportBugForm for this id.
