@@ -229,3 +229,8 @@
 - Book names shown via new `bookName(b, lang)` in `books.js` (title bar, quick-jump card, suggestions, search results, chart).
   Book grid uses `bookAbbr(b, lang)`: English keeps the USFM ids (GEN, EXO…); Spanish uses GÉN, ÉXO, … APO (full name in the tooltip).
 - Spanish Strong's toggle reads "Gr" for the NT ("Heb" for the OT). Suggestions list the other language's name as the secondary label.
+
+## 2026-10-06 — Full-width layout
+
+- `src/index.css` `#root`: removed the Vite-starter `width: 1126px` centered column and its side borders; the app now spans
+  the full viewport width. No component changes — panes, jump bar, Strong's/info panels already size to their container.
