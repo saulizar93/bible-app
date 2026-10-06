@@ -421,6 +421,7 @@ export default function App() {
           <InfoPanel
             pageId={infoPage}
             lang={lang || "en"}
+            context={`${byId[refPos.book].en} ${refPos.chapter}${refPos.verse ? `:${refPos.verse}` : ""} · ${optionFor(top)?.label || top} / ${optionFor(bottom)?.label || bottom}`}
             onClose={() => setInfoPage(null)}
           />
         )}

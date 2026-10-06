@@ -299,3 +299,13 @@
   checked against the app's Torres Amat, DRC, Straubinger, KJV, RVG, LSV and against jw.org for the NWT/TNM; final table of
   all references from the author's notes, corrections marked †.
 - translations.*.md: Torres Amat bullet now also cites "primas hermanas" / "primo hermano" (Mt 13:56; Mk 6:3; Gal 1:19).
+
+## 2026-10-06 — "Report a bug" page
+
+- New menu entry `report` (pages.js, `form: true`) at the bottom of the hamburger menu; InfoPanel renders
+  `components/InfoPanel/ReportBugForm.jsx` instead of a Markdown file for it.
+- The form (problem type, description, up to 5 screenshots / 10 MB, optional reply email, auto-filled location:
+  book chapter:verse + both panes, language, browser) posts multipart to FormSubmit (https://formsubmit.co/saulojedar@gmail.com)
+  into a hidden iframe, so the static GitHub Pages app needs no backend. Honeypot `_honey` for spam; `_captcha=false`.
+- First report triggers FormSubmit's one-time activation email; after activating, replace REPORT_ENDPOINT with the random
+  alias FormSubmit provides to hide the address from the page source.

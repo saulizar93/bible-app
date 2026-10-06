@@ -6,7 +6,7 @@ export const INFO_PAGES = [
   {
     id: "translations",
     label: {
-      en: "About Bible Translations",
+      en: "Bible Translations",
       es: "Acerca de las traducciones",
     },
   },
@@ -16,4 +16,10 @@ export const INFO_PAGES = [
   },
   { id: "bibliography", label: { en: "Bibliography", es: "Bibliografía" } },
   { id: "author", label: { en: "About the Author", es: "Acerca del autor" } },
+  // Not a Markdown page: InfoPanel shows the ReportBugForm for this id.
+  {
+    id: "report",
+    label: { en: "Report a bug", es: "Reportar un error" },
+    form: true,
+  },
 ];

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { INFO_PAGES } from "../../pages.js";
 import "../StrongsPanel/StrongsPanel.css"; // same panel look as the Strong's panel
+import ReportBugForm from "./ReportBugForm.jsx";
 import "./InfoPanel.css";
 
 /**
@@ -15,12 +16,13 @@ import "./InfoPanel.css";
  *   **bold**, *italic*, [link text](https://...)
  *   blank line = new paragraph
  */
-export default function InfoPanel({ pageId, lang = "en", onClose }) {
+export default function InfoPanel({ pageId, lang = "en", context = "", onClose }) {
   const page = INFO_PAGES.find((p) => p.id === pageId);
   const [text, setText] = useState(null); // null = loading, "" = missing
 
   useEffect(() => {
     let alive = true;
+    if (page?.form) return; // form page: nothing to fetch
     setText(null);
     const load = async (l) => {
       const res = await fetch(`${import.meta.env.BASE_URL}data/pages/${pageId}.${l}.md`);
@@ -41,7 +43,7 @@ export default function InfoPanel({ pageId, lang = "en", onClose }) {
     return () => {
       alive = false;
     };
-  }, [pageId, lang]);
+  }, [pageId, lang, page?.form]);
 
   useEffect(() => {
     const onKey = (e) => e.key === "Escape" && onClose();
@@ -59,7 +61,9 @@ export default function InfoPanel({ pageId, lang = "en", onClose }) {
           ×
         </button>
         <h2 className="info-title">{title}</h2>
-        {text === null ? (
+        {page?.form ? (
+          <ReportBugForm lang={lang} context={context} />
+        ) : text === null ? (
           <p className="dim">{lang === "es" ? "Cargando…" : "Loading…"}</p>
         ) : text ? (
           <div className="info-body">{renderMarkdown(text)}</div>
