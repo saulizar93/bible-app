@@ -1,0 +1,131 @@
+/* Sits above the selection bar (z-index 1000). */
+.compare-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgb(0 0 0 / 0.35);
+  z-index: 1001;
+}
+.compare-modal {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: min(94vw, 680px);
+  max-height: 88vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: 0 20px 60px rgb(0 0 0 / 0.35);
+  z-index: 1002;
+  padding: 16px 18px 12px;
+  font: 15px/1.4 ui-sans-serif, system-ui, sans-serif;
+  text-align: left;
+}
+.compare-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+.compare-head h2 {
+  margin: 0;
+  font-size: 17px;
+}
+.compare-ref {
+  margin: 2px 0 0;
+  color: var(--dim);
+  font-size: 14px;
+}
+.compare-close {
+  flex: none;
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: transparent;
+  color: var(--dim);
+  font-size: 22px;
+  line-height: 1;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.compare-close:hover {
+  background: var(--hit);
+  color: var(--fg);
+}
+.compare-hint {
+  margin: 6px 0 10px;
+  font-size: 12.5px;
+  color: var(--dim);
+}
+.compare-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  min-height: 0;
+}
+.compare-list li + li {
+  margin-top: 8px;
+}
+.compare-list li.compare-group-start {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px dashed var(--line);
+}
+.compare-item {
+  display: block;
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: none;
+  color: var(--fg);
+  text-align: left;
+  cursor: pointer;
+  font: inherit;
+}
+.compare-item:hover {
+  background: var(--hit);
+}
+.compare-item.current {
+  border-color: var(--fg);
+}
+.compare-item-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 8px;
+  margin-bottom: 4px;
+}
+.compare-label {
+  font-weight: 700;
+  font-size: 13.5px;
+}
+.compare-badge {
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: var(--fg);
+  color: var(--bg);
+  font-size: 11px;
+  font-weight: 600;
+}
+.compare-cite {
+  margin-left: auto;
+  color: var(--dim);
+  font-size: 12.5px;
+}
+.compare-text {
+  display: block;
+  font-family: var(--reading-font, Charter, Georgia, serif);
+  font-size: calc(16px * var(--reading-scale, 1));
+  line-height: 1.55;
+}
+.compare-vnum {
+  margin-right: 3px;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.65em;
+  font-weight: 600;
+  color: var(--dim);
+}

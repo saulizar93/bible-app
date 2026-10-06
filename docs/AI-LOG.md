@@ -281,3 +281,12 @@
 ## 2026-10-06 — "About the Bible Translations" page written
 
 - public/data/pages/translations.en.md and translations.es.md: history and notes for every Bible in the app (KJV, BSB/MSB, LSV, DRC, RV1909, RVG, Torres Amat, Straubinger), with verse examples checked against the app data and RV1960 wording checked on Blue Letter Bible.
+
+## 2026-10-06 — Compare selected verses across translations
+
+- SelectionBar: new "Compare / Comparar" button (only when the selection is in a Bible pane); labels now bilingual.
+- New `src/components/CompareModal/` — lists the selected verses in every Bible: the source translation first ("current"),
+  then the others in the same language, then the other language (dashed divider). Each block shows label + localized
+  reference; verse numbers appear when several verses are selected; uses the reader's font/size settings.
+- Clicking a block (App.jsx `pickFromCompare`): the pane the verses were selected in keeps its translation, the other pane
+  switches to the picked one, the first selected verse is highlighted (both panes scroll to it), selection is cleared.

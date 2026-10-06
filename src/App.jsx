@@ -10,6 +10,7 @@ import SplitPanes from "./components/SplitPanes/SplitPanes.jsx";
 import LanguageSelectionModal from "./components/Modals/LanguageSelectionModal.jsx";
 import SettingsModal from "./components/SettingsModal/SettingsModal.jsx";
 import InfoPanel from "./components/InfoPanel/InfoPanel.jsx";
+import CompareModal from "./components/CompareModal/CompareModal.jsx";
 import { loadSettings, saveSettings, fontStack } from "./settings.js";
 import "./app.css";
 
@@ -85,6 +86,7 @@ export default function App() {
   const [open, setOpen] = useState(false);
   const [strongsOn, setStrongsOn] = useState(false);
   const [selection, setSelection] = useState(null);
+  const [compareOpen, setCompareOpen] = useState(false);
   const [settings, setSettings] = useState(loadSettings); // reading text size + font
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [infoPage, setInfoPage] = useState(null); // id from pages.js, or null
@@ -292,6 +294,21 @@ export default function App() {
     }
   }, [verseSelection, refPos.book, refPos.chapter]);
 
+  // Compare: open the picked translation in the *other* pane (the pane the
+  // verses were selected in keeps its translation), highlight the first
+  // selected verse there, and clear the selection.
+  const pickFromCompare = useCallback(
+    (code) => {
+      const { source, verses } = verseSelection;
+      if (code !== source) (top === source ? setBottom : setTop)(code);
+      const first = Math.min(...verses);
+      setRefPos((prev) => ({ ...prev, verse: Number.isFinite(first) ? first : prev.verse }));
+      setCompareOpen(false);
+      setVerseSelection({ source: null, verses: new Set() });
+    },
+    [verseSelection, top],
+  );
+
   const handleCloseStrongs = useCallback(() => {
     startTransition(() => {
       setSelection(null);
@@ -431,7 +448,23 @@ export default function App() {
           count={verseSelection.verses.size}
           selectionKey={verseSelection.verses}
           onCopy={copySelectedVerses}
+          onCompare={
+            optionFor(verseSelection.source)?.kind === "bible" ? () => setCompareOpen(true) : undefined
+          }
           onClear={() => setVerseSelection({ source: null, verses: new Set() })}
+          lang={lang || "en"}
+        />
+      )}
+
+      {compareOpen && verseSelection.verses.size > 0 && (
+        <CompareModal
+          source={verseSelection.source}
+          bookId={refPos.book}
+          chapter={refPos.chapter}
+          verses={verseSelection.verses}
+          lang={lang || "en"}
+          onPick={pickFromCompare}
+          onClose={() => setCompareOpen(false)}
         />
       )}
     </div>
