@@ -36,7 +36,7 @@ export const PANE_OPTIONS = [
     concord: "bsb-strong/", // data/concord/bsb-strong/{greek,hebrew}
     citation: "BSB",
     copyright:
-      "Berean Standard Bible. Public Domain (CC0). BSB Publishing, LLC. Strong's numbers from the CrossWire SWORD module (bsb-to-sword, v2.0).",
+      "Berean Standard Bible. Public Domain (CC0). BSB Publishing, LLC. Strong's numbers from the CrossWire SWORD module (bsb-to-sword, v2.0); Greek forms and morphology matched from the KJV2003 Project (CrossWire).",
   },
   // {
   //   code: "bsb",
@@ -55,7 +55,7 @@ export const PANE_OPTIONS = [
     concord: "msb-strong/", // data/concord/msb-strong/{greek,hebrew}
     citation: "MSB",
     copyright:
-      "Majority Standard Bible. Public Domain (CC0). Berean Bible Translation Committee. Strong's numbers carried over from the Berean Standard Bible where the wording is shared; words unique to the MSB are untagged.",
+      "Majority Standard Bible. Public Domain (CC0). Berean Bible Translation Committee. Strong's numbers carried over from the Berean Standard Bible where the wording is shared; words unique to the MSB are untagged. Greek forms and morphology matched from the KJV2003 Project (CrossWire).",
   },
   // {
   //   code: "msb",

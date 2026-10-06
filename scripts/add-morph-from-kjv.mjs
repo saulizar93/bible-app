@@ -12,9 +12,11 @@
  * the same Greek/Hebrew word in both. For each tagged token in the target:
  *   - collect the KJV tokens in the same verse with the same Strong's number
  *     (consecutive repeats of one word, e.g. "should … perish" = αποληται, count once);
- *   - the k-th occurrence in the target takes the k-th KJV occurrence;
- *   - if there are fewer KJV occurrences but they all agree (same m and g),
- *     that form is used; otherwise the token is left as it was.
+ *   - one KJV form (or all agree) -> that form;
+ *   - the same number of occurrences on both sides -> k-th takes k-th;
+ *   - otherwise (e.g. the target leaves one occurrence untagged) -> the KJV
+ *     occurrence at the closest relative position in the verse.
+ *   A token is left as it was only if that still can't decide (a tie).
  * Tokens whose number the KJV doesn't tag in that verse (e.g. the Greek article
  * G3588, which the KJV often leaves untagged) stay without m/g.
  *
@@ -49,32 +51,39 @@ for (const file of fs.readdirSync(targetDir)) {
       const kjv = src.w?.[c]?.[vi];
       // KJV forms per Strong's number, in order, collapsing consecutive repeats
       const forms = new Map();
-      for (const k of kjv || []) {
-        if (!k.s || (!k.m && !k.g)) continue;
+      const kLen = kjv?.length || 1;
+      (kjv || []).forEach((k, ki) => {
+        if (!k.s || (!k.m && !k.g)) return;
         const list = forms.get(k.s) || [];
         const last = list[list.length - 1];
-        if (!last || !same(last, k)) list.push({ m: k.m, g: k.g });
+        if (!last || !same(last, k)) list.push({ m: k.m, g: k.g, pos: ki / kLen });
         forms.set(k.s, list);
-      }
+      });
+      const counts = new Map();
+      for (const tok of tokens) if (tok.s) counts.set(tok.s, (counts.get(tok.s) || 0) + 1);
       if (!kjv) verseMismatch++;
       const seen = new Map();
-      for (const tok of tokens) {
-        if (!tok.s) continue;
+      tokens.forEach((tok, ti) => {
+        if (!tok.s) return;
         tagged++;
         delete tok.m;
         delete tok.g;
         const list = forms.get(tok.s);
         const k = seen.get(tok.s) || 0;
         seen.set(tok.s, k + 1);
-        if (!list?.length) { missing++; continue; }
-        let f = list[k];
-        if (!f) {
-          if (list.every((x) => same(x, list[0]))) f = list[0];
-          else { ambiguous++; continue; }
+        if (!list?.length) { missing++; return; }
+        let f;
+        if (list.length === 1 || list.every((x) => same(x, list[0]))) f = list[0];
+        else if (counts.get(tok.s) === list.length) f = list[k];
+        else {
+          const pos = ti / tokens.length;
+          const by = [...list].sort((a, b) => Math.abs(a.pos - pos) - Math.abs(b.pos - pos));
+          if (Math.abs(by[0].pos - pos) === Math.abs(by[1].pos - pos)) { ambiguous++; return; }
+          f = by[0];
         }
         if (f.m) { tok.m = f.m; gotM++; }
         if (f.g) { tok.g = f.g; gotG++; }
-      }
+      });
     });
   }
   fs.writeFileSync(tPath, JSON.stringify(tgt));

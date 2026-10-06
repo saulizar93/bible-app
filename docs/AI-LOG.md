@@ -262,3 +262,12 @@
   (often the article G3588), 691 ambiguous tokens.
 - Must be re-run after rebuilding rv1909-strong with build-sword-bible.mjs.
 - Bumped DATA_VERSION 2 -> 3 so cached Bible chapters refresh.
+
+## 2026-10-06 — m/g for BSB and MSB w/Strong; smarter matching
+
+- `add-morph-from-kjv.mjs` now picks among several KJV forms of one Strong's number by: single/agreeing form -> same count
+  on both sides (k-th -> k-th) -> closest relative position in the verse. Fixes cases where the target leaves one
+  occurrence untagged (BSB Jn 3:16 "Him" now αυτον, not αυτου). Ambiguous leftovers: 16–23 tokens per Bible.
+- Re-ran on rv1909-strong (NT 83.5% with g) and ran on bsb-strong (89.7%) and msb-strong (90.0%).
+  Order after a rebuild: build-sword-bible (bsb) -> build-msb-strong -> add-morph-from-kjv on each.
+- Copyright lines for bsb-strong / msb-strong credit the KJV2003 Project for the borrowed forms.
