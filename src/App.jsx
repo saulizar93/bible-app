@@ -12,6 +12,7 @@ import SettingsModal from "./components/SettingsModal/SettingsModal.jsx";
 import InfoPanel from "./components/InfoPanel/InfoPanel.jsx";
 import CompareModal from "./components/CompareModal/CompareModal.jsx";
 import { loadSettings, saveSettings, fontStack } from "./settings.js";
+import { isStandalone, startStarterPack } from "./offline.js";
 import "./app.css";
 
 const STORAGE_KEYS = {
@@ -132,6 +133,13 @@ export default function App() {
   useEffect(() => {
     saveSettings(settings);
   }, [settings]);
+
+  // Running as the installed app: make sure the starter pack (KJV w/Strong +
+  // English notes, or RVG + Spanish notes) is downloaded for offline use.
+  // Runs again once the language is chosen; offline.js only does it once.
+  useEffect(() => {
+    if (lang && isStandalone()) startStarterPack();
+  }, [lang]);
 
   // Language Selection Handler
   const handleSelectLanguage = (selectedLang) => {

@@ -108,3 +108,18 @@
   font-size: calc(17px * var(--reading-scale, 1));
   font-family: var(--reading-font, inherit);
 }
+
+/* small check after the name when the selection is downloaded for offline */
+.pane-offline {
+  flex: none;
+  display: inline-grid;
+  place-items: center;
+  width: 16px;
+  height: 16px;
+  margin-left: -2px;
+  border-radius: 50%;
+  background: #2f855a;
+  color: #fff;
+  font: 700 10px/1 ui-sans-serif, system-ui, sans-serif;
+  pointer-events: none;
+}

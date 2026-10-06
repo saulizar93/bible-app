@@ -2,6 +2,8 @@ import { useRef } from "react";
 import { PANE_OPTIONS, optionFor } from "../../data.js";
 import BiblePane from "../BiblePane/BiblePane.jsx";
 import NotesPane from "../NotesPane/NotesPane.jsx";
+import { isReady } from "../../offline.js";
+import useOfflineStatus from "../../hooks/useOfflineStatus.js";
 import "./PaneSlot.css";
 
 export default function PaneSlot({
@@ -18,6 +20,9 @@ export default function PaneSlot({
 }) {
   const opt = optionFor(code) || PANE_OPTIONS[0];
   const scroller = useRef(null);
+  useOfflineStatus(); // re-render when a translation finishes downloading
+  // "✓" after a name = downloaded and readable offline
+  const optLabel = (o) => (isReady(o.code) ? `${o.label}  ✓` : o.label);
   const es = (() => {
     try {
       return localStorage.getItem("app_lang") === "es";
@@ -35,6 +40,11 @@ export default function PaneSlot({
           {/* The visible label sizes the pill to the selected name; the native
               <select> lies invisibly on top of it and still opens the list. */}
           <span className="pane-current" aria-hidden="true">{opt.label}</span>
+          {isReady(opt.code) && (
+            <span className="pane-offline" title={es ? "Disponible sin conexión" : "Available offline"} aria-hidden="true">
+              ✓
+            </span>
+          )}
           <select
             value={code}
             onChange={(e) => onSelect(e.target.value)}
@@ -45,7 +55,7 @@ export default function PaneSlot({
               (o) => o.kind === "bible" && o.lang === "en",
             ).map((o) => (
               <option key={o.code} value={o.code}>
-                {o.label}
+                {optLabel(o)}
               </option>
             ))}
           </optgroup>
@@ -54,14 +64,14 @@ export default function PaneSlot({
               (o) => o.kind === "bible" && o.lang === "es",
             ).map((o) => (
               <option key={o.code} value={o.code}>
-                {o.label}
+                {optLabel(o)}
               </option>
             ))}
           </optgroup>
           <optgroup label={es ? "Notas de estudio" : "Study notes"}>
             {PANE_OPTIONS.filter((o) => o.kind === "notes").map((o) => (
               <option key={o.code} value={o.code}>
-                {o.label}
+                {optLabel(o)}
               </option>
             ))}
           </optgroup>

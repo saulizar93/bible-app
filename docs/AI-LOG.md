@@ -321,3 +321,19 @@
 ## 2026-10-06 — Pane picker: content-width highlighted pill
 
 - PaneSlot: visible `.pane-current` label sizes the pill to the selected name; the native <select> sits invisibly over the whole pill (still opens the list, keyboard/a11y intact). Pill is highlighted (light: #fff2c4 bg / #5a4300 text; dark: #3d3413 bg / #f3d27a text) with matching caret and badge colors; notes badge stays amber.
+
+## 2026-10-06 — Installable app (PWA) + offline downloads
+
+- public/manifest.webmanifest, icons (icon-192/512, maskable, apple-touch-icon), index.html links (uses %BASE_URL%).
+- public/sw.js (registered only in production by src/offline.js): caches the app shell (index.html, hashed JS/CSS
+  parsed from index.html at install, icons, info pages). Bible/notes/lexicon files are deliberately NOT handled by the SW —
+  they live in IndexedDB (data.js). Bump SHELL_VERSION to drop old shells.
+- src/offline.js: captures beforeinstallprompt (Install button; iOS gets "Share → Add to Home Screen" instructions),
+  downloads whole packs into IndexedDB via data.js `storeOffline` (4 parallel requests, cancellable, progress events),
+  records completed packs in localStorage `offline_status` keyed by data/notes/lexicon version ("outdated" after a bump).
+  Strong's translations also pull all lexicon shards + their own concordance. Starter pack on first installed run /
+  appinstalled: kjv-strong + notes:en (app_lang en) or rvg + notes:es (es).
+- data.js: `SRC` key/url builders, `storeOffline`, `NOTES_BOOKS` (search.js now uses it — add books there when notes grow).
+- Menu: "Download App" (pages.js id `offline`) -> components/InfoPanel/OfflinePanel.jsx (install section + per-translation
+  status/download/update/cancel, "Download everything", storage used).
+- Pane menus: "✓" after names that are fully downloaded; green check badge in the pill when the current one is.

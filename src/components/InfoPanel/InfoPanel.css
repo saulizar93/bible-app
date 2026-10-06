@@ -212,3 +212,115 @@
 .report-done p {
   margin: 0;
 }
+
+/* ---------- Download App / offline ---------- */
+.offline-panel {
+  font: 15px/1.45 ui-sans-serif, system-ui, sans-serif;
+}
+.offline-panel section + section {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+.offline-panel h3 {
+  margin: 0 0 6px;
+  font-size: 17px;
+}
+.offline-panel h4 {
+  margin: 12px 0 4px;
+  font-size: 12.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--dim);
+}
+.offline-panel p {
+  margin: 0 0 8px;
+}
+.offline-ok {
+  color: #2f855a;
+  font-weight: 600;
+}
+.offline-howto {
+  padding: 8px 10px;
+  border: 1px dashed var(--line);
+  border-radius: 9px;
+}
+.offline-group ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.offline-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--line);
+}
+.offline-name {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.offline-name span {
+  font-weight: 600;
+}
+.offline-name small {
+  color: var(--dim);
+  font-size: 12px;
+}
+.offline-action {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: none;
+}
+.offline-status {
+  font-size: 12.5px;
+  color: var(--dim);
+}
+.offline-status.ready {
+  color: #2f855a;
+  font-weight: 600;
+}
+@media (prefers-color-scheme: dark) {
+  .offline-ok,
+  .offline-status.ready {
+    color: #68d391;
+  }
+}
+.offline-btn {
+  padding: 5px 12px;
+  border: 1px solid var(--fg);
+  border-radius: 8px;
+  background: var(--fg);
+  color: var(--bg);
+  font: 600 13px/1.2 ui-sans-serif, system-ui, sans-serif;
+  cursor: pointer;
+}
+.offline-btn.ghost {
+  background: none;
+  color: var(--fg);
+  border-color: var(--line);
+}
+.offline-bar {
+  position: relative;
+  width: 80px;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--line);
+  overflow: hidden;
+}
+.offline-bar span {
+  position: absolute;
+  inset: 0 auto 0 0;
+  background: #b7791f;
+  transition: width 0.2s ease;
+}
+.offline-pct {
+  width: 3em;
+  text-align: right;
+  font-size: 12.5px;
+  font-variant-numeric: tabular-nums;
+}

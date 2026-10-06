@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { INFO_PAGES } from "../../pages.js";
 import "../StrongsPanel/StrongsPanel.css"; // same panel look as the Strong's panel
 import ReportBugForm from "./ReportBugForm.jsx";
+import OfflinePanel from "./OfflinePanel.jsx";
 import "./InfoPanel.css";
 
 /**
@@ -61,7 +62,9 @@ export default function InfoPanel({ pageId, lang = "en", context = "", onClose }
           ×
         </button>
         <h2 className="info-title">{title}</h2>
-        {page?.form ? (
+        {page?.id === "offline" ? (
+          <OfflinePanel lang={lang} />
+        ) : page?.form ? (
           <ReportBugForm lang={lang} context={context} />
         ) : text === null ? (
           <p className="dim">{lang === "es" ? "Cargando…" : "Loading…"}</p>

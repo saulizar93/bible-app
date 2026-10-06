@@ -9,6 +9,10 @@ const LEXICON_VERSION = 3; // bump when strongs/ or concord/ data is rebuilt
  *  new data has been published and clear their saved copies in Settings. */
 export const VERSIONS = { data: DATA_VERSION, notes: NOTES_VERSION, lexicon: LEXICON_VERSION };
 
+/** Books that have study notes (canonical numbers). Add a book here after
+ *  building its notes with scripts/build-notes.mjs. */
+export const NOTES_BOOKS = [40]; // Matthew
+
 // One combined list drives both pane dropdowns, so either side can hold
 // a translation or a notes set. `copyright` is shown under the last verse of
 // every chapter (BiblePane).
@@ -195,17 +199,36 @@ function cachedFetch(key, url) {
   return promise;
 }
 
-export const loadBook = (code, bookNum) =>
-  cachedFetch(
-    `bible/${code}/${bookNum}@${DATA_VERSION}`,
-    `${import.meta.env.BASE_URL}data/bibles/${code}/${bookNum}.json`,
-  );
+/* Cache keys + URLs for every kind of data file (shared with src/offline.js). */
+const BASE = import.meta.env.BASE_URL;
+export const SRC = {
+  book: (code, n) => [`bible/${code}/${n}@${DATA_VERSION}`, `${BASE}data/bibles/${code}/${n}.json`],
+  notes: (lang, n, ch) => [`notes/${lang}/${n}/${ch}@${NOTES_VERSION}`, `${BASE}data/notes/${lang}/${n}/${ch}.json`],
+  strongs: (lang, shard) => [`strongs/${lang}/${shard}@${LEXICON_VERSION}`, `${BASE}data/strongs/${lang}/${shard}.json`],
+  concord: (dir, shard) => [`concord/${dir}/${shard}@${LEXICON_VERSION}`, `${BASE}data/concord/${dir}/${shard}.json`],
+};
 
-export const loadNotes = (lang, bookNum, chapter) =>
-  cachedFetch(
-    `notes/${lang}/${bookNum}/${chapter}@${NOTES_VERSION}`,
-    `${import.meta.env.BASE_URL}data/notes/${lang}/${bookNum}/${chapter}.json`,
-  );
+/** Download one file straight into IndexedDB without keeping it in memory
+ *  (used for "download for offline"). Resolves true if it is now stored,
+ *  false if the file doesn't exist. Skips files already stored. */
+export async function storeOffline([key, url], signal) {
+  if ((await get(key)) !== undefined) return true;
+  const res = await fetch(url, { signal });
+  if (res.status === 404) return false;
+  if (!res.ok) throw new Error(`${url}: ${res.status}`);
+  let data;
+  try {
+    data = await res.json();
+  } catch {
+    return false; // dev-server SPA fallback for a missing file
+  }
+  await set(key, data);
+  return true;
+}
+
+export const loadBook = (code, bookNum) => cachedFetch(...SRC.book(code, bookNum));
+
+export const loadNotes = (lang, bookNum, chapter) => cachedFetch(...SRC.notes(lang, bookNum, chapter));
 
 /** Does verse `v` fall inside a note's key, "7" or "3-5"? */
 export function keyCovers(key, v) {

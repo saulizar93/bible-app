@@ -22,4 +22,10 @@ export const INFO_PAGES = [
     label: { en: "Report a bug", es: "Reportar un error" },
     form: true,
   },
+  // Install + offline downloads (InfoPanel shows OfflinePanel for this id).
+  {
+    id: "offline",
+    label: { en: "Download App", es: "Descargar la aplicación" },
+    form: true,
+  },
 ];

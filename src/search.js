@@ -1,8 +1,8 @@
 import { BOOKS, byId } from "./books.js";
-import { loadBook, loadNotes, optionFor, keyStart } from "./data.js";
+import { loadBook, loadNotes, optionFor, keyStart, NOTES_BOOKS } from "./data.js";
 
 // Fast lookup for books that currently have study notes
-const BOOKS_WITH_NOTES = new Set([40]); // Book 40: Matthew
+const BOOKS_WITH_NOTES = new Set(NOTES_BOOKS); // see data.js
 
 const stripAccents = (s) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 
