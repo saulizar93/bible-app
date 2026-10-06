@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { byId } from "../../books.js";
-import { loadNotes, keyCovers, keyStart } from "../../data.js";
+import { loadNotes, keyCovers, keyStart, optionFor } from "../../data.js";
 import "./NotesPane.css";
 
 export default function NotesPane({ lang, refPos, highlight, scroller }) {
@@ -36,20 +36,25 @@ export default function NotesPane({ lang, refPos, highlight, scroller }) {
         ?.scrollIntoView({ block: "start", behavior: "smooth" });
   }, [notes, highlight, scroller]);
 
-  if (error) return <p className="err">Couldn't load notes: {error}</p>;
-  if (!notes) return <p className="dim">Loading…</p>;
+  const es = lang === "es";
+  if (error) return <p className="err">{es ? "No se pudieron cargar las notas" : "Couldn't load notes"}: {error}</p>;
+  if (!notes) return <p className="dim">{es ? "Cargando…" : "Loading…"}</p>;
 
   const keys = Object.keys(notes).sort((a, b) => keyStart(a) - keyStart(b));
   if (!keys.length) {
     return (
       <p className="dim">
-        No {lang === "es" ? "Spanish" : "English"} notes yet for{" "}
-        {byId[refPos.book].en} {refPos.chapter}.
+        {es
+          ? `Aún no hay notas para ${byId[refPos.book].es} ${refPos.chapter}.`
+          : `No notes yet for ${byId[refPos.book].en} ${refPos.chapter}.`}
       </p>
     );
   }
 
-  return keys.map((key) => {
+  // Authorship notice under the last note, styled like the Bible copyright (BiblePane.css .pane-copyright).
+  const copyright = optionFor(`notes:${lang}`)?.copyright;
+
+  const noteEls = keys.map((key) => {
     const isHit = highlight != null && keyCovers(key, highlight);
     return (
       <div
@@ -74,4 +79,11 @@ export default function NotesPane({ lang, refPos, highlight, scroller }) {
       </div>
     );
   });
+
+  return (
+    <>
+      {noteEls}
+      {copyright && <p className="pane-copyright">{copyright}</p>}
+    </>
+  );
 }

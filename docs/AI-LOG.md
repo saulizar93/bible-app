@@ -271,3 +271,9 @@
 - Re-ran on rv1909-strong (NT 83.5% with g) and ran on bsb-strong (89.7%) and msb-strong (90.0%).
   Order after a rebuild: build-sword-bible (bsb) -> build-msb-strong -> add-morph-from-kjv on each.
 - Copyright lines for bsb-strong / msb-strong credit the KJV2003 Project for the borrowed forms.
+
+## 2026-10-06 — Authorship notice under the study notes
+
+- `notes:en` / `notes:es` PANE_OPTIONS got a `copyright` line; NotesPane renders it after the last note with the same
+  `.pane-copyright` style as the Bible panes (only when the chapter has notes).
+- NotesPane's loading / error / "no notes yet" messages are now bilingual.

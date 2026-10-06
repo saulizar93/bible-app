@@ -136,6 +136,7 @@ export const PANE_OPTIONS = [
     kind: "notes",
     lang: "en",
     citation: "Notes (EN)",
+    copyright: "Oneness Study Notes written by Saul Ojeda (2026).",
   },
   {
     code: "notes:es",
@@ -143,6 +144,8 @@ export const PANE_OPTIONS = [
     kind: "notes",
     lang: "es",
     citation: "Notas (ES)",
+    copyright:
+      "Notas de estudio de la Unicidad escritas originalmente en inglés por Saul Ojeda y traducidas al español a mano y con ayuda de IA.",
   },
 ];
 export const optionFor = (code) => PANE_OPTIONS.find((o) => o.code === code);
