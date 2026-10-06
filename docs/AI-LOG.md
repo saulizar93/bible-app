@@ -222,3 +222,10 @@
   (`indexedDB.databases()` where supported), empties Cache Storage, localStorage and sessionStorage.
 - `SettingsModal.jsx`: new "Saved data / Datos guardados" section above the footer with a two-step confirm
   (warns that language, text size, font, default panes and last position reset too), then reloads the page.
+
+## 2026-10-06 — Bilingual JumpBar, BookPicker, BookFilterChart
+
+- All visible text, tooltips and aria-labels follow `app_lang` (local `T = { en, es }` tables, same pattern as SettingsModal).
+- Book names shown via new `bookName(b, lang)` in `books.js` (title bar, quick-jump card, suggestions, search results, chart).
+  Book grid uses `bookAbbr(b, lang)`: English keeps the USFM ids (GEN, EXO…); Spanish uses GÉN, ÉXO, … APO (full name in the tooltip).
+- Spanish Strong's toggle reads "Gr" for the NT ("Heb" for the OT). Suggestions list the other language's name as the secondary label.

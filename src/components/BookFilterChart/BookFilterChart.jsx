@@ -1,11 +1,22 @@
 import "./BookFilterChart.css";
 
+const T = {
+  en: { region: "Filter matches by book", filtered: (l) => `Filtered by ${l}`, byBook: (n) => `Matches by Book (${n})`,
+        clearTitle: "Clear filter and show all matches", showAll: "Show All",
+        bar: (l, n) => `${l}: ${n} match${n === 1 ? "" : "es"} (click to filter)` },
+  es: { region: "Filtrar coincidencias por libro", filtered: (l) => `Filtrado por ${l}`, byBook: (n) => `Coincidencias por libro (${n})`,
+        clearTitle: "Quitar el filtro y mostrar todas las coincidencias", showAll: "Mostrar todo",
+        bar: (l, n) => `${l}: ${n} coincidencia${n === 1 ? "" : "s"} (clic para filtrar)` },
+};
+
 export default function BookFilterChart({
   items = [],
   selectedKey = null,
   onSelectKey,
   totalCount,
+  lang = "en",
 }) {
+  const t = T[lang] || T.en;
   if (!items || items.length === 0) return null;
 
   const maxCount = Math.max(...items.map((i) => i.count), 1);
@@ -15,22 +26,22 @@ export default function BookFilterChart({
     <div
       className="book-filter-chart"
       role="region"
-      aria-label="Filter matches by book"
+      aria-label={t.region}
     >
       <div className="filter-chart-header">
         <span className="filter-chart-title">
           {selectedItem
-            ? `Filtered by ${selectedItem.label}`
-            : `Matches by Book (${items.length})`}
+            ? t.filtered(selectedItem.label)
+            : t.byBook(items.length)}
         </span>
         {selectedKey && (
           <button
             type="button"
             className="filter-chart-clear"
             onClick={() => onSelectKey(null)}
-            title="Clear filter and show all matches"
+            title={t.clearTitle}
           >
-            Show All {totalCount ? `(${totalCount})` : ""}
+            {t.showAll} {totalCount ? `(${totalCount})` : ""}
           </button>
         )}
       </div>
@@ -46,7 +57,7 @@ export default function BookFilterChart({
               type="button"
               className={`filter-bar-row ${isSelected ? "selected" : ""}`}
               onClick={() => onSelectKey(isSelected ? null : item.key)}
-              title={`${item.label}: ${item.count} match${item.count === 1 ? "" : "es"} (click to filter)`}
+              title={t.bar(item.label, item.count)}
               aria-pressed={isSelected}
             >
               <span className="filter-bar-label">{item.label}</span>

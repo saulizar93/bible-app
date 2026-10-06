@@ -110,7 +110,7 @@ export default function App() {
   };
 
   const book = byId[refPos.book] || byId["MAT"];
-  const options = open ? suggest(query) : [];
+  const options = open ? suggest(query, lang || "en") : [];
 
   usePrefetchNextChapter(refPos, book, top, bottom);
 
@@ -325,7 +325,7 @@ export default function App() {
         book={book}
         chapter={refPos.chapter}
         panes={[top, bottom]}
-        placeholder={`${book.en} ${refPos.chapter}`}
+        placeholder={`${lang === "es" ? book.es : book.en} ${refPos.chapter}`}
         onSubmit={submit}
         onPick={pick}
         onStep={step}

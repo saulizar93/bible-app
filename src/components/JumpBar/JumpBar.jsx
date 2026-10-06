@@ -2,10 +2,41 @@ import { useState, useEffect, useRef, useMemo } from "react";
 import BookPicker from "../BookPicker/BookPicker.jsx";
 import BookFilterChart from "../BookFilterChart/BookFilterChart.jsx";
 import MainMenu from "../MainMenu/MainMenu.jsx";
-import { byId, parseRef } from "../../books.js";
+import { byId, parseRef, bookName } from "../../books.js";
 import { searchAvailablePanes, splitSnippet } from "../../search.js";
 import { optionFor } from "../../data.js";
 import "./JumpBar.css";
+
+const T = {
+  en: {
+    prev: "Previous chapter", next: "Next chapter", settings: "Reading settings",
+    pickerAria: "Choose Bible book, chapter, and verse", pickerTitle: "Choose Bible reference",
+    searchAria: "Search verse reference", searchTitle: "Search reference",
+    strongsOT: "Underline Strong's-tagged Hebrew words", strongsNT: "Underline Strong's-tagged Greek words",
+    heb: "Heb", gk: "Gk",
+    dialog: "Search reference or word",
+    placeholder: "Search verse (e.g. Jn 3:16) or word (e.g. grace)...",
+    clear: "Clear search", cancel: "Cancel", in: "In:", activePanes: "Active panes", searching: "Searching…",
+    info: (n) => `Current book is searched first · Up to ${n} matches`,
+    goTo: "Go to", jumpHint: "Jump directly to this passage",
+    matchesFor: (q, shown, total) => `Matches for “${q}” (${shown}${total != null ? ` of ${total}` : ""})`,
+    none: (q, src) => `No matches found for “${q}” in ${src || "active panes"}.`,
+  },
+  es: {
+    prev: "Capítulo anterior", next: "Capítulo siguiente", settings: "Ajustes de lectura",
+    pickerAria: "Elegir libro, capítulo y versículo", pickerTitle: "Elegir referencia bíblica",
+    searchAria: "Buscar referencia de versículo", searchTitle: "Buscar referencia",
+    strongsOT: "Subrayar las palabras hebreas con números Strong", strongsNT: "Subrayar las palabras griegas con números Strong",
+    heb: "Heb", gr: "Gr",
+    dialog: "Buscar referencia o palabra",
+    placeholder: "Buscar versículo (p. ej., Jn 3:16) o palabra (p. ej., gracia)...",
+    clear: "Borrar búsqueda", cancel: "Cancelar", in: "En:", activePanes: "Paneles activos", searching: "Buscando…",
+    info: (n) => `Se busca primero en el libro actual · Hasta ${n} coincidencias`,
+    goTo: "Ir a", jumpHint: "Ir directamente a este pasaje",
+    matchesFor: (q, shown, total) => `Coincidencias para «${q}» (${shown}${total != null ? ` de ${total}` : ""})`,
+    none: (q, src) => `No se encontraron coincidencias para «${q}» en ${src || "los paneles activos"}.`,
+  },
+};
 
 export default function JumpBar({
   query,
@@ -26,6 +57,7 @@ export default function JumpBar({
   onOpenSettings,
   onOpenPage,
 }) {
+  const t = T[lang] || T.en;
   const [bookPickerOpen, setBookPickerOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [wordMatches, setWordMatches] = useState([]);
@@ -34,7 +66,7 @@ export default function JumpBar({
   const [searchedQuery, setSearchedQuery] = useState("");
   const searchInputRef = useRef(null);
 
-  const displayTitle = book ? `${book.en} ${chapter}` : placeholder;
+  const displayTitle = book ? `${bookName(book, lang)} ${chapter}` : placeholder;
   const isOT = (book?.n ?? 40) <= 39; // books 1–39: Hebrew/Aramaic; 40–66: Greek
   // Only offer the Strong's toggle when a pane shows a Strong's-tagged translation.
   const hasStrongsPane = (panes || []).some((c) => optionFor(c)?.strongs);
@@ -124,14 +156,14 @@ export default function JumpBar({
       if (!map.has(m.bookId)) {
         map.set(m.bookId, {
           key: m.bookId,
-          label: m.bookName,
+          label: bookName(byId[m.bookId], lang) || m.bookName,
           count: 0,
         });
       }
       map.get(m.bookId).count += 1;
     }
     return Array.from(map.values()).sort((a, b) => b.count - a.count);
-  }, [wordMatches]);
+  }, [wordMatches, lang]);
 
   const displayedMatches = useMemo(() => {
     if (!selectedBookFilter) return wordMatches;
@@ -179,8 +211,8 @@ export default function JumpBar({
           type="button"
           className="nav-step"
           onClick={() => onStep(-1)}
-          aria-label="Previous chapter"
-          title="Previous chapter"
+          aria-label={t.prev}
+          title={t.prev}
         >
           ‹
         </button>
@@ -189,8 +221,8 @@ export default function JumpBar({
           type="button"
           className="nav-step settings-trigger"
           onClick={onOpenSettings}
-          aria-label={lang === "es" ? "Ajustes de lectura" : "Reading settings"}
-          title={lang === "es" ? "Ajustes de lectura" : "Reading settings"}
+          aria-label={t.settings}
+          title={t.settings}
         >
           <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
             <circle cx="12" cy="12" r="3" />
@@ -204,8 +236,8 @@ export default function JumpBar({
           type="button"
           className="book-picker-trigger"
           onClick={() => setBookPickerOpen(true)}
-          aria-label="Choose Bible book, chapter, and verse"
-          title="Choose Bible reference"
+          aria-label={t.pickerAria}
+          title={t.pickerTitle}
         >
           <span className="book-title">{displayTitle}</span>
           <span className="picker-caret" aria-hidden="true">
@@ -221,8 +253,8 @@ export default function JumpBar({
               setSearchOpen(true);
               onOpenChange(true);
             }}
-            aria-label="Search verse reference"
-            title="Search reference"
+            aria-label={t.searchAria}
+            title={t.searchTitle}
           >
             <svg
               className="search-icon"
@@ -247,13 +279,9 @@ export default function JumpBar({
             className={strongsOn ? "strongs-toggle on" : "strongs-toggle"}
             aria-pressed={strongsOn}
             onClick={onToggleStrongs}
-            title={
-              isOT
-                ? "Underline Strong's-tagged Hebrew words"
-                : "Underline Strong's-tagged Greek words"
-            }
+            title={isOT ? t.strongsOT : t.strongsNT}
           >
-            {isOT ? "Heb" : "Gk"}
+            {isOT ? t.heb : (t.gr || t.gk)}
           </button>
           )}
 
@@ -261,8 +289,8 @@ export default function JumpBar({
             type="button"
             className="nav-step"
             onClick={() => onStep(1)}
-            aria-label="Next chapter"
-            title="Next chapter"
+            aria-label={t.next}
+            title={t.next}
           >
             ›
           </button>
@@ -272,6 +300,7 @@ export default function JumpBar({
       {bookPickerOpen && (
         <BookPicker
           currentBook={book}
+          lang={lang}
           onSelect={(ref) => {
             setBookPickerOpen(false);
             onPick(ref);
@@ -293,7 +322,7 @@ export default function JumpBar({
             className="search-modal"
             role="dialog"
             aria-modal="true"
-            aria-label="Search reference or word"
+            aria-label={t.dialog}
           >
             <form
               className="search-form"
@@ -320,7 +349,7 @@ export default function JumpBar({
                   ref={searchInputRef}
                   className="search-input"
                   value={query}
-                  placeholder="Search verse (e.g. Jn 3:16) or word (e.g. grace)..."
+                  placeholder={t.placeholder}
                   onChange={(e) => {
                     onQueryChange(e.target.value);
                     onOpenChange(true);
@@ -339,7 +368,7 @@ export default function JumpBar({
                       setSearchedQuery("");
                       searchInputRef.current?.focus();
                     }}
-                    aria-label="Clear search"
+                    aria-label={t.clear}
                   >
                     ×
                   </button>
@@ -353,25 +382,24 @@ export default function JumpBar({
                   onOpenChange(false);
                 }}
               >
-                Cancel
+                {t.cancel}
               </button>
             </form>
 
             <div className="search-sources-bar">
-              <span className="search-sources-label">In:</span>
+              <span className="search-sources-label">{t.in}</span>
               <span className="search-sources-names">
-                {activeSourcesLabel || "Active panes"}
+                {activeSourcesLabel || t.activePanes}
               </span>
               {isSearching && (
                 <span className="search-spinner" aria-live="polite">
-                  Searching…
+                  {t.searching}
                 </span>
               )}
             </div>
 
             <div className="search-search-info dim">
-              Current book is searched first · Up to{" "}
-              {maxResults.toLocaleString()} matches
+              {t.info(maxResults.toLocaleString(lang === "es" ? "es-MX" : "en-US"))}
             </div>
 
             <div className="search-results-container">
@@ -393,10 +421,10 @@ export default function JumpBar({
                     <span className="search-jump-icon">📖</span>
                     <div className="search-jump-info">
                       <div className="search-jump-title">
-                        Go to {parsedBook.en} {parsedRef.chapter}
+                        {t.goTo} {bookName(parsedBook, lang)} {parsedRef.chapter}
                         {parsedRef.verse ? `:${parsedRef.verse}` : ""}
                       </div>
-                      <div className="dim">Jump directly to this passage</div>
+                      <div className="dim">{t.jumpHint}</div>
                     </div>
                   </button>
                 </div>
@@ -406,8 +434,11 @@ export default function JumpBar({
                 <>
                   <div className="search-section-header">
                     <span>
-                      Matches for “{searchedQuery}” ({displayedMatches.length}
-                      {selectedBookFilter ? ` of ${wordMatches.length}` : ""})
+                      {t.matchesFor(
+                        searchedQuery,
+                        displayedMatches.length,
+                        selectedBookFilter ? wordMatches.length : null,
+                      )}
                     </span>
                   </div>
 
@@ -416,6 +447,7 @@ export default function JumpBar({
                     selectedKey={selectedBookFilter}
                     onSelectKey={setSelectedBookFilter}
                     totalCount={wordMatches.length}
+                    lang={lang}
                   />
 
                   <ul className="search-results-list">
@@ -427,7 +459,7 @@ export default function JumpBar({
                         >
                           <div className="search-match-head">
                             <span className="search-match-ref">
-                              {m.bookName} {m.chapter}:{m.verseRange || m.verse}
+                              {bookName(byId[m.bookId], lang) || m.bookName} {m.chapter}:{m.verseRange || m.verse}
                             </span>
                             <span className={`search-badge ${m.kind}`}>
                               {m.sourceLabel}
@@ -464,10 +496,10 @@ export default function JumpBar({
                           onClick={() => handleSelectOption(o)}
                         >
                           <span className="search-result-main">
-                            {o.en} {Math.min(o.chapter, o.chapters)}
+                            {bookName(o, lang)} {Math.min(o.chapter, o.chapters)}
                             {o.verse ? `:${o.verse}` : ""}
                           </span>
-                          <span className="dim"> · {o.es}</span>
+                          <span className="dim"> · {lang === "es" ? o.en : o.es}</span>
                         </button>
                       </li>
                     ))}
@@ -479,10 +511,7 @@ export default function JumpBar({
                 wordMatches.length === 0 &&
                 !parsedRef && (
                   <div className="search-empty">
-                    <p>
-                      No matches found for “{searchedQuery}” in{" "}
-                      {activeSourcesLabel || "active panes"}.
-                    </p>
+                    <p>{t.none(searchedQuery, activeSourcesLabel)}</p>
                   </div>
                 )}
             </div>

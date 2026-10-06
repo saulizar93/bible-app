@@ -71,6 +71,15 @@ export const BOOKS = PACKED.split('\n').map((line, i) => {
   return { n: i + 1, id, en, es, chapters: +ch };
 });
 
+// Spanish 3-letter abbreviations for the book grid (same order as BOOKS).
+const ES_ABBR = `GÉN ÉXO LEV NÚM DEU JOS JUE RUT 1SA 2SA 1RE 2RE 1CR 2CR ESD NEH EST JOB SAL PRO ECL CNT ISA JER LAM EZE DAN OSE JOE AMÓ ABD JON MIQ NAH HAB SOF HAG ZAC MAL MAT MAR LUC JUA HCH ROM 1CO 2CO GÁL EFE FIL COL 1TS 2TS 1TI 2TI TIT FLM HEB SAN 1PE 2PE 1JN 2JN 3JN JUD APO`.split(' ');
+BOOKS.forEach((b, i) => { b.esAbbr = ES_ABBR[i]; });
+
+/** Book name in the interface language ("Matthew" / "Mateo"). */
+export const bookName = (b, lang = 'en') => (b ? (lang === 'es' ? b.es : b.en) : '');
+/** Short label for the book grid ("MAT" / "MAT", "GEN" / "GÉN"). */
+export const bookAbbr = (b, lang = 'en') => (b ? (lang === 'es' ? b.esAbbr : b.id) : '');
+
 export const byId = Object.fromEntries(BOOKS.map(b => [b.id, b]));
 export const byNum = Object.fromEntries(BOOKS.map(b => [b.n, b]));
 
