@@ -251,3 +251,14 @@
   13 verses fully untagged (Majority-Text-only verses such as Mt 17:21, 18:11, 23:14, Mk 7:16, 9:44/46, 11:26, 15:28, Lk 23:17, Jn 5:4, Acts 28:29, Rom 16:24; Neh 7:68).
 - Concordance: `node scripts/build-concordance.mjs public/data/bibles/msb-strong public/data/concord/msb-strong`.
 - New PANE_OPTIONS entry `msb-strong` ("MSB w/Strong (MT)"); plain `msb` kept. Rebuild after updating msb or bsb-strong.
+
+## 2026-10-06 — RV1909 c/Strong: morphology + Greek forms borrowed from the KJV
+
+- New `scripts/add-morph-from-kjv.mjs <targetDir> [sourceDir]`: for each Strong's-tagged token, copies `m` and `g` from the
+  KJV w/Strong token with the same Strong's number in the same verse (k-th occurrence -> k-th occurrence; falls back to
+  the form when all KJV occurrences agree; otherwise leaves it). Writes in place, safe to re-run.
+- `node scripts/add-morph-from-kjv.mjs public/data/bibles/rv1909-strong` -> NT: 104,226 of 125,417 tagged tokens (83%) now
+  have m + g; OT: Strong's verb codes (TH…) on verbs, as in the KJV. Untouched: numbers the KJV doesn't tag in that verse
+  (often the article G3588), 691 ambiguous tokens.
+- Must be re-run after rebuilding rv1909-strong with build-sword-bible.mjs.
+- Bumped DATA_VERSION 2 -> 3 so cached Bible chapters refresh.
