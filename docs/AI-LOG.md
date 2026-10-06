@@ -317,3 +317,7 @@
 ## 2026-10-06 — Version numbers visible to users
 
 - data.js exports VERSIONS {data, notes, lexicon}. Shown as a small footer in the hamburger menu ("Data v3 · Notes v2 · Lexicon v3", tooltip: clear saved data in Settings when they change) and appended to the notes authorship line ("Notes version: v2" / "Versión de las notas: v2").
+
+## 2026-10-06 — Pane picker: content-width highlighted pill
+
+- PaneSlot: visible `.pane-current` label sizes the pill to the selected name; the native <select> sits invisibly over the whole pill (still opens the list, keyboard/a11y intact). Pill is highlighted (light: #fff2c4 bg / #5a4300 text; dark: #3d3413 bg / #f3d27a text) with matching caret and badge colors; notes badge stays amber.

@@ -32,6 +32,9 @@ export default function PaneSlot({
       <header className="pane-head">
         <label className={`pane-picker ${opt.kind}`}>
           <span className="pane-badge" aria-hidden="true">{badge}</span>
+          {/* The visible label sizes the pill to the selected name; the native
+              <select> lies invisibly on top of it and still opens the list. */}
+          <span className="pane-current" aria-hidden="true">{opt.label}</span>
           <select
             value={code}
             onChange={(e) => onSelect(e.target.value)}
