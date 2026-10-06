@@ -277,3 +277,7 @@
 - `notes:en` / `notes:es` PANE_OPTIONS got a `copyright` line; NotesPane renders it after the last note with the same
   `.pane-copyright` style as the Bible panes (only when the chapter has notes).
 - NotesPane's loading / error / "no notes yet" messages are now bilingual.
+
+## 2026-10-06 — "About the Bible Translations" page written
+
+- public/data/pages/translations.en.md and translations.es.md: history and notes for every Bible in the app (KJV, BSB/MSB, LSV, DRC, RV1909, RVG, Torres Amat, Straubinger), with verse examples checked against the app data and RV1960 wording checked on Blue Letter Bible.
