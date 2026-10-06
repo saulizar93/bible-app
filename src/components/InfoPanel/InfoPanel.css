@@ -324,3 +324,57 @@
   font-size: 12.5px;
   font-variant-numeric: tabular-nums;
 }
+
+/* ---------- tiers (Bibliography) ---------- */
+.info-body li.tier {
+  margin: 4px 0;
+  padding: 4px 8px;
+  border-radius: 8px;
+  list-style-position: inside;
+}
+.info-body li.tier-top {
+  background: color-mix(in srgb, #d4a017 16%, transparent);
+  border-left: 3px solid #d4a017;
+  font-weight: 600;
+}
+.info-body li.tier-low,
+.info-body li.tier-worst {
+  background: color-mix(in srgb, #c0392b 12%, transparent);
+  border-left: 3px solid #c0392b;
+  color: #a32f23;
+}
+.info-body li.tier-worst {
+  background: color-mix(in srgb, #c0392b 22%, transparent);
+  border-left-width: 5px;
+  font-weight: 600;
+}
+@media (prefers-color-scheme: dark) {
+  .info-body li.tier-low,
+  .info-body li.tier-worst {
+    color: #f19a90;
+  }
+}
+.tier-badge {
+  display: inline-block;
+  margin-right: 7px;
+  padding: 1px 7px;
+  border-radius: 999px;
+  font: 700 10.5px/1.5 ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  vertical-align: 1px;
+}
+.tier-top .tier-badge {
+  background: #d4a017;
+  color: #1b1915;
+}
+.tier-low .tier-badge,
+.tier-worst .tier-badge {
+  background: #c0392b;
+  color: #fff;
+}
+.info-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}

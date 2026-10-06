@@ -12,6 +12,7 @@ import "./InfoPanel.css";
  * Supported formatting (a small Markdown subset):
  *   # Heading / ## Subheading / ### Small heading
  *   - bullet item
+ *   - {top} / {low} / {worst} at the start of a bullet = tier badge + highlight (Bibliography)
  *   > quoted line (consecutive > lines form one quote block)
  *   | a | table |   (first row = header; a |---|---| separator row is optional and skipped)
  *   **bold**, *italic*, [link text](https://...)
@@ -69,7 +70,7 @@ export default function InfoPanel({ pageId, lang = "en", context = "", onClose }
         ) : text === null ? (
           <p className="dim">{lang === "es" ? "Cargando…" : "Loading…"}</p>
         ) : text ? (
-          <div className="info-body">{renderMarkdown(text)}</div>
+          <div className="info-body">{renderMarkdown(text, lang)}</div>
         ) : (
           <p className="dim">{lang === "es" ? "Contenido próximamente." : "Content coming soon."}</p>
         )}
@@ -80,7 +81,13 @@ export default function InfoPanel({ pageId, lang = "en", context = "", onClose }
 
 /* ---------- tiny Markdown subset -> React elements (no innerHTML) ---------- */
 
-function renderMarkdown(src) {
+const TIERS = {
+  en: { top: "Top tier", low: "Low tier", worst: "Worst tier" },
+  es: { top: "Excelente", low: "Deficiente", worst: "Lo peor" },
+};
+
+function renderMarkdown(src, lang = "en") {
+  const tierLabel = TIERS[lang] || TIERS.en;
   const blocks = [];
   let para = [];
   let list = [];
@@ -128,7 +135,16 @@ function renderMarkdown(src) {
       blocks.push(
         <ul key={blocks.length}>
           {list.map((item, i) => (
-            <li key={i}>{inline(item)}</li>
+            (() => {
+              const m = item.match(/^\{(top|low|worst)\}\s*/);
+              if (!m) return <li key={i}>{inline(item)}</li>;
+              return (
+                <li key={i} className={`tier tier-${m[1]}`}>
+                  <span className="tier-badge">{tierLabel[m[1]]}</span>
+                  {inline(item.slice(m[0].length))}
+                </li>
+              );
+            })()
           ))}
         </ul>,
       );

@@ -346,3 +346,8 @@
 ## 2026-10-06 — "Deuterocanonical Books" page
 
 - pages.js entry after Bible Manipulations; public/data/pages/deuterocanonical.en.md / .es.md: author's story, Hebrew canon / Josephus / NT usage, Fathers (Melito, Origen, Athanasius, Cyril, Rufinus; Augustine & Hippo/Carthage noted fairly), Damasus/Jerome and Jerome's prefaces + Letter 107, Gregory the Great, Glossa Ordinaria, Hugh of St Victor, Lyra, Ximenes, Cajetan, Leipzig 1519, Trent 1546 & 2 Macc 12 / purgatory, textual instability (Judith, Tobit recensions, Sirach, Vulgate vs modern Catholic texts), historical/theological errors, 1 Macc on the absence of prophets, 2 Macc author disclaimers and fantastic elements. Deuterocanonical quotes from the KJV 1611 Apocrypha (translated in the Spanish page).
+
+## 2026-10-06 — Bibliography page + tier badges
+
+- InfoPanel Markdown: a bullet starting with {top} / {low} / {worst} gets a highlighted row and a localized badge (gold for top tier; red for low/worst).
+- public/data/pages/bibliography.en.md / .es.md: Bibles grouped by tradition/language (Oneness, KJV/TR, Majority, formal, dynamic, JW, Jewish, ecumenical, Orthodox, Catholic, original-language/interlinear, Korean; Spanish Protestant/JW/Catholic), books by subject (alphabetical by author), Spanish books, podcasts. Typos fixed (Boettner, Barrett, quinta, Matthew Henry, Tertullian, etc.).
