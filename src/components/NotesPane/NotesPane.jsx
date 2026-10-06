@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { byId } from "../../books.js";
-import { loadNotes, keyCovers, keyStart, optionFor } from "../../data.js";
+import { loadNotes, keyCovers, keyStart, optionFor, VERSIONS } from "../../data.js";
 import "./NotesPane.css";
 
 export default function NotesPane({ lang, refPos, highlight, scroller }) {
@@ -83,7 +83,11 @@ export default function NotesPane({ lang, refPos, highlight, scroller }) {
   return (
     <>
       {noteEls}
-      {copyright && <p className="pane-copyright">{copyright}</p>}
+      {copyright && (
+        <p className="pane-copyright">
+          {copyright} {lang === "es" ? "Versión de las notas" : "Notes version"}: v{VERSIONS.notes}.
+        </p>
+      )}
     </>
   );
 }

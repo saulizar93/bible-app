@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { INFO_PAGES } from "../../pages.js";
+import { VERSIONS } from "../../data.js";
 import "./MainMenu.css";
 
 /** Hamburger button + dropdown of info pages (About the Author, ...). */
@@ -49,6 +50,9 @@ export default function MainMenu({ lang = "en", onOpenPage }) {
                 </button>
               </li>
             ))}
+            <li role="none" className="menu-versions" title={lang === "es" ? "Si estos números cambian, borre los datos guardados en Ajustes." : "If these numbers change, clear saved data in Settings."}>
+              {lang === "es" ? "Datos" : "Data"} v{VERSIONS.data} · {lang === "es" ? "Notas" : "Notes"} v{VERSIONS.notes} · {lang === "es" ? "Léxico" : "Lexicon"} v{VERSIONS.lexicon}
+            </li>
           </ul>
         </>
       )}

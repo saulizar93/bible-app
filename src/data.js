@@ -5,6 +5,10 @@ const DATA_VERSION = 3; // bump to invalidate every cached Bible chapter
 const NOTES_VERSION = 2; // bump separately — notes change far more often
 const LEXICON_VERSION = 3; // bump when strongs/ or concord/ data is rebuilt
 
+/** Shown to users (menu footer, notes authorship line) so they can tell when
+ *  new data has been published and clear their saved copies in Settings. */
+export const VERSIONS = { data: DATA_VERSION, notes: NOTES_VERSION, lexicon: LEXICON_VERSION };
+
 // One combined list drives both pane dropdowns, so either side can hold
 // a translation or a notes set. `copyright` is shown under the last verse of
 // every chapter (BiblePane).

@@ -37,3 +37,12 @@
   background: var(--hit);
   outline: none;
 }
+
+.menu-versions {
+  margin: 4px 0 0;
+  padding: 8px 12px 4px;
+  border-top: 1px solid var(--line);
+  color: var(--dim);
+  font: 11.5px/1.4 ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: 0.02em;
+}

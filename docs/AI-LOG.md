@@ -313,3 +313,7 @@
 ## 2026-10-06 — Pane picker restyle
 
 - PaneSlot header: the translation/notes <select> is now a pill (bold, full-contrast text, border, hover/focus states) with a badge (EN / ES / Notes·Notas, notes in amber) and an SVG caret; native select kept for accessibility and mobile pickers. "Study notes" optgroup label follows app_lang. Old dim rule removed from SplitPanes.css.
+
+## 2026-10-06 — Version numbers visible to users
+
+- data.js exports VERSIONS {data, notes, lexicon}. Shown as a small footer in the hamburger menu ("Data v3 · Notes v2 · Lexicon v3", tooltip: clear saved data in Settings when they change) and appended to the notes authorship line ("Notes version: v2" / "Versión de las notas: v2").
