@@ -39,3 +39,35 @@
   color: inherit;
   text-underline-offset: 3px;
 }
+
+.info-quote {
+  margin: 0.6em 0 0.9em;
+  padding: 0.5em 0.9em;
+  border-left: 3px solid var(--line);
+  background: color-mix(in srgb, var(--hit) 35%, transparent);
+  border-radius: 0 8px 8px 0;
+}
+.info-quote p {
+  margin: 0.25em 0;
+}
+.info-table-wrap {
+  overflow-x: auto;
+  margin: 0.6em 0 1em;
+}
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  line-height: 1.45;
+}
+.info-table th,
+.info-table td {
+  padding: 6px 8px;
+  border: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+.info-table th {
+  background: var(--hit);
+  font-weight: 700;
+}

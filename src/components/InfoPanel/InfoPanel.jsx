@@ -10,6 +10,8 @@ import "./InfoPanel.css";
  * Supported formatting (a small Markdown subset):
  *   # Heading / ## Subheading / ### Small heading
  *   - bullet item
+ *   > quoted line (consecutive > lines form one quote block)
+ *   | a | table |   (first row = header; a |---|---| separator row is optional and skipped)
  *   **bold**, *italic*, [link text](https://...)
  *   blank line = new paragraph
  */
@@ -79,6 +81,41 @@ function renderMarkdown(src) {
     if (para.length) blocks.push(<p key={blocks.length}>{inline(para.join(" "))}</p>);
     para = [];
   };
+  let quote = [];
+  let table = [];
+  const flushQuote = () => {
+    if (quote.length)
+      blocks.push(
+        <blockquote key={blocks.length} className="info-quote">
+          {quote.map((q, i) => (
+            <p key={i}>{inline(q)}</p>
+          ))}
+        </blockquote>,
+      );
+    quote = [];
+  };
+  const cells = (row) => row.replace(/^\|/, "").replace(/\|$/, "").split("|").map((c) => c.trim());
+  const flushTable = () => {
+    if (table.length) {
+      const rows = table.filter((r) => !/^\|?\s*:?-{2,}/.test(r)).map(cells);
+      const [head, ...body] = rows;
+      blocks.push(
+        <div key={blocks.length} className="info-table-wrap">
+          <table className="info-table">
+            <thead>
+              <tr>{head.map((c, i) => <th key={i}>{inline(c)}</th>)}</tr>
+            </thead>
+            <tbody>
+              {body.map((r, ri) => (
+                <tr key={ri}>{r.map((c, i) => <td key={i}>{inline(c)}</td>)}</tr>
+              ))}
+            </tbody>
+          </table>
+        </div>,
+      );
+    }
+    table = [];
+  };
   const flushList = () => {
     if (list.length)
       blocks.push(
@@ -95,9 +132,20 @@ function renderMarkdown(src) {
     const line = raw.trim();
     const h = line.match(/^(#{1,3})\s+(.*)$/);
     const li = line.match(/^[-*]\s+(.*)$/);
+    const qt = line.match(/^>\s?(.*)$/);
+    if (!line.startsWith("|")) flushTable();
+    if (!qt) flushQuote();
     if (!line) {
       flushPara();
       flushList();
+    } else if (line.startsWith("|")) {
+      flushPara();
+      flushList();
+      table.push(line);
+    } else if (qt) {
+      flushPara();
+      flushList();
+      quote.push(qt[1]);
     } else if (h) {
       flushPara();
       flushList();
@@ -113,6 +161,8 @@ function renderMarkdown(src) {
   }
   flushPara();
   flushList();
+  flushQuote();
+  flushTable();
   return blocks;
 }
 

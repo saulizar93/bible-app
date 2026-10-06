@@ -101,7 +101,7 @@ Because it follows the Vulgate, the Torres Amat text is no longer what Catholic 
 
 - "**Haced penitencia**: porque está cerca el reino de los cielos" (Matthew 3:2) — the Straubinger reads "**Arrepentíos**."
 - "**ella** quebrantará tu cabeza" (Genesis 3:15) — the Hebrew reads "he" (the Straubinger: "**este** te aplastará la cabeza"); even the official Latin *Nova Vulgata* (1979) corrected it.
-- "¿No son sus **parientes** Santiago, José, Simón y Judas?" (Matthew 13:55; also 12:46) — the Greek *adelphoi* means "brothers" (the Straubinger: "sus **hermanos**"). The change protects the doctrine of Mary's perpetual virginity.
+- "¿No son sus **parientes** Santiago, José, Simón y Judas? Y sus **primas hermanas**…" (Matthew 13:55-56; also 12:46), and "**primo hermano** de Santiago" (Mark 6:3; Galatians 1:19) — the Greek *adelphoi* means "brothers" and *adelphai* "sisters" (the Straubinger: "sus **hermanos**"). The change protects the doctrine of Mary's perpetual virginity.
 - "habiendo ordenado **sacerdotes** en cada una de las iglesias" (Acts 14:23) — the Greek *presbyteros* means "elder"; elsewhere Torres Amat writes "presbíteros."
 - "dio a luz su hijo **primogénito**" (Matthew 1:25) — here the Vulgate keeps the Textus Receptus reading, while the Critical Text and the Straubinger omit "primogénito."
 

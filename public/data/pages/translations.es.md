@@ -101,7 +101,7 @@ Como sigue la Vulgata, el texto de Torres Amat ya no es el que la erudición cat
 
 - «**Haced penitencia**: porque está cerca el reino de los cielos» (Mateo 3:2); la Straubinger dice «**Arrepentíos**».
 - «**ella** quebrantará tu cabeza» (Génesis 3:15); el hebreo dice «él» (la Straubinger: «**este** te aplastará la cabeza»); incluso la *Nova Vulgata* latina oficial (1979) lo corrigió.
-- «¿No son sus **parientes** Santiago, José, Simón y Judas?» (Mateo 13:55; también 12:46); el griego *adelphoí* significa «hermanos» (la Straubinger: «sus **hermanos**»). El cambio protege la doctrina de la virginidad perpetua de María.
+- «¿No son sus **parientes** Santiago, José, Simón y Judas? Y sus **primas hermanas**…» (Mateo 13:55-56; también 12:46), y «**primo hermano** de Santiago» (Marcos 6:3; Gálatas 1:19); el griego *adelphoí* significa «hermanos» y *adelphaí*, «hermanas» (la Straubinger: «sus **hermanos**»). El cambio protege la doctrina de la virginidad perpetua de María.
 - «habiendo ordenado **sacerdotes** en cada una de las iglesias» (Hechos 14:23); el griego *presbýteros* significa «anciano»; en otros pasajes Torres Amat escribe «presbíteros».
 - «dio a luz su hijo **primogénito**» (Mateo 1:25); aquí la Vulgata conserva la lectura del Textus Receptus, mientras que el Texto Crítico y la Straubinger omiten «primogénito».
 

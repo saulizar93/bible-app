@@ -290,3 +290,12 @@
   reference; verse numbers appear when several verses are selected; uses the reader's font/size settings.
 - Clicking a block (App.jsx `pickFromCompare`): the pane the verses were selected in keeps its translation, the other pane
   switches to the picked one, the first selected verse is highlighted (both panes scroll to it), selection is cleared.
+
+## 2026-10-06 — "Bible Manipulations" page + tables/quotes in info pages
+
+- InfoPanel's Markdown subset now supports `> quote` blocks (.info-quote) and pipe tables (.info-table, horizontally scrollable).
+- public/data/pages/manipulations.en.md / .es.md: report on doctrinally driven renderings (penance, priest/elder, Rock,
+  Marian texts, Peter's wife, Mt 6:7, Eph 5:32, NWT "a god"/"Jehovah"/"other"/"in union with"/"obeisance"), with quotes
+  checked against the app's Torres Amat, DRC, Straubinger, KJV, RVG, LSV and against jw.org for the NWT/TNM; final table of
+  all references from the author's notes, corrections marked †.
+- translations.*.md: Torres Amat bullet now also cites "primas hermanas" / "primo hermano" (Mt 13:56; Mk 6:3; Gal 1:19).
