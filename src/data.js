@@ -1,4 +1,4 @@
-import { get, set } from "idb-keyval";
+import { get, set, clear } from "idb-keyval";
 import { normalizeStrong } from "./strongsCode.js";
 
 const DATA_VERSION = 2; // bump to invalidate every cached Bible chapter
@@ -223,4 +223,33 @@ export async function loadConcordance(rawCode, source) {
     `${import.meta.env.BASE_URL}data/concord/${dir}/${shard}.json`,
   );
   return (data && data[code]) || [];
+}
+
+
+/** Wipe everything this app has stored on the device — the IndexedDB cache of
+ *  Bible chapters, notes and lexicon shards, plus every localStorage setting —
+ *  so the next load fetches only the current data. Used by Settings ▸
+ *  "Clear saved data". The caller reloads the page afterwards. */
+export async function clearAllAppData() {
+  try { await clear(); } catch { /* store may not exist yet */ }
+  try {
+    // Also drop any other databases left by older builds of the app.
+    const dbs = (await indexedDB.databases?.()) || [];
+    await Promise.all(
+      dbs.filter((d) => d.name).map(
+        (d) => new Promise((resolve) => {
+          const req = indexedDB.deleteDatabase(d.name);
+          req.onsuccess = req.onerror = req.onblocked = () => resolve();
+        }),
+      ),
+    );
+  } catch { /* indexedDB.databases() unsupported (older Firefox) */ }
+  try {
+    if (window.caches) {
+      const keys = await caches.keys();
+      await Promise.all(keys.map((k) => caches.delete(k)));
+    }
+  } catch { /* Cache API unavailable */ }
+  try { localStorage.clear(); } catch { /* storage blocked */ }
+  try { sessionStorage.clear(); } catch { /* storage blocked */ }
 }

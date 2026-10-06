@@ -215,3 +215,10 @@
 - Rebuilt notes: `node scripts/build-notes.mjs sources/matthew-commentary-en.txt en MAT` (897 notes) and `... es MAT` (898 notes;
   the extra one is 22:24, which the English file spells "Matthes 22:24", so the English build folds it into 22:23).
 - Bumped `NOTES_VERSION` 1 -> 2 in `src/data.js` so cached notes refresh.
+
+## 2026-10-06 — Settings: "Clear saved data"
+
+- New `clearAllAppData()` in `src/data.js`: clears the idb-keyval store, deletes any other IndexedDB databases
+  (`indexedDB.databases()` where supported), empties Cache Storage, localStorage and sessionStorage.
+- `SettingsModal.jsx`: new "Saved data / Datos guardados" section above the footer with a two-step confirm
+  (warns that language, text size, font, default panes and last position reset too), then reloads the page.

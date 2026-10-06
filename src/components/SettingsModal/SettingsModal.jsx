@@ -1,17 +1,23 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { FONT_SCALES, FONTS, DEFAULT_SETTINGS, fontStack } from "../../settings.js";
-import { PANE_OPTIONS } from "../../data.js";
+import { PANE_OPTIONS, clearAllAppData } from "../../data.js";
 import "./SettingsModal.css";
 
 const T = {
   en: { language: "Language", panes: "Default panes", topPane: "Top pane", bottomPane: "Bottom pane",
         remember: "Remember last used", panesHint: "The app opens with these every time. Choose “Remember last used” to reopen whatever you had open.",
         groupEn: "English", groupEs: "Español", groupNotes: "Study notes",
-        title: "Reading settings", size: "Text size", numSize: "Verse number size", font: "Font", sample: "In the beginning God created the heaven and the earth.", reset: "Reset", done: "Done" },
+        title: "Reading settings", size: "Text size", numSize: "Verse number size", font: "Font", sample: "In the beginning God created the heaven and the earth.", reset: "Reset", done: "Done",
+        storage: "Saved data", clearData: "Clear saved data", clearConfirm: "Yes, clear and reload", cancel: "Cancel", clearing: "Clearing…",
+        clearHint: "Deletes the Bibles, notes and lexicon saved on this device, plus all your settings, then reloads so the app downloads only the latest versions.",
+        clearWarn: "This also resets your language, text size, font, default panes and last-read position. Continue?" },
   es: { language: "Idioma", panes: "Paneles predeterminados", topPane: "Panel superior", bottomPane: "Panel inferior",
         remember: "Recordar el último usado", panesHint: "La aplicación abrirá siempre con estos. Elija «Recordar el último usado» para volver a abrir lo que tenía abierto.",
         groupEn: "English", groupEs: "Español", groupNotes: "Notas de estudio",
-        title: "Ajustes de lectura", size: "Tamaño del texto", numSize: "Tamaño de los números de versículo", font: "Tipo de letra", sample: "En el principio creó Dios los cielos y la tierra.", reset: "Restablecer", done: "Listo" },
+        title: "Ajustes de lectura", size: "Tamaño del texto", numSize: "Tamaño de los números de versículo", font: "Tipo de letra", sample: "En el principio creó Dios los cielos y la tierra.", reset: "Restablecer", done: "Listo",
+        storage: "Datos guardados", clearData: "Borrar datos guardados", clearConfirm: "Sí, borrar y recargar", cancel: "Cancelar", clearing: "Borrando…",
+        clearHint: "Elimina las Biblias, notas y léxico guardados en este dispositivo, junto con todos sus ajustes, y recarga para que la aplicación descargue solo las versiones más recientes.",
+        clearWarn: "Esto también restablece su idioma, tamaño del texto, tipo de letra, paneles predeterminados y la última posición de lectura. ¿Continuar?" },
 };
 
 /** Text size (percent) + font for the Bible and notes panes. Changes apply
@@ -26,6 +32,13 @@ export default function SettingsModal({
   onDefaultPaneChange,
 }) {
   const t = T[lang] || T.en;
+  const [clearStep, setClearStep] = useState("idle"); // idle | confirm | busy
+
+  const clearData = async () => {
+    setClearStep("busy");
+    await clearAllAppData();
+    window.location.reload();
+  };
 
   useEffect(() => {
     const onKey = (e) => e.key === "Escape" && onClose();
@@ -165,6 +178,40 @@ export default function SettingsModal({
             </label>
           ))}
           <p className="settings-hint">{t.panesHint}</p>
+        </section>
+
+        <section className="settings-storage">
+          <h3>{t.storage}</h3>
+          {clearStep === "idle" ? (
+            <>
+              <button type="button" className="settings-clear" onClick={() => setClearStep("confirm")}>
+                {t.clearData}
+              </button>
+              <p className="settings-hint">{t.clearHint}</p>
+            </>
+          ) : (
+            <div className="settings-clear-confirm" role="alert">
+              <p>{t.clearWarn}</p>
+              <div className="settings-clear-actions">
+                <button
+                  type="button"
+                  className="settings-reset"
+                  disabled={clearStep === "busy"}
+                  onClick={() => setClearStep("idle")}
+                >
+                  {t.cancel}
+                </button>
+                <button
+                  type="button"
+                  className="settings-clear danger"
+                  disabled={clearStep === "busy"}
+                  onClick={clearData}
+                >
+                  {clearStep === "busy" ? t.clearing : t.clearConfirm}
+                </button>
+              </div>
+            </div>
+          )}
         </section>
 
         <footer className="settings-foot">
