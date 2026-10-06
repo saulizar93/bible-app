@@ -47,14 +47,25 @@ export const PANE_OPTIONS = [
   //   copyright: "Berean Standard Bible. Public Domain. BSB Publishing, LLC.",
   // },
   {
-    code: "msb",
-    label: "MSB (MT)",
+    code: "msb-strong",
+    label: "MSB w/Strong (MT)",
     kind: "bible",
     lang: "en",
+    strongs: true,
+    concord: "msb-strong/", // data/concord/msb-strong/{greek,hebrew}
     citation: "MSB",
     copyright:
-      "Majority Standard Bible. Public Domain. Berean Bible Translation Committee.",
+      "Majority Standard Bible. Public Domain (CC0). Berean Bible Translation Committee. Strong's numbers carried over from the Berean Standard Bible where the wording is shared; words unique to the MSB are untagged.",
   },
+  // {
+  //   code: "msb",
+  //   label: "MSB (MT)",
+  //   kind: "bible",
+  //   lang: "en",
+  //   citation: "MSB",
+  //   copyright:
+  //     "Majority Standard Bible. Public Domain. Berean Bible Translation Committee.",
+  // },
   {
     code: "lsv",
     label: "LSV (TR)",

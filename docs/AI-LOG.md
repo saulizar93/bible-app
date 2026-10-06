@@ -242,3 +242,12 @@
   -> 66 books, 31,102 verses, 377,402 Strong's-tagged tokens (Greek + Hebrew), no morphology in the source.
 - Concordance: `node scripts/build-concordance.mjs public/data/bibles/bsb-strong public/data/concord/bsb-strong` (13,642 numbers).
 - New PANE_OPTIONS entry `bsb-strong` ("BSB w/Strong (CT)", strongs: true, concord: "bsb-strong/"); plain `bsb` kept.
+
+## 2026-10-06 — MSB with Strong's (msb-strong)
+
+- New `scripts/build-msb-strong.mjs`: keeps the MSB text exactly, aligns each verse's words to the BSB w/Strong tokens
+  (LCS diff on normalized words) and copies the Strong's number of every shared word; MSB-only words stay untagged.
+  `node scripts/build-msb-strong.mjs` -> 31,102 verses (29,026 identical to BSB), 95.2% of words tagged;
+  13 verses fully untagged (Majority-Text-only verses such as Mt 17:21, 18:11, 23:14, Mk 7:16, 9:44/46, 11:26, 15:28, Lk 23:17, Jn 5:4, Acts 28:29, Rom 16:24; Neh 7:68).
+- Concordance: `node scripts/build-concordance.mjs public/data/bibles/msb-strong public/data/concord/msb-strong`.
+- New PANE_OPTIONS entry `msb-strong` ("MSB w/Strong (MT)"); plain `msb` kept. Rebuild after updating msb or bsb-strong.
