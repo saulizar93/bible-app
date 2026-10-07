@@ -403,3 +403,4 @@
 - src/js/morphGlossary.js: the ⓘ help splits OSHB codes letter by letter and explains Hebrew gender (no neuter: הוּא he/it vs הִיא she/it), common gender, dual, construct state, the Masoretic Text and the code itself (EN/ES).
 - StrongsPanel: a Hebrew word in `g` is labelled "Masoretic Text" (right-to-left) instead of "Textus Receptus".
 - kjv-strong/1.json Gen 3:15: `{ "t": "it", "s": "H1931", "m": "HPp3ms", "g": "הוּא" }`. DATA_VERSION 9 → 10.
+- Same tag (`"s": "H1931", "m": "HPp3ms", "g": "הוּא"`) on the word translating הוּא in Gen 3:15 of bsb-strong and msb-strong ("He"), lsv ("He bruises" split into "He" + "bruises", the verb keeping H7779/TH8799), rv1909-strong ("ésta") and rvg ("Él", previously untagged). Text of every verse unchanged; originals in scripts/rvg-strong/backup-gen3-15/. DATA_VERSION 10 → 11.
