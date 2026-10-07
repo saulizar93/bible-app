@@ -1,7 +1,7 @@
 import { get, set, clear } from "idb-keyval";
 import { normalizeStrong } from "./strongsCode.js";
 
-const DATA_VERSION = 12; // bump to invalidate every cached Bible chapter
+const DATA_VERSION = 13; // bump to invalidate every cached Bible chapter
 const NOTES_VERSION = 2; // bump separately — notes change far more often
 const LEXICON_VERSION = 6; // bump when strongs/ or concord/ data is rebuilt
 
@@ -38,7 +38,7 @@ export const PANE_OPTIONS = [
     concord: "", // concordance at data/concord/{greek,hebrew}
     citation: "KJV",
     copyright:
-      "King James Version (1769). Public Domain. Strong's numbers and morphology © 2003–2023 CrossWire Bible Society (KJV2003 Project), licensed for any use.",
+      "King James Version (1769). Public Domain. Strong's numbers and morphology © 2003–2023 CrossWire Bible Society (KJV2003 Project), licensed for any use. Old Testament Hebrew parsing and words: original work of the Open Scriptures Hebrew Bible available at https://github.com/openscriptures/morphhb (CC BY 4.0).",
   },
   {
     code: "bsb-strong",
@@ -82,7 +82,7 @@ export const PANE_OPTIONS = [
   //     "Majority Standard Bible. Public Domain. Berean Bible Translation Committee.",
   // },
   {
-    code: "lsv",
+    code: "lsv-strong",
     label: "LSV (TR)",
     name: "Literal Standard Version (TR)", // full name shown on the pane picker once selected
     kind: "bible",
@@ -125,7 +125,7 @@ export const PANE_OPTIONS = [
       "Reina-Valera 1909. Dominio público. Números de Strong © Rubén Gómez; distribución autorizada a CrossWire Bible Society.",
   },
   {
-    code: "rvg",
+    code: "rvg-strong",
     label: "RVG (TR)",
     name: "Reina Valera Gómez (TR)", // full name shown on the pane picker once selected
     kind: "bible",
@@ -149,7 +149,7 @@ export const PANE_OPTIONS = [
       "Biblia de Torres Amat (1823–1825), traducción de Félix Torres Amat. Dominio público.",
   },
   {
-    code: "platense",
+    code: "straubinger-strong",
     label: "STR (Católica, TR+CT)",
     name: "Biblia Straubinger (Católica, TR+CT)", // full name shown on the pane picker once selected
     kind: "bible",

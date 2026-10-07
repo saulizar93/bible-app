@@ -2,7 +2,8 @@
  * Decode the morphology codes stored on KJV tokens (`m`) into readable parts.
  *
  *   Greek NT: Robinson codes, e.g. "N-NSF", "V-2AAI-3S", "P-1GS", "V-PAP-NSM"
- *   Hebrew OT: Strong's verb codes, e.g. "TH8804" (Qal Perfect). The KJV module
+ *   Hebrew OT: OSHB codes, e.g. "HC/Vqw3ms" (see decodeOshb below; kjv-strong's OT uses
+ *   these since scripts/oshb/apply-oshb.mjs), or Strong's verb codes, e.g. "TH8804" (Qal Perfect). The KJV module
  *              only parses Hebrew verbs (stem + form) — Hebrew nouns carry no
  *              gender/number data in this source.
  *
@@ -264,6 +265,10 @@ const OSHB_STEM = { q: "Qal", N: "Niphal", p: "Piel", P: "Pual", h: "Hiphil", H:
   o: "Polel", O: "Polal", r: "Hithpolel", m: "Poel", M: "Poal", k: "Palel", K: "Pulal", Q: "Qal passive",
   l: "Pilpel", L: "Polpal", f: "Hithpalpel", D: "Nithpael", j: "Pealal", i: "Pilel", u: "Hothpaal",
   c: "Tiphil", v: "Hishtaphel", w: "Nithpalel", y: "Nithpoel", z: "Hithpoel" };
+const OSHB_STEM_ARAM = { q: "Peal", Q: "Peil", u: "Hithpeel", p: "Pael", P: "Ithpaal", M: "Hithpaal", a: "Aphel",
+  h: "Haphel", s: "Saphel", e: "Shaphel", H: "Hophal", i: "Ithpeel", t: "Hishtaphel", v: "Ishtaphel",
+  w: "Hithaphel", o: "Polel", z: "Ithpoel", r: "Hithpolel", f: "Hithpalpel", b: "Hephal", c: "Tiphel",
+  m: "Poel", l: "Palpel", L: "Ithpalpel", O: "Ithpolel", G: "Ittaphal" };
 
 /** Is this an OSHB Hebrew/Aramaic code (and not a Greek Robinson code like "ADV" or "ARAM")? */
 export const isOshb = (code) =>
@@ -273,13 +278,13 @@ export const isOshb = (code) =>
 export function oshbParts(m, lang = "en", aramaic = false) {
   const t = OSHB_T[lang] || OSHB_T.en;
   const p = m[0], r = m.slice(1), out = [];
-  const add = (ch, k, v) => ch && out.push({ ch, k, v: v || ch });
+  const add = (ch, k, v) => ch && ch !== "x" && out.push({ ch, k, v: v || ch }); // "x" = placeholder
   const typ = (ch) => add(ch, "pos", t.type[p]?.[ch] || t.pos[p]);
   const pgn = (x) => { add(x[0], "person", t.person[x[0]]); add(x[1], "gender", t.gender[x[1]]); add(x[2], "number", t.number[x[2]]); };
   const gns = (x) => { add(x[0], "gender", t.gender[x[0]]); add(x[1], "number", t.number[x[1]]); add(x[2], "state", t.state[x[2]]); };
   out.push({ ch: p, k: "pos0", v: t.pos[p] || p });
   if (p === "V") {
-    add(r[0], "stem", aramaic ? r[0] : OSHB_STEM[r[0]]);
+    add(r[0], "stem", (aramaic ? OSHB_STEM_ARAM : OSHB_STEM)[r[0]]);
     add(r[1], "form", t.form[r[1]]);
     const tail = r.slice(2);
     if ("rs".includes(r[1] || "-")) gns(tail); else pgn(tail);
@@ -298,17 +303,23 @@ function decodeOshb(code, lang) {
   const t = OSHB_T[lang] || OSHB_T.en;
   const aramaic = code[0] === "A";
   const morphemes = code.slice(1).split("/");
-  let pos = null;
-  const fields = [];
-  morphemes.forEach((m, i) => {
+  // The main word is the last morpheme that isn't a suffix; anything before it is a
+  // prefix (וְ "and", בְּ/לְ/כְּ/מִן prepositions, הַ article). "HC/Vqw3ms" = verb + "and".
+  let main = morphemes.length - 1;
+  // (suffixes, and the Aramaic emphatic ending written as a trailing "Td": מַלְכָּא "the king" = ANcmsd/Td)
+  while (main > 0 && (morphemes[main][0] === "S" || morphemes[main] === "Td")) main--;
+  const describe = (m) => {
     const parts = oshbParts(m, lang, aramaic);
-    const name = parts.find((x) => x.k === "pos")?.v || parts[0].v;
-    const rest = parts.filter((x) => x.k !== "pos0" && x.k !== "pos");
-    if (i === 0) { pos = name; rest.forEach((x) => fields.push({ k: x.k, v: x.v })); }
-    // later morphemes (prefixes/suffixes): one chip, "with pronominal suffix 2nd person masculine singular"
-    else fields.push({ k: "pos2", v: [`${t.plus} ${name.toLowerCase()}`, ...rest.map((x) => x.v.toLowerCase())].join(" ") });
+    return { name: parts.find((x) => x.k === "pos")?.v || parts[0].v, rest: parts.filter((x) => x.k !== "pos0" && x.k !== "pos") };
+  };
+  const d = describe(morphemes[main]);
+  const fields = d.rest.map((x) => ({ k: x.k, v: x.v }));
+  morphemes.forEach((m, i) => {
+    if (i === main) return;
+    const { name, rest } = describe(m);
+    fields.push({ k: "pos2", v: [`${t.plus} ${name.toLowerCase()}`, ...rest.map((x) => x.v.toLowerCase())].join(" ") });
   });
-  return { lang: aramaic ? "arc" : "heb", code, pos, fields };
+  return { lang: aramaic ? "arc" : "heb", code, pos: d.name, fields };
 }
 
 export function decodeMorph(code, lang = "en") {
