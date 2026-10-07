@@ -351,3 +351,9 @@
 
 - InfoPanel Markdown: a bullet starting with {top} / {low} / {worst} gets a highlighted row and a localized badge (gold for top tier; red for low/worst).
 - public/data/pages/bibliography.en.md / .es.md: Bibles grouped by tradition/language (Oneness, KJV/TR, Majority, formal, dynamic, JW, Jewish, ecumenical, Orthodox, Catholic, original-language/interlinear, Korean; Spanish Protestant/JW/Catholic), books by subject (alphabetical by author), Spanish books, podcasts. Typos fixed (Boettner, Barrett, quinta, Matthew Henry, Tertullian, etc.).
+
+## 2026-10-07 — Greek lexicon: Spanish definitions (def-es)
+
+- All 5,523 Greek Strong's entries in public/data/strongs/greek/*.json now have a Spanish `def-es` translated from `def-en` (17 entries with no def-en were translated from the meaning in `deriv`). G/H cross-references and Greek forms kept as-is; Spanish proper names; a common Spanish gloss appended after ";" where helpful.
+- Tooling in scripts/lex-es/: dump.mjs (list untranslated), apply.mjs (write a TSV batch into the shards), status.mjs; batches/b0001–b0027.tsv are the applied translations (re-runnable).
+- LEXICON_VERSION bumped 3 → 4 in src/data.js so cached shards refresh.
