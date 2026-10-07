@@ -1,7 +1,7 @@
 import { get, set, clear } from "idb-keyval";
 import { normalizeStrong } from "./strongsCode.js";
 
-const DATA_VERSION = 9; // bump to invalidate every cached Bible chapter
+const DATA_VERSION = 10; // bump to invalidate every cached Bible chapter
 const NOTES_VERSION = 2; // bump separately — notes change far more often
 const LEXICON_VERSION = 6; // bump when strongs/ or concord/ data is rebuilt
 

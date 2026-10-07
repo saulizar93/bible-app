@@ -419,6 +419,7 @@ function MorphBlock({ morph, form, pos, lang }) {
   const isEs = lang === "es";
   const [help, setHelp] = useState(false);
   const [showAll, setShowAll] = useState(false);
+  const hebForm = /[\u0590-\u05FF]/.test(form || ""); // a Hebrew word in "g" → Masoretic Text
   let d = decodeMorph(morph, lang);
   // Hebrew nouns/adjectives aren't parsed in the KJV module; fall back to the
   // dictionary's part of speech + gender ("n-f" -> Noun · Feminine).
@@ -452,11 +453,11 @@ function MorphBlock({ morph, form, pos, lang }) {
           ))}
         </div>
       )}
-      {help && <MorphHelp morph={morph} decoded={d} hasForm={!!form} lang={lang} showAll={showAll} setShowAll={setShowAll} />}
+      {help && <MorphHelp morph={morph} decoded={d} hasForm={form ? (hebForm ? "MT" : "TR") : false} lang={lang} showAll={showAll} setShowAll={setShowAll} />}
       {form && (
         <p className="morph-form dim">
-          {isEs ? "Texto Recibido: " : "Textus Receptus: "}
-          <span lang="grc" className="strongs-greek">
+          {hebForm ? (isEs ? "Texto Masorético: " : "Masoretic Text: ") : isEs ? "Texto Recibido: " : "Textus Receptus: "}
+          <span lang={hebForm ? "hbo" : "grc"} dir={hebForm ? "rtl" : undefined} className="strongs-greek">
             {form}
           </span>
         </p>

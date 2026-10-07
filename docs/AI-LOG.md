@@ -397,3 +397,9 @@
 - `git mv` of books, data, locales, morph, morphGlossary, offline, pages, search, settings, strongsCode (.js) into `src/js/`. Components (.jsx) and `src/hooks/` stay where they were.
 - Imports updated: App.jsx / main.jsx → `./js/…`, components → `../../js/…`, hooks → `../js/…`, scripts (build-concordance, build-notes, build-sword-bible) → `../src/js/…`; path mentions in script comments, README.md and index.html updated too. The files' imports of each other (`./data.js` etc.) are unchanged since they moved together.
 - Checked: all 82 relative imports in src/ and scripts/ resolve, and the app + the three scripts bundle cleanly with esbuild. (Earlier AI-LOG entries above still say `src/data.js` etc. — that's where the files were at the time.)
+
+## 2026-10-07 — Hebrew parsing codes (OSHB) for hand-added tags; Gen 3:15 "it"
+- src/js/morph.js: `decodeMorph` now also reads Open Scriptures Hebrew Bible codes in a token's `m` (e.g. `HPp3ms` = personal pronoun, 3rd person, masculine, singular; `HVqi3ms/Sp2ms` = Qal imperfect 3ms + suffix 2ms). Covers verbs (stem, form, person/gender/number), pronouns, suffixes, nouns, adjectives, particles, prepositions. Detected by `isOshb()`, so Greek codes (ADV, ARAM, N-NSF…) and TH#### codes decode as before.
+- src/js/morphGlossary.js: the ⓘ help splits OSHB codes letter by letter and explains Hebrew gender (no neuter: הוּא he/it vs הִיא she/it), common gender, dual, construct state, the Masoretic Text and the code itself (EN/ES).
+- StrongsPanel: a Hebrew word in `g` is labelled "Masoretic Text" (right-to-left) instead of "Textus Receptus".
+- kjv-strong/1.json Gen 3:15: `{ "t": "it", "s": "H1931", "m": "HPp3ms", "g": "הוּא" }`. DATA_VERSION 9 → 10.

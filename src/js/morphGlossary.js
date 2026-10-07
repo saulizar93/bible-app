@@ -9,6 +9,8 @@
  * allTerms(lang) -> every glossary entry, grouped, for "Show all terms".
  */
 
+import { isOshb, oshbParts } from "./morph.js";
+
 // ---------- glossary ----------
 // Keys: "<group>:<code>" — group = pos, case, number, gender, person, tense,
 // voice, mood, suffix, stem, form, misc.
@@ -111,6 +113,14 @@ const G = {
     "misc:kethiv": ["Kethiv / Qere", "“Written / read.” Where the scribes believed the consonantal text should be read differently, they left the written form (kethiv) untouched and marked the word to be read (qere) in the margin."],
     "misc:TR": ["Textus Receptus", "The “Received Text”: the printed Greek New Testament of Erasmus, Stephanus and Beza behind the KJV and the Reina-Valera. The Greek word shown is the exact form that stands in that text."],
     "misc:strongs": ["Strong's number", "James Strong's 1890 numbering of every Hebrew (H) and Greek (G) dictionary word in the Bible. It identifies the dictionary form, not the exact form in the verse — that is what the parsing shows."],
+    "hpos:Pp": ["Personal pronoun (Hebrew)", "אֲנִי (I), אַתָּה (you), הוּא (he/it), הִיא (she/it)… Hebrew verbs already include their subject, so an independent pronoun is often there for emphasis or contrast."],
+    "hgender:m": ["Masculine (Hebrew)", "Hebrew has only two genders — masculine and feminine, no neuter — so English “it” must translate one of them. Pronouns, verbs and suffixes agree in gender with what they refer to: masculine הוּא (hû) “he/it” versus feminine הִיא (hî) “she/it”."],
+    "hgender:f": ["Feminine (Hebrew)", "Hebrew has only two genders — masculine and feminine, no neuter. Feminine forms such as הִיא (hî) “she/it” and the ending ָה- (-ah) refer back to feminine words or persons."],
+    "hgender:c": ["Common gender", "The same form is used for masculine and feminine: e.g. אֲנִי (I) or the 1st-person verb endings."],
+    "hnumber:d": ["Dual", "A Hebrew number for pairs: יָדַיִם (two hands), שְׁנָתַיִם (two years)."],
+    "hstate:c": ["Construct state", "The form a noun takes when it is joined to the following word, like English “of”: דְּבַר יְהוָה “word of the LORD”."],
+    "misc:MT": ["Masoretic Text", "The traditional Hebrew text of the Old Testament, with the vowel points added by the Masoretes (6th–10th c.). The Hebrew shown is the word as it stands in that text."],
+    "misc:oshb": ["Hebrew parsing code", "Code letters from the Open Scriptures Hebrew Bible: language (H Hebrew, A Aramaic), part of speech, then type, person, gender, number and state. “/” separates parts of one word, e.g. a verb and its suffix."],
   },
 };
 
@@ -202,6 +212,14 @@ G.es = {
   "misc:kethiv": ["Ketiv / Qere", "«Escrito / leído». Donde los escribas creían que el texto consonántico debía leerse de otro modo, dejaron intacta la forma escrita (ketiv) y señalaron al margen la palabra que debe leerse (qere)."],
   "misc:TR": ["Texto Recibido", "El Textus Receptus: el Nuevo Testamento griego impreso de Erasmo, Estienne y Beza, base de la Reina-Valera y de la KJV. La palabra griega que se muestra es la forma exacta que aparece en ese texto."],
   "misc:strongs": ["Número de Strong", "La numeración de James Strong (1890) de cada palabra hebrea (H) y griega (G) del diccionario bíblico. Identifica la forma de diccionario, no la forma exacta del versículo; eso es lo que muestra el análisis."],
+  "hpos:Pp": ["Pronombre personal (hebreo)", "אֲנִי (yo), אַתָּה (tú), הוּא (él/ello), הִיא (ella)… El verbo hebreo ya incluye su sujeto, así que un pronombre independiente suele estar para dar énfasis o contraste."],
+  "hgender:m": ["Masculino (hebreo)", "El hebreo solo tiene dos géneros —masculino y femenino, sin neutro—, por lo que el inglés “it” siempre traduce uno de ellos. Pronombres, verbos y sufijos concuerdan en género con aquello a lo que se refieren: masculino הוּא (hu) «él» frente a femenino הִיא (hi) «ella»."],
+  "hgender:f": ["Femenino (hebreo)", "El hebreo solo tiene dos géneros —masculino y femenino, sin neutro—. Formas femeninas como הִיא (hi) «ella» y la terminación ָה- (-ah) remiten a palabras o personas femeninas."],
+  "hgender:c": ["Género común", "La misma forma sirve para masculino y femenino: p. ej. אֲנִי (yo) o las terminaciones verbales de 1.ª persona."],
+  "hnumber:d": ["Dual", "Número hebreo para pares: יָדַיִם (dos manos), שְׁנָתַיִם (dos años)."],
+  "hstate:c": ["Estado constructo", "La forma del sustantivo cuando se une a la palabra siguiente, como «de» en español: דְּבַר יְהוָה «palabra de Jehová»."],
+  "misc:MT": ["Texto Masorético", "El texto hebreo tradicional del Antiguo Testamento, con las vocales que añadieron los masoretas (siglos VI–X). La palabra hebrea que se muestra es la forma exacta de ese texto."],
+  "misc:oshb": ["Código de análisis hebreo", "Letras del Open Scriptures Hebrew Bible: idioma (H hebreo, A arameo), clase de palabra, y luego tipo, persona, género, número y estado. «/» separa las partes de una misma palabra, p. ej. un verbo y su sufijo."],
 };
 
 const MAIN_STEMS = ["Qal", "Niphal", "Piel", "Pual", "Hiphil", "Hophal", "Hithpael"];
@@ -279,6 +297,24 @@ export function explainMorph(code, decoded, lang = "en", hasForm = false) {
       if (fk) keys.push(`form:${fk[0]}`);
     }
     if (/kethiv|qere|ketiv/i.test(decoded?.pos || "")) keys.push("misc:kethiv");
+  } else if (code && isOshb(code)) {
+    const es = lang === "es";
+    segments.push({ code: code[0], label: code[0] === "A" ? (es ? "arameo" : "Aramaic") : es ? "hebreo" : "Hebrew" });
+    code.slice(1).split("/").forEach((m, i) => {
+      if (i) segments.push({ code: "/", label: es ? "más" : "plus" });
+      for (const p of oshbParts(m, lang, code[0] === "A")) {
+        if (p.k === "pos0" && m.length > 1 && "PSNATR".includes(m[0])) continue; // shown with its type letter
+        segments.push({ code: p.k === "pos" ? m[0] + p.ch : p.ch, label: p.v });
+        if (p.k === "pos" && m[0] === "P" && p.ch === "p") keys.push("hpos:Pp");
+        if (p.k === "gender" && "mfc".includes(p.ch)) keys.push(`hgender:${p.ch}`);
+        if (p.k === "number" && p.ch === "d") keys.push("hnumber:d");
+        if (p.k === "state" && p.ch === "c") keys.push("hstate:c");
+        if (p.k === "person") keys.push(`person:${p.ch}`);
+        if (p.k === "stem") keys.push(MAIN_STEMS.includes(p.v) ? `stem:${p.v}` : "stem:other");
+        if (p.k === "form") { const fk = { p: "Pf", q: "Pf", i: "Impf", w: "Impf", v: "Imv", a: "Inf", c: "Inf", r: "Ptc", s: "Ptc" }[p.ch]; if (fk) keys.push(`form:${fk}`); }
+      }
+    });
+    keys.push("misc:oshb");
   } else if (code) {
     for (const s of greekSegments(code)) {
       const t = term(lang, s.key);
@@ -293,7 +329,7 @@ export function explainMorph(code, decoded, lang = "en", hasForm = false) {
       Masculine: "gender:M", Masculino: "gender:M", Feminine: "gender:F", Femenino: "gender:F" };
     for (const v of [decoded.pos, ...(decoded.fields || []).map((f) => f.v)]) if (map[v]) keys.push(map[v]);
   }
-  if (hasForm) keys.push("misc:TR");
+  if (hasForm) keys.push(hasForm === "MT" ? "misc:MT" : "misc:TR"); // Hebrew form → Masoretic Text
   keys.push("misc:strongs");
   const seen = new Set();
   const terms = keys.filter((k) => !seen.has(k) && seen.add(k)).map((k) => term(lang, k)).filter(Boolean);
@@ -306,10 +342,10 @@ export function allTerms(lang = "en") {
   const groups = lang === "es"
     ? [["Clases de palabras", "pos"], ["Caso", "case"], ["Número, género y persona", /^(number|gender|person)$/],
        ["Tiempo", "tense"], ["Voz", "voice"], ["Modo", "mood"], ["Otras indicaciones", "suffix"],
-       ["Hebreo", /^(stem|form)$/], ["General", "misc"]]
+       ["Hebreo", /^(stem|form|hpos|hgender|hnumber|hstate)$/], ["General", "misc"]]
     : [["Parts of speech", "pos"], ["Case", "case"], ["Number, gender and person", /^(number|gender|person)$/],
        ["Tense", "tense"], ["Voice", "voice"], ["Mood", "mood"], ["Other labels", "suffix"],
-       ["Hebrew", /^(stem|form)$/], ["General", "misc"]];
+       ["Hebrew", /^(stem|form|hpos|hgender|hnumber|hstate)$/], ["General", "misc"]];
   return groups.map(([title, g]) => ({
     title,
     terms: Object.keys(t)

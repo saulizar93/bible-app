@@ -207,10 +207,114 @@ export function decodeHebrewPos(pos, lang = "en") {
   return groups.flatMap((g, i) => (i ? ["/", ...g] : g));
 }
 
+// ---------- Hebrew word parsing, Open Scriptures Hebrew Bible (OSHB) codes ----------
+// e.g. "HPp3ms" = Hebrew · Pronoun, personal · 3rd person · masculine · singular;
+//      "HVqi3ms/Sp2ms" = Qal imperfect 3ms + pronominal suffix 2ms (morphemes split by "/").
+// Used for hand-added tags in the "m" field of Hebrew tokens; the KJV module's own
+// codes are the TH#### verb numbers above.
+const OSHB_T = {
+  en: {
+    pos: { A: "Adjective", C: "Conjunction", D: "Adverb", N: "Noun", P: "Pronoun", R: "Preposition",
+           S: "Suffix", T: "Particle", V: "Verb" },
+    type: {
+      A: { a: "Adjective", c: "Cardinal number", g: "Gentilic adjective", o: "Ordinal number" },
+      N: { c: "Noun", g: "Gentilic noun", p: "Proper name", x: "Noun" },
+      P: { d: "Demonstrative pronoun", f: "Indefinite pronoun", i: "Interrogative pronoun",
+           p: "Personal pronoun", r: "Relative pronoun" },
+      R: { d: "Preposition with article" },
+      S: { d: "Directional he", h: "Paragogic he", n: "Paragogic nun", p: "Pronominal suffix" },
+      T: { a: "Particle of affirmation", d: "Definite article", e: "Particle of exhortation",
+           i: "Interrogative particle", j: "Interjection", m: "Demonstrative particle", n: "Negative particle",
+           o: "Direct object marker", r: "Relative particle" },
+    },
+    person: { 1: "1st person", 2: "2nd person", 3: "3rd person" },
+    gender: { m: "Masculine", f: "Feminine", c: "Common (masc. or fem.)", b: "Both genders", l: "Place", t: "Title" },
+    number: { s: "Singular", p: "Plural", d: "Dual" },
+    state: { a: "Absolute", c: "Construct", d: "Determined" },
+    form: { p: "Perfect", q: "Sequential perfect", i: "Imperfect", w: "Sequential imperfect", h: "Cohortative",
+            j: "Jussive", v: "Imperative", r: "Participle active", s: "Participle passive",
+            a: "Infinitive absolute", c: "Infinitive construct" },
+    plus: "with",
+  },
+  es: {
+    pos: { A: "Adjetivo", C: "Conjunción", D: "Adverbio", N: "Sustantivo", P: "Pronombre", R: "Preposición",
+           S: "Sufijo", T: "Partícula", V: "Verbo" },
+    type: {
+      A: { a: "Adjetivo", c: "Número cardinal", g: "Adjetivo gentilicio", o: "Número ordinal" },
+      N: { c: "Sustantivo", g: "Gentilicio", p: "Nombre propio", x: "Sustantivo" },
+      P: { d: "Pronombre demostrativo", f: "Pronombre indefinido", i: "Pronombre interrogativo",
+           p: "Pronombre personal", r: "Pronombre relativo" },
+      R: { d: "Preposición con artículo" },
+      S: { d: "He direccional", h: "He paragógica", n: "Nun paragógica", p: "Sufijo pronominal" },
+      T: { a: "Partícula afirmativa", d: "Artículo definido", e: "Partícula exhortativa",
+           i: "Partícula interrogativa", j: "Interjección", m: "Partícula demostrativa", n: "Partícula negativa",
+           o: "Marcador de complemento directo", r: "Partícula relativa" },
+    },
+    person: { 1: "1.ª persona", 2: "2.ª persona", 3: "3.ª persona" },
+    gender: { m: "Masculino", f: "Femenino", c: "Común (masc. o fem.)", b: "Ambos géneros", l: "Lugar", t: "Título" },
+    number: { s: "Singular", p: "Plural", d: "Dual" },
+    state: { a: "Absoluto", c: "Constructo", d: "Determinado" },
+    form: { p: "Perfecto", q: "Perfecto consecutivo", i: "Imperfecto", w: "Imperfecto consecutivo", h: "Cohortativo",
+            j: "Yusivo", v: "Imperativo", r: "Participio activo", s: "Participio pasivo",
+            a: "Infinitivo absoluto", c: "Infinitivo constructo" },
+    plus: "con",
+  },
+};
+const OSHB_STEM = { q: "Qal", N: "Niphal", p: "Piel", P: "Pual", h: "Hiphil", H: "Hophal", t: "Hithpael",
+  o: "Polel", O: "Polal", r: "Hithpolel", m: "Poel", M: "Poal", k: "Palel", K: "Pulal", Q: "Qal passive",
+  l: "Pilpel", L: "Polpal", f: "Hithpalpel", D: "Nithpael", j: "Pealal", i: "Pilel", u: "Hothpaal",
+  c: "Tiphil", v: "Hishtaphel", w: "Nithpalel", y: "Nithpoel", z: "Hithpoel" };
+
+/** Is this an OSHB Hebrew/Aramaic code (and not a Greek Robinson code like "ADV" or "ARAM")? */
+export const isOshb = (code) =>
+  !!code && /^[HA][ACDNPRSTV][A-Za-z0-9]*(\/[ACDNPRSTV][A-Za-z0-9]*)*$/.test(code) && !L.en.pos[code];
+
+/** Split one OSHB morpheme ("Pp3ms") into [{ ch, k, v }] — k is the field kind. */
+export function oshbParts(m, lang = "en", aramaic = false) {
+  const t = OSHB_T[lang] || OSHB_T.en;
+  const p = m[0], r = m.slice(1), out = [];
+  const add = (ch, k, v) => ch && out.push({ ch, k, v: v || ch });
+  const typ = (ch) => add(ch, "pos", t.type[p]?.[ch] || t.pos[p]);
+  const pgn = (x) => { add(x[0], "person", t.person[x[0]]); add(x[1], "gender", t.gender[x[1]]); add(x[2], "number", t.number[x[2]]); };
+  const gns = (x) => { add(x[0], "gender", t.gender[x[0]]); add(x[1], "number", t.number[x[1]]); add(x[2], "state", t.state[x[2]]); };
+  out.push({ ch: p, k: "pos0", v: t.pos[p] || p });
+  if (p === "V") {
+    add(r[0], "stem", aramaic ? r[0] : OSHB_STEM[r[0]]);
+    add(r[1], "form", t.form[r[1]]);
+    const tail = r.slice(2);
+    if ("rs".includes(r[1] || "-")) gns(tail); else pgn(tail);
+  } else if (p === "P" || p === "S") {
+    typ(r[0]);
+    if (r[0] === "p") pgn(r.slice(1)); else gns(r.slice(1));
+  } else if (p === "N" || p === "A") {
+    typ(r[0]); gns(r.slice(1));
+  } else if (p === "T" || p === "R") {
+    typ(r[0]);
+  }
+  return out;
+}
+
+function decodeOshb(code, lang) {
+  const t = OSHB_T[lang] || OSHB_T.en;
+  const aramaic = code[0] === "A";
+  const morphemes = code.slice(1).split("/");
+  let pos = null;
+  const fields = [];
+  morphemes.forEach((m, i) => {
+    const parts = oshbParts(m, lang, aramaic);
+    const name = parts.find((x) => x.k === "pos")?.v || parts[0].v;
+    const rest = parts.filter((x) => x.k !== "pos0" && x.k !== "pos");
+    if (i === 0) { pos = name; rest.forEach((x) => fields.push({ k: x.k, v: x.v })); }
+    // later morphemes (prefixes/suffixes): one chip, "with pronominal suffix 2nd person masculine singular"
+    else fields.push({ k: "pos2", v: [`${t.plus} ${name.toLowerCase()}`, ...rest.map((x) => x.v.toLowerCase())].join(" ") });
+  });
+  return { lang: aramaic ? "arc" : "heb", code, pos, fields };
+}
+
 export function decodeMorph(code, lang = "en") {
   if (!code) return null;
   const t = L[lang] || L.en;
-  const d = /^TH?\d+$/i.test(code) ? decodeHebrew(code, t, lang) : decodeGreek(code, t);
+  const d = /^TH?\d+$/i.test(code) ? decodeHebrew(code, t, lang) : isOshb(code) ? decodeOshb(code, lang) : decodeGreek(code, t);
   d.summary = [d.pos, ...d.fields.map((f) => f.v)].filter(Boolean).join(" · ");
   return d;
 }

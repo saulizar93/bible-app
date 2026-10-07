@@ -2665,7 +2665,7 @@
         { "t": "between thee and the woman,", "s": "H802" },
         { "t": "and between thy seed", "s": "H2233" },
         { "t": "and her seed;", "s": "H2233" },
-        { "t": "it", "s": "H1931" },
+        { "t": "it", "s": "H1931", "m": "HPp3ms", "g": "הוּא" },
         { "t": "shall bruise", "s": "H7779", "m": "TH8799" },
         { "t": "thy head,", "s": "H7218" },
         { "t": "and thou", "s": "H859" },
