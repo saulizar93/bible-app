@@ -13,7 +13,7 @@
  *   tr      transliteration                               "bârâʼ"
  *   pron    Strong's pronunciation                        "baw-raw'"
  *   pos     part of speech / gender code                  "v", "n-m", "n-f", "n-pr-m"
- *           (decoded for display by src/morph.js decodeHebrewPos)
+ *           (decoded for display by src/js/morph.js decodeHebrewPos)
  *   deriv   derivation                                    "a primitive root;"
  *   def-en  Strong's definition (English)
  *   def-es  Spanish definition — placeholder until translated by hand; kept on rebuild

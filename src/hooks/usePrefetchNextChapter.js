@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { optionFor, loadBook, loadNotes } from "../data.js";
+import { optionFor, loadBook, loadNotes } from "../js/data.js";
 
 /** While the user reads, quietly warm the cache for the next chapter
  *  in whatever each pane currently shows (translation or notes). */

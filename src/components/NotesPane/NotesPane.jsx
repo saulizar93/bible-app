@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { byId } from "../../books.js";
-import { loadNotes, keyCovers, keyStart, optionFor, VERSIONS } from "../../data.js";
+import { byId } from "../../js/books.js";
+import { loadNotes, keyCovers, keyStart, optionFor, VERSIONS } from "../../js/data.js";
 import "./NotesPane.css";
 
 export default function NotesPane({ lang, refPos, highlight, scroller }) {

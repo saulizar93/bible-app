@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo, useTransition, useRef } from "react";
 import BookFilterChart from "../BookFilterChart/BookFilterChart.jsx";
-import { byNum } from "../../books.js";
+import { byNum } from "../../js/books.js";
 import {
   loadStrongsEntry,
   loadConcordance,
@@ -8,10 +8,10 @@ import {
   decodeVid,
   strongsSourceCode,
   optionFor,
-} from "../../data.js";
-import { normalizeStrong } from "../../strongsCode.js";
-import { decodeMorph, decodeHebrewPos } from "../../morph.js";
-import { explainMorph, allTerms } from "../../morphGlossary.js";
+} from "../../js/data.js";
+import { normalizeStrong } from "../../js/strongsCode.js";
+import { decodeMorph, decodeHebrewPos } from "../../js/morph.js";
+import { explainMorph, allTerms } from "../../js/morphGlossary.js";
 import "./StrongsPanel.css";
 
 const CHUNK_SIZE = 30;

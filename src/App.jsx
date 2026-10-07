@@ -1,7 +1,7 @@
 import { useState, useCallback, useEffect, startTransition } from "react";
-import { BOOKS, byId, parseRef, suggest } from "./books.js";
+import { BOOKS, byId, parseRef, suggest } from "./js/books.js";
 import { usePrefetchNextChapter } from "./hooks/usePrefetchNextChapter.js";
-import { loadBook, PANE_OPTIONS, optionFor } from "./data.js";
+import { loadBook, PANE_OPTIONS, optionFor } from "./js/data.js";
 import JumpBar from "./components/JumpBar/JumpBar.jsx";
 import PaneSlot from "./components/PaneSlot/PaneSlot.jsx";
 import StrongsPanel from "./components/StrongsPanel/StrongsPanel.jsx";
@@ -11,8 +11,8 @@ import LanguageSelectionModal from "./components/Modals/LanguageSelectionModal.j
 import SettingsModal from "./components/SettingsModal/SettingsModal.jsx";
 import InfoPanel from "./components/InfoPanel/InfoPanel.jsx";
 import CompareModal from "./components/CompareModal/CompareModal.jsx";
-import { loadSettings, saveSettings, fontStack } from "./settings.js";
-import { isStandalone, startStarterPack } from "./offline.js";
+import { loadSettings, saveSettings, fontStack } from "./js/settings.js";
+import { isStandalone, startStarterPack } from "./js/offline.js";
 import "./app.css";
 
 const STORAGE_KEYS = {

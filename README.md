@@ -14,7 +14,7 @@ Then copy these files in:
 bible-app/
   scripts/build-bibles.mjs
   src/App.jsx
-  src/books.js
+  src/js/books.js
   src/app.css
 ```
 

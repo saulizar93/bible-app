@@ -1,8 +1,8 @@
 import { useRef } from "react";
-import { PANE_OPTIONS, optionFor } from "../../data.js";
+import { PANE_OPTIONS, optionFor } from "../../js/data.js";
 import BiblePane from "../BiblePane/BiblePane.jsx";
 import NotesPane from "../NotesPane/NotesPane.jsx";
-import { isReady } from "../../offline.js";
+import { isReady } from "../../js/offline.js";
 import useOfflineStatus from "../../hooks/useOfflineStatus.js";
 import "./PaneSlot.css";
 

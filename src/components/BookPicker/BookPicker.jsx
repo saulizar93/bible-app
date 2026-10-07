@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { BOOKS, bookName, bookAbbr } from "../../books.js";
-import { loadBook, strongsSourceCode } from "../../data.js";
+import { BOOKS, bookName, bookAbbr } from "../../js/books.js";
+import { loadBook, strongsSourceCode } from "../../js/data.js";
 import "./BookPicker.css";
 
 const T = {

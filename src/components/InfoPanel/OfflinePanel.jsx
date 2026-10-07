@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { PANE_OPTIONS } from "../../data.js";
+import { PANE_OPTIONS } from "../../js/data.js";
 import {
   STARTER,
   approxSize,
@@ -12,7 +12,7 @@ import {
   isStandalone,
   promptInstall,
   storageEstimate,
-} from "../../offline.js";
+} from "../../js/offline.js";
 import useOfflineStatus from "../../hooks/useOfflineStatus.js";
 
 const T = {

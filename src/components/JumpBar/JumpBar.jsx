@@ -2,9 +2,9 @@ import { useState, useEffect, useRef, useMemo } from "react";
 import BookPicker from "../BookPicker/BookPicker.jsx";
 import BookFilterChart from "../BookFilterChart/BookFilterChart.jsx";
 import MainMenu from "../MainMenu/MainMenu.jsx";
-import { byId, parseRef, bookName } from "../../books.js";
-import { searchAvailablePanes, splitSnippet } from "../../search.js";
-import { optionFor } from "../../data.js";
+import { byId, parseRef, bookName } from "../../js/books.js";
+import { searchAvailablePanes, splitSnippet } from "../../js/search.js";
+import { optionFor } from "../../js/data.js";
 import "./JumpBar.css";
 
 const T = {

@@ -19,7 +19,7 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
-import { byId } from '../src/books.js';
+import { byId } from '../src/js/books.js';
 
 const [srcFile, lang, bookId] = process.argv.slice(2);
 if (!srcFile || !lang || !bookId) {

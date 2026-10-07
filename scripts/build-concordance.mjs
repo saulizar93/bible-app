@@ -8,7 +8,7 @@
  *   node scripts/build-concordance.mjs public/data/bibles/rv1909-strong public/data/concord/rv1909-strong
  *
  * The optional second argument is the output root (default public/data/concord),
- * so each tagged translation can have its own concordance. src/data.js maps a
+ * so each tagged translation can have its own concordance. src/js/data.js maps a
  * translation to its folder via PANE_OPTIONS[].concord.
  *
  * Output: public/data/concord/greek/<shardStart>.json  -> { "G26": [40024012, ...], ... }
@@ -17,7 +17,7 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
-import { normalizeStrong } from '../src/strongsCode.js';
+import { normalizeStrong } from '../src/js/strongsCode.js';
 
 const SHARD_SIZE = 500;
 const shardStart = n => Math.floor((n - 1) / SHARD_SIZE) * SHARD_SIZE + 1;

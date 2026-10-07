@@ -1,7 +1,7 @@
 /* Service worker: makes the app shell (HTML, JS, CSS, icons, info pages)
  * available offline. Bible text, notes and the lexicon are NOT cached here —
- * the app stores those in IndexedDB itself (src/data.js), and the "Download
- * App" panel (src/offline.js) downloads whole translations into it.
+ * the app stores those in IndexedDB itself (src/js/data.js), and the "Download
+ * App" panel (src/js/offline.js) downloads whole translations into it.
  *
  * Bump SHELL_VERSION to force every installed copy to drop its old shell. */
 const SHELL_VERSION = 1;

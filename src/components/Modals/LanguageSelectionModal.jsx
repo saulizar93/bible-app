@@ -1,5 +1,5 @@
 import React from "react";
-import { TRANSLATIONS } from "../../locales.js";
+import { TRANSLATIONS } from "../../js/locales.js";
 import "./LanguageSelectionModal.css";
 
 export default function LanguageSelectionModal({

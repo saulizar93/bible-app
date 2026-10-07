@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
-import { byId } from "../../books.js";
-import { loadBook, PANE_OPTIONS, optionFor } from "../../data.js";
+import { byId } from "../../js/books.js";
+import { loadBook, PANE_OPTIONS, optionFor } from "../../js/data.js";
 import "./CompareModal.css";
 
 const T = {

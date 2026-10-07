@@ -4,8 +4,8 @@ import {
   FONTS,
   DEFAULT_SETTINGS,
   fontStack,
-} from "../../settings.js";
-import { PANE_OPTIONS, clearAllAppData } from "../../data.js";
+} from "../../js/settings.js";
+import { PANE_OPTIONS, clearAllAppData } from "../../js/data.js";
 import "./SettingsModal.css";
 
 const T = {

@@ -392,3 +392,8 @@
 - For English sources the "shared start" similarity needs 5 letters (4 for short words), so "everyone" no longer grabs "everlasting"'s tag. Spanish runs are unchanged.
 - Psalm titles in LSV verse 1 ("A PSALM OF DAVID.") stay untagged (KJV has no title words there).
 - All 31,104 verses verified. Originals in scripts/rvg-strong/backup-lsv/; unplaced words in scripts/rvg-strong/untagged-lsv/. data.js: lsv gets strongs:true + KJV concordance; DATA_VERSION 8 → 9.
+
+## 2026-10-07 — Moved src/*.js into src/js/
+- `git mv` of books, data, locales, morph, morphGlossary, offline, pages, search, settings, strongsCode (.js) into `src/js/`. Components (.jsx) and `src/hooks/` stay where they were.
+- Imports updated: App.jsx / main.jsx → `./js/…`, components → `../../js/…`, hooks → `../js/…`, scripts (build-concordance, build-notes, build-sword-bible) → `../src/js/…`; path mentions in script comments, README.md and index.html updated too. The files' imports of each other (`./data.js` etc.) are unchanged since they moved together.
+- Checked: all 82 relative imports in src/ and scripts/ resolve, and the app + the three scripts bundle cleanly with esbuild. (Earlier AI-LOG entries above still say `src/data.js` etc. — that's where the files were at the time.)

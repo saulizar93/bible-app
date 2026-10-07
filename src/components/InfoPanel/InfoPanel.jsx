@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { INFO_PAGES } from "../../pages.js";
+import { INFO_PAGES } from "../../js/pages.js";
 import "../StrongsPanel/StrongsPanel.css"; // same panel look as the Strong's panel
 import ReportBugForm from "./ReportBugForm.jsx";
 import OfflinePanel from "./OfflinePanel.jsx";

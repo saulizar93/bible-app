@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { INFO_PAGES } from "../../pages.js";
-import { VERSIONS } from "../../data.js";
+import { INFO_PAGES } from "../../js/pages.js";
+import { VERSIONS } from "../../js/data.js";
 import "./MainMenu.css";
 
 /** Hamburger button + dropdown of info pages (About the Author, ...). */

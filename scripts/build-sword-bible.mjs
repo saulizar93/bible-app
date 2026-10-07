@@ -38,7 +38,7 @@
  *     s  = Strong's number, normalized ("H1254", "G976")
  *     m  = morphology: Robinson code for Greek ("N-NSF", "V-2AAI-3S"),
  *          Strong's verb code for Hebrew ("TH8804" = Qal Perfect) — decoded
- *          for display by src/morph.js
+ *          for display by src/js/morph.js
  *     g  = the Greek word as it stands in the Textus Receptus ("γενεσεως")
  *     it = 1 for words the translators supplied (printed in italics in the KJV)
  *     r  = 1 for words of Jesus (red letter)
@@ -52,7 +52,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import zlib from "node:zlib";
-import { normalizeStrong } from "../src/strongsCode.js";
+import { normalizeStrong } from "../src/js/strongsCode.js";
 
 const args = process.argv.slice(2);
 const outIdx = args.indexOf("--out");

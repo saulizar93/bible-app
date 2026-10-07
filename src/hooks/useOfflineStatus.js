@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { subscribe } from "../offline.js";
+import { subscribe } from "../js/offline.js";
 
 /** Re-render whenever offline download status / install availability changes.
  *  Read the actual values with getState() / canPromptInstall() from offline.js. */

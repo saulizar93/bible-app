@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import { byId } from "../../books.js";
-import { loadBook, optionFor } from "../../data.js";
-import { normalizeStrong } from "../../strongsCode.js";
+import { byId } from "../../js/books.js";
+import { loadBook, optionFor } from "../../js/data.js";
+import { normalizeStrong } from "../../js/strongsCode.js";
 import "./BiblePane.css";
 
 export default function BiblePane({
