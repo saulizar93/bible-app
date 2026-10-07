@@ -1,7 +1,7 @@
 import { get, set, clear } from "idb-keyval";
 import { normalizeStrong } from "./strongsCode.js";
 
-const DATA_VERSION = 7; // bump to invalidate every cached Bible chapter
+const DATA_VERSION = 8; // bump to invalidate every cached Bible chapter
 const NOTES_VERSION = 2; // bump separately — notes change far more often
 const LEXICON_VERSION = 6; // bump when strongs/ or concord/ data is rebuilt
 
@@ -138,6 +138,9 @@ export const PANE_OPTIONS = [
     label: "Straubinger (Católica, TR+CT)",
     kind: "bible",
     lang: "es",
+    // Strong's tags copied from rv1909-strong (scripts/rvg-strong/transfer.mjs, TARGET=platense).
+    strongs: true,
+    concord: "rv1909-strong/",
     citation: "Straubinger",
     copyright:
       "Biblia Platense, traducción de Mons. Juan Straubinger (1948). Dominio público.",

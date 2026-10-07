@@ -1,5 +1,5 @@
 // Transfer Strong's tagging ("w") from rv1909-strong onto RVG, word by word.
-// Usage: node scripts/rvg-strong/transfer.mjs <book> [--write] [--report]
+// Usage: [TARGET=rvg|platense] node scripts/rvg-strong/transfer.mjs <book> [--write] [--report]
 //        SHOW=2:1,2:6 node scripts/rvg-strong/transfer.mjs 40   (side-by-side check)
 // RVG is a light revision of RV1909, so most words match exactly. Steps per verse:
 //  1. align words in order (exact / similar spelling, e.g. á→a, Jerusalem→Jerusalén)
@@ -14,7 +14,8 @@ const WRITE = process.argv.includes("--write");
 const REPORT = process.argv.includes("--report");
 const root = new URL("../../public/data/bibles/", import.meta.url);
 const src = JSON.parse(fs.readFileSync(new URL(`rv1909-strong/${book}.json`, root)));
-const dst = JSON.parse(fs.readFileSync(new URL(`rvg/${book}.json`, root)));
+const TARGET = process.env.TARGET || "rvg"; // e.g. TARGET=platense
+const dst = JSON.parse(fs.readFileSync(new URL(`${TARGET}/${book}.json`, root)));
 
 const norm = (w) => w.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-zñ0-9]/g, "");
 function lev(a, b) {
@@ -56,9 +57,38 @@ function align(S, T) {
   return map;
 }
 
+// Which RV1909 verse feeds each target verse. Same number when the chapter has the
+// same verse count; otherwise (Catholic versification, added passages) the nearby
+// RV1909 verse with the most words in common, or none if nothing is close enough.
+const words = (t) => new Set(t.split(/\s+/).map(norm).filter((w) => w.length >= 3));
+const srcWords = {};
+const sw = (c) => (srcWords[c] ??= (src.v[c] || []).map(words));
+const srcIndex = {};
+const remapped = [];
+for (const c of Object.keys(dst.v)) {
+  const sv = src.v[c] || [];
+  if (sv.length === dst.v[c].length) continue;
+  srcIndex[c] = dst.v[c].map((t, vi) => {
+    const T = words(t);
+    let best = null, bs = 0;
+    for (const cc of [+c - 1, +c, +c + 1]) {      // chapter breaks can differ (Job 40/41)
+      if (!src.v[cc]) continue;
+      sw(cc).forEach((S, i) => {
+        if (cc === +c && Math.abs(i - vi) > 12) return;
+        let n = 0; for (const w of T) if (S.has(w)) n++;
+        const score = n / Math.max(1, Math.min(T.size, S.size)) - (cc === +c ? Math.abs(i - vi) * 0.01 : 0.15);
+        if (score > bs) { bs = score; best = [String(cc), i]; }
+      });
+    }
+    return bs >= 0.3 ? best : null;
+  });
+  remapped.push(`${c}(${dst.v[c].length}/${sv.length}v, ${srcIndex[c].filter((x) => !x).length} unmatched)`);
+}
+
 function verse(c, vi, stats, learn) {
   const text = dst.v[c][vi];
-  const toks = src.w[c]?.[vi] || [];
+  const [sc, si] = srcIndex[c] ? srcIndex[c][vi] || [c, -1] : [c, vi];
+  const toks = (si >= 0 && src.w[sc]?.[si]) || [];
   const S = [], St = [];
   toks.forEach((t, ti) => t.t.split(/\s+/).filter(Boolean).forEach((w) => { S.push(norm(w)); St.push(ti); }));
   const Traw = text.split(" ").filter(Boolean);
@@ -135,14 +165,16 @@ const stats = { words: 0, exact: 0, fuzzy: 0, moved: 0, gap: 0, filled: 0, untag
 const out = {};
 for (const c of Object.keys(dst.v)) out[c] = dst.v[c].map((_, vi) => verse(c, vi, stats));
 const { samples, ...st } = stats;
+if (remapped.length) console.log(`chapters matched by wording: ${remapped.join(" ")}`);
 console.log(book, st, `learned ${dict.size} renames`, `→ ${(100 * (1 - st.untagged / st.words)).toFixed(1)}% of RVG words tagged`);
 if (REPORT) console.log([...dict.keys()].join("  ") + "\n" + samples.join("\n"));
 if (process.env.SHOW) for (const r of process.env.SHOW.split(",")) {
   const [c, v] = r.split(":");
-  console.log(r, "\n  1909:", src.w[c][v - 1].map((t) => `${t.t}|${t.s || "-"}`).join("  "), "\n  RVG :", out[c][v - 1].map((t) => `${t.t}|${t.s || "-"}`).join("  "));
+  const [sc, si] = srcIndex[c] ? srcIndex[c][v - 1] || [c, -1] : [c, v - 1];
+  console.log(r, `(from RV1909 ${sc}:${si + 1})`, "\n  1909:", (src.w[sc]?.[si] || []).map((t) => `${t.t}|${t.s || "-"}`).join("  "), `\n  ${TARGET}:`, out[c][v - 1].map((t) => `${t.t}|${t.s || "-"}`).join("  "));
 }
 if (WRITE) {
   dst.w = out;
-  fs.writeFileSync(new URL(`rvg/${book}.json`, root), JSON.stringify(dst));
-  console.log(`wrote rvg/${book}.json`);
+  fs.writeFileSync(new URL(`${TARGET}/${book}.json`, root), JSON.stringify(dst));
+  console.log(`wrote ${TARGET}/${book}.json`);
 }

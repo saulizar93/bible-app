@@ -381,3 +381,8 @@
 - data.js: RVG now has `strongs: true` and uses the rv1909-strong concordance (same versification). DATA_VERSION 4 → 5.
 - Extended to the rest of the New Testament (rvg/41–66.json): 94–99% of words tagged per book; unplaced words for each book in scripts/rvg-strong/<book>-untagged.tsv; originals in scripts/rvg-strong/backup/. All 7,957 NT verses verified (tokens rejoin to the exact RVG text). DATA_VERSION 5 → 6.
 - Extended to the Old Testament (rvg/1–39.json, Hebrew H-numbers): 95–99% of words tagged per book (Psalms 95.5%, Job 95.3%, most books ~97%). The whole RVG Bible is now tagged; all 31,102 verses verified. Unplaced words per book in scripts/rvg-strong/<book>-untagged.tsv; originals in scripts/rvg-strong/backup/. DATA_VERSION 6 → 7.
+
+## 2026-10-07 — Strong's tagging for Straubinger (platense)
+- Same script, `TARGET=platense node scripts/rvg-strong/transfer.mjs <book> --write`. Straubinger is an independent translation, so fewer words line up than with RVG: ~82–91% tagged in most books (NT 81–91%, Psalms 82%, Job 78%, Esther 57%, Daniel 63% — the last two because their Greek additions (Esther 10:4–16, Daniel 3:24–90, 13–14) have no Hebrew source and stay untagged).
+- Chapters whose verse count differs from RV1909 (Catholic versification) are matched verse by verse on shared wording, also looking at the neighbouring chapters (Job 40/41 break differs). In those chapters the concordance (borrowed from rv1909-strong) can point to a neighbouring verse number.
+- All 31,355 verses verified (tokens rejoin to the exact text). Originals in scripts/rvg-strong/backup-platense/; unplaced words in scripts/rvg-strong/untagged-platense/<book>-untagged.tsv. data.js: platense gets strongs:true + rv1909-strong concordance; DATA_VERSION 7 → 8.
