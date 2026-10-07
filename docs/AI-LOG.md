@@ -386,3 +386,9 @@
 - Same script, `TARGET=platense node scripts/rvg-strong/transfer.mjs <book> --write`. Straubinger is an independent translation, so fewer words line up than with RVG: ~82–91% tagged in most books (NT 81–91%, Psalms 82%, Job 78%, Esther 57%, Daniel 63% — the last two because their Greek additions (Esther 10:4–16, Daniel 3:24–90, 13–14) have no Hebrew source and stay untagged).
 - Chapters whose verse count differs from RV1909 (Catholic versification) are matched verse by verse on shared wording, also looking at the neighbouring chapters (Job 40/41 break differs). In those chapters the concordance (borrowed from rv1909-strong) can point to a neighbouring verse number.
 - All 31,355 verses verified (tokens rejoin to the exact text). Originals in scripts/rvg-strong/backup-platense/; unplaced words in scripts/rvg-strong/untagged-platense/<book>-untagged.tsv. data.js: platense gets strongs:true + rv1909-strong concordance; DATA_VERSION 7 → 8.
+
+## 2026-10-07 — Strong's tagging for LSV (from kjv-strong)
+- `SOURCE=kjv-strong TARGET=lsv node scripts/rvg-strong/transfer.mjs <book> --write`. 86–94% of words tagged per book (3 John 80%: LSV has 15 verses vs KJV's 14). Words joined by an em dash ("spirit—because") are split into separate tokens, the second with `j: true` so no space is rendered.
+- For English sources the "shared start" similarity needs 5 letters (4 for short words), so "everyone" no longer grabs "everlasting"'s tag. Spanish runs are unchanged.
+- Psalm titles in LSV verse 1 ("A PSALM OF DAVID.") stay untagged (KJV has no title words there).
+- All 31,104 verses verified. Originals in scripts/rvg-strong/backup-lsv/; unplaced words in scripts/rvg-strong/untagged-lsv/. data.js: lsv gets strongs:true + KJV concordance; DATA_VERSION 8 → 9.

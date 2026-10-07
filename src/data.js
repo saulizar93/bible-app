@@ -1,13 +1,17 @@
 import { get, set, clear } from "idb-keyval";
 import { normalizeStrong } from "./strongsCode.js";
 
-const DATA_VERSION = 8; // bump to invalidate every cached Bible chapter
+const DATA_VERSION = 9; // bump to invalidate every cached Bible chapter
 const NOTES_VERSION = 2; // bump separately — notes change far more often
 const LEXICON_VERSION = 6; // bump when strongs/ or concord/ data is rebuilt
 
 /** Shown to users (menu footer, notes authorship line) so they can tell when
  *  new data has been published and clear their saved copies in Settings. */
-export const VERSIONS = { data: DATA_VERSION, notes: NOTES_VERSION, lexicon: LEXICON_VERSION };
+export const VERSIONS = {
+  data: DATA_VERSION,
+  notes: NOTES_VERSION,
+  lexicon: LEXICON_VERSION,
+};
 
 /** Books that have study notes (canonical numbers). Add a book here after
  *  building its notes with scripts/build-notes.mjs. */
@@ -26,7 +30,7 @@ export const PANE_OPTIONS = [
   // },
   {
     code: "kjv-strong",
-    label: "KJV w/Strong (TR)",
+    label: "King James Version (TR)",
     kind: "bible",
     lang: "en",
     strongs: true,
@@ -37,7 +41,7 @@ export const PANE_OPTIONS = [
   },
   {
     code: "bsb-strong",
-    label: "BSB w/Strong (CT)",
+    label: "Berean Standard Bible (CT)",
     kind: "bible",
     lang: "en",
     strongs: true,
@@ -56,7 +60,7 @@ export const PANE_OPTIONS = [
   // },
   {
     code: "msb-strong",
-    label: "MSB w/Strong (MT)",
+    label: "Majority Standard Bible (MT)",
     kind: "bible",
     lang: "en",
     strongs: true,
@@ -76,16 +80,19 @@ export const PANE_OPTIONS = [
   // },
   {
     code: "lsv",
-    label: "LSV (TR)",
+    label: "Literal Standard Version (TR)",
     kind: "bible",
     lang: "en",
+    // Strong's tags copied from kjv-strong (SOURCE=kjv-strong TARGET=lsv scripts/rvg-strong/transfer.mjs).
+    strongs: true,
+    concord: "", // KJV concordance (same versification)
     citation: "LSV",
     copyright:
       "Literal Standard Version © 2020 Covenant Press. Licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0).",
   },
   {
     code: "drc1750",
-    label: "DRC (Catholic, Latin)",
+    label: "Douay-Rheims (Catholic, Latin)",
     kind: "bible",
     lang: "en",
     citation: "DRC1750",
@@ -102,7 +109,7 @@ export const PANE_OPTIONS = [
   // },
   {
     code: "rv1909-strong",
-    label: "RV1909 c/Strong (TR)",
+    label: "Reina-Valera 1909 (TR)",
     kind: "bible",
     lang: "es",
     strongs: true,
@@ -113,7 +120,7 @@ export const PANE_OPTIONS = [
   },
   {
     code: "rvg",
-    label: "RVG (TR)",
+    label: "Reina-Valera Gómez (TR)",
     kind: "bible",
     lang: "es",
     // Strong's tags copied from rv1909-strong by scripts/rvg-strong/transfer.mjs
@@ -126,7 +133,7 @@ export const PANE_OPTIONS = [
   },
   {
     code: "torres-amat",
-    label: "BTA (Católica, Latín)",
+    label: "Torres Amat (Católica, Latín)",
     kind: "bible",
     lang: "es",
     citation: "Torres-Amat",
@@ -209,10 +216,22 @@ function cachedFetch(key, url) {
 /* Cache keys + URLs for every kind of data file (shared with src/offline.js). */
 const BASE = import.meta.env.BASE_URL;
 export const SRC = {
-  book: (code, n) => [`bible/${code}/${n}@${DATA_VERSION}`, `${BASE}data/bibles/${code}/${n}.json`],
-  notes: (lang, n, ch) => [`notes/${lang}/${n}/${ch}@${NOTES_VERSION}`, `${BASE}data/notes/${lang}/${n}/${ch}.json`],
-  strongs: (lang, shard) => [`strongs/${lang}/${shard}@${LEXICON_VERSION}`, `${BASE}data/strongs/${lang}/${shard}.json`],
-  concord: (dir, shard) => [`concord/${dir}/${shard}@${LEXICON_VERSION}`, `${BASE}data/concord/${dir}/${shard}.json`],
+  book: (code, n) => [
+    `bible/${code}/${n}@${DATA_VERSION}`,
+    `${BASE}data/bibles/${code}/${n}.json`,
+  ],
+  notes: (lang, n, ch) => [
+    `notes/${lang}/${n}/${ch}@${NOTES_VERSION}`,
+    `${BASE}data/notes/${lang}/${n}/${ch}.json`,
+  ],
+  strongs: (lang, shard) => [
+    `strongs/${lang}/${shard}@${LEXICON_VERSION}`,
+    `${BASE}data/strongs/${lang}/${shard}.json`,
+  ],
+  concord: (dir, shard) => [
+    `concord/${dir}/${shard}@${LEXICON_VERSION}`,
+    `${BASE}data/concord/${dir}/${shard}.json`,
+  ],
 };
 
 /** Download one file straight into IndexedDB without keeping it in memory
@@ -233,9 +252,11 @@ export async function storeOffline([key, url], signal) {
   return true;
 }
 
-export const loadBook = (code, bookNum) => cachedFetch(...SRC.book(code, bookNum));
+export const loadBook = (code, bookNum) =>
+  cachedFetch(...SRC.book(code, bookNum));
 
-export const loadNotes = (lang, bookNum, chapter) => cachedFetch(...SRC.notes(lang, bookNum, chapter));
+export const loadNotes = (lang, bookNum, chapter) =>
+  cachedFetch(...SRC.notes(lang, bookNum, chapter));
 
 /** Does verse `v` fall inside a note's key, "7" or "3-5"? */
 export function keyCovers(key, v) {

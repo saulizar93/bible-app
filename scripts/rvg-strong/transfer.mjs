@@ -13,7 +13,9 @@ const book = process.argv[2] || "40";
 const WRITE = process.argv.includes("--write");
 const REPORT = process.argv.includes("--report");
 const root = new URL("../../public/data/bibles/", import.meta.url);
-const src = JSON.parse(fs.readFileSync(new URL(`rv1909-strong/${book}.json`, root)));
+const SOURCE = process.env.SOURCE || "rv1909-strong"; // e.g. SOURCE=kjv-strong TARGET=lsv
+const src = JSON.parse(fs.readFileSync(new URL(`${SOURCE}/${book}.json`, root)));
+const ENGLISH = SOURCE.startsWith("kjv");
 const TARGET = process.env.TARGET || "rvg"; // e.g. TARGET=platense
 const dst = JSON.parse(fs.readFileSync(new URL(`${TARGET}/${book}.json`, root)));
 
@@ -34,7 +36,10 @@ function sim(a, b) {
   if (dict.has(a + ">" + b)) return 0.9;
   let p = 0; while (p < a.length && p < b.length && a[p] === b[p]) p++;
   const r = 1 - lev(a, b) / Math.max(a.length, b.length);
-  return Math.max(r, p >= 4 ? 0.8 : 0);
+  // shared start counts as similar: Spanish endings (bautizándolos/bautizándoles); for English
+  // (SOURCE=kjv-strong) require a longer shared start so "ever-yone" ≠ "ever-lasting".
+  const P = ENGLISH ? (p >= 5 || (p >= 4 && Math.min(a.length, b.length) <= 5)) : p >= 4;
+  return Math.max(r, P ? 0.8 : 0);
 }
 function align(S, T) {
   const n = S.length, m = T.length;
@@ -91,7 +96,11 @@ function verse(c, vi, stats, learn) {
   const toks = (si >= 0 && src.w[sc]?.[si]) || [];
   const S = [], St = [];
   toks.forEach((t, ti) => t.t.split(/\s+/).filter(Boolean).forEach((w) => { S.push(norm(w)); St.push(ti); }));
-  const Traw = text.split(" ").filter(Boolean);
+  // words split at spaces, and also after an em dash ("spirit—because" → "spirit—" + "because",
+  // the second marked J = no space before it, which the app renders via the token's j flag)
+  const Traw = [], J = [];
+  for (const piece of text.split(" ").filter(Boolean))
+    piece.split(/(?<=—)/).filter(Boolean).forEach((w, k) => { Traw.push(w); J.push(k > 0); });
   const T = Traw.map(norm);
   const anchor = align(S, T);              // 1. in-order alignment
   const map = anchor.slice();
@@ -142,14 +151,15 @@ function verse(c, vi, stats, learn) {
   const res = [];
   Traw.forEach((w, j) => {
     const ti = tok[j], last = res[res.length - 1];
-    if (last && last._ti === ti && ti >= 0) { last.t += " " + w; return; }
+    if (last && last._ti === ti && ti >= 0) { last.t += (J[j] ? "" : " ") + w; return; }
     const o = { _ti: ti, t: w };
+    if (J[j]) o.j = true;
     if (ti >= 0) { const { t, j: _j, ...rest } = toks[ti]; Object.assign(o, rest); }
     else if (stats) { stats.untagged++; stats.samples.push(`${c}:${vi + 1} "${w}"`); }
     res.push(o);
   });
   res.forEach((o) => delete o._ti);
-  if (res.map((o) => o.t).join(" ") !== text) throw new Error(`text mismatch ${c}:${vi + 1}`);
+  if (res.map((o, k) => (k && !o.j ? " " : "") + o.t).join("") !== text) throw new Error(`text mismatch ${c}:${vi + 1}`);
   return res;
 }
 
@@ -171,7 +181,7 @@ if (REPORT) console.log([...dict.keys()].join("  ") + "\n" + samples.join("\n"))
 if (process.env.SHOW) for (const r of process.env.SHOW.split(",")) {
   const [c, v] = r.split(":");
   const [sc, si] = srcIndex[c] ? srcIndex[c][v - 1] || [c, -1] : [c, v - 1];
-  console.log(r, `(from RV1909 ${sc}:${si + 1})`, "\n  1909:", (src.w[sc]?.[si] || []).map((t) => `${t.t}|${t.s || "-"}`).join("  "), `\n  ${TARGET}:`, out[c][v - 1].map((t) => `${t.t}|${t.s || "-"}`).join("  "));
+  console.log(r, `(from ${SOURCE} ${sc}:${si + 1})`, `\n  ${SOURCE}:`, (src.w[sc]?.[si] || []).map((t) => `${t.t}|${t.s || "-"}`).join("  "), `\n  ${TARGET}:`, out[c][v - 1].map((t) => `${t.t}|${t.s || "-"}`).join("  "));
 }
 if (WRITE) {
   dst.w = out;
