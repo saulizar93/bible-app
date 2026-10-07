@@ -363,3 +363,10 @@
 - All 8,674 Hebrew Strong's entries in public/data/strongs/hebrew/*.json now have a Spanish `def-es` translated from `def-en` (same conventions as the Greek: G/H cross-references and Hebrew forms kept, Spanish proper names, common Spanish gloss appended after ";"). Braced Aramaic duplicates like `{…}` kept braced.
 - scripts/lex-es/{dump,apply,status}.mjs now take `LEX=hebrew` (default `greek`); Hebrew batches in scripts/lex-es/batches-hebrew/h0001–h0041.tsv.
 - LEXICON_VERSION bumped 4 → 5 in src/data.js.
+
+## 2026-10-07 — RV1909-Strong re-versified to match RVG
+
+- rv1909-strong used the original RV1909 verse divisions (padded with empty verses), so verses were shifted vs RVG in 12 books: Num 12–13 & 29–30, Judg 14, 1 Sam 23–25, 2 Sam 20, 1 Kgs 22, 1 Chr 1 & 21, 2 Chr 33, Job 35 & 38–40, Hos 11–12, Jonah 1–2, Acts 19, 2 Cor 13.
+- New scripts/versemap/remap.mjs aligns each book to RVG by text similarity and moves/splits/merges verses; when a verse is split, its `v` text and its `w` tokens are cut at the same word, so every Strong's/morph tag stays on its word (token totals verified unchanged per book). align.mjs is the read-only diagnostic. Originals in scripts/versemap/backup/.
+- Result: every chapter has RVG's verse count, no empty verses, and a full re-run reports 0 remaining moves.
+- Rebuilt public/data/concord/rv1909-strong; DATA_VERSION 3 → 4 and LEXICON_VERSION 5 → 6 so cached chapters and concordance refresh.
