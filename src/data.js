@@ -1,7 +1,7 @@
 import { get, set, clear } from "idb-keyval";
 import { normalizeStrong } from "./strongsCode.js";
 
-const DATA_VERSION = 4; // bump to invalidate every cached Bible chapter
+const DATA_VERSION = 5; // bump to invalidate every cached Bible chapter
 const NOTES_VERSION = 2; // bump separately — notes change far more often
 const LEXICON_VERSION = 6; // bump when strongs/ or concord/ data is rebuilt
 
@@ -116,6 +116,10 @@ export const PANE_OPTIONS = [
     label: "RVG (TR)",
     kind: "bible",
     lang: "es",
+    // Strong's tags copied from rv1909-strong by scripts/rvg-strong/transfer.mjs
+    // (only books that have been converted carry a "w"; so far: 40 Matthew).
+    strongs: true,
+    concord: "rv1909-strong/", // same versification, so RV1909's concordance fits
     citation: "RVG",
     copyright:
       "Santa Biblia Reina Valera Gómez © 2004, 2010, 2023 Dr. Humberto Gómez Caballero. Derechos reservados. Prohibida su reproducción con fines de lucro.",

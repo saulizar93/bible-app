@@ -374,3 +374,8 @@
 ## 2026-10-07 — Strong's panel pushed off-screen in long chapters
 - Cause: `.verse` uses `content-visibility: auto` + `contain-intrinsic-size: auto 60px`. Verses scrolled off-screen keep their last rendered width as their intrinsic size. `.pane` / `.panes` had no `min-width: 0`, so when the 320px Strong's panel docked, the panes could not shrink below that stale width and the panel overflowed to the right. Reproduced in Acts 2, Acts 7, John 6, Matt 5, Rom 8 (any chapter long enough to scroll); short chapters were unaffected.
 - Fix: added `min-width: 0` to `.pane` (PaneSlot.css) and `.panes` (SplitPanes.css).
+
+## 2026-10-07 — Strong's tagging for RVG (test: Matthew)
+- New scripts/rvg-strong/transfer.mjs copies the `w` tokens from rv1909-strong onto RVG, word by word: in-order alignment (exact or similar spelling), moved words, reworded spans (magos → hombres sabios), and spelling changes learned from the book (Bethlehem → Belén). Each RVG token keeps `s`, `m`, `g`, `it` from its RV1909 token; the tokens' `t` joined with spaces always equals the RVG verse text.
+- Matthew (rvg/40.json): 96% of words tagged. The 841 words that couldn't be placed (wording RVG added, e.g. "en el tiempo en que fueron expatriados") are plain `{ "t": … }` tokens with no `s`, listed by verse in scripts/rvg-strong/40-untagged.tsv for manual tagging. Original kept in scripts/rvg-strong/backup/40.json.
+- data.js: RVG now has `strongs: true` and uses the rv1909-strong concordance (same versification). DATA_VERSION 4 → 5.
