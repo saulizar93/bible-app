@@ -1231,7 +1231,7 @@
         { "t": "and sent", "s": "H7971", "m": "HC/Vqp3cp", "g": "וְשָׁלְחוּ" },
         { "t": "and called", "s": "H7121", "m": "HC/Vqp3cp", "g": "וְקָרְאוּ" },
         { "t": "for their three", "s": "H7969", "m": "HR/Acmsc", "g": "לִשְׁלֹשֶׁת" },
-        { "t": "sisters", "s": "H269", "m": "HNcfpc/Sp3mp", "g": "אַחְיוֹתֵיהֶם" },
+        { "t": "sisters", "s": "H269", "m": "HNcfpc/Sp3mp", "g": "אחיתיהם" },
         { "t": "to eat", "s": "H398", "m": "HR/Vqc", "g": "לֶאֱכֹל" },
         { "t": "and to drink", "s": "H8354", "m": "HC/R/Vqc", "g": "וְלִשְׁתּוֹת" },
         { "t": "with" },
@@ -1722,7 +1722,7 @@
       [
         { "t": "And said,", "s": "H559", "m": "HC/Vqw3ms", "g": "וַיֹּאמֶר" },
         { "t": "Naked", "s": "H6174", "m": "HAamsa", "g": "עָרֹם" },
-        { "t": "came I out", "s": "H3318", "m": "HVqp1cs", "g": "יָצָאתִי" },
+        { "t": "came I out", "s": "H3318", "m": "HVqp1cs", "g": "יצתי" },
         { "t": "of my mother’s", "s": "H517", "m": "HNcfsc/Sp1cs", "g": "אִמִּי" },
         { "t": "womb,", "s": "H990", "m": "HR/Ncfsc", "g": "מִבֶּטֶן" },
         { "t": "and naked", "s": "H6174", "m": "HC/Aamsa", "g": "וְעָרֹם" },
@@ -3198,7 +3198,7 @@
           "t": "and his hands",
           "s": "H3027",
           "m": "HC/Ncbdc/Sp3ms",
-          "g": "וְיָדָיו"
+          "g": "וידו"
         },
         { "t": "make whole.", "s": "H7495", "m": "HVqi3fp", "g": "תִּרְפֶּינָה" }
       ],
@@ -3873,8 +3873,8 @@
         {
           "t": "yea, return again,",
           "s": "H7725",
-          "m": "HC/Vqv2mp",
-          "g": "וְשׁוּבוּ"
+          "m": "HC/Vqv2fs",
+          "g": "ושבי"
         },
         {
           "t": "my righteousness",
@@ -3994,7 +3994,7 @@
         { "t": "My flesh", "s": "H1320", "m": "HNcmsc/Sp1cs", "g": "בְּשָׂרִי" },
         { "t": "is clothed", "s": "H3847", "m": "HVqp3ms", "g": "לָבַשׁ" },
         { "t": "with worms", "s": "H7415", "m": "HNcfsa", "g": "רִמָּה" },
-        { "t": "and clods", "s": "H1487", "m": "HC/Ncmsc", "g": "וְגוּשׁ" },
+        { "t": "and clods", "s": "H1487", "m": "HC/Ncmsc", "g": "וגיש" },
         { "t": "of dust;", "s": "H6083", "m": "HNcmsa", "g": "עָפָר" },
         { "t": "my skin", "s": "H5785", "m": "HNcmsc/Sp1cs", "g": "עוֹרִי" },
         { "t": "is broken,", "s": "H7280", "m": "HVqp3ms", "g": "רָגַע" },
@@ -5690,7 +5690,7 @@
         { "t": "Are", "it": 1 },
         { "t": "not my days", "s": "H3117", "m": "HNcmpc/Sp1cs", "g": "יָמַי" },
         { "t": "few?", "s": "H4592", "m": "HNcmsa", "g": "מְעַט" },
-        { "t": "cease", "s": "H2308", "m": "HC/Vqv2ms", "g": "וַחֲדָל" },
+        { "t": "cease", "s": "H2308", "m": "HVqj3ms", "g": "יחדל" },
         { "t": "then,", "it": 1 },
         { "t": "and", "it": 1 },
         { "t": "let me alone,", "s": "H7896", "m": "HC/Vqv2ms", "g": "וְשִׁית" },
@@ -6148,8 +6148,8 @@
         {
           "t": "to you: yea, who knoweth not such things",
           "s": "H3644",
-          "m": "HR/Sp2mp",
-          "g": "כְּמוֹכֶם"
+          "m": "HR",
+          "g": "כְּמוֹ"
         },
         { "t": "as" },
         { "t": "these?" }
@@ -8387,7 +8387,7 @@
       ],
       [
         { "t": "My face", "s": "H6440", "m": "HNcbpc/Sp1cs", "g": "פָּנַי" },
-        { "t": "is foul", "s": "H2560", "m": "HVjp3cp", "g": "חֳמַרְמְרוּ" },
+        { "t": "is foul", "s": "H2560", "m": "HVjp3fp", "g": "חמרמרה" },
         { "t": "with weeping,", "s": "H1065", "m": "HNcmsa", "g": "בֶכִי" },
         {
           "t": "and on my eyelids",
@@ -10547,7 +10547,7 @@
         { "t": "it.", "it": 1 }
       ],
       [
-        { "t": "His eyes", "s": "H5869", "m": "HNcbdc/Sp3ms", "g": "עֵינָיו" },
+        { "t": "His eyes", "s": "H5869", "m": "HNcbdc/Sp3ms", "g": "עינו" },
         { "t": "shall see", "s": "H7200", "m": "HVqi3mp", "g": "יִרְאוּ" },
         {
           "t": "his destruction,",
@@ -11628,8 +11628,8 @@
         {
           "t": "do they that know",
           "s": "H3045",
-          "m": "HC/Vqrmpc/Sp3ms",
-          "g": "וְיֹדְעָיו"
+          "m": "HC/Vqrmsc/Sp3ms",
+          "g": "וידעו"
         },
         { "t": "him not see", "s": "H2372", "m": "HVqp3cp", "g": "חָזוּ" },
         { "t": "his days?", "s": "H3117", "m": "HNcmpc/Sp3ms", "g": "יָמָיו" }
@@ -11696,7 +11696,7 @@
         { "t": "children.", "s": "H5288", "m": "HRd/Ncmpa", "g": "לַנְּעָרִים" }
       ],
       [
-        { "t": "They reap", "s": "H7114", "m": "HVqi3mp", "g": "יִקְצוֹרוּ" },
+        { "t": "They reap", "s": "H7114", "m": "HVhi3mp", "g": "יקצירו" },
         { "t": "every", "it": 1 },
         { "t": "one", "it": 1 },
         { "t": "his corn", "s": "H1098", "m": "HNcmsc/Sp3ms", "g": "בְּלִילוֹ" },
@@ -12184,7 +12184,7 @@
         { "t": "thou the arm", "s": "H2220", "m": "HNcbsc", "g": "זְרוֹעַ" },
         { "t": "that", "it": 1 },
         { "t": "hath", "it": 1 },
-        { "t": "no", "s": "H3808", "m": "HR/Tn", "g": "לְלֹא" },
+        { "t": "no", "s": "H3808", "m": "HTn", "g": "לֹא" },
         { "t": "strength?", "s": "H5797", "m": "HNcmsa", "g": "עֹז" }
       ],
       [
@@ -12275,7 +12275,7 @@
         { "t": "and", "it": 1 },
         { "t": "hangeth", "s": "H8518", "m": "HVqrmsa", "g": "תֹּלֶה" },
         { "t": "the earth", "s": "H776", "m": "HNcbsa", "g": "אֶרֶץ" },
-        { "t": "upon nothing.", "s": "H1099", "m": "HTn", "g": "בְּלִי" }
+        { "t": "upon nothing.", "s": "H1099", "m": "HTi", "g": "מָה" }
       ],
       [
         { "t": "He bindeth up", "s": "H6887", "m": "HVqrmsa", "g": "צֹרֵר" },
@@ -12643,8 +12643,8 @@
         {
           "t": "Those that remain",
           "s": "H8300",
-          "m": "HNcmpc/Sp3ms",
-          "g": "שְׂרִידָיו"
+          "m": "HNcmsc/Sp3ms",
+          "g": "שרידו"
         },
         {
           "t": "of him shall be buried",
@@ -13831,7 +13831,7 @@
           "m": "HVpp3ms",
           "g": "פִתַּח"
         },
-        { "t": "my cord,", "s": "H3499", "m": "HNcmsc/Sp1cs", "g": "יִתְרִי" },
+        { "t": "my cord,", "s": "H3499", "m": "HNcmsc/Sp3ms", "g": "יתרו" },
         {
           "t": "and afflicted",
           "s": "H6031",
@@ -14503,12 +14503,7 @@
         { "t": "without covering;", "s": "H3682", "m": "HNcfsa", "g": "כְּסוּת" }
       ],
       [
-        {
-          "t": "If his loins",
-          "s": "H2504",
-          "m": "HNcbdc/Sp3ms",
-          "g": "חֲלָצָיו"
-        },
+        { "t": "If his loins", "s": "H2504", "m": "HNcbdc/Sp3ms", "g": "חלצו" },
         {
           "t": "have not blessed",
           "s": "H1288",
@@ -15795,14 +15790,14 @@
       ],
       [
         { "t": "He will deliver", "s": "H6299", "m": "HVqp3ms", "g": "פָּדָה" },
-        { "t": "his soul", "s": "H5315", "m": "HNcbsc/Sp3ms", "g": "נַפְשׁוֹ" },
+        { "t": "his soul", "s": "H5315", "m": "HNcbsc/Sp1cs", "g": "נפשי" },
         { "t": "from going", "s": "H5674", "m": "HR/Vqc", "g": "מֵעֲבֹר" },
         { "t": "into the pit,", "s": "H7845", "m": "HRd/Ncfsa", "g": "בַּשָּׁחַת" },
         {
           "t": "and his life",
           "s": "H2416",
-          "m": "HC/Ncfsc/Sp3ms",
-          "g": "וְחַיָּתוֹ"
+          "m": "HC/Ncfsc/Sp1cs",
+          "g": "וחיתי"
         },
         { "t": "shall see", "s": "H7200", "m": "HVqi3fs", "g": "תִּרְאֶה" },
         { "t": "the light.", "s": "H216", "m": "HRd/Ncbsa", "g": "בָּאוֹר" }
@@ -17438,8 +17433,8 @@
         {
           "t": "by his counsels:",
           "s": "H8458",
-          "m": "HR/Ncfpc/Sp3ms",
-          "g": "בְּתַחְבּוּלֹתָיו"
+          "m": "HR/Ncfsc/Sp3ms",
+          "g": "בתחבולתו"
         },
         {
           "t": "that they may do",
@@ -17872,8 +17867,8 @@
         {
           "t": "caused the dayspring",
           "s": "H7837",
-          "m": "HTd/Ncmsa",
-          "g": "הַשַּׁחַר"
+          "m": "HNcmsa",
+          "g": "שחר"
         },
         { "t": "to know", "s": "H3045", "m": "HVpp2ms", "g": "יִדַּעְתָּה" },
         { "t": "his place;", "s": "H4725", "m": "HNcmsc/Sp3ms", "g": "מְקֹמוֹ" }
@@ -18331,8 +18326,8 @@
         {
           "t": "when his young ones",
           "s": "H3206",
-          "m": "HNcmpc/Sp3ms",
-          "g": "יְלָדָיו"
+          "m": "HNcmsc/Sp3ms",
+          "g": "ילדו"
         },
         { "t": "cry", "s": "H7768", "m": "HVpi3mp", "g": "יְשַׁוֵּעוּ" },
         { "t": "unto God,", "s": "H410", "m": "HNcmsa", "g": "אֵל" },
@@ -18519,8 +18514,8 @@
         {
           "t": "him, that he will bring home",
           "s": "H7725",
-          "m": "HVhi3ms",
-          "g": "יָשִׁיב"
+          "m": "HVqi3ms",
+          "g": "ישוב"
         },
         { "t": "thy seed,", "s": "H2233", "m": "HNcmsc/Sp2ms", "g": "זַרְעֶךָ" },
         { "t": "and gather", "s": "H622", "m": "HVqi3ms", "g": "יֶאֱסֹף" },
@@ -18802,7 +18797,7 @@
           "t": "Her young ones",
           "s": "H667",
           "m": "HC/Ncmsc/Sp3ms",
-          "g": "וְאֶפְרֹחָיו"
+          "g": "ואפרחו"
         },
         { "t": "also suck up", "s": "H5966", "m": "HVpi3mp", "g": "יְעַלְעוּ" },
         { "t": "blood:", "s": "H1818", "m": "HNcmsa", "g": "דָם" },
@@ -19806,7 +19801,7 @@
         { "t": "and said,", "s": "H559", "m": "HC/Vqw3ms", "g": "וַיֹּאמַר" }
       ],
       [
-        { "t": "I know", "s": "H3045", "m": "HVqp1cs", "g": "יָדַעְתִּי" },
+        { "t": "I know", "s": "H3045", "m": "HVqp2ms", "g": "ידעת" },
         {
           "t": "that thou canst do",
           "s": "H3201",
@@ -20053,7 +20048,7 @@
           "g": "וַיהוָה"
         },
         { "t": "turned", "s": "H7725", "m": "HVqp3ms", "g": "שָׁב" },
-        { "t": "the captivity", "s": "H7622", "m": "HNcfsc", "g": "שְׁבוּת" },
+        { "t": "the captivity", "s": "H7622", "m": "HNcfsc", "g": "שבית" },
         { "t": "of Job,", "s": "H347", "m": "HNp", "g": "אִיּוֹב" },
         {
           "t": "when he prayed",
@@ -20094,7 +20089,7 @@
           "t": "and all his sisters,",
           "s": "H269",
           "m": "HNcfpc/Sp3ms",
-          "g": "אַחְיוֹתָיו"
+          "g": "אחיתיו"
         },
         {
           "t": "and all they that had been of his acquaintance",
@@ -20200,7 +20195,7 @@
           "m": "HTd/Aofsa",
           "g": "הַשְּׁלִישִׁית"
         },
-        { "t": "Keren–happuch.", "s": "H7163", "m": "HNp", "g": "קֶרֶן" }
+        { "t": "Keren–happuch.", "s": "H7163", "m": "HNp", "g": "קֶרֶן הַפּוּךְ" }
       ],
       [
         {

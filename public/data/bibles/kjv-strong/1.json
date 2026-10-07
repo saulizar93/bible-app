@@ -1648,7 +1648,7 @@
         { "t": "God", "s": "H430", "m": "HNcmpa", "g": "אֱלֹהִים" },
         { "t": "created", "s": "H1254", "m": "HVqp3ms", "g": "בָּרָא" },
         { "t": "the heaven", "s": "H8064", "m": "HTd/Ncmpa", "g": "הַשָּׁמַיִם" },
-        { "t": "and", "s": "H853", "m": "HTo", "g": "אֵת" },
+        { "t": "and", "s": "H853", "m": "HC/To", "g": "וְאֵת" },
         { "t": "the earth.", "s": "H776", "m": "HTd/Ncbsa", "g": "הָאָרֶץ" }
       ],
       [
@@ -1685,7 +1685,7 @@
         { "t": "and God", "s": "H430", "m": "HNcmpa", "g": "אֱלֹהִים" },
         { "t": "divided", "s": "H914", "m": "HC/Vhw3ms", "g": "וַיַּבְדֵּל" },
         { "t": "the light", "s": "H216", "m": "HTd/Ncbsa", "g": "הָאוֹר" },
-        { "t": "from", "s": "H996", "m": "HR", "g": "בֵּין" },
+        { "t": "from", "s": "H996", "m": "HC/R", "g": "וּבֵין" },
         { "t": "the darkness.", "s": "H2822", "m": "HTd/Ncmsa", "g": "הַחֹשֶׁךְ" }
       ],
       [
@@ -3869,8 +3869,8 @@
         {
           "t": "and it shall come to pass,",
           "s": "H1961",
-          "m": "HC/Vqq1cs",
-          "g": "וְהָיִיתִי"
+          "m": "HC/Vqq3ms",
+          "g": "וְהָיָה"
         },
         { "t": "that", "it": 1 },
         {
@@ -3953,14 +3953,24 @@
       [
         { "t": "And unto Enoch", "s": "H2585", "m": "HR/Np", "g": "לַחֲנוֹךְ" },
         { "t": "was born", "s": "H3205", "m": "HC/VNw3ms", "g": "וַיִּוָּלֵד" },
-        { "t": "Irad:", "s": "H5897", "m": "HNp", "g": "עִירָד" },
-        { "t": "and Irad", "s": "H5897", "m": "HC/Np", "g": "וְעִירָד" },
+        { "t": "Irad:", "s": "H5897", "m": "HNp", "g": "עִירָד וְעִירָד" },
+        { "t": "and Irad", "s": "H5897", "m": "HNp", "g": "עִירָד וְעִירָד" },
         { "t": "begat", "s": "H3205", "m": "HVqp3ms", "g": "יָלַד" },
-        { "t": "Mehujael:", "s": "H4232", "m": "HNp", "g": "מְחוּיָאֵל" },
-        { "t": "and Mehujael", "s": "H4232", "m": "HC/Np", "g": "וּמְחִיּיָאֵל" },
+        { "t": "Mehujael:", "s": "H4232", "m": "HNp", "g": "מְחוּיָאֵל וּמְחִיּיָאֵל" },
+        {
+          "t": "and Mehujael",
+          "s": "H4232",
+          "m": "HNp",
+          "g": "מְחוּיָאֵל וּמְחִיּיָאֵל"
+        },
         { "t": "begat", "s": "H3205", "m": "HVqp3ms", "g": "יָלַד" },
-        { "t": "Methusael:", "s": "H4967", "m": "HNp", "g": "מְתוּשָׁאֵל" },
-        { "t": "and Methusael", "s": "H4967", "m": "HC/Np", "g": "וּמְתוּשָׁאֵל" },
+        { "t": "Methusael:", "s": "H4967", "m": "HNp", "g": "מְתוּשָׁאֵל וּמְתוּשָׁאֵל" },
+        {
+          "t": "and Methusael",
+          "s": "H4967",
+          "m": "HNp",
+          "g": "מְתוּשָׁאֵל וּמְתוּשָׁאֵל"
+        },
         { "t": "begat", "s": "H3205", "m": "HVqp3ms", "g": "יָלַד" },
         { "t": "Lamech.", "s": "H3929", "m": "HNp", "g": "לָמֶךְ" }
       ],
@@ -4014,13 +4024,13 @@
       [
         { "t": "And Zillah,", "s": "H6741", "m": "HC/Np", "g": "וְצִלָּה" },
         { "t": "she also bare", "s": "H3205", "m": "HVqp3fs", "g": "יָלְדָה" },
-        { "t": "Tubal–cain,", "s": "H8423", "m": "HNp", "g": "תּוּבַל" },
+        { "t": "Tubal–cain,", "s": "H8423", "m": "HNp", "g": "תּוּבַל קַיִן" },
         { "t": "an instructer", "s": "H3913", "m": "HVqrmsc", "g": "לֹטֵשׁ" },
         { "t": "of every artificer", "s": "H2794", "m": "HVqrmsc", "g": "חֹרֵשׁ" },
         { "t": "in brass", "s": "H5178", "m": "HNcfsa", "g": "נְחֹשֶׁת" },
         { "t": "and iron:", "s": "H1270", "m": "HC/Ncmsa", "g": "וּבַרְזֶל" },
         { "t": "and the sister", "s": "H269", "m": "HC/Ncfsc", "g": "וַאֲחוֹת" },
-        { "t": "of Tubal–cain", "s": "H8423", "m": "HNp", "g": "קַיִן" },
+        { "t": "of Tubal–cain", "s": "H8423", "m": "HNp", "g": "תּוּבַל קַיִן" },
         { "t": "was", "it": 1 },
         { "t": "Naamah.", "s": "H5279", "m": "HNp", "g": "נַעֲמָה" }
       ],
@@ -4218,7 +4228,7 @@
         { "t": "lived", "s": "H2421", "m": "HC/Vqw3ms", "g": "וַיְחִי" },
         { "t": "an hundred", "s": "H3967", "m": "HC/Acbsc", "g": "וּמְאַת" },
         { "t": "and five", "s": "H2568", "m": "HAcfsa", "g": "חָמֵשׁ" },
-        { "t": "years,", "s": "H8141", "m": "HNcfpa", "g": "שָׁנִים" },
+        { "t": "years,", "s": "H8141", "m": "HNcfsa", "g": "שָׁנָה" },
         { "t": "and begat", "s": "H3205", "m": "HC/Vhw3ms", "g": "וַיּוֹלֶד" },
         { "t": "Enos:", "s": "H583", "m": "HNp", "g": "אֱנוֹשׁ" }
       ],
@@ -4231,7 +4241,7 @@
         { "t": "eight", "s": "H8083", "m": "HC/Acfsa", "g": "וּשְׁמֹנֶה" },
         { "t": "hundred", "s": "H3967", "m": "HAcbpa", "g": "מֵאוֹת" },
         { "t": "and seven", "s": "H7651", "m": "HAcfsa", "g": "שֶׁבַע" },
-        { "t": "years,", "s": "H8141", "m": "HNcfpa", "g": "שָׁנִים" },
+        { "t": "years,", "s": "H8141", "m": "HNcfsa", "g": "שָׁנָה" },
         { "t": "and begat", "s": "H3205", "m": "HC/Vhw3ms", "g": "וַיּוֹלֶד" },
         { "t": "sons", "s": "H1121", "m": "HNcmpa", "g": "בָּנִים" },
         { "t": "and daughters:", "s": "H1323", "m": "HC/Ncfpa", "g": "וּבָנוֹת" }
@@ -4273,7 +4283,7 @@
         { "t": "were nine", "s": "H8672", "m": "HC/Acfsa", "g": "וּתְשַׁע" },
         { "t": "hundred", "s": "H3967", "m": "HAcbpa", "g": "מֵאוֹת" },
         { "t": "and five", "s": "H2568", "m": "HAcfsa", "g": "חָמֵשׁ" },
-        { "t": "years:", "s": "H8141", "m": "HNcfpa", "g": "שָׁנִים" },
+        { "t": "years:", "s": "H8141", "m": "HNcfsa", "g": "שָׁנָה" },
         { "t": "and he died.", "s": "H4191", "m": "HC/Vqw3ms", "g": "וַיָּמֹת" }
       ],
       [
@@ -4304,7 +4314,7 @@
         { "t": "were nine", "s": "H8672", "m": "HC/Acfsa", "g": "וּתְשַׁע" },
         { "t": "hundred", "s": "H3967", "m": "HAcbpa", "g": "מֵאוֹת" },
         { "t": "and ten", "s": "H6235", "m": "HAcfsa", "g": "עֶשֶׂר" },
-        { "t": "years:", "s": "H8141", "m": "HNcfpa", "g": "שָׁנִים" },
+        { "t": "years:", "s": "H8141", "m": "HNcfsa", "g": "שָׁנָה" },
         { "t": "and he died.", "s": "H4191", "m": "HC/Vqw3ms", "g": "וַיָּמֹת" }
       ],
       [
@@ -4312,7 +4322,7 @@
         { "t": "lived", "s": "H2421", "m": "HC/Vqw3ms", "g": "וַיְחִי" },
         { "t": "sixty", "s": "H8346", "m": "HC/Acbpa", "g": "וְשִׁשִּׁים" },
         { "t": "and five", "s": "H2568", "m": "HAcfsa", "g": "חָמֵשׁ" },
-        { "t": "years,", "s": "H8141", "m": "HNcfpa", "g": "שָׁנִים" },
+        { "t": "years,", "s": "H8141", "m": "HNcfsa", "g": "שָׁנָה" },
         { "t": "and begat", "s": "H3205", "m": "HC/Vhw3ms", "g": "וַיּוֹלֶד" },
         { "t": "Jared:", "s": "H3382", "m": "HNp", "g": "יָרֶד" }
       ],
@@ -4607,12 +4617,7 @@
         { "t": "of men,", "s": "H120", "m": "HTd/Ncmsa", "g": "הָאָדָם" },
         { "t": "and they bare", "s": "H3205", "m": "HC/Vqq3cp", "g": "וְיָלְדוּ" },
         { "t": "children", "it": 1 },
-        {
-          "t": "to them, the same",
-          "s": "H1992",
-          "m": "HTd/Pp3mp",
-          "g": "הָהֵם"
-        },
+        { "t": "to them, the same", "s": "H1992", "m": "HPp3mp", "g": "הֵמָּה" },
         { "t": "became", "it": 1 },
         { "t": "mighty men", "s": "H1368", "m": "HTd/Aampa", "g": "הַגִּבֹּרִים" },
         { "t": "which" },
@@ -4703,8 +4708,8 @@
         { "t": "These" },
         { "t": "are", "it": 1 },
         { "t": "the generations", "s": "H8435", "m": "HNcfpc", "g": "תּוֹלְדֹת" },
-        { "t": "of Noah:", "s": "H5146", "m": "HNp", "g": "נֹחַ" },
-        { "t": "Noah", "s": "H5146", "m": "HNp", "g": "נֹחַ" },
+        { "t": "of Noah:", "s": "H5146", "m": "HNp", "g": "נֹחַ נֹחַ" },
+        { "t": "Noah", "s": "H5146", "m": "HNp", "g": "נֹחַ נֹחַ" },
         { "t": "was a just", "s": "H6662", "m": "HAamsa", "g": "צַדִּיק" },
         { "t": "man", "s": "H376", "m": "HNcmsa", "g": "אִישׁ" },
         { "t": "and", "it": 1 },
@@ -4886,7 +4891,7 @@
         { "t": "from under", "s": "H8478", "m": "HR/R", "g": "מִתַּחַת" },
         { "t": "heaven;", "s": "H8064", "m": "HTd/Ncmpa", "g": "הַשָּׁמָיִם" },
         { "t": "and", "it": 1 },
-        { "t": "every thing", "s": "H3605", "m": "HNcmsc", "g": "כָּל" },
+        { "t": "every thing", "s": "H3605", "m": "HNcmsa", "g": "כֹּל" },
         { "t": "that" },
         { "t": "is", "it": 1 },
         { "t": "in the earth", "s": "H776", "m": "HRd/Ncbsa", "g": "בָּאָרֶץ" },
@@ -5144,7 +5149,7 @@
           "m": "HC/Vqp1cs",
           "g": "וּמָחִיתִי"
         },
-        { "t": "from off", "s": "H5921", "m": "HR", "g": "עַל" },
+        { "t": "from off", "s": "H5921", "m": "HR/R", "g": "מֵעַל" },
         { "t": "the face", "s": "H6440", "m": "HNcbpc", "g": "פְּנֵי" },
         { "t": "of the earth.", "s": "H127", "m": "HTd/Ncfsa", "g": "הָאֲדָמָה" }
       ],
@@ -5563,7 +5568,7 @@
         { "t": "only", "s": "H389", "m": "HTa", "g": "אַךְ" },
         { "t": "remained", "s": "H7604", "m": "HC/VNw3ms", "g": "וַיִשָּׁאֶר" },
         { "t": "alive,", "it": 1 },
-        { "t": "and they that", "s": "H834", "m": "HTr", "g": "אֲשֶׁר" },
+        { "t": "and they that", "s": "H834", "m": "HC/Tr", "g": "וַאֲשֶׁר" },
         { "t": "were", "it": 1 },
         {
           "t": "with him in the ark.",
@@ -5863,7 +5868,7 @@
         { "t": "and first year,", "s": "H8141", "m": "HNcfsa", "g": "שָׁנָה" },
         { "t": "in the first", "s": "H7223", "m": "HRd/Aamsa", "g": "בָּרִאשׁוֹן" },
         { "t": "month,", "it": 1 },
-        { "t": "the first", "s": "H259", "m": "HR/Acfsa", "g": "בְּאַחַת" },
+        { "t": "the first", "s": "H259", "m": "HR/Acmsa", "g": "בְּאֶחָד" },
         { "t": "day", "it": 1 },
         { "t": "of the month,", "s": "H2320", "m": "HRd/Ncmsa", "g": "לַחֹדֶשׁ" },
         { "t": "the waters", "s": "H4325", "m": "HTd/Ncmpa", "g": "הַמַּיִם" },
@@ -5935,7 +5940,7 @@
         { "t": "thee." }
       ],
       [
-        { "t": "Bring forth", "s": "H3318", "m": "HVhv2ms", "g": "הַיְצֵא" },
+        { "t": "Bring forth", "s": "H3318", "m": "HVhv2ms", "g": "הוצא" },
         {
           "t": "with thee every living thing",
           "s": "H2416",
@@ -6017,7 +6022,7 @@
         },
         { "t": "and every fowl,", "s": "H5775", "m": "HTd/Ncmsa", "g": "הָעוֹף" },
         { "t": "and", "it": 1 },
-        { "t": "whatsoever", "s": "H3605", "m": "HNcmsc", "g": "כָּל" },
+        { "t": "whatsoever", "s": "H3605", "m": "HNcmsa", "g": "כֹּל" },
         { "t": "creepeth", "s": "H7430", "m": "HVqrmsa", "g": "רוֹמֵשׂ" },
         { "t": "upon the earth,", "s": "H776", "m": "HTd/Ncbsa", "g": "הָאָרֶץ" },
         {
@@ -7067,8 +7072,8 @@
       [
         { "t": "And Arphaxad", "s": "H775", "m": "HC/Np", "g": "וְאַרְפַּכְשַׁד" },
         { "t": "begat", "s": "H3205", "m": "HVqp3ms", "g": "יָלַד" },
-        { "t": "Salah;", "s": "H7974", "m": "HNp", "g": "שָׁלַח" },
-        { "t": "and Salah", "s": "H7974", "m": "HC/Np", "g": "וְשֶׁלַח" },
+        { "t": "Salah;", "s": "H7974", "m": "HNp", "g": "שָׁלַח וְשֶׁלַח" },
+        { "t": "and Salah", "s": "H7974", "m": "HNp", "g": "שָׁלַח וְשֶׁלַח" },
         { "t": "begat", "s": "H3205", "m": "HVqp3ms", "g": "יָלַד" },
         { "t": "Eber.", "s": "H5677", "m": "HNp", "g": "עֵבֶר" }
       ],
@@ -7250,7 +7255,7 @@
         },
         { "t": "for stone,", "s": "H68", "m": "HR/Ncfsa", "g": "לְאָבֶן" },
         { "t": "and slime", "s": "H2564", "m": "HC/Td/Ncmsa", "g": "וְהַחֵמָר" },
-        { "t": "had", "s": "H1961", "m": "HC/Vqw3fs", "g": "וַתְּהִי" },
+        { "t": "had", "s": "H1961", "m": "HVqp3ms", "g": "הָיָה" },
         { "t": "they for morter.", "s": "H2563", "m": "HRd/Ncmsa", "g": "לַחֹמֶר" }
       ],
       [
@@ -7424,8 +7429,8 @@
         { "t": "These" },
         { "t": "are", "it": 1 },
         { "t": "the generations", "s": "H8435", "m": "HNcfpc", "g": "תּוֹלְדֹת" },
-        { "t": "of Shem:", "s": "H8035", "m": "HNp", "g": "שֵׁם" },
-        { "t": "Shem", "s": "H8035", "m": "HNp", "g": "שֵׁם" },
+        { "t": "of Shem:", "s": "H8035", "m": "HNp", "g": "שֵׁם שֵׁם" },
+        { "t": "Shem", "s": "H8035", "m": "HNp", "g": "שֵׁם שֵׁם" },
         { "t": "was", "it": 1 },
         { "t": "an hundred", "s": "H3967", "m": "HAcfsc", "g": "מְאַת" },
         { "t": "years", "s": "H8141", "m": "HNcfsa", "g": "שָׁנָה" },
@@ -7467,7 +7472,7 @@
         { "t": "four", "s": "H702", "m": "HC/Acfsa", "g": "וְאַרְבַּע" },
         { "t": "hundred", "s": "H3967", "m": "HAcbpa", "g": "מֵאוֹת" },
         { "t": "and three", "s": "H7969", "m": "HAcfsa", "g": "שָׁלֹשׁ" },
-        { "t": "years,", "s": "H8141", "m": "HNcfpa", "g": "שָׁנִים" },
+        { "t": "years,", "s": "H8141", "m": "HNcfsa", "g": "שָׁנָה" },
         { "t": "and begat", "s": "H3205", "m": "HC/Vhw3ms", "g": "וַיּוֹלֶד" },
         { "t": "sons", "s": "H1121", "m": "HNcmpa", "g": "בָּנִים" },
         { "t": "and daughters.", "s": "H1323", "m": "HC/Ncfpa", "g": "וּבָנוֹת" }
@@ -7489,7 +7494,7 @@
         { "t": "four", "s": "H702", "m": "HC/Acfsa", "g": "וְאַרְבַּע" },
         { "t": "hundred", "s": "H3967", "m": "HAcbpa", "g": "מֵאוֹת" },
         { "t": "and three", "s": "H7969", "m": "HAcfsa", "g": "שָׁלֹשׁ" },
-        { "t": "years,", "s": "H8141", "m": "HNcfpa", "g": "שָׁנִים" },
+        { "t": "years,", "s": "H8141", "m": "HNcfsa", "g": "שָׁנָה" },
         { "t": "and begat", "s": "H3205", "m": "HC/Vhw3ms", "g": "וַיּוֹלֶד" },
         { "t": "sons", "s": "H1121", "m": "HNcmpa", "g": "בָּנִים" },
         { "t": "and daughters.", "s": "H1323", "m": "HC/Ncfpa", "g": "וּבָנוֹת" }
@@ -7533,7 +7538,7 @@
         { "t": "Reu", "s": "H7466", "m": "HNp", "g": "רְעוּ" },
         { "t": "two hundred", "s": "H3967", "m": "HC/Acbda", "g": "וּמָאתַיִם" },
         { "t": "and nine", "s": "H8672", "m": "HAcfsa", "g": "תֵּשַׁע" },
-        { "t": "years,", "s": "H8141", "m": "HNcfpa", "g": "שָׁנִים" },
+        { "t": "years,", "s": "H8141", "m": "HNcfsa", "g": "שָׁנָה" },
         { "t": "and begat", "s": "H3205", "m": "HC/Vhw3ms", "g": "וַיּוֹלֶד" },
         { "t": "sons", "s": "H1121", "m": "HNcmpa", "g": "בָּנִים" },
         { "t": "and daughters.", "s": "H1323", "m": "HC/Ncfpa", "g": "וּבָנוֹת" }
@@ -7555,7 +7560,7 @@
         { "t": "Serug", "s": "H8286", "m": "HNp", "g": "שְׂרוּג" },
         { "t": "two hundred", "s": "H3967", "m": "HC/Acbda", "g": "וּמָאתַיִם" },
         { "t": "and seven", "s": "H7651", "m": "HAcfsa", "g": "שֶׁבַע" },
-        { "t": "years,", "s": "H8141", "m": "HNcfpa", "g": "שָׁנִים" },
+        { "t": "years,", "s": "H8141", "m": "HNcfsa", "g": "שָׁנָה" },
         { "t": "and begat", "s": "H3205", "m": "HC/Vhw3ms", "g": "וַיּוֹלֶד" },
         { "t": "sons", "s": "H1121", "m": "HNcmpa", "g": "בָּנִים" },
         { "t": "and daughters.", "s": "H1323", "m": "HC/Ncfpa", "g": "וּבָנוֹת" }
@@ -7617,13 +7622,13 @@
         { "t": "these" },
         { "t": "are", "it": 1 },
         { "t": "the generations", "s": "H8435", "m": "HNcfpc", "g": "תּוֹלְדֹת" },
-        { "t": "of Terah:", "s": "H8646", "m": "HNp", "g": "תֶּרַח" },
-        { "t": "Terah", "s": "H8646", "m": "HNp", "g": "תֶּרַח" },
+        { "t": "of Terah:", "s": "H8646", "m": "HNp", "g": "תֶּרַח תֶּרַח" },
+        { "t": "Terah", "s": "H8646", "m": "HNp", "g": "תֶּרַח תֶּרַח" },
         { "t": "begat", "s": "H3205", "m": "HVhp3ms", "g": "הוֹלִיד" },
         { "t": "Abram,", "s": "H87", "m": "HNp", "g": "אַבְרָם" },
         { "t": "Nahor,", "s": "H5152", "m": "HNp", "g": "נָחוֹר" },
-        { "t": "and Haran;", "s": "H2039", "m": "HNp", "g": "הָרָן" },
-        { "t": "and Haran", "s": "H2039", "m": "HC/Np", "g": "וְהָרָן" },
+        { "t": "and Haran;", "s": "H2039", "m": "HNp", "g": "הָרָן וְהָרָן" },
+        { "t": "and Haran", "s": "H2039", "m": "HNp", "g": "הָרָן וְהָרָן" },
         { "t": "begat", "s": "H3205", "m": "HVhp3ms", "g": "הוֹלִיד" },
         { "t": "Lot.", "s": "H3876", "m": "HNp", "g": "לוֹט" }
       ],
@@ -7717,7 +7722,7 @@
           "g": "וּמָאתַיִם"
         },
         { "t": "and five", "s": "H2568", "m": "HAcfsa", "g": "חָמֵשׁ" },
-        { "t": "years:", "s": "H8141", "m": "HNcfpa", "g": "שָׁנִים" },
+        { "t": "years:", "s": "H8141", "m": "HNcfsa", "g": "שָׁנָה" },
         { "t": "and Terah", "s": "H8646", "m": "HNp", "g": "תֶּרַח" },
         { "t": "died", "s": "H4191", "m": "HC/Vqw3ms", "g": "וַיָּמָת" },
         { "t": "in Haran.", "s": "H2771", "m": "HR/Np", "g": "בְּחָרָן" }
@@ -7942,11 +7947,11 @@
           "g": "הָהָרָה"
         },
         { "t": "on the east", "s": "H6924", "m": "HR/Ncmsa", "g": "מִקֶּדֶם" },
-        { "t": "of Beth–el,", "s": "H1008", "m": "HR/Np", "g": "לְבֵית" },
+        { "t": "of Beth–el,", "s": "H1008", "m": "HR/Np", "g": "לְבֵית אֵל" },
         { "t": "and pitched", "s": "H5186", "m": "HC/Vqw3ms", "g": "וַיֵּט" },
         { "t": "his tent,", "s": "H168", "m": "HNcmsc/Sp3ms", "g": "אָהֳלֹה" },
         { "t": "having", "it": 1 },
-        { "t": "Beth–el", "s": "H1008", "m": "HNp", "g": "אֵל" },
+        { "t": "Beth–el", "s": "H1008", "m": "HNp", "g": "בֵּית אֵל" },
         { "t": "on the west,", "s": "H3220", "m": "HR/Ncmsa", "g": "מִיָּם" },
         { "t": "and Hai", "s": "H5857", "m": "HC/Td/Np", "g": "וְהָעַי" },
         { "t": "on the east:", "s": "H6924", "m": "HR/Ncmsa", "g": "מִקֶּדֶם" },
@@ -8266,13 +8271,13 @@
           "g": "לְמַסָּעָיו"
         },
         { "t": "from the south", "s": "H5045", "m": "HR/Ncmsa", "g": "מִנֶּגֶב" },
-        { "t": "even to Beth–el,", "s": "H1008", "m": "HNp", "g": "בֵּית" },
+        { "t": "even to Beth–el,", "s": "H1008", "m": "HNp", "g": "בֵּית אֵל" },
         { "t": "unto the place", "s": "H4725", "m": "HTd/Ncmsa", "g": "הַמָּקוֹם" },
         {
           "t": "where his tent",
           "s": "H168",
           "m": "HNcmsc/Sp3ms",
-          "g": "אָהֳלוֹ"
+          "g": "אהלה"
         },
         { "t": "had been", "s": "H1961", "m": "HVqp3ms", "g": "הָיָה" },
         {
@@ -8281,7 +8286,7 @@
           "m": "HRd/Ncfsa",
           "g": "בַּתְּחִלָּה"
         },
-        { "t": "between Beth–el", "s": "H1008", "m": "HNp", "g": "אֵל" },
+        { "t": "between Beth–el", "s": "H1008", "m": "HNp", "g": "בֵּית אֵל" },
         { "t": "and Hai;", "s": "H5857", "m": "HTd/Np", "g": "הָעָי" }
       ],
       [
@@ -8679,7 +8684,7 @@
         { "t": "these", "it": 1 },
         { "t": "made", "s": "H6213", "m": "HVqp3cp", "g": "עָשׂוּ" },
         { "t": "war", "s": "H4421", "m": "HNcfsa", "g": "מִלְחָמָה" },
-        { "t": "with", "s": "H854", "m": "HR", "g": "אֶת" },
+        { "t": "with", "s": "H854", "m": "HC/R", "g": "וְאֶת" },
         { "t": "Bera", "s": "H1298", "m": "HNp", "g": "בֶּרַע" },
         { "t": "king", "s": "H4428", "m": "HNcmsc", "g": "מֶלֶךְ" },
         { "t": "of Sodom,", "s": "H5467", "m": "HNp", "g": "סְדֹם" },
@@ -8752,8 +8757,8 @@
         {
           "t": "in Ashteroth Karnaim,",
           "s": "H6255",
-          "m": "HR/Np",
-          "g": "בְּעַשְׁתְּרֹת"
+          "m": "HNgmsa",
+          "g": "קַרְנַיִם"
         },
         {
           "t": "and the Zuzims",
@@ -8769,7 +8774,7 @@
         { "t": "And the Horites", "s": "H2752", "m": "HTd/Ngmsa", "g": "הַחֹרִי" },
         { "t": "in their mount", "s": "H2042" },
         { "t": "Seir,", "s": "H8165", "m": "HNp", "g": "שֵׂעִיר" },
-        { "t": "unto El–paran,", "s": "H364", "m": "HNp", "g": "אֵיל" },
+        { "t": "unto El–paran,", "s": "H364", "m": "HNp", "g": "אֵיל פָּארָן" },
         { "t": "which" },
         { "t": "is", "it": 1 },
         { "t": "by", "s": "H5921", "m": "HR", "g": "עַל" },
@@ -8784,7 +8789,7 @@
         },
         { "t": "and came", "s": "H935", "m": "HC/Vqw3mp", "g": "וַיָּבֹאוּ" },
         { "t": "to", "s": "H413", "m": "HR", "g": "אֶל" },
-        { "t": "En–mishpat,", "s": "H5880", "m": "HNp", "g": "עֵין" },
+        { "t": "En–mishpat,", "s": "H5880", "m": "HNp", "g": "עֵין מִשְׁפָּט" },
         { "t": "which" },
         { "t": "is", "it": 1 },
         { "t": "Kadesh,", "s": "H6946", "m": "HNp", "g": "קָדֵשׁ" },
@@ -8803,7 +8808,12 @@
           "g": "הָאֱמֹרִי"
         },
         { "t": "that dwelt", "s": "H3427", "m": "HTd/Vqrmsa", "g": "הַיֹּשֵׁב" },
-        { "t": "in Hazezon–tamar.", "s": "H2688", "m": "HR/Np", "g": "בְּחַצְצֹן" }
+        {
+          "t": "in Hazezon–tamar.",
+          "s": "H2688",
+          "m": "HR/Np",
+          "g": "בְּחַצְצֹן תָּמָר"
+        }
       ],
       [
         {
@@ -8819,7 +8829,7 @@
         { "t": "and the king", "s": "H4428", "m": "HC/Ncmsc", "g": "וּמֶלֶךְ" },
         { "t": "of Admah,", "s": "H126", "m": "HNp", "g": "אַדְמָה" },
         { "t": "and the king", "s": "H4428", "m": "HC/Ncmsc", "g": "וּמֶלֶךְ" },
-        { "t": "of Zeboiim,", "s": "H6636", "m": "HNp", "g": "צְבוֹיִם" },
+        { "t": "of Zeboiim,", "s": "H6636", "m": "HNp", "g": "צביים" },
         { "t": "and the king", "s": "H4428", "m": "HC/Ncmsc", "g": "וּמֶלֶךְ" },
         { "t": "of Bela", "s": "H1106", "m": "HNp", "g": "בֶּלַע" },
         { "t": "(the same", "s": "H1931", "m": "HPp3fs", "g": "הִוא" },
@@ -9070,7 +9080,12 @@
         { "t": "dale.", "s": "H6010", "m": "HNcmsc", "g": "עֵמֶק" }
       ],
       [
-        { "t": "And Melchizedek", "s": "H4442", "m": "HC/Np", "g": "וּמַלְכִּי" },
+        {
+          "t": "And Melchizedek",
+          "s": "H4442",
+          "m": "HC/Np",
+          "g": "וּמַלְכִּי צֶדֶק"
+        },
         { "t": "king", "s": "H4428", "m": "HNcmsc", "g": "מֶלֶךְ" },
         { "t": "of Salem", "s": "H8004", "m": "HNp", "g": "שָׁלֵם" },
         { "t": "brought forth", "s": "H3318", "m": "HVhp3ms", "g": "הוֹצִיא" },
@@ -10033,7 +10048,7 @@
           "g": "לַבְּאֵר"
         },
         { "t": "was called", "s": "H7121", "m": "HVqp3ms", "g": "קָרָא" },
-        { "t": "Beer–lahai–roi;", "s": "H883", "m": "HNp", "g": "בְּאֵר" },
+        { "t": "Beer–lahai–roi;", "s": "H883", "m": "HNp", "g": "בְּאֵר לַחַי רֹאִי" },
         { "t": "behold," },
         { "t": "it", "it": 1 },
         { "t": "is", "it": 1 },
@@ -10058,7 +10073,7 @@
         { "t": "was", "it": 1 },
         { "t": "fourscore", "s": "H8084", "m": "HAcbpa", "g": "שְׁמֹנִים" },
         { "t": "and six", "s": "H8337", "m": "HC/Acfsa", "g": "וְשֵׁשׁ" },
-        { "t": "years", "s": "H8141", "m": "HNcfsa", "g": "שָׁנָה" },
+        { "t": "years", "s": "H8141", "m": "HNcfpa", "g": "שָׁנִים" },
         { "t": "old,", "s": "H1121", "m": "HNcmsc", "g": "בֶּן" },
         { "t": "when Hagar", "s": "H1904", "m": "HNp", "g": "הָגָר" },
         { "t": "bare", "s": "H3205", "m": "HR/Vqc", "g": "בְּלֶדֶת" },
@@ -10106,7 +10121,7 @@
           "m": "HC/Vhh1cs",
           "g": "וְאַרְבֶּה"
         },
-        { "t": "thee exceedingly.", "s": "H3966", "m": "HR/D", "g": "בִּמְאֹד" }
+        { "t": "thee exceedingly.", "s": "H3966", "m": "HD", "g": "מְאֹד" }
       ],
       [
         { "t": "And Abram", "s": "H87", "m": "HNp", "g": "אַבְרָם" },
@@ -11573,8 +11588,8 @@
         { "t": "as soon as", "s": "H834", "m": "HR/Tr", "g": "כַּאֲשֶׁר" },
         { "t": "he had left", "s": "H3615", "m": "HVpp3ms", "g": "כִּלָּה" },
         { "t": "communing", "s": "H1696", "m": "HR/Vpc", "g": "לְדַבֵּר" },
-        { "t": "with Abraham:", "s": "H85", "m": "HNp", "g": "אַבְרָהָם" },
-        { "t": "and Abraham", "s": "H85", "m": "HC/Np", "g": "וְאַבְרָהָם" },
+        { "t": "with Abraham:", "s": "H85", "m": "HNp", "g": "אַבְרָהָם וְאַבְרָהָם" },
+        { "t": "and Abraham", "s": "H85", "m": "HNp", "g": "אַבְרָהָם וְאַבְרָהָם" },
         { "t": "returned", "s": "H7725", "m": "HVqp3ms", "g": "שָׁב" },
         {
           "t": "unto his place.",
@@ -12632,7 +12647,7 @@
         { "t": "a son,", "s": "H1121", "m": "HNcmsa", "g": "בֵּן" },
         { "t": "and called", "s": "H7121", "m": "HC/Vqw3fs", "g": "וַתִּקְרָא" },
         { "t": "his name", "s": "H8034", "m": "HNcmsc/Sp3ms", "g": "שְׁמוֹ" },
-        { "t": "Ben–ammi:", "s": "H1151", "m": "HNp", "g": "בֶּן" },
+        { "t": "Ben–ammi:", "s": "H1151", "m": "HNp", "g": "בֶּן עַמִּי" },
         { "t": "the" },
         { "t": "same" },
         { "t": "is", "it": 1 },
@@ -13396,7 +13411,7 @@
           "m": "HR/Ncmsc",
           "g": "בְּמִדְבַּר"
         },
-        { "t": "of Beer–sheba.", "s": "H884", "m": "HNp", "g": "בְּאֵר" }
+        { "t": "of Beer–sheba.", "s": "H884", "m": "HNp", "g": "בְּאֵר שָׁבַע" }
       ],
       [
         { "t": "And the water", "s": "H4325", "m": "HTd/Ncmpa", "g": "הַמַּיִם" },
@@ -13733,7 +13748,7 @@
           "g": "קָרָא"
         },
         { "t": "that place", "s": "H4725", "m": "HRd/Ncmsa", "g": "לַמָּקוֹם" },
-        { "t": "Beer–sheba;", "s": "H884", "m": "HNp", "g": "בְּאֵר" },
+        { "t": "Beer–sheba;", "s": "H884", "m": "HNp", "g": "בְּאֵר שָׁבַע" },
         {
           "t": "because there they sware",
           "s": "H7650",
@@ -13755,7 +13770,7 @@
           "g": "וַיִּכְרְתוּ"
         },
         { "t": "a covenant", "s": "H1285", "m": "HNcfsa", "g": "בְרִית" },
-        { "t": "at Beer–sheba:", "s": "H884", "m": "HR/Np", "g": "בִּבְאֵר" },
+        { "t": "at Beer–sheba:", "s": "H884", "m": "HR/Np", "g": "בִּבְאֵר שָׁבַע" },
         { "t": "then Abimelech", "s": "H40", "m": "HNp", "g": "אֲבִימֶלֶךְ" },
         { "t": "rose up,", "s": "H6965", "m": "HC/Vqw3ms", "g": "וַיָּקָם" },
         { "t": "and Phichol", "s": "H6369", "m": "HC/Np", "g": "וּפִיכֹל" },
@@ -13780,7 +13795,7 @@
         { "t": "Abraham", "it": 1 },
         { "t": "planted", "s": "H5193", "m": "HC/Vqw3ms", "g": "וַיִּטַּע" },
         { "t": "a grove", "s": "H815", "m": "HNcmsa", "g": "אֶשֶׁל" },
-        { "t": "in Beer–sheba,", "s": "H884", "m": "HR/Np", "g": "בִּבְאֵר" },
+        { "t": "in Beer–sheba,", "s": "H884", "m": "HR/Np", "g": "בִּבְאֵר שָׁבַע" },
         { "t": "and called", "s": "H7121", "m": "HC/Vqw3ms", "g": "וַיִּקְרָא" },
         { "t": "there on the name", "s": "H8034", "m": "HR/Ncmsc", "g": "בְּשֵׁם" },
         { "t": "of the Lord,", "s": "H3068", "dn": 1, "m": "HNp", "g": "יְהוָה" },
@@ -14068,8 +14083,8 @@
           "g": "הַשָּׁמַיִם"
         },
         { "t": "and said,", "s": "H559", "m": "HC/Vqw3ms", "g": "וַיֹּאמֶר" },
-        { "t": "Abraham,", "s": "H85", "m": "HNp", "g": "אַבְרָהָם" },
-        { "t": "Abraham:", "s": "H85", "m": "HNp", "g": "אַבְרָהָם" },
+        { "t": "Abraham,", "s": "H85", "m": "HNp", "g": "אַבְרָהָם אַבְרָהָם" },
+        { "t": "Abraham:", "s": "H85", "m": "HNp", "g": "אַבְרָהָם אַבְרָהָם" },
         { "t": "and he said,", "s": "H559", "m": "HC/Vqw3ms", "g": "וַיֹּאמֶר" },
         { "t": "Here" },
         { "t": "am", "it": 1 },
@@ -14147,7 +14162,7 @@
         { "t": "this day,", "s": "H3117", "m": "HTd/Ncmsa", "g": "הַיּוֹם" },
         { "t": "In the mount", "s": "H2022", "m": "HR/Ncmsc", "g": "בְּהַר" },
         { "t": "of the Lord", "s": "H3068", "dn": 1, "m": "HNp", "g": "יְהוָה" },
-        { "t": "it shall be seen.", "s": "H7200", "m": "HVqi3ms", "g": "יִרְאֶה" }
+        { "t": "it shall be seen.", "s": "H7200", "m": "HVNi3ms", "g": "יֵרָאֶה" }
       ],
       [
         { "t": "And the angel", "s": "H4397", "m": "HNcmsc", "g": "מַלְאַךְ" },
@@ -14250,10 +14265,10 @@
         },
         { "t": "and went", "s": "H3212", "m": "HC/Vqw3mp", "g": "וַיֵּלְכוּ" },
         { "t": "together", "s": "H3162", "m": "HD", "g": "יַחְדָּו" },
-        { "t": "to Beer–sheba;", "s": "H884", "m": "HNp", "g": "בְּאֵר" },
+        { "t": "to Beer–sheba;", "s": "H884", "m": "HNp", "g": "בְּאֵר שָׁבַע" },
         { "t": "and Abraham", "s": "H85", "m": "HNp", "g": "אַבְרָהָם" },
         { "t": "dwelt", "s": "H3427", "m": "HC/Vqw3ms", "g": "וַיֵּשֶׁב" },
-        { "t": "at Beer–sheba.", "s": "H884", "m": "HNp", "g": "שָׁבַע" }
+        { "t": "at Beer–sheba.", "s": "H884", "m": "HR/Np", "g": "בִּבְאֵר שָׁבַע" }
       ],
       [
         {
@@ -14346,7 +14361,7 @@
         { "t": "old:", "s": "H2416", "m": "HNcmpc", "g": "חַיֵּי" },
         { "t": "these", "it": 1 },
         { "t": "were", "it": 1 },
-        { "t": "the years", "s": "H8141", "m": "HNcfsa", "g": "שָׁנָה" },
+        { "t": "the years", "s": "H8141", "m": "HAcmdc", "g": "שְׁנֵי" },
         { "t": "of the life", "s": "H2416", "m": "HNcmpc", "g": "חַיֵּי" },
         { "t": "of Sarah.", "s": "H8283", "m": "HNp", "g": "שָׂרָה" }
       ],
@@ -14652,7 +14667,7 @@
         { "t": "of silver;", "s": "H3701", "m": "HNcmsa", "g": "כֶּסֶף" },
         { "t": "what" },
         { "t": "is", "it": 1 },
-        { "t": "that betwixt", "s": "H996", "m": "HR/Sp1cs", "g": "בֵּינִי" },
+        { "t": "that betwixt", "s": "H996", "m": "HC/R/Sp2ms", "g": "וּבֵינְךָ" },
         { "t": "me and thee? bury", "s": "H6912", "m": "HVqv2ms", "g": "קְבֹר" },
         {
           "t": "therefore thy dead.",
@@ -15082,7 +15097,7 @@
         },
         { "t": "and he arose,", "s": "H6965", "m": "HC/Vqw3ms", "g": "וַיָּקָם" },
         { "t": "and went", "s": "H3212", "m": "HC/Vqw3ms", "g": "וַיֵּלֶךְ" },
-        { "t": "to Mesopotamia,", "s": "H763", "m": "HNp", "g": "אֲרַם" },
+        { "t": "to Mesopotamia,", "s": "H763", "m": "HNp", "g": "אֲרַם נַהֲרַיִם" },
         { "t": "unto the city", "s": "H5892", "m": "HNcfsc", "g": "עִיר" },
         { "t": "of Nahor.", "s": "H5152", "m": "HNp", "g": "נָחוֹר" }
       ],
@@ -16085,14 +16100,14 @@
         { "t": "Drink,", "s": "H8354", "m": "HVqv2ms", "g": "שְׁתֵה" },
         { "t": "and I will give", "s": "H8248", "m": "HVhi1cs", "g": "אַשְׁקֶה" },
         { "t": "thy camels", "s": "H1581", "m": "HNcmpc/Sp2ms", "g": "גְּמַלֶּיךָ" },
-        { "t": "drink", "s": "H8248", "m": "HVhp3fs", "g": "הִשְׁקָתָה" },
+        { "t": "drink", "s": "H8248", "m": "HVhi1cs", "g": "אַשְׁקֶה" },
         {
           "t": "also: so I drank,",
           "s": "H8354",
           "m": "HC/Vqw1cs",
           "g": "וָאֵשְׁתְּ"
         },
-        { "t": "and she made", "s": "H8248", "m": "HVhp3fs", "g": "הִשְׁקָתָה" },
+        { "t": "and she made", "s": "H8248", "m": "HVhi1cs", "g": "אַשְׁקֶה" },
         { "t": "the camels", "s": "H1581", "m": "HTd/Ncmpa", "g": "הַגְּמַלִּים" },
         { "t": "drink", "s": "H8248", "m": "HVhp3fs", "g": "הִשְׁקָתָה" },
         { "t": "also." }
@@ -16516,7 +16531,12 @@
         { "t": "And Isaac", "s": "H3327", "m": "HC/Np", "g": "וְיִצְחָק" },
         { "t": "came", "s": "H935", "m": "HVqp3ms", "g": "בָּא" },
         { "t": "from the way", "s": "H935", "m": "HR/Vqc", "g": "מִבּוֹא" },
-        { "t": "of the well Lahai–roi;", "s": "H883", "m": "HNp", "g": "בְּאֵר" },
+        {
+          "t": "of the well Lahai–roi;",
+          "s": "H883",
+          "m": "HNp",
+          "g": "בְּאֵר לַחַי רֹאִי"
+        },
         { "t": "for he dwelt", "s": "H3427", "m": "HVqrmsa", "g": "יוֹשֵׁב" },
         { "t": "in the south", "s": "H5045", "m": "HTd/Ncmsa", "g": "הַנֶּגֶב" },
         { "t": "country.", "s": "H776", "m": "HR/Ncbsc", "g": "בְּאֶרֶץ" }
@@ -16752,7 +16772,7 @@
           "m": "HC/Acbpa",
           "g": "וְשִׁבְעִים"
         },
-        { "t": "years.", "s": "H8141", "m": "HNcfsa", "g": "שָׁנָה" }
+        { "t": "years.", "s": "H8141", "m": "HNcfpa", "g": "שָׁנִים" }
       ],
       [
         { "t": "Then Abraham", "s": "H85", "m": "HNp", "g": "אַבְרָהָם" },
@@ -16826,7 +16846,12 @@
         { "t": "and Isaac", "s": "H3327", "m": "HNp", "g": "יִצְחָק" },
         { "t": "dwelt", "s": "H3427", "m": "HC/Vqw3ms", "g": "וַיֵּשֶׁב" },
         { "t": "by", "s": "H5973", "m": "HR", "g": "עִם" },
-        { "t": "the well Lahai–roi.", "s": "H883", "m": "HNp", "g": "בְּאֵר" }
+        {
+          "t": "the well Lahai–roi.",
+          "s": "H883",
+          "m": "HNp",
+          "g": "בְּאֵר לַחַי רֹאִי"
+        }
       ],
       [
         { "t": "Now" },
@@ -16915,13 +16940,13 @@
         { "t": "And" },
         { "t": "these" },
         { "t": "are", "it": 1 },
-        { "t": "the years", "s": "H8141", "m": "HAcmdc", "g": "שְׁנֵי" },
+        { "t": "the years", "s": "H8141", "m": "HNcfsa", "g": "שָׁנָה" },
         { "t": "of the life", "s": "H2416", "m": "HNcmpc", "g": "חַיֵּי" },
         { "t": "of Ishmael,", "s": "H3458", "m": "HNp", "g": "יִשְׁמָעֵאל" },
         { "t": "an hundred", "s": "H3967", "m": "HAcfsc", "g": "מְאַת" },
         { "t": "and thirty", "s": "H7970", "m": "HC/Acbpa", "g": "וּשְׁלֹשִׁים" },
         { "t": "and seven", "s": "H7651", "m": "HC/Acfsa", "g": "וְשֶׁבַע" },
-        { "t": "years:", "s": "H8141", "m": "HNcfsa", "g": "שָׁנָה" },
+        { "t": "years:", "s": "H8141", "m": "HNcfpa", "g": "שָׁנִים" },
         {
           "t": "and he gave up the ghost",
           "s": "H1478",
@@ -16973,9 +16998,9 @@
         { "t": "are", "it": 1 },
         { "t": "the generations", "s": "H8435", "m": "HNcfpc", "g": "תּוֹלְדֹת" },
         { "t": "of Isaac,", "s": "H3327", "m": "HNp", "g": "יִצְחָק" },
-        { "t": "Abraham’s", "s": "H85", "m": "HNp", "g": "אַבְרָהָם" },
+        { "t": "Abraham’s", "s": "H85", "m": "HNp", "g": "אַבְרָהָם אַבְרָהָם" },
         { "t": "son:", "s": "H1121", "m": "HNcmsc", "g": "בֶּן" },
-        { "t": "Abraham", "s": "H85", "m": "HNp", "g": "אַבְרָהָם" },
+        { "t": "Abraham", "s": "H85", "m": "HNp", "g": "אַבְרָהָם אַבְרָהָם" },
         { "t": "begat", "s": "H3205", "m": "HVhp3ms", "g": "הוֹלִיד" },
         { "t": "Isaac:", "s": "H3327", "m": "HNp", "g": "יִצְחָק" }
       ],
@@ -16995,7 +17020,7 @@
         { "t": "the daughter", "s": "H1323", "m": "HNcfsc", "g": "בַּת" },
         { "t": "of Bethuel", "s": "H1328", "m": "HNp", "g": "בְּתוּאֵל" },
         { "t": "the Syrian", "s": "H761", "m": "HTd/Ngmsa", "g": "הָאֲרַמִּי" },
-        { "t": "of Padan–aram,", "s": "H6307", "m": "HR/Np", "g": "מִפַּדַּן" },
+        { "t": "of Padan–aram,", "s": "H6307", "m": "HR/Np", "g": "מִפַּדַּן אֲרָם" },
         { "t": "the sister", "s": "H269", "m": "HNcfsc", "g": "אֲחוֹת" },
         { "t": "to Laban", "s": "H3837", "m": "HNp", "g": "לָבָן" },
         { "t": "the Syrian.", "s": "H761", "m": "HTd/Ngmsa", "g": "הָאֲרַמִּי" }
@@ -17051,7 +17076,7 @@
         { "t": "And the Lord", "s": "H3068", "dn": 1, "m": "HNp", "g": "יְהוָה" },
         { "t": "said", "s": "H559", "m": "HC/Vqw3ms", "g": "וַיֹּאמֶר" },
         { "t": "unto her, Two", "s": "H8147", "m": "HAcmdc", "g": "שְׁנֵי" },
-        { "t": "nations", "s": "H1471", "m": "HNcmpa", "g": "גוֹיִם" },
+        { "t": "nations", "s": "H1471", "m": "HNcmpa", "g": "גיים" },
         { "t": "are", "it": 1 },
         {
           "t": "in thy womb,",
@@ -17167,7 +17192,7 @@
         { "t": "and Jacob", "s": "H3290", "m": "HC/Np", "g": "וְיַעֲקֹב" },
         { "t": "was", "it": 1 },
         { "t": "a plain", "s": "H8535", "m": "HAamsa", "g": "תָּם" },
-        { "t": "man,", "s": "H376", "m": "HNcmsc", "g": "אִישׁ" },
+        { "t": "man,", "s": "H376", "m": "HNcmsa", "g": "אִישׁ" },
         { "t": "dwelling", "s": "H3427", "m": "HVqrmsa", "g": "יֹשֵׁב" },
         { "t": "in tents.", "s": "H168", "m": "HNcmpa", "g": "אֹהָלִים" }
       ],
@@ -17693,7 +17718,7 @@
         { "t": "in the valley", "s": "H5158", "m": "HR/Ncmsc", "g": "בְּנַחַל" },
         { "t": "of Gerar,", "s": "H1642", "m": "HNp", "g": "גְּרָר" },
         { "t": "and dwelt", "s": "H3427", "m": "HC/Vqw3ms", "g": "וַיֵּשֶׁב" },
-        { "t": "there.", "s": "H8033", "m": "HR/D", "g": "מִשָּׁם" }
+        { "t": "there.", "s": "H8033", "m": "HD", "g": "שָׁם" }
       ],
       [
         { "t": "And Isaac", "s": "H3327", "m": "HNp", "g": "יִצְחָק" },
@@ -17841,7 +17866,7 @@
           "t": "from thence to Beer–sheba.",
           "s": "H884",
           "m": "HNp",
-          "g": "בְּאֵר"
+          "g": "בְּאֵר שָׁבַע"
         }
       ],
       [
@@ -17968,10 +17993,10 @@
           "m": "HNcfsa",
           "g": "אָלָה"
         },
-        { "t": "betwixt", "s": "H996", "m": "HR/Sp1cp", "g": "בֵּינוֹתֵינוּ" },
+        { "t": "betwixt", "s": "H996", "m": "HR/Sp1cp", "g": "בֵּינֵינוּ" },
         { "t": "us," },
         { "t": "even", "it": 1 },
-        { "t": "betwixt", "s": "H996", "m": "HR/Sp1cp", "g": "בֵּינֵינוּ" },
+        { "t": "betwixt", "s": "H996", "m": "HR/Sp1cp", "g": "בֵּינוֹתֵינוּ" },
         {
           "t": "us and thee, and let us make",
           "s": "H3772",
@@ -18093,7 +18118,7 @@
         { "t": "therefore the name", "s": "H8034", "m": "HNcmsc", "g": "שֵׁם" },
         { "t": "of the city", "s": "H5892", "m": "HTd/Ncfsa", "g": "הָעִיר" },
         { "t": "is", "it": 1 },
-        { "t": "Beer–sheba", "s": "H884", "m": "HNp", "g": "בְּאֵר" },
+        { "t": "Beer–sheba", "s": "H884", "m": "HAcfsa", "g": "שֶׁבַע" },
         { "t": "unto this day.", "s": "H3117", "m": "HTd/Ncmsa", "g": "הַיּוֹם" }
       ],
       [
@@ -19401,7 +19426,7 @@
       [
         { "t": "Arise,", "s": "H6965", "m": "HVqv2ms", "g": "קוּם" },
         { "t": "go", "s": "H3212", "m": "HVqv2ms", "g": "לֵךְ" },
-        { "t": "to Padan–aram,", "s": "H6307", "m": "HNp/Sd", "g": "פַּדֶּנָה" },
+        { "t": "to Padan–aram,", "s": "H6307", "m": "HNp/Sd", "g": "פַּדֶּנָה אֲרָם" },
         { "t": "to the house", "s": "H1004", "m": "HNcmsc/Sd", "g": "בֵּיתָה" },
         { "t": "of Bethuel", "s": "H1328", "m": "HNp", "g": "בְתוּאֵל" },
         { "t": "thy mother’s", "s": "H517", "m": "HNcfsc/Sp2ms", "g": "אִמֶּךָ" },
@@ -19474,7 +19499,7 @@
         { "t": "sent away", "s": "H7971", "m": "HC/Vqw3ms", "g": "וַיִּשְׁלַח" },
         { "t": "Jacob:", "s": "H3290", "m": "HNp", "g": "יַעֲקֹב" },
         { "t": "and he went", "s": "H3212", "m": "HC/Vqw3ms", "g": "וַיֵּלֶךְ" },
-        { "t": "to Padan–aram", "s": "H6307", "m": "HNp/Sd", "g": "פַּדֶּנָה" },
+        { "t": "to Padan–aram", "s": "H6307", "m": "HNp/Sd", "g": "פַּדֶּנָה אֲרָם" },
         { "t": "unto Laban,", "s": "H3837", "m": "HNp", "g": "לָבָן" },
         { "t": "son", "s": "H1121", "m": "HNcmsc", "g": "בֶּן" },
         { "t": "of Bethuel", "s": "H1328", "m": "HNp", "g": "בְּתוּאֵל" },
@@ -19497,7 +19522,7 @@
           "m": "HC/Vpp3ms",
           "g": "וְשִׁלַּח"
         },
-        { "t": "to Padan–aram,", "s": "H6307", "m": "HNp/Sd", "g": "פַּדֶּנָה" },
+        { "t": "to Padan–aram,", "s": "H6307", "m": "HNp/Sd", "g": "פַּדֶּנָה אֲרָם" },
         { "t": "to take", "s": "H3947", "m": "HR/Vqc", "g": "לָקַחַת" },
         { "t": "him a wife", "s": "H802", "m": "HNcfsa", "g": "אִשָּׁה" },
         {
@@ -19539,7 +19564,7 @@
           "g": "אִמּוֹ"
         },
         { "t": "and was gone", "s": "H3212", "m": "HC/Vqw3ms", "g": "וַיֵּלֶךְ" },
-        { "t": "to Padan–aram;", "s": "H6307", "m": "HNp/Sd", "g": "פַּדֶּנָה" }
+        { "t": "to Padan–aram;", "s": "H6307", "m": "HNp/Sd", "g": "פַּדֶּנָה אֲרָם" }
       ],
       [
         { "t": "And Esau", "s": "H6215", "m": "HNp", "g": "עֵשָׂו" },
@@ -19574,7 +19599,7 @@
       [
         { "t": "And Jacob", "s": "H3290", "m": "HNp", "g": "יַעֲקֹב" },
         { "t": "went out", "s": "H3318", "m": "HC/Vqw3ms", "g": "וַיֵּצֵא" },
-        { "t": "from Beer–sheba,", "s": "H884", "m": "HR/Np", "g": "מִבְּאֵר" },
+        { "t": "from Beer–sheba,", "s": "H884", "m": "HR/Np", "g": "מִבְּאֵר שָׁבַע" },
         { "t": "and went", "s": "H3212", "m": "HC/Vqw3ms", "g": "וַיֵּלֶךְ" },
         { "t": "toward Haran.", "s": "H2771", "m": "HNp/Sd", "g": "חָרָנָה" }
       ],
@@ -19854,7 +19879,7 @@
         { "t": "And he called", "s": "H7121", "m": "HC/Vqw3ms", "g": "וַיִּקְרָא" },
         { "t": "the name", "s": "H8034", "m": "HNcmsc", "g": "שֵׁם" },
         { "t": "of that place", "s": "H4725", "m": "HTd/Ncmsa", "g": "הַמָּקוֹם" },
-        { "t": "Beth–el:", "s": "H1008", "m": "HNp", "g": "בֵּית" },
+        { "t": "Beth–el:", "s": "H1008", "m": "HNp", "g": "בֵּית אֵל" },
         { "t": "but", "s": "H199", "m": "HC/D", "g": "וְאוּלָם" },
         { "t": "the name", "s": "H8034", "m": "HNcmsc", "g": "שֵׁם" },
         { "t": "of that city", "s": "H5892", "m": "HTd/Ncfsa", "g": "הָעִיר" },
@@ -20854,7 +20879,7 @@
       [
         { "t": "And Leah", "s": "H3812", "m": "HNp", "g": "לֵאָה" },
         { "t": "said,", "s": "H559", "m": "HC/Vqw3fs", "g": "וַתֹּאמֶר" },
-        { "t": "A troop", "s": "H1409", "m": "HNcmsa", "g": "גָד" },
+        { "t": "A troop", "s": "H1409", "m": "HR/Ncmsa", "g": "בגד" },
         { "t": "cometh:", "s": "H935", "m": "HVqrmsa", "g": "בָּא" },
         { "t": "and she called", "s": "H7121", "m": "HC/Vqw3fs", "g": "וַתִּקְרָא" },
         { "t": "his name", "s": "H8034", "m": "HNcmsc/Sp3ms", "g": "שְׁמוֹ" },
@@ -21507,9 +21532,9 @@
           "t": "betwixt himself and Jacob:",
           "s": "H3290",
           "m": "HNp",
-          "g": "יַעֲקֹב"
+          "g": "יַעֲקֹב וְיַעֲקֹב"
         },
-        { "t": "and Jacob", "s": "H3290", "m": "HC/Np", "g": "וְיַעֲקֹב" },
+        { "t": "and Jacob", "s": "H3290", "m": "HNp", "g": "יַעֲקֹב וְיַעֲקֹב" },
         { "t": "fed", "s": "H7462", "m": "HVqrmsa", "g": "רֹעֶה" },
         { "t": "the rest", "s": "H3498", "m": "HTd/VNrfpa", "g": "הַנּוֹתָרֹת" },
         { "t": "of Laban’s", "s": "H3837", "m": "HNp", "g": "לָבָן" },
@@ -21970,7 +21995,7 @@
         { "t": "I" },
         { "t": "am", "it": 1 },
         { "t": "the God", "s": "H410", "m": "HTd/Ncmsa", "g": "הָאֵל" },
-        { "t": "of Beth–el,", "s": "H1008", "m": "HNp", "g": "בֵּית" },
+        { "t": "of Beth–el,", "s": "H1008", "m": "HNp", "g": "בֵּית אֵל" },
         {
           "t": "where thou anointedst",
           "s": "H4886",
@@ -22133,7 +22158,7 @@
           "m": "HVqp3ms",
           "g": "רָכַשׁ"
         },
-        { "t": "in Padan–aram,", "s": "H6307", "m": "HR/Np", "g": "בְּפַדַּן" },
+        { "t": "in Padan–aram,", "s": "H6307", "m": "HR/Np", "g": "בְּפַדַּן אֲרָם" },
         { "t": "for to go", "s": "H935", "m": "HR/Vqc", "g": "לָבוֹא" },
         { "t": "to Isaac", "s": "H3327", "m": "HNp", "g": "יִצְחָק" },
         { "t": "his father", "s": "H1", "m": "HNcmsc/Sp3ms", "g": "אָבִיו" },
@@ -22238,8 +22263,8 @@
       [
         { "t": "Then Laban", "s": "H3837", "m": "HNp", "g": "לָבָן" },
         { "t": "overtook", "s": "H5381", "m": "HC/Vhw3ms", "g": "וַיַּשֵּׂג" },
-        { "t": "Jacob.", "s": "H3290", "m": "HNp", "g": "יַעֲקֹב" },
-        { "t": "Now Jacob", "s": "H3290", "m": "HC/Np", "g": "וְיַעֲקֹב" },
+        { "t": "Jacob.", "s": "H3290", "m": "HNp", "g": "יַעֲקֹב וְיַעֲקֹב" },
+        { "t": "Now Jacob", "s": "H3290", "m": "HNp", "g": "יַעֲקֹב וְיַעֲקֹב" },
         { "t": "had pitched", "s": "H8628", "m": "HVqp3ms", "g": "תָּקַע" },
         { "t": "his tent", "s": "H168", "m": "HNcmsc/Sp3ms", "g": "אָהֳלוֹ" },
         { "t": "in the mount:", "s": "H2022", "m": "HRd/Ncmsa", "g": "בָּהָר" },
@@ -22876,7 +22901,12 @@
       [
         { "t": "And Laban", "s": "H3837", "m": "HNp", "g": "לָבָן" },
         { "t": "called", "s": "H7121", "m": "HC/Vqw3ms", "g": "וַיִּקְרָא" },
-        { "t": "it Jegar–sahadutha:", "s": "H3026", "m": "ANp", "g": "יְגַר" },
+        {
+          "t": "it Jegar–sahadutha:",
+          "s": "H3026",
+          "m": "ANp",
+          "g": "יְגַר שָׂהֲדוּתָא"
+        },
         { "t": "but Jacob", "s": "H3290", "m": "HC/Np", "g": "וְיַעֲקֹב" },
         { "t": "called", "s": "H7121", "m": "HVqp3ms", "g": "קָרָא" },
         { "t": "it Galeed.", "s": "H1567", "m": "HNp", "g": "גַּלְעֵד" }
@@ -24348,7 +24378,12 @@
         { "t": "in the land", "s": "H776", "m": "HR/Ncbsc", "g": "בְּאֶרֶץ" },
         { "t": "of Canaan,", "s": "H3667", "m": "HNp", "g": "כְּנַעַן" },
         { "t": "when he came", "s": "H935", "m": "HR/Vqc/Sp3ms", "g": "בְּבֹאוֹ" },
-        { "t": "from Padan–aram;", "s": "H6307", "m": "HR/Np", "g": "מִפַּדַּן" },
+        {
+          "t": "from Padan–aram;",
+          "s": "H6307",
+          "m": "HR/Np",
+          "g": "מִפַּדַּן אֲרָם"
+        },
         {
           "t": "and pitched his tent",
           "s": "H2583",
@@ -25177,7 +25212,7 @@
         { "t": "unto Jacob,", "s": "H3290", "m": "HNp", "g": "יַעֲקֹב" },
         { "t": "Arise,", "s": "H6965", "m": "HVqv2ms", "g": "קוּם" },
         { "t": "go up", "s": "H5927", "m": "HVqv2ms", "g": "עֲלֵה" },
-        { "t": "to Beth–el,", "s": "H1008", "m": "HNp", "g": "בֵית" },
+        { "t": "to Beth–el,", "s": "H1008", "m": "HNp", "g": "בֵית אֵל" },
         { "t": "and dwell", "s": "H3427", "m": "HC/Vqv2ms", "g": "וְשֶׁב" },
         { "t": "there: and make", "s": "H6213", "m": "HC/Vqv2ms", "g": "וַעֲשֵׂה" },
         { "t": "there an altar", "s": "H4196", "m": "HNcmsa", "g": "מִזְבֵּחַ" },
@@ -25240,7 +25275,7 @@
           "g": "וְנָקוּמָה"
         },
         { "t": "and go up", "s": "H5927", "m": "HC/Vqh1cp", "g": "וְנַעֲלֶה" },
-        { "t": "to Beth–el;", "s": "H1008", "m": "HNp", "g": "בֵּית" },
+        { "t": "to Beth–el;", "s": "H1008", "m": "HNp", "g": "בֵּית אֵל" },
         {
           "t": "and I will make",
           "s": "H6213",
@@ -25345,7 +25380,7 @@
         { "t": "of Canaan,", "s": "H3667", "m": "HNp", "g": "כְּנַעַן" },
         { "t": "that" },
         { "t": "is,", "it": 1 },
-        { "t": "Beth–el,", "s": "H1008", "m": "HNp", "g": "בֵּית" },
+        { "t": "Beth–el,", "s": "H1008", "m": "HNp", "g": "בֵּית אֵל" },
         {
           "t": "he and all the people",
           "s": "H5971",
@@ -25395,7 +25430,7 @@
           "m": "HC/VNw3fs",
           "g": "וַתִּקָּבֵר"
         },
-        { "t": "beneath Beth–el", "s": "H1008", "m": "HR/Np", "g": "לְבֵית" },
+        { "t": "beneath Beth–el", "s": "H1008", "m": "HR/Np", "g": "לְבֵית אֵל" },
         { "t": "under an oak:", "s": "H437", "m": "HTd/Ncmsa", "g": "הָאַלּוֹן" },
         { "t": "and the name", "s": "H8034", "m": "HNcmsc/Sp3ms", "g": "שְׁמוֹ" },
         {
@@ -25404,7 +25439,7 @@
           "m": "HC/Vqw3ms",
           "g": "וַיִּקְרָא"
         },
-        { "t": "Allon–bachuth.", "s": "H439", "m": "HNp", "g": "אַלּוֹן" }
+        { "t": "Allon–bachuth.", "s": "H439", "m": "HNp", "g": "אַלּוֹן בָּכוּת" }
       ],
       [
         { "t": "And God", "s": "H430", "m": "HNcmpa", "g": "אֱלֹהִים" },
@@ -25416,7 +25451,12 @@
           "m": "HR/Vqc/Sp3ms",
           "g": "בְּבֹאוֹ"
         },
-        { "t": "out of Padan–aram,", "s": "H6307", "m": "HR/Np", "g": "מִפַּדַּן" },
+        {
+          "t": "out of Padan–aram,",
+          "s": "H6307",
+          "m": "HR/Np",
+          "g": "מִפַּדַּן אֲרָם"
+        },
         { "t": "and blessed", "s": "H1288", "m": "HC/Vpw3ms", "g": "וַיְבָרֶךְ" },
         { "t": "him." }
       ],
@@ -25541,7 +25581,7 @@
         { "t": "of the place", "s": "H4725", "m": "HTd/Ncmsa", "g": "הַמָּקוֹם" },
         { "t": "where God", "s": "H430", "m": "HNcmpa", "g": "אֱלֹהִים" },
         { "t": "spake", "s": "H1696", "m": "HVpp3ms", "g": "דִּבֶּר" },
-        { "t": "with him, Beth–el.", "s": "H1008", "m": "HNp", "g": "בֵּית" }
+        { "t": "with him, Beth–el.", "s": "H1008", "m": "HNp", "g": "בֵּית אֵל" }
       ],
       [
         {
@@ -25550,7 +25590,7 @@
           "m": "HC/Vqw3mp",
           "g": "וַיִּסְעוּ"
         },
-        { "t": "from Beth–el;", "s": "H1008", "m": "HR/Np", "g": "מִבֵּית" },
+        { "t": "from Beth–el;", "s": "H1008", "m": "HR/Np", "g": "מִבֵּית אֵל" },
         { "t": "and there was but", "s": "H5750", "m": "HD", "g": "עוֹד" },
         { "t": "a little", "s": "H3530", "m": "HNcfsc", "g": "כִּבְרַת" },
         { "t": "way", "s": "H776", "m": "HTd/Ncbsa", "g": "הָאָרֶץ" },
@@ -25606,7 +25646,7 @@
           "g": "וַתִּקְרָא"
         },
         { "t": "his name", "s": "H8034", "m": "HNcmsc/Sp3ms", "g": "שְׁמוֹ" },
-        { "t": "Ben–oni:", "s": "H1126", "m": "HNp", "g": "בֶּן" },
+        { "t": "Ben–oni:", "s": "H1126", "m": "HNp", "g": "בֶּן אוֹנִי" },
         {
           "t": "but his father",
           "s": "H1",
@@ -25624,7 +25664,7 @@
         { "t": "to Ephrath,", "s": "H672", "m": "HNp", "g": "אֶפְרָתָה" },
         { "t": "which" },
         { "t": "is", "it": 1 },
-        { "t": "Beth–lehem.", "s": "H1035", "m": "HNp", "g": "בֵּית" }
+        { "t": "Beth–lehem.", "s": "H1035", "m": "HNp", "g": "בֵּית לָחֶם" }
       ],
       [
         { "t": "And Jacob", "s": "H3290", "m": "HNp", "g": "יַעֲקֹב" },
@@ -25650,7 +25690,7 @@
         { "t": "his tent", "s": "H168", "m": "HNcmsc/Sp3ms", "g": "אָהֳלֹה" },
         { "t": "beyond", "s": "H1973", "m": "HR/D", "g": "מֵהָלְאָה" },
         { "t": "the tower", "s": "H4026" },
-        { "t": "of Edar.", "s": "H4029", "m": "HR/Ncmsc", "g": "לְמִגְדַּל" }
+        { "t": "of Edar.", "s": "H4029", "m": "HNp", "g": "עֵדֶר" }
       ],
       [
         {
@@ -25716,7 +25756,7 @@
           "t": "to him in Padan–aram.",
           "s": "H6307",
           "m": "HR/Np",
-          "g": "בְּפַדַּן"
+          "g": "בְּפַדַּן אֲרָם"
         }
       ],
       [
@@ -25729,7 +25769,7 @@
           "t": "unto the city of Arbah,",
           "s": "H7153",
           "m": "HNp",
-          "g": "קִרְיַת"
+          "g": "קִרְיַת הָאַרְבַּע"
         },
         { "t": "which" },
         { "t": "is", "it": 1 },
@@ -26392,7 +26432,7 @@
       [
         { "t": "And Saul", "s": "H7586", "m": "HNp", "g": "שָׁאוּל" },
         { "t": "died,", "s": "H4191", "m": "HC/Vqw3ms", "g": "וַיָּמָת" },
-        { "t": "and Baal–hanan", "s": "H1177", "m": "HNp", "g": "בַּעַל" },
+        { "t": "and Baal–hanan", "s": "H1177", "m": "HNp", "g": "בַּעַל חָנָן" },
         { "t": "the son", "s": "H1121", "m": "HNcmsc", "g": "בֶּן" },
         { "t": "of Achbor", "s": "H5907", "m": "HNp", "g": "עַכְבּוֹר" },
         { "t": "reigned", "s": "H4427", "m": "HC/Vqw3ms", "g": "וַיִּמְלֹךְ" },
@@ -26401,7 +26441,7 @@
         { "t": "stead." }
       ],
       [
-        { "t": "And Baal–hanan", "s": "H1177", "m": "HNp", "g": "בַּעַל" },
+        { "t": "And Baal–hanan", "s": "H1177", "m": "HNp", "g": "בַּעַל חָנָן" },
         { "t": "the son", "s": "H1121", "m": "HNcmsc", "g": "בֶּן" },
         { "t": "of Achbor", "s": "H5907", "m": "HNp", "g": "עַכְבּוֹר" },
         { "t": "died,", "s": "H4191", "m": "HC/Vqw3ms", "g": "וַיָּמָת" },
@@ -26428,7 +26468,7 @@
         { "t": "the daughter", "s": "H1323", "m": "HNcfsc", "g": "בַּת" },
         { "t": "of Matred,", "s": "H4308", "m": "HNp", "g": "מַטְרֵד" },
         { "t": "the daughter", "s": "H1323", "m": "HNcfsc", "g": "בַּת" },
-        { "t": "of Mezahab.", "s": "H4314", "m": "HNp", "g": "מֵי" }
+        { "t": "of Mezahab.", "s": "H4314", "m": "HNp", "g": "מֵי זָהָב" }
       ],
       [
         { "t": "And" },
@@ -26637,8 +26677,8 @@
         {
           "t": "which I have dreamed:",
           "s": "H2492",
-          "m": "HTd/Ncmsa",
-          "g": "הַחֲלוֹם"
+          "m": "HVqp1cs",
+          "g": "חָלָמְתִּי"
         }
       ],
       [
@@ -28468,7 +28508,7 @@
         { "t": "a", "it": 1 },
         { "t": "goodly", "s": "H8389", "m": "HNcmsa", "g": "תֹאַר" },
         { "t": "person,", "it": 1 },
-        { "t": "and well", "s": "H3303", "m": "HAamsc", "g": "יְפֵה" },
+        { "t": "and well", "s": "H3303", "m": "HC/Aamsc", "g": "וִיפֵה" },
         { "t": "favoured.", "s": "H4758", "m": "HNcmsa", "g": "מַרְאֶה" }
       ],
       [
@@ -28607,7 +28647,7 @@
         { "t": "and" },
         { "t": "there", "it": 1 },
         { "t": "was", "it": 1 },
-        { "t": "none of the men", "s": "H376", "m": "HNcmsa", "g": "אִישׁ" },
+        { "t": "none of the men", "s": "H376", "m": "HR/Ncmpc", "g": "מֵאַנְשֵׁי" },
         { "t": "of the house", "s": "H1004", "m": "HTd/Ncmsa", "g": "הַבַּיִת" },
         { "t": "there" },
         { "t": "within." }
@@ -30451,12 +30491,17 @@
         { "t": "called", "s": "H7121", "m": "HC/Vqw3ms", "g": "וַיִּקְרָא" },
         { "t": "Joseph’s", "s": "H3130", "m": "HNp", "g": "יוֹסֵף" },
         { "t": "name", "s": "H8034", "m": "HNcmsc", "g": "שֵׁם" },
-        { "t": "Zaphnath–paaneah;", "s": "H6847", "m": "HNp", "g": "צָפְנַת" },
+        {
+          "t": "Zaphnath–paaneah;",
+          "s": "H6847",
+          "m": "HNp",
+          "g": "צָפְנַת פַּעְנֵחַ"
+        },
         { "t": "and he gave", "s": "H5414", "m": "HC/Vqw3ms", "g": "וַיִּתֶּן" },
         { "t": "him to wife", "s": "H802", "m": "HR/Ncfsa", "g": "לְאִשָּׁה" },
         { "t": "Asenath", "s": "H621", "m": "HNp", "g": "אָסְנַת" },
         { "t": "the daughter", "s": "H1323", "m": "HNcfsc", "g": "בַּת" },
-        { "t": "of Poti–pherah", "s": "H6319", "m": "HNp", "g": "פּוֹטִי" },
+        { "t": "of Poti–pherah", "s": "H6319", "m": "HNp", "g": "פּוֹטִי פֶרַע" },
         { "t": "priest", "s": "H3548", "m": "HNcmsc", "g": "כֹּהֵן" },
         { "t": "of On.", "s": "H204", "m": "HNp", "g": "אֹן" },
         { "t": "And Joseph", "s": "H3130", "m": "HNp", "g": "יוֹסֵף" },
@@ -30573,7 +30618,7 @@
         { "t": "came,", "s": "H935", "m": "HVqi3fs", "g": "תָּבוֹא" },
         { "t": "which Asenath", "s": "H621", "m": "HNp", "g": "אָסְנַת" },
         { "t": "the daughter", "s": "H1323", "m": "HNcfsc", "g": "בַּת" },
-        { "t": "of Poti–pherah", "s": "H6319", "m": "HNp", "g": "פּוֹטִי" },
+        { "t": "of Poti–pherah", "s": "H6319", "m": "HNp", "g": "פּוֹטִי פֶרַע" },
         { "t": "priest", "s": "H3548", "m": "HNcmsc", "g": "כֹּהֵן" },
         { "t": "of On", "s": "H204", "m": "HNp", "g": "אוֹן" },
         { "t": "bare", "s": "H3205", "m": "HVqp3fs", "g": "יָלְדָה" },
@@ -32572,15 +32617,15 @@
         {
           "t": "for him by himself, and for them by themselves, and for the Egyptians,",
           "s": "H4713",
-          "m": "HC/Rd/Ngmpa",
-          "g": "וְלַמִּצְרִים"
+          "m": "HTd/Ngmpa",
+          "g": "הַמִּצְרִים"
         },
         { "t": "which did eat", "s": "H398", "m": "HTd/Vqrmpa", "g": "הָאֹכְלִים" },
         {
           "t": "with him, by themselves: because the Egyptians",
           "s": "H4713",
-          "m": "HTd/Ngmpa",
-          "g": "הַמִּצְרִים"
+          "m": "HC/Rd/Ngmpa",
+          "g": "וְלַמִּצְרִים"
         },
         { "t": "might", "s": "H3201", "m": "HVqi3mp/Sn", "g": "יוּכְלוּן" },
         { "t": "not eat", "s": "H398", "m": "HR/Vqc", "g": "לֶאֱכֹל" },
@@ -32681,7 +32726,7 @@
         { "t": "sacks", "s": "H572", "m": "HNcfpc", "g": "אַמְתְּחֹת" },
         { "t": "with", "it": 1 },
         { "t": "food,", "s": "H400", "m": "HNcmsa", "g": "אֹכֶל" },
-        { "t": "as much as", "s": "H834", "m": "HTr", "g": "אֲשֶׁר" },
+        { "t": "as much as", "s": "H834", "m": "HR/Tr", "g": "כַּאֲשֶׁר" },
         { "t": "they can", "s": "H3201", "m": "HVqi3mp/Sn", "g": "יוּכְלוּן" },
         { "t": "carry,", "s": "H5375", "m": "HVqc", "g": "שְׂאֵת" },
         { "t": "and put", "s": "H7760", "m": "HC/Vqv2ms", "g": "וְשִׂים" },
@@ -33602,7 +33647,7 @@
         { "t": "and the Egyptians", "s": "H4714" },
         { "t": "and the house", "s": "H1004", "m": "HNcmsc", "g": "בֵּית" },
         { "t": "of Pharaoh", "s": "H6547", "m": "HNp", "g": "פַּרְעֹה" },
-        { "t": "heard.", "s": "H8085", "m": "HC/Vqw3mp", "g": "וַיִּשְׁמְעוּ" }
+        { "t": "heard.", "s": "H8085", "m": "HC/Vqw3ms", "g": "וַיִּשְׁמַע" }
       ],
       [
         { "t": "And Joseph", "s": "H3130", "m": "HNp", "g": "יוֹסֵף" },
@@ -34289,7 +34334,7 @@
           "m": "HC/Vqw3ms",
           "g": "וַיָּבֹא"
         },
-        { "t": "to Beer–sheba,", "s": "H884", "m": "HNp/Sd", "g": "בְּאֵרָה" },
+        { "t": "to Beer–sheba,", "s": "H884", "m": "HNp/Sd", "g": "בְּאֵרָה שָּׁבַע" },
         { "t": "and offered", "s": "H2076", "m": "HC/Vqw3ms", "g": "וַיִּזְבַּח" },
         { "t": "sacrifices", "s": "H2077", "m": "HNcmpa", "g": "זְבָחִים" },
         { "t": "unto the God", "s": "H430", "m": "HR/Ncmpc", "g": "לֵאלֹהֵי" },
@@ -34303,8 +34348,8 @@
         { "t": "in the visions", "s": "H4759", "m": "HR/Ncfpc", "g": "בְּמַרְאֹת" },
         { "t": "of the night,", "s": "H3915", "m": "HTd/Ncmsa", "g": "הַלַּיְלָה" },
         { "t": "and said,", "s": "H559", "m": "HC/Vqw3ms", "g": "וַיֹּאמֶר" },
-        { "t": "Jacob,", "s": "H3290", "m": "HNp", "g": "יַעֲקֹב" },
-        { "t": "Jacob.", "s": "H3290", "m": "HNp", "g": "יַעֲקֹב" },
+        { "t": "Jacob,", "s": "H3290", "m": "HNp", "g": "יַעֲקֹב יַעֲקֹב" },
+        { "t": "Jacob.", "s": "H3290", "m": "HNp", "g": "יַעֲקֹב יַעֲקֹב" },
         { "t": "And he said,", "s": "H559", "m": "HC/Vqw3ms", "g": "וַיֹּאמֶר" },
         { "t": "Here" },
         { "t": "am", "it": 1 },
@@ -34358,7 +34403,7 @@
       [
         { "t": "And Jacob", "s": "H3290", "m": "HNp", "g": "יַעֲקֹב" },
         { "t": "rose up", "s": "H6965", "m": "HC/Vqw3ms", "g": "וַיָּקָם" },
-        { "t": "from Beer–sheba:", "s": "H884", "m": "HR/Np", "g": "מִבְּאֵר" },
+        { "t": "from Beer–sheba:", "s": "H884", "m": "HR/Np", "g": "מִבְּאֵר שָׁבַע" },
         { "t": "and the sons", "s": "H1121", "m": "HNcmpc", "g": "בְנֵי" },
         { "t": "of Israel", "s": "H3478", "m": "HNp", "g": "יִשְׂרָאֵל" },
         { "t": "carried", "s": "H5375", "m": "HC/Vqw3mp", "g": "וַיִּשְׂאוּ" },
@@ -34540,7 +34585,7 @@
         { "t": "of Leah,", "s": "H3812", "m": "HNp", "g": "לֵאָה" },
         { "t": "which she bare", "s": "H3205", "m": "HVqp3fs", "g": "יָלְדָה" },
         { "t": "unto Jacob", "s": "H3290", "m": "HR/Np", "g": "לְיַעֲקֹב" },
-        { "t": "in Padan–aram,", "s": "H6307", "m": "HR/Np", "g": "בְּפַדַּן" },
+        { "t": "in Padan–aram,", "s": "H6307", "m": "HR/Np", "g": "בְּפַדַּן אֲרָם" },
         {
           "t": "with his daughter",
           "s": "H1323",
@@ -34622,7 +34667,7 @@
         { "t": "and Ephraim,", "s": "H669", "m": "HNp", "g": "אֶפְרָיִם" },
         { "t": "which Asenath", "s": "H621", "m": "HNp", "g": "אָסְנַת" },
         { "t": "the daughter", "s": "H1323", "m": "HNcfsc", "g": "בַּת" },
-        { "t": "of Poti–pherah", "s": "H6319", "m": "HNp", "g": "פּוֹטִי" },
+        { "t": "of Poti–pherah", "s": "H6319", "m": "HNp", "g": "פּוֹטִי פֶרַע" },
         { "t": "priest", "s": "H3548", "m": "HNcmsc", "g": "כֹּהֵן" },
         { "t": "of On", "s": "H204", "m": "HNp", "g": "אֹן" },
         { "t": "bare", "s": "H3205", "m": "HVqp3fs", "g": "יָלְדָה" },
@@ -34844,7 +34889,12 @@
           "m": "HVhp3cp",
           "g": "הֵבִיאוּ"
         },
-        { "t": "their flocks,", "s": "H6629", "m": "HNcbsa", "g": "צֹאן" },
+        {
+          "t": "their flocks,",
+          "s": "H6629",
+          "m": "HC/Ncbsc/Sp3mp",
+          "g": "וְצֹאנָם"
+        },
         {
           "t": "and their herds,",
           "s": "H1241",
@@ -35393,8 +35443,8 @@
         {
           "t": "for all their cattle",
           "s": "H4735",
-          "m": "HC/R/Ncmsc",
-          "g": "וּבְמִקְנֵה"
+          "m": "HNcmsc/Sp3mp",
+          "g": "מִקְנֵהֶם"
         },
         { "t": "for that year.", "s": "H8141", "m": "HRd/Ncfsa", "g": "בַּשָּׁנָה" }
       ],
@@ -35431,7 +35481,7 @@
         },
         { "t": "is spent;", "s": "H8552", "m": "HVqp3ms", "g": "תַּם" },
         { "t": "my lord", "s": "H113", "m": "HNcmsc/Sp1cs", "g": "אֲדֹנִי" },
-        { "t": "also hath", "s": "H413", "m": "HR/Sp3ms", "g": "אֵלָיו" },
+        { "t": "also hath", "s": "H413", "m": "HR", "g": "אֶל" },
         { "t": "our herds", "s": "H4735", "m": "HC/Ncmsc", "g": "וּמִקְנֵה" },
         { "t": "of cattle;", "s": "H929", "m": "HTd/Ncfsa", "g": "הַבְּהֵמָה" },
         {
@@ -35756,8 +35806,8 @@
         { "t": "of Jacob", "s": "H3290", "m": "HNp", "g": "יַעֲקֹב" },
         { "t": "was an hundred", "s": "H3967", "m": "HC/Acbsc", "g": "וּמְאַת" },
         { "t": "forty", "s": "H705", "m": "HC/Acbpa", "g": "וְאַרְבָּעִים" },
-        { "t": "and seven", "s": "H7651", "m": "HAcfsa", "g": "שְׁבַע" },
-        { "t": "years.", "s": "H8141", "m": "HAcmdc", "g": "שְׁנֵי" }
+        { "t": "and seven", "s": "H7651", "m": "HAcfsa", "g": "שֶׁבַע" },
+        { "t": "years.", "s": "H8141", "m": "HNcfsa", "g": "שָׁנָה" }
       ],
       [
         { "t": "And the time", "s": "H3117", "m": "HNcmpc", "g": "יְמֵי" },
@@ -36081,7 +36131,7 @@
         { "t": "the" },
         { "t": "same" },
         { "t": "is", "it": 1 },
-        { "t": "Beth–lehem.", "s": "H1035", "m": "HNp", "g": "בֵּית" }
+        { "t": "Beth–lehem.", "s": "H1035", "m": "HNp", "g": "בֵּית לָחֶם" }
       ],
       [
         { "t": "And Israel", "s": "H3478", "m": "HNp", "g": "יִשְׂרָאֵל" },
@@ -36738,7 +36788,7 @@
           "g": "רַגְלָיו"
         },
         { "t": "until", "s": "H3588", "m": "HC", "g": "כִּי" },
-        { "t": "Shiloh", "s": "H7886", "m": "HNp", "g": "שִׁילוֹ" },
+        { "t": "Shiloh", "s": "H7886", "m": "HNp", "g": "שילה" },
         { "t": "come;", "s": "H935", "m": "HVqi3ms", "g": "יָבֹא" },
         { "t": "and" },
         { "t": "unto" },
@@ -36750,7 +36800,7 @@
       ],
       [
         { "t": "Binding", "s": "H631", "m": "HVqrmsc", "g": "אֹסְרִי" },
-        { "t": "his foal", "s": "H5895", "m": "HNcmsc/Sp3ms", "g": "עִירוֹ" },
+        { "t": "his foal", "s": "H5895", "m": "HNcmsc/Sp3ms", "g": "עירה" },
         { "t": "unto the vine,", "s": "H1612", "m": "HRd/Ncbsa", "g": "לַגֶּפֶן" },
         { "t": "and his ass’s", "s": "H860", "m": "HNcfsc/Sp3ms", "g": "אֲתֹנוֹ" },
         { "t": "colt", "s": "H1121", "m": "HNcmsc", "g": "בְּנִי" },
@@ -36767,7 +36817,7 @@
           "t": "and his clothes",
           "s": "H5497",
           "m": "HNcmsc/Sp3ms",
-          "g": "סוּתוֹ"
+          "g": "סותה"
         },
         { "t": "in the blood", "s": "H1818", "m": "HC/R/Ncmsc", "g": "וּבְדַם" },
         { "t": "of grapes:", "s": "H6025", "m": "HNcmpa", "g": "עֲנָבִים" }
@@ -37538,7 +37588,7 @@
           "g": "שְׁמָהּ"
         },
         { "t": "was called", "s": "H7121", "m": "HVqp3ms", "g": "קָרָא" },
-        { "t": "Abel–mizraim,", "s": "H67", "m": "HNp", "g": "אָבֵל" },
+        { "t": "Abel–mizraim,", "s": "H67", "m": "HNp", "g": "אָבֵל מִצְרַיִם" },
         { "t": "which" },
         { "t": "is", "it": 1 },
         { "t": "beyond", "s": "H5676", "m": "HR/Ncmsc", "g": "בְּעֵבֶר" },

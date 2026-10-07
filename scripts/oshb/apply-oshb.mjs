@@ -37,7 +37,7 @@ function loadBook(n) {
     for (const w of v[2].matchAll(/<w ([^>]*)>([^<]*)<\/w>/g)) {
       const a = Object.fromEntries([...w[1].matchAll(/(\w+)="([^"]*)"/g)].map((x) => [x[1], x[2]]));
       const nums = (a.lemma || "").split("/").map((x) => parseInt(x, 10)).filter((x) => x > 0);
-      words.push({ nums, morph: a.morph, text: heb(w[2]), ketiv: a.type === "x-ketiv" });
+      words.push({ nums, morph: a.morph, text: heb(w[2]), ketiv: a.type === "x-ketiv", pos: words.length });
     }
     // qere before ketiv: the KJV translates the qere
     verses.set(v[1], [...words.filter((w) => !w.ketiv), ...words.filter((w) => w.ketiv)]);
@@ -94,28 +94,90 @@ const books = which === "all" ? OSIS.map((_, i) => i + 1) : which.split(",").map
 // each side; pairs seen 3+ times are then accepted as equivalents.
 const cache = new Map();
 const wlcBook = (n) => (cache.has(n) ? cache.get(n) : (cache.set(n, loadBook(n)), cache.get(n)));
-const readBible = (b) => JSON.parse(fs.readFileSync(new URL(`public/data/bibles/${bible}/${b}.json`, root), "utf8"));
+// (learned from kjv-strong whatever bible is being processed: its tags are the most precise)
+const readBible = (b) => JSON.parse(fs.readFileSync(new URL(`public/data/bibles/kjv-strong/${b}.json`, root), "utf8"));
 function verseWords(b, c, vi) {
   const ref = `${OSIS[b - 1]}.${c}.${vi + 1}`;
-  return [...(kjv2wlc.get(ref) || [ref])].flatMap((r) => wlcBook(b).get(r) || []);
+  const ws = [...(kjv2wlc.get(ref) || [ref])].flatMap((r) => wlcBook(b).get(r) || []);
+  return ws.length && kjv2wlc.has(ref) ? ws.map((w, i) => ({ ...w, pos: i })) : ws;
+}
+// Bibles whose verse numbers differ from the KJV in some chapters (Straubinger: Catholic
+// numbering): there, each verse takes the nearby KJV verse (same chapter ±4, or the
+// neighbouring chapters) whose Hebrew words best match its Strong's numbers.
+const kjvCache = new Map();
+const kjvBook = (b) => (kjvCache.has(b) ? kjvCache.get(b) : (kjvCache.set(b, JSON.parse(fs.readFileSync(new URL(`public/data/bibles/kjv-strong/${b}.json`, root), "utf8"))), kjvCache.get(b)));
+function wordsFor(b, c, vi, toks, data) {
+  const kc = kjvBook(b).v[c];
+  if (bible === "kjv-strong" || (kc && kc.length === data.v[c].length)) return verseWords(b, c, vi);
+  const nums = toks.filter((t) => /^H\d+$/.test(t.s || "")).map((t) => parseInt(t.s.slice(1), 10));
+  if (!nums.length) return [];
+  let best = [], bs = 0;
+  for (const cc of [+c, +c - 1, +c + 1]) {
+    const n = kjvBook(b).v[cc]?.length || 0;
+    for (let i = 0; i < n; i++) {
+      if (cc === +c ? Math.abs(i - vi) > 4 : cc < +c ? i < n - 6 : i > 6) continue;
+      const words = verseWords(b, String(cc), i);
+      const avail = words.flatMap((w) => w.nums);
+      const hit = nums.filter((x) => avail.includes(x)).length / nums.length - (cc === +c ? Math.abs(i - vi) * 0.01 : 0.05);
+      if (hit > bs) { bs = hit; best = words; }
+    }
+  }
+  return bs >= 0.4 ? best : [];
 }
 let equiv = new Map(); // kjvN -> Set(oshbN)
 const has = (w, n) => w.nums.includes(n) || w.nums.some((x) => equiv.get(n)?.has(x));
+const KJV = bible === "kjv-strong";
+const REUSE = KJV ? 8 : 2;
+const FUNC = /^[\W_]*(and|the|of|to|a|an|in|on|for|with|by|from|at|y|e|o|u|el|la|lo|los|las|de|del|a|al|en|que|por|con|un|una)[\W_]*$/i;
 function matchVerse(toks, words, onMiss) {
-  const used = new Set(), lastFor = new Map(), res = new Map();
   const st = { tokens: 0, matched: 0, reused: 0, unmatched: 0 };
-  const miss = [];
-  for (const t of toks) {
-    if (!/^H\d+$/.test(t.s || "")) continue;
-    st.tokens++;
-    const n = parseInt(t.s.slice(1), 10);
-    // exact number first, then a learned equivalent
-    let w = words.find((x) => !used.has(x) && x.nums.includes(n)) || words.find((x) => !used.has(x) && has(x, n));
-    if (w) { used.add(w); st.matched++; }
-    else if ((w = lastFor.get(n))) st.reused++; // KJV split one Hebrew word over two tokens
-    else { st.unmatched++; miss.push(t); continue; }
-    lastFor.set(n, w);
-    res.set(t, w);
+  const res = new Map(), miss = [];
+  const tagged = toks.map((t, i) => ({ t, i })).filter((x) => /^H\d+$/.test(x.t.s || ""));
+  st.tokens = tagged.length;
+  const rel = (i, n) => (n > 1 ? i / (n - 1) : 0.5);
+  const used = new Set();
+  const byNum = new Map();
+  for (const x of tagged) {
+    const n = parseInt(x.t.s.slice(1), 10);
+    if (!byNum.has(n)) byNum.set(n, []);
+    byNum.get(n).push(x);
+  }
+  for (const [n, T] of byNum) {
+    let W0 = words.filter((w) => !used.has(w) && w.nums.includes(n));
+    if (!W0.length) W0 = words.filter((w) => !used.has(w) && has(w, n)); // learned equivalent number
+    // neighbouring Hebrew name parts with the same number are one name (עִמָּנוּ אֵל "Immanuel")
+    const W = [];
+    for (const w of W0) {
+      const last = W[W.length - 1];
+      const name = (x) => /(^|\/)Np/.test(x.morph.slice(1));
+      if (last && w.pos === last.pos + last.span && name(w) && name(last)) { last.parts.push(w); last.span++; last.text += " " + w.text; }
+      else W.push({ ...w, parts: [w], span: 1 });
+    }
+    let pairs = [];
+    if (T.length === W.length) pairs = T.map((x, k) => [x, W[k]]);      // same count: in order
+    else {                                                              // otherwise closest position
+      const all = [];
+      for (const x of T) for (const w of W) all.push([Math.abs(rel(x.i, toks.length) - rel(w.pos, words.length)), x, w]);
+      all.sort((p, q) => p[0] - q[0]);
+      const tu = new Set(), wu = new Set();
+      for (const [, x, w] of all) if (!tu.has(x) && !wu.has(w)) { tu.add(x); wu.add(w); pairs.push([x, w]); }
+    }
+    for (const [x, w] of pairs) { w.parts.forEach((p) => used.add(p)); res.set(x.t, w); st.matched++; }
+    // tokens left over: the same Hebrew word only when a nearby token has it — KJV splits one
+    // Hebrew verb around other words ("made … to grow", "brought … thither again"), so up to 8
+    // tokens away there; in the other Bibles a repeated number is usually a suffix tagged with
+    // the pronoun's number ("ti", "tu" for אַתָּה), so only right next to it (≤2).
+    for (const x of T) if (!res.has(x.t)) {
+      // (other Bibles: only a continuation, the matched token coming first — so in Gen 3:15
+      // "suya" doesn't borrow the הוּא of the "ésta" that follows it)
+      // A bare function word ("the", "and", "of"; "el", "y", "de"…) split off a tagged phrase
+      // may also borrow from the word right after it ("the|H3556" "stars|H3556").
+      const fw = FUNC.test(x.t.t);
+      const near = pairs.find(([y]) => KJV ? Math.abs(y.i - x.i) <= REUSE
+        : (y.i < x.i && x.i - y.i <= REUSE) || (fw && y.i > x.i && y.i - x.i <= REUSE));
+      if (near) { res.set(x.t, near[1]); st.reused++; }
+      else { st.unmatched++; miss.push(x.t); }
+    }
   }
   if (onMiss) onMiss(miss, words.filter((w) => !used.has(w) && w.nums.length));
   return { st, res, miss };
@@ -155,7 +217,7 @@ for (const b of books) {
   const misses = [];
   for (const c of Object.keys(data.w || {})) {
     data.w[c].forEach((toks, vi) => {
-      const words = verseWords(b, c, vi);
+      const words = wordsFor(b, c, vi, toks, data);
       if (!words.length) { st.noVerse++; return; }
       const r = matchVerse(toks, words);
       for (const k of ["tokens", "matched", "reused", "unmatched"]) st[k] += r.st[k];

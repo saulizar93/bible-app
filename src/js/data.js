@@ -1,7 +1,7 @@
 import { get, set, clear } from "idb-keyval";
 import { normalizeStrong } from "./strongsCode.js";
 
-const DATA_VERSION = 13; // bump to invalidate every cached Bible chapter
+const DATA_VERSION = 14; // bump to invalidate every cached Bible chapter
 const NOTES_VERSION = 2; // bump separately — notes change far more often
 const LEXICON_VERSION = 6; // bump when strongs/ or concord/ data is rebuilt
 
@@ -50,7 +50,7 @@ export const PANE_OPTIONS = [
     concord: "bsb-strong/", // data/concord/bsb-strong/{greek,hebrew}
     citation: "BSB",
     copyright:
-      "Berean Standard Bible. Public Domain (CC0). BSB Publishing, LLC. Strong's numbers from the CrossWire SWORD module (bsb-to-sword, v2.0); Greek forms and morphology matched from the KJV2003 Project (CrossWire).",
+      "Berean Standard Bible. Public Domain (CC0). BSB Publishing, LLC. Strong's numbers from the CrossWire SWORD module (bsb-to-sword, v2.0); Greek forms and morphology matched from the KJV2003 Project (CrossWire). Old Testament Hebrew parsing and words: original work of the Open Scriptures Hebrew Bible available at https://github.com/openscriptures/morphhb (CC BY 4.0).",
   },
   // {
   //   code: "bsb",
@@ -70,7 +70,7 @@ export const PANE_OPTIONS = [
     concord: "msb-strong/", // data/concord/msb-strong/{greek,hebrew}
     citation: "MSB",
     copyright:
-      "Majority Standard Bible. Public Domain (CC0). Berean Bible Translation Committee. Strong's numbers carried over from the Berean Standard Bible where the wording is shared; words unique to the MSB are untagged. Greek forms and morphology matched from the KJV2003 Project (CrossWire).",
+      "Majority Standard Bible. Public Domain (CC0). Berean Bible Translation Committee. Strong's numbers carried over from the Berean Standard Bible where the wording is shared; words unique to the MSB are untagged. Greek forms and morphology matched from the KJV2003 Project (CrossWire). Old Testament Hebrew parsing and words: original work of the Open Scriptures Hebrew Bible available at https://github.com/openscriptures/morphhb (CC BY 4.0).",
   },
   // {
   //   code: "msb",
@@ -92,7 +92,7 @@ export const PANE_OPTIONS = [
     concord: "", // KJV concordance (same versification)
     citation: "LSV",
     copyright:
-      "Literal Standard Version © 2020 Covenant Press. Licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0).",
+      "Literal Standard Version © 2020 Covenant Press. Licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0). Old Testament Hebrew parsing and words: original work of the Open Scriptures Hebrew Bible available at https://github.com/openscriptures/morphhb (CC BY 4.0).",
   },
   {
     code: "drc1750",
@@ -122,7 +122,7 @@ export const PANE_OPTIONS = [
     concord: "rv1909-strong/", // data/concord/rv1909-strong/{greek,hebrew}
     citation: "RV1909",
     copyright:
-      "Reina-Valera 1909. Dominio público. Números de Strong © Rubén Gómez; distribución autorizada a CrossWire Bible Society.",
+      "Reina-Valera 1909. Dominio público. Números de Strong © Rubén Gómez; distribución autorizada a CrossWire Bible Society. Análisis y palabras hebreas del Antiguo Testamento: obra original del Open Scriptures Hebrew Bible, disponible en https://github.com/openscriptures/morphhb (CC BY 4.0).",
   },
   {
     code: "rvg-strong",
@@ -136,7 +136,7 @@ export const PANE_OPTIONS = [
     concord: "rv1909-strong/", // same versification, so RV1909's concordance fits
     citation: "RVG",
     copyright:
-      "Santa Biblia Reina Valera Gómez © 2004, 2010, 2023 Dr. Humberto Gómez Caballero. Derechos reservados. Prohibida su reproducción con fines de lucro.",
+      "Santa Biblia Reina Valera Gómez © 2004, 2010, 2023 Dr. Humberto Gómez Caballero. Derechos reservados. Prohibida su reproducción con fines de lucro. Análisis y palabras hebreas del Antiguo Testamento: obra original del Open Scriptures Hebrew Bible, disponible en https://github.com/openscriptures/morphhb (CC BY 4.0).",
   },
   {
     code: "torres-amat",
@@ -159,7 +159,7 @@ export const PANE_OPTIONS = [
     concord: "rv1909-strong/",
     citation: "Straubinger",
     copyright:
-      "Biblia Platense, traducción de Mons. Juan Straubinger (1948). Dominio público.",
+      "Biblia Platense, traducción de Mons. Juan Straubinger (1948). Dominio público. Análisis y palabras hebreas del Antiguo Testamento: obra original del Open Scriptures Hebrew Bible, disponible en https://github.com/openscriptures/morphhb (CC BY 4.0).",
   },
   {
     code: "notes:en",

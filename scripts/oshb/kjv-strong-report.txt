@@ -49,7 +49,7 @@ learned 5 Strong's equivalences: H582=376 H7125=7122 H3169=2396 H1941=1940 H6145
 49:25 H5920 "above,"
 50:3 H4714 "and the Egyptians"
 50:11 H4714 "to the Egyptians:"
-2 Exod: 12132 Hebrew-tagged tokens, 99.7% parsed (36 unmatched)
+2 Exod: 12132 Hebrew-tagged tokens, 99.7% parsed (37 unmatched)
 1:13 H4714 "And the Egyptians"
 3:8 H4714 "of the Egyptians,"
 3:9 H4714 "wherewith the Egyptians"
@@ -71,6 +71,7 @@ learned 5 Strong's equivalences: H582=376 H7125=7122 H3169=2396 H1941=1940 H6145
 14:4 H4714 "that the Egyptians"
 14:9 H4714 "But the Egyptians"
 14:10 H4714 "and, behold, the Egyptians"
+14:12 H4714 "the Egyptians,"
 14:13 H4714 "for the Egyptians"
 14:17 H4714 "of the Egyptians,"
 14:18 H4714 "And the Egyptians"
@@ -119,12 +120,12 @@ learned 5 Strong's equivalences: H582=376 H7125=7122 H3169=2396 H1941=1940 H6145
 25:5 H582 "his men"
 26:1 H3068 "that the Lord"
 26:1 H559 "spake"
+26:1 H559 "saying,"
 26:1 H4872 "unto Moses"
 26:1 H499 "and unto Eleazar"
 26:1 H1121 "the son"
 26:1 H175 "of Aaron"
 26:1 H3548 "the priest,"
-26:1 H559 "saying,"
 27:5 H4941 "their cause"
 32:38 H4142 "being changed,)"
 33:3 H4714 "of all the Egyptians."
@@ -194,7 +195,7 @@ learned 5 Strong's equivalences: H582=376 H7125=7122 H3169=2396 H1941=1940 H6145
 21:2 H1004 "to the house"
 8 Ruth: 894 Hebrew-tagged tokens, 99.9% parsed (1 unmatched)
 4:1 H1945 "Ho,"
-9 1Sam: 9516 Hebrew-tagged tokens, 99.4% parsed (54 unmatched)
+9 1Sam: 9516 Hebrew-tagged tokens, 99.4% parsed (57 unmatched)
 2:10 H2865 "shall be broken to pieces;"
 2:16 H183 "desireth;"
 3:5 H2009 "I;"
@@ -215,6 +216,7 @@ learned 5 Strong's equivalences: H582=376 H7125=7122 H3169=2396 H1941=1940 H6145
 14:43 H2009 "lo,"
 18:4 H2289 "and to his girdle."
 18:8 H3415 "displeased"
+19:2 H7586 "Saul’s"
 19:2 H1121 "son"
 19:2 H2654 "delighted"
 19:2 H3966 "much"
@@ -226,14 +228,16 @@ learned 5 Strong's equivalences: H582=376 H7125=7122 H3169=2396 H1941=1940 H6145
 20:22 H2671 "Behold, the arrows"
 20:36 H2671 "now the arrows"
 20:38 H2671 "the arrows,"
+20:42 H3083 "And Jonathan"
 20:42 H559 "said"
+20:42 H559 "saying,"
 20:42 H1732 "to David,"
+20:42 H3212 "and departed:"
 20:42 H7965 "in peace,"
 20:42 H7650 "forasmuch as we have sworn"
 20:42 H8147 "both"
 20:42 H8034 "of us in the name"
 20:42 H3068 "of the Lord,"
-20:42 H559 "saying,"
 20:42 H3068 "The Lord"
 20:42 H2233 "be between me and thee, and between my seed"
 20:42 H2233 "and thy seed"
@@ -249,13 +253,14 @@ learned 5 Strong's equivalences: H582=376 H7125=7122 H3169=2396 H1941=1940 H6145
 26:12 H3463 "all asleep;"
 30:6 H4843 "was grieved,"
 30:27 H5045 "in south"
-10 2Sam: 7977 Hebrew-tagged tokens, 99.6% parsed (35 unmatched)
+10 2Sam: 7977 Hebrew-tagged tokens, 99.5% parsed (36 unmatched)
 3:28 H5704 "for"
 5:6 H6455 "and the lame,"
 6:3 H1390 "in Gibeah:"
 6:4 H1390 "at Gibeah,"
 6:23 H2056 "had no child"
 7:22 H3068 "O Lord"
+7:22 H430 "God:"
 8:9 H2428 "all the host"
 10:6 H382 "and of Ish–tob"
 10:8 H382 "and Ish–tob,"
@@ -304,7 +309,8 @@ learned 5 Strong's equivalences: H582=376 H7125=7122 H3169=2396 H1941=1940 H6145
 10:15 H6153 "of Arabia,"
 11:2 H157 "unto these in love."
 20:25 H854 "against"
-12 2Kgs: 8986 Hebrew-tagged tokens, 99.8% parsed (15 unmatched)
+12 2Kgs: 8986 Hebrew-tagged tokens, 99.8% parsed (16 unmatched)
+1:9 H4428 "Then the king"
 4:1 H3373 "did fear"
 5:23 H6696 "him, and bound"
 5:25 H370 "unto him, Whence"
@@ -357,22 +363,26 @@ learned 5 Strong's equivalences: H582=376 H7125=7122 H3169=2396 H1941=1940 H6145
 23:6 H1648 "Gershon,"
 26:25 H8019 "and Shelomith"
 29:19 H2706 "and thy statutes,"
-14 2Chr: 10144 Hebrew-tagged tokens, 99.8% parsed (18 unmatched)
+14 2Chr: 10144 Hebrew-tagged tokens, 99.8% parsed (22 unmatched)
 6:28 H6887 "besiege"
 6:37 H7628 "of their captivity,"
 6:38 H7628 "of their captivity,"
 8:6 H4475 "of his dominion."
 9:4 H8248 "his cupbearers"
+10:16 H7200 "saw"
 16:7 H2428 "therefore is the host"
 18:8 H4319 "Micaiah"
 20:25 H2532 "and precious"
 23:8 H6358 "dismissed"
 24:22 H4194 "And when he died,"
 24:23 H2428 "the host"
+24:24 H2428 "For the army"
 25:17 H3212 "Come,"
+26:13 H2428 "an army,"
 26:15 H2671 "arrows"
 27:5 H5984 "of the Ammonites,"
 30:3 H4078 "themselves sufficiently,"
+31:5 H935 "brought"
 33:19 H2374 "of the seers."
 34:22 H8616 "of Tikvath,"
 36:14 H4604 "very"
@@ -402,7 +412,8 @@ learned 5 Strong's equivalences: H582=376 H7125=7122 H3169=2396 H1941=1940 H6145
 12:39 H3465 "and above the old"
 13:8 H3415 "And it grieved"
 13:18 H3254 "more"
-17 Esth: 2254 Hebrew-tagged tokens, 99.9% parsed (3 unmatched)
+17 Esth: 2254 Hebrew-tagged tokens, 99.8% parsed (4 unmatched)
+1:6 H8504 "and blue,"
 8:15 H8056 "and was glad."
 9:17 H5118 "day of the same rested"
 9:18 H5118 "of the same they rested,"
@@ -548,7 +559,7 @@ learned 5 Strong's equivalences: H582=376 H7125=7122 H3169=2396 H1941=1940 H6145
 1:13 H8074 "me desolate"
 3:11 H8074 "me desolate."
 4:3 H8577 "Even the sea monsters"
-26 Ezek: 13648 Hebrew-tagged tokens, 99.9% parsed (15 unmatched)
+26 Ezek: 13648 Hebrew-tagged tokens, 99.9% parsed (16 unmatched)
 3:27 H854 "with"
 9:11 H3847 "clothed"
 21:9 H3068 "the Lord;"
@@ -561,6 +572,7 @@ learned 5 Strong's equivalences: H582=376 H7125=7122 H3169=2396 H1941=1940 H6145
 32:2 H8577 "as a whale"
 33:27 H4679 "in the forts"
 36:4 H8074 "to the desolate"
+39:9 H784 "on fire"
 43:3 H4759 "and the visions"
 43:8 H3615 "wherefore I have consumed"
 48:35 H3074 "there."
@@ -598,11 +610,12 @@ learned 5 Strong's equivalences: H582=376 H7125=7122 H3169=2396 H1941=1940 H6145
 29 Joel: 751 Hebrew-tagged tokens, 99.7% parsed (2 unmatched)
 1:11 H3001 "Be ye ashamed,"
 2:11 H2428 "his army:"
-30 Amos: 1542 Hebrew-tagged tokens, 99.5% parsed (7 unmatched)
+30 Amos: 1542 Hebrew-tagged tokens, 99.5% parsed (8 unmatched)
 1:5 H5731 "of Eden:"
 2:13 H4392 "full"
 5:26 H4428 "of your Moloch"
 6:2 H2574 "ye to Hamath"
+6:2 H7227 "the great:"
 6:13 H8056 "Ye which rejoice"
 8:8 H216 "the flood"
 9:8 H2403 "upon the sinful"
@@ -631,7 +644,7 @@ learned 5 Strong's equivalences: H582=376 H7125=7122 H3169=2396 H1941=1940 H6145
 3:15 H7200 "of thee: thou shalt not see"
 37 Hag: 439 Hebrew-tagged tokens, 99.8% parsed (1 unmatched)
 2:10 H3027 "by"
-38 Zech: 2262 Hebrew-tagged tokens, 99.6% parsed (10 unmatched)
+38 Zech: 2262 Hebrew-tagged tokens, 99.5% parsed (11 unmatched)
 2:9 H5647 "to their servants:"
 4:2 H1531 "with a bowl"
 7:2 H1004 "unto the house"
@@ -642,14 +655,15 @@ learned 5 Strong's equivalences: H582=376 H7125=7122 H3169=2396 H1941=1940 H6145
 11:7 H2254 "Bands;"
 11:14 H2254 "Bands,"
 12:10 H4553 "and they shall mourn"
+13:7 H7462 "against my shepherd,"
 39 Mal: 624 Hebrew-tagged tokens, 99.5% parsed (3 unmatched)
 1:12 H3068 "of the Lord"
 3:16 H3373 "Then they that feared"
 3:16 H3373 "him for them that feared"
 TOTAL {
   tokens: 226774,
-  matched: 225674,
-  reused: 492,
-  unmatched: 608,
+  matched: 225589,
+  reused: 563,
+  unmatched: 622,
   noVerse: 0
 } 99.7%
