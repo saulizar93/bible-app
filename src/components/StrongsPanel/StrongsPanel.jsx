@@ -301,9 +301,11 @@ export default function StrongsPanel({
             <details className="strongs-outline">
               <summary>{lang === "es" ? "Significados (esquema)" : "Meanings (outline)"}</summary>
               <ul>
-                {entry.outline.map((line, i) => {
+                {entry.outline.map((en, i) => {
+                  // Spanish from "outline-es" (same position), English where a line isn't translated
+                  const line = (lang === "es" && entry["outline-es"]?.[i]) || en;
                   // "1a2) ..." -> depth 3 (number / letter / number levels)
-                  const label = line.match(/^(\w+)\)/)?.[1] || "";
+                  const label = en.match(/^(\w+)\)/)?.[1] || "";
                   const depth = (label.match(/\d+|[a-z]+/g) || [""]).length;
                   return (
                     <li key={i} style={{ paddingLeft: `${(depth - 1) * 14}px` }}>

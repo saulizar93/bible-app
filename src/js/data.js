@@ -3,7 +3,7 @@ import { normalizeStrong } from "./strongsCode.js";
 
 const DATA_VERSION = 14; // bump to invalidate every cached Bible chapter
 const NOTES_VERSION = 2; // bump separately — notes change far more often
-const LEXICON_VERSION = 6; // bump when strongs/ or concord/ data is rebuilt
+const LEXICON_VERSION = 7; // bump when strongs/ or concord/ data is rebuilt
 
 /** Shown to users (menu footer, notes authorship line) so they can tell when
  *  new data has been published and clear their saved copies in Settings. */
