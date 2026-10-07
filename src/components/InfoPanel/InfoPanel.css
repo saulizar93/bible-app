@@ -87,7 +87,10 @@
   display: flex;
   flex-direction: column;
   gap: 6px;
-  font: 15px/1.45 ui-sans-serif, system-ui, sans-serif;
+  font:
+    15px/1.45 ui-sans-serif,
+    system-ui,
+    sans-serif;
 }
 .report-intro {
   margin: 0 0 8px;
@@ -202,7 +205,10 @@
   border-radius: 9px;
   background: var(--fg);
   color: var(--bg);
-  font: 600 14px/1 ui-sans-serif, system-ui, sans-serif;
+  font:
+    600 14px/1 ui-sans-serif,
+    system-ui,
+    sans-serif;
   cursor: pointer;
 }
 .report-send:disabled {
@@ -215,7 +221,10 @@
 
 /* ---------- Download App / offline ---------- */
 .offline-panel {
-  font: 15px/1.45 ui-sans-serif, system-ui, sans-serif;
+  font:
+    15px/1.45 ui-sans-serif,
+    system-ui,
+    sans-serif;
 }
 .offline-panel section + section {
   margin-top: 18px;
@@ -296,7 +305,10 @@
   border-radius: 8px;
   background: var(--fg);
   color: var(--bg);
-  font: 600 13px/1.2 ui-sans-serif, system-ui, sans-serif;
+  font:
+    600 13px/1.2 ui-sans-serif,
+    system-ui,
+    sans-serif;
   cursor: pointer;
 }
 .offline-btn.ghost {
@@ -326,53 +338,113 @@
 }
 
 /* ---------- tiers (Bibliography) ---------- */
+
 .info-body li.tier {
   margin: 4px 0;
   padding: 4px 8px;
   border-radius: 8px;
   list-style-position: inside;
 }
+
+/* Top — Green */
 .info-body li.tier-top {
+  background: color-mix(in srgb, #2e8b57 16%, transparent);
+  border-left: 3px solid #2e8b57;
+}
+
+/* Good — Light Green */
+.info-body li.tier-good {
+  background: color-mix(in srgb, #7cbf6a 16%, transparent);
+  border-left: 3px solid #7cbf6a;
+}
+
+/* Average — Yellow */
+.info-body li.tier-average {
   background: color-mix(in srgb, #d4a017 16%, transparent);
   border-left: 3px solid #d4a017;
-  font-weight: 600;
 }
-.info-body li.tier-low,
-.info-body li.tier-worst {
-  background: color-mix(in srgb, #c0392b 12%, transparent);
-  border-left: 3px solid #c0392b;
-  color: #a32f23;
+
+/* Bad — Orange */
+.info-body li.tier-bad {
+  background: color-mix(in srgb, #d97706 14%, transparent);
+  border-left: 3px solid #d97706;
 }
-.info-body li.tier-worst {
-  background: color-mix(in srgb, #c0392b 22%, transparent);
-  border-left-width: 5px;
-  font-weight: 600;
+
+/* Terrible — Red */
+.info-body li.tier-terrible {
+  background: color-mix(in srgb, #c0392b 18%, transparent);
+  border-left: 4px solid #c0392b;
 }
-@media (prefers-color-scheme: dark) {
-  .info-body li.tier-low,
-  .info-body li.tier-worst {
-    color: #f19a90;
-  }
-}
+
+/* ---------- tier badges ---------- */
+
 .tier-badge {
   display: inline-block;
   margin-right: 7px;
   padding: 1px 7px;
   border-radius: 999px;
-  font: 700 10.5px/1.5 ui-sans-serif, system-ui, sans-serif;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+  font:
+    600 10.5px/1.5 ui-sans-serif,
+    system-ui,
+    sans-serif;
+  letter-spacing: 0.02em;
   vertical-align: 1px;
 }
+
+/* Top — Green */
 .tier-top .tier-badge {
-  background: #d4a017;
-  color: #1b1915;
+  background: color-mix(in srgb, #2e8b57 20%, transparent);
+  color: #245f3d;
 }
-.tier-low .tier-badge,
-.tier-worst .tier-badge {
-  background: #c0392b;
-  color: #fff;
+
+/* Good — Light Green */
+.tier-good .tier-badge {
+  background: color-mix(in srgb, #7cbf6a 25%, transparent);
+  color: #35652d;
 }
+
+/* Average — Yellow */
+.tier-average .tier-badge {
+  background: color-mix(in srgb, #d4a017 22%, transparent);
+  color: #6b5200;
+}
+
+/* Bad — Orange */
+.tier-bad .tier-badge {
+  background: color-mix(in srgb, #d97706 18%, transparent);
+  color: #8a4b05;
+}
+
+/* Terrible — Red */
+.tier-terrible .tier-badge {
+  background: color-mix(in srgb, #c0392b 18%, transparent);
+  color: #8f2d23;
+}
+
+/* ---------- dark mode ---------- */
+
+@media (prefers-color-scheme: dark) {
+  .tier-top .tier-badge {
+    color: #8fd3aa;
+  }
+
+  .tier-good .tier-badge {
+    color: #b0dc9f;
+  }
+
+  .tier-average .tier-badge {
+    color: #e5c35b;
+  }
+
+  .tier-bad .tier-badge {
+    color: #f5b66b;
+  }
+
+  .tier-terrible .tier-badge {
+    color: #f19a90;
+  }
+}
+
 .info-legend {
   display: flex;
   flex-wrap: wrap;

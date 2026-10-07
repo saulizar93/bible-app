@@ -18,7 +18,12 @@ import "./InfoPanel.css";
  *   **bold**, *italic*, [link text](https://...)
  *   blank line = new paragraph
  */
-export default function InfoPanel({ pageId, lang = "en", context = "", onClose }) {
+export default function InfoPanel({
+  pageId,
+  lang = "en",
+  context = "",
+  onClose,
+}) {
   const page = INFO_PAGES.find((p) => p.id === pageId);
   const [text, setText] = useState(null); // null = loading, "" = missing
 
@@ -27,7 +32,9 @@ export default function InfoPanel({ pageId, lang = "en", context = "", onClose }
     if (page?.form) return; // form page: nothing to fetch
     setText(null);
     const load = async (l) => {
-      const res = await fetch(`${import.meta.env.BASE_URL}data/pages/${pageId}.${l}.md`);
+      const res = await fetch(
+        `${import.meta.env.BASE_URL}data/pages/${pageId}.${l}.md`,
+      );
       const body = res.ok ? await res.text() : "";
       // Vite's dev server answers a missing file with index.html — treat as missing.
       return /^\s*<!doctype html/i.test(body) ? "" : body;
@@ -58,8 +65,17 @@ export default function InfoPanel({ pageId, lang = "en", context = "", onClose }
   return (
     <>
       <div className="strongs-backdrop" onClick={onClose} />
-      <aside className="strongs-panel info-panel" role="dialog" aria-label={title}>
-        <button type="button" className="strongs-close" onClick={onClose} aria-label="Close">
+      <aside
+        className="strongs-panel info-panel"
+        role="dialog"
+        aria-label={title}
+      >
+        <button
+          type="button"
+          className="strongs-close"
+          onClick={onClose}
+          aria-label="Close"
+        >
           ×
         </button>
         <h2 className="info-title">{title}</h2>
@@ -72,7 +88,9 @@ export default function InfoPanel({ pageId, lang = "en", context = "", onClose }
         ) : text ? (
           <div className="info-body">{renderMarkdown(text, lang)}</div>
         ) : (
-          <p className="dim">{lang === "es" ? "Contenido próximamente." : "Content coming soon."}</p>
+          <p className="dim">
+            {lang === "es" ? "Contenido próximamente." : "Content coming soon."}
+          </p>
         )}
       </aside>
     </>
@@ -82,8 +100,21 @@ export default function InfoPanel({ pageId, lang = "en", context = "", onClose }
 /* ---------- tiny Markdown subset -> React elements (no innerHTML) ---------- */
 
 const TIERS = {
-  en: { top: "Top tier", low: "Low tier", worst: "Worst tier" },
-  es: { top: "Excelente", low: "Deficiente", worst: "Lo peor" },
+  en: {
+    top: "Top tier",
+    good: "Good",
+    average: "Average",
+    bad: "Bad",
+    terrible: "Terrible",
+  },
+
+  es: {
+    top: "Excelente",
+    good: "Bueno",
+    average: "Promedio",
+    bad: "Deficiente",
+    terrible: "Terrible",
+  },
 };
 
 function renderMarkdown(src, lang = "en") {
@@ -92,7 +123,8 @@ function renderMarkdown(src, lang = "en") {
   let para = [];
   let list = [];
   const flushPara = () => {
-    if (para.length) blocks.push(<p key={blocks.length}>{inline(para.join(" "))}</p>);
+    if (para.length)
+      blocks.push(<p key={blocks.length}>{inline(para.join(" "))}</p>);
     para = [];
   };
   let quote = [];
@@ -108,7 +140,12 @@ function renderMarkdown(src, lang = "en") {
       );
     quote = [];
   };
-  const cells = (row) => row.replace(/^\|/, "").replace(/\|$/, "").split("|").map((c) => c.trim());
+  const cells = (row) =>
+    row
+      .replace(/^\|/, "")
+      .replace(/\|$/, "")
+      .split("|")
+      .map((c) => c.trim());
   const flushTable = () => {
     if (table.length) {
       const rows = table.filter((r) => !/^\|?\s*:?-{2,}/.test(r)).map(cells);
@@ -117,11 +154,19 @@ function renderMarkdown(src, lang = "en") {
         <div key={blocks.length} className="info-table-wrap">
           <table className="info-table">
             <thead>
-              <tr>{head.map((c, i) => <th key={i}>{inline(c)}</th>)}</tr>
+              <tr>
+                {head.map((c, i) => (
+                  <th key={i}>{inline(c)}</th>
+                ))}
+              </tr>
             </thead>
             <tbody>
               {body.map((r, ri) => (
-                <tr key={ri}>{r.map((c, i) => <td key={i}>{inline(c)}</td>)}</tr>
+                <tr key={ri}>
+                  {r.map((c, i) => (
+                    <td key={i}>{inline(c)}</td>
+                  ))}
+                </tr>
               ))}
             </tbody>
           </table>
@@ -134,9 +179,9 @@ function renderMarkdown(src, lang = "en") {
     if (list.length)
       blocks.push(
         <ul key={blocks.length}>
-          {list.map((item, i) => (
+          {list.map((item, i) =>
             (() => {
-              const m = item.match(/^\{(top|low|worst)\}\s*/);
+              const m = item.match(/^\{(top|good|average|bad|terrible)\}\s*/);
               if (!m) return <li key={i}>{inline(item)}</li>;
               return (
                 <li key={i} className={`tier tier-${m[1]}`}>
@@ -144,8 +189,8 @@ function renderMarkdown(src, lang = "en") {
                   {inline(item.slice(m[0].length))}
                 </li>
               );
-            })()
-          ))}
+            })(),
+          )}
         </ul>,
       );
     list = [];
@@ -200,7 +245,12 @@ function inline(text) {
     else if (m[2]) out.push(<em key={out.length}>{m[2]}</em>);
     else
       out.push(
-        <a key={out.length} href={m[4]} target="_blank" rel="noopener noreferrer">
+        <a
+          key={out.length}
+          href={m[4]}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {m[3]}
         </a>,
       );

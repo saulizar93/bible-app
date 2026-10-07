@@ -1,31 +1,35 @@
-These are the Bibles, books and podcasts I have used in my studies. Bibles are grouped by tradition and language; books are grouped by subject and listed alphabetically by author within each subject.
+These are the Bibles, books, and podcasts I have used in my studies. This information is necessarily limited; no one needs ten or more years of specialized training to understand the Bible or Church history. Claims that such extensive training is necessary can become a means of indoctrination, especially when people are encouraged to devote so many years of their lives to an organization that leaving it becomes increasingly difficult. Scripture is accessible enough for a babe to read and understand, yet deep and broad enough to study for a lifetime. As the saying goes, it is shallow enough for a child to wade in, yet wide enough for us to swim in for the rest of our lives.
 
-- {top} Highly recommended — accurate, well-researched or especially helpful.
-- {low} Not recommended — unreliable or poorly researched.
-- {worst} Avoid — doctrinally manipulated translation.
+Bibles are grouped by tradition and language; books are grouped by subject and listed alphabetically by author within each subject.
+
+- {top} Must read.
+- {good} Good read.
+- {average} Average read.
+- {bad} Bad read.
+- {terrible} Terrible read.
 
 Including a work here does not mean I agree with it. Many were read to understand — and answer — other positions.
 
 # English Bibles
 
-## Oneness study Bibles
+## Oneness Study Bibles
 
 - {top} KJV Apostolic Study Bible (Word Aflame Press)
 - {top} The Premier Study Bible
 
 ## King James tradition (Textus Receptus)
 
-- Geneva Bible (1560), the forerunner of the KJV
 - {top} King James Version (KJV)
-- KJV Bible — 1611 Edition
-- {top} KJV The Reformation Heritage Study Bible
-- The King James Study Bible
-- KJV — Third Millennium Bible (1611 updated)
-- The Barbour Simplified KJV
 - {top} New King James Version (NKJV)
-- NKJV — The Hebrew-Greek Key Word Study Bible
-- Modern English Version (MEV, 2014)
-- Modern English Version (MEV, 2024)
+- {good} Geneva Bible (1560), the forerunner of the KJV
+- {good} KJV Bible — 1611 Edition
+- {good} KJV The Reformation Heritage Study Bible
+- {good} The King James Study Bible
+- {good} KJV — Third Millennium Bible (1611 updated)
+- {good} The Barbour Simplified KJV
+- {good} NKJV — The Hebrew-Greek Key Word Study Bible
+- {good} Modern English Version (MEV, 2014)
+- {good} Modern English Version (MEV, 2024)
 
 ## Majority Text / Byzantine
 
@@ -38,260 +42,266 @@ Including a work here does not mean I agree with it. Many were read to understan
 - {top} LSB — MacArthur Study Bible
 - {top} New American Standard Bible 1995 (NASB1995)
 - {top} NASB1995 Grace & Truth Study Bible
-- New American Standard Bible 2020 (NASB2020)
 - {top} English Standard Version (ESV)
-- ESV Study Bible
 - {top} Berean Standard Bible (BSB)
 - {top} Amplified Bible, Classic Edition (AMPC)
-- Amplified Bible (AMP)
-- Revised Standard Version (RSV)
-- CSB Study Bible
-- CSB Ancient Faith Study Bible
-- CSB Rainbow Study Bible
-- NET Bible, Full-Notes Edition
-- Literal Standard Version (LSV)
-- LSV — The 210-Book Holy Bible, Apocrypha, and Ancient History Master Collection
+- {good} New American Standard Bible 2020 (NASB2020)
+- {good} ESV Study Bible
+- {good} Amplified Bible (AMP)
+- {good} Revised Standard Version (RSV)
+- {good} NET Bible, Full-Notes Edition
+- {good} Literal Standard Version (LSV)
+- {good} LSV: The 210-Book Holy Bible, Apocrypha, and Ancient History Master Collection
+- {good} CSB Study Bible
+- {average} CSB Ancient Faith Study Bible
+- {average} CSB Rainbow Study Bible
 
 ## Dynamic (thought-for-thought) translations and paraphrases
 
 - {top} The Chosen Presents: A Blended Harmony of the Gospels
-- New International Version (NIV)
-- NIV Chronological Study Bible
-- New Living Translation (NLT)
-- Contemporary English Version (CEV)
-- The CEB Study Bible (Common English Bible)
-- The Readable Bible
-- The Message
+- {good} New International Version (NIV)
+- {good} NIV Chronological Study Bible
+- {average} The CEB Study Bible (Common English Bible)
+- {average} The Readable Bible
+- {bad} New Living Translation (NLT)
+- {bad} Contemporary English Version (CEV)
+- {bad} The Message
 
 ## Jehovah's Witnesses
 
-- {worst} New World Translation
+- {terrible} New World Translation
 
 ## Jewish
 
 - {top} The Complete Jewish Study Bible
-- Tree of Life Version (TLV)
-- JPS Hebrew-English TANAKH
+- {good} Tree of Life Version (TLV)
+- {good} JPS Hebrew-English TANAKH
 
 ## Ecumenical
 
-- New Revised Standard Version, Updated Edition (NRSVue)
-- New Revised Standard Version (NRSV)
+- {good} New Revised Standard Version, Updated Edition (NRSVue)
+- {good} New Revised Standard Version (NRSV)
 
 ## Orthodox
 
-- The Orthodox Study Bible
+- {good} The Orthodox Study Bible
 
 ## Catholic
 
 - {top} English Standard Version, Catholic Edition (ESV-CE)
-- RSV-2CE Ignatius Catholic Study Bible
-- NRSV Catholic Edition (NRSV-CI)
-- NASB The Catholic Study Bible, Third Edition — Donald Senior, John Collins & Mary Ann Getty
-- NASB The New Catholic Answer Bible — Paul Thigpen
-- Good News Translation, Catholic Edition (Latin Vulgate order)
-- The Jerusalem Bible (1966)
-- The New Jerusalem Bible (1985)
-- The Revised New Jerusalem Bible (2019)
-- Douay-Rheims Bible
+- {good} RSV-2CE Ignatius Catholic Study Bible
+- {good} NRSV Catholic Edition (NRSV-CI)
+- {good} NASB The Catholic Study Bible, Third Edition — Donald Senior, John Collins & Mary Ann Getty
+- {good} NASB The New Catholic Answer Bible — Paul Thigpen
+- {average} Good News Translation, Catholic Edition (Latin Vulgate order)
+- {bad} The Jerusalem Bible (1966)
+- {bad} The New Jerusalem Bible (1985)
+- {bad} The Revised New Jerusalem Bible (2019)
+- {bad} Douay-Rheims Bible
 
 ## Greek, Hebrew and Latin texts, interlinears and parallels
 
-- The Septuagint with Apocrypha: Greek and English — Lancelot C. L. Brenton
-- Parallel Greek Received Text and King James Version New Testament — Frederick H. A. Scrivener
-- ESV Greek-English New Testament: Nestle-Aland 28th Edition and English Standard Version
-- The Interlinear Bible, 1-Volume Edition
-- Interlinear KJV-NIV Parallel New Testament in Greek and English
-- The Parallel KJV New Testament: Two Greek Traditions (Textus Receptus and Critical Text) with Two English Translations — Mark Ward (ed.) & Brent Karding (co-ed.)
-- Biblia Sacra Vulgata (editio quinta) — Robert Weber & Roger Gryson
+- {top} The Parallel KJV New Testament: Two Greek Traditions (Textus Receptus and Critical Text) with Two English Translations by Mark Ward & Brent Karding
+- {good} The Septuagint with Apocrypha: Greek and English — Lancelot C. L. Brenton
+- {good} Parallel Greek Received Text and King James Version New Testament — Frederick H. A. Scrivener
+- {good} ESV Greek-English New Testament: Nestle-Aland 28th Edition and English Standard Version
+- {good} The Interlinear Bible, 1-Volume Edition
+- {good} Interlinear KJV-NIV Parallel New Testament in Greek and English
+- {bad} Biblia Sacra Vulgata (editio quinta) — Robert Weber & Roger Gryson
 
 ## Korean
 
-- NIV Korean-English: New Revised Edition
+- {good} NIV Korean-English (NKRV)
+- {average} Duranno Korean Version
 
 # Spanish Bibles
 
 ## Protestant
 
-- Reina-Valera 1602 (antigua)
-- Reina-Valera 1909
 - {top} Reina-Valera 1960
 - {top} Reina-Valera Revisada 1977
-- RVR1977 — Biblia de Estudio Matthew Henry
 - {top} Reina-Valera 2015
 - {top} Reina-Valera 2020
 - {top} Reina Valera Gómez 2010 (RVG)
-- Reina-Valera Contemporánea (RVC)
 - {top} Nueva Biblia de las Américas (NBLA)
+- {top} La Biblia de las Américas (LBLA)
 - {top} Nueva Versión Internacional 2022 (NVI)
-- Nueva Versión Internacional 1999 (NVI)
-- Nueva Traducción Viviente (NTV)
+- {good} Reina-Valera 1602 (antigua)
+- {good} Reina-Valera 1909
+- {good} Nueva Versión Internacional 1999 (NVI)
+- {good} RVR1977 — Biblia de Estudio Matthew Henry
+- {bad} Reina-Valera Contemporánea (RVC)
+- {bad} Nueva Traducción Viviente (NTV)
+- {bad} Traducción de Lenguaje Actual (TLA)
 
 ## Jehovah's Witnesses
 
-- {worst} La Biblia: Traducción del Nuevo Mundo
+- {terrible} La Biblia: Traducción del Nuevo Mundo
 
 ## Catholic
 
-- Biblia de Navarra
-- Biblia de Jerusalén
-- Biblia de Jerusalén Latinoamericana (The Great Adventure Catholic Bible, Spanish Edition)
-- Sagrada Biblia, translated from the Latin by Félix Torres Amat (1999 edition)
+- {top} Biblia de Jerusalén
+- {bad} Biblia de Jerusalén Latinoamericana (The Great Adventure Catholic Bible, Spanish Edition)
+- {bad} Biblia de Navarra
+- {bad} Dios Habla Hoy
+- {terrible} Biblia Latinoameriana
+- {terrible} Sagrada Biblia, translated from the Latin by Félix Torres Amat (1999 edition)
 
 # Books
 
 ## Oneness theology
 
-- {top} *Anchor Points* — David K. Bernard
-- {top} *A History of Christian Doctrine* — David K. Bernard
-- {top} *Essentials of Oneness Theology* — David K. Bernard
-- {top} *God's Infallible Word* — David K. Bernard
-- {top} *In the Name of Jesus* — David K. Bernard
-- {top} *Oneness and Trinity* — David K. Bernard
-- {top} *The Oneness of God* — David K. Bernard
-- {top} *The Oneness View of Jesus Christ* — David K. Bernard
-- {top} *The Trinitarian Controversy in the Fourth Century* — David K. Bernard
-- *The Glory of God in the Face of Jesus Christ* — David K. Bernard
-- *The New Birth* — David K. Bernard
-- *Understanding God's Word* — David K. Bernard
-- *The History & Development of the Doctrine of the Trinity* — Steven Gill
-- *God's Kingship* — Andrew Herbst, Jeremias Zuniga & Steven Gill
-- *Is God a Trinity?* — John Miller
-- *I AM: A Oneness Pentecostal Theology* — David Norris
+- {top} _Anchor Points_ — David K. Bernard
+- {top} _A History of Christian Doctrine_ — David K. Bernard
+- {top} _Essentials of Oneness Theology_ — David K. Bernard
+- {top} _God's Infallible Word_ — David K. Bernard
+- {top} _In the Name of Jesus_ — David K. Bernard
+- {top} _Oneness and Trinity_ — David K. Bernard
+- {top} _The Oneness of God_ — David K. Bernard
+- {top} _The Oneness View of Jesus Christ_ — David K. Bernard
+- {top} _The Trinitarian Controversy in the Fourth Century_ — David K. Bernard
+- {top} _Ancient Champions of Oneness_ - Willian Chalfant
+- {good} _The Glory of God in the Face of Jesus Christ_ — David K. Bernard
+- {good} _The New Birth_ — David K. Bernard
+- {good} _Understanding God's Word_ — David K. Bernard
+- {good} _I AM: A Oneness Pentecostal Theology_ — David Norris
+- {average} _The History & Development of the Doctrine of the Trinity_ — Steven Gill
+- {average} _God's Kingship_ — Andrew Herbst, Jeremias Zuniga & Steven Gill
+- {average} _Is God a Trinity?_ — John Miller
 
 ## Early Christian writings (primary sources)
 
-- {top} *Against Praxeas* — Tertullian
-- *The Proof of the Gospel* — Eusebius of Caesarea
-- *The Refutation of All Heresies* — Hippolytus of Rome
-- *The Antichrist and Other Writings: On Christ and Antichrist, Against Noetus, Fragments on Daniel* — Hippolytus of Rome
-- *The Writings of Ignatius and Polycarp* — Ignatius of Antioch & Polycarp of Smyrna
-- *Against Heresies* — Irenaeus
-- *The Didache: A Window on the Earliest Christians* — Thomas O'Loughlin
-- *A Dictionary of Early Christian Beliefs* — David W. Bercot
-- *Apocryphal Acts of the Apostles: The English Translations* — William Wright
-- *Apocryphal and Gnostic Gospels of the Early Christian Tradition* (Thomas, Mary, Judas, James, Peter, Bartholomew and others)
+- {top} _Against Praxeas_ — Tertullian
+- {good} _The Writings of Ignatius and Polycarp_ — Ignatius of Antioch & Polycarp of Smyrna
+- {good} _A Dictionary of Early Christian Beliefs_ — David W. Bercot
+- {good} _Apocryphal and Gnostic Gospels of the Early Christian Tradition_ (Thomas, Mary, Judas, James, Peter, Bartholomew and others)
+- {average} _The Proof of the Gospel_ — Eusebius of Caesarea
+- {average} _The Refutation of All Heresies_ — Hippolytus of Rome
+- {average} _The Antichrist and Other Writings: On Christ and Antichrist, Against Noetus, Fragments on Daniel_ — Hippolytus of Rome
+- {average} _Against Heresies_ — Irenaeus
+- {average} _The Didache: A Window on the Earliest Christians_ — Thomas O'Loughlin
+- {average} _Apocryphal Acts of the Apostles: The English Translations_ — William Wright
 
 ## Church history
 
-- {top} *Baptism in the Early Church* — Everett Ferguson
-- {top} *American Holocaust: The Conquest of the New World* — David E. Stannard
-- *The Bad Popes* — E. R. Chamberlin
-- *Martin Luther's 95 Theses: Celebrating the Protestant Reformation in the 21st Century* — Peter DeHaan
-- *Foxe's Book of Martyrs* — John Foxe
-- *The Story of Christianity*, Vol. 1 and Vol. 2 — Justo L. González
-- *From Paul to Valentinus: Christians at Rome in the First Two Centuries* — Peter Lampe
-- *Church History in Plain Language*, Fifth Edition — Bruce L. Shelley
-- *The Making of the Bible: From the First Fragments to Sacred Scripture* — Konrad Schmid & Jens Schröter
+- {top} _Baptism in the Early Church_ — Everett Ferguson
+- {top} _American Holocaust: The Conquest of the New World_ — David E. Stannard
+- {good} _The Bad Popes_ — E. R. Chamberlin
+- {good} _Church History in Plain Language_, Fifth Edition — Bruce L. Shelley
+- {good} _Foxe's Book of Martyrs_ — John Foxe
+- {good} _The Story of Christianity_, Vol. 1 and Vol. 2 — Justo L. González
+- {average} _Martin Luther's 95 Theses: Celebrating the Protestant Reformation in the 21st Century_ — Peter DeHaan
+- {average} _From Paul to Valentinus: Christians at Rome in the First Two Centuries_ — Peter Lampe
+- {average} _The Making of the Bible: From the First Fragments to Sacred Scripture_ — Konrad Schmid & Jens Schröter
 
 ## The Bible's text and translations
 
-- {top} *The King James Only Controversy: Can You Trust Modern Translations?* — James R. White
-- {top} *Bible Translations for Everyone: A Guide to Finding a Bible That's Right for You* — Tim Wildsmith
-- *Revision Revised* — John William Burgon
-- *Why I Preach from the Received Text: An Anthology of Essays by Reformed Ministers* — Jeffrey T. Riddle (ed.)
-- *The Case for Byzantine Priority* — Maurice Robinson & William Pierpont
-- *Certainty of the Words: Biblical Principles of Textual Criticism* — Charles L. Surrett
-- *Authorized: The Use and Misuse of the King James Bible* — Mark Ward
-- *Scripture Alone: Exploring the Bible's Accuracy and Authenticity* — James R. White
-- *Bible Translations Made Easy* — Rose Publishing
-- {low} *Codex Sinaiticus vs Vaticanus Comparison: A Clear Guide to Early Biblical Manuscripts* — Caleb Veriton
+- {top} _The King James Only Controversy: Can You Trust Modern Translations?_ — James R. White
+- {top} _Bible Translations for Everyone: A Guide to Finding a Bible That's Right for You_ — Tim Wildsmith
+- {good} _Authorized: The Use and Misuse of the King James Bible_ — Mark Ward
+- {good} _Scripture Alone: Exploring the Bible's Accuracy and Authenticity_ — James R. White
+- {good} _Bible Translations Made Easy_ — Rose Publishing
+- {average} _Revision Revised_ — John William Burgon
+- {bad} _Why I Preach from the Received Text: An Anthology of Essays by Reformed Ministers_ — Jeffrey T. Riddle (ed.)
+- {bad} _The Case for Byzantine Priority_ — Maurice Robinson & William Pierpont
+- {bad} _Certainty of the Words: Biblical Principles of Textual Criticism_ — Charles L. Surrett
+- {bad} _Codex Sinaiticus vs Vaticanus Comparison: A Clear Guide to Early Biblical Manuscripts_ — Caleb Veriton
 
 ## Apologetics
 
-- {top} *I Don't Have Enough Faith to Be an Atheist* — Norman L. Geisler & Frank Turek
-- {top} *Demolishing Supposed Bible Contradictions*, Vol. 1 — Ken Ham
-- {top} *Demolishing Supposed Bible Contradictions*, Vol. 2 — Tim Chaffey
-- {top} *The Case for Christ* — Lee Strobel
-- {top} *The Case for a Creator* — Lee Strobel
-- *The Case for Faith* — Lee Strobel
-- *In Defense of Jesus: Investigating Attacks on the Identity of Christ* — Lee Strobel
-- *The New Testament Documents: Are They Reliable?* — F. F. Bruce
-- *The Language of God: A Scientist Presents Evidence for Belief* — Francis S. Collins
-- *On Guard: Defending Your Faith with Reason and Precision* — William Lane Craig
-- *Reasonable Faith*, Third Edition — William Lane Craig
-- *Evidence for Jesus: Timeless Answers for Tough Questions about Christ* — Josh McDowell
+- {top} _I Don't Have Enough Faith to Be an Atheist_ — Norman L. Geisler & Frank Turek
+- {top} _Demolishing Supposed Bible Contradictions_, Vol. 1 — Ken Ham
+- {top} _Demolishing Supposed Bible Contradictions_, Vol. 2 — Tim Chaffey
+- {top} _The Case for Christ_ — Lee Strobel
+- {top} _The Case for a Creator_ — Lee Strobel
+- {good} _The Case for Faith_ — Lee Strobel
+- {good} _In Defense of Jesus: Investigating Attacks on the Identity of Christ_ — Lee Strobel
+- {good} _The New Testament Documents: Are They Reliable?_ — F. F. Bruce
+- {good} _The Language of God: A Scientist Presents Evidence for Belief_ — Francis S. Collins
+- {good} _On Guard: Defending Your Faith with Reason and Precision_ — William Lane Craig
+- {good} _Reasonable Faith_, Third Edition — William Lane Craig
+- {good} _Evidence for Jesus: Timeless Answers for Tough Questions about Christ_ — Josh McDowell
 
 ## Theology, doctrine and commentaries
 
-- {top} *Mere Christianity* — C. S. Lewis
-- {top} *The MacArthur Bible Commentary* — John MacArthur
-- {top} *What It Means to Be Protestant: The Case for an Always-Reforming Church* — Gavin Ortlund
-- *Calvinism vs. Arminianism: The Bible Answers* — Edward D. Andrews
-- *Understanding the Difficult Words of Jesus: New Insight from a Hebrew Perspective* — David Bivin & Roy Blizzard Jr.
-- *The Tony Evans Bible Commentary* — Tony Evans
-- *Revelation: Four Views, A Parallel Commentary* — Steve Gregg
-- *The Search for God* — C. S. Lewis & Lesley Walmsley
-- *Identifying the Seed: Dispensationalism and Covenant Theology* — Robert M. McKenzie
-- *The Forgotten Trinity: Recovering the Heart of Christian Belief* — James R. White (Trinitarian view)
-- *The Deconstruction of Christianity: What It Is, Why It's Destructive, and How to Respond* — Alisa Childers & Tim Barnett
-- *The Shack: Where Tragedy Confronts Eternity* — William P. Young (a fictional book that attempts to portray a triune God)
+- {top} _Mere Christianity_ — C. S. Lewis
+- {top} _The MacArthur Bible Commentary_ — John MacArthur
+- {top} _What It Means to Be Protestant: The Case for an Always-Reforming Church_ — Gavin Ortlund
+- {top} _Revelation: Four Views, A Parallel Commentary_ — Steve Gregg
+- {good} _Calvinism vs. Arminianism: The Bible Answers_ — Edward D. Andrews
+- {good} _Understanding the Difficult Words of Jesus: New Insight from a Hebrew Perspective_ — David Bivin & Roy Blizzard Jr.
+- {good} _The Tony Evans Bible Commentary_ — Tony Evans
+- {good} _The Forgotten Trinity: Recovering the Heart of Christian Belief_ — James R. White (Trinitarian view)
+- {average} _The Search for God_ — C. S. Lewis & Lesley Walmsley
+- {average} _Identifying the Seed: Dispensationalism and Covenant Theology_ — Robert M. McKenzie
+- {bad} _The Deconstruction of Christianity: What It Is, Why It's Destructive, and How to Respond_ — Alisa Childers & Tim Barnett
+- {average} _The Shack: Where Tragedy Confronts Eternity_ — William P. Young (a fictional book that attempts to portray a triune God)
 
 ## Roman Catholicism: critiques and former priests
 
-- {top} *The Matthew 16 Controversy: Peter and the Rock* — William Webster
-- {top} *Preparing for Eternity: Should We Trust God's Word or Religious Traditions?* — Mike Gendron
-- {top} *The Priest, the Woman, and the Confessional* — Charles Chiniquy (former priest)
-- *Roman Catholicism* — Loraine Boettner
-- *Babylon Religion* — David W. Daniels
-- *The Gospel According to Rome: Comparing Catholic Tradition and the Word of God* — James G. McCarthy
-- *People's Padre* — Emmett McLoughlin (former priest)
-- *Reasoning from the Scriptures with Catholics* — Ron Rhodes
-- *The 10 Most Important Things You Can Say to a Catholic* — Ron Rhodes
-- *I Was a Priest* — Lucien Vinet (former priest, 1949)
-- *The Roman Catholic Controversy* — James R. White
+- {top} _The Matthew 16 Controversy: Peter and the Rock_ — William Webster
+- {top} _Preparing for Eternity: Should We Trust God's Word or Religious Traditions?_ — Mike Gendron
+- {top} _Roman Catholicism_ — Loraine Boettner
+- {good} _The Priest, the Woman, and the Confessional_ — Charles Chiniquy (former priest)
+- {average} _Babylon Religion_ — David W. Daniels
+- {average} _The Gospel According to Rome: Comparing Catholic Tradition and the Word of God_ — James G. McCarthy
+- {average} _People's Padre_ — Emmett McLoughlin (former priest)
+- {average} _Reasoning from the Scriptures with Catholics_ — Ron Rhodes
+- {average} _The 10 Most Important Things You Can Say to a Catholic_ — Ron Rhodes
+- {average} _I Was a Priest_ — Lucien Vinet (former priest, 1949)
+- {average} _The Roman Catholic Controversy_ — James R. White
 
 ## Roman Catholicism: Catholic authors
 
-- *The Fathers Know Best: Your Essential Guide to the Teachings of the Early Church* — Jimmy Akin
-- *The Case for Catholicism: Answers to Classic and Contemporary Protestant Objections* — Trent Horn
-- *Why We're Catholic: Our Reasons for Faith, Hope, and Love* — Trent Horn
-- *Debating Catholicism* — Karl Keating
-- *The Glories of Mary* — Alphonsus Liguori
-- *Dialogue Concerning Heresies* — Thomas More (a Catholic attack on William Tyndale)
-- *Our Lady of Guadalupe: The Origins and Sources of a Mexican National Symbol, 1531–1797* — Stafford Poole
-- *How the Catholic Church Built Western Civilization* — Thomas E. Woods
+- {good} _The Case for Catholicism: Answers to Classic and Contemporary Protestant Objections_ — Trent Horn
+- {good} _Why We're Catholic: Our Reasons for Faith, Hope, and Love_ — Trent Horn
+- {good} _Debating Catholicism_ — Karl Keating
+- {good} _Dialogue Concerning Heresies_ — Thomas More (a Catholic attack on William Tyndale)
+- {average} _Our Lady of Guadalupe: The Origins and Sources of a Mexican National Symbol, 1531–1797_ — Stafford Poole
+- {bad} _The Fathers Know Best: Your Essential Guide to the Teachings of the Early Church_ — Jimmy Akin
+- {bad} _How the Catholic Church Built Western Civilization_ — Thomas E. Woods
+- {terrible} _The Glories of Mary_ — Alphonsus Liguori
 
 ## Other religions and movements
 
-- *Jehovah's Witnesses 101* — Edward D. Andrews
-- *The 10 Most Important Things You Can Say to a Jehovah's Witness* — Ron Rhodes
-- *Reasoning from the Scriptures with the Mormons* — Ron Rhodes
-- *The Book of Mormon: Another Testament of Jesus Christ*
-- *What Every Christian Needs to Know About the Qur'an* — James R. White
+- {good} _Jehovah's Witnesses 101_ — Edward D. Andrews
+- {good} _What Every Christian Needs to Know About the Qur'an_ — James R. White
+- {average} _The 10 Most Important Things You Can Say to a Jehovah's Witness_ — Ron Rhodes
+- {average} _Reasoning from the Scriptures with the Mormons_ — Ron Rhodes
+- {terrible} _The Book of Mormon: Another Testament of Jesus Christ_
 
 ## Language tools and reference
 
-- *The New Strong's Expanded Exhaustive Concordance of the Bible* — James Strong
-- *Thayer's Greek-English Lexicon of the New Testament* (coded with Strong's numbers)
-- *Word Study Greek-English New Testament, with Complete Concordance* — Paul R. McReynolds
-- *Reading Koine Greek: An Introduction and Integrated Workbook* — Rodney J. Decker
-- *Learn to Read Hebrew in 6 Weeks* — Miiko Shaffier
-- *The KJV Dictionary* — Michael Curtis Lewthwaite & Grant Wayne
-- *ESV Bible Atlas* — John D. Currid & David P. Barrett
-- *Rose Book of Bible Charts, Maps and Time Lines* — Rose Publishing
+- {good} _The New Strong's Expanded Exhaustive Concordance of the Bible_ — James Strong
+- {good} _Thayer's Greek-English Lexicon of the New Testament_ (coded with Strong's numbers)
+- {good} _Word Study Greek-English New Testament, with Complete Concordance_ — Paul R. McReynolds
+- {good} _Reading Koine Greek: An Introduction and Integrated Workbook_ — Rodney J. Decker
+- {good} _Learn to Read Hebrew in 6 Weeks_ — Miiko Shaffier
+- {good} _The KJV Dictionary_ — Michael Curtis Lewthwaite & Grant Wayne
+- {good} _ESV Bible Atlas_ — John D. Currid & David P. Barrett
+- {good} _Rose Book of Bible Charts, Maps and Time Lines_ — Rose Publishing
 
 ## Culture, society and philosophy
 
-- {top} *We Who Wrestle with God: Perceptions of the Divine* — Jordan B. Peterson
-- *The American Religious Landscape: Facts, Trends, and the Future* — Ryan P. Burge
-- *A Call to Conscience: The Landmark Speeches of Dr. Martin Luther King, Jr.* — Clayborne Carson (ed.)
-- *Meditations on First Philosophy* — René Descartes
-- *Lies My Liberal Teacher Told Me* — Wilfred Reilly
-- *The Parasitic Mind: How Infectious Ideas Are Killing Common Sense* — Gad Saad
-- *Suicidal Empathy: Dying to Be Kind* — Gad Saad
-- *Christianity and Wokeness* — Owen Strachan
-- *Toxic Empathy: How Progressives Exploit Christian Compassion* — Allie Beth Stuckey
-- *The New Testament for Gen Z* — "Broseph Smith"
+- {top} _We Who Wrestle with God: Perceptions of the Divine_ — Jordan B. Peterson
+- {good} _The American Religious Landscape: Facts, Trends, and the Future_ — Ryan P. Burge
+- {good} _A Call to Conscience: The Landmark Speeches of Dr. Martin Luther King, Jr._ — Clayborne Carson (ed.)
+- {good} _The Parasitic Mind: How Infectious Ideas Are Killing Common Sense_ — Gad Saad
+- {good} _Suicidal Empathy: Dying to Be Kind_ — Gad Saad
+- {good} _Toxic Empathy: How Progressives Exploit Christian Compassion_ — Allie Beth Stuckey
+- {good} _The New Testament for Gen Z_ — "Broseph Smith"
+- {average} _Meditations on First Philosophy_ — René Descartes
+- {average} _Lies My Liberal Teacher Told Me_ — Wilfred Reilly
+- {bad} _Christianity and Wokeness_ — Owen Strachan
 
 # Books in Spanish
 
-- {top} *La Unicidad de Dios* — David K. Bernard
-- {top} *Una historia de la doctrina cristiana* (abridged in one volume) — David K. Bernard
-- *Entendiendo la Palabra de Dios* — David K. Bernard
-- {top} *Preparando católicos para la eternidad* — Mike Gendron
-- *Yo Soy: Una teología pentecostal unicitaria* — David Norris
-- {top} *El caso de Cristo: Una investigación personal de un periodista de la evidencia de Jesucristo* — Lee Strobel
+- {top} _La Unicidad de Dios_ — David K. Bernard
+- {top} _Una historia de la doctrina cristiana_ (abridged in one volume) — David K. Bernard
+- {top} _Preparando católicos para la eternidad_ — Mike Gendron
+- {top} _El caso de Cristo: Una investigación personal de un periodista de la evidencia de Jesucristo_ — Lee Strobel
+- {good} _Entendiendo la Palabra de Dios_ — David K. Bernard
+- {good} _Yo Soy: Una teología pentecostal unicitaria_ — David Norris
 
 # Podcasts
 
@@ -299,4 +309,4 @@ Including a work here does not mean I agree with it. Many were read to understan
 - {top} Bible Thinker
 - {top} Church History and Theology
 - {top} Truth Unites
-- The Apostolic Classroom
+- {good} The Apostolic Classroom
