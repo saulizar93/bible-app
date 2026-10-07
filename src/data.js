@@ -30,7 +30,7 @@ export const PANE_OPTIONS = [
   // },
   {
     code: "kjv-strong",
-    label: "King James Version (TR)",
+    label: "KJV (TR)",
     kind: "bible",
     lang: "en",
     strongs: true,
@@ -41,7 +41,7 @@ export const PANE_OPTIONS = [
   },
   {
     code: "bsb-strong",
-    label: "Berean Standard Bible (CT)",
+    label: "BSB (CT)",
     kind: "bible",
     lang: "en",
     strongs: true,
@@ -60,7 +60,7 @@ export const PANE_OPTIONS = [
   // },
   {
     code: "msb-strong",
-    label: "Majority Standard Bible (MT)",
+    label: "MSB (MT)",
     kind: "bible",
     lang: "en",
     strongs: true,
@@ -80,7 +80,7 @@ export const PANE_OPTIONS = [
   // },
   {
     code: "lsv",
-    label: "Literal Standard Version (TR)",
+    label: "LSV (TR)",
     kind: "bible",
     lang: "en",
     // Strong's tags copied from kjv-strong (SOURCE=kjv-strong TARGET=lsv scripts/rvg-strong/transfer.mjs).
@@ -92,7 +92,7 @@ export const PANE_OPTIONS = [
   },
   {
     code: "drc1750",
-    label: "Douay-Rheims (Catholic, Latin)",
+    label: "DRC (Catholic, Latin)",
     kind: "bible",
     lang: "en",
     citation: "DRC1750",
@@ -109,7 +109,7 @@ export const PANE_OPTIONS = [
   // },
   {
     code: "rv1909-strong",
-    label: "Reina-Valera 1909 (TR)",
+    label: "RV1909 (TR)",
     kind: "bible",
     lang: "es",
     strongs: true,
@@ -120,7 +120,7 @@ export const PANE_OPTIONS = [
   },
   {
     code: "rvg",
-    label: "Reina-Valera Gómez (TR)",
+    label: "RVG (TR)",
     kind: "bible",
     lang: "es",
     // Strong's tags copied from rv1909-strong by scripts/rvg-strong/transfer.mjs
@@ -133,7 +133,7 @@ export const PANE_OPTIONS = [
   },
   {
     code: "torres-amat",
-    label: "Torres Amat (Católica, Latín)",
+    label: "BTA (Católica, Latín)",
     kind: "bible",
     lang: "es",
     citation: "Torres-Amat",
@@ -142,7 +142,7 @@ export const PANE_OPTIONS = [
   },
   {
     code: "platense",
-    label: "Straubinger (Católica, TR+CT)",
+    label: "STR (Católica, TR+CT)",
     kind: "bible",
     lang: "es",
     // Strong's tags copied from rv1909-strong (scripts/rvg-strong/transfer.mjs, TARGET=platense).
