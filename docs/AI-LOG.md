@@ -357,3 +357,9 @@
 - All 5,523 Greek Strong's entries in public/data/strongs/greek/*.json now have a Spanish `def-es` translated from `def-en` (17 entries with no def-en were translated from the meaning in `deriv`). G/H cross-references and Greek forms kept as-is; Spanish proper names; a common Spanish gloss appended after ";" where helpful.
 - Tooling in scripts/lex-es/: dump.mjs (list untranslated), apply.mjs (write a TSV batch into the shards), status.mjs; batches/b0001–b0027.tsv are the applied translations (re-runnable).
 - LEXICON_VERSION bumped 3 → 4 in src/data.js so cached shards refresh.
+
+## 2026-10-07 — Hebrew lexicon: Spanish definitions (def-es)
+
+- All 8,674 Hebrew Strong's entries in public/data/strongs/hebrew/*.json now have a Spanish `def-es` translated from `def-en` (same conventions as the Greek: G/H cross-references and Hebrew forms kept, Spanish proper names, common Spanish gloss appended after ";"). Braced Aramaic duplicates like `{…}` kept braced.
+- scripts/lex-es/{dump,apply,status}.mjs now take `LEX=hebrew` (default `greek`); Hebrew batches in scripts/lex-es/batches-hebrew/h0001–h0041.tsv.
+- LEXICON_VERSION bumped 4 → 5 in src/data.js.

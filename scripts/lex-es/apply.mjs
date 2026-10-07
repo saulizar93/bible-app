@@ -1,6 +1,8 @@
 // node apply.mjs batch.tsv  -> writes def-es into the shard files (saved immediately)
 import fs from "node:fs";
-const dir = new URL("../../public/data/strongs/greek/", import.meta.url);
+const LEX = process.env.LEX || "greek";
+const dir = new URL(`../../public/data/strongs/${LEX}/`, import.meta.url);
+const P = LEX === "hebrew" ? "H" : "G";
 const lines = fs.readFileSync(process.argv[2], "utf8").split(/\r?\n/).filter((l) => l.trim());
 const tr = {};
 for (const l of lines) {

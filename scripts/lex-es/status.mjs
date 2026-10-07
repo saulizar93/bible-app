@@ -1,5 +1,7 @@
 import fs from "node:fs";
-const dir = new URL("../../public/data/strongs/greek/", import.meta.url);
+const LEX = process.env.LEX || "greek";
+const dir = new URL(`../../public/data/strongs/${LEX}/`, import.meta.url);
+const P = LEX === "hebrew" ? "H" : "G";
 const PH = "Definición en español llegará pronto.";
 let todo = 0, done = 0, first = null;
 const all = {};
