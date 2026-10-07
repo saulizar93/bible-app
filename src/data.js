@@ -31,6 +31,7 @@ export const PANE_OPTIONS = [
   {
     code: "kjv-strong",
     label: "KJV (TR)",
+    name: "King James Version (TR)", // full name shown on the pane picker once selected
     kind: "bible",
     lang: "en",
     strongs: true,
@@ -42,6 +43,7 @@ export const PANE_OPTIONS = [
   {
     code: "bsb-strong",
     label: "BSB (CT)",
+    name: "Berean Standard Bible (CT)", // full name shown on the pane picker once selected
     kind: "bible",
     lang: "en",
     strongs: true,
@@ -61,6 +63,7 @@ export const PANE_OPTIONS = [
   {
     code: "msb-strong",
     label: "MSB (MT)",
+    name: "Majority Standard Bible (MT)", // full name shown on the pane picker once selected
     kind: "bible",
     lang: "en",
     strongs: true,
@@ -81,6 +84,7 @@ export const PANE_OPTIONS = [
   {
     code: "lsv",
     label: "LSV (TR)",
+    name: "Literal Standard Version (TR)", // full name shown on the pane picker once selected
     kind: "bible",
     lang: "en",
     // Strong's tags copied from kjv-strong (SOURCE=kjv-strong TARGET=lsv scripts/rvg-strong/transfer.mjs).
@@ -93,6 +97,7 @@ export const PANE_OPTIONS = [
   {
     code: "drc1750",
     label: "DRC (Catholic, Latin)",
+    name: "Douay-Rheims Challoner (Catholic, Latin)", // full name shown on the pane picker once selected
     kind: "bible",
     lang: "en",
     citation: "DRC1750",
@@ -110,6 +115,7 @@ export const PANE_OPTIONS = [
   {
     code: "rv1909-strong",
     label: "RV1909 (TR)",
+    name: "Reina-Valera 1909 (TR)", // full name shown on the pane picker once selected
     kind: "bible",
     lang: "es",
     strongs: true,
@@ -121,6 +127,7 @@ export const PANE_OPTIONS = [
   {
     code: "rvg",
     label: "RVG (TR)",
+    name: "Reina Valera Gómez (TR)", // full name shown on the pane picker once selected
     kind: "bible",
     lang: "es",
     // Strong's tags copied from rv1909-strong by scripts/rvg-strong/transfer.mjs
@@ -134,6 +141,7 @@ export const PANE_OPTIONS = [
   {
     code: "torres-amat",
     label: "BTA (Católica, Latín)",
+    name: "Biblia Torres Amat (Católica, Latín)", // full name shown on the pane picker once selected
     kind: "bible",
     lang: "es",
     citation: "Torres-Amat",
@@ -143,6 +151,7 @@ export const PANE_OPTIONS = [
   {
     code: "platense",
     label: "STR (Católica, TR+CT)",
+    name: "Biblia Straubinger (Católica, TR+CT)", // full name shown on the pane picker once selected
     kind: "bible",
     lang: "es",
     // Strong's tags copied from rv1909-strong (scripts/rvg-strong/transfer.mjs, TARGET=platense).
@@ -155,6 +164,7 @@ export const PANE_OPTIONS = [
   {
     code: "notes:en",
     label: "Notes (EN)",
+    name: "Study Notes (EN)", // full name shown on the pane picker once selected
     kind: "notes",
     lang: "en",
     citation: "Notes (EN)",
@@ -163,6 +173,7 @@ export const PANE_OPTIONS = [
   {
     code: "notes:es",
     label: "Notas (ES)",
+    name: "Notas de estudio (ES)", // full name shown on the pane picker once selected
     kind: "notes",
     lang: "es",
     citation: "Notas (ES)",

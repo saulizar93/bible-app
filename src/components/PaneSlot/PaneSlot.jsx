@@ -37,9 +37,10 @@ export default function PaneSlot({
       <header className="pane-head">
         <label className={`pane-picker ${opt.kind}`}>
           <span className="pane-badge" aria-hidden="true">{badge}</span>
-          {/* The visible label sizes the pill to the selected name; the native
+          {/* The visible label shows the full name (opt.name) of the selection and sizes
+              the pill; the dropdown list itself uses the short labels. The native
               <select> lies invisibly on top of it and still opens the list. */}
-          <span className="pane-current" aria-hidden="true">{opt.label}</span>
+          <span className="pane-current" aria-hidden="true">{opt.name || opt.label}</span>
           {isReady(opt.code) && (
             <span className="pane-offline" title={es ? "Disponible sin conexión" : "Available offline"} aria-hidden="true">
               ✓
