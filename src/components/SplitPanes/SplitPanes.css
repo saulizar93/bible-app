@@ -3,6 +3,11 @@
   display: flex;
   flex-direction: column;
   min-height: 0;
+  /* Without this a flex item can't shrink below its content's min width.
+     Off-screen verses use content-visibility:auto, which remembers their last
+     rendered width; in long chapters that stale width kept the panes from
+     shrinking when the Strong's panel docked, pushing it off-screen. */
+  min-width: 0;
 }
 /* NEW: wraps each PaneSlot so SplitPanes.jsx can size it via inline flex-basis
    without fighting .pane's own flex:1 rule below. */

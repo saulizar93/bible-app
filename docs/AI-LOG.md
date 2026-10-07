@@ -370,3 +370,7 @@
 - New scripts/versemap/remap.mjs aligns each book to RVG by text similarity and moves/splits/merges verses; when a verse is split, its `v` text and its `w` tokens are cut at the same word, so every Strong's/morph tag stays on its word (token totals verified unchanged per book). align.mjs is the read-only diagnostic. Originals in scripts/versemap/backup/.
 - Result: every chapter has RVG's verse count, no empty verses, and a full re-run reports 0 remaining moves.
 - Rebuilt public/data/concord/rv1909-strong; DATA_VERSION 3 → 4 and LEXICON_VERSION 5 → 6 so cached chapters and concordance refresh.
+
+## 2026-10-07 — Strong's panel pushed off-screen in long chapters
+- Cause: `.verse` uses `content-visibility: auto` + `contain-intrinsic-size: auto 60px`. Verses scrolled off-screen keep their last rendered width as their intrinsic size. `.pane` / `.panes` had no `min-width: 0`, so when the 320px Strong's panel docked, the panes could not shrink below that stale width and the panel overflowed to the right. Reproduced in Acts 2, Acts 7, John 6, Matt 5, Rom 8 (any chapter long enough to scroll); short chapters were unaffected.
+- Fix: added `min-width: 0` to `.pane` (PaneSlot.css) and `.panes` (SplitPanes.css).
