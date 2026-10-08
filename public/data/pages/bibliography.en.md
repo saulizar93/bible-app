@@ -1,6 +1,10 @@
-These are the Bibles, books, and podcasts I have used in my studies. This information is necessarily limited; no one needs ten or more years of specialized training to understand the Bible or Church history. Claims that such extensive training is necessary can become a means of indoctrination, especially when people are encouraged to devote so many years of their lives to an organization that leaving it becomes increasingly difficult. Scripture is accessible enough for a babe to read and understand, yet deep and broad enough to study for a lifetime. As the saying goes, it is shallow enough for a child to wade in, yet wide enough for us to swim in for the rest of our lives.
+These are the Bibles, books, and podcasts I have used in my studies.
 
-Bibles are grouped by tradition and language; books are grouped by subject and listed alphabetically by author within each subject.
+Information is limited; no one needs 10+ years to understand the Bible or Church history. I have read about 50 books per year for the last 3 years, and that already makes information repetitive. Claims that only "educated" priests can understand Scripture is a strategy to manipulate people in an age of widespread information & it is also a means of indoctrination, especially when seminareans are encouraged to devote their lives to an organization that leaving it becomes increasingly difficult since they're not trained in anything else. Scripture is shallow enough for a babe to read and understand, yet wide enough to swim in it for a lifetime:
+
+"I thank thee, O Father, Lord of heaven and earth, because thou hast hid these things from the wise and prudent, and hast revealed them unto babes" (Mat 11:25 KJV)
+
+In this page, you will find that Bibles are grouped by tradition and language; books are grouped by subject and listed alphabetically by author within each subject.
 
 - {top} Must read.
 - {good} Good read.
@@ -8,7 +12,7 @@ Bibles are grouped by tradition and language; books are grouped by subject and l
 - {bad} Bad read.
 - {terrible} Terrible read.
 
-Including a work here does not mean I agree with it. Many were read to understand — and answer — other positions.
+Including a work here does not mean I agree with it. Many were read to understand, and to make sure that one specific tradition did not keep information from me.
 
 # English Bibles
 
