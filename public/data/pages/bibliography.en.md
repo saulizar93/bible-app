@@ -58,8 +58,8 @@ Including a work here does not mean I agree with it. Many were read to understan
 - {good} Literal Standard Version (LSV)
 - {good} LSV: The 210-Book Holy Bible, Apocrypha, and Ancient History Master Collection
 - {good} CSB Study Bible
-- {average} CSB Ancient Faith Study Bible
-- {average} CSB Rainbow Study Bible
+- {good} CSB Ancient Faith Study Bible
+- {good} CSB Rainbow Study Bible
 
 ## Dynamic (thought-for-thought) translations and paraphrases
 
@@ -70,7 +70,7 @@ Including a work here does not mean I agree with it. Many were read to understan
 - {average} The Readable Bible
 - {bad} New Living Translation (NLT)
 - {bad} Contemporary English Version (CEV)
-- {bad} The Message
+- {terrible} The Message
 
 ## Jehovah's Witnesses
 
@@ -102,7 +102,7 @@ Including a work here does not mean I agree with it. Many were read to understan
 - {bad} The Jerusalem Bible (1966)
 - {bad} The New Jerusalem Bible (1985)
 - {bad} The Revised New Jerusalem Bible (2019)
-- {bad} Douay-Rheims Bible
+- {terrible} Douay-Rheims Bible
 
 ## Greek, Hebrew and Latin texts, interlinears and parallels
 
@@ -112,7 +112,7 @@ Including a work here does not mean I agree with it. Many were read to understan
 - {good} ESV Greek-English New Testament: Nestle-Aland 28th Edition and English Standard Version
 - {good} The Interlinear Bible, 1-Volume Edition
 - {good} Interlinear KJV-NIV Parallel New Testament in Greek and English
-- {bad} Biblia Sacra Vulgata (editio quinta) — Robert Weber & Roger Gryson
+- {good} Biblia Sacra Vulgata (editio quinta) — Robert Weber & Roger Gryson
 
 ## Korean
 
@@ -135,7 +135,7 @@ Including a work here does not mean I agree with it. Many were read to understan
 - {good} Reina-Valera 1909
 - {good} Nueva Versión Internacional 1999 (NVI)
 - {good} RVR1977 — Biblia de Estudio Matthew Henry
-- {bad} Reina-Valera Contemporánea (RVC)
+- {average} Reina-Valera Contemporánea (RVC)
 - {bad} Nueva Traducción Viviente (NTV)
 - {bad} Traducción en Lenguaje Actual (TLA)
 
@@ -156,16 +156,16 @@ Including a work here does not mean I agree with it. Many were read to understan
 
 ## Oneness theology
 
-- {top} _Anchor Points_ — David K. Bernard
-- {top} _A History of Christian Doctrine_ — David K. Bernard
+- {top} _The Oneness of God_ — David K. Bernard
 - {top} _Essentials of Oneness Theology_ — David K. Bernard
-- {top} _God's Infallible Word_ — David K. Bernard
 - {top} _In the Name of Jesus_ — David K. Bernard
 - {top} _Oneness and Trinity_ — David K. Bernard
-- {top} _The Oneness of God_ — David K. Bernard
 - {top} _The Oneness View of Jesus Christ_ — David K. Bernard
 - {top} _The Trinitarian Controversy in the Fourth Century_ — David K. Bernard
 - {top} _Ancient Champions of Oneness_ — William Chalfant
+- {good} _Anchor Points_ — David K. Bernard
+- {good} _A History of Christian Doctrine_ — David K. Bernard
+- {good} _God's Infallible Word_ — David K. Bernard
 - {good} _The Glory of God in the Face of Jesus Christ_ — David K. Bernard
 - {good} _The New Birth_ — David K. Bernard
 - {good} _Understanding God's Word_ — David K. Bernard
@@ -207,32 +207,32 @@ Including a work here does not mean I agree with it. Many were read to understan
 - {good} _Scripture Alone: Exploring the Bible's Accuracy and Authenticity_ — James R. White
 - {good} _Bible Translations Made Easy_ — Rose Publishing
 - {average} _Revision Revised_ — John William Burgon
+- {average} _The Case for Byzantine Priority_ — Maurice Robinson & William Pierpont
 - {bad} _Why I Preach from the Received Text: An Anthology of Essays by Reformed Ministers_ — Jeffrey T. Riddle (ed.)
-- {bad} _The Case for Byzantine Priority_ — Maurice Robinson & William Pierpont
 - {bad} _Certainty of the Words: Biblical Principles of Textual Criticism_ — Charles L. Surrett
 - {bad} _Codex Sinaiticus vs Vaticanus Comparison: A Clear Guide to Early Biblical Manuscripts_ — Caleb Veriton
 
 ## Apologetics
 
-- {top} _I Don't Have Enough Faith to Be an Atheist_ — Norman L. Geisler & Frank Turek
-- {top} _Demolishing Supposed Bible Contradictions_, Vol. 1 — Ken Ham
-- {top} _Demolishing Supposed Bible Contradictions_, Vol. 2 — Tim Chaffey
 - {top} _The Case for Christ_ — Lee Strobel
 - {top} _The Case for a Creator_ — Lee Strobel
 - {good} _The Case for Faith_ — Lee Strobel
 - {good} _In Defense of Jesus: Investigating Attacks on the Identity of Christ_ — Lee Strobel
+- {good} _I Don't Have Enough Faith to Be an Atheist_ — Norman L. Geisler & Frank Turek
 - {good} _The New Testament Documents: Are They Reliable?_ — F. F. Bruce
 - {good} _The Language of God: A Scientist Presents Evidence for Belief_ — Francis S. Collins
 - {good} _On Guard: Defending Your Faith with Reason and Precision_ — William Lane Craig
 - {good} _Reasonable Faith_, Third Edition — William Lane Craig
 - {good} _Evidence for Jesus: Timeless Answers for Tough Questions about Christ_ — Josh McDowell
+- {good} _Demolishing Supposed Bible Contradictions_, Vol. 1 — Ken Ham
+- {good} _Demolishing Supposed Bible Contradictions_, Vol. 2 — Tim Chaffey
 
 ## Theology, doctrine and commentaries
 
-- {top} _Mere Christianity_ — C. S. Lewis
-- {top} _The MacArthur Bible Commentary_ — John MacArthur
 - {top} _What It Means to Be Protestant: The Case for an Always-Reforming Church_ — Gavin Ortlund
 - {top} _Revelation: Four Views, A Parallel Commentary_ — Steve Gregg
+- {top} _The MacArthur Bible Commentary_ — John MacArthur
+- {good} _Mere Christianity_ — C. S. Lewis
 - {good} _Calvinism vs. Arminianism: The Bible Answers_ — Edward D. Andrews
 - {good} _Understanding the Difficult Words of Jesus: New Insight from a Hebrew Perspective_ — David Bivin & Roy Blizzard Jr.
 - {good} _The Tony Evans Bible Commentary_ — Tony Evans
@@ -248,13 +248,13 @@ Including a work here does not mean I agree with it. Many were read to understan
 - {top} _Preparing for Eternity: Should We Trust God's Word or Religious Traditions?_ — Mike Gendron
 - {top} _Roman Catholicism_ — Loraine Boettner
 - {good} _The Priest, the Woman, and the Confessional_ — Charles Chiniquy (former priest)
-- {average} _Babylon Religion_ — David W. Daniels
-- {average} _The Gospel According to Rome: Comparing Catholic Tradition and the Word of God_ — James G. McCarthy
-- {average} _People's Padre_ — Emmett McLoughlin (former priest)
-- {average} _Reasoning from the Scriptures with Catholics_ — Ron Rhodes
-- {average} _The 10 Most Important Things You Can Say to a Catholic_ — Ron Rhodes
-- {average} _I Was a Priest_ — Lucien Vinet (former priest, 1949)
-- {average} _The Roman Catholic Controversy_ — James R. White
+- {good} _The Gospel According to Rome: Comparing Catholic Tradition and the Word of God_ — James G. McCarthy
+- {good} _Reasoning from the Scriptures with Catholics_ — Ron Rhodes
+- {good} _The 10 Most Important Things You Can Say to a Catholic_ — Ron Rhodes
+- {good} _I Was a Priest_ — Lucien Vinet (former priest, 1949)
+- {good} _The Roman Catholic Controversy_ — James R. White
+- {good} _Babylon Religion_ — David W. Daniels
+- {good} _People's Padre_ — Emmett McLoughlin (former priest)
 
 ## Roman Catholicism: Catholic authors
 
@@ -262,7 +262,7 @@ Including a work here does not mean I agree with it. Many were read to understan
 - {good} _Why We're Catholic: Our Reasons for Faith, Hope, and Love_ — Trent Horn
 - {good} _Debating Catholicism_ — Karl Keating
 - {good} _Dialogue Concerning Heresies_ — Thomas More (a Catholic attack on William Tyndale)
-- {average} _Our Lady of Guadalupe: The Origins and Sources of a Mexican National Symbol, 1531–1797_ — Stafford Poole
+- {good} _Our Lady of Guadalupe: The Origins and Sources of a Mexican National Symbol, 1531–1797_ — Stafford Poole
 - {bad} _The Fathers Know Best: Your Essential Guide to the Teachings of the Early Church_ — Jimmy Akin
 - {bad} _How the Catholic Church Built Western Civilization_ — Thomas E. Woods
 - {terrible} _The Glories of Mary_ — Alphonsus Liguori
@@ -271,9 +271,11 @@ Including a work here does not mean I agree with it. Many were read to understan
 
 - {good} _Jehovah's Witnesses 101_ — Edward D. Andrews
 - {good} _What Every Christian Needs to Know About the Qur'an_ — James R. White
-- {average} _The 10 Most Important Things You Can Say to a Jehovah's Witness_ — Ron Rhodes
-- {average} _Reasoning from the Scriptures with the Mormons_ — Ron Rhodes
-- {terrible} _The Book of Mormon: Another Testament of Jesus Christ_
+- {good} _The 10 Most Important Things You Can Say to a Jehovah's Witness_ — Ron Rhodes
+- {good} _Reasoning from the Scriptures with the Mormons_ — Ron Rhodes
+- {average} _The Catholic Catechism_
+- {average} _The Book of Mormon: Another Testament of Jesus Christ_
+- {terrible} _The Qur'an_
 
 ## Language tools and reference
 
