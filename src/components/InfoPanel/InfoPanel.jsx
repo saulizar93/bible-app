@@ -249,8 +249,9 @@ function inline(text) {
   let m;
   while ((m = re.exec(text))) {
     if (m.index > last) out.push(text.slice(last, m.index));
-    if (m[1]) out.push(<strong key={out.length}>{m[1]}</strong>);
-    else if (m[2] || m[3]) out.push(<em key={out.length}>{m[2] || m[3]}</em>);
+    // bold/italic text is formatted again, so **_metanoeō_** = bold + italic
+    if (m[1]) out.push(<strong key={out.length}>{inline(m[1])}</strong>);
+    else if (m[2] || m[3]) out.push(<em key={out.length}>{inline(m[2] || m[3])}</em>);
     else
       out.push(
         <a
