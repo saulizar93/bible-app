@@ -145,7 +145,7 @@ Incluir una obra aquí no significa que esté de acuerdo con ella. Muchas las le
 
 ## Católicas
 
-- {top} Biblia de Jerusalén
+- {good} Biblia de Jerusalén
 - {bad} Biblia de Jerusalén Latinoamericana (The Great Adventure Catholic Bible, Spanish Edition)
 - {bad} Biblia de Navarra
 - {bad} Dios Habla Hoy

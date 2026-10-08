@@ -145,7 +145,7 @@ Including a work here does not mean I agree with it. Many were read to understan
 
 ## Catholic
 
-- {top} Biblia de Jerusalén
+- {good} Biblia de Jerusalén
 - {bad} Biblia de Jerusalén Latinoamericana (The Great Adventure Catholic Bible, Spanish Edition)
 - {bad} Biblia de Navarra
 - {bad} Dios Habla Hoy
