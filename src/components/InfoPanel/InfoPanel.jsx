@@ -14,8 +14,9 @@ import "./InfoPanel.css";
  *   - bullet item
  *   - {top} / {low} / {worst} at the start of a bullet = tier badge + highlight (Bibliography)
  *   > quoted line (consecutive > lines form one quote block)
+ *   > — Reference   as the last line of a quote = featured verse with its reference below
  *   | a | table |   (first row = header; a |---|---| separator row is optional and skipped)
- *   **bold**, *italic*, [link text](https://...)
+ *   **bold**, *italic* or _italic_, [link text](https://...)
  *   blank line = new paragraph
  */
 export default function InfoPanel({
@@ -130,12 +131,18 @@ function renderMarkdown(src, lang = "en") {
   let quote = [];
   let table = [];
   const flushQuote = () => {
+    // A quote whose last line starts with "—" is a featured verse: the text, then the
+    // reference on its own line ("> — Matthew 11:25 (KJV)"), styled as .info-quote.verse.
+    const last = quote[quote.length - 1] || "";
+    const cite = quote.length > 1 && /^(—|--)\s*/.test(last) ? last.replace(/^(—|--)\s*/, "") : null;
+    const lines = cite ? quote.slice(0, -1) : quote;
     if (quote.length)
       blocks.push(
-        <blockquote key={blocks.length} className="info-quote">
-          {quote.map((q, i) => (
+        <blockquote key={blocks.length} className={cite ? "info-quote verse" : "info-quote"}>
+          {lines.map((q, i) => (
             <p key={i}>{inline(q)}</p>
           ))}
+          {cite && <cite>— {inline(cite)}</cite>}
         </blockquote>,
       );
     quote = [];
@@ -236,22 +243,23 @@ function renderMarkdown(src, lang = "en") {
 
 function inline(text) {
   const out = [];
-  const re = /\*\*(.+?)\*\*|\*(.+?)\*|\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g;
+  // **bold**, *italic* or _italic_ (underscores only at word edges, so snake_case stays), [link](url)
+  const re = /\*\*(.+?)\*\*|\*(.+?)\*|(?<![\w])_(.+?)_(?![\w])|\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g;
   let last = 0;
   let m;
   while ((m = re.exec(text))) {
     if (m.index > last) out.push(text.slice(last, m.index));
     if (m[1]) out.push(<strong key={out.length}>{m[1]}</strong>);
-    else if (m[2]) out.push(<em key={out.length}>{m[2]}</em>);
+    else if (m[2] || m[3]) out.push(<em key={out.length}>{m[2] || m[3]}</em>);
     else
       out.push(
         <a
           key={out.length}
-          href={m[4]}
+          href={m[5]}
           target="_blank"
           rel="noopener noreferrer"
         >
-          {m[3]}
+          {m[4]}
         </a>,
       );
     last = re.lastIndex;

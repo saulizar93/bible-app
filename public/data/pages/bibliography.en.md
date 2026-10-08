@@ -1,10 +1,11 @@
 These are the Bibles, books, and podcasts I have used in my studies.
 
-Information is limited; no one needs 10+ years to understand the Bible or Church history. I have read about 50 books per year for the last 3 years, and that already makes information repetitive. Claims that only "educated" priests can understand Scripture is a strategy to manipulate people in an age of widespread information & it is also a means of indoctrination, especially when seminareans are encouraged to devote their lives to an organization that leaving it becomes increasingly difficult since they're not trained in anything else. Scripture is shallow enough for a babe to read and understand, yet wide enough to swim in it for a lifetime:
+Information is limited; no one needs 10+ years to understand the Bible or Church history. I have read about 50 books per year for the last 3 years, and that already makes information repetitive. Claiming that only "educated" priests can understand Scripture is a strategy to manipulate people in an age of widespread information, and it is also a means of indoctrination, especially when seminarians are encouraged to devote their lives to an organization so fully that leaving it becomes increasingly difficult, since they're not trained in anything else. Scripture is shallow enough for a babe to read and understand, yet deep enough to swim in for a lifetime:
 
-"I thank thee, O Father, Lord of heaven and earth, because thou hast hid these things from the wise and prudent, and hast revealed them unto babes" (Mat 11:25 KJV)
+> I thank thee, O Father, Lord of heaven and earth, because thou hast hid these things from the wise and prudent, and hast revealed them unto babes.
+> — Matthew 11:25 (KJV)
 
-In this page, you will find that Bibles are grouped by tradition and language; books are grouped by subject and listed alphabetically by author within each subject.
+On this page, Bibles are grouped by tradition and language; books are grouped by subject and listed alphabetically by author within each subject.
 
 - {top} Must read.
 - {good} Good read.
@@ -136,7 +137,7 @@ Including a work here does not mean I agree with it. Many were read to understan
 - {good} RVR1977 — Biblia de Estudio Matthew Henry
 - {bad} Reina-Valera Contemporánea (RVC)
 - {bad} Nueva Traducción Viviente (NTV)
-- {bad} Traducción de Lenguaje Actual (TLA)
+- {bad} Traducción en Lenguaje Actual (TLA)
 
 ## Jehovah's Witnesses
 
@@ -148,7 +149,7 @@ Including a work here does not mean I agree with it. Many were read to understan
 - {bad} Biblia de Jerusalén Latinoamericana (The Great Adventure Catholic Bible, Spanish Edition)
 - {bad} Biblia de Navarra
 - {bad} Dios Habla Hoy
-- {terrible} Biblia Latinoameriana
+- {terrible} Biblia Latinoamericana
 - {terrible} Sagrada Biblia, translated from the Latin by Félix Torres Amat (1999 edition)
 
 # Books
@@ -164,7 +165,7 @@ Including a work here does not mean I agree with it. Many were read to understan
 - {top} _The Oneness of God_ — David K. Bernard
 - {top} _The Oneness View of Jesus Christ_ — David K. Bernard
 - {top} _The Trinitarian Controversy in the Fourth Century_ — David K. Bernard
-- {top} _Ancient Champions of Oneness_ - Willian Chalfant
+- {top} _Ancient Champions of Oneness_ — William Chalfant
 - {good} _The Glory of God in the Face of Jesus Christ_ — David K. Bernard
 - {good} _The New Birth_ — David K. Bernard
 - {good} _Understanding God's Word_ — David K. Bernard
@@ -238,8 +239,8 @@ Including a work here does not mean I agree with it. Many were read to understan
 - {good} _The Forgotten Trinity: Recovering the Heart of Christian Belief_ — James R. White (Trinitarian view)
 - {average} _The Search for God_ — C. S. Lewis & Lesley Walmsley
 - {average} _Identifying the Seed: Dispensationalism and Covenant Theology_ — Robert M. McKenzie
-- {bad} _The Deconstruction of Christianity: What It Is, Why It's Destructive, and How to Respond_ — Alisa Childers & Tim Barnett
 - {average} _The Shack: Where Tragedy Confronts Eternity_ — William P. Young (a fictional book that attempts to portray a triune God)
+- {bad} _The Deconstruction of Christianity: What It Is, Why It's Destructive, and How to Respond_ — Alisa Childers & Tim Barnett
 
 ## Roman Catholicism: critiques and former priests
 
