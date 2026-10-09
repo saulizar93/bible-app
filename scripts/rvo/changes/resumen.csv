@@ -1,0 +1,3735 @@
+﻿regla,antes,después,nota,veces
+JAH → YAH,jah,yah,,23
+JAH → YAH,en el señor,en yah,,1
+Jehová → YHWH,jehová,yhwh,,6842
+MAYÚSCULAS → normal,en,en,,60
+MAYÚSCULAS → normal,aconteció,aconteció,,50
+MAYÚSCULAS → normal,fue,fue,,40
+MAYÚSCULAS → normal,habló,habló,,34
+MAYÚSCULAS → normal,entonces,entonces,,33
+MAYÚSCULAS → normal,el,el,,31
+MAYÚSCULAS → normal,los,los,,28
+MAYÚSCULAS → normal,de,de,,27
+MAYÚSCULAS → normal,después,después,,26
+MAYÚSCULAS → normal,pero,pero,,24
+MAYÚSCULAS → normal,cuando,cuando,,23
+MAYÚSCULAS → normal,así,así,,21
+MAYÚSCULAS → normal,como,como,,20
+MAYÚSCULAS → normal,palabra,palabra,,20
+MAYÚSCULAS → normal,respondió,respondió,,18
+MAYÚSCULAS → normal,me,me,,17
+MAYÚSCULAS → normal,no,no,,16
+MAYÚSCULAS → normal,oh,oh,,15
+MAYÚSCULAS → normal,la,la,,14
+MAYÚSCULAS → normal,por,por,,13
+MAYÚSCULAS → normal,¡ay,¡ay,,13
+MAYÚSCULAS → normal,se,se,,12
+MAYÚSCULAS → normal,estos,estos,,12
+MAYÚSCULAS → normal,porque,porque,,12
+MAYÚSCULAS → normal,"pablo,","pablo,",,12
+MAYÚSCULAS → normal,dijo,dijo,,11
+MAYÚSCULAS → normal,carga,carga,,11
+MAYÚSCULAS → normal,estas,estas,,10
+MAYÚSCULAS → normal,yo,yo,,10
+MAYÚSCULAS → normal,he,he,,9
+MAYÚSCULAS → normal,alabad,alabad,,9
+MAYÚSCULAS → normal,oíd,oíd,,8
+MAYÚSCULAS → normal,las,las,,7
+MAYÚSCULAS → normal,hubo,hubo,,6
+MAYÚSCULAS → normal,ahora,ahora,,6
+MAYÚSCULAS → normal,pasadas,pasadas,,6
+MAYÚSCULAS → normal,dios,dios,,6
+MAYÚSCULAS → normal,vi,vi,,6
+MAYÚSCULAS → normal,esto,esto,,5
+MAYÚSCULAS → normal,si,si,,5
+MAYÚSCULAS → normal,oyendo,oyendo,,5
+MAYÚSCULAS → normal,vinieron,vinieron,,5
+MAYÚSCULAS → normal,había,había,,5
+MAYÚSCULAS → normal,bienaventurado,bienaventurado,,5
+MAYÚSCULAS → normal,¡oh,¡oh,,5
+MAYÚSCULAS → normal,cantad,cantad,,5
+MAYÚSCULAS → normal,hijo,hijo,,5
+MAYÚSCULAS → normal,rey,rey,,5
+MAYÚSCULAS → normal,al,al,,4
+MAYÚSCULAS → normal,a,a,,4
+MAYÚSCULAS → normal,tenía,tenía,,4
+MAYÚSCULAS → normal,luego,luego,,4
+MAYÚSCULAS → normal,también,también,,4
+MAYÚSCULAS → normal,palabras,palabras,,4
+MAYÚSCULAS → normal,ciertamente,ciertamente,,4
+MAYÚSCULAS → normal,¿por,¿por,,4
+MAYÚSCULAS → normal,"escucha,","escucha,",,4
+MAYÚSCULAS → normal,es,es,,4
+MAYÚSCULAS → normal,judios.,judíos.,,4
+MAYÚSCULAS → normal,este,este,,3
+MAYÚSCULAS → normal,siendo,siendo,,3
+MAYÚSCULAS → normal,viendo,viendo,,3
+MAYÚSCULAS → normal,llamó,llamó,,3
+MAYÚSCULAS → normal,toda,toda,,3
+MAYÚSCULAS → normal,harás,harás,,3
+MAYÚSCULAS → normal,tú,tú,,3
+MAYÚSCULAS → normal,santidad,santidad,,3
+MAYÚSCULAS → normal,hizo,hizo,,3
+MAYÚSCULAS → normal,asimismo,asimismo,,3
+MAYÚSCULAS → normal,"aconteció,","aconteció,",,3
+MAYÚSCULAS → normal,"oye,","oye,",,3
+MAYÚSCULAS → normal,será,será,,3
+MAYÚSCULAS → normal,"dios,","dios,",,3
+MAYÚSCULAS → normal,subió,subió,,3
+MAYÚSCULAS → normal,aquel,aquel,,3
+MAYÚSCULAS → normal,david,david,,3
+MAYÚSCULAS → normal,vino,vino,,3
+MAYÚSCULAS → normal,volvió,volvió,,3
+MAYÚSCULAS → normal,cuanto,cuanto,,3
+MAYÚSCULAS → normal,ti,ti,,3
+MAYÚSCULAS → normal,ten,ten,,3
+MAYÚSCULAS → normal,mejor,mejor,,3
+MAYÚSCULAS → normal,¿quién,¿quién,,3
+MAYÚSCULAS → normal,¡cómo,¡cómo,,3
+MAYÚSCULAS → normal,"tú,","tú,",,3
+MAYÚSCULAS → normal,habiendo,habiendo,,3
+MAYÚSCULAS → normal,acaeció,acaeció,,2
+MAYÚSCULAS → normal,era,era,,2
+MAYÚSCULAS → normal,le,le,,2
+MAYÚSCULAS → normal,abraham,abraham,,2
+MAYÚSCULAS → normal,salió,salió,,2
+MAYÚSCULAS → normal,mandó,mandó,,2
+MAYÚSCULAS → normal,un,un,,2
+MAYÚSCULAS → normal,soy,soy,,2
+MAYÚSCULAS → normal,oyó,oyó,,2
+MAYÚSCULAS → normal,moisés,moisés,,2
+MAYÚSCULAS → normal,del,del,,2
+MAYÚSCULAS → normal,llegaron,llegaron,,2
+MAYÚSCULAS → normal,"volvimos,","volvimos,",,2
+MAYÚSCULAS → normal,esta,está,,2
+MAYÚSCULAS → normal,juntando,juntando,,2
+MAYÚSCULAS → normal,levantándose,levantándose,,2
+MAYÚSCULAS → normal,samuel,samuel,,2
+MAYÚSCULAS → normal,dieron,dieron,,2
+MAYÚSCULAS → normal,envió,envió,,2
+MAYÚSCULAS → normal,salomón,salomón,,2
+MAYÚSCULAS → normal,hiram,hiram,,2
+MAYÚSCULAS → normal,pasados,pasados,,2
+MAYÚSCULAS → normal,una,una,,2
+MAYÚSCULAS → normal,comenzó,comenzó,,2
+MAYÚSCULAS → normal,durmió,durmió,,2
+MAYÚSCULAS → normal,reinó,reinó,,2
+MAYÚSCULAS → normal,veinticinco,veinticinco,,2
+MAYÚSCULAS → normal,mi,mi,,2
+MAYÚSCULAS → normal,además,además,,2
+MAYÚSCULAS → normal,"júzgame,","júzgame,",,2
+MAYÚSCULAS → normal,dije:,dije:,,2
+MAYÚSCULAS → normal,con,con,,2
+MAYÚSCULAS → normal,¡cuán,¡cuán,,2
+MAYÚSCULAS → normal,"bendice,","bendice,",,2
+MAYÚSCULAS → normal,"acuérdate,","acuérdate,",,2
+MAYÚSCULAS → normal,¿no,¿no,,2
+MAYÚSCULAS → normal,visión,visión,,2
+MAYÚSCULAS → normal,lo,lo,,2
+MAYÚSCULAS → normal,"oidme,","oidme,",,2
+MAYÚSCULAS → normal,todos,todos,,2
+MAYÚSCULAS → normal,acerca,acerca,,2
+MAYÚSCULAS → normal,"miré,","miré,",,2
+MAYÚSCULAS → normal,"mene,","mene,",,2
+MAYÚSCULAS → normal,jesus.,jesús.,,2
+MAYÚSCULAS → normal,mirad,mirad,,2
+MAYÚSCULAS → normal,jesus,jesús,,2
+MAYÚSCULAS → normal,otra,otra,,2
+MAYÚSCULAS → normal,"jesús,","jesús,",,2
+MAYÚSCULAS → normal,estaba,estaba,,2
+MAYÚSCULAS → normal,pasando,pasando,,2
+MAYÚSCULAS → normal,"¿qué,","¿qué,",,2
+MAYÚSCULAS → normal,"hermanos,","hermanos,",,2
+MAYÚSCULAS → normal,"resta,","resta,",,2
+MAYÚSCULAS → normal,pues,pues,,2
+MAYÚSCULAS → normal,hermanos,hermanos,,2
+MAYÚSCULAS → normal,escribe,escribe,,2
+MAYÚSCULAS → normal,y,y,,2
+MAYÚSCULAS → normal,fueron,fueron,,1
+MAYÚSCULAS → normal,conoció,conoció,,1
+MAYÚSCULAS → normal,bendijo,bendijo,,1
+MAYÚSCULAS → normal,"subió,","subió,",,1
+MAYÚSCULAS → normal,"sarai,","sarai,",,1
+MAYÚSCULAS → normal,"llegaron,","llegaron,",,1
+MAYÚSCULAS → normal,visitó,visitó,,1
+MAYÚSCULAS → normal,siguió,siguió,,1
+MAYÚSCULAS → normal,oía,oía,,1
+MAYÚSCULAS → normal,jacob,jacob,,1
+MAYÚSCULAS → normal,alzando,alzando,,1
+MAYÚSCULAS → normal,habitó,habitó,,1
+MAYÚSCULAS → normal,llevado,llevado,,1
+MAYÚSCULAS → normal,josé,josé,,1
+MAYÚSCULAS → normal,sucedió,sucedió,,1
+MAYÚSCULAS → normal,apacentando,apacentando,,1
+MAYÚSCULAS → normal,que,que,,1
+MAYÚSCULAS → normal,soy.,soy.,,1
+MAYÚSCULAS → normal,partiendo,partiendo,,1
+MAYÚSCULAS → normal,"hizo,","hizo,",,1
+MAYÚSCULAS → normal,igualmente,igualmente,,1
+MAYÚSCULAS → normal,hablaron,hablaron,,1
+MAYÚSCULAS → normal,"coré,","coré,",,1
+MAYÚSCULAS → normal,movieron,movieron,,1
+MAYÚSCULAS → normal,balaam,balaam,,1
+MAYÚSCULAS → normal,estrella,estrella,,1
+MAYÚSCULAS → normal,reposó,reposó,,1
+MAYÚSCULAS → normal,cuidaréis,cuidaréis,,1
+MAYÚSCULAS → normal,amarás,amarás,,1
+MAYÚSCULAS → normal,hijos,hijos,,1
+MAYÚSCULAS → normal,guardarás,guardarás,,1
+MAYÚSCULAS → normal,tu,tu,,1
+MAYÚSCULAS → normal,"escuchad,","escuchad,",,1
+MAYÚSCULAS → normal,"josué,","josué,",,1
+MAYÚSCULAS → normal,tuvo,tuvo,,1
+MAYÚSCULAS → normal,segunda,segunda,,1
+MAYÚSCULAS → normal,"estas,","estas,",,1
+MAYÚSCULAS → normal,existía,existía,,1
+MAYÚSCULAS → normal,juntándose,juntándose,,1
+MAYÚSCULAS → normal,descendiendo,descendiendo,,1
+MAYÚSCULAS → normal,boaz,boaz,,1
+MAYÚSCULAS → normal,ana,ana,,1
+MAYÚSCULAS → normal,estuvo,estuvo,,1
+MAYÚSCULAS → normal,tomando,tomando,,1
+MAYÚSCULAS → normal,yéndose,yéndose,,1
+MAYÚSCULAS → normal,murió,murió,,1
+MAYÚSCULAS → normal,conociendo,conociendo,,1
+MAYÚSCULAS → normal,achab,achab,,1
+MAYÚSCULAS → normal,tres,tres,,1
+MAYÚSCULAS → normal,joram,joram,,1
+MAYÚSCULAS → normal,"naamán,","naamán,",,1
+MAYÚSCULAS → normal,atalía,atalía,,1
+MAYÚSCULAS → normal,"adam,","adam,",,1
+MAYÚSCULAS → normal,benjamín,benjamín,,1
+MAYÚSCULAS → normal,contado,contado,,1
+MAYÚSCULAS → normal,juntó,juntó,,1
+MAYÚSCULAS → normal,determinó,determinó,,1
+MAYÚSCULAS → normal,acabada,acabada,,1
+MAYÚSCULAS → normal,roboam,roboam,,1
+MAYÚSCULAS → normal,josafat,josafat,,1
+MAYÚSCULAS → normal,siete,siete,,1
+MAYÚSCULAS → normal,veinte,veinte,,1
+MAYÚSCULAS → normal,ezequías,ezequías,,1
+MAYÚSCULAS → normal,hechas,hechas,,1
+MAYÚSCULAS → normal,doce,doce,,1
+MAYÚSCULAS → normal,ocho,ocho,,1
+MAYÚSCULAS → normal,josías,josías,,1
+MAYÚSCULAS → normal,llegado,llegado,,1
+MAYÚSCULAS → normal,profetizaron,profetizaron,,1
+MAYÚSCULAS → normal,acabadas,acabadas,,1
+MAYÚSCULAS → normal,orando,orando,,1
+MAYÚSCULAS → normal,habitaron,habitaron,,1
+MAYÚSCULAS → normal,aquella,aquella,,1
+MAYÚSCULAS → normal,mismo,mismo,,1
+MAYÚSCULAS → normal,otro,otro,,1
+MAYÚSCULAS → normal,está,está,,1
+MAYÚSCULAS → normal,aquí,aquí,,1
+MAYÚSCULAS → normal,hombre,hombre,,1
+MAYÚSCULAS → normal,aliento,aliento,,1
+MAYÚSCULAS → normal,puesto,puesto,,1
+MAYÚSCULAS → normal,reasumió,reasumió,,1
+MAYÚSCULAS → normal,hice,hice,,1
+MAYÚSCULAS → normal,cesaron,cesaron,,1
+MAYÚSCULAS → normal,procediendo,procediendo,,1
+MAYÚSCULAS → normal,añadió,añadió,,1
+MAYÚSCULAS → normal,¿cazarás,¿cazarás,,1
+MAYÚSCULAS → normal,¿sacarás,¿sacarás,,1
+MAYÚSCULAS → normal,respóndeme,respóndeme,,1
+MAYÚSCULAS → normal,te,te,,1
+MAYÚSCULAS → normal,"salva,","salva,",,1
+MAYÚSCULAS → normal,¿hasta,¿hasta,,1
+MAYÚSCULAS → normal,"guárdame,","guárdame,",,1
+MAYÚSCULAS → normal,amarte,amarte,,1
+MAYÚSCULAS → normal,oigate,oigate,,1
+MAYÚSCULAS → normal,"ti,","ti,",,1
+MAYÚSCULAS → normal,dad,dad,,1
+MAYÚSCULAS → normal,glorificarte,glorificarte,,1
+MAYÚSCULAS → normal,"alegraos,","alegraos,",,1
+MAYÚSCULAS → normal,bendeciré,bendeciré,,1
+MAYÚSCULAS → normal,"disputa,","disputa,",,1
+MAYÚSCULAS → normal,resignadamente,resignadamente,,1
+MAYÚSCULAS → normal,rebosa,rebosa,,1
+MAYÚSCULAS → normal,pueblos,pueblos,,1
+MAYÚSCULAS → normal,grande,grande,,1
+MAYÚSCULAS → normal,líbrame,líbrame,,1
+MAYÚSCULAS → normal,aclamad,aclamad,,1
+MAYÚSCULAS → normal,levántese,levántese,,1
+MAYÚSCULAS → normal,"sálvame,","sálvame,",,1
+MAYÚSCULAS → normal,"alabarémoste,","alabarémoste,",,1
+MAYÚSCULAS → normal,fuiste,fuiste,,1
+MAYÚSCULAS → normal,"inclina,","inclina,",,1
+MAYÚSCULAS → normal,su,su,,1
+MAYÚSCULAS → normal,"señor,","señor,",,1
+MAYÚSCULAS → normal,bueno,bueno,,1
+MAYÚSCULAS → normal,"venid,","venid,",,1
+MAYÚSCULAS → normal,misericordia,misericordia,,1
+MAYÚSCULAS → normal,aleluya.,aleluya.,,1
+MAYÚSCULAS → normal,alabaré,alabaré,,1
+MAYÚSCULAS → normal,"alabad,","alabad,",,1
+MAYÚSCULAS → normal,amo,amo,,1
+MAYÚSCULAS → normal,aleph.,aleph.,,1
+MAYÚSCULAS → normal,bienaventurados,bienaventurados,,1
+MAYÚSCULAS → normal,beth,beth,,1
+MAYÚSCULAS → normal,gimel.,gimel.,,1
+MAYÚSCULAS → normal,daleth.,daleth.,,1
+MAYÚSCULAS → normal,he.,he.,,1
+MAYÚSCULAS → normal,vau.,vau.,,1
+MAYÚSCULAS → normal,zain.,zain.,,1
+MAYÚSCULAS → normal,cheth.,cheth.,,1
+MAYÚSCULAS → normal,teth.,teth.,,1
+MAYÚSCULAS → normal,jod.,jod.,,1
+MAYÚSCULAS → normal,caph.,caph.,,1
+MAYÚSCULAS → normal,lamed.,lamed.,,1
+MAYÚSCULAS → normal,mem,mem,,1
+MAYÚSCULAS → normal,nun.,nun.,,1
+MAYÚSCULAS → normal,samech.,samech.,,1
+MAYÚSCULAS → normal,aín.,aín.,,1
+MAYÚSCULAS → normal,pe.,pe.,,1
+MAYÚSCULAS → normal,tzaddi.,tzaddi.,,1
+MAYÚSCULAS → normal,coph.,coph.,,1
+MAYÚSCULAS → normal,resh.,resh.,,1
+MAYÚSCULAS → normal,sin.,sin.,,1
+MAYÚSCULAS → normal,tau.,tau.,,1
+MAYÚSCULAS → normal,alzaré,alzaré,,1
+MAYÚSCULAS → normal,mucho,mucho,,1
+MAYÚSCULAS → normal,¡mirad,¡mirad,,1
+MAYÚSCULAS → normal,"mirad,","mirad,",,1
+MAYÚSCULAS → normal,junto,junto,,1
+MAYÚSCULAS → normal,alabarte,alabarte,,1
+MAYÚSCULAS → normal,"líbrame,","líbrame,",,1
+MAYÚSCULAS → normal,bendito,bendito,,1
+MAYÚSCULAS → normal,ensalzarte,ensalzarte,,1
+MAYÚSCULAS → normal,"alaba,","alaba,",,1
+MAYÚSCULAS → normal,"oíd,","oíd,",,1
+MAYÚSCULAS → normal,según,según,,1
+MAYÚSCULAS → normal,huye,huye,,1
+MAYÚSCULAS → normal,dije,dije,,1
+MAYÚSCULAS → normal,para,para,,1
+MAYÚSCULAS → normal,hay,hay,,1
+MAYÚSCULAS → normal,echa,echa,,1
+MAYÚSCULAS → normal,acuérdate,acuérdate,,1
+MAYÚSCULAS → normal,canción,canción,,1
+MAYÚSCULAS → normal,¿dónde,¿dónde,,1
+MAYÚSCULAS → normal,echarán,echarán,,1
+MAYÚSCULAS → normal,aunque,aunque,,1
+MAYÚSCULAS → normal,saldrá,saldrá,,1
+MAYÚSCULAS → normal,dirás,dirás,,1
+MAYÚSCULAS → normal,enviad,enviad,,1
+MAYÚSCULAS → normal,"gentes,","gentes,",,1
+MAYÚSCULAS → normal,alegrarse,alegrarse,,1
+MAYÚSCULAS → normal,"consolaos,","consolaos,",,1
+MAYÚSCULAS → normal,"escuchadme,","escuchadme,",,1
+MAYÚSCULAS → normal,"ahora,","ahora,",,1
+MAYÚSCULAS → normal,"desciende,","desciende,",,1
+MAYÚSCULAS → normal,"despierta,","despierta,",,1
+MAYÚSCULAS → normal,"alégrate,","alégrate,",,1
+MAYÚSCULAS → normal,perece,perece,,1
+MAYÚSCULAS → normal,clama,clama,,1
+MAYÚSCULAS → normal,"levántate,","levántate,",,1
+MAYÚSCULAS → normal,fui,fui,,1
+MAYÚSCULAS → normal,dicen:,dicen:,,1
+MAYÚSCULAS → normal,discurrid,discurrid,,1
+MAYÚSCULAS → normal,"huid,","huid,",,1
+MAYÚSCULAS → normal,justo,justo,,1
+MAYÚSCULAS → normal,pasur,pasur,,1
+MAYÚSCULAS → normal,justicia,justicia,,1
+MAYÚSCULAS → normal,nuestra.,nuestra.,,1
+MAYÚSCULAS → normal,clamó,clamó,,1
+MAYÚSCULAS → normal,yhwh-shamma.,yhwh-shamma.,,1
+MAYÚSCULAS → normal,nabucodonosor,nabucodonosor,,1
+MAYÚSCULAS → normal,"tekel,","tekel,",,1
+MAYÚSCULAS → normal,upharsin.,upharsin.,,1
+MAYÚSCULAS → normal,mene:,mene:,,1
+MAYÚSCULAS → normal,tekel:,tekel:,,1
+MAYÚSCULAS → normal,peres:,peres:,,1
+MAYÚSCULAS → normal,pareció,pareció,,1
+MAYÚSCULAS → normal,decid,decid,,1
+MAYÚSCULAS → normal,"sacerdotes,","sacerdotes,",,1
+MAYÚSCULAS → normal,venid,venid,,1
+MAYÚSCULAS → normal,estando,estando,,1
+MAYÚSCULAS → normal,pon,pon,,1
+MAYÚSCULAS → normal,"conviértete,","conviértete,",,1
+MAYÚSCULAS → normal,tocad,tocad,,1
+MAYÚSCULAS → normal,acontecerá,acontecerá,,1
+MAYÚSCULAS → normal,reúnete,reúnete,,1
+MAYÚSCULAS → normal,sobre,sobre,,1
+MAYÚSCULAS → normal,oración,oración,,1
+MAYÚSCULAS → normal,congregaos,congregaos,,1
+MAYÚSCULAS → normal,alcé,alcé,,1
+MAYÚSCULAS → normal,pedid,pedid,,1
+MAYÚSCULAS → normal,libro,libro,,1
+MAYÚSCULAS → normal,"jesus,","jesús,",,1
+MAYÚSCULAS → normal,"fue,","fue,",,1
+MAYÚSCULAS → normal,llegándose,llegándose,,1
+MAYÚSCULAS → normal,respondiendo,respondiendo,,1
+MAYÚSCULAS → normal,salido,salido,,1
+MAYÚSCULAS → normal,venida,venida,,1
+MAYÚSCULAS → normal,principio,principio,,1
+MAYÚSCULAS → normal,entró,entró,,1
+MAYÚSCULAS → normal,partiéndose,partiéndose,,1
+MAYÚSCULAS → normal,saliendo,saliendo,,1
+MAYÚSCULAS → normal,dos,dos,,1
+MAYÚSCULAS → normal,cristo,cristo,,1
+MAYÚSCULAS → normal,jesús;,jesús;,,1
+MAYÚSCULAS → normal,sus,sus,,1
+MAYÚSCULAS → normal,les,les,,1
+MAYÚSCULAS → normal,"mirando,","mirando,",,1
+MAYÚSCULAS → normal,jesús,jesús,,1
+MAYÚSCULAS → normal,antes,antes,,1
+MAYÚSCULAS → normal,"nazareno,","nazareno,",,1
+MAYÚSCULAS → normal,pedro,pedro,,1
+MAYÚSCULAS → normal,hablando,hablando,,1
+MAYÚSCULAS → normal,saulo,saulo,,1
+MAYÚSCULAS → normal,"saulo,","saulo,",,1
+MAYÚSCULAS → normal,oyeron,oyeron,,1
+MAYÚSCULAS → normal,conocido.,conocido.,,1
+MAYÚSCULAS → normal,varones,varones,,1
+MAYÚSCULAS → normal,cinco,cinco,,1
+MAYÚSCULAS → normal,festo,festo,,1
+MAYÚSCULAS → normal,justificados,justificados,,1
+MAYÚSCULAS → normal,¿pues,¿pues,,1
+MAYÚSCULAS → normal,"¿ignoráis,","¿ignoráis,",,1
+MAYÚSCULAS → normal,verdad,verdad,,1
+MAYÚSCULAS → normal,digo,digo,,1
+MAYÚSCULAS → normal,recibid,recibid,,1
+MAYÚSCULAS → normal,encomiéndoos,encomiéndoos,,1
+MAYÚSCULAS → normal,téngannos,téngannos,,1
+MAYÚSCULAS → normal,¿osa,¿osa,,1
+MAYÚSCULAS → normal,sed,sed,,1
+MAYÚSCULAS → normal,seguid,seguid,,1
+MAYÚSCULAS → normal,¿comenzamos,¿comenzamos,,1
+MAYÚSCULAS → normal,"asimismo,","asimismo,",,1
+MAYÚSCULAS → normal,ojalá,ojalá,,1
+MAYÚSCULAS → normal,cierto,cierto,,1
+MAYÚSCULAS → normal,"después,","después,",,1
+MAYÚSCULAS → normal,"estad,","estad,",,1
+MAYÚSCULAS → normal,"sed,","sed,",,1
+MAYÚSCULAS → normal,"hijos,","hijos,",,1
+MAYÚSCULAS → normal,pablo,pablo,,1
+MAYÚSCULAS → normal,"amos,","amós,",,1
+MAYÚSCULAS → normal,"porque,","porque,",,1
+MAYÚSCULAS → normal,resta,resta,,1
+MAYÚSCULAS → normal,amonesto,amonesto,,1
+MAYÚSCULAS → normal,requiero,requiero,,1
+MAYÚSCULAS → normal,amonéstales,amonéstales,,1
+MAYÚSCULAS → normal,"temamos,","temamos,",,1
+MAYÚSCULAS → normal,permanezca,permanezca,,1
+MAYÚSCULAS → normal,"jacobo,","jacobo,",,1
+MAYÚSCULAS → normal,¿de,¿de,,1
+MAYÚSCULAS → normal,ea,ea,,1
+MAYÚSCULAS → normal,"pedro,","pedro,",,1
+MAYÚSCULAS → normal,dejando,dejando,,1
+MAYÚSCULAS → normal,ruego,ruego,,1
+MAYÚSCULAS → normal,simón,simón,,1
+MAYÚSCULAS → normal,"carísimos,","carísimos,",,1
+MAYÚSCULAS → normal,hijitos,hijitos,,1
+MAYÚSCULAS → normal,"amados,","amados,",,1
+MAYÚSCULAS → normal,todo,todo,,1
+MAYÚSCULAS → normal,"judas,","judas,",,1
+MAYÚSCULAS → normal,efeso:,efeso:,,1
+MAYÚSCULAS → normal,esmirna:,esmirna:,,1
+MAYÚSCULAS → normal,pérgamo:,pérgamo:,,1
+MAYÚSCULAS → normal,tiatira:,tiatira:,,1
+MAYÚSCULAS → normal,sardis:,sardis:,,1
+MAYÚSCULAS → normal,filadelfia:,filadelfia:,,1
+MAYÚSCULAS → normal,laodicea:,laodicea:,,1
+MAYÚSCULAS → normal,miré,miré,,1
+MAYÚSCULAS → normal,oí,oí,,1
+MAYÚSCULAS → normal,"misterio,","misterio,",,1
+MAYÚSCULAS → normal,babilonia,babilonia,,1
+MAYÚSCULAS → normal,"grande,","grande,",,1
+MAYÚSCULAS → normal,madre,madre,,1
+MAYÚSCULAS → normal,fornicaciones,fornicaciones,,1
+MAYÚSCULAS → normal,abominaciones,abominaciones,,1
+MAYÚSCULAS → normal,tierra.,tierra.,,1
+MAYÚSCULAS → normal,verbo,verbo,,1
+MAYÚSCULAS → normal,dios.,dios.,,1
+MAYÚSCULAS → normal,reyes,reyes,,1
+MAYÚSCULAS → normal,señor,señor,,1
+MAYÚSCULAS → normal,señores.,señores.,,1
+acento,fué,fue,,1724
+acento,dió,dio,,342
+acento,vió,vio,,206
+acento,oid,oíd,,104
+acento,fuí,fui,,67
+acento,dí,di,,56
+acento,destruído,destruido,,28
+acento,huído,huido,,26
+acento,destruída,destruida,,25
+acento,destruídos,destruidos,,18
+acento,destruídas,destruidas,,9
+acento,constituído,constituido,,8
+acento,huída,huida,,5
+acento,piés,pies,,3
+acento,restituída,restituida,,3
+acento,ví,vi,,3
+acento,restituído,restituido,,3
+acento,instruído,instruido,,3
+acento,pié,pie,,2
+acento,instruídos,instruidos,,2
+acento,rehuído,rehuido,,2
+acento,atribuído,atribuido,,2
+acento,constituídos,constituidos,,2
+acento,sustituído,sustituido,,1
+acento,restituídas,restituidas,,1
+acento,excluído,excluido,,1
+acento,contribuído,contribuido,,1
+acento,distribuído,distribuido,,1
+acento,huídas,huidas,,1
+acento,retribuído,retribuido,,1
+acento,disminuído,disminuido,,1
+acento,disminuídos,disminuidos,,1
+acento,fluído,fluido,,1
+acento,derruída,derruida,,1
+acento,instruída,instruida,,1
+acento,excluídos,excluidos,,1
+acento,constituída,constituida,,1
+acento,destituídos,destituidos,,1
+acento,excluída,excluida,,1
+acento,derruído,derruido,,1
+acento,concluído,concluido,,1
+acicalador → forjador,acicalador,forjador,,1
+aqueste → este,aquesta,esta,,22
+aqueste → este,aqueste,este,,18
+aqueste → este,aquestas,estas,,7
+aqueste → este,aquestos,estos,,4
+asaz → muy,asaz,muy,,1
+conjunción y/e,e se,y se,,39
+conjunción y/e,e lo,y lo,,35
+conjunción y/e,e le,y le,,32
+conjunción y/e,e los,y los,,22
+conjunción y/e,e me,y me,,13
+conjunción y/e,e les,y les,,6
+conjunción y/e,e la,y la,,5
+conjunción y/e,e las,y las,,4
+conjunción y/e,e te,y te,,4
+conjunción y/e,e llenó,y llenó,,2
+conjunción y/e,"e jezreel,","y jezreel,",,1
+conjunción y/e,y hiram.,e hiram.,,1
+conjunción y/e,y isaí,e isaí,,1
+conjunción y/e,e llenaron,y llenaron,,1
+conjunción y/e,e llene,y llene,,1
+criar → crear,crió,creó,,18
+criar → crear,criado,creado,,10
+criar → crear,criadas,creadas,,4
+criar → crear,criados,creados,,3
+criar → crear,criaste,creaste,,3
+criar → crear,criará,creará,,3
+criar → crear,crié,creé,,1
+criar → crear,criada,creada,,1
+declarado → traducido,declarado,traducido,,3
+declarado → traducido,"declarado,",traducido,,2
+declarado → traducido,"interpretado,","traducido,",,1
+doncella → joven,doncellas,jóvenes,,23
+doncella → joven,doncella,joven,,9
+edición manual,con nosotros dios.,dios con nosotros.,,1
+empero → pero,empero,pero,,309
+empero → pero,yo empero,pero yo,,12
+empero → pero,esto empero,pero esto,,11
+empero → pero,tú empero,pero tú,,8
+empero → pero,si empero,pero si,,7
+empero → pero,"empero,","pero,",,2
+empero → pero,"nosotros empero,","pero nosotros,",,2
+empero → pero,"tú empero,","pero tú,",,2
+empero → pero,así empero,pero así,,2
+empero → pero,él empero,pero él,,2
+empero → pero,ahora empero,pero ahora,,2
+empero → pero,jacob empero,pero jacob,,1
+empero → pero,estos empero,pero estos,,1
+empero → pero,elí empero,pero elí,,1
+empero → pero,siguieron empero,pero siguieron,,1
+empero → pero,se había empero,pero se había,,1
+empero → pero,yhwh empero,pero yhwh,,1
+empero → pero,esforzaos empero,pero esforzaos,,1
+empero → pero,"sucedió empero,","pero sucedió,",,1
+empero → pero,sea empero,pero sea,,1
+empero → pero,los salvó empero,pero los salvó,,1
+empero → pero,habiendo empero,pero habiendo,,1
+empero → pero,claman empero,pero claman,,1
+empero → pero,"yo empero,","pero yo,",,1
+empero → pero,misericordia empero,pero misericordia,,1
+empero → pero,(empero,(pero,,1
+empero → pero,conoce empero,pero conoce,,1
+empero → pero,andad empero,pero andad,,1
+empero → pero,hablaré empero,pero hablaré,,1
+empero → pero,"será empero,","pero será,",,1
+empero → pero,la mano empero,pero la mano,,1
+empero → pero,en ti empero,pero en ti,,1
+empero → pero,a sedequías empero,pero a sedequías,,1
+empero → pero,se rebeló empero,pero se rebeló,,1
+empero → pero,vendrá empero,pero vendrá,,1
+empero → pero,jonás empero,pero jonás,,1
+empero → pero,algunos empero,pero algunos,,1
+empero → pero,esta empero,pero esta,,1
+empero → pero,estas empero,pero estas,,1
+empero → pero,felipe empero,pero felipe,,1
+empero → pero,"pablo empero,","pero pablo,",,1
+empero → pero,(empero,(pero,revisar orden,1
+empero → pero,la ley empero,pero la ley,,1
+empero → pero,no empero,pero no,,1
+empero → pero,"ruégoos empero,","pero ruégoos,",,1
+empero → pero,encomiéndoos empero,pero encomiéndoos,,1
+empero → pero,"esto empero,","pero esto,",,1
+empero → pero,nosotros empero,pero nosotros,,1
+empero → pero,tenemos empero,pero tenemos,,1
+empero → pero,el interior empero,pero el interior,,1
+empero → pero,cada uno empero,pero cada uno,,1
+empero → pero,sabemos empero,pero sabemos,,1
+empero → pero,testificó empero,pero testificó,,1
+empero → pero,tenía empero,pero tenía,,1
+estotro → este otro,estotra,esta otra,,3
+estotro → este otro,estotros,estos otros,,3
+estotro → este otro,estotro,este otro,,2
+galardón → recompensa,galardón,recompensa,,6
+galardón → recompensa,vuestro galardón,vuestra recompensa,,2
+galardón → recompensa,el galardón,la recompensa,,2
+galardón → recompensa,galardón.,recompensa.,,1
+galardón → recompensa,galardón:,recompensa:,,1
+haz → faz,haz,faz,,59
+heme aquí → aquí estoy,heme aquí.,aquí estoy.,,12
+heme aquí → aquí estoy,heme aquí,aquí estoy,,7
+heme aquí → aquí estoy,"heme aquí,","aquí estoy,",,6
+heme aquí → aquí estoy,henos aquí,aquí estamos,,4
+heme aquí → aquí estoy,heme aquí;,aquí estoy;,,3
+heme aquí → aquí estoy,hete aquí,he aquí,,1
+heme aquí → aquí estoy,"henos aquí,","aquí estamos,",,1
+heme aquí → aquí estoy,henos aquí?,aquí estamos?,,1
+heme hecho → me he hecho,heme,me he,,17
+heme hecho → me he hecho,hete,te he,,6
+henchir → llenar,hinchió,llenó,,18
+henchir → llenar,henchido,lleno,,15
+henchir → llenar,henchirán,llenarán,,8
+henchir → llenar,henchid,llenad,,7
+henchir → llenar,henchirá,llenará,,7
+henchir → llenar,henchir,llenar,,6
+henchir → llenar,henchían,llenaban,,5
+henchir → llenar,hinchieron,llenaron,,4
+henchir → llenar,henchía,llenaba,,4
+henchir → llenar,henchirás,llenarás,,3
+henchir → llenar,henchiré,llenaré,,3
+henchir → llenar,hinche,llena,,2
+henchir → llenar,hincha,llene,,2
+henchir → llenar,henchirla,llenarla,,2
+henchir → llenar,henchiste,llenaste,,1
+henchir → llenar,henchimos,llenamos,,1
+henchir → llenar,henchiría,llenaría,,1
+henchir → llenar,hinches,llenas,,1
+henchir → llenar,henchiremos,llenaremos,,1
+henchir → llenar,henchidos,llenos,,1
+henchir → llenar,henchirlas,llenarlas,,1
+henchir → llenar,henchisteis,llenasteis,,1
+henchir → llenar,henchí,llené,,1
+henchir → llenar,hinchiendo,llenando,,1
+henchir → llenar,hinchándoos,llenándoos,,1
+heredad → herencia/posesión,heredad,herencia,,221
+heredad → herencia/posesión,heredad,propiedad,,31
+heredad → herencia/posesión,heredades,propiedades,,14
+heredad → herencia/posesión,heredad,posesión,,12
+heredad → herencia/posesión,heredades,herencias,,8
+heredad → herencia/posesión,heredad,porción,,8
+heredad → herencia/posesión,heredades,porciones,,3
+loor → alabanza,loor,alabanza,,6
+loor → alabanza,loores,alabanzas,,4
+mancebo → joven/siervo,mancebos,jóvenes,RVG: jóvenes,9
+mancebo → joven/siervo,mancebos,jóvenes,RVG: los jóvenes,6
+mancebo → joven/siervo,mancebo,joven,RVG: joven,5
+mancebo → joven/siervo,mancebos,jóvenes,"RVG: jóvenes,",5
+mancebo → joven/siervo,mancebo,joven,"RVG: joven,",4
+mancebo → joven/siervo,mancebos,jóvenes,"RVG: los jóvenes,",3
+mancebo → joven/siervo,mancebos,jóvenes,,3
+mancebo → joven/siervo,mancebos,jóvenes,"RVG: de los jóvenes,",3
+mancebo → joven/siervo,mancebos,jóvenes,"RVG: sus jóvenes,",3
+mancebo → joven/siervo,mancebo,joven,RVG: al joven,2
+mancebo → joven/siervo,mancebo,joven,,2
+mancebo → joven/siervo,mancebo,joven,RVG: a aquel joven,2
+mancebo → joven/siervo,mancebos,jóvenes,RVG: entonces los jóvenes,2
+mancebo → joven/siervo,mancebo,joven,RVG: un joven,2
+mancebo → joven/siervo,mancebos,jóvenes,RVG: y mis jóvenes,2
+mancebo → joven/siervo,mancebo,joven,RVG: y a un joven,1
+mancebo → joven/siervo,mancebos,jóvenes,RVG: a unos jóvenes,1
+mancebo → joven/siervo,mancebos,jóvenes,"RVG: de sus jóvenes,",1
+mancebo → joven/siervo,mancebos,jóvenes,RVG: y los jóvenes espías,1
+mancebo → joven/siervo,mancebos,jóvenes,RVG: los jóvenes.,1
+mancebo → joven/siervo,mancebos,jóvenes,"RVG: y vuestros mejores jóvenes,",1
+mancebo → joven/siervo,mancebo,joven,RVG: ese joven?,1
+mancebo → joven/siervo,mancebo,joven,RVG: ese joven.,1
+mancebo → joven/siervo,mancebo,joven,RVG: y el joven,1
+mancebo → joven/siervo,mancebos,jóvenes,"RVG: a sus jóvenes, los",1
+mancebo → joven/siervo,mancebos,jóvenes,RVG: y a sus jóvenes,1
+mancebo → joven/siervo,mancebos,jóvenes,RVG: con los jóvenes,1
+mancebo → joven/siervo,mancebos,jóvenes,"RVG: sus jóvenes joven,",1
+mancebo → joven/siervo,mancebos,siervos,RVG: de mis siervos trabajaba los,1
+mancebo → joven/siervo,mancebos,jóvenes,RVG: los jóvenes: con gran deleite me,1
+mancebo → joven/siervo,mancebos,jóvenes,RVG: y sus jóvenes,1
+mancebo → joven/siervo,mancebos,jóvenes,RVG: los los jóvenes,1
+mancebo → joven/siervo,mancebo,joven,RVG: como el joven,1
+mancebo → joven/siervo,mancebos,jóvenes,"RVG: y niños, jóvenes",1
+mancebo → joven/siervo,mancebos,jóvenes,RVG: mis jóvenes;,1
+mancebo → joven/siervo,mancebos,jóvenes,RVG: ellos,1
+mancebo → joven/siervo,mancebos,jóvenes,RVG: y vuestros jóvenes,1
+mancebo → joven/siervo,mancebos,jóvenes,RVG: y de vuestros jóvenes,1
+mancebo → joven/siervo,mancebos,jóvenes,"RVG: vuestros jóvenes,",1
+mancebo → joven/siervo,mancebos,jóvenes,RVG: y los jóvenes,1
+mancebo → joven/siervo,mancebos,jóvenes,"RVG: a los jóvenes,",1
+mancebo → joven/siervo,mancebo,joven,RVG: joven le dijo:,1
+mancebo → joven/siervo,mancebos,jóvenes,RVG: joven los jóvenes,1
+mancebo → joven/siervo,mancebo,joven,RVG: de un joven,1
+mas → pero,mas,pero,,2239
+mas → pero,mas,pero,revisar: ¿sino?,342
+mas → pero,"mas,","pero,",,7
+mas → pero,¿mas,¿pero,,5
+mas → pero,mas.,pero.,,1
+mas → pero,¡mas,¡pero,,1
+mas → pero,(mas,(pero,revisar: ¿sino?,1
+mas → pero,mas:,pero:,revisar: ¿sino?,1
+mozo → joven/siervo,mozo,joven,,5
+mozo → joven/siervo,mozo,joven,RVG: el joven,5
+mozo → joven/siervo,mozo,joven,RVG: joven,4
+mozo → joven/siervo,mozo,joven,RVG: al joven,3
+mozo → joven/siervo,mozos,jóvenes,RVG: jóvenes,3
+mozo → joven/siervo,mozos,jóvenes,RVG: los jóvenes,3
+mozo → joven/siervo,mozos,jóvenes,RVG: mozos,2
+mozo → joven/siervo,mozo,joven,RVG: un joven,2
+mozo → joven/siervo,mozo,joven,RVG: en lugar del joven y que el joven,2
+mozo → joven/siervo,mozos,siervos,RVG: a los criados los criados.,2
+mozo → joven/siervo,mozo,joven,RVG: ¿el joven como aquel joven,2
+mozo → joven/siervo,mozos,siervos,RVG: a los criados,2
+mozo → joven/siervo,mozo,siervo,RVG: siervo,2
+mozo → joven/siervo,mozos,jóvenes,RVG: a sus mozos: y el muchacho,1
+mozo → joven/siervo,mozos,jóvenes,"RVG: a sus mozos,",1
+mozo → joven/siervo,mozo,joven,RVG: el joven en,1
+mozo → joven/siervo,mozo,joven,RVG: contra el joven;,1
+mozo → joven/siervo,mozo,joven,RVG: y un joven que le nació,1
+mozo → joven/siervo,mozo,joven,RVG: y el joven,1
+mozo → joven/siervo,mozo,joven,"RVG: al joven,",1
+mozo → joven/siervo,mozo,joven,RVG: del joven,1
+mozo → joven/siervo,mozo,joven,RVG: el joven?,1
+mozo → joven/siervo,mozos,jóvenes,RVG: a estos muchachos;,1
+mozo → joven/siervo,mozo,joven,"RVG: un joven,",1
+mozo → joven/siervo,mozo,joven,RVG: de jornalero,1
+mozo → joven/siervo,mozos,jóvenes,RVG: de los,1
+mozo → joven/siervo,mozo,siervo,RVG: al criado,1
+mozo → joven/siervo,mozos,jóvenes,RVG: aquí todos,1
+mozo → joven/siervo,mozo,joven,"RVG: eres un joven, juventud.",1
+mozo → joven/siervo,mozo,joven,"RVG: a un muchacho, al muchacho:",1
+mozo → joven/siervo,mozo,joven,RVG: y un muchacho,1
+mozo → joven/siervo,mozo,joven,RVG: al muchacho: y como el muchacho,1
+mozo → joven/siervo,mozos,jóvenes,RVG: de los jóvenes,1
+mozo → joven/siervo,mozo,joven,"RVG: por un joven,",1
+mozo → joven/siervo,mozo,joven,RVG: por amor a mí al joven,1
+mozo → joven/siervo,mozo,joven,RVG: ¿el joven,1
+mozo → joven/siervo,mozo,joven,RVG: de este niño.,1
+mozo → joven/siervo,mozo,joven,RVG: el niño.,1
+mozo → joven/siervo,mozo,joven,RVG: el niño,1
+mozo → joven/siervo,mozo,siervo,RVG: criado:,1
+mozo → joven/siervo,mozo,joven,"RVG: del niño, el niño",1
+mozo → joven/siervo,mozo,siervo,"RVG: del criado,",1
+mozo → joven/siervo,mozo,siervo,"RVG: pues, el siervo,",1
+mozo → joven/siervo,mozo,siervo,"RVG: el siervo del profeta,",1
+mozo → joven/siervo,mozos,jóvenes,"RVG: mozos,",1
+mozo → joven/siervo,mozos,siervos,"RVG: y los criados,",1
+mozo → joven/siervo,mozos,jóvenes,"RVG: los jóvenes,",1
+mozo → joven/siervo,mozos,jóvenes,RVG: los más,1
+mozo → joven/siervo,mozo,joven,"RVG: de un jornalero,",1
+mozo → joven/siervo,mozos,jóvenes,RVG: a jóvenes,1
+mozo → joven/siervo,mozo,joven,"RVG: de jornalero,",1
+mozo → joven/siervo,mozos,jóvenes,RVG: los los jóvenes,1
+mozo → joven/siervo,mozos,jóvenes,"RVG: y niños, jóvenes",1
+mozo → joven/siervo,mozo,joven,"RVG: a este joven,",1
+mozo → joven/siervo,mozo,joven,RVG: menor;,1
+mozo → joven/siervo,mozos,jóvenes,"RVG: hijitos,",1
+mozo → joven/siervo,mozo,joven,"RVG: más joven,",1
+nombre,jerusalem,jerusalén,,814
+nombre,ephraim,efraín,,181
+nombre,ezechîas,ezequías,,133
+nombre,jonathán,jonatán,,122
+nombre,absalom,absalón,,106
+nombre,ammón,amón,,94
+nombre,achâb,acab,,94
+nombre,josaphat,josafat,,88
+nombre,sichêm,siquem,,66
+nombre,abimelech,abimelec,,66
+nombre,joas,joás,,66
+nombre,beth-el,betel,,64
+nombre,mardochêo,mardoqueo,,60
+nombre,sedechîas,sedequías,,52
+nombre,nephtalí,neftalí,,51
+nombre,rachêl,raquel,,46
+nombre,asaph,asaf,,46
+nombre,issachâr,isacar,,44
+nombre,beth-lehem,belén,,43
+nombre,nathán,natán,,43
+nombre,coath,coat,,42
+nombre,achâz,acaz,,40
+nombre,samsón,sansón,,39
+nombre,ochôzías,ocozías,,38
+nombre,eli,elí,,37
+nombre,hamath,hamat,,35
+nombre,gath,gat,,33
+nombre,sittim,sitim,,32
+nombre,abiathar,abiatar,,31
+nombre,assuero,asuero,,31
+nombre,beer-seba,beerseba,,30
+nombre,saphán,safán,,30
+nombre,rama,ramá,,28
+nombre,jephté,jefté,,28
+nombre,sallum,salum,,28
+nombre,ramoth,ramot,,27
+nombre,zachârías,zacarías,,26
+nombre,mesullam,mesulam,,26
+nombre,jesuá,jesúa,,26
+nombre,baruch,baruc,,26
+nombre,adam,adán,,25
+nombre,phinees,finees,,25
+nombre,booz,boaz,,25
+nombre,uría,urías,,25
+nombre,ben-adad,benadad,,25
+nombre,lachîs,laquis,,24
+nombre,noemi,noemí,,24
+nombre,joachâz,joacaz,,24
+nombre,thamar,tamar,,23
+nombre,machîr,maquir,,23
+nombre,adonía,adonías,,22
+nombre,naboth,nabot,,22
+nombre,benaías,benaía,,22
+nombre,eufrates,éufrates,,21
+nombre,ithamar,itamar,,21
+nombre,beth-semes,bet-semes,,21
+nombre,achîs,aquís,,21
+nombre,semei,simeí,,21
+nombre,michêas,miqueas,,21
+nombre,simi,simeí,,21
+nombre,uzzías,uzías,,21
+nombre,maachâ,maaca,,20
+nombre,semeías,semaías,,20
+nombre,nachôr,nacor,,19
+nombre,chîriath-jearim,quiriat-jearim,,19
+nombre,achitophel,ahitofel,,19
+nombre,phares,fares,,18
+nombre,michâl,mical,,18
+nombre,succoth,sucot,,17
+nombre,anathoth,anatot,,17
+nombre,ahimelech,ahimelec,,17
+nombre,nethanías,netanías,,17
+nombre,châm,cam,,16
+nombre,uzziel,uziel,,16
+nombre,jephone,jefone,,16
+nombre,jotham,jotam,,16
+nombre,jeduthún,jedutún,,16
+nombre,capernaum,capernaúm,,16
+nombre,rimmón,rimón,,15
+nombre,mephi-boseth,mefiboset,,15
+nombre,athalía,atalía,,15
+nombre,sadrach,sadrac,,15
+nombre,mesach,mesac,,15
+nombre,beth-oron,bet-horón,,14
+nombre,rabba,rabá,,14
+nombre,uzza,uza,,14
+nombre,heth,het,,13
+nombre,ophir,ofir,,13
+nombre,ephrón,efrón,,13
+nombre,adad,hadad,,13
+nombre,nathanael,natanael,,13
+nombre,hinnom,hinom,,13
+nombre,anna,ana,,13
+nombre,rechâb,recab,,13
+nombre,sennachêrib,senaquerib,,13
+nombre,joppe,jope,,13
+nombre,lamech,lamec,,12
+nombre,eliphaz,elifaz,,12
+nombre,hesrón,hezrón,,12
+nombre,megiddo,meguido,,12
+nombre,ziph,zif,,12
+nombre,zalmunna,zalmuna,,12
+nombre,is-boseth,isboset,,12
+nombre,barzillai,barzilai,,12
+nombre,tharsis,tarsis,,12
+nombre,thirsa,tirsa,,12
+nombre,eliacim,eliaquim,,12
+nombre,joachîn,joaquín,,12
+nombre,mathanías,matanías,,12
+nombre,sephatías,sefatías,,12
+nombre,pashur,pasur,,12
+nombre,japhet,jafet,,11
+nombre,ephrata,efrata,,11
+nombre,moloch,moloc,,11
+nombre,salphaad,zelofehad,,11
+nombre,astaroth,astarot,,11
+nombre,michmas,micmas,,11
+nombre,sedecías,sedequías,,11
+nombre,uzzi,uzi,,11
+nombre,zichri,zicri,,11
+nombre,haggeo,hageo,,11
+nombre,bethania,betania,,11
+nombre,henoch,enoc,,10
+nombre,seth,set,,10
+nombre,arphaxad,arfaxad,,10
+nombre,thare,taré,,10
+nombre,melchîsedec,melquisedec,,10
+nombre,bethuel,betuel,,10
+nombre,samma,sama,,10
+nombre,bethlehem,belén,,10
+nombre,jethro,jetro,,10
+nombre,michâel,micael,,10
+nombre,dathán,datán,,10
+nombre,millo,milo,,10
+nombre,naas,nahas,,10
+nombre,bath-sheba,betsabé,,10
+nombre,topheth,tofet,,10
+nombre,immer,imer,,10
+nombre,vasthi,vasti,,10
+nombre,hasor,hazor,,9
+nombre,asor,hazor,,9
+nombre,aphec,afec,,9
+nombre,achîtob,ahitob,,9
+nombre,jechônías,jeconías,,9
+nombre,berechîas,berequías,,9
+nombre,sechânías,secanías,,9
+nombre,malchîas,malquías,,9
+nombre,adarezer,hadad-ezer,,9
+nombre,sanballat,sanbalat,,9
+nombre,selomith,selomit,,8
+nombre,ammiud,amiud,,8
+nombre,saphat,safat,,8
+nombre,chêmos,quemos,,8
+nombre,hepher,hefer,,8
+nombre,gessur,gesur,,8
+nombre,adullam,adulam,,8
+nombre,carmel,carmelo,,8
+nombre,sochô,soco,,8
+nombre,ophra,ofra,,8
+nombre,sora,zora,,8
+nombre,ittai,itai,,8
+nombre,bichri,bicri,,8
+nombre,ethán,etán,,8
+nombre,accub,acub,,8
+nombre,obadías,abdías,,8
+nombre,chebar,quebar,,8
+nombre,arioch,arioc,,7
+nombre,cora,coré,,7
+nombre,beth-aven,betaven,,7
+nombre,beeroth,beerot,,7
+nombre,beth-san,bet-seán,,7
+nombre,jether,jeter,,7
+nombre,eliphelet,elifelet,,7
+nombre,sepharvaim,sefarvaim,,7
+nombre,elnathán,elnatán,,7
+nombre,meraioth,meraiot,,7
+nombre,binnui,binúi,,7
+nombre,beelzebub,belcebú,,7
+nombre,bethsaida,betsaida,,7
+nombre,basemath,basemat,,6
+nombre,achbor,acbor,,6
+nombre,jachîn,jaquín,,6
+nombre,etham,etam,,6
+nombre,eliasaph,eliasaf,,6
+nombre,haseroth,haserot,,6
+nombre,ishar,izhar,,6
+nombre,elath,elat,,6
+nombre,achân,acán,,6
+nombre,tappua,tapúa,,6
+nombre,chîriath-arba,quiriat-arba,,6
+nombre,ophni,ofni,,6
+nombre,penuel,peniel,,6
+nombre,elimelech,elimelec,,6
+nombre,goliath,goliat,,6
+nombre,najoth,naiot,,6
+nombre,ahía,ahías,,6
+nombre,arphad,arfad,,6
+nombre,zachûr,zacur,,6
+nombre,jedaía,jedaías,,6
+nombre,josadec,josadac,,6
+nombre,azmaveth,azmavet,,6
+nombre,asel,azel,,6
+nombre,mathithías,matatías,,6
+nombre,ladán,laadán,,6
+nombre,joatham,jotam,,6
+nombre,pahath-moab,pahat-moab,,6
+nombre,meremoth,meremot,,6
+nombre,criador,creador,,6
+nombre,taphnes,tafnes,,6
+nombre,ebed-melec,ebedmelec,,6
+nombre,aholibah,aholiba,,6
+nombre,cipro,chipre,,6
+nombre,mathusalam,matusalén,,5
+nombre,shinar,sinar,,5
+nombre,chêdorlaomer,quedorlaomer,,5
+nombre,sua,súa,,5
+nombre,nahath,nahat,,5
+nombre,thola,tola,,5
+nombre,bechêr,bequer,,5
+nombre,rephidim,refidim,,5
+nombre,zurisaddai,zurisadai,,5
+nombre,suar,zuar,,5
+nombre,zippor,zipor,,5
+nombre,recem,requem,,5
+nombre,bucci,buqui,,5
+nombre,achôr,acor,,5
+nombre,taanach,taanac,,5
+nombre,cenez,cenaz,,5
+nombre,gibbethón,gibetón,,5
+nombre,esthaol,estaol,,5
+nombre,timnah,timnat,,5
+nombre,raphaim,refaim,,5
+nombre,mathán,matán,,5
+nombre,uzzía,uzías,,5
+nombre,resín,rezín,,5
+nombre,jeus,jeús,,5
+nombre,sammai,samai,,5
+nombre,pedaía,pedaías,,5
+nombre,jahath,jahat,,5
+nombre,malluch,maluc,,5
+nombre,amadatha,amadata,,5
+nombre,mesech,mesec,,5
+nombre,noph,nof,,5
+nombre,aholah,ahola,,5
+nombre,sealtiel,salatiel,,5
+nombre,jessé,isaí,,5
+nombre,pamphylia,panfilia,,5
+nombre,tichîco,tíquico,,5
+nombre,rehoboth,rehobot,,4
+nombre,bethel,betel,,4
+nombre,siddim,sidim,,4
+nombre,epha,efa,,4
+nombre,epher,efer,,4
+nombre,beria,bería,,4
+nombre,rameses,ramesés,,4
+nombre,nepheg,nefeg,,4
+nombre,ammisaddai,amisadai,,4
+nombre,rehuel,reuel,,4
+nombre,elisaphán,elizafán,,4
+nombre,oboth,obot,,4
+nombre,ataroth,atarot,,4
+nombre,esion-geber,ezión-geber,,4
+nombre,beth-jesimoth,bet-jesimot,,4
+nombre,ain,aín,,4
+nombre,jeshurun,jesurún,,4
+nombre,japhia,jafía,,4
+nombre,cinneroth,cineret,,4
+nombre,chîriath-sepher,quiriat-sefer,,4
+nombre,axa,acsa,,4
+nombre,othoniel,otoniel,,4
+nombre,achzib,aczib,,4
+nombre,japhlet,jaflet,,4
+nombre,gath-rimmón,gat-rimón,,4
+nombre,chusan-risathaim,cusan-risataim,,4
+nombre,nahasón,naasón,,4
+nombre,achîas,ahías,,4
+nombre,esthemoa,estemoa,,4
+nombre,haggith,haguit,,4
+nombre,baal-perasim,baal-perazim,,4
+nombre,amath,hamat,,4
+nombre,abía,abías,,4
+nombre,salathiel,salatiel,,4
+nombre,hattus,hatús,,4
+nombre,abisua,abisúa,,4
+nombre,rapha,rafa,,4
+nombre,berías,bería,,4
+nombre,jeremoth,jeremot,,4
+nombre,micloth,miclot,,4
+nombre,ahaz,acaz,,4
+nombre,meselemia,meselemías,,4
+nombre,semiramoth,semiramot,,4
+nombre,ophel,ofel,,4
+nombre,sesbassar,sesbasar,,4
+nombre,zattu,zatu,,4
+nombre,giddel,gidel,,4
+nombre,sealthiel,salatiel,,4
+nombre,sethar-boznai,setar-boznai,,4
+nombre,pharos,paros,,4
+nombre,malchías,malquías,,4
+nombre,maaseías,maasías,,4
+nombre,atach,atac,,4
+nombre,sophar,zofar,,4
+nombre,chîttim,quitim,,4
+nombre,alpha,alfa,,4
+nombre,zilla,zila,,3
+nombre,cush,cus,,3
+nombre,phut,fut,,3
+nombre,phicol,ficol,,3
+nombre,naphis,nafis,,3
+nombre,mizza,miza,,3
+nombre,dothán,dotán,,3
+nombre,timnath,timnat,,3
+nombre,asenath,asenat,,3
+nombre,potipherah,potifera,,3
+nombre,isui,isúi,,3
+nombre,huppim,hupim,,3
+nombre,séphora,séfora,,3
+nombre,phallú,falú,,3
+nombre,abiasaph,ebiasaf,,3
+nombre,simei,simeí,,3
+nombre,sammua,samúa,,3
+nombre,joseph,josé,,3
+nombre,ammiel,amiel,,3
+nombre,jaas,jahaza,,3
+nombre,beth-peor,bet-peor,,3
+nombre,seboim,zeboim,,3
+nombre,jarmuth,jarmut,,3
+nombre,mephaath,mefaat,,3
+nombre,beth-hogla,bet-hogla,,3
+nombre,beth-araba,bet-araba,,3
+nombre,ceila,keila,,3
+nombre,jattir,jatir,,3
+nombre,beth-anath,bet-anat,,3
+nombre,baalath,baalat,,3
+nombre,timnath-sera,timnat-sera,,3
+nombre,hemor,hamor,,3
+nombre,thebes,tebes,,3
+nombre,chelión,quilión,,3
+nombre,suph,zuf,,3
+nombre,peninna,penina,,3
+nombre,beer-sebah,beerseba,,3
+nombre,eben-ezer,ebenezer,,3
+nombre,hachîla,haquila,,3
+nombre,ahio,ahío,,3
+nombre,chimham,quimam,,3
+nombre,thaphnes,tahpenes,,3
+nombre,astharoth,astarot,,3
+nombre,kir-hareseth,kir-hareset,,3
+nombre,phul,pul,,3
+nombre,tiglath-pileser,tiglat-pileser,,3
+nombre,ethiopía,etiopía,,3
+nombre,asaía,asaías,,3
+nombre,enoch,enoc,,3
+nombre,chûs,cus,,3
+nombre,eser,ezer,,3
+nombre,athai,atai,,3
+nombre,core,coré,,3
+nombre,rephaías,refaías,,3
+nombre,phasea,pasea,,3
+nombre,othniel,otoniel,,3
+nombre,achîmaas,ahimaas,,3
+nombre,zimma,zima,,3
+nombre,thahath,tahat,,3
+nombre,alemeth,alemet,,3
+nombre,chênaana,quenaana,,3
+nombre,suppim,supim,,3
+nombre,elphaal,elpaal,,3
+nombre,sibbecai,sibecai,,3
+nombre,beracah,beraca,,3
+nombre,unni,uni,,3
+nombre,isía,isías,,3
+nombre,pethaía,petaías,,3
+nombre,delaía,delaías,,3
+nombre,azarael,azareel,,3
+nombre,mahalath,mahalat,,3
+nombre,chônanías,conanías,,3
+nombre,carchêmis,carquemis,,3
+nombre,zachâi,zacai,,3
+nombre,sabethai,sabetai,,3
+nombre,mathenai,matenai,,3
+nombre,odaía,odías,,3
+nombre,ithiel,itiel,,3
+nombre,chîr,kir,,3
+nombre,chîriathaim,quiriataim,,3
+nombre,naassón,naasón,,3
+nombre,eliachîm,eliaquim,,3
+nombre,gólgotha,gólgota,,3
+nombre,phrygia,frigia,,3
+nombre,lydda,lida,,3
+nombre,cencreas,cencrea,,3
+nombre,hiddekel,hidekel,,2
+nombre,sheba,seba,,2
+nombre,calah,cala,,2
+nombre,casluim,casluhim,,2
+nombre,gether,geter,,2
+nombre,amraphel,amrafel,,2
+nombre,huz,uz,,2
+nombre,joksan,jocsán,,2
+nombre,midiam,madián,,2
+nombre,nabaioth,nebaiot,,2
+nombre,zepho,zefo,,2
+nombre,manahath,manahat,,2
+nombre,avith,avit,,2
+nombre,baalanán,baal-hanán,,2
+nombre,jetheth,jetet,,2
+nombre,hanoch,enoc,,2
+nombre,phallu,falú,,2
+nombre,aggi,hagui,,2
+nombre,malchîel,malquiel,,2
+nombre,phúa,fúa,,2
+nombre,ragüel,reuel,,2
+nombre,zithri,zitri,,2
+nombre,elzaphán,elizafán,,2
+nombre,pihahiroth,pihahirot,,2
+nombre,baalzephón,baal-zefón,,2
+nombre,phegiel,pagiel,,2
+nombre,kibroth-hattaavah,kibrot-hataava,,2
+nombre,zaccur,zacur,,2
+nombre,peleth,pelet,,2
+nombre,bamoth,bamot,,2
+nombre,eber,heber,,2
+nombre,sechêm,siquem,,2
+nombre,suthala,sutela,,2
+nombre,beth-nimra,bet-nimra,,2
+nombre,pi-hahiroth,pi-hahirot,,2
+nombre,dophca,dofca,,2
+nombre,kibroth-hataava,kibrot-hataava,,2
+nombre,rimmón-peres,rimón-peres,,2
+nombre,ceelatha,celata,,2
+nombre,sepher,sefer,,2
+nombre,maceloth,macelot,,2
+nombre,tahath,tahat,,2
+nombre,mithca,mitca,,2
+nombre,moseroth,moserot,,2
+nombre,phunón,funón,,2
+nombre,dibon-gad,dibón-gad,,2
+nombre,sepham,sefam,,2
+nombre,cinnereth,cineret,,2
+nombre,milchâ,milca,,2
+nombre,salchâ,salca,,2
+nombre,achsaph,acsaf,,2
+nombre,addar,adar,,2
+nombre,nephtoa,neftoa,,2
+nombre,beth-pelet,bet-pelet,,2
+nombre,saraim,saaraim,,2
+nombre,boscath,boscat,,2
+nombre,beth-dagón,bet-dagón,,2
+nombre,asna,asena,,2
+nombre,izreel,jezreel,,2
+nombre,chîriath-baal,quiriat-baal,,2
+nombre,engedi,engadi,,2
+nombre,ataroth-addar,atarot-adar,,2
+nombre,michmetat,micmetat,,2
+nombre,chephira,cefira,,2
+nombre,beth-marchâboth,bet-marcabot,,2
+nombre,iphtael,iftael,,2
+nombre,en-gannim,en-ganim,,2
+nombre,gaulón,golán,,2
+nombre,sephor,zipor,,2
+nombre,ahiman,ahimán,,2
+nombre,bochîm,boquim,,2
+nombre,beth-bara,bet-bara,,2
+nombre,baal-berith,baal-berit,,2
+nombre,hillel,hilel,,2
+nombre,orpha,orfa,,2
+nombre,ramatha,ramá,,2
+nombre,elisua,elisúa,,2
+nombre,is-tob,istob,,2
+nombre,asmaveth,azmavet,,2
+nombre,elipheleth,elifelet,,2
+nombre,igheal,igal,,2
+nombre,azaría,azarías,,2
+nombre,genubath,genubat,,2
+nombre,abel-beth-maachâ,abel-bet-maaca,,2
+nombre,cherith,querit,,2
+nombre,chânaana,quenaana,,2
+nombre,amittai,amitai,,2
+nombre,ariph,harif,,2
+nombre,hala,halah,,2
+nombre,thartán,tartán,,2
+nombre,hiva,iva,,2
+nombre,reseph,resef,,2
+nombre,nisroch,nisroc,,2
+nombre,michâía,micaías,,2
+nombre,evil-merodach,evil-merodac,,2
+nombre,raema,raama,,2
+nombre,thema,tema,,2
+nombre,cethura,cetura,,2
+nombre,eliphas,elifaz,,2
+nombre,themán,temán,,2
+nombre,sephi,sefo,,2
+nombre,belah,bela,,2
+nombre,aphaim,apaim,,2
+nombre,sesam,sesán,,2
+nombre,ephlal,eflal,,2
+nombre,saaph,saaf,,2
+nombre,jesaías,jesahías,,2
+nombre,obdías,abdías,,2
+nombre,esthón,estón,,2
+nombre,seraiah,seraías,,2
+nombre,mariam,miriam,,2
+nombre,thiglath-pilneser,tiglat-pileser,,2
+nombre,johanan,johanán,,2
+nombre,mahath,mahat,,2
+nombre,berachîas,berequías,,2
+nombre,zethán,zetán,,2
+nombre,suthela,sutela,,2
+nombre,hotham,hotam,,2
+nombre,sopha,sofa,,2
+nombre,chîs,cis,,2
+nombre,phitón,pitón,,2
+nombre,melech,melec,,2
+nombre,joadda,joada,,2
+nombre,bochru,bocru,,2
+nombre,phasur,pasur,,2
+nombre,hassub,hasub,,2
+nombre,malchîsua,malquisúa,,2
+nombre,helles,heles,,2
+nombre,sachâr,sacar,,2
+nombre,samua,samúa,,2
+nombre,eliphelehu,elifelehu,,2
+nombre,chênanías,quenanías,,2
+nombre,tou,toi,,2
+nombre,miamim,miamín,,2
+nombre,selemoth,selemot,,2
+nombre,jaazia,jaazía,,2
+nombre,buccia,buquía,,2
+nombre,eliatha,eliata,,2
+nombre,mallothi,maloti,,2
+nombre,othir,otir,,2
+nombre,mahazioth,mahaziot,,2
+nombre,jeroam,jeroham,,2
+nombre,eloth,elot,,2
+nombre,beth-sur,bet-zur,,2
+nombre,josabeth,josabet,,2
+nombre,mesillemoth,mesilemot,,2
+nombre,josabad,jozabad,,2
+nombre,hasupha,hasufa,,2
+nombre,thabaoth,tabaot,,2
+nombre,chêros,queros,,2
+nombre,siaa,siaha,,2
+nombre,phadón,padón,,2
+nombre,mehida,mehída,,2
+nombre,hatipha,hatifa,,2
+nombre,sophereth,soferet,,2
+nombre,chêrub,querub,,2
+nombre,isaía,jesahías,,2
+nombre,casipia,casifia,,2
+nombre,hachâlías,hacalías,,2
+nombre,chisleu,quisleu,,2
+nombre,celita,kelita,,2
+nombre,bunni,buni,,2
+nombre,mattanías,matanías,,2
+nombre,jaddua,jadúa,,2
+nombre,michâías,micaías,,2
+nombre,barachêl,baraquel,,2
+nombre,maher-salal-hash-baz,maher-salal-has-baz,,2
+nombre,luhith,luhit,,2
+nombre,uphaz,ufaz,,2
+nombre,sephanías,sofonías,,2
+nombre,pathros,patros,,2
+nombre,caphtor,caftor,,2
+nombre,chêrioth,queriot,,2
+nombre,seveneh,sevene,,2
+nombre,hethlon,hetlón,,2
+nombre,hauran,haurán,,2
+nombre,haser-enon,hazar-enán,,2
+nombre,nahum,nahúm,,2
+nombre,sefanías,sofonías,,2
+nombre,joatam,jotam,,2
+nombre,achîm,aquim,,2
+nombre,nephtalim,neftalí,,2
+nombre,bethfagé,betfagé,,2
+nombre,gethsemaní,getsemaní,,2
+nombre,mathat,matat,,2
+nombre,melchî,melqui,,2
+nombre,mattathías,matatías,,2
+nombre,barsabas,barsabás,,2
+nombre,chârán,harán,,2
+nombre,sina,sinaí,,2
+nombre,papho,pafos,,2
+nombre,tychîco,tíquico,,2
+nombre,assón,asón,,2
+nombre,achâico,acaico,,2
+nombre,archîpo,arquipo,,2
+nombre,smirna,esmirna,,2
+nombre,havilah,havila,,1
+nombre,meshech,mesec,,1
+nombre,ashkenaz,askenaz,,1
+nombre,riphat,rifat,,1
+nombre,togorma,togarma,,1
+nombre,kittim,quitim,,1
+nombre,sabtecha,sabteca,,1
+nombre,erech,erec,,1
+nombre,accad,acad,,1
+nombre,calneh,calne,,1
+nombre,ressen,resén,,1
+nombre,sheleph,selef,,1
+nombre,hazarmaveth,hazarmavet,,1
+nombre,sephar,sefar,,1
+nombre,elazar,elasar,,1
+nombre,elá,elam,,1
+nombre,emmisphat,emispat,,1
+nombre,shave,save,,1
+nombre,damasceno,damasco,,1
+nombre,kemuel,quemuel,,1
+nombre,chêsed,quesed,,1
+nombre,jidlaph,jidlaf,,1
+nombre,taas,tahas,,1
+nombre,kiriath-arba,quiriat-arba,,1
+nombre,medan,medán,,1
+nombre,ishbak,isbac,,1
+nombre,assurim,asurim,,1
+nombre,leummim,leumim,,1
+nombre,enech,hanoc,,1
+nombre,ahuzzath,ahuzat,,1
+nombre,judith,judit,,1
+nombre,mahaleth,mahalat,,1
+nombre,navaioth,nebaiot,,1
+nombre,sepho,sefo,,1
+nombre,eshbán,esbán,,1
+nombre,ithram,itrán,,1
+nombre,cherán,querán,,1
+nombre,badad,bedad,,1
+nombre,midián,madián,,1
+nombre,chezib,quezib,,1
+nombre,zaphnath-paaneah,zafnat-paanea,,1
+nombre,ziphión,zifión,,1
+nombre,jimna,imna,,1
+nombre,ishua,isúa,,1
+nombre,muppim,mupim,,1
+nombre,shillem,silem,,1
+nombre,phithom,pitón,,1
+nombre,raamses,ramesés,,1
+nombre,siphra,sifra,,1
+nombre,jochêbed,jocabed,,1
+nombre,elisabeth,elisabet,,1
+nombre,assir,asir,,1
+nombre,phutiel,futiel,,1
+nombre,massah,masah,,1
+nombre,meribah,meriba,,1
+nombre,amisaddai,amisadai,,1
+nombre,taberah,tabera,,1
+nombre,hurí,hori,,1
+nombre,raphu,rafu,,1
+nombre,gaddiel,gadiel,,1
+nombre,gaddi,gadi,,1
+nombre,gemalli,gemali,,1
+nombre,sethur,setur,,1
+nombre,nahabí,nahbí,,1
+nombre,geuel,gehuel,,1
+nombre,machî,maqui,,1
+nombre,emath,hamat,,1
+nombre,zared,zered,,1
+nombre,jahaz,jahaza,,1
+nombre,nopha,nofa,,1
+nombre,husoth,husot,,1
+nombre,cittim,quitim,,1
+nombre,saul,saúl,,1
+nombre,zephón,zefón,,1
+nombre,puá,fúa,,1
+nombre,tahan,tahán,,1
+nombre,achîram,ahiram,,1
+nombre,hupham,hufam,,1
+nombre,jochâbed,jocabed,,1
+nombre,jogbaa,jogbeha,,1
+nombre,kiriathaim,quiriataim,,1
+nombre,havoth-jair,havot-jair,,1
+nombre,kenath,kenat,,1
+nombre,baalsephon,baal-zefón,,1
+nombre,hasar-addar,hasar-adar,,1
+nombre,ziphón,zifón,,1
+nombre,chislón,quislón,,1
+nombre,ephod,efod,,1
+nombre,chêmuel,quemuel,,1
+nombre,siphtán,siftán,,1
+nombre,pharnach,farnac,,1
+nombre,esiongeber,ezión-geber,,1
+nombre,cademoth,cademot,,1
+nombre,rabbath,rabá,,1
+nombre,basán-havoth-jair,basán-havot-jair,,1
+nombre,cinereth,cineret,,1
+nombre,kibroth-hataavah,kibrot-hataava,,1
+nombre,beerot-bene-jacaam,beerot-bene-jaacán,,1
+nombre,bethpeor,bet-peor,,1
+nombre,caphira,cefira,,1
+nombre,chiriath-jearim,quiriat-jearim,,1
+nombre,simrom,simrón,,1
+nombre,chêdes,cedes,,1
+nombre,accarón,ecrón,,1
+nombre,bamoth-baal,bamot-baal,,1
+nombre,keddemoth,cademot,,1
+nombre,chîriataim,quiriataim,,1
+nombre,zerethshahar,zeretsahar,,1
+nombre,asdoth-pisga,asdot-pisga,,1
+nombre,beth-aram,bet-aram,,1
+nombre,sucoth,sucot,,1
+nombre,saphón,safón,,1
+nombre,azmón,asmón,,1
+nombre,en-semes,ensemes,,1
+nombre,chesalón,quesalón,,1
+nombre,aiman,ahimán,,1
+nombre,bealoth,bealot,,1
+nombre,asor-hadatta,hazor-hadata,,1
+nombre,chêrioth-hesron,queriot-hezrón,,1
+nombre,asar-gadda,asar-gada,,1
+nombre,beersebah,beerseba,,1
+nombre,madmanna,madmana,,1
+nombre,lebaoth,lebaot,,1
+nombre,sorea,zora,,1
+nombre,engannim,enganim,,1
+nombre,aceca,azeca,,1
+nombre,chîtlis,quitlis,,1
+nombre,gederoh,gederot,,1
+nombre,ether,eter,,1
+nombre,jiphta,jifta,,1
+nombre,danna,dana,,1
+nombre,chîriath-sanna,quiriat-sana,,1
+nombre,estemo,estemoa,,1
+nombre,dumah,duma,,1
+nombre,beth-tappua,bet-tapúa,,1
+nombre,apheca,afeca,,1
+nombre,maarath,maarat,,1
+nombre,middín,midín,,1
+nombre,sechâchâ,secaca,,1
+nombre,tanath-silo,tanat-silo,,1
+nombre,esriel,asriel,,1
+nombre,geliloth,gelilot,,1
+nombre,adummim,adumín,,1
+nombre,samaraim,zemaraim,,1
+nombre,cephar-hammonai,cefar-hamonai,,1
+nombre,gaba,geba,,1
+nombre,recom,requem,,1
+nombre,eleph,elef,,1
+nombre,chîriath,quiriat,,1
+nombre,heltolad,eltolad,,1
+nombre,beth-lebaoth,bet-lebaot,,1
+nombre,chisiloth-tabor,quisi-lotabor,,1
+nombre,dabrath,daberat,,1
+nombre,itta-kazin,ita-kazin,,1
+nombre,catah,cata,,1
+nombre,chesullot,quesulot,,1
+nombre,hapharaim,hafaraim,,1
+nombre,anaarath,anaarat,,1
+nombre,rabbit,rabit,,1
+nombre,chisión,quisión,,1
+nombre,rameth,ramet,,1
+nombre,en-hadda,en-hada,,1
+nombre,beth-passes,bet-pases,,1
+nombre,helchât,helcat,,1
+nombre,axaph,acsaf,,1
+nombre,alammelec,alamelec,,1
+nombre,beth-emec,bet-emec,,1
+nombre,hammón,hamón,,1
+nombre,umma,uma,,1
+nombre,heleph,helef,,1
+nombre,allón-saananim,alón-saananim,,1
+nombre,hucuca,hucoc,,1
+nombre,raccath,racat,,1
+nombre,en-hasor,en-hazor,,1
+nombre,saalabín,saalbim,,1
+nombre,ailón,ajalón,,1
+nombre,jeth-la,jetla,,1
+nombre,timnatha,timnat,,1
+nombre,eltechê,elteque,,1
+nombre,jehud,jehúd,,1
+nombre,bene-berác,bene-berac,,1
+nombre,raccón,racón,,1
+nombre,joppa,jope,,1
+nombre,gibeón,gabaón,,1
+nombre,geser,gezer,,1
+nombre,eltheco,elteque,,1
+nombre,gibethón,gibetón,,1
+nombre,cesión,cisón,,1
+nombre,dabereth,daberat,,1
+nombre,hammoth-dor,hamot-dor,,1
+nombre,mephaat,mefaat,,1
+nombre,tharé,taré,,1
+nombre,sephath,sefat,,1
+nombre,beth-sean,bet-seán,,1
+nombre,chîtron,quitrón,,1
+nombre,rehod,rehob,,1
+nombre,saalbín,saalbim,,1
+nombre,seirath,seirat,,1
+nombre,lapidoth,lapidot,,1
+nombre,anath,anat,,1
+nombre,beth-sitta,bet-sita,,1
+nombre,cerera,zerera,,1
+nombre,tabbat,tabat,,1
+nombre,jogbea,jogbeha,,1
+nombre,berith,berit,,1
+nombre,minnith,minit,,1
+nombre,ramath-lehi,ramat-lehi,,1
+nombre,en-haccore,en-hacore,,1
+nombre,beth-rehob,bet-rehob,,1
+nombre,thohu,tohu,,1
+nombre,beth-car,betcar,,1
+nombre,bechôra,becora,,1
+nombre,aphia,afia,,1
+nombre,selsah,selsa,,1
+nombre,melchi-sua,malquisúa,,1
+nombre,aimaas,ahimaas,,1
+nombre,ephes-dammim,efes-damim,,1
+nombre,hareth,haret,,1
+nombre,sela-hammah-lecoth,sela-hama-lecot,,1
+nombre,gallim,galim,,1
+nombre,sunam,sunem,,1
+nombre,siphmoth,sifmot,,1
+nombre,rachâl,racal,,1
+nombre,chôrasán,corasán,,1
+nombre,athach,atac,,1
+nombre,melchîsua,malquisúa,,1
+nombre,helcath-assurim,helcat-asurim,,1
+nombre,chileab,quileab,,1
+nombre,absalóm,absalón,,1
+nombre,saphatías,sefatías,,1
+nombre,jetream,itream,,1
+nombre,gittaim,gitaim,,1
+nombre,nachôn,nacón,,1
+nombre,jedidiah,jedidia,,1
+nombre,bala-hasor,baal-hazor,,1
+nombre,ammon,amón,,1
+nombre,ahillud,ahilud,,1
+nombre,sibechâi,sibecai,,1
+nombre,saph,saf,,1
+nombre,elhanan,elhanán,,1
+nombre,elhaanan,elhanán,,1
+nombre,mebunnai,mebunai,,1
+nombre,selmo,salmón,,1
+nombre,hiddai,hidai,,1
+nombre,jassén,jasén,,1
+nombre,achîtophel,ahitofel,,1
+nombre,hesrai,hezrai,,1
+nombre,pharai,parai,,1
+nombre,dan-jaán,danjaán,,1
+nombre,zoheleth,zohelet,,1
+nombre,elioreph,elioref,,1
+nombre,maccas,macas,,1
+nombre,aruboth,arubot,,1
+nombre,thaphat,tafat,,1
+nombre,aloth,alot,,1
+nombre,pharua,parúa,,1
+nombre,sarthán,zaretán,,1
+nombre,adad-ezer,hadad-ezer,,1
+nombre,sereda,zeredat,,1
+nombre,abelmehula,abel-mehola,,1
+nombre,silai,silhi,,1
+nombre,ezion-geber,ezión-geber,,1
+nombre,pharphar,farfar,,1
+nombre,silla,sila,,1
+nombre,simaath,simeat,,1
+nombre,succoth-benoth,sucot-benot,,1
+nombre,tharthac,tartac,,1
+nombre,adramelech,adramelec,,1
+nombre,saresar,sarezer,,1
+nombre,hepsiba,hefziba,,1
+nombre,mesalemeth,mesalemet,,1
+nombre,idida,jedida,,1
+nombre,adaía,adaías,,1
+nombre,azalía,azalías,,1
+nombre,nathan-melech,natánmelec,,1
+nombre,saraías,seraías,,1
+nombre,saraía,seraías,,1
+nombre,enos,enós,,1
+nombre,mathusalem,matusalén,,1
+nombre,thiras,tiras,,1
+nombre,chîthim,quitim,,1
+nombre,misraim,mizraim,,1
+nombre,phuth,fut,,1
+nombre,sabtha,sabta,,1
+nombre,sabtechâ,sabteca,,1
+nombre,misram,mizraim,,1
+nombre,laabim,lehabim,,1
+nombre,nephtuim,naftuhim,,1
+nombre,phetrusim,patrusim,,1
+nombre,seleph,selef,,1
+nombre,asarmaveth,hazarmavet,,1
+nombre,hebal,ebal,,1
+nombre,nabajoth,nebaiot,,1
+nombre,maasa,massa,,1
+nombre,cedma,cedema,,1
+nombre,jalam,jaalam,,1
+nombre,hatham,gatam,,1
+nombre,chênas,cenaz,,1
+nombre,sibeón,zibeón,,1
+nombre,alian,alván,,1
+nombre,manahach,manahat,,1
+nombre,oman,onam,,1
+nombre,sibehom,zibeón,,1
+nombre,hesbán,esbán,,1
+nombre,ithran,itrán,,1
+nombre,chêrán,querán,,1
+nombre,alia,alva,,1
+nombre,oholibama,aholibama,,1
+nombre,phinón,pinón,,1
+nombre,chênaz,cenaz,,1
+nombre,chârmi,carmi,,1
+nombre,achâr,acar,,1
+nombre,chêlubai,quelubai,,1
+nombre,jerioth,jeriot,,1
+nombre,cenath,kenat,,1
+nombre,ashur,asur,,1
+nombre,achîa,ahías,,1
+nombre,alai,ahlai,,1
+nombre,simmai,samai,,1
+nombre,thaphua,tapúa,,1
+nombre,beth-zur,betzur,,1
+nombre,joddai,jahdai,,1
+nombre,epho,efa,,1
+nombre,thirana,tirana,,1
+nombre,madmannah,madmana,,1
+nombre,ghiba,gibea,,1
+nombre,achsa,acsa,,1
+nombre,hareph,haref,,1
+nombre,beth-gader,betgader,,1
+nombre,haroeh,haroe,,1
+nombre,achînoam,ahinoam,,1
+nombre,aggith,haguit,,1
+nombre,simma,sima,,1
+nombre,beth-sua,bet-súa,,1
+nombre,mechiram,malquiram,,1
+nombre,palaías,pelaías,,1
+nombre,dalaías,delaías,,1
+nombre,themeni,temeni,,1
+nombre,sereth,zeret,,1
+nombre,jesohar,jezoar,,1
+nombre,ethnán,etnán,,1
+nombre,beth-rapha,bet-rafa,,1
+nombre,tehinna,tehina,,1
+nombre,rechâ,reca,,1
+nombre,cenes,cenaz,,1
+nombre,hathath,hatat,,1
+nombre,zip,zif,,1
+nombre,ziphas,zifas,,1
+nombre,icuthiel,icutiel,,1
+nombre,bethia,bitia,,1
+nombre,rinna,rina,,1
+nombre,zoheth,zohet,,1
+nombre,benzoheth,benzohet,,1
+nombre,lechâ,leca,,1
+nombre,chôzeba,cozeba,,1
+nombre,saraph,saraf,,1
+nombre,tholad,tolad,,1
+nombre,beth-birai,bet-birai,,1
+nombre,tochên,toquén,,1
+nombre,jamlech,jamlec,,1
+nombre,siphi,sifi,,1
+nombre,allón,alón,,1
+nombre,gador,gedor,,1
+nombre,esrón,hezrón,,1
+nombre,charmi,carmi,,1
+nombre,recaía,reaías,,1
+nombre,sephán,safán,,1
+nombre,janai,jaanai,,1
+nombre,jachân,jacán,,1
+nombre,zia,zía,,1
+nombre,jaddo,jahdo,,1
+nombre,jothán,jotam,,1
+nombre,jethur,jetur,,1
+nombre,halad,halah,,1
+nombre,joath,jahat,,1
+nombre,jeothrai,jeatrai,,1
+nombre,uzzia,uzías,,1
+nombre,achîmoth,ahimot,,1
+nombre,assía,asaías,,1
+nombre,adaia,adaías,,1
+nombre,chîsi,quisi,,1
+nombre,golan,golán,,1
+nombre,dobrath,daberat,,1
+nombre,rimmono,rimón,,1
+nombre,chêdemoth,cademot,,1
+nombre,jabsub,jasub,,1
+nombre,molechêt,hamolequet,,1
+nombre,ischôd,isod,,1
+nombre,licci,likhi,,1
+nombre,uzzen-seera,uzen-seera,,1
+nombre,repha,refa,,1
+nombre,thela,tela,,1
+nombre,beth-seán,bet-seán,,1
+nombre,thanach,taanac,,1
+nombre,isua,isúa,,1
+nombre,machîel,malquiel,,1
+nombre,birzabith,birzabit,,1
+nombre,asvath,asvat,,1
+nombre,selles,seles,,1
+nombre,harnapher,harnafer,,1
+nombre,ithrán,itrán,,1
+nombre,ulla,ula,,1
+nombre,sephuphim,sefufán,,1
+nombre,huram,hiram,,1
+nombre,ehud,aod,,1
+nombre,chôdes,hodes,,1
+nombre,malchâm,malcam,,1
+nombre,heder,ader,,1
+nombre,ispha,ispa,,1
+nombre,joa,joha,,1
+nombre,hizchî,hizqui,,1
+nombre,simrath,simrat,,1
+nombre,isphán,ispán,,1
+nombre,adón,abdón,,1
+nombre,hananía,hananías,,1
+nombre,belam,elam,,1
+nombre,iphdaías,ifdaías,,1
+nombre,samseri,samserai,,1
+nombre,zechêr,zequer,,1
+nombre,malchî-súa,malquisúa,,1
+nombre,thaarea,taarea,,1
+nombre,jehus,jeús,,1
+nombre,odavía,odavías,,1
+nombre,asenua,asenúa,,1
+nombre,michri,micri,,1
+nombre,joachîm,jaquín,,1
+nombre,machîas,malquías,,1
+nombre,mesillemith,mesilemit,,1
+nombre,bacbaccar,bacbacar,,1
+nombre,mattanía,matanías,,1
+nombre,iduthum,jedutún,,1
+nombre,talmon,talmón,,1
+nombre,abiasath,ebiasaf,,1
+nombre,corah,coré,,1
+nombre,mathathías,matatías,,1
+nombre,tharea,tarea,,1
+nombre,pasdammin,pasdamim,,1
+nombre,samoth,samot,,1
+nombre,acces,iques,,1
+nombre,ithai,itai,,1
+nombre,gabaath,gabaa,,1
+nombre,eliphal,elifal,,1
+nombre,hesro,hezro,,1
+nombre,naarai,naharai,,1
+nombre,ahli,ahlai,,1
+nombre,josabia,josabía,,1
+nombre,ithma,itma,,1
+nombre,jaasiel,jasiel,,1
+nombre,pheleth,pelet,,1
+nombre,attai,atai,,1
+nombre,machbani,macbani,,1
+nombre,adnas,adna,,1
+nombre,jediaiel,jediael,,1
+nombre,sillethai,ziletai,,1
+nombre,chidón,quidón,,1
+nombre,japhías,jafía,,1
+nombre,beel-iada,beeliada,,1
+nombre,chûn,cun,,1
+nombre,sippai,sipai,,1
+nombre,zetham,zetam,,1
+nombre,jería,jerías,,1
+nombre,jesua,jesúa,,1
+nombre,sechânía,secanías,,1
+nombre,uppa,upa,,1
+nombre,aphses,afses,,1
+nombre,hezeciel,hezequiel,,1
+nombre,jachim,jaquín,,1
+nombre,maazía,maazías,,1
+nombre,isias,isías,,1
+nombre,jath,jahat,,1
+nombre,maheli,mahali,,1
+nombre,anmiel,amiel,,1
+nombre,peullethai,peultai,,1
+nombre,othni,otni,,1
+nombre,raphael,rafael,,1
+nombre,samachîas,samaquías,,1
+nombre,selemía,selemías,,1
+nombre,sallechêt,salequet,,1
+nombre,chenanía,quenanías,,1
+nombre,sambuth,samhut,,1
+nombre,icces,iques,,1
+nombre,camuel,quemuel,,1
+nombre,jaaciel,jasiel,,1
+nombre,chêlud,quelub,,1
+nombre,zabdías,zabdi,,1
+nombre,baal-hanan,baal-hanán,,1
+nombre,jedías,jehedías,,1
+nombre,moria,moriah,,1
+nombre,suchôt,sucot,,1
+nombre,seredat,zeredat,,1
+nombre,acechâ,azeca,,1
+nombre,semaraim,zemaraim,,1
+nombre,sephata,sefata,,1
+nombre,ion,ahión,,1
+nombre,gibaa,geba,,1
+nombre,nathaniel,natanael,,1
+nombre,hasasón-tamar,hazezón-tamar,,1
+nombre,mareosah,maresa,,1
+nombre,elisaphat,elisafat,,1
+nombre,simath,simeat,,1
+nombre,gederoth,gederot,,1
+nombre,tilgath-pilneser,tilgat-pileser,,1
+nombre,jehaleleel,jehalelel,,1
+nombre,ismachîas,ismaquías,,1
+nombre,mahaath,mahat,,1
+nombre,nethopha,netofa,,1
+nombre,odovías,odavías,,1
+nombre,gaher,gahar,,1
+nombre,reaía,reaías,,1
+nombre,resin,rezín,,1
+nombre,hacusa,hacufa,,1
+nombre,basluth,bazlut,,1
+nombre,sisera,sísara,,1
+nombre,phochêreth-hassebaim,poqueret-hazebaim,,1
+nombre,addan,adán,,1
+nombre,abaía,habaías,,1
+nombre,esar-haddón,esar-hadón,,1
+nombre,asnappar,asnapar,,1
+nombre,achmetta,acmeta,,1
+nombre,abisue,abisúa,,1
+nombre,athalías,atalías,,1
+nombre,solomith,selomit,,1
+nombre,josiphías,josifías,,1
+nombre,serabías,serebías,,1
+nombre,tikvah,ticva,,1
+nombre,harím,harim,,1
+nombre,sellum,selum,,1
+nombre,izzías,izías,,1
+nombre,elía,elías,,1
+nombre,chêleal,queleal,,1
+nombre,besaleel,bezaleel,,1
+nombre,issia,isías,,1
+nombre,semeía,semaías,,1
+nombre,mathatha,matata,,1
+nombre,chêluhi,quelúhi,,1
+nombre,machnadbai,macnadbai,,1
+nombre,selamías,selemías,,1
+nombre,matithías,matatías,,1
+nombre,samballat,sanbalat,,1
+nombre,repaías,refaías,,1
+nombre,harumaph,harumaf,,1
+nombre,hasbanías,hasabnías,,1
+nombre,chôl-hoce,col-hoze,,1
+nombre,asabías,hasabías,,1
+nombre,bavvai,bavai,,1
+nombre,anún,hanún,,1
+nombre,salaph,salaf,,1
+nombre,mehetabeel,mehetabel,,1
+nombre,hariph,harif,,1
+nombre,netopha,netofa,,1
+nombre,beth-azmaveth,bet-azmavet,,1
+nombre,gebaa,geba,,1
+nombre,ai,hai,,1
+nombre,rehaía,reaías,,1
+nombre,gazzam,gazam,,1
+nombre,hacupha,hacufa,,1
+nombre,baslith,bazlut,,1
+nombre,sísera,sísara,,1
+nombre,jahala,jaala,,1
+nombre,hattil,hatil,,1
+nombre,pochêreth-hassebaim,poqueret-hazebaim,,1
+nombre,telmelah,tel-mela,,1
+nombre,addón,adón,,1
+nombre,anías,anaías,,1
+nombre,hasbedana,hasbadana,,1
+nombre,jozabed,jozabad,,1
+nombre,pelaía,pelaías,,1
+nombre,chênani,quenani,,1
+nombre,hosabnías,hasabnías,,1
+nombre,odaías,odías,,1
+nombre,ginethón,ginetón,,1
+nombre,zachû,zacur,,1
+nombre,ezekías,ezequías,,1
+nombre,jadua,jadúa,,1
+nombre,hoseas,oseas,,1
+nombre,asub,hasub,,1
+nombre,ahijas,ahías,,1
+nombre,athaías,ataías,,1
+nombre,colhoze,col-hoze,,1
+nombre,jesaía,jesahías,,1
+nombre,senua,senúa,,1
+nombre,malachías,malquías,,1
+nombre,pethahías,petaías,,1
+nombre,zerah,zera,,1
+nombre,chîriat-arba,quiriat-arba,,1
+nombre,moladah,molada,,1
+nombre,mechôna,mecona,,1
+nombre,en-rimmón,enrimón,,1
+nombre,soreah,zora,,1
+nombre,zanoah,zanoa,,1
+nombre,ananiah,ananías,,1
+nombre,gitthaim,gitaim,,1
+nombre,neballath,nebalat,,1
+nombre,hartus,hatús,,1
+nombre,ginnethón,ginetón,,1
+nombre,callai,calai,,1
+nombre,miniamin,miniamín,,1
+nombre,israhía,izrahías,,1
+nombre,sethar,setar,,1
+nombre,admatha,admata,,1
+nombre,tebeth,tebet,,1
+nombre,bigthán,bigtán,,1
+nombre,bigthan,bigtán,,1
+nombre,dalphón,dalfón,,1
+nombre,asphatha,aspata,,1
+nombre,pharmastha,parmasta,,1
+nombre,vaizatha,vaizata,,1
+nombre,jemimah,jemima,,1
+nombre,cesiah,cesia,,1
+nombre,keren-happuch,keren-hapuc,,1
+nombre,melchîsedech,melquisedec,,1
+nombre,kedar,cedar,,1
+nombre,jachê,jaqué,,1
+nombre,batrabbim,bat-rabim,,1
+nombre,jeberechîas,jeberequías,,1
+nombre,jahas,jahaza,,1
+nombre,beer-elim,beerelim,,1
+nombre,rephaim,refaim,,1
+nombre,perasim,perazim,,1
+nombre,tirhakah,tirhaca,,1
+nombre,rezeph,rezef,,1
+nombre,henah,hena,,1
+nombre,hivah,iva,,1
+nombre,adremelech,adramelec,,1
+nombre,merodach-baladán,merodac-baladán,,1
+nombre,nebayoth,nebaiot,,1
+nombre,hephzibah,hefziba,,1
+nombre,joacím,joacim,,1
+nombre,jemarías,gemarías,,1
+nombre,hareb,gareb,,1
+nombre,habassinías,habasinías,,1
+nombre,chusi,cusi,,1
+nombre,melchîas,malquías,,1
+nombre,sarsechim,sarsequim,,1
+nombre,tanhumeth,tanhumet,,1
+nombre,ephi,efi,,1
+nombre,osaía,osaías,,1
+nombre,lut,lud,,1
+nombre,jahzah,jahaza,,1
+nombre,beth-diblathaim,bet-diblataim,,1
+nombre,beth-gamul,bet-gamul,,1
+nombre,beth-meon,bet-meón,,1
+nombre,jaaz,jahaza,,1
+nombre,nimrin,nimrim,,1
+nombre,sihón,sehón,,1
+nombre,ben-hadad,benadad,,1
+nombre,merodach,merodac,,1
+nombre,merathaim,merataim,,1
+nombre,minni,mini,,1
+nombre,aschênaz,askenaz,,1
+nombre,hamutal,amutal,,1
+nombre,diblath,diblat,,1
+nombre,tammuz,tamuz,,1
+nombre,elisah,elisa,,1
+nombre,minith,minit,,1
+nombre,canneh,cane,,1
+nombre,chilmad,quilmad,,1
+nombre,pibeseth,pibeset,,1
+nombre,tehaphnes,tafnes,,1
+nombre,hamonah,hamona,,1
+nombre,en-gadi,engadi,,1
+nombre,en-eglaim,eneglaim,,1
+nombre,beth-arbel,betarbel,,1
+nombre,pethuel,petuel,,1
+nombre,benhadad,benadad,,1
+nombre,chiún,quiún,,1
+nombre,sepharad,sefarad,,1
+nombre,beth-le-aphrah,bet-le-afra,,1
+nombre,saphir,safir,,1
+nombre,beth-esel,bet-esel,,1
+nombre,maroth,marot,,1
+nombre,moreseth-gath,moreset-gat,,1
+nombre,maresah,maresa,,1
+nombre,put,fut,,1
+nombre,sigionoth,sigionot,,1
+nombre,cushán,cusán,,1
+nombre,sebath,sebat,,1
+nombre,saraser,sarezer,,1
+nombre,regem-melech,regem-melec,,1
+nombre,adadrimón,hadadrimón,,1
+nombre,rachâb,rahab,,1
+nombre,archelao,arquelao,,1
+nombre,magdalá,magdala,,1
+nombre,barachîas,baraquías,,1
+nombre,dalmanutha,dalmanuta,,1
+nombre,bethphagé,betfagé,,1
+nombre,phanuel,fanuel,,1
+nombre,janna,jana,,1
+nombre,mattatha,matata,,1
+nombre,thara,taré,,1
+nombre,maleleel,mahalaleel,,1
+nombre,emmaús,emaús,,1
+nombre,cephas,cefas,,1
+nombre,sichâr,sicar,,1
+nombre,bethesda,betesda,,1
+nombre,gabbatha,gabata,,1
+nombre,remphan,remfan,,1
+nombre,sarona,sarón,,1
+nombre,rhode,rode,,1
+nombre,bithynia,bitinia,,1
+nombre,amphípolis,amfípolis,,1
+nombre,tyranno,tyrano,,1
+nombre,sopater,sópater,,1
+nombre,eutichô,eutico,,1
+nombre,chîo,quíos,,1
+nombre,samo,samos,,1
+nombre,coos,cos,,1
+nombre,rhodas,rodas,,1
+nombre,antipatris,antípatris,,1
+nombre,puteolos,puteoli,,1
+nombre,stachîs,estaquis,,1
+nombre,sosipater,sosípater,,1
+nombre,aristarchô,aristarco,,1
+nombre,nimfas,ninfas,,1
+nombre,figello,figelo,,1
+nombre,jannes,janes,,1
+nombre,apphia,apia,,1
+nombre,bithinia,bitinia,,1
+nombre,gaio,gayo,,1
+nombre,abaddon,abadón,,1
+nombre,apollyon,apolyón,,1
+parir → dar a luz,parió,dio a luz,,96
+parir → dar a luz,parido,dado a luz,,16
+parir → dar a luz,parirá,dará a luz,,8
+parir → dar a luz,"parir,","dar a luz,",,7
+parir → dar a luz,parirás,darás a luz,,6
+parir → dar a luz,pariere,diere a luz,,4
+parir → dar a luz,parido.,dado a luz.,,4
+parir → dar a luz,parió.,dio a luz.,,3
+parir → dar a luz,parir.,dar a luz.,,3
+parir → dar a luz,parió;,dio a luz;,,3
+parir → dar a luz,pare,da a luz,,3
+parir → dar a luz,pare.,da a luz.,,3
+parir → dar a luz,"parió,","dio a luz,",,3
+parir → dar a luz,parir?,dar a luz?,,2
+parir → dar a luz,parir,dar a luz,,2
+parir → dar a luz,"paría,","daba a luz,",,2
+parir → dar a luz,paren,dan a luz,,2
+parir → dar a luz,pariese,diese a luz,,2
+parir → dar a luz,parí,di a luz,,2
+parir → dar a luz,"parí,","di a luz,",,2
+parir → dar a luz,parieron,dieron a luz,,2
+parir → dar a luz,paría:,daba a luz:,,1
+parir → dar a luz,parieron.,dieron a luz.,,1
+parir → dar a luz,parido?,dado a luz?,,1
+parir → dar a luz,parieren,dieren a luz,,1
+parir → dar a luz,pariere;,diere a luz;,,1
+parir → dar a luz,parido;,dado a luz;,,1
+parir → dar a luz,parimos,dimos a luz,,1
+parir → dar a luz,pariréis:,daréis a luz:,,1
+parir → dar a luz,pariste?,diste a luz?,,1
+parir → dar a luz,paría;,daba a luz;,,1
+parir → dar a luz,parirán,darán a luz,,1
+parir → dar a luz,¿parirá,¿dará a luz,,1
+parir → dar a luz,pariré?,daré a luz?,,1
+parir → dar a luz,pare?,da a luz?,,1
+parir → dar a luz,"parieren,","dieren a luz,",,1
+parir → dar a luz,parir;,dar a luz;,,1
+parir → dar a luz,"pare,","da a luz,",,1
+parir → dar a luz,pares:,das a luz:,,1
+presto → pronto,presto,pronto,,37
+presto → pronto,prestamente,rápidamente,,23
+presto → pronto,"presto,","pronto,",,16
+presto → pronto,presto.,pronto.,,9
+presto → pronto,presto;,pronto;,,4
+presto → pronto,presto,dispuesto,,2
+presto → pronto,presto.,dispuesto.,,2
+presto → pronto,prestos,rápidos,,2
+presto → pronto,presto?,pronto?,,1
+presto → pronto,prestos,dispuestos,,1
+presto → pronto,presto:,pronto:,,1
+presto → pronto,"presto,","dispuesto,",,1
+pronombre enclítico,díjole,le dijo,,175
+pronombre enclítico,díjoles,les dijo,,103
+pronombre enclítico,díjome,me dijo,,80
+pronombre enclítico,levantóse,se levantó,,76
+pronombre enclítico,fuése,se fue,,62
+pronombre enclítico,dijéronle,le dijeron,,59
+pronombre enclítico,volvióse,se volvió,,33
+pronombre enclítico,púsose,se puso,,29
+pronombre enclítico,hízolo,lo hizo,,26
+pronombre enclítico,púsolo,lo puso,,25
+pronombre enclítico,sentóse,se sentó,,25
+pronombre enclítico,levantáronse,se levantaron,,24
+pronombre enclítico,sepultáronlo,lo sepultaron,,23
+pronombre enclítico,dióles,les dio,,22
+pronombre enclítico,inclinóse,se inclinó,,19
+pronombre enclítico,respondióle,le respondió,,18
+pronombre enclítico,dióle,le dio,,18
+pronombre enclítico,púsole,le puso,,18
+pronombre enclítico,echóse,se echó,,18
+pronombre enclítico,hízole,le hizo,,17
+pronombre enclítico,enojóse,se enojó,,17
+pronombre enclítico,fuéronse,se fueron,,17
+pronombre enclítico,juntáronse,se juntaron,,17
+pronombre enclítico,llevóme,me llevó,,17
+pronombre enclítico,tomóla,la tomó,,16
+pronombre enclítico,encendióse,se encendió,,16
+pronombre enclítico,hiciéronle,le hicieron,,16
+pronombre enclítico,volviéronse,se volvieron,,16
+pronombre enclítico,hízose,se hizo,,15
+pronombre enclítico,matólo,lo mató,,15
+pronombre enclítico,pusiéronse,se pusieron,,14
+pronombre enclítico,púsolos,los puso,,13
+pronombre enclítico,quedóse,se quedó,,13
+pronombre enclítico,hablóles,les habló,,13
+pronombre enclítico,fuéle,le fue,,13
+pronombre enclítico,tornáronse,se tornaron,,12
+pronombre enclítico,partióse,se partió,,12
+pronombre enclítico,hiriólos,los hirió,,12
+pronombre enclítico,púsola,la puso,,12
+pronombre enclítico,sentáronse,se sentaron,,12
+pronombre enclítico,paróse,se paró,,12
+pronombre enclítico,hízome,me hizo,,12
+pronombre enclítico,diólo,lo dio,,11
+pronombre enclítico,salióse,se salió,,11
+pronombre enclítico,juntóse,se juntó,,11
+pronombre enclítico,llevólo,lo llevó,,11
+pronombre enclítico,secóse,se secó,,11
+pronombre enclítico,díjeles,les dije,,11
+pronombre enclítico,diéronle,le dieron,,10
+pronombre enclítico,llegóse,se llegó,,10
+pronombre enclítico,respondióles,les respondió,,10
+pronombre enclítico,hízolos,los hizo,,10
+pronombre enclítico,alegraráse,se alegrará,,10
+pronombre enclítico,apartóse,se apartó,,9
+pronombre enclítico,llegáronse,se llegaron,,9
+pronombre enclítico,hiciéronlo,lo hicieron,,9
+pronombre enclítico,pusiéronlo,lo pusieron,,9
+pronombre enclítico,trajéronlo,lo trajeron,,9
+pronombre enclítico,vínose,se vino,,9
+pronombre enclítico,hiriólo,lo hirió,,9
+pronombre enclítico,llevólos,los llevó,,9
+pronombre enclítico,acordóse,se acordó,,8
+pronombre enclítico,dióse,se dio,,8
+pronombre enclítico,tornóse,se tornó,,8
+pronombre enclítico,dijéronles,les dijeron,,8
+pronombre enclítico,entrególos,los entregó,,8
+pronombre enclítico,sacóme,me sacó,,8
+pronombre enclítico,púsome,me puso,,8
+pronombre enclítico,harélos,los haré,,8
+pronombre enclítico,púsolas,las puso,,7
+pronombre enclítico,apartáronse,se apartaron,,7
+pronombre enclítico,dióla,la dio,,7
+pronombre enclítico,acercóse,se acercó,,7
+pronombre enclítico,hízoles,les hizo,,7
+pronombre enclítico,pusiéronle,le pusieron,,7
+pronombre enclítico,acostóse,se acostó,,7
+pronombre enclítico,inclináronse,se inclinaron,,7
+pronombre enclítico,respondiéronle,le respondieron,,7
+pronombre enclítico,preguntóle,le preguntó,,7
+pronombre enclítico,viniéronse,se vinieron,,7
+pronombre enclítico,lleváronlo,lo llevaron,,7
+pronombre enclítico,paráronse,se pararon,,7
+pronombre enclítico,cubriólas,las cubrió,,7
+pronombre enclítico,hablóle,le habló,,7
+pronombre enclítico,hablóme,me habló,,7
+pronombre enclítico,postróse,se postró,,7
+pronombre enclítico,pondrélos,los pondré,,7
+pronombre enclítico,metióme,me metió,,7
+pronombre enclítico,mandóles,les mandó,,6
+pronombre enclítico,enviólo,lo envió,,6
+pronombre enclítico,vistióse,se vistió,,6
+pronombre enclítico,echólo,lo echó,,6
+pronombre enclítico,alegróse,se alegró,,6
+pronombre enclítico,darále,le dará,,6
+pronombre enclítico,harálo,lo hará,,6
+pronombre enclítico,hirióle,le hirió,,6
+pronombre enclítico,entráronse,se entraron,,6
+pronombre enclítico,harélo,lo haré,,6
+pronombre enclítico,habíase,se había,,6
+pronombre enclítico,holgóse,se holgó,,6
+pronombre enclítico,vístete,te viste,,6
+pronombre enclítico,hiciéronse,se hicieron,,6
+pronombre enclítico,dísteles,les diste,,6
+pronombre enclítico,arrepintióse,se arrepintió,,5
+pronombre enclítico,fuéles,les fue,,5
+pronombre enclítico,cubrióse,se cubrió,,5
+pronombre enclítico,llamólo,lo llamó,,5
+pronombre enclítico,trájolos,los trajo,,5
+pronombre enclítico,tomólos,los tomó,,5
+pronombre enclítico,llamóle,le llamó,,5
+pronombre enclítico,enamoróse,se enamoró,,5
+pronombre enclítico,saliéronse,se salieron,,5
+pronombre enclítico,contólo,lo contó,,5
+pronombre enclítico,echáronle,le echaron,,5
+pronombre enclítico,trajéronle,le trajeron,,5
+pronombre enclítico,trajéronla,la trajeron,,5
+pronombre enclítico,contáronle,le contaron,,5
+pronombre enclítico,entróse,se entró,,5
+pronombre enclítico,harále,le hará,,5
+pronombre enclítico,diólos,los dio,,5
+pronombre enclítico,diéronles,les dieron,,5
+pronombre enclítico,levantaráse,se levantará,,5
+pronombre enclítico,librólos,los libró,,5
+pronombre enclítico,lleváronle,le llevaron,,5
+pronombre enclítico,preguntáronle,le preguntaron,,5
+pronombre enclítico,tomólo,lo tomó,,5
+pronombre enclítico,mudóle,le mudó,,5
+pronombre enclítico,libróme,me libró,,5
+pronombre enclítico,díjele,le dije,,5
+pronombre enclítico,rebelóse,se rebeló,,5
+pronombre enclítico,volveráse,se volverá,,5
+pronombre enclítico,levantéme,me levanté,,5
+pronombre enclítico,sacólos,los sacó,,5
+pronombre enclítico,respondióme,me respondió,,5
+pronombre enclítico,tornéme,me torné,,5
+pronombre enclítico,haréles,les haré,,5
+pronombre enclítico,pasóse,se pasó,,4
+pronombre enclítico,enviólos,los envió,,4
+pronombre enclítico,estremecióse,se estremeció,,4
+pronombre enclítico,bendíjolo,lo bendijo,,4
+pronombre enclítico,besólo,lo besó,,4
+pronombre enclítico,tomóse,se tomó,,4
+pronombre enclítico,levantóla,la levantó,,4
+pronombre enclítico,salióle,le salió,,4
+pronombre enclítico,partiéronse,se partieron,,4
+pronombre enclítico,aparecióse,se apareció,,4
+pronombre enclítico,enlutóse,se enlutó,,4
+pronombre enclítico,estúvose,se estuvo,,4
+pronombre enclítico,presentáronse,se presentaron,,4
+pronombre enclítico,bendíjolos,los bendijo,,4
+pronombre enclítico,encorvóse,se encorvó,,4
+pronombre enclítico,llenóse,se llenó,,4
+pronombre enclítico,quemólo,lo quemó,,4
+pronombre enclítico,levantábase,se levantaba,,4
+pronombre enclítico,cubrióla,la cubrió,,4
+pronombre enclítico,cubriólo,lo cubrió,,4
+pronombre enclítico,haráse,se hará,,4
+pronombre enclítico,degollólo,lo degolló,,4
+pronombre enclítico,oyólo,lo oyó,,4
+pronombre enclítico,viólo,lo vio,,4
+pronombre enclítico,postréme,me postré,,4
+pronombre enclítico,volveránse,se volverán,,4
+pronombre enclítico,trájolo,lo trajo,,4
+pronombre enclítico,quedáronse,se quedaron,,4
+pronombre enclítico,pusiéronlos,los pusieron,,4
+pronombre enclítico,combatióla,la combatió,,4
+pronombre enclítico,metiéronla,la metieron,,4
+pronombre enclítico,estuviéronse,se estuvieron,,4
+pronombre enclítico,enviólas,las envió,,4
+pronombre enclítico,llamáronle,le llamaron,,4
+pronombre enclítico,escapóse,se escapó,,4
+pronombre enclítico,estábase,se estaba,,4
+pronombre enclítico,ciñóse,se ciñó,,4
+pronombre enclítico,disfrazóse,se disfrazó,,4
+pronombre enclítico,extendiéronse,se extendieron,,4
+pronombre enclítico,pondrélo,lo pondré,,4
+pronombre enclítico,halláronse,se hallaron,,4
+pronombre enclítico,lleváronse,se llevaron,,4
+pronombre enclítico,echólos,los echó,,4
+pronombre enclítico,hicístete,te hiciste,,4
+pronombre enclítico,cercáronme,me cercaron,,4
+pronombre enclítico,alegraréme,me alegraré,,4
+pronombre enclítico,corrompiéronse,se corrompieron,,4
+pronombre enclítico,busquélo,lo busqué,,4
+pronombre enclítico,pusístenos,nos pusiste,,4
+pronombre enclítico,levantaréme,me levantaré,,4
+pronombre enclítico,acordéme,me acordé,,4
+pronombre enclítico,tornaráse,se tornará,,4
+pronombre enclítico,secaráse,se secará,,4
+pronombre enclítico,derribóse,se derribó,,4
+pronombre enclítico,trájola,la trajo,,3
+pronombre enclítico,escondióse,se escondió,,3
+pronombre enclítico,sacólo,lo sacó,,3
+pronombre enclítico,corrompióse,se corrompió,,3
+pronombre enclítico,siguiólos,los siguió,,3
+pronombre enclítico,derramóse,se derramó,,3
+pronombre enclítico,bendíjole,le bendijo,,3
+pronombre enclítico,apareciósele,se le apareció,,3
+pronombre enclítico,llamólos,los llamó,,3
+pronombre enclítico,trájole,le trajo,,3
+pronombre enclítico,mandóle,le mandó,,3
+pronombre enclítico,hallólos,los halló,,3
+pronombre enclítico,tomáronlo,lo tomaron,,3
+pronombre enclítico,túvola,la tuvo,,3
+pronombre enclítico,contóles,les contó,,3
+pronombre enclítico,cumpliéronse,se cumplieron,,3
+pronombre enclítico,alegráronse,se alegraron,,3
+pronombre enclítico,postráronse,se postraron,,3
+pronombre enclítico,esparcióla,la esparció,,3
+pronombre enclítico,asentóse,se asentó,,3
+pronombre enclítico,oiránlo,lo oirán,,3
+pronombre enclítico,pusiéronla,la pusieron,,3
+pronombre enclítico,allegóse,se allegó,,3
+pronombre enclítico,volvíase,se volvía,,3
+pronombre enclítico,hízolas,las hizo,,3
+pronombre enclítico,pondrálas,las pondrá,,3
+pronombre enclítico,quemólos,los quemó,,3
+pronombre enclítico,hallóse,se halló,,3
+pronombre enclítico,darálo,lo dará,,3
+pronombre enclítico,lavaráse,se lavará,,3
+pronombre enclítico,apedreáronlo,lo apedrearon,,3
+pronombre enclítico,recogióse,se recogió,,3
+pronombre enclítico,sacónos,nos sacó,,3
+pronombre enclítico,tomáronla,la tomaron,,3
+pronombre enclítico,púsoles,les puso,,3
+pronombre enclítico,llamóla,la llamó,,3
+pronombre enclítico,faltóles,les faltó,,3
+pronombre enclítico,enterráronlo,lo enterraron,,3
+pronombre enclítico,cortáronle,le cortaron,,3
+pronombre enclítico,metiéronle,le metieron,,3
+pronombre enclítico,pasáronse,se pasaron,,3
+pronombre enclítico,cercáronlo,lo cercaron,,3
+pronombre enclítico,subióse,se subió,,3
+pronombre enclítico,estaréme,me estaré,,3
+pronombre enclítico,declaróle,le declaró,,3
+pronombre enclítico,decíanle,le decían,,3
+pronombre enclítico,agravóse,se agravó,,3
+pronombre enclítico,desbaratólos,los desbarató,,3
+pronombre enclítico,metiólos,los metió,,3
+pronombre enclítico,tomóle,le tomó,,3
+pronombre enclítico,naciéronle,le nacieron,,3
+pronombre enclítico,encontróse,se encontró,,3
+pronombre enclítico,librásteme,te me librás,,3
+pronombre enclítico,acabóla,la acabó,,3
+pronombre enclítico,vistiólo,lo vistió,,3
+pronombre enclítico,topóle,le topó,,3
+pronombre enclítico,rogóle,le rogó,,3
+pronombre enclítico,viniéronle,le vinieron,,3
+pronombre enclítico,mostróles,les mostró,,3
+pronombre enclítico,trasportólos,los trasportó,,3
+pronombre enclítico,cercóla,la cercó,,3
+pronombre enclítico,envióles,les envió,,3
+pronombre enclítico,airóse,se airó,,3
+pronombre enclítico,sentéme,me senté,,3
+pronombre enclítico,acabóse,se acabó,,3
+pronombre enclítico,hartáronse,se hartaron,,3
+pronombre enclítico,rebeláronse,se rebelaron,,3
+pronombre enclítico,escribióse,se escribió,,3
+pronombre enclítico,hicísteme,me hiciste,,3
+pronombre enclítico,dísteme,me diste,,3
+pronombre enclítico,daréles,les daré,,3
+pronombre enclítico,acordaréme,me acordaré,,3
+pronombre enclítico,viéronte,te vieron,,3
+pronombre enclítico,salvólos,los salvó,,3
+pronombre enclítico,híceme,me hice,,3
+pronombre enclítico,perdióse,se perdió,,3
+pronombre enclítico,púsete,te puse,,3
+pronombre enclítico,díjete,te dije,,3
+pronombre enclítico,rodeóme,me rodeó,,3
+pronombre enclítico,entregarélos,los entregaré,,3
+pronombre enclítico,mostróme,me mostró,,3
+pronombre enclítico,traerélos,los traeré,,3
+pronombre enclítico,despidióle,le despidió,,3
+pronombre enclítico,aventarélos,los aventaré,,3
+pronombre enclítico,tornóme,me tornó,,3
+pronombre enclítico,cercóme,me cercó,,3
+pronombre enclítico,cumpliráse,se cumplirá,,3
+pronombre enclítico,agolpóse,se agolpó,,3
+pronombre enclítico,rogáronle,le rogaron,,3
+pronombre enclítico,santificólo,lo santificó,,2
+pronombre enclítico,haréle,le haré,,2
+pronombre enclítico,trájolas,las trajo,,2
+pronombre enclítico,vistiólos,los vistió,,2
+pronombre enclítico,pesóle,le pesó,,2
+pronombre enclítico,hízola,la hizo,,2
+pronombre enclítico,díjolo,lo dijo,,2
+pronombre enclítico,viéronla,la vieron,,2
+pronombre enclítico,sacóle,le sacó,,2
+pronombre enclítico,huyóse,se huyó,,2
+pronombre enclítico,hallóla,la halló,,2
+pronombre enclítico,aparecióle,le apareció,,2
+pronombre enclítico,rióse,se rio,,2
+pronombre enclítico,preguntéle,le pregunté,,2
+pronombre enclítico,amóla,la amó,,2
+pronombre enclítico,dióme,me dio,,2
+pronombre enclítico,angustióse,se angustió,,2
+pronombre enclítico,vióla,la vio,,2
+pronombre enclítico,llamóse,se llamó,,2
+pronombre enclítico,hallólo,lo halló,,2
+pronombre enclítico,librólo,lo libró,,2
+pronombre enclítico,quitóse,se quitó,,2
+pronombre enclítico,servíale,le servía,,2
+pronombre enclítico,dejóla,la dejó,,2
+pronombre enclítico,mirólos,los miró,,2
+pronombre enclítico,parecíame,me parecía,,2
+pronombre enclítico,juntólos,los juntó,,2
+pronombre enclítico,aprisionóle,le aprisionó,,2
+pronombre enclítico,oyóse,se oyó,,2
+pronombre enclítico,sustentólos,los sustentó,,2
+pronombre enclítico,túvole,le tuvo,,2
+pronombre enclítico,reconociólos,los reconoció,,2
+pronombre enclítico,besóle,le besó,,2
+pronombre enclítico,echáronlos,los echaron,,2
+pronombre enclítico,oscurecióse,se oscureció,,2
+pronombre enclítico,quitóles,les quitó,,2
+pronombre enclítico,cubriólos,los cubrió,,2
+pronombre enclítico,hundiéronse,se hundieron,,2
+pronombre enclítico,trajéronlos,los trajeron,,2
+pronombre enclítico,extendiólo,lo extendió,,2
+pronombre enclítico,poníase,se ponía,,2
+pronombre enclítico,ofrecerála,la ofrecerá,,2
+pronombre enclítico,ciñólo,lo ciñó,,2
+pronombre enclítico,ungiólo,lo ungió,,2
+pronombre enclítico,ofrecerálo,lo ofrecerá,,2
+pronombre enclítico,mecerálo,lo mecerá,,2
+pronombre enclítico,pondrálo,lo pondrá,,2
+pronombre enclítico,mojarálo,lo mojará,,2
+pronombre enclítico,harálos,los hará,,2
+pronombre enclítico,quedaráse,se quedará,,2
+pronombre enclítico,contólos,los contó,,2
+pronombre enclítico,enardecióse,se enardeció,,2
+pronombre enclítico,harála,la hará,,2
+pronombre enclítico,destruyólos,los destruyó,,2
+pronombre enclítico,abatióse,se abatió,,2
+pronombre enclítico,pegóse,se pegó,,2
+pronombre enclítico,púselos,los puse,,2
+pronombre enclítico,saliónos,nos salió,,2
+pronombre enclítico,escribiólas,las escribió,,2
+pronombre enclítico,llegaráse,se llegará,,2
+pronombre enclítico,guardólo,lo guardó,,2
+pronombre enclítico,hiciéronme,me hicieron,,2
+pronombre enclítico,siguiéronlos,los siguieron,,2
+pronombre enclítico,apresuráronse,se apresuraron,,2
+pronombre enclítico,sacáronle,le sacaron,,2
+pronombre enclítico,metióla,la metió,,2
+pronombre enclítico,combatiéronla,la combatieron,,2
+pronombre enclítico,metiéronlos,los metieron,,2
+pronombre enclítico,dióseles,se les dio,,2
+pronombre enclítico,habláronles,les hablaron,,2
+pronombre enclítico,poseyéronla,la poseyeron,,2
+pronombre enclítico,persuadióle,le persuadió,,2
+pronombre enclítico,hiciéronlos,los hicieron,,2
+pronombre enclítico,vendiólos,los vendió,,2
+pronombre enclítico,entregarélo,lo entregaré,,2
+pronombre enclítico,tornóle,le tornó,,2
+pronombre enclítico,metióle,le metió,,2
+pronombre enclítico,pusiéronlas,las pusieron,,2
+pronombre enclítico,subiéronse,se subieron,,2
+pronombre enclítico,sacrificólo,lo sacrificó,,2
+pronombre enclítico,habíalo,lo había,,2
+pronombre enclítico,díla,la di,,2
+pronombre enclítico,fijóse,se fijó,,2
+pronombre enclítico,atóle,le ató,,2
+pronombre enclítico,tomáronle,le tomaron,,2
+pronombre enclítico,siguióla,la siguió,,2
+pronombre enclítico,púsoseles,se les puso,,2
+pronombre enclítico,pasáronlos,los pasaron,,2
+pronombre enclítico,mostraréle,le mostraré,,2
+pronombre enclítico,pondrálos,los pondrá,,2
+pronombre enclítico,habíanse,se habían,,2
+pronombre enclítico,derramóla,la derramó,,2
+pronombre enclítico,escribiólo,lo escribió,,2
+pronombre enclítico,cortólos,los cortó,,2
+pronombre enclítico,declaráronlo,lo declararon,,2
+pronombre enclítico,escogióse,se escogió,,2
+pronombre enclítico,amólo,lo amó,,2
+pronombre enclítico,congregáronse,se congregaron,,2
+pronombre enclítico,presentóse,se presentó,,2
+pronombre enclítico,portábase,se portaba,,2
+pronombre enclítico,apartólo,lo apartó,,2
+pronombre enclítico,apeóse,se apeó,,2
+pronombre enclítico,llevóse,se llevó,,2
+pronombre enclítico,veníase,se venía,,2
+pronombre enclítico,turbóse,se turbó,,2
+pronombre enclítico,dejóme,me dejó,,2
+pronombre enclítico,rompiólos,los rompió,,2
+pronombre enclítico,alzólo,lo alzó,,2
+pronombre enclítico,entristecióse,se entristeció,,2
+pronombre enclítico,llevóla,la llevó,,2
+pronombre enclítico,cortóles,les cortó,,2
+pronombre enclítico,despachólos,los despachó,,2
+pronombre enclítico,lavóse,se lavó,,2
+pronombre enclítico,echóla,la echó,,2
+pronombre enclítico,quitaréle,le quitaré,,2
+pronombre enclítico,oirálo,lo oirá,,2
+pronombre enclítico,salióles,les salió,,2
+pronombre enclítico,arrebatóme,me arrebató,,2
+pronombre enclítico,asaltáronme,me asaltaron,,2
+pronombre enclítico,remuneróme,me remuneró,,2
+pronombre enclítico,quebrantarélos,los quebrantaré,,2
+pronombre enclítico,ceñísteme,me ceñiste,,2
+pronombre enclítico,contóle,le contó,,2
+pronombre enclítico,matóle,le mató,,2
+pronombre enclítico,esparcirálos,los esparcirá,,2
+pronombre enclítico,metióse,se metió,,2
+pronombre enclítico,matólos,los mató,,2
+pronombre enclítico,fuéronles,les fueron,,2
+pronombre enclítico,hincóse,se hincó,,2
+pronombre enclítico,declaróselo,se lo declaró,,2
+pronombre enclítico,guiólos,los guió,,2
+pronombre enclítico,dijéronse,se dijeron,,2
+pronombre enclítico,vínole,le vino,,2
+pronombre enclítico,dijéronselo,se lo dijeron,,2
+pronombre enclítico,dejáronlos,los dejaron,,2
+pronombre enclítico,derribáronlo,lo derribaron,,2
+pronombre enclítico,hiriéronle,le hirieron,,2
+pronombre enclítico,compadecióse,se compadeció,,2
+pronombre enclítico,viéronse,se vieron,,2
+pronombre enclítico,diéronse,se dieron,,2
+pronombre enclítico,enseñóles,les enseñó,,2
+pronombre enclítico,tomólas,las tomó,,2
+pronombre enclítico,leyólo,lo leyó,,2
+pronombre enclítico,envióle,le envió,,2
+pronombre enclítico,repartiólos,los repartió,,2
+pronombre enclítico,repartiéronlos,los repartieron,,2
+pronombre enclítico,pondréla,la pondré,,2
+pronombre enclítico,fortificólas,las fortificó,,2
+pronombre enclítico,dejáronlo,lo dejaron,,2
+pronombre enclítico,sepultáronle,le sepultaron,,2
+pronombre enclítico,matáronlo,lo mataron,,2
+pronombre enclítico,entregáronlo,lo entregaron,,2
+pronombre enclítico,oíase,se oía,,2
+pronombre enclítico,juntélos,los junté,,2
+pronombre enclítico,preguntéles,les pregunté,,2
+pronombre enclítico,enojéme,me enojé,,2
+pronombre enclítico,juramentélos,los juramenté,,2
+pronombre enclítico,pusístele,le pusiste,,2
+pronombre enclítico,refirióles,les refirió,,2
+pronombre enclítico,tomáronlos,los tomaron,,2
+pronombre enclítico,comeráse,se comerá,,2
+pronombre enclítico,cubrísteme,me cubriste,,2
+pronombre enclítico,desmenuzóme,me desmenuzó,,2
+pronombre enclítico,apagaráse,se apagará,,2
+pronombre enclítico,olvidaráse,se olvidará,,2
+pronombre enclítico,deleitaráse,se deleitará,,2
+pronombre enclítico,acábanse,se acaban,,2
+pronombre enclítico,espantáronse,se espantaron,,2
+pronombre enclítico,turbaránse,se turbarán,,2
+pronombre enclítico,regocijaréme,me regocijaré,,2
+pronombre enclítico,moviéronse,se movieron,,2
+pronombre enclítico,tomóme,me tomó,,2
+pronombre enclítico,oyóle,le oyó,,2
+pronombre enclítico,volviéronme,me volvieron,,2
+pronombre enclítico,maravilláronse,se maravillaron,,2
+pronombre enclítico,acábalos,los acaba,,2
+pronombre enclítico,pusiéronme,me pusieron,,2
+pronombre enclítico,acordábame,me acordaba,,2
+pronombre enclítico,levantaránse,se levantarán,,2
+pronombre enclítico,olvidáronse,se olvidaron,,2
+pronombre enclítico,salvóme,me salvó,,2
+pronombre enclítico,deleitaréme,me deleitaré,,2
+pronombre enclítico,arrepentiráse,se arrepentirá,,2
+pronombre enclítico,pasmóse,se pasmó,,2
+pronombre enclítico,hartaráse,se hartará,,2
+pronombre enclítico,hiriéronme,me hirieron,,2
+pronombre enclítico,llamáronla,la llamaron,,2
+pronombre enclítico,halláronme,me hallaron,,2
+pronombre enclítico,sentaráse,se sentará,,2
+pronombre enclítico,enseñóme,me enseñó,,2
+pronombre enclítico,encenderáse,se encenderá,,2
+pronombre enclítico,desleiráse,se desleirá,,2
+pronombre enclítico,aturdiéronse,se aturdieron,,2
+pronombre enclítico,consumirálo,lo consumirá,,2
+pronombre enclítico,juntarálos,los juntará,,2
+pronombre enclítico,entreguélos,los entregué,,2
+pronombre enclítico,hícelo,lo hice,,2
+pronombre enclítico,cubrióme,me cubrió,,2
+pronombre enclítico,daréle,le daré,,2
+pronombre enclítico,maravillóse,se maravilló,,2
+pronombre enclítico,quemóse,se quemó,,2
+pronombre enclítico,acordaráse,se acordará,,2
+pronombre enclítico,volverélos,los volveré,,2
+pronombre enclítico,arrepentiréme,me arrepentiré,,2
+pronombre enclítico,harélas,las haré,,2
+pronombre enclítico,darélos,los daré,,2
+pronombre enclítico,haréla,la haré,,2
+pronombre enclítico,multiplicarélos,los multiplicaré,,2
+pronombre enclítico,tomarála,la tomará,,2
+pronombre enclítico,seráme,me será,,2
+pronombre enclítico,avergonzóse,se avergonzó,,2
+pronombre enclítico,afirmóme,me afirmó,,2
+pronombre enclítico,levantóme,me levantó,,2
+pronombre enclítico,díte,te di,,2
+pronombre enclítico,secáronse,se secaron,,2
+pronombre enclítico,díles,les di,,2
+pronombre enclítico,seráles,les será,,2
+pronombre enclítico,tornaréla,la tornaré,,2
+pronombre enclítico,engrandecióse,se engrandeció,,2
+pronombre enclítico,descubrióse,se descubrió,,2
+pronombre enclítico,hundiráse,se hundirá,,2
+pronombre enclítico,decíales,les decía,,2
+pronombre enclítico,dínos,nos di,,2
+pronombre enclítico,volviéronle,le volvieron,,2
+pronombre enclítico,volvióles,les volvió,,2
+pronombre enclítico,viéronle,le vieron,,2
+pronombre enclítico,llenáronse,se llenaron,,2
+pronombre enclítico,ensañóse,se ensañó,,1
+pronombre enclítico,tomáronse,se tomaron,,1
+pronombre enclítico,denunciólo,lo denunció,,1
+pronombre enclítico,fuélos,los fue,,1
+pronombre enclítico,contóselo,se lo contó,,1
+pronombre enclítico,partiólas,las partió,,1
+pronombre enclítico,ojeábalas,las ojeaba,,1
+pronombre enclítico,dejóse,se dejó,,1
+pronombre enclítico,toméla,la tomé,,1
+pronombre enclítico,devolvióle,le devolvió,,1
+pronombre enclítico,entrególe,le entregó,,1
+pronombre enclítico,despidióla,la despidió,,1
+pronombre enclítico,ofrecióle,le ofreció,,1
+pronombre enclítico,hallábase,se hallaba,,1
+pronombre enclítico,juróle,le juró,,1
+pronombre enclítico,presentóle,le presentó,,1
+pronombre enclítico,púsele,le puse,,1
+pronombre enclítico,inclinéme,me incliné,,1
+pronombre enclítico,introdújola,la introdujo,,1
+pronombre enclítico,consolóse,se consoló,,1
+pronombre enclítico,aceptólo,lo aceptó,,1
+pronombre enclítico,alzóse,se alzó,,1
+pronombre enclítico,alzóla,la alzó,,1
+pronombre enclítico,juntábanse,se juntaban,,1
+pronombre enclítico,abrazólo,lo abrazó,,1
+pronombre enclítico,pareciéronle,le parecieron,,1
+pronombre enclítico,juzgóme,me juzgó,,1
+pronombre enclítico,oyóla,la oyó,,1
+pronombre enclítico,poníalos,los ponía,,1
+pronombre enclítico,diómelo,me lo dio,,1
+pronombre enclítico,alcanzóle,le alcanzó,,1
+pronombre enclítico,reprendióte,te reprendió,,1
+pronombre enclítico,saliéronle,le salieron,,1
+pronombre enclítico,entrególo,lo entregó,,1
+pronombre enclítico,pasólos,los pasó,,1
+pronombre enclítico,descoyuntóse,se descoyuntó,,1
+pronombre enclítico,abrazóle,le abrazó,,1
+pronombre enclítico,dirigióse,se dirigió,,1
+pronombre enclítico,aborrecíanle,le aborrecían,,1
+pronombre enclítico,llorólo,lo lloró,,1
+pronombre enclítico,quitóle,le quitó,,1
+pronombre enclítico,arrebozóse,se arrebozó,,1
+pronombre enclítico,comprólo,lo compró,,1
+pronombre enclítico,asiólo,lo asió,,1
+pronombre enclítico,parecíale,le parecía,,1
+pronombre enclítico,durmióse,se durmió,,1
+pronombre enclítico,conociólos,los conoció,,1
+pronombre enclítico,sobresaltóseles,se les sobresaltó,,1
+pronombre enclítico,reprimióse,se reprimió,,1
+pronombre enclítico,suministróles,les suministró,,1
+pronombre enclítico,diréle,le diré,,1
+pronombre enclítico,presentólos,los presentó,,1
+pronombre enclítico,presentólo,lo presentó,,1
+pronombre enclítico,aposesionáronse,se aposesionaron,,1
+pronombre enclítico,sepultéla,la sepulté,,1
+pronombre enclítico,causóle,le causó,,1
+pronombre enclítico,causáronle,le causaron,,1
+pronombre enclítico,asaeteáronle,le asaetearon,,1
+pronombre enclítico,aborreciéronle,le aborrecieron,,1
+pronombre enclítico,cumpliéronle,le cumplieron,,1
+pronombre enclítico,lloráronlo,lo lloraron,,1
+pronombre enclítico,embalsamáronlo,lo embalsamaron,,1
+pronombre enclítico,calafateóla,la calafateó,,1
+pronombre enclítico,criólo,lo crió,,1
+pronombre enclítico,escondiólo,lo escondió,,1
+pronombre enclítico,echáronlas,las echaron,,1
+pronombre enclítico,defendiólas,las defendió,,1
+pronombre enclítico,encontrólo,lo encontró,,1
+pronombre enclítico,arrojóla,la arrojó,,1
+pronombre enclítico,prestáronles,les prestaron,,1
+pronombre enclítico,alcanzáronlos,los alcanzaron,,1
+pronombre enclítico,trastornólos,los trastornó,,1
+pronombre enclítico,decíanles,les decían,,1
+pronombre enclítico,medíanlo,lo medían,,1
+pronombre enclítico,pudrióse,se pudrió,,1
+pronombre enclítico,recogíanlo,lo recogían,,1
+pronombre enclítico,derretíase,se derretía,,1
+pronombre enclítico,estése,se esté,,1
+pronombre enclítico,preguntáronse,se preguntaron,,1
+pronombre enclítico,traíanlo,lo traían,,1
+pronombre enclítico,harásles,les harás,,1
+pronombre enclítico,oiráse,se oirá,,1
+pronombre enclítico,formólo,lo formó,,1
+pronombre enclítico,enardeciósele,se le enardeció,,1
+pronombre enclítico,quebrólas,las quebró,,1
+pronombre enclítico,moliólo,lo molió,,1
+pronombre enclítico,diéronmelo,me lo dieron,,1
+pronombre enclítico,echélo,lo eché,,1
+pronombre enclítico,quitábase,se quitaba,,1
+pronombre enclítico,traíala,la traía,,1
+pronombre enclítico,uníanse,se unían,,1
+pronombre enclítico,traerála,la traerá,,1
+pronombre enclítico,lavólos,los lavó,,1
+pronombre enclítico,vistióle,le vistió,,1
+pronombre enclítico,ajustólo,lo ajustó,,1
+pronombre enclítico,santificólas,las santificó,,1
+pronombre enclítico,vistióles,les vistió,,1
+pronombre enclítico,ciñólos,los ciñó,,1
+pronombre enclítico,ajustóles,les ajustó,,1
+pronombre enclítico,meciólo,lo meció,,1
+pronombre enclítico,presentáronle,le presentaron,,1
+pronombre enclítico,meciólos,los meció,,1
+pronombre enclítico,sacáronlos,los sacaron,,1
+pronombre enclítico,ceñiráse,se ceñirá,,1
+pronombre enclítico,meterálo,lo meterá,,1
+pronombre enclítico,cubrirála,la cubrirá,,1
+pronombre enclítico,cortaréla,la cortaré,,1
+pronombre enclítico,daráse,se dará,,1
+pronombre enclítico,echarálo,lo echará,,1
+pronombre enclítico,presentarála,la presentará,,1
+pronombre enclítico,expiarálo,lo expiará,,1
+pronombre enclítico,soterróse,se soterró,,1
+pronombre enclítico,derramábase,se derramaba,,1
+pronombre enclítico,engendrélo,lo engendré,,1
+pronombre enclítico,dejólas,las dejó,,1
+pronombre enclítico,recogiéronse,se recogieron,,1
+pronombre enclítico,quejáronse,se quejaron,,1
+pronombre enclítico,hiriéronlos,los hirieron,,1
+pronombre enclítico,derrotáronlos,los derrotaron,,1
+pronombre enclítico,rompióse,se rompió,,1
+pronombre enclítico,tragólos,los tragó,,1
+pronombre enclítico,extendiéronlos,los extendieron,,1
+pronombre enclítico,consumirélos,los consumiré,,1
+pronombre enclítico,echáronse,se echaron,,1
+pronombre enclítico,caváronlo,lo cavaron,,1
+pronombre enclítico,verélo,lo veré,,1
+pronombre enclítico,alanceólos,los alanceó,,1
+pronombre enclítico,confirmólas,las confirmó,,1
+pronombre enclítico,parecióles,les pareció,,1
+pronombre enclítico,diéronnos,nos dieron,,1
+pronombre enclítico,sacóte,te sacó,,1
+pronombre enclítico,mandónos,nos mandó,,1
+pronombre enclítico,hízote,te hizo,,1
+pronombre enclítico,arrojélas,las arrojé,,1
+pronombre enclítico,quebrélas,las quebré,,1
+pronombre enclítico,quemélo,lo quemé,,1
+pronombre enclítico,diómelas,me las dio,,1
+pronombre enclítico,tragóse,se tragó,,1
+pronombre enclítico,saldráse,se saldrá,,1
+pronombre enclítico,despedirála,la despedirá,,1
+pronombre enclítico,escupirále,le escupirá,,1
+pronombre enclítico,trájonos,nos trajo,,1
+pronombre enclítico,diónos,nos dio,,1
+pronombre enclítico,asentaráse,se asentará,,1
+pronombre enclítico,apartarálo,lo apartará,,1
+pronombre enclítico,enseñólo,lo enseñó,,1
+pronombre enclítico,instruyólo,lo instruyó,,1
+pronombre enclítico,cubrístete,te cubriste,,1
+pronombre enclítico,despertáronle,le despertaron,,1
+pronombre enclítico,ensañáronle,le ensañaron,,1
+pronombre enclítico,echaríalos,los echaría,,1
+pronombre enclítico,cubrirálo,lo cubrirá,,1
+pronombre enclítico,mostróle,le mostró,,1
+pronombre enclítico,enterrólo,lo enterró,,1
+pronombre enclítico,habíalos,los había,,1
+pronombre enclítico,pasáronlas,las pasaron,,1
+pronombre enclítico,temiéronle,le temieron,,1
+pronombre enclítico,allegaráse,se allegará,,1
+pronombre enclítico,redújola,la redujo,,1
+pronombre enclítico,fingiéronse,se fingieron,,1
+pronombre enclítico,constituyólos,los constituyó,,1
+pronombre enclítico,entrególa,la entregó,,1
+pronombre enclítico,sacóse,se sacó,,1
+pronombre enclítico,presentaráse,se presentará,,1
+pronombre enclítico,trájelo,lo traje,,1
+pronombre enclítico,díle,le di,,1
+pronombre enclítico,tábanos,os taban,,1
+pronombre enclítico,siguiéronle,le siguieron,,1
+pronombre enclítico,prendiéronle,le prendieron,,1
+pronombre enclítico,asoláronla,la asolaron,,1
+pronombre enclítico,hiriéronla,la hirieron,,1
+pronombre enclítico,fuéronle,le fueron,,1
+pronombre enclítico,librábalos,los libraba,,1
+pronombre enclítico,ciñósele,se le ciñó,,1
+pronombre enclítico,metióselo,se lo metió,,1
+pronombre enclítico,salvóse,se salvó,,1
+pronombre enclítico,enclavólo,lo enclavó,,1
+pronombre enclítico,apartábanse,se apartaban,,1
+pronombre enclítico,mantúvose,se mantuvo,,1
+pronombre enclítico,barriólos,los barrió,,1
+pronombre enclítico,despalmáronse,se despalmaron,,1
+pronombre enclítico,díjeos,os dije,,1
+pronombre enclítico,presentóselo,se lo presentó,,1
+pronombre enclítico,decíanse,se decían,,1
+pronombre enclítico,reconviniéronlo,lo reconvinieron,,1
+pronombre enclítico,persiguiólo,lo persiguió,,1
+pronombre enclítico,repartióla,la repartió,,1
+pronombre enclítico,sembróla,la sembró,,1
+pronombre enclítico,púsosela,se la puso,,1
+pronombre enclítico,quebróle,le quebró,,1
+pronombre enclítico,venciólos,los venció,,1
+pronombre enclítico,noticiólo,lo notició,,1
+pronombre enclítico,declarólo,lo declaró,,1
+pronombre enclítico,despedazólo,lo despedazó,,1
+pronombre enclítico,tendiéronse,se tendieron,,1
+pronombre enclítico,reanimóse,se reanimó,,1
+pronombre enclítico,echóselas,se las echó,,1
+pronombre enclítico,descubrióle,le descubrió,,1
+pronombre enclítico,rapóle,le rapó,,1
+pronombre enclítico,detúvole,le detuvo,,1
+pronombre enclítico,detuviéronse,se detuvieron,,1
+pronombre enclítico,sacósela,se la sacó,,1
+pronombre enclítico,dejáronla,la dejaron,,1
+pronombre enclítico,reunióse,se reunió,,1
+pronombre enclítico,cortéla,la corté,,1
+pronombre enclítico,enviélas,las envié,,1
+pronombre enclítico,mandáronles,les mandaron,,1
+pronombre enclítico,trajéronlas,las trajeron,,1
+pronombre enclítico,llamáronlos,los llamaron,,1
+pronombre enclítico,besólas,las besó,,1
+pronombre enclítico,dióselo,se lo dio,,1
+pronombre enclítico,retiróse,se retiró,,1
+pronombre enclítico,púsoselas,se las puso,,1
+pronombre enclítico,hacíale,le hacía,,1
+pronombre enclítico,traíasela,se la traía,,1
+pronombre enclítico,quebrósele,se le quebró,,1
+pronombre enclítico,volviéronlo,lo volvieron,,1
+pronombre enclítico,unciéronlas,las uncieron,,1
+pronombre enclítico,holgáronse,se holgaron,,1
+pronombre enclítico,derramáronla,la derramaron,,1
+pronombre enclítico,refiriólas,las refirió,,1
+pronombre enclítico,adelantóse,se adelantó,,1
+pronombre enclítico,declarónos,nos declaró,,1
+pronombre enclítico,tuviéronle,le tuvieron,,1
+pronombre enclítico,oyéronlo,lo oyeron,,1
+pronombre enclítico,esforcéme,me esforcé,,1
+pronombre enclítico,mostráronse,se mostraron,,1
+pronombre enclítico,alborotóse,se alborotó,,1
+pronombre enclítico,mojóla,la mojó,,1
+pronombre enclítico,matáronlos,los mataron,,1
+pronombre enclítico,juntábale,le juntaba,,1
+pronombre enclítico,apesadumbróse,se apesadumbró,,1
+pronombre enclítico,envióte,te envió,,1
+pronombre enclítico,desgarróse,se desgarró,,1
+pronombre enclítico,introdújolo,lo introdujo,,1
+pronombre enclítico,atormentábale,le atormentaba,,1
+pronombre enclítico,conturbáronse,se conturbaron,,1
+pronombre enclítico,heríalo,lo hería,,1
+pronombre enclítico,librábale,le libraba,,1
+pronombre enclítico,armóle,le armó,,1
+pronombre enclítico,tirósela,se la tiró,,1
+pronombre enclítico,cortóle,le cortó,,1
+pronombre enclítico,mostrábase,se mostraba,,1
+pronombre enclítico,temíase,se temía,,1
+pronombre enclítico,entregáronlos,los entregaron,,1
+pronombre enclítico,temióse,se temió,,1
+pronombre enclítico,acomodóle,le acomodó,,1
+pronombre enclítico,rogóme,me rogó,,1
+pronombre enclítico,habrále,le habrá,,1
+pronombre enclítico,sorprendióse,se sorprendió,,1
+pronombre enclítico,fingióse,se fingió,,1
+pronombre enclítico,buscábalo,lo buscaba,,1
+pronombre enclítico,cargólo,lo cargó,,1
+pronombre enclítico,refirióle,le refirió,,1
+pronombre enclítico,montóse,se montó,,1
+pronombre enclítico,herirélo,lo heriré,,1
+pronombre enclítico,llevábase,se llevaba,,1
+pronombre enclítico,habíanle,le habían,,1
+pronombre enclítico,amasóla,la amasó,,1
+pronombre enclítico,podréla,la podré,,1
+pronombre enclítico,saludóles,les saludó,,1
+pronombre enclítico,desnudáronle,le desnudaron,,1
+pronombre enclítico,quemáronlos,los quemaron,,1
+pronombre enclítico,sepultáronlos,los sepultaron,,1
+pronombre enclítico,vióme,me vio,,1
+pronombre enclítico,llamóme,me llamó,,1
+pronombre enclítico,púseme,me puse,,1
+pronombre enclítico,matélo,lo maté,,1
+pronombre enclítico,encontráronlos,los encontraron,,1
+pronombre enclítico,amanecióles,les amaneció,,1
+pronombre enclítico,quitóla,la quitó,,1
+pronombre enclítico,súpolo,lo supo,,1
+pronombre enclítico,escapáronse,se escaparon,,1
+pronombre enclítico,cortáronles,les cortaron,,1
+pronombre enclítico,colgáronlos,los colgaron,,1
+pronombre enclítico,enterráronla,la enterraron,,1
+pronombre enclítico,lleváronla,la llevaron,,1
+pronombre enclítico,menosprecióle,le menospreció,,1
+pronombre enclítico,midiólos,los midió,,1
+pronombre enclítico,rapóles,les rapó,,1
+pronombre enclítico,sirviéronle,le sirvieron,,1
+pronombre enclítico,paseábase,se paseaba,,1
+pronombre enclítico,purificóse,se purificó,,1
+pronombre enclítico,recogióla,la recogió,,1
+pronombre enclítico,parióle,le parió,,1
+pronombre enclítico,teníala,la tenía,,1
+pronombre enclítico,aderezóla,la aderezó,,1
+pronombre enclítico,ungióse,se ungió,,1
+pronombre enclítico,aderezólas,las aderezó,,1
+pronombre enclítico,sacólas,las sacó,,1
+pronombre enclítico,llevólas,las llevó,,1
+pronombre enclítico,aborrecióla,la aborreció,,1
+pronombre enclítico,hízoselo,se lo hizo,,1
+pronombre enclítico,decíale,le decía,,1
+pronombre enclítico,noticiáronlo,lo noticiaron,,1
+pronombre enclítico,extendióla,la extendió,,1
+pronombre enclítico,ahorcóse,se ahorcó,,1
+pronombre enclítico,asiósele,se le asió,,1
+pronombre enclítico,hincólos,los hincó,,1
+pronombre enclítico,acabáronle,le acabaron,,1
+pronombre enclítico,detúvose,se detuvo,,1
+pronombre enclítico,estábale,le estaba,,1
+pronombre enclítico,cayóse,se cayó,,1
+pronombre enclítico,siguiéronlo,lo siguieron,,1
+pronombre enclítico,echáronla,la echaron,,1
+pronombre enclítico,esparciéronse,se esparcieron,,1
+pronombre enclítico,tendióselo,se lo tendió,,1
+pronombre enclítico,consumiólos,los consumió,,1
+pronombre enclítico,guardéme,me guardé,,1
+pronombre enclítico,hollarélos,los hollaré,,1
+pronombre enclítico,quedósele,se le quedó,,1
+pronombre enclítico,defendióla,la defendió,,1
+pronombre enclítico,punzóle,le punzó,,1
+pronombre enclítico,intimóle,le intimó,,1
+pronombre enclítico,cubríanle,le cubrían,,1
+pronombre enclítico,asióse,se asió,,1
+pronombre enclítico,díjose,se dijo,,1
+pronombre enclítico,observéle,le observé,,1
+pronombre enclítico,fabricáronla,la fabricaron,,1
+pronombre enclítico,subíase,se subía,,1
+pronombre enclítico,fabricóse,se fabricó,,1
+pronombre enclítico,edificóla,la edificó,,1
+pronombre enclítico,ceñíalo,lo ceñía,,1
+pronombre enclítico,dijístelo,lo dijiste,,1
+pronombre enclítico,propúsole,le propuso,,1
+pronombre enclítico,romperélo,lo romperé,,1
+pronombre enclítico,despertóle,le despertó,,1
+pronombre enclítico,encomendóle,le encomendó,,1
+pronombre enclítico,rompióla,la rompió,,1
+pronombre enclítico,darélo,lo daré,,1
+pronombre enclítico,apedreóle,le apedreó,,1
+pronombre enclítico,hallóle,le halló,,1
+pronombre enclítico,mintióle,le mintió,,1
+pronombre enclítico,dijéronlo,lo dijeron,,1
+pronombre enclítico,llevóselo,se lo llevó,,1
+pronombre enclítico,endecháronle,le endecharon,,1
+pronombre enclítico,endechólo,lo endechó,,1
+pronombre enclítico,enojáronle,le enojaron,,1
+pronombre enclítico,saqueólo,lo saqueó,,1
+pronombre enclítico,poníanlos,los ponían,,1
+pronombre enclítico,midióse,se midió,,1
+pronombre enclítico,topóse,se topó,,1
+pronombre enclítico,aprestáronlo,lo aprestaron,,1
+pronombre enclítico,sajábanse,se sajaban,,1
+pronombre enclítico,tocóle,le tocó,,1
+pronombre enclítico,escondíase,se escondía,,1
+pronombre enclítico,dejóle,le dejó,,1
+pronombre enclítico,trájome,me trajo,,1
+pronombre enclítico,sellólas,las selló,,1
+pronombre enclítico,sacáronlo,lo sacaron,,1
+pronombre enclítico,doblólo,lo dobló,,1
+pronombre enclítico,trajéronsela,se la trajeron,,1
+pronombre enclítico,viólos,los vio,,1
+pronombre enclítico,maldíjolos,los maldijo,,1
+pronombre enclítico,sacrificóle,le sacrificó,,1
+pronombre enclítico,retiráronse,se retiraron,,1
+pronombre enclítico,murióse,se murió,,1
+pronombre enclítico,calentóse,se calentó,,1
+pronombre enclítico,paseóse,se paseó,,1
+pronombre enclítico,tendióse,se tendió,,1
+pronombre enclítico,cortólas,las cortó,,1
+pronombre enclítico,sobróles,les sobró,,1
+pronombre enclítico,habláronle,le hablaron,,1
+pronombre enclítico,zambullóse,se zambulló,,1
+pronombre enclítico,cayósele,se le cayó,,1
+pronombre enclítico,guardóse,se guardó,,1
+pronombre enclítico,herirélos,los heriré,,1
+pronombre enclítico,escondiéronlo,lo escondieron,,1
+pronombre enclítico,declaráronles,les declararon,,1
+pronombre enclítico,atropellóle,le atropelló,,1
+pronombre enclítico,saliólo,lo salió,,1
+pronombre enclítico,metiólo,lo metió,,1
+pronombre enclítico,tendiólo,lo tendió,,1
+pronombre enclítico,sustrájose,se sustrajo,,1
+pronombre enclítico,siguiólo,lo siguió,,1
+pronombre enclítico,asomóse,se asomó,,1
+pronombre enclítico,enviáronselas,se las enviaron,,1
+pronombre enclítico,degolláronlos,los degollaron,,1
+pronombre enclítico,quemáronlas,las quemaron,,1
+pronombre enclítico,hiciéronla,la hicieron,,1
+pronombre enclítico,ocultólo,lo ocultó,,1
+pronombre enclítico,guardábanlo,lo guardaban,,1
+pronombre enclítico,hirióla,la hirió,,1
+pronombre enclítico,atendióle,le atendió,,1
+pronombre enclítico,mudólos,los mudó,,1
+pronombre enclítico,pagábale,le pagaba,,1
+pronombre enclítico,entregáronse,se entregaron,,1
+pronombre enclítico,quitólos,los quitó,,1
+pronombre enclítico,afligiólos,los afligió,,1
+pronombre enclítico,entrarále,le entrará,,1
+pronombre enclítico,recitáronle,le recitaron,,1
+pronombre enclítico,libráronlas,las libraron,,1
+pronombre enclítico,extendiólas,las extendió,,1
+pronombre enclítico,huyéronse,se huyeron,,1
+pronombre enclítico,tornólo,lo tornó,,1
+pronombre enclítico,quitólas,las quitó,,1
+pronombre enclítico,ungiéronle,le ungieron,,1
+pronombre enclítico,prendiólo,lo prendió,,1
+pronombre enclítico,destruyéronlos,los destruyeron,,1
+pronombre enclítico,matóse,se mató,,1
+pronombre enclítico,enviáronlo,lo enviaron,,1
+pronombre enclítico,favoreciólos,los favoreció,,1
+pronombre enclítico,tendióle,le tendió,,1
+pronombre enclítico,menospreciólo,lo menospreció,,1
+pronombre enclítico,asentáronla,la asentaron,,1
+pronombre enclítico,tomóles,les tomó,,1
+pronombre enclítico,rapólos,los rapó,,1
+pronombre enclítico,destruyóla,la destruyó,,1
+pronombre enclítico,escribiólos,los escribió,,1
+pronombre enclítico,agradóse,se agradó,,1
+pronombre enclítico,diólas,las dio,,1
+pronombre enclítico,ungiéronlo,lo ungieron,,1
+pronombre enclítico,obedecióle,le obedeció,,1
+pronombre enclítico,fundiólos,los fundió,,1
+pronombre enclítico,traíanlos,los traían,,1
+pronombre enclítico,animóse,se animó,,1
+pronombre enclítico,ayudólo,lo ayudó,,1
+pronombre enclítico,apartólos,los apartó,,1
+pronombre enclítico,reducíalos,los reducía,,1
+pronombre enclítico,matáronse,se mataron,,1
+pronombre enclítico,arrebatólo,lo arrebató,,1
+pronombre enclítico,guardóle,le guardó,,1
+pronombre enclítico,vaciábanla,la vaciaban,,1
+pronombre enclítico,volvíanla,la volvían,,1
+pronombre enclítico,cubriéronle,le cubrieron,,1
+pronombre enclítico,derramáronse,se derramaron,,1
+pronombre enclítico,púsoselos,se los puso,,1
+pronombre enclítico,quemóles,les quemó,,1
+pronombre enclítico,divulgóse,se divulgó,,1
+pronombre enclítico,aprestóles,les aprestó,,1
+pronombre enclítico,miróle,le miró,,1
+pronombre enclítico,vistiéronlos,los vistieron,,1
+pronombre enclítico,calzáronlos,los calzaron,,1
+pronombre enclítico,ungiéronlos,los ungieron,,1
+pronombre enclítico,lleváronlos,los llevaron,,1
+pronombre enclítico,quebrólos,los quebró,,1
+pronombre enclítico,santificáronse,se santificaron,,1
+pronombre enclítico,esparciéronla,la esparcieron,,1
+pronombre enclítico,preparáronlas,las prepararon,,1
+pronombre enclítico,alentóse,se alentó,,1
+pronombre enclítico,afirmóse,se afirmó,,1
+pronombre enclítico,preservólos,los preservó,,1
+pronombre enclítico,encaminólas,las encaminó,,1
+pronombre enclítico,volviólo,lo volvió,,1
+pronombre enclítico,desmenuzólas,las desmenuzó,,1
+pronombre enclítico,confirmólos,los confirmó,,1
+pronombre enclítico,hiciéronles,les hicieron,,1
+pronombre enclítico,enviáronle,le enviaron,,1
+pronombre enclítico,respondiéronnos,nos respondieron,,1
+pronombre enclítico,concedióle,le concedió,,1
+pronombre enclítico,daráslo,lo darás,,1
+pronombre enclítico,enviélos,los envié,,1
+pronombre enclítico,trajéronnos,nos trajeron,,1
+pronombre enclítico,peséles,les pesé,,1
+pronombre enclítico,dijéronme,me dijeron,,1
+pronombre enclítico,enlutéme,me enluté,,1
+pronombre enclítico,dílo,lo di,,1
+pronombre enclítico,otorgóme,me otorgó,,1
+pronombre enclítico,disgustóles,les disgustó,,1
+pronombre enclítico,aparejáronla,la aparejaron,,1
+pronombre enclítico,encolerizóse,se encolerizó,,1
+pronombre enclítico,encolerizáronse,se encolerizaron,,1
+pronombre enclítico,enviéles,les envié,,1
+pronombre enclítico,debilitaránse,se debilitarán,,1
+pronombre enclítico,abatiéronse,se abatieron,,1
+pronombre enclítico,referíanle,le referían,,1
+pronombre enclítico,humilláronse,se humillaron,,1
+pronombre enclítico,dijísteles,les dijiste,,1
+pronombre enclítico,metístelos,los metiste,,1
+pronombre enclítico,engrosáronse,se engrosaron,,1
+pronombre enclítico,deleitáronse,se deleitaron,,1
+pronombre enclítico,adhiriéronse,se adhirieron,,1
+pronombre enclítico,dolióme,me dolió,,1
+pronombre enclítico,protestéles,les protesté,,1
+pronombre enclítico,maldíjelos,los maldije,,1
+pronombre enclítico,arranquéles,les arranqué,,1
+pronombre enclítico,ahuyentélo,lo ahuyenté,,1
+pronombre enclítico,limpiélos,los limpié,,1
+pronombre enclítico,pasóla,la pasó,,1
+pronombre enclítico,enojáronse,se enojaron,,1
+pronombre enclítico,ensalzólo,lo ensalzó,,1
+pronombre enclítico,denunciáronlo,lo denunciaron,,1
+pronombre enclítico,mandólo,lo mandó,,1
+pronombre enclítico,refrenóse,se refrenó,,1
+pronombre enclítico,leyéronlas,las leyeron,,1
+pronombre enclítico,pondráse,se pondrá,,1
+pronombre enclítico,apaciguóse,se apaciguó,,1
+pronombre enclítico,santificábalos,los santificaba,,1
+pronombre enclítico,vínome,me vino,,1
+pronombre enclítico,sobrevínome,me sobrevino,,1
+pronombre enclítico,sacaránla,la sacarán,,1
+pronombre enclítico,quejaréme,me quejaré,,1
+pronombre enclítico,apoyaráse,se apoyará,,1
+pronombre enclítico,atendráse,se atendrá,,1
+pronombre enclítico,negarále,le negará,,1
+pronombre enclítico,esforzaréme,me esforzaré,,1
+pronombre enclítico,vestísteme,me vestiste,,1
+pronombre enclítico,agotóse,se agotó,,1
+pronombre enclítico,enviaráslo,lo enviarás,,1
+pronombre enclítico,esforzaránse,se esforzarán,,1
+pronombre enclítico,despedazóme,me despedazó,,1
+pronombre enclítico,quebrantóme,me quebrantó,,1
+pronombre enclítico,precipitarálo,lo precipitará,,1
+pronombre enclítico,afirmaráse,se afirmará,,1
+pronombre enclítico,haránle,le harán,,1
+pronombre enclítico,arruinóme,me arruinó,,1
+pronombre enclítico,contóme,me contó,,1
+pronombre enclítico,disiparáse,se disipará,,1
+pronombre enclítico,vomitarálas,las vomitará,,1
+pronombre enclítico,matarálo,lo matará,,1
+pronombre enclítico,castigaráte,te castigará,,1
+pronombre enclítico,habíales,les había,,1
+pronombre enclítico,probaráme,me probará,,1
+pronombre enclítico,temerélo,lo temeré,,1
+pronombre enclítico,habrála,la habrá,,1
+pronombre enclítico,preparóla,la preparó,,1
+pronombre enclítico,descubrióla,la descubrió,,1
+pronombre enclítico,vestíame,me vestía,,1
+pronombre enclítico,oíanme,me oían,,1
+pronombre enclítico,esperábanme,me esperaban,,1
+pronombre enclítico,sentábame,me sentaba,,1
+pronombre enclítico,aprovecháronse,se aprovecharon,,1
+pronombre enclítico,revolviéronse,se revolvieron,,1
+pronombre enclítico,derribóme,me derribó,,1
+pronombre enclítico,lanzólo,lo lanzó,,1
+pronombre enclítico,fuéronseles,se les fueron,,1
+pronombre enclítico,enterneceráse,se enternecerá,,1
+pronombre enclítico,enseñorearáse,se enseñoreará,,1
+pronombre enclítico,estaráse,se estará,,1
+pronombre enclítico,congélase,la se congé,,1
+pronombre enclítico,diránte,te dirán,,1
+pronombre enclítico,echaráse,se echará,,1
+pronombre enclítico,tomarálo,lo tomará,,1
+pronombre enclítico,hablaráte,te hablará,,1
+pronombre enclítico,partiránlo,lo partirán,,1
+pronombre enclítico,condoliéronse,se condolieron,,1
+pronombre enclítico,consoláronle,le consolaron,,1
+pronombre enclítico,turbarálos,los turbará,,1
+pronombre enclítico,hicístelo,lo hiciste,,1
+pronombre enclítico,multiplicaránse,se multiplicarán,,1
+pronombre enclítico,previniéronme,me previnieron,,1
+pronombre enclítico,descubriéronse,se descubrieron,,1
+pronombre enclítico,cauteléme,me cautelé,,1
+pronombre enclítico,pagóme,me pagó,,1
+pronombre enclítico,alcancélos,los alcancé,,1
+pronombre enclítico,pusísteme,me pusiste,,1
+pronombre enclítico,dístele,le diste,,1
+pronombre enclítico,postraránse,se postrarán,,1
+pronombre enclítico,guiaráme,me guiará,,1
+pronombre enclítico,afirmóla,la afirmó,,1
+pronombre enclítico,ocultaráme,me ocultará,,1
+pronombre enclítico,pondráme,me pondrá,,1
+pronombre enclítico,derribarálos,los derribará,,1
+pronombre enclítico,envejeciéronse,se envejecieron,,1
+pronombre enclítico,demandáronme,me demandaron,,1
+pronombre enclítico,despedazábanme,me despedazaban,,1
+pronombre enclítico,libertarálos,los libertará,,1
+pronombre enclítico,pudriéronse,se pudrieron,,1
+pronombre enclítico,congojaréme,me congojaré,,1
+pronombre enclítico,calléme,me callé,,1
+pronombre enclítico,excitóse,se excitó,,1
+pronombre enclítico,alabaréte,te alabaré,,1
+pronombre enclítico,esparcístenos,nos esparciste,,1
+pronombre enclítico,derritióse,se derritió,,1
+pronombre enclítico,afirmarála,la afirmará,,1
+pronombre enclítico,reiránse,se reirán,,1
+pronombre enclítico,apresuraríame,me apresuraría,,1
+pronombre enclítico,enajenáronse,se enajenaron,,1
+pronombre enclítico,descarriáronse,se descarriaron,,1
+pronombre enclítico,abrístela,la abriste,,1
+pronombre enclítico,hicístenos,nos hiciste,,1
+pronombre enclítico,destruiránlos,los destruirán,,1
+pronombre enclítico,confiaráse,se confiará,,1
+pronombre enclítico,emblanquecióse,se emblanqueció,,1
+pronombre enclítico,ensalzarélo,lo ensalzaré,,1
+pronombre enclítico,veránlo,lo verán,,1
+pronombre enclítico,darásele,se le dará,,1
+pronombre enclítico,oraráse,se orará,,1
+pronombre enclítico,perpetuaráse,se perpetuará,,1
+pronombre enclítico,soltáronse,se soltaron,,1
+pronombre enclítico,acabáronse,se acabaron,,1
+pronombre enclítico,desazonóse,se desazonó,,1
+pronombre enclítico,dístelo,lo diste,,1
+pronombre enclítico,arruinábase,se arruinaba,,1
+pronombre enclítico,quejábame,me quejaba,,1
+pronombre enclítico,indignóse,se indignó,,1
+pronombre enclítico,cumplióles,les cumplió,,1
+pronombre enclítico,acordábanse,se acordaban,,1
+pronombre enclítico,repartióles,les repartió,,1
+pronombre enclítico,enojáronlo,lo enojaron,,1
+pronombre enclítico,provocáronlo,lo provocaron,,1
+pronombre enclítico,apacentólos,los apacentó,,1
+pronombre enclítico,pastoreólos,los pastoreó,,1
+pronombre enclítico,estropeóla,la estropeó,,1
+pronombre enclítico,pacióla,la pació,,1
+pronombre enclítico,dejélos,los dejé,,1
+pronombre enclítico,fortificarála,la fortificará,,1
+pronombre enclítico,menoscabáronle,le menoscabaron,,1
+pronombre enclítico,saciarélo,lo saciaré,,1
+pronombre enclítico,juntaráse,se juntará,,1
+pronombre enclítico,probáronme,me probaron,,1
+pronombre enclítico,conmoveráse,se conmoverá,,1
+pronombre enclítico,pusísteles,les pusiste,,1
+pronombre enclítico,críanse,se crían,,1
+pronombre enclítico,establecióla,la estableció,,1
+pronombre enclítico,soltóle,le soltó,,1
+pronombre enclítico,desatóle,le desató,,1
+pronombre enclítico,saciólos,los sació,,1
+pronombre enclítico,secólo,lo secó,,1
+pronombre enclítico,rescatólos,los rescató,,1
+pronombre enclítico,abrióse,se abrió,,1
+pronombre enclítico,encorváronse,se encorvaron,,1
+pronombre enclítico,allegáronse,se allegaron,,1
+pronombre enclítico,desarrollóse,se desarrolló,,1
+pronombre enclítico,contamináronse,se contaminaron,,1
+pronombre enclítico,enseñoreáronse,se enseñorearon,,1
+pronombre enclítico,acordábase,se acordaba,,1
+pronombre enclítico,arrepentíase,se arrepentía,,1
+pronombre enclítico,dirigiólos,los dirigió,,1
+pronombre enclítico,curólos,los curó,,1
+pronombre enclítico,mirábanme,me miraban,,1
+pronombre enclítico,serálo,lo será,,1
+pronombre enclítico,verálo,lo verá,,1
+pronombre enclítico,rodeáronme,me rodearon,,1
+pronombre enclítico,asediáronme,me asediaron,,1
+pronombre enclítico,ayudóme,me ayudó,,1
+pronombre enclítico,castigóme,me castigó,,1
+pronombre enclítico,recrearéme,me recrearé,,1
+pronombre enclítico,guardarélo,lo guardaré,,1
+pronombre enclítico,consoléme,me consolé,,1
+pronombre enclítico,apresuréme,me apresuré,,1
+pronombre enclítico,engrasóse,se engrasó,,1
+pronombre enclítico,anticipéme,me anticipé,,1
+pronombre enclítico,acercáronse,se acercaron,,1
+pronombre enclítico,alejáronse,se alejaron,,1
+pronombre enclítico,carcomíame,me carcomía,,1
+pronombre enclítico,quebróse,se quebró,,1
+pronombre enclítico,deseóla,la deseó,,1
+pronombre enclítico,encorvaréme,me encorvaré,,1
+pronombre enclítico,salvaráme,me salvará,,1
+pronombre enclítico,rindiólo,lo rindió,,1
+pronombre enclítico,obligóle,le obligó,,1
+pronombre enclítico,vendrále,le vendrá,,1
+pronombre enclítico,disminuiránse,se disminuirán,,1
+pronombre enclítico,consumiráse,se consumirá,,1
+pronombre enclítico,azotáronme,me azotaron,,1
+pronombre enclítico,segaránse,se segarán,,1
+pronombre enclítico,esconderáse,se esconderá,,1
+pronombre enclítico,compróla,la compró,,1
+pronombre enclítico,edifiquéme,me edifiqué,,1
+pronombre enclítico,plantéme,me planté,,1
+pronombre enclítico,alleguéme,me allegué,,1
+pronombre enclítico,mudaráse,se mudará,,1
+pronombre enclítico,morderále,le morderá,,1
+pronombre enclítico,perderáse,se perderá,,1
+pronombre enclítico,iréme,me iré,,1
+pronombre enclítico,llamélo,lo llamé,,1
+pronombre enclítico,llagáronme,me llagaron,,1
+pronombre enclítico,quitáronme,me quitaron,,1
+pronombre enclítico,vengaréme,me vengaré,,1
+pronombre enclítico,meteránse,se meterán,,1
+pronombre enclítico,pondréles,les pondré,,1
+pronombre enclítico,habíala,la había,,1
+pronombre enclítico,estremeciósele,se le estremeció,,1
+pronombre enclítico,juntéme,me junté,,1
+pronombre enclítico,enredaránse,se enredarán,,1
+pronombre enclítico,alegraránse,se alegrarán,,1
+pronombre enclítico,llamaráse,se llamará,,1
+pronombre enclítico,mandaréle,le mandaré,,1
+pronombre enclítico,gloriaráse,se gloriará,,1
+pronombre enclítico,herirálo,lo herirá,,1
+pronombre enclítico,aseguraréme,me aseguraré,,1
+pronombre enclítico,pasmaráse,se pasmará,,1
+pronombre enclítico,allegaránse,se allegarán,,1
+pronombre enclítico,traeránlos,los traerán,,1
+pronombre enclítico,convertiréla,la convertiré,,1
+pronombre enclítico,ceñiránse,se ceñirán,,1
+pronombre enclítico,lamentaráse,se lamentará,,1
+pronombre enclítico,marchitaránse,se marchitarán,,1
+pronombre enclítico,llevaránlas,las llevarán,,1
+pronombre enclítico,dispondráse,se dispondrá,,1
+pronombre enclítico,enflaqueceráse,se enflaquecerá,,1
+pronombre enclítico,reposaréme,me reposaré,,1
+pronombre enclítico,alejaránse,se alejarán,,1
+pronombre enclítico,agobiéme,me agobié,,1
+pronombre enclítico,vestirélo,lo vestiré,,1
+pronombre enclítico,hincarélo,lo hincaré,,1
+pronombre enclítico,destruyóse,se destruyó,,1
+pronombre enclítico,desterróse,se desterró,,1
+pronombre enclítico,quebrantaráse,se quebrantará,,1
+pronombre enclítico,agravaráse,se agravará,,1
+pronombre enclítico,humillóla,la humilló,,1
+pronombre enclítico,derribóla,la derribó,,1
+pronombre enclítico,hollarála,la hollará,,1
+pronombre enclítico,guardaréla,la guardaré,,1
+pronombre enclítico,quemarélos,los quemaré,,1
+pronombre enclítico,quebrarálo,lo quebrará,,1
+pronombre enclítico,repartiráse,se repartirá,,1
+pronombre enclítico,destruirálas,las destruirá,,1
+pronombre enclítico,entregarálas,las entregará,,1
+pronombre enclítico,extenderáse,se extenderá,,1
+pronombre enclítico,reuniólos,los reunió,,1
+pronombre enclítico,entrarásele,se le entrará,,1
+pronombre enclítico,envióme,me envió,,1
+pronombre enclítico,leyólas,las leyó,,1
+pronombre enclítico,haréte,te haré,,1
+pronombre enclítico,cortaráme,me cortará,,1
+pronombre enclítico,manifestaráse,se manifestará,,1
+pronombre enclítico,afirmólo,lo afirmó,,1
+pronombre enclítico,esforzaráse,se esforzará,,1
+pronombre enclítico,encendióle,le encendió,,1
+pronombre enclítico,cortaráse,se cortará,,1
+pronombre enclítico,arrodillaráse,se arrodillará,,1
+pronombre enclítico,diráse,se dirá,,1
+pronombre enclítico,publiquélo,lo publiqué,,1
+pronombre enclítico,oístelo,lo oiste,,1
+pronombre enclítico,vístelo,lo viste,,1
+pronombre enclítico,guardóme,me guardó,,1
+pronombre enclítico,libertaráse,se libertará,,1
+pronombre enclítico,despertaráme,me despertará,,1
+pronombre enclítico,bendíjelo,lo bendije,,1
+pronombre enclítico,multipliquélo,lo multipliqué,,1
+pronombre enclítico,dispúsose,se dispuso,,1
+pronombre enclítico,apartaráme,me apartará,,1
+pronombre enclítico,ensañéme,me ensañé,,1
+pronombre enclítico,sanarélo,lo sanaré,,1
+pronombre enclítico,alejóse,se alejó,,1
+pronombre enclítico,salvólo,lo salvó,,1
+pronombre enclítico,afirmóle,le afirmó,,1
+pronombre enclítico,pisélos,los pisé,,1
+pronombre enclítico,hollélos,los hollé,,1
+pronombre enclítico,maravilléme,me maravillé,,1
+pronombre enclítico,sostúvome,me sostuvo,,1
+pronombre enclítico,embriaguélos,los embriagué,,1
+pronombre enclítico,gozaréme,me gozaré,,1
+pronombre enclítico,dejáronme,me dejaron,,1
+pronombre enclítico,hallaránla,la hallarán,,1
+pronombre enclítico,menospreciáronte,te menospreciaron,,1
+pronombre enclítico,consumístelos,los consumiste,,1
+pronombre enclítico,hablaréles,les hablaré,,1
+pronombre enclítico,destruirálos,los destruirá,,1
+pronombre enclítico,saciélos,los sacié,,1
+pronombre enclítico,derramaréla,la derramaré,,1
+pronombre enclítico,apoderóse,se apoderó,,1
+pronombre enclítico,provocaránme,me provocarán,,1
+pronombre enclítico,escogeráse,se escogerá,,1
+pronombre enclítico,cortarélos,los cortaré,,1
+pronombre enclítico,caeráse,se caerá,,1
+pronombre enclítico,vestiránlos,los vestirán,,1
+pronombre enclítico,vísteme,me viste,,1
+pronombre enclítico,púselo,lo puse,,1
+pronombre enclítico,henchiráse,se llenará,,1
+pronombre enclítico,oscureciéronse,se oscurecieron,,1
+pronombre enclítico,confundiéronse,se confundieron,,1
+pronombre enclítico,aventélos,los aventé,,1
+pronombre enclítico,enflaquecióse,se enflaqueció,,1
+pronombre enclítico,mostraréles,les mostraré,,1
+pronombre enclítico,herirálos,los herirá,,1
+pronombre enclítico,llevaránlos,los llevarán,,1
+pronombre enclítico,vencísteme,me venciste,,1
+pronombre enclítico,quemarála,la quemará,,1
+pronombre enclítico,fuéronme,me fueron,,1
+pronombre enclítico,ocultaráse,se ocultará,,1
+pronombre enclítico,contáronlos,los contaron,,1
+pronombre enclítico,plantarélos,los plantaré,,1
+pronombre enclítico,acabaráse,se acabará,,1
+pronombre enclítico,labrarála,la labrará,,1
+pronombre enclítico,restituirélos,los restituiré,,1
+pronombre enclítico,quebrólo,lo quebró,,1
+pronombre enclítico,perseguirélos,los perseguiré,,1
+pronombre enclítico,acercaráse,se acercará,,1
+pronombre enclítico,redimiólo,lo redimió,,1
+pronombre enclítico,avergoncéme,me avergoncé,,1
+pronombre enclítico,escribiréla,la escribiré,,1
+pronombre enclítico,peséle,le pesé,,1
+pronombre enclítico,selléla,la sellé,,1
+pronombre enclítico,encubriráseme,se me encubrirá,,1
+pronombre enclítico,edificarélos,los edificaré,,1
+pronombre enclítico,podráse,se podrá,,1
+pronombre enclítico,sujetáronlos,los sujetaron,,1
+pronombre enclítico,llamélos,los llamé,,1
+pronombre enclítico,rasgólo,lo rasgó,,1
+pronombre enclítico,salíase,se salía,,1
+pronombre enclítico,azotáronle,le azotaron,,1
+pronombre enclítico,hundióse,se hundió,,1
+pronombre enclítico,subiéronlo,lo subieron,,1
+pronombre enclítico,cercáronla,la cercaron,,1
+pronombre enclítico,sentencióle,le sentenció,,1
+pronombre enclítico,juróles,les juró,,1
+pronombre enclítico,dejólos,los dejó,,1
+pronombre enclítico,llenólo,lo llenó,,1
+pronombre enclítico,halláronlo,lo hallaron,,1
+pronombre enclítico,tornaránse,se tornarán,,1
+pronombre enclítico,arruinaráse,se arruinará,,1
+pronombre enclítico,avergonzaráse,se avergonzará,,1
+pronombre enclítico,confundióse,se confundió,,1
+pronombre enclítico,derritiéronse,se derritieron,,1
+pronombre enclítico,desmayóse,se desmayó,,1
+pronombre enclítico,esparcirélos,los esparciré,,1
+pronombre enclítico,afrentóse,se afrentó,,1
+pronombre enclítico,secaránse,se secarán,,1
+pronombre enclítico,despedazóse,se despedazó,,1
+pronombre enclítico,afligiráse,se afligirá,,1
+pronombre enclítico,encendiéronse,se encendieron,,1
+pronombre enclítico,quebráronse,se quebraron,,1
+pronombre enclítico,consternáronse,se consternaron,,1
+pronombre enclítico,comióme,me comió,,1
+pronombre enclítico,paróme,me paró,,1
+pronombre enclítico,tragóme,me tragó,,1
+pronombre enclítico,echóme,me echó,,1
+pronombre enclítico,esparcióse,se esparció,,1
+pronombre enclítico,volviéronsele,se le volvieron,,1
+pronombre enclítico,miráronla,la miraron,,1
+pronombre enclítico,ciñéronse,se ciñeron,,1
+pronombre enclítico,guióme,me guió,,1
+pronombre enclítico,asentóme,me asentó,,1
+pronombre enclítico,depedazóme,me depedazó,,1
+pronombre enclítico,hartóme,me hartó,,1
+pronombre enclítico,embriagóme,me embriagó,,1
+pronombre enclítico,quebróme,me quebró,,1
+pronombre enclítico,olvidéme,me olvidé,,1
+pronombre enclítico,tendrálo,lo tendrá,,1
+pronombre enclítico,aumentóse,se aumentó,,1
+pronombre enclítico,semejábase,se semejaba,,1
+pronombre enclítico,veíase,se veía,,1
+pronombre enclítico,púsela,la puse,,1
+pronombre enclítico,cubrirálos,los cubrirá,,1
+pronombre enclítico,encorvábanse,se encorvaban,,1
+pronombre enclítico,parábanse,se paraban,,1
+pronombre enclítico,alzábanse,se alzaban,,1
+pronombre enclítico,volvióme,me volvió,,1
+pronombre enclítico,llevélos,los llevé,,1
+pronombre enclítico,cumpliréla,la cumpliré,,1
+pronombre enclítico,echaréla,la echaré,,1
+pronombre enclítico,raeréle,le raeré,,1
+pronombre enclítico,salióte,te salió,,1
+pronombre enclítico,cubrístelas,las cubriste,,1
+pronombre enclítico,dístelos,los diste,,1
+pronombre enclítico,reunirélos,los reuniré,,1
+pronombre enclítico,descubriréles,les descubriré,,1
+pronombre enclítico,apartaráse,se apartará,,1
+pronombre enclítico,ensoberbeciéronse,se ensoberbecieron,,1
+pronombre enclítico,quitélas,las quité,,1
+pronombre enclítico,plantóla,la plantó,,1
+pronombre enclítico,metiéronlo,lo metieron,,1
+pronombre enclítico,consumiólas,las consumió,,1
+pronombre enclítico,saquélos,los saqué,,1
+pronombre enclítico,trájelos,los traje,,1
+pronombre enclítico,declaréles,les declaré,,1
+pronombre enclítico,contaminélos,los contaminé,,1
+pronombre enclítico,angustiaráse,se angustiará,,1
+pronombre enclítico,llamábanse,se llamaban,,1
+pronombre enclítico,llamáronse,se llamaron,,1
+pronombre enclítico,prendóse,se prendó,,1
+pronombre enclítico,contaminóse,se contaminó,,1
+pronombre enclítico,contamináronla,la contaminaron,,1
+pronombre enclítico,descubriráse,se descubrirá,,1
+pronombre enclítico,entrábanse,se entraban,,1
+pronombre enclítico,entregaréla,la entregaré,,1
+pronombre enclítico,sentaránse,se sentarán,,1
+pronombre enclítico,haránse,se harán,,1
+pronombre enclítico,inmutaránse,se inmutarán,,1
+pronombre enclítico,enaltecióse,se enalteció,,1
+pronombre enclítico,dejaréte,te dejaré,,1
+pronombre enclítico,pelóse,se peló,,1
+pronombre enclítico,encumbrólo,lo encumbró,,1
+pronombre enclítico,multiplicáronse,se multiplicaron,,1
+pronombre enclítico,iránse,se irán,,1
+pronombre enclítico,consolaráse,se consolará,,1
+pronombre enclítico,despertaréles,les despertaré,,1
+pronombre enclítico,vestiránse,se vestirán,,1
+pronombre enclítico,midiólo,lo midió,,1
+pronombre enclítico,alzóme,me alzó,,1
+pronombre enclítico,abriráse,se abrirá,,1
+pronombre enclítico,abriránle,le abrirán,,1
+pronombre enclítico,señalóles,les señaló,,1
+pronombre enclítico,perturbóse,se perturbó,,1
+pronombre enclítico,publicóse,se publicó,,1
+pronombre enclítico,levantólos,los levantó,,1
+pronombre enclítico,mezclaránse,se mezclarán,,1
+pronombre enclítico,humillóse,se humilló,,1
+pronombre enclítico,demudóse,se demudó,,1
+pronombre enclítico,hacíase,se hacía,,1
+pronombre enclítico,manteníase,se mantenía,,1
+pronombre enclítico,desatáronse,se desataron,,1
+pronombre enclítico,alteráronse,se alteraron,,1
+pronombre enclítico,hincábase,se hincaba,,1
+pronombre enclítico,lleguéme,me llegué,,1
+pronombre enclítico,declaróme,me declaró,,1
+pronombre enclítico,quitaránle,le quitarán,,1
+pronombre enclítico,engrandecíase,se engrandecía,,1
+pronombre enclítico,derribólo,lo derribó,,1
+pronombre enclítico,hollólo,lo holló,,1
+pronombre enclítico,sucedióle,le sucedió,,1
+pronombre enclítico,derramaráse,se derramará,,1
+pronombre enclítico,escondiéronse,se escondieron,,1
+pronombre enclítico,elevaráse,se elevará,,1
+pronombre enclítico,enojaráse,se enojará,,1
+pronombre enclítico,honrarálo,lo honrará,,1
+pronombre enclítico,multiplicaráse,se multiplicará,,1
+pronombre enclítico,salvarélos,los salvaré,,1
+pronombre enclítico,buscarálos,los buscará,,1
+pronombre enclítico,volveréme,me volveré,,1
+pronombre enclítico,reducirélas,las reduciré,,1
+pronombre enclítico,adornábase,se adornaba,,1
+pronombre enclítico,sembraréla,la sembraré,,1
+pronombre enclítico,compréla,la compré,,1
+pronombre enclítico,extenuaráse,se extenuará,,1
+pronombre enclítico,pagaréle,le pagaré,,1
+pronombre enclítico,apacentarálos,los apacentará,,1
+pronombre enclítico,atóla,la ató,,1
+pronombre enclítico,darános,nos dará,,1
+pronombre enclítico,castigarélos,los castigaré,,1
+pronombre enclítico,conocerálo,lo conocerá,,1
+pronombre enclítico,quitarélos,los quitaré,,1
+pronombre enclítico,echarélos,los echaré,,1
+pronombre enclítico,dividióse,se dividió,,1
+pronombre enclítico,consumirálas,las consumirá,,1
+pronombre enclítico,pagarále,le pagará,,1
+pronombre enclítico,ensoberbecióse,se ensoberbeció,,1
+pronombre enclítico,quitélo,lo quité,,1
+pronombre enclítico,librarélos,los libraré,,1
+pronombre enclítico,amarélos,los amaré,,1
+pronombre enclítico,pondránse,se pondrán,,1
+pronombre enclítico,echarélo,lo echaré,,1
+pronombre enclítico,alzaráse,se alzará,,1
+pronombre enclítico,tocaráse,se tocará,,1
+pronombre enclítico,trastornéos,os trastorné,,1
+pronombre enclítico,quemarále,le quemará,,1
+pronombre enclítico,morderálos,los morderá,,1
+pronombre enclítico,edificarélo,lo edificaré,,1
+pronombre enclítico,pensóse,se pensó,,1
+pronombre enclítico,echáronlo,lo echaron,,1
+pronombre enclítico,vistiéronse,se vistieron,,1
+pronombre enclítico,desmayábase,se desmayaba,,1
+pronombre enclítico,robáronlas,las robaron,,1
+pronombre enclítico,confundiránse,se confundirán,,1
+pronombre enclítico,enseñarános,nos enseñará,,1
+pronombre enclítico,agradaráse,se agradará,,1
+pronombre enclítico,reiráse,se reirá,,1
+pronombre enclítico,cogerálos,los cogerá,,1
+pronombre enclítico,gozaráse,se gozará,,1
+pronombre enclítico,uniránse,se unirán,,1
+pronombre enclítico,vistiéronle,le vistieron,,1
+pronombre enclítico,despertóme,me despertó,,1
+pronombre enclítico,consumirála,la consumirá,,1
+pronombre enclítico,tornarálos,los tornará,,1
+pronombre enclítico,quebrélo,lo quebré,,1
+pronombre enclítico,echélas,las eché,,1
+pronombre enclítico,diránle,le dirán,,1
+pronombre enclítico,probarélos,los probaré,,1
+pronombre enclítico,afirmaránse,se afirmarán,,1
+pronombre enclítico,perdonarélos,los perdonaré,,1
+pronombre enclítico,sosegóse,se sosegó,,1
+pronombre enclítico,abriéronse,se abrieron,,1
+pronombre enclítico,envíanos,os envían,,1
+pronombre enclítico,preguntóles,les preguntó,,1
+pronombre enclítico,enderezóle,le enderezó,,1
+pronombre enclítico,amóle,le amó,,1
+pronombre enclítico,derramóselo,se lo derramó,,1
+pronombre enclítico,censuróles,les censuró,,1
+pronombre enclítico,acostóle,le acostó,,1
+pronombre enclítico,fortalecíase,se fortalecía,,1
+pronombre enclítico,bajaráse,se bajará,,1
+pronombre enclítico,ahogóse,se ahogó,,1
+pronombre enclítico,recibióle,le recibió,,1
+pronombre enclítico,llevóle,le llevó,,1
+pronombre enclítico,comenzóle,le comenzó,,1
+pronombre enclítico,propúsoles,les propuso,,1
+pronombre enclítico,arrendóla,la arrendó,,1
+pronombre enclítico,preguntábanle,le preguntaban,,1
+pronombre enclítico,volvióle,le volvió,,1
+pronombre enclítico,reprendióle,le reprendió,,1
+pronombre enclítico,declarábales,les declaraba,,1
+pronombre enclítico,oyéronle,le oyeron,,1
+pronombre enclítico,hinchiéronlas,las llenaron,,1
+pronombre enclítico,rogábale,le rogaba,,1
+pronombre enclítico,seguíale,le seguía,,1
+pronombre enclítico,recostáronse,se recostaron,,1
+pronombre enclítico,buscábanle,le buscaban,,1
+pronombre enclítico,maravillábanse,se maravillaban,,1
+pronombre enclítico,enderezóse,se enderezó,,1
+pronombre enclítico,salíanse,se salían,,1
+pronombre enclítico,preguntáronles,les preguntaron,,1
+pronombre enclítico,respondiéronles,les respondieron,,1
+pronombre enclítico,adoróle,le adoró,,1
+pronombre enclítico,rodeáronle,le rodearon,,1
+pronombre enclítico,siguiéronla,la siguieron,,1
+pronombre enclítico,amólos,los amó,,1
+pronombre enclítico,mirábanse,se miraban,,1
+pronombre enclítico,sacóla,la sacó,,1
+pronombre enclítico,calentábanse,se calentaban,,1
+pronombre enclítico,dábanle,le daban,,1
+pronombre enclítico,permitióselo,se lo permitió,,1
+pronombre enclítico,envolviéronlo,lo envolvieron,,1
+pronombre enclítico,bajóse,se bajó,,1
+pronombre enclítico,manifestóse,se manifestó,,1
+pronombre enclítico,gozóse,se gozó,,1
+pronombre enclítico,repartíanlas,las repartían,,1
+pronombre enclítico,soltáronlos,los soltaron,,1
+pronombre enclítico,multiplicóse,se multiplicó,,1
+pronombre enclítico,defendióle,le defendió,,1
+pronombre enclítico,bautizóle,le bautizó,,1
+pronombre enclítico,incorporóse,se incorporó,,1
+pronombre enclítico,sobrevínole,le sobrevino,,1
+pronombre enclítico,regocijóse,se regocijó,,1
+pronombre enclítico,arengóles,les arengó,,1
+pronombre enclítico,despidiéronlos,los despidieron,,1
+pronombre enclítico,levantóles,les levantó,,1
+pronombre enclítico,constriñónos,nos constriñó,,1
+pronombre enclítico,permitióle,le permitió,,1
+pronombre enclítico,mostrólas,las mostró,,1
+pronombre enclítico,manifestéme,me manifesté,,1
+pronombre enclítico,comuniquéles,les comuniqué,,1
+pronombre enclítico,hacíalo,lo hacía,,1
+pronombre enclítico,arrojólo,lo arrojó,,1
+simiente → descendencia/semilla,simiente,descendencia,RVG: simiente,31
+simiente → descendencia/semilla,simiente,semilla,RVG: semilla,15
+simiente → descendencia/semilla,simiente,descendencia,RVG: la simiente,15
+simiente → descendencia/semilla,simiente,descendencia,RVG: su simiente,13
+simiente → descendencia/semilla,simiente,descendencia,RVG: y su simiente,6
+simiente → descendencia/semilla,simiente,descendencia,RVG: a tu simiente,5
+simiente → descendencia/semilla,simiente,descendencia,RVG: y a tu simiente,5
+simiente → descendencia/semilla,simiente,descendencia,RVG: tu simiente,4
+simiente → descendencia/semilla,simiente,descendencia,RVG: simiente;,4
+simiente → descendencia/semilla,simiente,descendencia,RVG: vuestra simiente,3
+simiente → descendencia/semilla,simiente,descendencia,RVG: tu simiente a tu simiente tu simiente,3
+simiente → descendencia/semilla,simiente,descendencia,"RVG: de tu simiente,",3
+simiente → descendencia/semilla,simiente,descendencia,RVG: de la simiente,3
+simiente → descendencia/semilla,simiente,descendencia,"RVG: su simiente,",3
+simiente → descendencia/semilla,simiente,descendencia,"RVG: de tus hijos, dice de los hijos de tus",3
+simiente → descendencia/semilla,simiente,descendencia,RVG: la simiente de su simiente la simiente,3
+simiente → descendencia/semilla,simiente,semilla,RVG: que dé semilla; su semilla,2
+simiente → descendencia/semilla,simiente,semilla,"RVG: que da semilla, semilla,",2
+simiente → descendencia/semilla,simiente,descendencia,RVG: simiente y su simiente;,2
+simiente → descendencia/semilla,simiente,descendencia,RVG: y haré tu simiente tu simiente,2
+simiente → descendencia/semilla,simiente,descendencia,RVG: tu simiente.,2
+simiente → descendencia/semilla,simiente,descendencia,RVG: tu simiente y de tu simiente,2
+simiente → descendencia/semilla,simiente,descendencia,RVG: tu simiente y tu simiente,2
+simiente → descendencia/semilla,simiente,descendencia,RVG: simiente.,2
+simiente → descendencia/semilla,simiente,descendencia,RVG: tu simiente en ti y en tu simiente.,2
+simiente → descendencia/semilla,simiente,descendencia,RVG: la simiente simiente,2
+simiente → descendencia/semilla,simiente,descendencia,RVG: vuestra simiente a vuestra simiente,2
+simiente → descendencia/semilla,simiente,descendencia,"RVG: mi simiente y tu simiente,",2
+simiente → descendencia/semilla,simiente,descendencia,"RVG: y a su simiente,",2
+simiente → descendencia/semilla,simiente,descendencia,"RVG: de su simiente y sobre su simiente,",2
+simiente → descendencia/semilla,simiente,descendencia,RVG: a la simiente,2
+simiente → descendencia/semilla,simiente,descendencia,RVG: y la simiente,2
+simiente → descendencia/semilla,simiente,descendencia,RVG: simiente simiente,2
+simiente → descendencia/semilla,simiente,semilla,RVG: semilla;,2
+simiente → descendencia/semilla,simiente,descendencia,RVG: y la simiente son la simiente,2
+simiente → descendencia/semilla,simiente,descendencia,RVG: descendencia;,2
+simiente → descendencia/semilla,simiente,descendencia,RVG: simiente descendencia.,2
+simiente → descendencia/semilla,simiente,descendencia,"RVG: simiente. simientes, simiente,",2
+simiente → descendencia/semilla,simiente,semilla,RVG: que da semilla,1
+simiente → descendencia/semilla,simiente,descendencia,RVG: mí y vosotros y tu simiente,1
+simiente → descendencia/semilla,simiente,descendencia,RVG: sea de tu simiente.,1
+simiente → descendencia/semilla,simiente,descendencia,RVG: con su simiente,1
+simiente → descendencia/semilla,simiente,descendencia,RVG: es tu simiente.,1
+simiente → descendencia/semilla,simiente,descendencia,RVG: en tu simiente,1
+simiente → descendencia/semilla,simiente,descendencia,RVG: a ti y a tu simiente,1
+simiente → descendencia/semilla,simiente,semilla,RVG: y era como semilla,1
+simiente → descendencia/semilla,simiente,descendencia,RVG: y para su simiente,1
+simiente → descendencia/semilla,simiente,descendencia,RVG: él y su simiente,1
+simiente → descendencia/semilla,simiente,semilla,"RVG: la semilla,",1
+simiente → descendencia/semilla,simiente,descendencia,RVG: de tu simiente,1
+simiente → descendencia/semilla,simiente,descendencia,RVG: amancillará su simiente,1
+simiente → descendencia/semilla,simiente,semilla,"RVG: vuestra semilla,",1
+simiente → descendencia/semilla,simiente,semilla,RVG: así de la semilla,1
+simiente → descendencia/semilla,simiente,descendencia,RVG: sea de la simiente,1
+simiente → descendencia/semilla,simiente,descendencia,RVG: para ti y para tu simiente,1
+simiente → descendencia/semilla,simiente,descendencia,RVG: les daría a ellos y a su simiente,1
+simiente → descendencia/semilla,simiente,descendencia,"RVG: había de darla a ellos y a su simiente,",1
+simiente → descendencia/semilla,simiente,semilla,"RVG: simiente,",1
+simiente → descendencia/semilla,simiente,semilla,"RVG: de tu sementera,",1
+simiente → descendencia/semilla,simiente,descendencia,RVG: y en tu simiente,1
+simiente → descendencia/semilla,simiente,descendencia,RVG: y de la simiente,1
+simiente → descendencia/semilla,simiente,descendencia,RVG: no cortarás mi simiente,1
+simiente → descendencia/semilla,simiente,descendencia,RVG: y de su simiente.,1
+simiente → descendencia/semilla,simiente,descendencia,,1
+simiente → descendencia/semilla,simiente,descendencia,RVG: simiente hijos,1
+simiente → descendencia/semilla,simiente,descendencia,RVG: a su simiente:,1
+simiente → descendencia/semilla,simiente,descendencia,RVG: entre su simiente.,1
+simiente → descendencia/semilla,simiente,descendencia,RVG: su simiente.,1
+simiente → descendencia/semilla,simiente,semilla,RVG: tu descendencia,1
+simiente → descendencia/semilla,simiente,semilla,RVG: recoja tu semilla,1
+simiente → descendencia/semilla,simiente,semilla,RVG: y su simiente,1
+simiente → descendencia/semilla,simiente,descendencia,RVG: ni a su simiente,1
+simiente → descendencia/semilla,simiente,descendencia,RVG: mas la simiente,1
+simiente → descendencia/semilla,simiente,descendencia,"RVG: tu simiente,",1
+simiente → descendencia/semilla,simiente,descendencia,"RVG: su simiente entre las naciones,",1
+simiente → descendencia/semilla,simiente,semilla,"RVG: tu semilla,",1
+simiente → descendencia/semilla,simiente,semilla,RVG: de semilla,1
+simiente → descendencia/semilla,simiente,descendencia,RVG: de ella la simiente,1
+simiente → descendencia/semilla,simiente,descendencia,RVG: y harás que tu,1
+simiente → descendencia/semilla,simiente,descendencia,RVG: y tu simiente,1
+simiente → descendencia/semilla,simiente,descendencia,"RVG: lo sembrado en él,",1
+simiente → descendencia/semilla,simiente,descendencia,RVG: son simiente,1
+simiente → descendencia/semilla,simiente,descendencia,"RVG: privado de descendencia, de su simiente",1
+simiente → descendencia/semilla,simiente,semilla,RVG: de simiente,1
+simiente → descendencia/semilla,simiente,semilla,RVG: y de simiente,1
+simiente → descendencia/semilla,simiente,semilla,"RVG: también de la semilla bueno para sembrar,",1
+simiente → descendencia/semilla,simiente,descendencia,RVG: también de la simiente,1
+simiente → descendencia/semilla,simiente,descendencia,RVG: por medio de simiente,1
+simiente → descendencia/semilla,simiente,semilla,RVG: al que lleva la semilla;,1
+simiente → descendencia/semilla,simiente,semilla,RVG: está la semilla,1
+simiente → descendencia/semilla,simiente,semilla,RVG: simiente,1
+simiente → descendencia/semilla,simiente,descendencia,RVG: para que procurara una simiente,1
+simiente → descendencia/semilla,simiente,semilla,,1
+simiente → descendencia/semilla,simiente,descendencia,RVG: descendencia,1
+simiente → descendencia/semilla,simiente,descendencia,RVG: descendencia.,1
+simiente → descendencia/semilla,simiente,descendencia,"RVG: simiente,",1
+simiente → descendencia/semilla,simiente,descendencia,RVG: que la de la simiente,1
+tetragrámaton (Dios/Señor) → YHWH,de dios,de yhwh,,4
+tetragrámaton (Dios/Señor) → YHWH,dios,yhwh,,2
+tetragrámaton (Dios/Señor) → YHWH,¿hay para dios,¿hay para yhwh,,1
+tetragrámaton (Dios/Señor) → YHWH,si dios,si yhwh,,1
+tetragrámaton (Dios/Señor) → YHWH,"dios,","yhwh,",,1
+tetragrámaton (Dios/Señor) → YHWH,"de dios,","de yhwh,",,1
+tetragrámaton (Dios/Señor) → YHWH,de dios:,de yhwh:,,1
+tetragrámaton (Dios/Señor) → YHWH,señor,yhwh,,1
+tetragrámaton (Dios/Señor) → YHWH,"oh dios,","oh yhwh,",,1
+tetragrámaton (Dios/Señor) → YHWH,"alegres á dios,","alegres á yhwh,",,1
+tetragrámaton (Dios/Señor) → YHWH,dios!,yhwh!,,1
+tetragrámaton (Dios/Señor) → YHWH,"al señor,","a yhwh,",,1
+vianda → comida,vianda,comida,,16
+vianda → comida,viandas,comidas,,15
+á → a,á,a,,19324
+ánima → alma,ánima,alma,,2
+é/ó/ú → e/o/u,ó,o,,863
+é/ó/ú → e/o/u,é,e,,708
+é/ó/ú → e/o/u,ú,u,,17

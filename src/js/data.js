@@ -139,6 +139,17 @@ export const PANE_OPTIONS = [
       "Santa Biblia Reina Valera Gómez © 2004, 2010, 2023 Dr. Humberto Gómez Caballero. Derechos reservados. Prohibida su reproducción con fines de lucro. Análisis y palabras hebreas del Antiguo Testamento: obra original del Open Scriptures Hebrew Bible, disponible en https://github.com/openscriptures/morphhb (CC BY 4.0).",
   },
   {
+    code: "rvo-strong",
+    label: "RVO (TR)",
+    name: "Reina-Valera-Ojeda (TR)", // full name shown on the pane picker once selected
+    kind: "bible",
+    lang: "es",
+    strongs: true,
+    concord: "rvo-strong/", // data/concord/rvo-strong/{greek,hebrew}
+    citation: "RVO2026",
+    copyright: "Reina-Valera-Ojeda. Dominio público.",
+  },
+  {
     code: "torres-amat",
     label: "BTA (Católica, Latín)",
     name: "Biblia Torres Amat (Católica, Latín)", // full name shown on the pane picker once selected

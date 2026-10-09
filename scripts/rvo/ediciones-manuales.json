@@ -1,0 +1,4 @@
+{
+  "_ayuda": "Cambios a mano, aplicados al final (después de todas las reglas). Formato: \"Libro c:v\": { \"texto actual\": \"texto nuevo\" }. El texto actual debe aparecer tal cual en el versículo (palabras completas, con su puntuación). Luego ejecutar: python3 scripts/rvo/transform.py",
+  "Mateo 1:23": { "Con nosotros Dios.": "Dios con nosotros." }
+}
