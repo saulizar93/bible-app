@@ -118,7 +118,7 @@ _Kecharitōmenē_ (Luke 1:28) and _kecharitōmenō_ (Sirach 18:17) are the same 
 Jesus is **full of grace** (πλήρης χάριτος) in John 1:14.
 Acts 6:8 has a variant, so the Critical Text says that Stephen is also **full of grace** (πλήρης χάριτος). Is he also sinless?
 Mary is not **full of gace** (πλήρης χάριτος), she was **highly favored** or **endued with grace** (κεχαριτωμένη).
-Notice how **πλήρης χάριτος** is different from _κεχαριτωμένη_.
+Notice how **πλήρης χάριτος** is different from **κεχαριτωμένη**.
 
 Even the RSV-2CE (2006), the Catholic edition of a modern Protestant translation, changed the RSV's "O favored one" back to "full of grace" and in the Ignatius Catholic Study Bible Study Note on Luke 1:28, it explains: "The expression _full of grace_ is rooted in Catholic tradition and traced to St. Jerome's tranlation of this verse in the Latin Vulgate. Although fundamentally accurate, it lacks some of the depth of the Greek original." They even admit that they translate Scripture with **tradition** rather than Greek grammar.
 
