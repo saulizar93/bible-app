@@ -262,7 +262,7 @@ Lo mismo hace en Mateo 2:11, 14:33 y 28:17, Lucas 24:52, Juan 9:38 y Hebreos 1:6
 
 ### Otros cambios
 
-- **Juan 8:58.** «Antes que Abraham fuese, **yo soy**» (RVG): Jesús toma el nombre que Dios reveló a Moisés (Éxodo 3:14), y los judíos toman piedras. La TNM dice: «antes de que Abrahán naciera, **yo ya existía**».
+- **Juan 8:58.** «Antes que Abraham fuese, **YO SOY**» (RVG): Jesús toma el nombre que Dios reveló a Moisés (Éxodo 3:14), y los judíos toman piedras. La TNM dice: «antes de que Abrahán naciera, **yo ya existía**».
 - **Lucas 23:43.** «De cierto te digo: **Hoy** estarás conmigo en el paraíso» (RVG). La TNM mueve la pausa: «Yo te aseguro **hoy**: estarás conmigo en el Paraíso», para ajustarse a su enseñanza de que los muertos están inconscientes.
 - **2 Pedro 1:1.** «…por la justicia de **nuestro Dios y Salvador Jesucristo**» (RVG): una sola persona, por la construcción griega con un solo artículo (la misma de «nuestro Señor y Salvador Jesucristo» en 2 Pedro 1:11). La TNM dice «de **nuestro Dios y del Salvador** Jesucristo», añadiendo «del» para hacer dos personas.
 
