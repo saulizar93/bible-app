@@ -16,6 +16,32 @@
   padding: 6px 10px;
   border-bottom: 1px solid var(--line);
 }
+/* Top pane: ▲ far left, picker centred, ▼ far right */
+.pane-head.has-verse-nav {
+  justify-content: space-between;
+  gap: 8px;
+}
+.verse-step {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: none;
+  color: var(--fg);
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+.verse-step:hover {
+  background: var(--hit);
+  border-color: var(--pick-border, #e5c96b);
+}
+.verse-step:active {
+  transform: translateY(1px);
+}
 
 /* Translation / notes picker: a highlighted pill sized to the selected name,
    with a language badge and a caret. The visible text is .pane-current; the

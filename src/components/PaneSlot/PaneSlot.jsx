@@ -15,6 +15,7 @@ export default function PaneSlot({
   strongsOn,
   onWordClick,
   onVerseClick,
+  onVerseStep, // top pane only: ▲ / ▼ move the highlighted verse in both panes
   onVerseToggle,
   onClearHighlight,
 }) {
@@ -34,7 +35,20 @@ export default function PaneSlot({
 
   return (
     <section className="pane">
-      <header className="pane-head">
+      <header className={onVerseStep ? "pane-head has-verse-nav" : "pane-head"}>
+        {onVerseStep && (
+          <button
+            type="button"
+            className="verse-step"
+            onClick={() => onVerseStep(-1)}
+            aria-label={es ? "Versículo anterior" : "Previous verse"}
+            title={es ? "Versículo anterior" : "Previous verse"}
+          >
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+              <path d="M6 15l6-6 6 6" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </button>
+        )}
         <label className={`pane-picker ${opt.kind}`}>
           <span className="pane-badge" aria-hidden="true">{badge}</span>
           {/* The visible label shows the full name (opt.name) of the selection and sizes
@@ -81,6 +95,19 @@ export default function PaneSlot({
             <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </label>
+        {onVerseStep && (
+          <button
+            type="button"
+            className="verse-step"
+            onClick={() => onVerseStep(1)}
+            aria-label={es ? "Versículo siguiente" : "Next verse"}
+            title={es ? "Versículo siguiente" : "Next verse"}
+          >
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+              <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </button>
+        )}
       </header>
       <div
         className="pane-body"

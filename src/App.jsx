@@ -173,6 +173,37 @@ export default function App() {
     }));
   }, []);
 
+  // ▲ / ▼ in the top pane's header: highlight the previous / next verse in both panes.
+  // Past the last verse it moves to the next chapter's verse 1; before verse 1, to the
+  // previous chapter's last verse. With nothing highlighted, ▼ starts at verse 1.
+  const verseCount = async (bookId, chapter) => {
+    const code = [top, bottom].find((c) => optionFor(c)?.kind === "bible") || "kjv-strong";
+    try {
+      const data = await loadBook(code, byId[bookId].n);
+      return data?.v?.[chapter]?.length || 0;
+    } catch {
+      return 0;
+    }
+  };
+  const stepVerse = async (delta) => {
+    const { book: id, chapter, verse } = refPos;
+    const count = await verseCount(id, chapter);
+    let next = verse ? verse + delta : delta > 0 ? 1 : count;
+    if (count && next > count) {
+      const n = byId[id].n;
+      if (chapter < byId[id].chapters) return go({ book: id, chapter: chapter + 1, verse: 1 });
+      if (n < 66) return go({ book: BOOKS[n].id, chapter: 1, verse: 1 });
+      next = count; // end of the Bible
+    } else if (next < 1) {
+      const n = byId[id].n;
+      const prev = chapter > 1 ? { book: id, chapter: chapter - 1 } : n > 1 ? { book: BOOKS[n - 2].id, chapter: BOOKS[n - 2].chapters } : null;
+      if (!prev) return;
+      const last = await verseCount(prev.book, prev.chapter);
+      return go({ ...prev, verse: last || 1 });
+    }
+    setRefPos((p) => ({ ...p, verse: next }));
+  };
+
   const submit = (e) => {
     e.preventDefault();
     const parsed = parseRef(query);
@@ -402,6 +433,7 @@ export default function App() {
               });
             }}
             onVerseClick={selectVerse}
+            onVerseStep={stepVerse}
             onVerseToggle={(verse) => toggleVerse(top, verse)}
             onClearHighlight={() =>
               setRefPos((prev) => ({ ...prev, verse: null }))

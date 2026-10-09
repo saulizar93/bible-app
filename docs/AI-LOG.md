@@ -428,3 +428,7 @@
 - InfoPanel inline Markdown now also reads _italic_ (underscores at word edges only), since the bibliography uses _Title_.
 - Featured verse style for info pages: a `>` quote whose last line starts with "— " (e.g. `> — Matthew 11:25 (KJV)`) renders as `.info-quote.verse` — serif reading font, gold left bar and soft gold background, a large opening quotation mark, and the reference on its own line, right-aligned and small. Other `>` quotes are unchanged. Matthew 11:25 on both Bibliography pages now uses it (text without quote marks, reference on the second line).
 - InfoPanel inline Markdown: bold and italic text is parsed again inside, so `**_metanoeō_**` (manipulations pages) renders bold italic instead of showing the underscores.
+
+## 2026-10-09 — Verse arrows in the top pane header
+- PaneSlot: new optional `onVerseStep` prop; when given (top pane only) the header shows ▲ on the far left (previous verse) and ▼ on the far right (next verse), picker centred between them (`.pane-head.has-verse-nav`, `.verse-step` in PaneSlot.css).
+- App.jsx `stepVerse(delta)`: moves `refPos.verse`, which both panes already highlight and scroll to. With no verse highlighted, ▼ starts at verse 1 and ▲ at the last verse. Past the last verse → next chapter (or next book) verse 1; before verse 1 → previous chapter's last verse. The verse count comes from whichever pane shows a Bible (KJV if both are notes).
