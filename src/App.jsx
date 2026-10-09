@@ -173,7 +173,7 @@ export default function App() {
     }));
   }, []);
 
-  // ▲ / ▼ in the top pane's header: highlight the previous / next verse in both panes.
+  // ▲ / ▼ in each pane's header: highlight the previous / next verse in both panes.
   // Past the last verse it moves to the next chapter's verse 1; before verse 1, to the
   // previous chapter's last verse. With nothing highlighted, ▼ starts at verse 1.
   const verseCount = async (bookId, chapter) => {
@@ -461,6 +461,7 @@ export default function App() {
               });
             }}
             onVerseClick={selectVerse}
+            onVerseStep={stepVerse}
             onVerseToggle={(verse) => toggleVerse(bottom, verse)}
             onClearHighlight={() =>
               setRefPos((prev) => ({ ...prev, verse: null }))

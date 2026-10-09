@@ -15,7 +15,7 @@ export default function PaneSlot({
   strongsOn,
   onWordClick,
   onVerseClick,
-  onVerseStep, // top pane only: ▲ / ▼ move the highlighted verse in both panes
+  onVerseStep, // ▲ / ▼ in the header move the highlighted verse in both panes
   onVerseToggle,
   onClearHighlight,
 }) {

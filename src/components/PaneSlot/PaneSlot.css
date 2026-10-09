@@ -16,7 +16,7 @@
   padding: 6px 10px;
   border-bottom: 1px solid var(--line);
 }
-/* Top pane: ▲ far left, picker centred, ▼ far right */
+/* ▲ far left, picker centred, ▼ far right */
 .pane-head.has-verse-nav {
   justify-content: space-between;
   gap: 8px;
