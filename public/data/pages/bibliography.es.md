@@ -150,7 +150,7 @@ Incluir una obra aquí no significa que esté de acuerdo con ella. Muchas las le
 - {bad} Biblia de Navarra
 - {bad} Dios Habla Hoy
 - {terrible} Biblia Latinoamericana
-- {terrible} Sagrada Biblia, traducida del latín por Félix Torres Amat (edición de 1999)
+- {terrible} Biblia Félix Torres Amat del Latín (edición de 1999)
 
 # Libros
 

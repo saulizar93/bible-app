@@ -150,7 +150,7 @@ Including a work here does not mean I agree with it. Many were read to understan
 - {bad} Biblia de Navarra
 - {bad} Dios Habla Hoy
 - {terrible} Biblia Latinoamericana
-- {terrible} Sagrada Biblia, translated from the Latin by Félix Torres Amat (1999 edition)
+- {terrible} Biblia Félix Torres Amat del Latín (1999 edition)
 
 # Books
 

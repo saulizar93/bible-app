@@ -174,7 +174,7 @@ The Torres Amat does the same in Matthew 12:46, Mark 3:31, Luke 8:19, John 2:12,
 
 ### Luke 11:27-28 — "Yea rather"
 
-A woman blesses the womb that bore Jesus. He answers with **_menoun_**, a word that corrects: "**Yea rather**, blessed are they that hear the word of God, and keep it" (KJV; LSB **On the contrary**; RVG "**Antes** bienaventurados…"). Some Catholic Bibles turn the correction into comparative wording: "**still happier**" (Jerusalem Bible), "**more blessed still**" (New Jerusalem Bible). Other modern Catholic Bibles do correctly translate the corrective nature of the Greek: "**Rather, blessed are those**" (NABRE), "**Blessed rather are those**" (RSV-2CE).
+A woman blesses the womb that bore Jesus. He answers with **_menoun_**, a word that corrects: "**Yea rather**, blessed are they that hear the word of God, and keep it" (KJV; LSB "**On the contrary**"; RVG "**Antes** bienaventurados…"). Some Catholic Bibles turn the correction into comparative wording: "**still happier**" (Jerusalem Bible), "**more blessed still**" (New Jerusalem Bible). Other modern Catholic Bibles do correctly translate the corrective nature of the Greek: "**Rather, blessed are those**" (NABRE), "**Blessed rather are those**" (RSV-2CE).
 
 ### Matthew 15:23 — inventing intercession
 
@@ -258,7 +258,7 @@ The same is done in Matthew 2:11, 14:33 and 28:17, Luke 24:52, John 9:38 and Heb
 
 ### Other changes
 
-- **John 8:58.** "Before Abraham was, **I am**" (KJV) — Jesus takes the name God revealed to Moses (Exodus 3:14), and the Jews pick up stones. The NWT reads "before Abraham came into existence, **I have been**."
+- **John 8:58.** "Before Abraham was, **I AM**" (KJV) — Jesus takes the name God revealed to Moses (Exodus 3:14), and the Jews pick up stones. The NWT reads "before Abraham came into existence, **I have been**."
 - **Luke 23:43.** "**To day** shalt thou be with me in paradise" (KJV). The NWT moves the comma: "Truly I tell you **today**, you will be with me in Paradise," to fit its teaching that the dead are unconscious.
 - **2 Peter 1:1.** "…the righteousness of **God and our Saviour Jesus Christ**" — one person, by the Greek construction with a single article (the same construction as "our Lord and Saviour Jesus Christ" in 2 Peter 1:11). The NWT reads "**our God and the Savior** Jesus Christ," inserting "the" to make two persons.
 
