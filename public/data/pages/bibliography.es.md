@@ -1,6 +1,8 @@
 Estas son las Biblias, libros y pódcast que he usado en mis estudios.
 
-La información es limitada; nadie necesita más de 10 años para entender la Biblia o la historia de la Iglesia. He leído unos 50 libros al año durante los últimos 3 años, y la información ya se vuelve repetitiva. Afirmar que solo los sacerdotes «preparados» pueden entender las Escrituras es una estrategia para manipular a la gente en una época en que la información está al alcance de todos, y también es un medio de adoctrinamiento, sobre todo cuando se anima a los seminaristas a dedicar su vida a una organización de tal manera que dejarla se vuelve cada vez más difícil, ya que no están preparados para ninguna otra cosa. Las Escrituras son lo bastante sencillas para que un niño las lea y las entienda, y a la vez lo bastante profundas para nadar en ellas toda la vida:
+La información es limitada; nadie necesita más de 10 años para entender la Biblia o la historia de la Iglesia. He leído unos 50 libros al año durante los últimos 3 años, y la información ya se vuelve repetitiva. Afirmar que solo los sacerdotes «preparados» pueden entender las Escrituras es una estrategia para manipular a la gente en una época en que la información está al alcance de todos, y también es un medio de adoctrinamiento, sobre todo cuando se anima a los seminaristas a dedicar su vida a una organización de tal manera que dejarla se vuelve cada vez más difícil, ya que no están preparados para vivir de ninguna otra cosa.
+
+Las Escrituras son lo bastante sencillas para que un niño las lea y las entienda, y a la vez lo bastante profundas para nadar en ellas toda la vida:
 
 > Te doy gracias, Padre, Señor del cielo y de la tierra, porque escondiste estas cosas de los sabios y de los entendidos, y las revelaste a los niños.
 > — Mateo 11:25 (RVG)

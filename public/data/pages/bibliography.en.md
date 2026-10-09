@@ -1,6 +1,8 @@
 These are the Bibles, books, and podcasts I have used in my studies.
 
-Information is limited; no one needs 10+ years to understand the Bible or Church history. I have read about 50 books per year for the last 3 years, and that already makes information repetitive. Claiming that only "educated" priests can understand Scripture is a strategy to manipulate people in an age of widespread information, and it is also a means of indoctrination, especially when seminarians are encouraged to devote their lives to an organization so fully that leaving it becomes increasingly difficult, since they're not trained in anything else. Scripture is shallow enough for a babe to read and understand, yet deep enough to swim in for a lifetime:
+Information is limited; no one needs 10+ years to understand the Bible or Church history. I have read about 50 books per year for the last 3 years, and that already makes information repetitive. Claiming that only "educated" priests can understand Scripture is a strategy to manipulate people in an age of widespread information, and it is also a means of indoctrination, especially when seminarians are encouraged to devote their lives to an organization so fully that leaving it becomes increasingly difficult, as you can't leave a source of livelihood when you don't know how to do anything else.
+
+Scripture is shallow enough for a babe to read and understand, yet deep enough to swim in for a lifetime:
 
 > I thank thee, O Father, Lord of heaven and earth, because thou hast hid these things from the wise and prudent, and hast revealed them unto babes.
 > — Matthew 11:25 (KJV)
