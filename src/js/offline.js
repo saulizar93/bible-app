@@ -13,11 +13,21 @@
  *    KJV w/Strong + English notes (app_lang "en") or RVG + Spanish notes ("es").
  */
 import { BOOKS } from "./books.js";
-import { PANE_OPTIONS, optionFor, SRC, storeOffline, NOTES_BOOKS, VERSIONS } from "./data.js";
+import {
+  PANE_OPTIONS,
+  optionFor,
+  SRC,
+  storeOffline,
+  NOTES_BOOKS,
+  VERSIONS,
+} from "./data.js";
 
 const STATUS_KEY = "offline_status";
 const STARTER_KEY = "offline_starter_done";
-export const STARTER = { en: ["kjv-strong", "notes:en"], es: ["rvg", "notes:es"] };
+export const STARTER = {
+  en: ["kjv-strong", "notes:en"],
+  es: ["rvg-strong", "notes:es"],
+};
 const EVENT = "offline-change";
 
 /* ---------- service worker + install prompt ---------- */
@@ -36,13 +46,16 @@ if (typeof window !== "undefined") {
   });
   if (import.meta.env.PROD && "serviceWorker" in navigator) {
     window.addEventListener("load", () => {
-      navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`).catch(() => {});
+      navigator.serviceWorker
+        .register(`${import.meta.env.BASE_URL}sw.js`)
+        .catch(() => {});
     });
   }
 }
 
 export const isStandalone = () =>
-  window.matchMedia?.("(display-mode: standalone)").matches || window.navigator.standalone === true;
+  window.matchMedia?.("(display-mode: standalone)").matches ||
+  window.navigator.standalone === true;
 export const isIOS = () =>
   /iphone|ipad|ipod/i.test(navigator.userAgent) ||
   (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
@@ -66,20 +79,26 @@ const shards = (n) => Array.from({ length: n }, (_, i) => i * 500 + 1);
 
 /** Version string a pack must have been downloaded with to count as ready. */
 const packVersion = (opt) =>
-  opt.kind === "notes" ? `n${VERSIONS.notes}` : `d${VERSIONS.data}${opt.strongs ? `l${VERSIONS.lexicon}` : ""}`;
+  opt.kind === "notes"
+    ? `n${VERSIONS.notes}`
+    : `d${VERSIONS.data}${opt.strongs ? `l${VERSIONS.lexicon}` : ""}`;
 
 function packFiles(opt) {
   if (opt.kind === "notes") {
     return NOTES_BOOKS.flatMap((n) => {
       const book = BOOKS[n - 1];
-      return Array.from({ length: book.chapters }, (_, i) => SRC.notes(opt.lang, n, i + 1));
+      return Array.from({ length: book.chapters }, (_, i) =>
+        SRC.notes(opt.lang, n, i + 1),
+      );
     });
   }
   const files = BOOKS.map((b) => SRC.book(opt.code, b.n));
   if (opt.strongs) {
     const c = opt.concord ?? "";
-    for (const s of shards(GREEK_SHARDS)) files.push(SRC.strongs("greek", s), SRC.concord(`${c}greek`, s));
-    for (const s of shards(HEBREW_SHARDS)) files.push(SRC.strongs("hebrew", s), SRC.concord(`${c}hebrew`, s));
+    for (const s of shards(GREEK_SHARDS))
+      files.push(SRC.strongs("greek", s), SRC.concord(`${c}greek`, s));
+    for (const s of shards(HEBREW_SHARDS))
+      files.push(SRC.strongs("hebrew", s), SRC.concord(`${c}hebrew`, s));
   }
   return files;
 }
@@ -123,7 +142,8 @@ export const subscribe = (fn) => {
 export function getState(code) {
   const opt = optionFor(code);
   if (!opt) return { state: "none" };
-  if (progress.has(code)) return { state: "downloading", progress: progress.get(code) };
+  if (progress.has(code))
+    return { state: "downloading", progress: progress.get(code) };
   const v = readStatus()[code];
   if (v === packVersion(opt)) return { state: "ready" };
   return { state: v ? "outdated" : "none", error: errors[code] };
@@ -173,7 +193,8 @@ export async function downloadPack(code) {
 export const cancelDownload = (code) => controllers.get(code)?.abort();
 
 export async function downloadAll() {
-  for (const o of PANE_OPTIONS) if (!isReady(o.code)) await downloadPack(o.code);
+  for (const o of PANE_OPTIONS)
+    if (!isReady(o.code)) await downloadPack(o.code);
 }
 
 /** First run as an installed app: fetch the starter pack for the app language. */

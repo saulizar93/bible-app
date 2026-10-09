@@ -65,7 +65,7 @@ export default function App() {
     const saved = localStorage.getItem(STORAGE_KEYS.TOP_PANE);
     if (saved) return saved;
     const currentLang = localStorage.getItem(STORAGE_KEYS.LANG);
-    return currentLang === "es" ? "rvg" : "kjv-strong";
+    return currentLang === "es" ? "rvg-strong" : "kjv-strong";
   });
 
   // Bottom Pane State Initializer
@@ -105,7 +105,8 @@ export default function App() {
   // Settings: set (or clear, with "") a pane's default. A chosen default is
   // also shown right away.
   const changeDefaultPane = (which, code) => {
-    const key = which === "top" ? STORAGE_KEYS.DEFAULT_TOP : STORAGE_KEYS.DEFAULT_BOTTOM;
+    const key =
+      which === "top" ? STORAGE_KEYS.DEFAULT_TOP : STORAGE_KEYS.DEFAULT_BOTTOM;
     if (code) localStorage.setItem(key, code);
     else localStorage.removeItem(key);
     setDefaultPanes((prev) => ({ ...prev, [which]: code }));
@@ -149,7 +150,7 @@ export default function App() {
     setShowLangModal(false);
 
     // 2. Explicitly set top and bottom defaults based on selected language
-    const defaultTop = selectedLang === "es" ? "rvg" : "kjv-strong";
+    const defaultTop = selectedLang === "es" ? "rvg-strong" : "kjv-strong";
     const defaultBottom = selectedLang === "es" ? "notes:es" : "notes:en";
 
     setTop(defaultTop);
@@ -310,7 +311,10 @@ export default function App() {
       const { source, verses } = verseSelection;
       if (code !== source) (top === source ? setBottom : setTop)(code);
       const first = Math.min(...verses);
-      setRefPos((prev) => ({ ...prev, verse: Number.isFinite(first) ? first : prev.verse }));
+      setRefPos((prev) => ({
+        ...prev,
+        verse: Number.isFinite(first) ? first : prev.verse,
+      }));
       setCompareOpen(false);
       setVerseSelection({ source: null, verses: new Set() });
     },
@@ -376,8 +380,6 @@ export default function App() {
         />
       )}
 
-
-
       <div className="content-row">
         <SplitPanes>
           <PaneSlot
@@ -391,7 +393,13 @@ export default function App() {
             strongsOn={strongsOn}
             onWordClick={(code, word, tok) => {
               setInfoPage(null); // one side panel at a time
-              setSelection({ code, word, morph: tok?.m, form: tok?.g, source: top });
+              setSelection({
+                code,
+                word,
+                morph: tok?.m,
+                form: tok?.g,
+                source: top,
+              });
             }}
             onVerseClick={selectVerse}
             onVerseToggle={(verse) => toggleVerse(top, verse)}
@@ -412,7 +420,13 @@ export default function App() {
             strongsOn={strongsOn}
             onWordClick={(code, word, tok) => {
               setInfoPage(null); // one side panel at a time
-              setSelection({ code, word, morph: tok?.m, form: tok?.g, source: bottom });
+              setSelection({
+                code,
+                word,
+                morph: tok?.m,
+                form: tok?.g,
+                source: bottom,
+              });
             }}
             onVerseClick={selectVerse}
             onVerseToggle={(verse) => toggleVerse(bottom, verse)}
@@ -458,7 +472,9 @@ export default function App() {
           selectionKey={verseSelection.verses}
           onCopy={copySelectedVerses}
           onCompare={
-            optionFor(verseSelection.source)?.kind === "bible" ? () => setCompareOpen(true) : undefined
+            optionFor(verseSelection.source)?.kind === "bible"
+              ? () => setCompareOpen(true)
+              : undefined
           }
           onClear={() => setVerseSelection({ source: null, verses: new Set() })}
           lang={lang || "en"}
