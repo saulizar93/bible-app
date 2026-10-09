@@ -432,3 +432,4 @@
 ## 2026-10-09 — Verse arrows in the top pane header
 - PaneSlot: new optional `onVerseStep` prop; when given (top pane only) the header shows ▲ on the far left (previous verse) and ▼ on the far right (next verse), picker centred between them (`.pane-head.has-verse-nav`, `.verse-step` in PaneSlot.css).
 - App.jsx `stepVerse(delta)`: moves `refPos.verse`, which both panes already highlight and scroll to. With no verse highlighted, ▼ starts at verse 1 and ▲ at the last verse. Past the last verse → next chapter (or next book) verse 1; before verse 1 → previous chapter's last verse. The verse count comes from whichever pane shows a Bible (KJV if both are notes).
+- Offline marker in the pane menus changed from "✓" to "⬇︎" (and the green header badge now holds a download-arrow icon): phones draw their own checkmark next to the selected option of a native dropdown, so the two checks looked alike. Download App intro text updated to match.

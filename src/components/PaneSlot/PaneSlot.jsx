@@ -22,8 +22,9 @@ export default function PaneSlot({
   const opt = optionFor(code) || PANE_OPTIONS[0];
   const scroller = useRef(null);
   useOfflineStatus(); // re-render when a translation finishes downloading
-  // "✓" after a name = downloaded and readable offline
-  const optLabel = (o) => (isReady(o.code) ? `${o.label}  ✓` : o.label);
+  // "⬇︎" after a name = downloaded and readable offline. (Not "✓": phones put their own
+  // checkmark on the selected option of a native dropdown, and the two looked alike.)
+  const optLabel = (o) => (isReady(o.code) ? `${o.label}  ⬇\uFE0E` : o.label);
   const es = (() => {
     try {
       return localStorage.getItem("app_lang") === "es";
@@ -57,7 +58,9 @@ export default function PaneSlot({
           <span className="pane-current" aria-hidden="true">{opt.name || opt.label}</span>
           {isReady(opt.code) && (
             <span className="pane-offline" title={es ? "Disponible sin conexión" : "Available offline"} aria-hidden="true">
-              ✓
+              <svg viewBox="0 0 24 24" width="11" height="11">
+                <path d="M12 4v11M7 10.5l5 5 5-5M5 20h14" fill="none" stroke="currentColor" strokeWidth="2.8" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
             </span>
           )}
           <select
