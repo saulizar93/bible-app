@@ -26,6 +26,10 @@ export const INFO_PAGES = [
     id: "image-veneration",
     label: { en: "Image veneration", es: "Veneración de imágenes" },
   },
+  {
+    id: "trinity-development",
+    label: { en: "Development of the Trinity", es: "Desarrollo de la Trinidad" },
+  },
   { id: "bibliography", label: { en: "Bibliography", es: "Bibliografía" } },
   { id: "author", label: { en: "About the Author", es: "Acerca del autor" } },
   // Not a Markdown page: InfoPanel shows the ReportBugForm for this id.
