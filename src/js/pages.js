@@ -30,6 +30,10 @@ export const INFO_PAGES = [
     id: "trinity-development",
     label: { en: "Development of the Trinity", es: "Desarrollo de la Trinidad" },
   },
+  {
+    id: "trinitarian-questions",
+    label: { en: "Questions for Trinitarians", es: "Preguntas para trinitarios" },
+  },
   { id: "bibliography", label: { en: "Bibliography", es: "Bibliografía" } },
   { id: "author", label: { en: "About the Author", es: "Acerca del autor" } },
   // Not a Markdown page: InfoPanel shows the ReportBugForm for this id.
