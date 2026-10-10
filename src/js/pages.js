@@ -22,6 +22,10 @@ export const INFO_PAGES = [
     id: "who-gave-us-the-bible",
     label: { en: "Who gave us the Bible?", es: "¿Quién nos dio la Biblia?" },
   },
+  {
+    id: "image-veneration",
+    label: { en: "Image veneration", es: "Veneración de imágenes" },
+  },
   { id: "bibliography", label: { en: "Bibliography", es: "Bibliografía" } },
   { id: "author", label: { en: "About the Author", es: "Acerca del autor" } },
   // Not a Markdown page: InfoPanel shows the ReportBugForm for this id.
