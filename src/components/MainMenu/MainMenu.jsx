@@ -36,7 +36,7 @@ export default function MainMenu({ lang = "en", onOpenPage }) {
         <>
           <div className="menu-backdrop" onClick={() => setOpen(false)} />
           <ul className="menu-dropdown" role="menu">
-            {INFO_PAGES.map((p) => (
+            {INFO_PAGES.filter((p) => !p.hidden).map((p) => (
               <li key={p.id} role="none">
                 <button
                   type="button"

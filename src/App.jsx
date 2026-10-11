@@ -408,6 +408,11 @@ export default function App() {
           onLangChange={changeLanguage}
           defaultPanes={defaultPanes}
           onDefaultPaneChange={changeDefaultPane}
+          onOpenDownload={() => {
+            setSettingsOpen(false);
+            setSelection(null); // one side panel at a time
+            setInfoPage("offline");
+          }}
         />
       )}
 

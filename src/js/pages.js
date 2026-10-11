@@ -63,9 +63,11 @@ export const INFO_PAGES = [
     form: true,
   },
   // Install + offline downloads (InfoPanel shows OfflinePanel for this id).
+  // hidden: not listed in the hamburger menu; opened from Settings instead.
   {
     id: "offline",
     label: { en: "Download App", es: "Descargar la aplicación" },
     form: true,
+    hidden: true,
   },
 ];

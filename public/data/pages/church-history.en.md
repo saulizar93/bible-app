@@ -10,6 +10,8 @@ The Catholic Church teaches that its doctrines and sacraments were handed down u
 
 This page is a timeline. It follows above all **how the sacraments took shape**: when each one appeared, when it was made obligatory, and when it was defined as dogma. It also records the corruption of the papacy and the violence used to impose its doctrines.
 
+Entries marked **[One God]** record believers in the oneness of God through the centuries, and the decrees issued against them and against baptism in the name of Jesus.
+
 Every date here is documented. Where popular anti-Catholic lists repeat claims that cannot be proved (for example "Pope Joan"), we leave them out or say so — the true history is damning enough. For the details, see also the pages **Image veneration**, **Development of the Trinity**, **First Bishops of Rome**, **Matthew 16:18**, **Baptism**, **Who gave us the Bible?** and **Deuterocanonical Books**.
 
 # The sacraments at a glance
@@ -52,9 +54,12 @@ The number **seven** was not fixed until the twelfth century: Hugh of St. Victor
 - **c. 180** — Irenaeus says Peter and Paul founded the church of Rome (_Against Heresies_ 3.3.2). Paul did not: the church at Rome existed before he arrived (Romans 1:8-13).
 - **c. 200** — Tertullian mentions offerings for the dead on anniversaries and the **sign of the cross** on the forehead (_The Crown_ 3); he also describes **triple immersion** and opposes the baptism of infants (_On Baptism_ 18).
 - **c. 213** — Tertullian uses the word _trinitas_ and admits that "the majority of believers" hold to the Monarchy of one God (_Against Praxeas_ 3).
+- **c. 190–220** — **[One God]** In Smyrna and Rome, Noetus, Praxeas, Epigonus, Cleomenes and Sabellius teach that the Father and the Son are one God, not two persons, and the bishops of Rome Zephyrinus and Callistus confess "one God, Jesus Christ" (see **First Bishops of Rome**). Tertullian admits that "the majority of believers" hold to the Monarchy (_Against Praxeas_ 3). None of their own writings was preserved; we know them only through their opponents.
 - **c. 220** — Tertullian mocks a bishop who claims power to forgive the gravest sins as "**the Pontifex Maximus — that is, the bishop of bishops**" (_On Modesty_ 1). _Pontifex Maximus_ was the title of the pagan high priest of Rome; the popes later took it for themselves (in use from the fifteenth century).
 - **250–251** — Emperor Decius orders everyone to sacrifice to the gods. Many Christians die; many others sacrifice or buy certificates. Afterwards the church must decide whether to readmit the "lapsed": a **system of public penance** is created (Cyprian, _On the Lapsed_). This is the root of the **sacrament of penance**.
 - **256** — Bishop Stephen of Rome claims "the succession from Peter" to impose his view; Cyprian and Firmilian reject him (see **Matthew 16:18**).
+- **c. 250** — **[One God]** The Latin Christian poet Commodian writes in such strongly Monarchian terms that the _Catholic Encyclopedia_ calls him "an extreme Monarchian" (_Carmen Apologeticum_).
+- **c. 257–262** — **[One God]** Dionysius of Alexandria finds the churches of Libya and Pentapolis full of "Sabellianism" and writes against it (Eusebius, _Church History_ 7.6); Dionysius of Rome condemns both the Sabellians and those who divide God into three (Athanasius, _On the Decrees of Nicaea_ 26).
 - **303–311** — The Great Persecution under Diocletian. In **311** Galerius ends it (Edict of Toleration).
 
 # The church joins the empire (312–600)
@@ -66,15 +71,21 @@ The number **seven** was not fixed until the twelfth century: Hugh of St. Victor
 - **337** — Constantine is baptized on his deathbed by Eusebius of Nicomedia, a supporter of Arius.
 - **c. 363** — The Council of Laodicea forbids Christians to "**invoke angels**" (canon 35) — evidence that the practice had begun.
 - **4th century** — Lamps and candles in churches, pilgrimages, and the cult of the martyrs' tombs spread; Vigilantius protests, and Jerome defends them (406). The earliest known prayer to Mary, "Under thy protection" (_Sub tuum praesidium_), dates from about this time.
+- **336–351** — **[One God]** Marcellus of Ancyra, a champion of Nicaea who taught that God is one person, is deposed (336); Pope Julius receives him as orthodox (340–341), and the Western bishops at Serdica (343) confess "one hypostasis." His disciple Photinus is condemned (344–351). (See **First Bishops of Rome**.)
+- **c. 380** — **[One God]** The _Apostolic Canons_ (canon 50) depose any bishop or presbyter who baptizes with one immersion "into the death of the Lord" instead of the threefold formula (see **Baptism**).
 - **380** — Edict of Thessalonica: Nicene Trinitarianism becomes the religion of the empire; others are "madmen" to be punished. **388**: public religious debate is forbidden (_Theodosian Code_ 16.4.2).
 - **381** — Council of Constantinople adds the article on the Holy Spirit; "Sabellians" must be received "as heathen" (canon 7).
+- **381** — **[One God]** The same council anathematizes "the Sabellians, the Marcellians and the Photinians" (canon 1).
 - **385** — Bishop Siricius of Rome issues the first papal decretal, saying that "the blessed apostle Peter… bears them in us," and orders married priests to abstain from their wives. The same year Priscillian is executed — the first Christian put to death by Christians for heresy.
 - **c. 405** — Jerome completes the Latin Vulgate. He says the deuterocanonical books are not canonical (see **Deuterocanonical Books**). The Vulgate becomes the official Bible of Rome only at Trent (1546).
 - **416** — Pope Innocent I reserves the anointing of the baptized to bishops; in the West it separates from baptism and becomes **confirmation**.
 - **431** — Council of Ephesus calls Mary "Mother of God" (_Theotokos_). The pope's legate declares that Peter "lives and judges in his successors."
 - **440–461** — Leo I builds the theology of the papacy on Peter.
+- **447** — **[One God]** Leo the Great writes against the Priscillianists of Spain for teaching that the Father, the Son and the Holy Spirit are one and the same person (_Letter_ 15.1).
 - **476** — The Western Roman Empire falls. The bishop of Rome becomes the greatest power in the city.
 - **c. 501** — The "Symmachan forgeries" invent the rule that "**the first see is judged by no one**."
+- **c. 560** — **[One God]** Pope Pelagius I rules on people baptized only "in the name of the Lord" and requires baptism in the threefold name (Denzinger 445).
+- **561** — **[One God]** The First Council of Braga: "If anyone does not confess that the Father and the Son and the Holy Spirit are three persons… but says that they are a single and solitary person, as Sabellius and Priscillian have said, let him be anathema" (Denzinger 451).
 - **589** — Third Council of Toledo adds the **filioque** to the Creed.
 - **590–604** — Gregory the Great. He administers the lands and charity of Italy, promotes relics, and in his _Dialogues_ (593–594) teaches a **purifying fire** after death for small sins and tells of souls freed by Masses offered for them (_Dialogues_, book 4). He calls anyone who claims the title "universal bishop" a "precursor of Antichrist."
 
@@ -83,8 +94,10 @@ The number **seven** was not fixed until the twelfth century: Hugh of St. Victor
 - **607** — Emperor Phocas declares the church of Rome "head of all the churches" for Pope Boniface III (_Liber Pontificalis_).
 - **609** — Boniface IV turns the Pantheon, the temple of all the gods, into the church of St. Mary and All Martyrs. (The feast of All Saints on November 1 comes later, in the 700s–800s.)
 - **6th–7th centuries** — Irish monks spread **private, repeatable confession** to a priest with fixed penances (the "penitentials").
+- **692** — **[One God]** The Council in Trullo repeats that "Sabellians, who teach the identity of Father and Son," must be received "as heathen" and baptized again (canon 95).
 - **726–843** — The war over images; Nicaea II (787) commands their veneration (see **Image veneration**).
 - **800** — Pope Leo III, accused of perjury and adultery and attacked in Rome (799), crowns Charlemagne emperor. Pope and emperor become allies.
+- **866** — **[One God]** Pope Nicholas I rules that those baptized "in the name of Christ only, as we read in the Acts of the Apostles," must not be rebaptized (_Responses to the Bulgarians_ 104; see **Baptism**).
 
 ### The Eucharistic controversy of the 9th century
 
@@ -166,24 +179,32 @@ The accusations faded only after the Reformation, as fewer Christians believed t
 - **1517** — Martin Luther posts his **95 Theses** against the sale of indulgences.
 - **1525–1527** — Persecution of believers' baptism was not only Catholic: Protestant Zurich ordered infants baptized and decreed **death by drowning** for rebaptizers; Felix Manz was drowned in 1527. The same year Catholic authorities burned the Anabaptist Michael Sattler.
 - **1526** — Tyndale's English New Testament, translated from Greek, is burned; he is executed in **1536**.
+- **1531** — **[One God]** The Spanish physician Michael Servetus publishes _On the Errors of the Trinity_, arguing from Scripture that God is one and that Jesus is "the Son of the eternal God," not an "eternal Son."
 - **1531** — The reported appearance of the Virgin of Guadalupe at Tepeyac — a hill where the Aztecs had honoured the mother goddess Tonantzin. The Franciscan Bernardino de Sahagún complained that the natives were still worshipping Tonantzin there under Mary's name.
 - **1545–1563** — The **Council of Trent**: declares the deuterocanonical books inspired (1546), sets tradition beside Scripture, makes the Vulgate "authentic," defines the Mass as a **propitiatory sacrifice** (1562), the seven sacraments, purgatory, indulgences, the veneration of images and relics (1563), and requires marriage before a priest (1563).
 - **1548** — Ignatius of Loyola, founder of the Jesuits: "**What I see white, I will believe black if the hierarchical Church so defines it**" (_Spiritual Exercises_, Rules for Thinking with the Church 13).
 - **1550–1551** — At Valladolid, the theologian Juan Ginés de Sepúlveda argues from Aristotle that the Indians are "natural slaves" who may be subjected by force; the Dominican Bartolomé de las Casas defends them.
-- **1553** — The anti-Trinitarian Michael Servetus is burned in Protestant Geneva.
+- **1553** — **[One God]** Servetus publishes _The Restoration of Christianity_. The Catholic Inquisition at Vienne condemns him and burns him in effigy; he escapes, is arrested in Protestant Geneva at Calvin's instigation, and is burned alive on October 27, 1553, for denying the Trinity and infant baptism.
 - **1559** — The **Index of Forbidden Books** (in force until 1966) includes Protestant Bibles.
+- **1561** — Pius IV orders the Spanish Inquisition to prosecute priests who **solicit** penitents for sex during confession (_Cum sicut nuper_).
+- **1565–1577** — **The confessional booth.** Until then confession was heard face to face, often with the penitent kneeling at the priest's knees. To stop the scandals of sexual solicitation, Cardinal Charles Borromeo, archbishop of Milan, required a wooden **confessional** with a grille separating priest and penitent (_Instructions on Church Building_, 1577). The _Roman Ritual_ of 1614 made it the rule for the whole church.
 - **1569 / 1602** — Casiodoro de Reina's _Biblia del Oso_ (its cover bore the printer's mark of a bear and honey, and no translator's name) and Cipriano de Valera's revision; both men lived as fugitives from the Inquisition.
 
 # Modern dogmas (1563–today)
 
 - **1590** — Sixtus V publishes an "authentic" Vulgate under pain of excommunication; it is so full of errors that it is withdrawn after his death and replaced (1592).
+- **1612** — **[One God]** Edward Wightman, who denied the Trinity, is burned at Lichfield — the last person burned for heresy in England.
+- **1622** — Gregory XV extends the penalties for **solicitation in confession** to the whole church (_Universi Dominici gregis_); Benedict XIV renews them in 1741 (_Sacramentum Poenitentiae_).
 - **1616, 1633** — Galileo is condemned for teaching that the earth moves around the sun.
+- **1771** — **[One God]** Emanuel Swedenborg, in _The True Christian Religion_, teaches that God is one in person as well as in essence, and that the Lord Jesus Christ is that one God, the Father being in Him as the soul is in the body.
 - **1854** — Pius IX defines the **Immaculate Conception** of Mary.
 - **1864** — The **Syllabus of Errors** condemns religious liberty, Bible societies and the separation of church and state.
 - **1870** — The First Vatican Council defines **papal infallibility** and universal jurisdiction. The same year Italy takes Rome and the Papal States end; the Lateran Treaty with Mussolini creates Vatican City (1929).
 - **1908** — The decree _Ne temere_ declares marriages of Catholics invalid unless performed before a Catholic priest.
+- **1913–1916** — **[One God]** At the Arroyo Seco camp meeting near Los Angeles (1913), R. E. McAlister preaches that the apostles always baptized in the name of Jesus Christ. In 1914 Frank Ewart and Glenn Cook are rebaptized in Jesus' name, and thousands of Pentecostals follow. In 1916 the Assemblies of God adopts a Trinitarian statement of faith, and about 156 Oneness ministers leave.
 - **1917** — The reported appearances of Mary at Fátima.
 - **1943** — Pius XII encourages translating the Bible from Hebrew and Greek (_Divino Afflante Spiritu_).
+- **1945** — **[One God]** Two Oneness organizations merge to form the United Pentecostal Church.
 - **1950** — Pius XII defines the **Assumption** of Mary into heaven, body and soul. The apocryphal _Transitus Mariae_ ("The Passing of Mary") had been listed among rejected books in the _Gelasian Decree_.
 - **1954** — Pius XII proclaims Mary "**Queen of Heaven**" (_Ad Caeli Reginam_).
 - **1962–1965** — The Second Vatican Council allows the Mass in the people's own languages.

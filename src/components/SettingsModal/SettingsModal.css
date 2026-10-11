@@ -206,3 +206,22 @@
   .settings-clear { border-color: #e57368; color: #e57368; }
   .settings-clear.danger { background: #e57368; color: #1a1a1a; }
 }
+
+/* "Download App" (install + offline downloads), below "Clear saved data". */
+.settings-download {
+  margin-top: 14px;
+}
+.settings-download-btn {
+  height: 38px;
+  padding: 0 16px;
+  border: 1px solid var(--fg);
+  border-radius: 9px;
+  background: none;
+  color: var(--fg);
+  font: 600 14px/1 ui-sans-serif, system-ui, sans-serif;
+  cursor: pointer;
+}
+.settings-download-btn:hover,
+.settings-download-btn:focus-visible {
+  background: var(--hit);
+}

@@ -20,6 +20,12 @@
   border: 1px solid var(--line);
   border-radius: 12px;
   box-shadow: 0 12px 36px rgb(0 0 0 / 0.22);
+  /* Long page lists: scroll inside the dropdown instead of running off-screen. */
+  max-height: calc(100vh - 80px);
+  max-height: calc(100dvh - 80px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
 }
 .menu-dropdown button {
   width: 100%;
