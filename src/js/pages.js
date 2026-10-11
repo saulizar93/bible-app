@@ -35,6 +35,10 @@ export const INFO_PAGES = [
     label: { en: "Image veneration", es: "Veneración de imágenes" },
   },
   {
+    id: "matthew-16-18",
+    label: { en: "Matthew 16:18", es: "Mateo 16:18" },
+  },
+  {
     id: "trinity-development",
     label: { en: "Development of the Trinity", es: "Desarrollo de la Trinidad" },
   },

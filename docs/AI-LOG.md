@@ -487,3 +487,9 @@
 - Verses filled by tmp-check/qgen/fill_quotes.py from baptism.{en,es}.tpl (one-off); the .md files are ordinary hand-edited pages.
 - Not included from the draft request (could not be verified): a Zwingli quotation, and a 13th-c. council date for pouring; the Acts of Peter is described as giving the threefold formula and then calling it baptism "in thy name" (to Jesus Christ), which is what the text says; the "Jewish name" point is presented as a question, not a documented fact.
 - Added afterwards: Zwingli on Matt 28:19 (Von dem Touff…, 1525, Z IV 236–237), verified in the Zurich critical edition (irg.uzh.ch zwingli-werke, Werk 56) and translated from the Swiss German, in section 6 and the sources of both baptism pages.
+
+## 2026-10-10 — New page: "Matthew 16:18"
+- src/js/pages.js: new entry `matthew-16-18` ("Matthew 16:18" / "Mateo 16:18") right below "Image veneration".
+- public/data/pages/matthew-16-18.en.md (KJV) / .es.md (RVG), following William Webster, The Matthew 16 Controversy (1996): Vatican I's claim (Pastor Aeternus 1); the text (Petros/petra, Christ the foundation, all apostles, keys to all, "Get thee behind me"); the Fathers grouped by reading — confession (Hilary, Ambrose, Chrysostom, Cyril), Christ (Augustine Tract. John 124.5, Retractations 1.21; Jerome), all apostles/believers (Origen, Jerome Adv. Jov. 1.26), Peter but not papacy (Tertullian De pudicitia 21, Cyprian Unity 4 + 7th Council of Carthage, Firmilian); Gregory the Great Letters 7.33; Nicaea c. 6, Constantinople c. 3, Chalcedon c. 28; Launoy's count (44/17/16/8) via Archbishop Kenrick's undelivered Vatican I speech; "unanimous consent of the Fathers" (Trent, Vatican I, 1564 profession) vs. reality; CCC 424 and 881.
+- Correction to the draft: the surveyor was Jean de Launoy (1603–1678), not "Jean Morris (1591–1659)".
+- Verses filled by tmp-check/qgen/fill_quotes.py (one-off); the .md files are ordinary hand-edited pages.
