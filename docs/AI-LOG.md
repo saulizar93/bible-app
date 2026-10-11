@@ -516,3 +516,9 @@
 - Added public/data/pages/evidence-creator.en.md / .es.md and evidence-jesus.en.md / .es.md (generated from tmp-check/qgen/*.tpl with fill_quotes.py; verses from KJV / RVG).
 - Registered both in src/js/pages.js right after "baptism".
 - Corrections to the user's source essay: DNA end to end reaches the Sun and back "hundreds of times" (not 600); ~30 trillion human cells (not 50 trillion); P52 dating stated cautiously (c. 100–150, debated); apostles' martyrdoms presented as early tradition, not all documented; the "more time" argument framed as decay/entropy; Qur'an honours Jesus' miracles but denies the crucifixion (4:157).
+
+## 2026-10-11 — Info pages follow the Settings text size
+
+- src/components/InfoPanel/InfoPanel.css: the info-page title, body text, headings, featured verse quotes (and their citation) and tables now use calc(<size> * var(--reading-scale, 1)), the same variable that scales the Bible panes. The report form and offline panel are unchanged.
+- Follow-up: the Report a bug form and the offline download page (OfflinePanel) font sizes in InfoPanel.css now also scale with --reading-scale.
+- Follow-up (user request): reverted the offline download page (.offline-*) font sizes to fixed px; only info pages and the Report a bug form scale.
