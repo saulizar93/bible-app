@@ -39,6 +39,10 @@ export const INFO_PAGES = [
     label: { en: "Matthew 16:18", es: "Mateo 16:18" },
   },
   {
+    id: "church-history",
+    label: { en: "Church History", es: "Historia de la Iglesia" },
+  },
+  {
     id: "trinity-development",
     label: { en: "Development of the Trinity", es: "Desarrollo de la Trinidad" },
   },
