@@ -296,6 +296,11 @@ Un obispo anónimo, que escribía del lado de Esteban en la misma controversia, 
 
 > «…**la invocación del nombre de Jesús** no debe ser considerada inútil por nosotros…» (_Tratado sobre el rebautismo_ 7)
 
+Y explica por qué los apóstoles mandaron bautizar en el nombre de Jesús:
+
+> «Ni, a mi parecer, fue por ninguna otra razón que los apóstoles mandaron a quienes se dirigían en el Espíritu Santo que fueran **bautizados en el nombre de Cristo Jesús**, sino porque **el poder del nombre de Jesús invocado sobre cualquier hombre por el bautismo podía dar al que fuera bautizado una ventaja nada pequeña para alcanzar la salvación**, como relata Pedro en los Hechos de los Apóstoles, diciendo: "Porque no hay otro nombre bajo del cielo, dado a los hombres, en que debamos ser salvos". Como también lo explica el apóstol Pablo, mostrando que Dios exaltó a nuestro Señor Jesús y le dio un nombre que es sobre todo nombre, para que en el nombre de Jesús se doble toda rodilla de los que están en el cielo, y en la tierra, y debajo de la tierra, y toda lengua confiese que Jesús es el Señor, para la gloria de Dios Padre. Y aquel sobre quien, al ser bautizado, **se hiciera la invocación en el nombre de Jesús**, aunque recibiera el bautismo en algún error, no por eso dejaría de poder conocer la verdad en algún momento, y corregir su error, y venir a la Iglesia y al obispo, y **confesar sinceramente a nuestro Jesús** delante de los hombres; de modo que entonces, cuando el obispo le impusiera las manos, recibiera también el Espíritu Santo, y no perdería aquella primera **invocación del nombre de Jesús**». (_Tratado sobre el rebautismo_ 6)
+
+
 Cita a los samaritanos, que «solo habían sido bautizados **en el nombre del Señor Jesús**» (3), y las palabras de Pedro en casa de Cornelio, «les mandó que fueran bautizados **en el nombre de Jesucristo**» (5), y cita Hechos 4:12: «no hay otro nombre bajo del cielo, dado a los hombres, en que debamos ser salvos» (6). Insiste en que se debe guardar «la santísima invocación del nombre de Jesucristo» (15). A mediados del siglo III, el bautismo en el nombre de Jesús todavía se practicaba lo bastante como para que un obispo de Roma lo defendiera y un obispo de Cartago lo atacara.
 
 # 5. La iglesia imperial lo prohíbe

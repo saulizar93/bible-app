@@ -296,6 +296,11 @@ An anonymous bishop, writing on Stephen's side of the same controversy, defends 
 
 > "…the **invocation of the name of Jesus** ought not to be thought futile by us…" (_Treatise on Rebaptism_ 7)
 
+And he explains why the apostles commanded baptism in the name of Jesus:
+
+> "Nor, as I think, was it for any other reason that the apostles had charged those whom they addressed in the Holy Spirit, that they should be **baptized in the name of Christ Jesus**, except that **the power of the name of Jesus invoked upon any man by baptism might afford to him who should be baptized no slight advantage for the attainment of salvation**, as Peter relates in the Acts of the Apostles, saying: 'For there is none other name under heaven given among men whereby we must be saved.' As also the Apostle Paul unfolds, showing that God hath exalted our Lord Jesus, and given Him a name, that it may be above every name, that in the name of Jesus all should bow the knee, of things heavenly and earthly, and under the earth, and every tongue should confess that Jesus is Lord in the glory of God the Father. And he on whom, when he should be baptized, **invocation should be made in the name of Jesus**, although he might obtain baptism under some error, still would not be hindered from knowing the truth at some time or another, and correcting his error, and coming to the Church and to the bishop, and sincerely **confessing our Jesus** before men; so that then, when hands were laid upon him by the bishop, he might also receive the Holy Spirit, and he would not lose that former **invocation of the name of Jesus**." (_Treatise on Rebaptism_ 6)
+
+
 He cites the Samaritans, who "had only been baptized **in the name of the Lord Jesus**" (3), and Peter's words at the house of Cornelius, "he commanded them to be baptized **in the name of Jesus Christ**" (5), and quotes Acts 4:12: "For there is none other name under heaven given among men whereby we must be saved" (6). He insists that "the most holy invocation of the name of Jesus Christ" must be guarded (15). In the middle of the third century, baptism in the name of Jesus was still practised widely enough to be defended by one bishop of Rome and attacked by another bishop of Carthage.
 
 # 5. The imperial church forbids it
