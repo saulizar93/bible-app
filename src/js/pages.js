@@ -23,6 +23,10 @@ export const INFO_PAGES = [
     label: { en: "Who gave us the Bible?", es: "¿Quién nos dio la Biblia?" },
   },
   {
+    id: "one-true-church",
+    label: { en: "The One True Church", es: "La única iglesia verdadera" },
+  },
+  {
     id: "image-veneration",
     label: { en: "Image veneration", es: "Veneración de imágenes" },
   },
