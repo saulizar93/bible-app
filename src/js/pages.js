@@ -42,6 +42,10 @@ export const INFO_PAGES = [
     id: "trinitarian-questions",
     label: { en: "Questions for Trinitarians", es: "Preguntas para trinitarios" },
   },
+  {
+    id: "baptism",
+    label: { en: "Baptism", es: "El bautismo" },
+  },
   { id: "bibliography", label: { en: "Bibliography", es: "Bibliografía" } },
   { id: "author", label: { en: "About the Author", es: "Acerca del autor" } },
   // Not a Markdown page: InfoPanel shows the ReportBugForm for this id.
