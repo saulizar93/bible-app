@@ -4,22 +4,22 @@
   "v": {
     "1": [
       "Libro de la generación de Jesucristo, hijo de David, hijo de Abraham.",
-      "Abraham engendró a Isaac: e Isaac engendró a Jacob: y Jacob engendró a Judas y a sus hermanos:",
-      "Y Judas engendró de Tamar a Fares y a Zara: y Fares engendró a Esrom: y Esrom engendró a Aram:",
-      "Y Aram engendró a Aminadab: y Aminadab engendró a Naasón: y Naasón engendró a Salmón:",
-      "Y Salmón engendró de Rahab a Boaz, y Boaz engendró de Ruth a Obed: y Obed engendró a Isaí:",
-      "E Isaí engendró al rey David: y el rey David engendró a Salomón de la que fue mujer de Urías:",
-      "Y Salomón engendró a Roboam: y Roboam engendró a Abías: y Abías engendró a Asa:",
-      "Y Asa engendró a Josafat: y Josafat engendró a Joram: y Joram engendró a Ozías:",
-      "Y Ozías engendró a Jotam: y Jotam engendró a Acaz: y Acaz engendró a Ezequías:",
-      "Y Ezequías engendró a Manasés: y Manasés engendró a Amón: y Amón engendró a Josías:",
+      "Abraham engendró a Isaac; e Isaac engendró a Jacob; y Jacob engendró a Judas y a sus hermanos;",
+      "Y Judas engendró de Tamar a Fares y a Zara; y Fares engendró a Esrom; y Esrom engendró a Aram;",
+      "Y Aram engendró a Aminadab; y Aminadab engendró a Naasón; y Naasón engendró a Salmón;",
+      "Y Salmón engendró de Rahab a Boaz, y Boaz engendró de Ruth a Obed; y Obed engendró a Isaí;",
+      "E Isaí engendró al rey David; y el rey David engendró a Salomón de la que fue mujer de Urías;",
+      "Y Salomón engendró a Roboam; y Roboam engendró a Abías; y Abías engendró a Asa;",
+      "Y Asa engendró a Josafat; y Josafat engendró a Joram; y Joram engendró a Ozías;",
+      "Y Ozías engendró a Jotam; y Jotam engendró a Acaz; y Acaz engendró a Ezequías;",
+      "Y Ezequías engendró a Manasés; y Manasés engendró a Amón; y Amón engendró a Josías;",
       "Y Josías engendró a Jeconías y a sus hermanos, en la transmigración de Babilonia.",
-      "Y después de la transmigración de Babilonia, Jeconías engendró a Salatiel: y Salatiel engendró a Zorobabel:",
-      "Y Zorobabel engendró a Abiud: y Abiud engendró a Eliaquim: y Eliaquim engendró a Azor:",
-      "Y Azor engendró a Sadoc: y Sadoc engendró a Aquim: y Aquim engendró a Eliud:",
-      "Y Eliud engendró a Eleazar: y Eleazar engendró a Matán: y Matán engendró a Jacob:",
+      "Y después de la transmigración de Babilonia, Jeconías engendró a Salatiel; y Salatiel engendró a Zorobabel;",
+      "Y Zorobabel engendró a Abiud; y Abiud engendró a Eliaquim; y Eliaquim engendró a Azor;",
+      "Y Azor engendró a Sadoc; y Sadoc engendró a Aquim; y Aquim engendró a Eliud;",
+      "Y Eliud engendró a Eleazar; y Eleazar engendró a Matán; y Matán engendró a Jacob;",
       "Y Jacob engendró a José, marido de María, de la cual nació Jesús, el cual es llamado el Cristo.",
-      "De manera que todas las generaciones desde Abraham hasta David son catorce generaciones: y desde David hasta la transmigración de Babilonia, catorce generaciones: y desde la transmigración de Babilonia hasta Cristo, catorce generaciones.",
+      "De manera que todas las generaciones desde Abraham hasta David son catorce generaciones; y desde David hasta la transmigración de Babilonia, catorce generaciones; y desde la transmigración de Babilonia hasta Cristo, catorce generaciones.",
       "Y el nacimiento de Jesucristo fue así: Que siendo María su madre desposada con José, antes que se juntasen, se halló haber concebido del Espíritu Santo.",
       "Y José su marido, como era justo, y no quisiese infamarla, quiso dejarla secretamente.",
       "Y pensando él en esto, he aquí el ángel del Señor le aparece en sueños, diciendo: José, hijo de David, no temas de recibir a María tu mujer, porque lo que en ella es engendrado, del Espíritu Santo es.",
@@ -27,7 +27,7 @@
       "Todo esto aconteció para que se cumpliese lo que fue dicho por el Señor, por el profeta que dijo:",
       "He aquí la virgen concebirá y dará a luz un hijo, y llamarás su nombre Emmanuel, que traducido es: Dios con nosotros.",
       "Y despertando José del sueño, hizo como el ángel del Señor le había mandado, y recibió a su mujer.",
-      "Y no la conoció hasta que dio a luz a su hijo primogénito: y llamó su nombre Jesús."
+      "Y no la conoció hasta que dio a luz a su hijo primogénito; y llamó su nombre Jesús."
     ],
     "2": [
       "Y como fue nacido Jesús en Belén de Judea en días del rey Herodes, he aquí unos magos vinieron del oriente a Jerusalén,",
@@ -1190,7 +1190,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Isaac:",
+          "t": "a Isaac;",
           "s": "G2464",
           "m": "N-PRI",
           "g": "ισαακ"
@@ -1208,7 +1208,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Jacob:",
+          "t": "a Jacob;",
           "s": "G2384",
           "m": "N-PRI",
           "g": "ιακωβ"
@@ -1250,7 +1250,7 @@
           "g": "αυτου"
         },
         {
-          "t": "hermanos:",
+          "t": "hermanos;",
           "s": "G80",
           "m": "N-APM",
           "g": "αδελφους"
@@ -1300,7 +1300,7 @@
           "g": "δε"
         },
         {
-          "t": "a Zara:",
+          "t": "a Zara;",
           "s": "G2196",
           "m": "N-PRI",
           "g": "ζαρα"
@@ -1324,7 +1324,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Esrom:",
+          "t": "a Esrom;",
           "s": "G2074",
           "m": "N-PRI",
           "g": "εσρωμ"
@@ -1348,7 +1348,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Aram:",
+          "t": "a Aram;",
           "s": "G689",
           "m": "N-PRI",
           "g": "αραμ"
@@ -1374,7 +1374,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Aminadab:",
+          "t": "a Aminadab;",
           "s": "G284",
           "m": "N-PRI",
           "g": "αμιναδαβ"
@@ -1398,7 +1398,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Naasón:",
+          "t": "a Naasón;",
           "s": "G3476",
           "m": "N-PRI",
           "g": "ναασσων"
@@ -1422,7 +1422,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Salmón:",
+          "t": "a Salmón;",
           "s": "G4533",
           "m": "N-PRI",
           "g": "σαλμων"
@@ -1496,7 +1496,7 @@
           "g": "ρουθ"
         },
         {
-          "t": "a Obed:",
+          "t": "a Obed;",
           "s": "G5601",
           "m": "N-PRI",
           "g": "ωβηδ"
@@ -1520,7 +1520,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Isaí:",
+          "t": "a Isaí;",
           "s": "G2421",
           "m": "N-PRI",
           "g": "ιεσσαι"
@@ -1558,7 +1558,7 @@
           "g": "βασιλεα"
         },
         {
-          "t": "David:",
+          "t": "David;",
           "s": "G1138",
           "m": "N-PRI",
           "g": "δαβιδ"
@@ -1630,7 +1630,7 @@
           "g": "εκ"
         },
         {
-          "t": "Urías:",
+          "t": "Urías;",
           "s": "G3774",
           "m": "N-GSM",
           "g": "ουριου"
@@ -1656,7 +1656,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Roboam:",
+          "t": "a Roboam;",
           "s": "G4497",
           "m": "N-PRI",
           "g": "ροβοαμ"
@@ -1680,7 +1680,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Abías:",
+          "t": "a Abías;",
           "s": "G7",
           "m": "N-PRI",
           "g": "αβια"
@@ -1704,7 +1704,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Asa:",
+          "t": "a Asa;",
           "s": "G760",
           "m": "N-PRI",
           "g": "ασα"
@@ -1730,7 +1730,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Josafat:",
+          "t": "a Josafat;",
           "s": "G2498",
           "m": "N-PRI",
           "g": "ιωσαφατ"
@@ -1754,7 +1754,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Joram:",
+          "t": "a Joram;",
           "s": "G2496",
           "m": "N-PRI",
           "g": "ιωραμ"
@@ -1778,7 +1778,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Ozías:",
+          "t": "a Ozías;",
           "s": "G3604",
           "m": "N-ASM",
           "g": "οζιαν"
@@ -1804,7 +1804,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Jotam:",
+          "t": "a Jotam;",
           "s": "G2488",
           "m": "N-PRI",
           "g": "ιωαθαμ"
@@ -1828,7 +1828,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Acaz:",
+          "t": "a Acaz;",
           "s": "G881",
           "m": "N-PRI",
           "g": "αχαζ"
@@ -1852,7 +1852,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Ezequías:",
+          "t": "a Ezequías;",
           "s": "G1478",
           "m": "N-ASM",
           "g": "εζεκιαν"
@@ -1878,7 +1878,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Manasés:",
+          "t": "a Manasés;",
           "s": "G3128",
           "m": "N-ASM",
           "g": "μανασση"
@@ -1902,7 +1902,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Amón:",
+          "t": "a Amón;",
           "s": "G300",
           "m": "N-PRI",
           "g": "αμων"
@@ -1926,7 +1926,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Josías:",
+          "t": "a Josías;",
           "s": "G2502",
           "m": "N-ASM",
           "g": "ιωσιαν"
@@ -2036,7 +2036,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Salatiel:",
+          "t": "a Salatiel;",
           "s": "G4528",
           "m": "N-PRI",
           "g": "σαλαθιηλ"
@@ -2060,7 +2060,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Zorobabel:",
+          "t": "a Zorobabel;",
           "s": "G2216",
           "m": "N-PRI",
           "g": "ζοροβαβελ"
@@ -2086,7 +2086,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Abiud:",
+          "t": "a Abiud;",
           "s": "G10",
           "m": "N-PRI",
           "g": "αβιουδ"
@@ -2110,7 +2110,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Eliaquim:",
+          "t": "a Eliaquim;",
           "s": "G1662",
           "m": "N-PRI",
           "g": "ελιακειμ"
@@ -2134,7 +2134,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Azor:",
+          "t": "a Azor;",
           "s": "G107",
           "m": "N-PRI",
           "g": "αζωρ"
@@ -2160,7 +2160,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Sadoc:",
+          "t": "a Sadoc;",
           "s": "G4524",
           "m": "N-PRI",
           "g": "σαδωκ"
@@ -2184,7 +2184,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Aquim:",
+          "t": "a Aquim;",
           "s": "G885",
           "m": "N-PRI",
           "g": "αχειμ"
@@ -2208,7 +2208,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Eliud:",
+          "t": "a Eliud;",
           "s": "G1664",
           "m": "N-PRI",
           "g": "ελιουδ"
@@ -2234,7 +2234,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Eleazar:",
+          "t": "a Eleazar;",
           "s": "G1648",
           "m": "N-PRI",
           "g": "ελεαζαρ"
@@ -2252,7 +2252,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Matán:",
+          "t": "a Matán;",
           "s": "G3157",
           "m": "N-PRI",
           "g": "ματθαν"
@@ -2270,7 +2270,7 @@
           "g": "εγεννησεν"
         },
         {
-          "t": "a Jacob:",
+          "t": "a Jacob;",
           "s": "G2384",
           "m": "N-PRI",
           "g": "ιακωβ"
@@ -2410,7 +2410,7 @@
           "g": "δεκατεσσαρες"
         },
         {
-          "t": "generaciones:",
+          "t": "generaciones;",
           "s": "G1074",
           "m": "N-NPF",
           "g": "γενεαι"
@@ -2462,7 +2462,7 @@
           "g": "δεκατεσσαρες"
         },
         {
-          "t": "generaciones:",
+          "t": "generaciones;",
           "s": "G1074",
           "m": "N-NPF",
           "g": "γενεαι"
@@ -3352,7 +3352,7 @@
           "g": "υιον"
         },
         {
-          "t": "primogénito:",
+          "t": "primogénito;",
           "s": "G4416",
           "m": "A-ASM-S",
           "g": "πρωτοτοκον"

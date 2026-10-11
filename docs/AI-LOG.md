@@ -522,3 +522,8 @@
 - src/components/InfoPanel/InfoPanel.css: the info-page title, body text, headings, featured verse quotes (and their citation) and tables now use calc(<size> * var(--reading-scale, 1)), the same variable that scales the Bible panes. The report form and offline panel are unchanged.
 - Follow-up: the Report a bug form and the offline download page (OfflinePanel) font sizes in InfoPanel.css now also scale with --reading-scale.
 - Follow-up (user request): reverted the offline download page (.offline-*) font sizes to fixed px; only info pages and the Report a bug form scale.
+
+## 2026-10-11 — RVO: Matthew 1 colons → semicolons
+
+- scripts/rvo/ediciones-manuales.json: manual edits for Mateo 1:2-10, 12-15, 17, 18, 20, 25 changing ":" to ";" (1:22 and 1:23 keep their colons, as requested). Reran `python3 scripts/rvo/transform.py`: only public/data/bibles/rvo-strong/40.json changed (17 verses of Mt 1; text and Strong's tokens; Strong's numbers verified unchanged), plus the regenerated review CSVs in scripts/rvo/changes/.
+- Follow-up (user request): Mateo 1:18 («fue así:») and 1:20 («diciendo:») keep their colons; their manual edits were removed and transform.py rerun.
