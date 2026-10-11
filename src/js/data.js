@@ -140,14 +140,14 @@ export const PANE_OPTIONS = [
   },
   {
     code: "rvo-strong",
-    label: "RVO (TR)",
-    name: "Reina-Valera-Ojeda (TR)", // full name shown on the pane picker once selected
+    label: "RVO (TR+MT+CT)",
+    name: "Reina Valera Ojeda (TR+MT+CT)", // full name shown on the pane picker once selected
     kind: "bible",
     lang: "es",
     strongs: true,
     concord: "rvo-strong/", // data/concord/rvo-strong/{greek,hebrew}
     citation: "RVO2026",
-    copyright: "Reina-Valera-Ojeda. Dominio público.",
+    copyright: "Reina Valera Ojeda. Dominio público.",
   },
   {
     code: "torres-amat",

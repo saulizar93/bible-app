@@ -510,3 +510,9 @@
 
 ## 2026-10-11 — Church History: One-God entries and the confessional booth
 - church-history.en.md / .es.md (edited in place by tmp-check/qgen/ch_insert.py, one-off): entries tagged **[One God]** / **[Un solo Dios]** — Noetus/Praxeas/Sabellius/Zephyrinus/Callistus (c. 190–220), Commodian (c. 250), Pentapolis and the two Dionysii (c. 257–262), Marcellus/Julius/Serdica/Photinus (336–351), Apostolic Canon 50 (c. 380), Constantinople 381 canon 1, Leo's Letter 15 (447), Pelagius I (DH 445), Braga I (561, DH 451), Trullo canon 95 (692), Nicholas I (866), Servetus (1531, 1553), Wightman (1612), Swedenborg (1771), Arroyo Seco / Ewart / AG 1916 (1913–1916), UPC (1945); plus solicitation in confession (Pius IV 1561, Gregory XV 1622, Benedict XIV 1741) and the confessional booth (Borromeo, Milan 1565–1577; Roman Ritual 1614). An intro line explains the tag.
+
+## 2026-10-11 — Info pages: Evidence of a Creator, Evidence for Jesus
+
+- Added public/data/pages/evidence-creator.en.md / .es.md and evidence-jesus.en.md / .es.md (generated from tmp-check/qgen/*.tpl with fill_quotes.py; verses from KJV / RVG).
+- Registered both in src/js/pages.js right after "baptism".
+- Corrections to the user's source essay: DNA end to end reaches the Sun and back "hundreds of times" (not 600); ~30 trillion human cells (not 50 trillion); P52 dating stated cautiously (c. 100–150, debated); apostles' martyrdoms presented as early tradition, not all documented; the "more time" argument framed as decay/entropy; Qur'an honours Jesus' miracles but denies the crucifixion (4:157).

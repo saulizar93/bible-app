@@ -54,6 +54,14 @@ export const INFO_PAGES = [
     id: "baptism",
     label: { en: "Baptism", es: "El bautismo" },
   },
+  {
+    id: "evidence-creator",
+    label: { en: "Evidence of a Creator", es: "Evidencia de un Creador" },
+  },
+  {
+    id: "evidence-jesus",
+    label: { en: "Evidence for Jesus", es: "Evidencia de Jesús" },
+  },
   { id: "bibliography", label: { en: "Bibliography", es: "Bibliografía" } },
   { id: "author", label: { en: "About the Author", es: "Acerca del autor" } },
   // Not a Markdown page: InfoPanel shows the ReportBugForm for this id.
