@@ -27,6 +27,10 @@ export const INFO_PAGES = [
     label: { en: "The One True Church", es: "La única iglesia verdadera" },
   },
   {
+    id: "first-bishops-of-rome",
+    label: { en: "First Bishops of Rome", es: "Los primeros obispos de Roma" },
+  },
+  {
     id: "image-veneration",
     label: { en: "Image veneration", es: "Veneración de imágenes" },
   },
