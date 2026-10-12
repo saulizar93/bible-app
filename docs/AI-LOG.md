@@ -527,3 +527,20 @@
 
 - scripts/rvo/ediciones-manuales.json: manual edits for Mateo 1:2-10, 12-15, 17, 18, 20, 25 changing ":" to ";" (1:22 and 1:23 keep their colons, as requested). Reran `python3 scripts/rvo/transform.py`: only public/data/bibles/rvo-strong/40.json changed (17 verses of Mt 1; text and Strong's tokens; Strong's numbers verified unchanged), plus the regenerated review CSVs in scripts/rvo/changes/.
 - Follow-up (user request): Mateo 1:18 («fue así:») and 1:20 («diciendo:») keep their colons; their manual edits were removed and transform.py rerun.
+
+## 2026-10-11 — Strong's fix: "Pedro" tagged G1565 instead of G4074
+
+- The Spanish Strong's sources tagged every "Pedro" as G1565 (ekeinos, "that one") instead of G4074 (Petros); e.g. Mt 16:18 "tú eres Pedro" showed G1565.
+- New rerunnable script scripts/fix-strongs.py retags those tokens (and one "Cefas" G1565 -> G2786 in Straubinger) in rvg-strong, rv1909-strong, straubinger-strong and scripts/rvo/backup-original; rvo-strong regenerated with scripts/rvo/transform.py. 777 tokens changed in Matthew, Mark, Luke, John, Acts, Galatians and 2 Peter; verified against HEAD that only Strong's numbers changed (no text, morphology or structure).
+- Concordances rebuilt: public/data/concord/rv1909-strong and rvo-strong (node scripts/build-concordance.mjs).
+- If any of these Bibles is rebuilt from its sources, run scripts/fix-strongs.py again afterwards.
+- Follow-up: Mt 16:18 "y" after "Pedro," retagged G1161 -> G2532 (kai) in all four Spanish tagged Bibles (VERSE_FIXES in scripts/fix-strongs.py); rvo-strong and both concordances regenerated.
+
+## 2026-10-11 — KJV concordance rebuilt; cache versions bumped
+
+- The user's hand fix of Ex 32:4 (kjv-strong "These" -> H428) was not in the KJV concordance: rebuilt public/data/concord/{greek,hebrew} with `node scripts/build-concordance.mjs public/data/bibles/kjv-strong`. The BSB, MSB, RV1909 and RVO concordances already had it.
+- src/js/data.js: DATA_VERSION 14 -> 15 (Bible chapters changed: RVO Mt 1, Pedro/G4074 and Mt 16:18 retags) and LEXICON_VERSION 7 -> 8 (concordances rebuilt), so browsers and offline downloads fetch the new data instead of their cached copies.
+
+## 2026-10-11 — README rewritten
+
+- README.md replaced the original step-1 setup notes (outdated: Vite scaffolding, old folder names) with current instructions: everyday commands and publishing (push to main -> GitHub Pages), where things live, the list of Bibles and which concordance each uses, hand-editing text and Strong's tags (v/w must match), rebuilding concordances, fix-strongs.py, updating the RVO (ediciones-manuales.json, transform.py, name_map.json, review CSVs), notes and info pages, cache version numbers, and rebuilding from sources.
