@@ -44,3 +44,27 @@ export function saveSettings({ scale, font, numScale }) {
 }
 
 export const fontStack = (id) => (FONTS.find((f) => f.id === id) || FONTS[0]).stack;
+
+/* Color theme: "dark" (default on every device) or "light", chosen in Settings.
+ * Applied as data-theme on <html>; CSS dark rules use :root[data-theme="dark"].
+ * index.html applies the saved value before the app loads (no flash). */
+export const THEME_KEY = "app_theme";
+const THEME_BAR = { dark: "#14130f", light: "#fbfaf7" }; // browser/status bar color
+
+export function loadTheme() {
+  try {
+    return localStorage.getItem(THEME_KEY) === "light" ? "light" : "dark";
+  } catch {
+    return "dark";
+  }
+}
+
+export function applyTheme(theme) {
+  document.documentElement.dataset.theme = theme;
+  document.querySelector('meta[name="theme-color"]')?.setAttribute("content", THEME_BAR[theme]);
+  try {
+    localStorage.setItem(THEME_KEY, theme);
+  } catch {
+    /* storage blocked — theme still applies for this visit */
+  }
+}

@@ -342,12 +342,11 @@
   color: #2f855a;
   font-weight: 600;
 }
-@media (prefers-color-scheme: dark) {
-  .offline-ok,
-  .offline-status.ready {
+/* dark theme (data-theme on <html>, set in index.html / App.jsx) */
+:root[data-theme="dark"] .offline-ok,
+:root[data-theme="dark"] .offline-status.ready {
     color: #68d391;
   }
-}
 .offline-btn {
   padding: 5px 12px;
   border: 1px solid var(--fg);
@@ -472,27 +471,22 @@
 
 /* ---------- dark mode ---------- */
 
-@media (prefers-color-scheme: dark) {
-  .tier-top .tier-badge {
+/* dark theme (data-theme on <html>, set in index.html / App.jsx) */
+:root[data-theme="dark"] .tier-top .tier-badge {
     color: #8fd3aa;
   }
-
-  .tier-good .tier-badge {
+:root[data-theme="dark"] .tier-good .tier-badge {
     color: #b0dc9f;
   }
-
-  .tier-average .tier-badge {
+:root[data-theme="dark"] .tier-average .tier-badge {
     color: #e5c35b;
   }
-
-  .tier-bad .tier-badge {
+:root[data-theme="dark"] .tier-bad .tier-badge {
     color: #f5b66b;
   }
-
-  .tier-terrible .tier-badge {
+:root[data-theme="dark"] .tier-terrible .tier-badge {
     color: #f19a90;
   }
-}
 
 .info-legend {
   display: flex;

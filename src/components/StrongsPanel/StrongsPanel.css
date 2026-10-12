@@ -70,13 +70,13 @@
 
 /* Hover state: background highlight and darker icon */
 .strongs-close:hover {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: color-mix(in srgb, var(--fg) 12%, transparent);
   color: #f9fafb;
 }
 
 /* Active state: slight press-down scale effect */
 .strongs-close:active {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: color-mix(in srgb, var(--fg) 20%, transparent);
   transform: scale(0.92);
 }
 
@@ -226,15 +226,15 @@
   margin-top: 1.25rem;
   margin-bottom: 0.75rem;
   padding-top: 0.75rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid color-mix(in srgb, var(--fg) 10%, transparent);
   display: flex;
   justify-content: center; /* Centers the button leaving empty space on both sides */
 }
 
 .strongs-toggle-btn {
-  background: rgba(255, 255, 255, 0.08);
+  background: color-mix(in srgb, var(--fg) 8%, transparent);
   color: inherit;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid color-mix(in srgb, var(--fg) 18%, transparent);
   border-radius: 9999px; /* Pill / oval shape */
   padding: 0.55rem 1.4rem; /* Snug vertical padding with balanced side padding */
   font-size: 0.875rem;
@@ -252,12 +252,12 @@
 }
 
 .strongs-toggle-btn:hover {
-  background: rgba(255, 255, 255, 0.14);
-  border-color: rgba(255, 255, 255, 0.3);
+  background: color-mix(in srgb, var(--fg) 14%, transparent);
+  border-color: color-mix(in srgb, var(--fg) 30%, transparent);
 }
 
 .strongs-toggle-btn:active {
-  background: rgba(255, 255, 255, 0.05);
+  background: color-mix(in srgb, var(--fg) 5%, transparent);
   transform: scale(0.98);
 }
 
@@ -416,4 +416,15 @@
   margin-top: 10px;
   padding-top: 8px;
   border-top: 1px dashed var(--line);
+}
+
+/* Light theme: give "Show other occurrences" a visible fill and outline */
+:root:not([data-theme="dark"]) .strongs-toggle-btn {
+  background: var(--hit);
+  border-color: color-mix(in srgb, var(--fg) 40%, transparent);
+  font-weight: 600;
+}
+:root:not([data-theme="dark"]) .strongs-toggle-btn:hover {
+  background: color-mix(in srgb, var(--hit) 70%, var(--fg) 10%);
+  border-color: var(--fg);
 }

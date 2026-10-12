@@ -11,7 +11,7 @@ import LanguageSelectionModal from "./components/Modals/LanguageSelectionModal.j
 import SettingsModal from "./components/SettingsModal/SettingsModal.jsx";
 import InfoPanel from "./components/InfoPanel/InfoPanel.jsx";
 import CompareModal from "./components/CompareModal/CompareModal.jsx";
-import { loadSettings, saveSettings, fontStack } from "./js/settings.js";
+import { loadSettings, saveSettings, fontStack, loadTheme, applyTheme } from "./js/settings.js";
 import { isStandalone, startStarterPack } from "./js/offline.js";
 import "./app.css";
 
@@ -95,6 +95,10 @@ export default function App() {
     top: savedDefault(STORAGE_KEYS.DEFAULT_TOP),
     bottom: savedDefault(STORAGE_KEYS.DEFAULT_BOTTOM),
   }));
+
+  // Settings: light / dark theme (app_theme), applied on <html>.
+  const [theme, setTheme] = useState(loadTheme);
+  useEffect(() => applyTheme(theme), [theme]);
 
   // Settings: switch the interface language (app_lang). Panes are left as they are.
   const changeLanguage = (next) => {
@@ -406,6 +410,8 @@ export default function App() {
           onClose={() => setSettingsOpen(false)}
           lang={lang || "en"}
           onLangChange={changeLanguage}
+          theme={theme}
+          onThemeChange={setTheme}
           defaultPanes={defaultPanes}
           onDefaultPaneChange={changeDefaultPane}
           onOpenDownload={() => {

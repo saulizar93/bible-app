@@ -11,6 +11,7 @@ import "./SettingsModal.css";
 const T = {
   en: {
     language: "Language",
+    darkMode: "Dark mode",
     panes: "Default panes",
     topPane: "Top pane",
     bottomPane: "Bottom pane",
@@ -42,6 +43,7 @@ const T = {
   },
   es: {
     language: "Idioma",
+    darkMode: "Modo oscuro",
     panes: "Paneles predeterminados",
     topPane: "Panel superior",
     bottomPane: "Panel inferior",
@@ -81,6 +83,8 @@ export default function SettingsModal({
   onClose,
   lang = "en",
   onLangChange,
+  theme = "dark",
+  onThemeChange,
   defaultPanes = { top: "", bottom: "" },
   onDefaultPaneChange,
   onOpenDownload,
@@ -123,6 +127,7 @@ export default function SettingsModal({
 
         <section>
           <h3>{t.language}</h3>
+          <div className="settings-lang-row">
           <div
             className="settings-chips"
             role="radiogroup"
@@ -147,6 +152,21 @@ export default function SettingsModal({
                 {name}
               </button>
             ))}
+          </div>
+          {/* Light / dark theme switch, to the right of the language chips */}
+          <button
+            type="button"
+            role="switch"
+            aria-checked={theme === "dark"}
+            aria-label={t.darkMode}
+            title={t.darkMode}
+            className={theme === "dark" ? "settings-theme on" : "settings-theme"}
+            onClick={() => onThemeChange?.(theme === "dark" ? "light" : "dark")}
+          >
+            <span className="settings-theme-icon" aria-hidden="true">☀</span>
+            <span className="settings-theme-icon" aria-hidden="true">☾</span>
+            <span className="settings-theme-knob" aria-hidden="true" />
+          </button>
           </div>
         </section>
 

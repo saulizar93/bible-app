@@ -202,10 +202,9 @@
   flex-wrap: wrap;
   gap: 8px;
 }
-@media (prefers-color-scheme: dark) {
-  .settings-clear { border-color: #e57368; color: #e57368; }
-  .settings-clear.danger { background: #e57368; color: #1a1a1a; }
-}
+/* dark theme (data-theme on <html>, set in index.html / App.jsx) */
+:root[data-theme="dark"] .settings-clear { border-color: #e57368; color: #e57368; }
+:root[data-theme="dark"] .settings-clear.danger { background: #e57368; color: #1a1a1a; }
 
 /* "Download App" (install + offline downloads), below "Clear saved data". */
 .settings-download {
@@ -224,4 +223,48 @@
 .settings-download-btn:hover,
 .settings-download-btn:focus-visible {
   background: var(--hit);
+}
+
+/* Language chips + light/dark switch on one row */
+.settings-lang-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.settings-theme {
+  position: relative;
+  flex: none;
+  margin-left: auto;
+  width: 64px;
+  height: 36px;
+  padding: 0 9px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--fg) 6%, transparent);
+  color: var(--dim);
+  cursor: pointer;
+}
+.settings-theme-icon {
+  font-size: 15px;
+  line-height: 1;
+}
+.settings-theme-knob {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--fg);
+  transition: transform 0.18s ease;
+}
+.settings-theme.on .settings-theme-knob {
+  transform: translateX(28px);
+}
+.settings-theme:focus-visible {
+  outline: 2px solid var(--fg);
+  outline-offset: 2px;
 }

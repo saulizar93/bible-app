@@ -18,6 +18,15 @@
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="Study Bible" />
     <title>Oneness Study Bible</title>
+    <script>
+      // Color theme before the app loads (see src/js/settings.js applyTheme): dark unless "light" was chosen.
+      (function () {
+        var t = "dark";
+        try { if (localStorage.getItem("app_theme") === "light") t = "light"; } catch (e) {}
+        document.documentElement.setAttribute("data-theme", t);
+        if (t === "light") document.querySelector('meta[name="theme-color"]').setAttribute("content", "#fbfaf7");
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

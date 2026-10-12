@@ -66,13 +66,12 @@
   transition: filter 0.15s ease, box-shadow 0.15s ease;
   cursor: pointer;
 }
-@media (prefers-color-scheme: dark) {
-  .pane-picker {
+/* dark theme (data-theme on <html>, set in index.html / App.jsx) */
+:root[data-theme="dark"] .pane-picker {
     --pick-bg: #3d3413;
     --pick-border: #7a6420;
     --pick-fg: #f3d27a;
   }
-}
 .pane-picker:hover {
   filter: brightness(1.04);
   box-shadow: 0 2px 8px rgb(0 0 0 / 14%);

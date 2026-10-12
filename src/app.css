@@ -7,17 +7,17 @@
   box-sizing: border-box;
   padding-top: env(safe-area-inset-top, 0px);
   padding-bottom: env(safe-area-inset-bottom, 0px);
-  color-scheme: light dark;
+  color-scheme: light;
 }
-@media (prefers-color-scheme: dark) {
-  :root {
+/* dark theme (data-theme on <html>, set in index.html / App.jsx) */
+:root[data-theme="dark"] {
+    color-scheme: dark;
     --bg: #14130f;
     --fg: #eae5db;
     --dim: #8b8377;
     --line: #2c2a24;
     --hit: #3d3413;
   }
-}
 *,
 *::before,
 *::after {
@@ -120,7 +120,7 @@ body {
   padding: 18px 12px;
   border: 1px solid var(--line);
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.03);
+  background: color-mix(in srgb, var(--fg) 3%, transparent);
   color: var(--fg, #f9fafb);
   cursor: pointer;
   user-select: none;
@@ -132,13 +132,13 @@ body {
 
 /* Hover state matching .strongs-close */
 .lang-btn:hover {
-  background-color: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.25);
+  background-color: color-mix(in srgb, var(--fg) 8%, transparent);
+  border-color: color-mix(in srgb, var(--fg) 25%, transparent);
 }
 
 /* Press/Active state */
 .lang-btn:active {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: color-mix(in srgb, var(--fg) 12%, transparent);
   transform: scale(0.97);
 }
 

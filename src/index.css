@@ -17,7 +17,7 @@
 
   font: 18px/145% var(--sans);
   letter-spacing: 0.18px;
-  color-scheme: light dark;
+  color-scheme: light;
   color: var(--text);
   background: var(--bg);
   font-synthesis: none;
@@ -30,8 +30,9 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
+/* dark theme (data-theme on <html>, set in index.html / App.jsx) */
+:root[data-theme="dark"] {
+    color-scheme: dark;
     --text: #9ca3af;
     --text-h: #f3f4f6;
     --bg: #16171d;
@@ -44,11 +45,9 @@
     --shadow:
       rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
   }
-
-  #social .button-icon {
+:root[data-theme="dark"] #social .button-icon {
     filter: invert(1) brightness(2);
   }
-}
 
 body {
   margin: 0;

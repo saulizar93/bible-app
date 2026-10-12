@@ -50,7 +50,7 @@
   padding: 18px 12px;
   border: 1px solid var(--line);
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.03);
+  background: color-mix(in srgb, var(--fg) 3%, transparent);
   color: var(--fg, #f9fafb);
   cursor: pointer;
   user-select: none;
@@ -61,12 +61,12 @@
 }
 
 .lang-btn:hover {
-  background-color: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.25);
+  background-color: color-mix(in srgb, var(--fg) 8%, transparent);
+  border-color: color-mix(in srgb, var(--fg) 25%, transparent);
 }
 
 .lang-btn:active {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: color-mix(in srgb, var(--fg) 12%, transparent);
   transform: scale(0.97);
 }
 
