@@ -21,11 +21,11 @@ My favorite teachers:
 
 > “For the mind does not require filling like a bottle, but rather, like wood, it only requires kindling.” — Plutarch (_On Listening to Lectures_ 18)
 
-> “Study to shew thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth.” (2 Timothy 2:15)
+> “Study to shew thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth” (2 Timothy 2:15).
 
 Scripture itself is not impressed by credentials. When the rulers of Israel saw the boldness of Peter and John, "and perceived that they were **unlearned and ignorant men**, they marvelled; and they took knowledge of them, that **they had been with Jesus**" (Acts 4:13). And the Bereans were called noble not because of their schooling, but because they "**searched the scriptures daily**, whether those things were so" (Acts 17:11).
 
-> “I thank thee, O Father, Lord of heaven and earth, because thou hast hid these things from the wise and prudent, and hast revealed them unto babes.” — Jesus (Matthew 11:25)
+> “I thank thee, O Father, Lord of heaven and earth, because thou hast hid these things from the wise and prudent, and hast revealed them unto babes” (Matthew 11:25).
 
 # Why study this topic?
 
@@ -33,13 +33,21 @@ Salvation is the most important subject there is, so I will not let anyone else 
 
 Christianity is believing what Christ taught as recorded in Scripture. Religiosity is believing what men say God says.
 
-> “Let them alone: they be blind leaders of the blind. And if the blind lead the blind, both shall fall into the ditch.” (Matthew 15:14)
+> “Let them alone: they be blind leaders of the blind. And if the blind lead the blind, both shall fall into the ditch” (Matthew 15:14).
 
 The work of reformation never ends. We must keep returning to the Word because we keep forgetting it. God's instruction to Joshua still stands: "This book of the law shall not depart out of thy mouth; but **thou shalt meditate therein day and night**, that thou mayest observe to do according to all that is written therein" (Joshua 1:8). And the psalmist tells us why: "**Thy word have I hid in mine heart, that I might not sin against thee**" (Psalm 119:11).
 
 # Discernment
 
-People who do not read cannot have discernment. Without knowing what the text actually says, there is no way to know who is telling the truth and who is not. Such people often fall back on their feelings — "follow your heart" — but Scripture is clear about the heart: "**The heart is deceitful above all things, and desperately wicked: who can know it?**" (Jeremiah 17:9). "There is a way which seemeth right unto a man, but the end thereof are the ways of death" (Proverbs 14:12). And so they fall victim to men who use religion to control others.
+People who do not read cannot have discernment. Without knowing what the text actually says, there is no way to know who is telling the truth and who is not. Such people often fall back on their feelings — "follow your heart" — but Scripture is clear about the heart:
+
+> "**The heart is deceitful above all things, and desperately wicked: who can know it?**" (Jeremiah 17:9).
+
+> "There is a way which seemeth right unto a man, but the end thereof are the ways of death" (Proverbs 14:12).
+
+> “Jesus answered and said unto them, **Ye do err, not knowing the scriptures**, nor the power of God.” (Matthew 22:29).
+
+And so they fall victim to men who use religion to control others.
 
 What I have learned in my studies is that **discernment is not the ability to tell truth from a lie, but the ability to tell the truth from an almost-truth.** Outright lies are easy to reject. The danger is the doctrine that is ninety percent Scripture and ten percent tradition of men: the translation that changes a single word, or late source information taken as apostolic. That is why we are told to "prove all things; hold fast that which is good" (1 Thessalonians 5:21), and to "try the spirits whether they are of God: because many false prophets are gone out into the world" (1 John 4:1).
 

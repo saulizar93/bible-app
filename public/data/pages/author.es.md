@@ -39,7 +39,15 @@ La obra de reforma nunca termina. Debemos volver continuamente a la Palabra porq
 
 # Discernimiento
 
-Las personas que no leen no pueden tener discernimiento. Sin saber lo que realmente dice el texto, no hay manera de saber quién dice la verdad y quién no. Tales personas a menudo se dejan llevar por sus sentimientos —«sigue a tu corazón»—, pero la Escritura es clara respecto al corazón: «**Engañoso es el corazón más que todas las cosas, y perverso; ¿quién lo conocerá?**» (Jeremías 17:9). «Hay camino que al hombre le parece derecho; pero su fin es camino de muerte» (Proverbios 14:12). Y así, caen víctimas de hombres que utilizan la religión para controlar a los demás.
+Las personas que no leen no pueden tener discernimiento. Sin saber lo que realmente dice el texto, no hay manera de saber quién dice la verdad y quién no. Tales personas a menudo se dejan llevar por sus sentimientos —«sigue a tu corazón»—, pero la Escritura es clara respecto al corazón:
+
+> «**Engañoso es el corazón más que todas las cosas, y perverso; ¿quién lo conocerá?**» (Jeremías 17:9).
+
+> «Hay camino que al hombre le parece derecho; pero su fin es camino de muerte» (Proverbios 14:12).
+
+> «Entonces respondiendo Jesús, les dijo: **Erráis, no conociendo las Escrituras**, ni el poder de Dios» (Mateo 22:29)
+
+Y así, caen víctimas de hombres que utilizan la religión para controlar a los demás.
 
 Lo que he aprendido en mis estudios es que **el discernimiento no es la capacidad de distinguir la verdad de la mentira, sino la capacidad de distinguir la verdad de una verdad a medias.** Es fácil rechazar las mentiras descaradas. El peligro reside en la doctrina que se compone en un noventa por ciento de las Escrituras y en un diez por ciento de tradiciones humanas: aquella traducción que altera una sola palabra, o información proveniente de fuentes tardías que se acepta como apostólica. Por eso se nos manda: «Examinadlo todo; retened lo bueno» (1 Tesalonicenses 5:21) y «probad los espíritus si son de Dios; porque muchos falsos profetas han salido por el mundo» (1 Juan 4:1).
 
