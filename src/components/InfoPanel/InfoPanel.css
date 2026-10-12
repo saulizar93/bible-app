@@ -32,7 +32,8 @@
 .info-body p {
   margin: 0 0 0.8em;
 }
-.info-body ul {
+.info-body ul,
+.info-body ol {
   margin: 0 0 0.8em;
   padding-left: 1.3em;
 }

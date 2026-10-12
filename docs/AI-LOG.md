@@ -590,3 +590,7 @@
 - public/data/pages/images/author.jpg (the author's photo, resized to 600×600, 49 KB), shown under the name in author.en.md and author.es.md.
 - author.en.md proofread (who/that, lens, Presbyterians, Evangelicals, "in my free time", Threads, non-denominational, evangelical, punctuation and curly quotes); Plutarch quote replaced by the actual wording of _On Listening to Lectures_ 18 (the popular "vessel… wood" line is a paraphrase); the two quotes split into separate blocks. KJV quotations already matched.
 - author.es.md: Spanish Bible quotations changed to the RVG wording used throughout the app (2 Tim 2:15, Acts 4:13, Matt 11:25, 15:9, 15:14, Josh 1:8, Ps 119:11, 1 Thess 5:21, Hos 4:6 were from RV1960 or paraphrased); Matt 15:14 quote moved to its own block (it was inline after "> "); the teachers list split back into separate items; "hilos de discusión" -> Threads; small wording fixes.
+
+## 2026-10-11 — Numbered lists in info pages
+
+- InfoPanel.jsx renderMarkdown: lines starting with "1. " / "2) " etc. now form a numbered list (<ol>, keeping the first number via `start`); before, they were joined into one paragraph, so the numbers ran together on one line (e.g. About the Author → My goals). Affects 10 pages that use numbered items. InfoPanel.css: `.info-body ol` styled like `ul`.

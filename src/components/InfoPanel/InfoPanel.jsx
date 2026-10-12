@@ -12,6 +12,7 @@ import "./InfoPanel.css";
  * Supported formatting (a small Markdown subset):
  *   # Heading / ## Subheading / ### Small heading
  *   - bullet item
+ *   1. numbered item (any number followed by "." or ")")
  *   - {top} / {low} / {worst} at the start of a bullet = tier badge + highlight (Bibliography)
  *   > quoted line (consecutive > lines form one quote block)
  *   > — Reference   as the last line of a quote = featured verse with its reference below
@@ -124,6 +125,8 @@ function renderMarkdown(src, lang = "en") {
   const blocks = [];
   let para = [];
   let list = [];
+  let ordered = false; // current list is numbered (1. 2. 3.)
+  let start = 1; // number of its first item
   const flushPara = () => {
     if (para.length)
       blocks.push(<p key={blocks.length}>{inline(para.join(" "))}</p>);
@@ -184,9 +187,10 @@ function renderMarkdown(src, lang = "en") {
     table = [];
   };
   const flushList = () => {
+    const List = ordered ? "ol" : "ul";
     if (list.length)
       blocks.push(
-        <ul key={blocks.length}>
+        <List key={blocks.length} start={ordered && start !== 1 ? start : undefined}>
           {list.map((item, i) =>
             (() => {
               const m = item.match(/^\{(top|good|average|bad|terrible)\}\s*/);
@@ -199,15 +203,17 @@ function renderMarkdown(src, lang = "en") {
               );
             })(),
           )}
-        </ul>,
+        </List>,
       );
     list = [];
+    ordered = false;
   };
 
   for (const raw of src.replace(/\r\n/g, "\n").split("\n")) {
     const line = raw.trim();
     const h = line.match(/^(#{1,3})\s+(.*)$/);
     const li = line.match(/^[-*]\s+(.*)$/);
+    const oli = line.match(/^(\d+)[.)]\s+(.*)$/);
     const qt = line.match(/^>\s?(.*)$/);
     const img = line.match(/^!\[([^\]]*)\]\(([\w./-]+\.(?:jpe?g|png|webp|gif))\)$/i);
     if (!line.startsWith("|")) flushTable();
@@ -240,9 +246,12 @@ function renderMarkdown(src, lang = "en") {
       flushList();
       const Tag = `h${h[1].length + 2}`; // # -> h3 (the panel title is h2)
       blocks.push(<Tag key={blocks.length}>{inline(h[2])}</Tag>);
-    } else if (li) {
+    } else if (li || oli) {
       flushPara();
-      list.push(li[1]);
+      if (list.length && ordered !== !!oli) flushList(); // bullets <-> numbers: new list
+      if (oli && !list.length) start = Number(oli[1]);
+      ordered = !!oli;
+      list.push(oli ? oli[2] : li[1]);
     } else {
       flushList();
       para.push(line);
