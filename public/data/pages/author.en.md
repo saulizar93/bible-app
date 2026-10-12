@@ -54,10 +54,15 @@ What I have learned in my studies is that **discernment is not the ability to te
 # My goals for this app
 
 1. **Give Spanish speakers the same resources available in English** — parallel Bibles, Strong's numbers, Greek and Hebrew lexicons and study notes in their own language.
+
 2. **Provide historical and theological context** so readers can understand the Bible as its first readers did, and see how and why later traditions departed from it.
+
 3. **Help Oneness Christians defend their faith** against the strongest arguments of Trinitarians and Catholics.
+
 4. **Expose the faulty reasoning of Trinitarianism**, testing its claims against the plain words of Scripture and the original languages.
+
 5. **Expose the irresponsible use of Scripture in Catholic theology** — mistranslations, proof texts taken out of context, and doctrines built on the late Latin rather than on the original Hebrew and Greek.
+
 6. **Leave my research behind for my son**, so he can begin his own spiritual journey from a higher starting point than I did — as Timothy, who "from a child… hast known the holy scriptures, which are able to make thee wise unto salvation through faith which is in Christ Jesus" (2 Timothy 3:15).
 
 > “My people are destroyed for lack of knowledge: because thou hast rejected knowledge, I will also reject thee, that thou shalt be no priest to me: seeing thou hast forgotten the law of thy God, I will also forget thy children.” (Hosea 4:6)

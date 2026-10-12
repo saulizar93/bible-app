@@ -54,10 +54,15 @@ Lo que he aprendido en mis estudios es que **el discernimiento no es la capacida
 # Mis objetivos para esta aplicación
 
 1. **Ofrecer a los hispanohablantes los mismos recursos disponibles en inglés:** Biblias en paralelo, números de Strong, léxicos de griego y hebreo, y notas de estudio en su propio idioma.
+
 2. **Proporcionar contexto histórico y teológico** para que los lectores comprendan la Biblia tal como lo hicieron sus primeros destinatarios, y vean cómo y por qué las tradiciones posteriores se apartaron de ella.
+
 3. **Ayudar a los cristianos de la doctrina de la Unicidad a defender su fe** frente a los argumentos más sólidos de trinitarios y católicos.
+
 4. **Exponer el razonamiento erróneo del trinitarismo**, contrastando sus afirmaciones con las palabras claras de las Escrituras y los idiomas originales.
+
 5. **Exponer el uso irresponsable de las Escrituras en la teología católica:** traducciones incorrectas, textos aislados fuera de contexto y doctrinas fundamentadas en el latín tardío en lugar de en el hebreo y el griego originales.
+
 6. **Legar mi investigación a mi hijo**, para que pueda iniciar su propio viaje espiritual desde un punto de partida más avanzado que el mío; tal como Timoteo, quien «desde la niñez has sabido las Sagradas Escrituras, las cuales te pueden hacer sabio para la salvación por la fe que es en Cristo Jesús» (2 Timoteo 3:15).
 
 > «Mi pueblo fue destruido porque le faltó conocimiento. Porque tú desechaste el conocimiento, yo te echaré del sacerdocio; y porque olvidaste la ley de tu Dios, también yo me olvidaré de tus hijos» (Oseas 4:6).
