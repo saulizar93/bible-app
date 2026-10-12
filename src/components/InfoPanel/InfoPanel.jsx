@@ -17,6 +17,7 @@ import "./InfoPanel.css";
  *   > — Reference   as the last line of a quote = featured verse with its reference below
  *   | a | table |   (first row = header; a |---|---| separator row is optional and skipped)
  *   **bold**, *italic* or _italic_, [link text](https://...)
+ *   ![description](images/photo.jpg) alone on a line = picture from public/data/pages/
  *   blank line = new paragraph
  */
 export default function InfoPanel({
@@ -208,6 +209,7 @@ function renderMarkdown(src, lang = "en") {
     const h = line.match(/^(#{1,3})\s+(.*)$/);
     const li = line.match(/^[-*]\s+(.*)$/);
     const qt = line.match(/^>\s?(.*)$/);
+    const img = line.match(/^!\[([^\]]*)\]\(([\w./-]+\.(?:jpe?g|png|webp|gif))\)$/i);
     if (!line.startsWith("|")) flushTable();
     if (!qt) flushQuote();
     if (!line) {
@@ -221,6 +223,18 @@ function renderMarkdown(src, lang = "en") {
       flushPara();
       flushList();
       quote.push(qt[1]);
+    } else if (img) {
+      flushPara();
+      flushList();
+      blocks.push(
+        <img
+          key={blocks.length}
+          className="info-img"
+          src={`${import.meta.env.BASE_URL}data/pages/${img[2]}`}
+          alt={img[1]}
+          loading="lazy"
+        />,
+      );
     } else if (h) {
       flushPara();
       flushList();

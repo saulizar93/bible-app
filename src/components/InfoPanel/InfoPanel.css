@@ -493,3 +493,14 @@
   flex-wrap: wrap;
   gap: 8px;
 }
+
+/* Picture in an info page: ![alt](images/x.jpg) on its own line */
+.info-img {
+  display: block;
+  width: 100%;
+  max-width: 240px;
+  height: auto;
+  margin: 0.4em auto 1.1em;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
