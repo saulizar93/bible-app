@@ -544,3 +544,10 @@
 ## 2026-10-11 — README rewritten
 
 - README.md replaced the original step-1 setup notes (outdated: Vite scaffolding, old folder names) with current instructions: everyday commands and publishing (push to main -> GitHub Pages), where things live, the list of Bibles and which concordance each uses, hand-editing text and Strong's tags (v/w must match), rebuilding concordances, fix-strongs.py, updating the RVO (ediciones-manuales.json, transform.py, name_map.json, review CSVs), notes and info pages, cache version numbers, and rebuilding from sources.
+
+## 2026-10-11 — Straubinger gets its own concordance
+
+- Borrowing RV1909's concordance gave Straubinger ~10.5% extra hits and missed 0.8% of its own tags (Catholic versification in 55 chapters, independent wording). Built public/data/concord/straubinger-strong (2.8 MB) with `node scripts/build-concordance.mjs public/data/bibles/straubinger-strong public/data/concord/straubinger-strong`; data.js straubinger-strong `concord: "straubinger-strong/"`.
+- Measured for the others: RVG on RV1909's misses nothing, 1.4% extra; LSV on KJV's misses nothing, 4.9% extra — left shared.
+- LEXICON_VERSION 8 -> 9 (8 was already published), so installed copies re-download Straubinger with its new concordance.
+- README.md updated (Bibles table, hand-edit rule 4, concordance commands).

@@ -3,7 +3,7 @@ import { normalizeStrong } from "./strongsCode.js";
 
 const DATA_VERSION = 15; // bump to invalidate every cached Bible chapter
 const NOTES_VERSION = 2; // bump separately — notes change far more often
-const LEXICON_VERSION = 8; // bump when strongs/ or concord/ data is rebuilt
+const LEXICON_VERSION = 9; // bump when strongs/ or concord/ data is rebuilt
 
 /** Shown to users (menu footer, notes authorship line) so they can tell when
  *  new data has been published and clear their saved copies in Settings. */
@@ -167,7 +167,7 @@ export const PANE_OPTIONS = [
     lang: "es",
     // Strong's tags copied from rv1909-strong (scripts/rvg-strong/transfer.mjs, TARGET=platense).
     strongs: true,
-    concord: "rv1909-strong/",
+    concord: "straubinger-strong/", // its own: Catholic versification and independent wording
     citation: "Straubinger",
     copyright:
       "Biblia Platense, traducción de Mons. Juan Straubinger (1948). Dominio público. Análisis y palabras hebreas del Antiguo Testamento: obra original del Open Scriptures Hebrew Bible, disponible en https://github.com/openscriptures/morphhb (CC BY 4.0).",

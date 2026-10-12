@@ -57,7 +57,7 @@ git push
 | `rvg-strong`         | RVG (TR)                 | RV1909's                                                              |
 | `rvo-strong`         | RVO (Reina-Valera-Ojeda) | its own (`concord/rvo-strong`) — **built by a script, see section 4** |
 | `torres-amat`        | Torres Amat              | none                                                                  |
-| `straubinger-strong` | Straubinger              | RV1909's                                                              |
+| `straubinger-strong` | Straubinger              | its own (`concord/straubinger-strong`)                                |
 
 ---
 
@@ -80,7 +80,7 @@ Each chapter has the plain text of every verse (`v`) and, in tagged Bibles, the 
 1. **Keep `v` and `w` matching.** The tokens' `t` joined with single spaces must spell the verse in `v` exactly (same words and punctuation). If you change a word, change it in both places.
 2. **To move a tag**, move the words between tokens or change the `s` number. If you change `s`, also fix or delete that token's `m` and `g` (they belong to the old word).
 3. **Keep the file valid JSON** — commas between tokens, double quotes. A broken file stops that book from loading. Editors like VS Code underline mistakes.
-4. **RVG and Straubinger use RV1909's word search.** If you retag a word in only one of them, word search won't reflect it. Make the same change in `rv1909-strong` (and in `scripts/rvo/backup-original` so the RVO gets it too).
+4. **RVG uses RV1909's word search** (and LSV uses the KJV's). If you retag a word in the RVG, make the same change in `rv1909-strong` (and in `scripts/rvo/backup-original` so the RVO gets it too), then rebuild RV1909's word search.
 
 ### After a hand edit
 
@@ -94,6 +94,7 @@ Each chapter has the plain text of every verse (`v`) and, in tagged Bibles, the 
    node scripts/build-concordance.mjs public/data/bibles/msb-strong    public/data/concord/msb-strong
    node scripts/build-concordance.mjs public/data/bibles/rv1909-strong public/data/concord/rv1909-strong
    node scripts/build-concordance.mjs public/data/bibles/rvo-strong    public/data/concord/rvo-strong
+   node scripts/build-concordance.mjs public/data/bibles/straubinger-strong public/data/concord/straubinger-strong
    ```
 
    Text-only edits (spelling, punctuation) don't need it.
@@ -110,7 +111,7 @@ python3 scripts/fix-strongs.py
 python3 scripts/rvo/transform.py
 ```
 
-and rebuild the RV1909 and RVO word search (above). It's safe to run any number of times.
+and rebuild the RV1909, RVO and Straubinger word search (above). It's safe to run any number of times.
 
 ---
 
