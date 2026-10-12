@@ -551,3 +551,10 @@
 - Measured for the others: RVG on RV1909's misses nothing, 1.4% extra; LSV on KJV's misses nothing, 4.9% extra — left shared.
 - LEXICON_VERSION 8 -> 9 (8 was already published), so installed copies re-download Straubinger with its new concordance.
 - README.md updated (Bibles table, hand-edit rule 4, concordance commands).
+
+## 2026-10-11 — Info page: Problems with Islam
+
+- src/js/pages.js: new entry `problems-with-islam` ("Problems with Islam" / "Problemas con el islam") right below "Evidence for Jesus".
+- public/data/pages/problems-with-islam.en.md / .es.md, generated with fill_quotes.py from tmp-check/qgen/problems-with-islam.{en,es}.tpl (KJV / RVG). Qur'an quoted from Pickthall (1930, public domain); Spanish Qur'an and hadith quotations translated from the English. Hadith numbers follow sunnah.com; Tirmidhi 1663, 2536, Ibn Majah 1944 and Bukhari 268, 3849 checked there.
+- Sections: one witness vs. public events; late sources (table); first revelation ("poet or possessed", Bukhari 3/6982, Guillaume pp. 72, 106); the Islamic dilemma (5:68, 10:94, 6:115; Sinaiticus/Vaticanus); Mary in the "Trinity" and apocryphal sources; Deut 18 / Paraclete; preservation of the Qur'an (Yamama, forgotten verses, stoning and suckling verses, the sheep, Uthman's burning, Ibn Mas'ud and Ubayy, Sana'a, Hafs/Warsh); wives and convenient revelations; violence and 4:34; salvation by scales; strange "authentic" hadith (72 wives, strength of 100, sun in a muddy spring, fly, camel urine, rats, monkeys, adult suckling).
+- Corrections to the author's draft: the Qur'an was recited, not written, by Muhammad; Sahih Muslim compiled before 875 (822 was not its date); al-Bukhari compiled c. 846; "not mad … not a devil" is 81:22-25 with 68:2; 7:157 says the Prophet is described in the Torah and Gospel; Bukhari 3808 names four teachers (Salim was Abu Hudhaifa's freed slave); the sheep hadith is Ibn Majah 1944; Qur'an 33:50 exempts Muhammad from the four-wife limit; "70 virgins" is 72 wives (Tirmidhi 1663); the "intercourse like animals" hadith was left out because it is graded weak; 22:25 and 2:23-24 (hell, which the Bible also teaches) replaced by 9:29 and others.

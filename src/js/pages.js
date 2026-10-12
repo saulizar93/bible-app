@@ -44,11 +44,17 @@ export const INFO_PAGES = [
   },
   {
     id: "trinity-development",
-    label: { en: "Development of the Trinity", es: "Desarrollo de la Trinidad" },
+    label: {
+      en: "Development of the Trinity",
+      es: "Desarrollo de la Trinidad",
+    },
   },
   {
     id: "trinitarian-questions",
-    label: { en: "Questions for Trinitarians", es: "Preguntas para trinitarios" },
+    label: {
+      en: "Questions for Trinitarians",
+      es: "Preguntas para trinitarios",
+    },
   },
   {
     id: "baptism",
@@ -56,11 +62,15 @@ export const INFO_PAGES = [
   },
   {
     id: "evidence-creator",
-    label: { en: "Evidence of a Creator", es: "Evidencia de un Creador" },
+    label: { en: "Evidence for a Creator", es: "Evidencia de un Creador" },
   },
   {
     id: "evidence-jesus",
     label: { en: "Evidence for Jesus", es: "Evidencia de Jesús" },
+  },
+  {
+    id: "problems-with-islam",
+    label: { en: "Problems with Islam", es: "Problemas con el islam" },
   },
   { id: "bibliography", label: { en: "Bibliography", es: "Bibliografía" } },
   { id: "author", label: { en: "About the Author", es: "Acerca del autor" } },
