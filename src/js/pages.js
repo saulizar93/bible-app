@@ -69,6 +69,10 @@ export const INFO_PAGES = [
     label: { en: "Evidence for Jesus", es: "Evidencia de Jesús" },
   },
   {
+    id: "problems-with-catholicism",
+    label: { en: "Problems with Catholicism", es: "Problemas con el catolicismo" },
+  },
+  {
     id: "problems-with-islam",
     label: { en: "Problems with Islam", es: "Problemas con el islam" },
   },
