@@ -1,19 +1,51 @@
 {
-  "_ayuda": "Cambios a mano, aplicados al final (después de todas las reglas). Formato: \"Libro c:v\": { \"texto actual\": \"texto nuevo\" }. El texto actual debe aparecer tal cual en el versículo (palabras completas, con su puntuación). Luego ejecutar: python3 scripts/rvo/transform.py",
-  "Mateo 1:2": { "Isaac:": "Isaac;", "Jacob:": "Jacob;", "hermanos:": "hermanos;" },
+  "_ayuda": "Cambios a mano, aplicados al final (después de todas las reglas). Formato: \"Libro c:v\": { \"texto actual\": \"texto nuevo\" }. El texto actual debe aparecer tal cual en el versículo (palabras completas, con su puntuación). Para dar a una palabra su propio número Strong, añada |número: \"de Jesús|G2424 el Mesías,|G5547\". Luego ejecutar: python3 scripts/rvo/transform.py",
+  "Mateo 1:1": { "de Jesucristo,": "de Jesús|G2424 el Mesías,|G5547" },
+  "Mateo 1:2": {
+    "Isaac:": "Isaac;",
+    "Jacob:": "Jacob;",
+    "hermanos:": "hermanos;"
+  },
   "Mateo 1:3": { "Zara:": "Zara;", "Esrom:": "Esrom;", "Aram:": "Aram;" },
-  "Mateo 1:4": { "Aminadab:": "Aminadab;", "Naasón:": "Naasón;", "Salmón:": "Salmón;" },
+  "Mateo 1:4": {
+    "Aminadab:": "Aminadab;",
+    "Naasón:": "Naasón;",
+    "Salmón:": "Salmón;"
+  },
   "Mateo 1:5": { "Obed:": "Obed;", "Isaí:": "Isaí;" },
   "Mateo 1:6": { "David:": "David;", "Urías:": "Urías;" },
   "Mateo 1:7": { "Roboam:": "Roboam;", "Abías:": "Abías;", "Asa:": "Asa;" },
-  "Mateo 1:8": { "Josafat:": "Josafat;", "Joram:": "Joram;", "Ozías:": "Ozías;" },
-  "Mateo 1:9": { "Jotam:": "Jotam;", "Acaz:": "Acaz;", "Ezequías:": "Ezequías;" },
-  "Mateo 1:10": { "Manasés:": "Manasés;", "Amón:": "Amón;", "Josías:": "Josías;" },
+  "Mateo 1:8": {
+    "Josafat:": "Josafat;",
+    "Joram:": "Joram;",
+    "Ozías:": "Ozías;"
+  },
+  "Mateo 1:9": {
+    "Jotam:": "Jotam;",
+    "Acaz:": "Acaz;",
+    "Ezequías:": "Ezequías;"
+  },
+  "Mateo 1:10": {
+    "Manasés:": "Manasés;",
+    "Amón:": "Amón;",
+    "Josías:": "Josías;"
+  },
   "Mateo 1:12": { "Salatiel:": "Salatiel;", "Zorobabel:": "Zorobabel;" },
-  "Mateo 1:13": { "Abiud:": "Abiud;", "Eliaquim:": "Eliaquim;", "Azor:": "Azor;" },
+  "Mateo 1:13": {
+    "Abiud:": "Abiud;",
+    "Eliaquim:": "Eliaquim;",
+    "Azor:": "Azor;"
+  },
   "Mateo 1:14": { "Sadoc:": "Sadoc;", "Aquim:": "Aquim;", "Eliud:": "Eliud;" },
-  "Mateo 1:15": { "Eleazar:": "Eleazar;", "Matán:": "Matán;", "Jacob:": "Jacob;" },
-  "Mateo 1:17": { "son catorce generaciones:": "son catorce generaciones;", "Babilonia, catorce generaciones:": "Babilonia, catorce generaciones;" },
+  "Mateo 1:15": {
+    "Eleazar:": "Eleazar;",
+    "Matán:": "Matán;",
+    "Jacob:": "Jacob;"
+  },
+  "Mateo 1:17": {
+    "son catorce generaciones:": "son catorce generaciones;",
+    "Babilonia, catorce generaciones:": "Babilonia, catorce generaciones;"
+  },
   "Mateo 1:23": { "Con nosotros Dios.": "Dios con nosotros." },
   "Mateo 1:25": { "primogénito:": "primogénito;" }
 }

@@ -594,3 +594,9 @@
 ## 2026-10-11 — Numbered lists in info pages
 
 - InfoPanel.jsx renderMarkdown: lines starting with "1. " / "2) " etc. now form a numbered list (<ol>, keeping the first number via `start`); before, they were joined into one paragraph, so the numbers ran together on one line (e.g. About the Author → My goals). Affects 10 pages that use numbered items. InfoPanel.css: `.info-body ol` styled like `ul`.
+
+## 2026-10-12 — RVO Mt 1:1 "Jesús el Mesías" with separate Strong's tags
+
+- The user's manual edit `"Jesucristo"` was skipped (the verse has "Jesucristo," with a comma); now `"de Jesucristo,": "de Jesús|G2424 el Mesías,|G5547"`.
+- scripts/rvo/transform.py: manual edits accept `word|G####` — the word gets its own token with that Strong's number (m and g borrowed from the kjv-strong token with that number in the same verse); unmarked words join the next marked word (or the last one at the end). `new_token()`; a lost original token is only reported if its number does not reappear. Result Mt 1:1: "de Jesús" G2424 (N-GSM, ιησου) + "el Mesías," G5547 (N-GSM, χριστου); verified that no other verse changed.
+- Concordance rebuilt (concord/rvo-strong). DATA_VERSION and LEXICON_VERSION +1. README (section 4) and the _ayuda line of ediciones-manuales.json document the `|G####` syntax.

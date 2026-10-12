@@ -132,6 +132,13 @@ The RVO is **generated**: `scripts/rvo/transform.py` starts every time from the 
    - Several changes in one verse go in the same `{ }`, separated by commas.
    - Every line except the last one ends with a comma.
    - Moved words keep their Strong's numbers automatically.
+   - To give a word its own Strong's number, add `|number` after it. Words without a mark join the next marked word:
+
+     ```json
+     "Mateo 1:1": { "de Jesucristo,": "de Jesús|G2424 el Mesías,|G5547" },
+     ```
+
+     gives "de Jesús" → G2424 and "el Mesías," → G5547 (parsing and Greek word copied from the KJV of that verse). Rebuild the RVO word search afterwards.
 
 2. Run the script (about 20 seconds):
 

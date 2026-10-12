@@ -454,6 +454,9 @@ def apply_manual(words):
         return words
     for old, new in edits.items():
         ow, nw = old.split(), new.split()
+        # "palabra|G2424" = this word gets its own token with that Strong's number
+        marks = [w.split('|', 1)[1] if '|' in w else None for w in nw]
+        nw = [w.split('|', 1)[0] for w in nw]
         texts = [w for w, _ in words]
         pos = next((i for i in range(len(texts) - len(ow) + 1) if texts[i:i + len(ow)] == ow), None)
         if pos is None:
@@ -468,13 +471,51 @@ def apply_manual(words):
                 tag = repl[-1][1] if repl else olds[min(j, len(olds) - 1)][1]
             else:
                 used.add(m); tag = olds[m][1]
+            if marks[j]:
+                base = tag[2] if isinstance(tag, tuple) else tag
+                tag = ('new', marks[j], base, j)
             repl.append([w, tag])
+        if any(marks):
+            # Unmarked words go with the next marked word ("de Jesús|G2424" -> "de Jesús"),
+            # words after the last mark with the last one ("el Mesías,|G5547").
+            nxt = None
+            for k in range(len(repl) - 1, -1, -1):
+                if marks[k]:
+                    nxt = repl[k][1]
+                elif nxt is not None:
+                    repl[k][1] = nxt
+            last = None
+            for k in range(len(repl)):
+                if marks[k]:
+                    last = repl[k][1]
+                elif last is not None and not any(marks[k:]):
+                    repl[k][1] = last
         words = words[:pos] + repl + words[pos + len(ow):]
         log('edición manual', old, new)
         manual_done.add((cur['ref'], old))
     return words
 
 # ---------------------------------------------------------------- token plumbing
+_KJV = {}
+def new_token(strong):
+    """A token for a word given its own Strong's number by a manual edit ("Jesús|G2424"):
+    parsing (m) and Greek/Hebrew word (g) are borrowed from the KJV token with the same
+    number in the same verse, when there is one."""
+    b = cur['b']
+    if b not in _KJV:
+        f = os.path.join(ROOT, 'public', 'data', 'bibles', 'kjv-strong', f'{b}.json')
+        _KJV[b] = json.load(open(f, encoding='utf-8'))['w'] if os.path.exists(f) else {}
+    toks = _KJV[b].get(str(cur['c']), [])
+    toks = toks[cur['v'] - 1] if cur['v'] - 1 < len(toks) else []
+    t = {'s': strong}
+    for k in toks:
+        if k.get('s') == strong:
+            for key in ('m', 'g'):
+                if key in k:
+                    t[key] = k[key]
+            break
+    return t
+
 def join(ts):
     s = ''
     for i, t in enumerate(ts):
@@ -504,9 +545,14 @@ def rebuild(tokens, words):
     new = []
     used = set()
     for tag, ws in groups:
-        t = dict(tokens[tag]); t['t'] = ' '.join(ws); new.append(t); used.add(tag)
+        if isinstance(tag, tuple):          # word given its own Strong's number in ediciones-manuales.json
+            t = {'t': ' '.join(ws), **new_token(tag[1])}
+        else:
+            t = dict(tokens[tag]); used.add(tag); t['t'] = ' '.join(ws)
+        new.append(t)
+    kept = {t.get('s') for t in new}
     for i, t in enumerate(tokens):          # tokens that lost all their words
-        if i not in used:
+        if i not in used and t.get('s') not in kept:
             log('token sin texto', t['t'], '', t.get('s'), 'el número Strong se perdió en este versículo')
     return new
 
