@@ -30,7 +30,14 @@
     "Amón:": "Amón;",
     "Josías:": "Josías;"
   },
-  "Mateo 1:12": { "Salatiel:": "Salatiel;", "Zorobabel:": "Zorobabel;" },
+  "Mateo 1:11": {
+    "la transmigración de": "el tiempo de la deportación|G3350 a"
+  },
+  "Mateo 1:12": {
+    "Salatiel:": "Salatiel;",
+    "Zorobabel:": "Zorobabel;",
+    "transmigración de": "deportación|G3350 a"
+  },
   "Mateo 1:13": {
     "Abiud:": "Abiud;",
     "Eliaquim:": "Eliaquim;",
@@ -42,10 +49,35 @@
     "Matán:": "Matán;",
     "Jacob:": "Jacob;"
   },
+  "Mateo 1:16": {
+    "Cristo.": "Mesías."
+  },
   "Mateo 1:17": {
     "son catorce generaciones:": "son catorce generaciones;",
-    "Babilonia, catorce generaciones:": "Babilonia, catorce generaciones;"
+    "la transmigración de": "la|G3588 deportación a|G3350",
+    "Babilonia, catorce generaciones:": "Babilonia, catorce generaciones;",
+    "transmigración de": "deportación a",
+    "Cristo,": "el Mesías,"
   },
-  "Mateo 1:23": { "Con nosotros Dios.": "Dios con nosotros." },
-  "Mateo 1:25": { "primogénito:": "primogénito;" }
+  "Mateo 1:18": {
+    "Jesucristo": "Jesús|G2424 el Mesías|G5547",
+    "Que siendo": "Estando",
+    "haber": "que había"
+  },
+  "Mateo 1:19": {
+    "justo,": "justo",
+    "quisiese infamarla,": "quería difamarla,"
+  },
+  "Mateo 1:20": { "temas de recibir": "temas recibir" },
+  "Mateo 1:22": {
+    "Señor, por el profeta que dijo:": "Señor|G2962 por medio del|G1223 profeta,|G4396 cuando dijo:|G3004"
+  },
+  "Mateo 1:23": {
+    "Emmanuel,": "Emmanu-el,",
+    "Con nosotros Dios.": "Dios con nosotros."
+  },
+  "Mateo 1:25": {
+    "Y": "Pero",
+    "primogénito:": "primogénito;"
+  }
 }

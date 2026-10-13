@@ -13,21 +13,21 @@
       "Y Asa engendró a Josafat; y Josafat engendró a Joram; y Joram engendró a Ozías;",
       "Y Ozías engendró a Jotam; y Jotam engendró a Acaz; y Acaz engendró a Ezequías;",
       "Y Ezequías engendró a Manasés; y Manasés engendró a Amón; y Amón engendró a Josías;",
-      "Y Josías engendró a Jeconías y a sus hermanos, en la transmigración de Babilonia.",
-      "Y después de la transmigración de Babilonia, Jeconías engendró a Salatiel; y Salatiel engendró a Zorobabel;",
+      "Y Josías engendró a Jeconías y a sus hermanos, en el tiempo de la deportación a Babilonia.",
+      "Y después de la deportación a Babilonia, Jeconías engendró a Salatiel; y Salatiel engendró a Zorobabel;",
       "Y Zorobabel engendró a Abiud; y Abiud engendró a Eliaquim; y Eliaquim engendró a Azor;",
       "Y Azor engendró a Sadoc; y Sadoc engendró a Aquim; y Aquim engendró a Eliud;",
       "Y Eliud engendró a Eleazar; y Eleazar engendró a Matán; y Matán engendró a Jacob;",
-      "Y Jacob engendró a José, marido de María, de la cual nació Jesús, el cual es llamado el Cristo.",
-      "De manera que todas las generaciones desde Abraham hasta David son catorce generaciones; y desde David hasta la transmigración de Babilonia, catorce generaciones; y desde la transmigración de Babilonia hasta Cristo, catorce generaciones.",
-      "Y el nacimiento de Jesucristo fue así: Que siendo María su madre desposada con José, antes que se juntasen, se halló haber concebido del Espíritu Santo.",
-      "Y José su marido, como era justo, y no quisiese infamarla, quiso dejarla secretamente.",
-      "Y pensando él en esto, he aquí el ángel del Señor le aparece en sueños, diciendo: José, hijo de David, no temas de recibir a María tu mujer, porque lo que en ella es engendrado, del Espíritu Santo es.",
+      "Y Jacob engendró a José, marido de María, de la cual nació Jesús, el cual es llamado el Mesías.",
+      "De manera que todas las generaciones desde Abraham hasta David son catorce generaciones; y desde David hasta la deportación a Babilonia, catorce generaciones; y desde la deportación a Babilonia hasta el Mesías, catorce generaciones.",
+      "Y el nacimiento de Jesús el Mesías fue así: Estando María su madre desposada con José, antes que se juntasen, se halló que había concebido del Espíritu Santo.",
+      "Y José su marido, como era justo y no quería difamarla, quiso dejarla secretamente.",
+      "Y pensando él en esto, he aquí el ángel del Señor le aparece en sueños, diciendo: José, hijo de David, no temas recibir a María tu mujer, porque lo que en ella es engendrado, del Espíritu Santo es.",
       "Y dará a luz un hijo, y llamarás su nombre Jesús, porque él salvará a su pueblo de sus pecados.",
-      "Todo esto aconteció para que se cumpliese lo que fue dicho por el Señor, por el profeta que dijo:",
-      "He aquí la virgen concebirá y dará a luz un hijo, y llamarás su nombre Emmanuel, que traducido es: Dios con nosotros.",
+      "Todo esto aconteció para que se cumpliese lo que fue dicho por el Señor por medio del profeta, cuando dijo:",
+      "He aquí la virgen concebirá y dará a luz un hijo, y llamarás su nombre Emmanu-el, que traducido es: Dios con nosotros.",
       "Y despertando José del sueño, hizo como el ángel del Señor le había mandado, y recibió a su mujer.",
-      "Y no la conoció hasta que dio a luz a su hijo primogénito; y llamó su nombre Jesús."
+      "Pero no la conoció hasta que dio a luz a su hijo primogénito; y llamó su nombre Jesús."
     ],
     "2": [
       "Y como fue nacido Jesús en Belén de Judea en días del rey Herodes, he aquí unos magos vinieron del oriente a Jerusalén,",
@@ -1988,13 +1988,13 @@
           "g": "επι"
         },
         {
-          "t": "la transmigración",
+          "t": "el tiempo de la deportación a",
           "s": "G3350",
           "m": "N-GSF",
           "g": "μετοικεσιας"
         },
         {
-          "t": "de Babilonia.",
+          "t": "Babilonia.",
           "s": "G897",
           "m": "N-GSF",
           "g": "βαβυλωνος"
@@ -2018,13 +2018,13 @@
           "s": "G3588"
         },
         {
-          "t": "transmigración",
+          "t": "deportación a",
           "s": "G3350",
           "m": "N-ASF",
           "g": "μετοικεσιαν"
         },
         {
-          "t": "de Babilonia,",
+          "t": "Babilonia,",
           "s": "G897",
           "m": "N-GSF",
           "g": "βαβυλωνος"
@@ -2356,7 +2356,7 @@
           "g": "λεγομενος"
         },
         {
-          "t": "el Cristo.",
+          "t": "el Mesías.",
           "s": "G5547",
           "m": "N-NSM",
           "g": "χριστος"
@@ -2450,13 +2450,13 @@
           "s": "G3588"
         },
         {
-          "t": "transmigración",
+          "t": "deportación a",
           "s": "G3350",
           "m": "N-GSF",
           "g": "μετοικεσιας"
         },
         {
-          "t": "de Babilonia,",
+          "t": "Babilonia,",
           "s": "G897",
           "m": "N-GSF",
           "g": "βαβυλωνος"
@@ -2490,13 +2490,13 @@
           "s": "G3588"
         },
         {
-          "t": "transmigración",
+          "t": "deportación a",
           "s": "G3350",
           "m": "N-GSF",
           "g": "μετοικεσιας"
         },
         {
-          "t": "de Babilonia",
+          "t": "Babilonia",
           "s": "G897",
           "m": "N-GSF",
           "g": "βαβυλωνος"
@@ -2508,7 +2508,7 @@
           "g": "εως"
         },
         {
-          "t": "Cristo,",
+          "t": "el Mesías,",
           "s": "G5547",
           "m": "N-GSM",
           "g": "χριστου"
@@ -2544,7 +2544,19 @@
           "g": "γεννησις"
         },
         {
-          "t": "de Jesucristo",
+          "t": "de",
+          "s": "G5547",
+          "m": "N-GSM",
+          "g": "χριστου"
+        },
+        {
+          "t": "Jesús",
+          "s": "G2424",
+          "m": "N-GSM",
+          "g": "ιησου"
+        },
+        {
+          "t": "el Mesías",
           "s": "G5547",
           "m": "N-GSM",
           "g": "χριστου"
@@ -2560,11 +2572,11 @@
           "g": "ουτως"
         },
         {
-          "t": "Que",
+          "t": "Estando",
           "s": "G2228"
         },
         {
-          "t": "siendo María",
+          "t": "María",
           "s": "G3137",
           "m": "N-GSF",
           "g": "μαριας"
@@ -2632,7 +2644,7 @@
           "g": "ευρεθη"
         },
         {
-          "t": "haber concebido",
+          "t": "que había concebido",
           "s": "G2192",
           "m": "V-PAP-NSF",
           "g": "εχουσα"
@@ -2686,7 +2698,7 @@
           "s": "G5607"
         },
         {
-          "t": "justo,",
+          "t": "justo",
           "s": "G1342",
           "m": "A-NSM",
           "g": "δικαιος"
@@ -2704,16 +2716,10 @@
           "g": "μη"
         },
         {
-          "t": "quisiese",
+          "t": "quería difamarla,",
           "s": "G2309",
           "m": "V-PAP-NSM",
           "g": "θελων"
-        },
-        {
-          "t": "infamarla,",
-          "s": "G846",
-          "m": "P-ASF",
-          "g": "αυτην"
         },
         {
           "t": "quiso",
@@ -2834,7 +2840,7 @@
           "g": "φοβηθης"
         },
         {
-          "t": "de recibir",
+          "t": "recibir",
           "s": "G3880",
           "m": "V-2AAN",
           "g": "παραλαβειν"
@@ -3064,37 +3070,25 @@
           "g": "το"
         },
         {
-          "t": "Señor,",
+          "t": "Señor",
           "s": "G2962",
           "m": "N-GSM",
           "g": "κυριου"
         },
         {
-          "t": "por",
+          "t": "por medio del",
           "s": "G1223",
           "m": "PREP",
           "g": "δια"
         },
         {
-          "t": "el",
-          "s": "G3588",
-          "m": "T-NSN",
-          "g": "το"
-        },
-        {
-          "t": "profeta",
+          "t": "profeta,",
           "s": "G4396",
           "m": "N-GSM",
           "g": "προφητου"
         },
         {
-          "t": "que",
-          "s": "G2443",
-          "m": "CONJ",
-          "g": "ινα"
-        },
-        {
-          "t": "dijo:",
+          "t": "cuando dijo:",
           "s": "G3004",
           "m": "V-PAP-GSM",
           "g": "λεγοντος"
@@ -3164,7 +3158,7 @@
           "g": "ονομα"
         },
         {
-          "t": "Emmanuel,",
+          "t": "Emmanu-el,",
           "s": "G1694",
           "m": "N-PRI",
           "g": "εμμανουηλ"
@@ -3306,7 +3300,7 @@
       ],
       [
         {
-          "t": "Y",
+          "t": "Pero",
           "s": "G2532",
           "m": "CONJ",
           "g": "και"

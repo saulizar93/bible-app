@@ -600,3 +600,7 @@
 - The user's manual edit `"Jesucristo"` was skipped (the verse has "Jesucristo," with a comma); now `"de Jesucristo,": "de Jesús|G2424 el Mesías,|G5547"`.
 - scripts/rvo/transform.py: manual edits accept `word|G####` — the word gets its own token with that Strong's number (m and g borrowed from the kjv-strong token with that number in the same verse); unmarked words join the next marked word (or the last one at the end). `new_token()`; a lost original token is only reported if its number does not reappear. Result Mt 1:1: "de Jesús" G2424 (N-GSM, ιησου) + "el Mesías," G5547 (N-GSM, χριστου); verified that no other verse changed.
 - Concordance rebuilt (concord/rvo-strong). DATA_VERSION and LEXICON_VERSION +1. README (section 4) and the _ayuda line of ediciones-manuales.json document the `|G####` syntax.
+
+## 2026-10-12 — RVO Mt 1:22 "por el Señor por medio del profeta, cuando dijo:"
+
+- The user's four separate edits matched the first "por el" (before "Señor") instead of the second. Replaced with one edit of the whole phrase: `"Señor, por el profeta que dijo:": "Señor|G2962 por medio del|G1223 profeta,|G4396 cuando dijo:|G3004"` (each part keeps its Strong's number, parsing from the KJV). transform.py rerun (no warnings; the user's other new Mt 1 edits applied too), RVO concordance rebuilt, DATA_VERSION and LEXICON_VERSION +1.
