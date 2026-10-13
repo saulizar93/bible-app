@@ -1,10 +1,33 @@
 Every Bible in this app is either in the public domain or licensed for free, non-commercial use. Below is a short history of each one: where it came from, what text it was translated from, and what to keep in mind when you read it side by side with the others.
 
-A quick word on the two families of Greek New Testament texts you will see mentioned:
+## The three Greek texts: TR, MT and CT
 
-- **Textus Receptus (TR)** — the "Received Text," the printed Greek New Testament of Erasmus (1516) and its later editions by Stephanus and Beza. It stands behind the King James Version and the Reina-Valera.
-- **Majority Text (MT)** — the reading found in the majority of surviving Greek manuscripts. It is very close to the TR.
-- **Critical Text (CT)** — the modern scholarly text (Nestle-Aland / UBS) that gives more weight to a few older manuscripts. Most modern Bibles, Protestant and Catholic, follow it.
+No original letter of an apostle survives; we have copies. About **5,800 Greek manuscripts** of the New Testament are known, from small papyrus fragments of the 2nd century to complete books of the 15th. They agree in the vast majority of their wording, but where they differ, editors must choose — and their choices fall into three families:
+
+- **Textus Receptus (TR)** — the "Received Text," the printed Greek New Testament of Erasmus (1516) and its later editions by Stephanus (1550) and Beza (1598). It stands behind the King James Version and the Reina-Valera.
+- **Majority Text (MT)** — the reading found in the majority of surviving Greek manuscripts (printed, for example, by Hodges and Farstad, 1982, and Robinson and Pierpont, 2005). The MSB follows it.
+- **Critical Text (CT)** — the modern scholarly text (Nestle-Aland 28 / UBS 5) that gives more weight to a few older manuscripts. Most modern Bibles, Protestant and Catholic, follow it (BSB, NIV, ESV, RV1960 in some places, and modern Catholic Bibles).
+
+### The Byzantine (Antiochian) tradition: TR and MT
+
+The great majority of Greek manuscripts — usually estimated at **80 to over 90 percent**, and the overwhelming majority of complete manuscripts — belong to one family, called the **Byzantine** text because it was copied throughout the Greek-speaking church of the Byzantine Empire. Its defenders call it the **Antiochian** text, tracing it to Antioch of Syria, where "the disciples were called Christians first" (Acts 11:26) and from which Paul's missionary journeys began. This is the text the Greek church read and preserved in continuous use for over a thousand years. The **Majority Text** prints it as it stands in most manuscripts; the **Textus Receptus**, made from a handful of late Byzantine manuscripts available to Erasmus, belongs to the same family.
+
+### The Alexandrian tradition: CT
+
+The Critical Text leans most heavily on two 4th-century codices, **Codex Vaticanus** (B, c. 325–350, kept in the Vatican Library) and **Codex Sinaiticus** (ℵ, c. 350, found at St. Catherine's Monastery in Sinai in 1844), together with early papyri preserved in the dry sands of **Egypt**. Their text is called **Alexandrian**, after Alexandria in Egypt. Those two codices are 2 of some 5,800 manuscripts (about 0.03%), and manuscripts with a mainly Alexandrian text are a small minority — a few dozen to around a hundred, depending on how they are counted. Vaticanus and Sinaiticus also disagree with each other in thousands of places in the Gospels alone.
+
+Defenders of the CT answer that **older is better**: Vaticanus and Sinaiticus are centuries older than most Byzantine copies, and the earliest papyri tend to agree with them. Defenders of the TR and MT answer that the Byzantine copies are late **because they were used** — worn-out manuscripts were replaced by fresh copies — while the Alexandrian codices survived because they were not in use and because Egypt's dry climate preserves papyrus and parchment; and that a reading attested across the whole Greek-speaking world over many centuries is more likely to be original than one found in a few manuscripts from one region.
+
+### TR and MT: almost the same text
+
+The TR and the MT agree in the overwhelming majority of their wording; the Hodges–Farstad Majority Text differs from the TR in about 1,800 places, most of them small (spelling, word order, a single word). The best-known differences are places where Erasmus, who had only a few late Greek manuscripts, followed the **Latin Vulgate** against most Greek manuscripts:
+
+- **Acts 9:6** — "And he trembling and astonished said, Lord, what wilt thou have me to do?" comes from the Latin; it is not in the Greek manuscripts at this verse (similar words appear in Acts 22:10).
+- **1 John 5:7-8** — "in heaven, the Father, the Word, and the Holy Ghost: and these three are one" (the _Comma Johanneum_) is found in Latin manuscripts but in only a handful of late Greek ones; Erasmus added it in his third edition (1522).
+- **Revelation 22:16-21** — Erasmus's only Greek manuscript of Revelation lacked the last verses, so he translated them back into Greek from the Latin. That is why the TR reads "the **book** of life" in 22:19, where the Greek manuscripts read "the **tree** of life."
+- **Acts 8:37** — the Ethiopian's confession, "I believe that Jesus Christ is the Son of God," is found in some Greek and Latin manuscripts but not in most Greek ones.
+
+You can see these differences in the app: open the same verse in the **KJV (TR)** and the **MSB (MT)** side by side.
 
 The letters in parentheses after each Bible's name in the pane menu — (TR), (MT), (CT) — tell you which family it follows.
 

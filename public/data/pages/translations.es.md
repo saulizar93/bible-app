@@ -1,10 +1,33 @@
 Todas las Biblias de esta aplicación son de dominio público o tienen una licencia que permite su uso gratuito y sin fines de lucro. A continuación encontrará una breve historia de cada una: de dónde viene, de qué texto fue traducida y qué tener en cuenta al leerla junto a las demás.
 
-Una nota rápida sobre las familias de textos griegos del Nuevo Testamento que se mencionan:
+## Los tres textos griegos: TR, MT y CT
 
-- **Textus Receptus (TR)**: el «Texto Recibido», el Nuevo Testamento griego impreso por Erasmo (1516) y sus ediciones posteriores de Estienne (Stephanus) y Beza. Es la base de la Reina-Valera y de la King James Version.
-- **Texto Mayoritario (MT)**: la lectura que se encuentra en la mayoría de los manuscritos griegos que se conservan. Es muy cercano al TR.
-- **Texto Crítico (CT)**: el texto académico moderno (Nestle-Aland / UBS), que da más peso a unos pocos manuscritos más antiguos. La mayoría de las Biblias modernas, protestantes y católicas, lo siguen.
+No se conserva ninguna carta original de un apóstol; tenemos copias. Se conocen unos **5.800 manuscritos griegos** del Nuevo Testamento, desde pequeños fragmentos de papiro del siglo II hasta libros completos del siglo XV. Coinciden en la gran mayoría de sus palabras, pero donde difieren, los editores tienen que escoger, y sus decisiones forman tres familias:
+
+- **Textus Receptus (TR)**: el «Texto Recibido», el Nuevo Testamento griego impreso por Erasmo (1516) y sus ediciones posteriores de Estienne (Stephanus, 1550) y Beza (1598). Es la base de la Reina-Valera y de la King James Version.
+- **Texto Mayoritario (MT)**: la lectura que se encuentra en la mayoría de los manuscritos griegos que se conservan (impreso, por ejemplo, por Hodges y Farstad, 1982, y por Robinson y Pierpont, 2005). La MSB lo sigue.
+- **Texto Crítico (CT)**: el texto académico moderno (Nestle-Aland 28 / UBS 5), que da más peso a unos pocos manuscritos más antiguos. La mayoría de las Biblias modernas, protestantes y católicas, lo siguen (BSB, NVI, LBLA, la RV1960 en algunos lugares y las Biblias católicas modernas).
+
+### La tradición bizantina (antioquena): TR y MT
+
+La gran mayoría de los manuscritos griegos —se calcula normalmente entre **el 80 y más del 90 por ciento**, y la abrumadora mayoría de los manuscritos completos— pertenecen a una familia llamada texto **bizantino**, porque se copió en toda la iglesia de habla griega del Imperio bizantino. Sus defensores lo llaman texto **antioqueno**, y lo remontan a Antioquía de Siria, donde «los discípulos fueron llamados cristianos por primera vez» (Hechos 11:26) y desde donde partieron los viajes misioneros de Pablo. Es el texto que la iglesia griega leyó y conservó en uso continuo durante más de mil años. El **Texto Mayoritario** lo imprime tal como está en la mayoría de los manuscritos; el **Textus Receptus**, hecho con un puñado de manuscritos bizantinos tardíos que Erasmo tenía a mano, pertenece a la misma familia.
+
+### La tradición alejandrina: CT
+
+El Texto Crítico se apoya sobre todo en dos códices del siglo IV, el **Códice Vaticano** (B, c. 325–350, guardado en la Biblioteca Vaticana) y el **Códice Sinaítico** (ℵ, c. 350, hallado en el monasterio de Santa Catalina del Sinaí en 1844), junto con papiros antiguos conservados en las arenas secas de **Egipto**. Su texto se llama **alejandrino**, por Alejandría de Egipto. Esos dos códices son 2 de unos 5.800 manuscritos (cerca del 0,03 %), y los manuscritos de texto principalmente alejandrino son una pequeña minoría: entre unas pocas docenas y un centenar, según cómo se cuenten. Además, el Vaticano y el Sinaítico no concuerdan entre sí en miles de lugares, solo en los Evangelios.
+
+Los defensores del CT responden que **lo más antiguo es mejor**: el Vaticano y el Sinaítico son siglos más antiguos que la mayoría de las copias bizantinas, y los papiros más antiguos tienden a coincidir con ellos. Los defensores del TR y del MT responden que las copias bizantinas son tardías **porque se usaban**: los manuscritos gastados se reemplazaban por copias nuevas; mientras que los códices alejandrinos sobrevivieron porque no estaban en uso y porque el clima seco de Egipto conserva el papiro y el pergamino; y que una lectura atestiguada en todo el mundo de habla griega durante muchos siglos tiene más probabilidad de ser la original que una que se encuentra en unos pocos manuscritos de una sola región.
+
+### TR y MT: casi el mismo texto
+
+El TR y el MT coinciden en la abrumadora mayoría de sus palabras; el Texto Mayoritario de Hodges y Farstad difiere del TR en unos 1.800 lugares, en su mayoría pequeños (ortografía, orden de palabras, una sola palabra). Las diferencias más conocidas son lugares donde Erasmo, que solo tenía unos pocos manuscritos griegos tardíos, siguió a la **Vulgata latina** en contra de la mayoría de los manuscritos griegos:
+
+- **Hechos 9:6**: «Y él, temblando y temeroso, dijo: Señor, ¿qué quieres que yo haga?» viene del latín; no está en los manuscritos griegos en este versículo (palabras parecidas aparecen en Hechos 22:10).
+- **1 Juan 5:7-8**: «en el cielo, el Padre, el Verbo y el Espíritu Santo; y estos tres son uno» (la _Coma Joánica_) se encuentra en manuscritos latinos, pero solo en un puñado de manuscritos griegos tardíos; Erasmo la añadió en su tercera edición (1522).
+- **Apocalipsis 22:16-21**: el único manuscrito griego del Apocalipsis que tenía Erasmo no tenía los últimos versículos, así que los tradujo de nuevo al griego a partir del latín. Por eso el TR dice «del **libro** de la vida» en 22:19, donde los manuscritos griegos dicen «del **árbol** de la vida».
+- **Hechos 8:37**: la confesión del etíope, «Creo que Jesucristo es el Hijo de Dios», se encuentra en algunos manuscritos griegos y latinos, pero no en la mayoría de los griegos.
+
+Puede ver estas diferencias en la aplicación: abra el mismo versículo en la **RVG (TR)** y la **MSB (MT)** lado a lado.
 
 Las siglas entre paréntesis después del nombre de cada Biblia en el menú de los paneles —(TR), (MT), (CT)— indican qué familia sigue.
 

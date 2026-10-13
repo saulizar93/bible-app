@@ -617,3 +617,8 @@
 
 - The user retagged Job 2:9 "Bendice"/"Maldice" to H1288 in the Spanish Bibles; the concordances (rv1909-strong, rvo-strong, straubinger-strong) already list Job 2:9 under H1288, so no rebuild was needed.
 - In rv1909-strong and scripts/rvo/backup-original the tokens read "Bendice ," + "á Dios" (shown as "Bendice , á Dios" with Strong's on, and not matching the verse text). Changed to "Bendice" + "á Dios,"; tokens now spell the verse. transform.py rerun (RVO: "Bendice" + "a Dios,"). DATA_VERSION +1.
+
+## 2026-10-12 — Bible Translations: TR / MT / CT section expanded
+
+- translations.en.md / .es.md: the short TR/MT/CT list became a section: ~5,800 Greek manuscripts; the Byzantine ("Antiochian") tradition behind TR and MT (usually estimated at 80 to over 90% of manuscripts); the Alexandrian tradition behind the CT (Vaticanus and Sinaiticus, Egyptian papyri); both sides' arguments (older vs. majority/used copies); TR ≈ MT (Hodges–Farstad differs in ~1,800 mostly small places) with the TR following the Latin in Acts 9:6, 1 John 5:7-8, Rev 22:16-21 ("book" vs "tree" of life) and Acts 8:37. Inline Spanish quotations from the RVG.
+- Not as requested: "0.5%" and "over 99%" were changed — the two codices are ~0.03% of manuscripts, Alexandrian-type manuscripts a small minority, and the Byzantine share is usually estimated at 80 to over 90%, not 99%.
