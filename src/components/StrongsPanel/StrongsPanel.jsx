@@ -47,6 +47,7 @@ export default function StrongsPanel({
   word,
   morph,
   form,
+  note, // translator note on the tapped word (token `n`, e.g. RVO)
   source,
   lang = "en",
   currentBookId,
@@ -260,6 +261,13 @@ export default function StrongsPanel({
       >
         ×
       </button>
+
+      {note && (
+        <p className="strongs-tnote">
+          <strong>{lang === "es" ? "Nota del traductor" : "Translator's note"}:</strong>{" "}
+          {note}
+        </p>
+      )}
 
       <div className="strongs-head">
         <span className="strongs-code">{code}</span>

@@ -604,3 +604,11 @@
 ## 2026-10-12 — RVO Mt 1:22 "por el Señor por medio del profeta, cuando dijo:"
 
 - The user's four separate edits matched the first "por el" (before "Señor") instead of the second. Replaced with one edit of the whole phrase: `"Señor, por el profeta que dijo:": "Señor|G2962 por medio del|G1223 profeta,|G4396 cuando dijo:|G3004"` (each part keeps its Strong's number, parsing from the KJV). transform.py rerun (no warnings; the user's other new Mt 1 edits applied too), RVO concordance rebuilt, DATA_VERSION and LEXICON_VERSION +1.
+
+## 2026-10-12 — Translator notes for the RVO
+
+- New scripts/rvo/notas-traductor.json (`"Libro c:v": { "palabra(s)": "nota" }`, `"*"` = whole verse). transform.py `attach_notes()` puts each note on its token as `n` after the manual edits (warnings for words not found / notes not applied; prints the count). First note: Mt 1:25 "primogénito;".
+- BiblePane.jsx/.css: a gold superscript † after a word with `n` (or at the end of the verse when Strong's is off) toggles a note box under the verse ("Nota del traductor" for Spanish panes); open notes reset when the chapter changes.
+- App.jsx passes `tok.n` to StrongsPanel (`note`), which shows it at the top of the panel (StrongsPanel.css `.strongs-tnote`).
+- DATA_VERSION +1. README section 4: "To add a translator's note".
+- Note: running `git diff` from the AI's shell left a .git/index.lock (deletion not permitted there); it was moved to .git/stale-index-lock-claude and stale-index-lock-claude2 — safe to delete.

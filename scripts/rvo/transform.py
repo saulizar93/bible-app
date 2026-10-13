@@ -442,6 +442,38 @@ MANUAL = {k: v for k, v in json.load(open(os.path.join(HERE, 'ediciones-manuales
           if not k.startswith('_')}
 manual_done = set()
 
+# ---------------------------------------------------------------- translator notes (notas-traductor.json)
+_NOTES_FILE = os.path.join(HERE, 'notas-traductor.json')
+NOTES = ({k: v for k, v in json.load(open(_NOTES_FILE, encoding='utf-8')).items() if not k.startswith('_')}
+         if os.path.exists(_NOTES_FILE) else {})
+notes_done = set()
+
+def attach_notes(toks):
+    """Put each translator note of this verse on its token as `n`. The key is the word(s)
+    as they read in the RVO (with punctuation); "*" = the whole verse (note on the last token)."""
+    notes = NOTES.get(cur['ref'])
+    if not notes:
+        return
+    if not toks:
+        print(f'  ! nota del traductor: {cur["ref"]} no tiene palabras etiquetadas')
+        return
+    for key, note in notes.items():
+        hit = None
+        if key == '*':
+            hit = toks[-1]
+        else:
+            kw = key.split()
+            for t in toks:
+                tw = t['t'].split()
+                if any(tw[j:j + len(kw)] == kw for j in range(len(tw) - len(kw) + 1)):
+                    hit = t
+                    break
+        if hit is None:
+            print(f'  ! {cur["ref"]}: no encuentro «{key}» para la nota del traductor')
+            continue
+        hit['n'] = (hit['n'] + ' ' + note) if hit.get('n') else note
+        notes_done.add((cur['ref'], key))
+
 def _key(w):
     return strip_acc(split_punct(w)[1].lower())
 
@@ -593,6 +625,7 @@ for f in sorted(glob.glob(os.path.join(SRC, '*.json')), key=lambda p: int(os.pat
                 for t in toks:
                     t['t'] = pass_a(t['t'], t.get('s'), ctx)
                 toks = rebuild(toks, apply_manual(pass_c(pass_b(words_of(toks)))))
+                attach_notes(toks)
                 ws[i] = toks
                 new = join(toks)
             else:   # no tokens, or tokens that don't spell the verse (Job 2:9)
@@ -603,6 +636,7 @@ for f in sorted(glob.glob(os.path.join(SRC, '*.json')), key=lambda p: int(os.pat
                     for t in toks:
                         t['t'] = pass_a(t['t'], t.get('s'), ctx)
                     toks = rebuild(toks, apply_manual(pass_c(pass_b(words_of(toks)))))
+                    attach_notes(toks)
                     ws[i] = toks
                     del changes[n0:]       # already logged from the verse text
             if new != text:
@@ -630,6 +664,11 @@ for ref, edits in MANUAL.items():
     for old in edits:
         if (ref, old) not in manual_done:
             print(f'  ! edición manual sin aplicar: {ref} «{old}»')
+for ref, notes in NOTES.items():
+    for key in notes:
+        if (ref, key) not in notes_done:
+            print(f'  ! nota del traductor sin aplicar: {ref} «{key}»')
+print('translator notes', len(notes_done))
 print('verses changed', len(verse_rows), 'word changes', len(changes))
 for k, v in by_rule.most_common():
     print(f'{v:7d}  {k}')

@@ -73,3 +73,28 @@
   color: var(--dim);
   text-align: center;
 }
+
+/* Translator notes: † after the word (or the verse when Strong's is off) toggles the note */
+.tn-mark {
+  margin: 0 0 0 1px;
+  padding: 0 2px;
+  border: none;
+  background: none;
+  color: #c9a227;
+  font: 700 0.75em/1 ui-sans-serif, system-ui, sans-serif;
+  vertical-align: super;
+  cursor: pointer;
+}
+.tn-box {
+  display: block;
+  margin: 0.35em 0 0.2em;
+  padding: 0.45em 0.7em;
+  border-left: 3px solid #c9a227;
+  border-radius: 0 8px 8px 0;
+  background: color-mix(in srgb, #e5c96b 14%, transparent);
+  font: 0.82em/1.45 ui-sans-serif, system-ui, sans-serif;
+  cursor: auto;
+}
+.tn-label {
+  font-weight: 700;
+}

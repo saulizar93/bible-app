@@ -17,11 +17,21 @@ export default function BiblePane({
 }) {
   const [book, setBook] = useState(null);
   const [error, setError] = useState(null);
+  // Translator notes (`n` on a token, e.g. RVO): verses whose note box is open
+  const [openNotes, setOpenNotes] = useState(() => new Set());
+  const toggleNote = (v) =>
+    setOpenNotes((prev) => {
+      const next = new Set(prev);
+      if (next.has(v)) next.delete(v);
+      else next.add(v);
+      return next;
+    });
 
   useEffect(() => {
     let alive = true;
     setBook(null);
     setError(null);
+    setOpenNotes(new Set());
     loadBook(code, byId[refPos.book].n)
       .then((b) => {
         if (alive) setBook(b || { v: {} });
@@ -39,6 +49,8 @@ export default function BiblePane({
 
   const verses = book?.v[refPos.chapter];
   const tokensByVerse = strongsOn ? book?.w?.[refPos.chapter] : null;
+  const allTokens = book?.w?.[refPos.chapter]; // translator notes show with Strong's on or off
+  const noteLabel = optionFor(code)?.lang === "es" ? "Nota del traductor" : "Translator's note";
 
   useEffect(() => {
     if (!verses || !highlight) return;
@@ -60,6 +72,22 @@ export default function BiblePane({
   const verseEls = verses.map((text, i) => {
     if (!text) return null;
     const tokens = tokensByVerse?.[i];
+    const notes = (allTokens?.[i] || []).filter((t) => t.n).map((t) => t.n);
+    const mark = (key) => (
+      <button
+        key={key}
+        type="button"
+        className="tn-mark"
+        aria-label={noteLabel}
+        aria-expanded={openNotes.has(i + 1)}
+        onClick={(e) => {
+          e.stopPropagation();
+          toggleNote(i + 1);
+        }}
+      >
+        †
+      </button>
+    );
     return (
       <p
         key={i}
@@ -94,7 +122,14 @@ export default function BiblePane({
         >
           {i + 1}
         </span>
-        {tokens ? renderTokens(tokens, onWordClick) : text}
+        {tokens ? renderTokens(tokens, onWordClick, mark) : text}
+        {!tokens && notes.length > 0 && mark("tn-end")}
+        {notes.length > 0 && openNotes.has(i + 1) && (
+          <span className="tn-box" onClick={(e) => e.stopPropagation()}>
+            <span className="tn-label">{noteLabel}:</span>{" "}
+            {notes.join(" ")}
+          </span>
+        )}
       </p>
     );
   });
@@ -110,7 +145,7 @@ export default function BiblePane({
 /** Render a verse's tokens as spans, with a single space between each.
  *  Tagged words get a `.sw` span (clickable/underlined only while Strong's
  *  mode is on, via the .strongs-on CSS toggle — see app.css). */
-function renderTokens(tokens, onWordClick) {
+function renderTokens(tokens, onWordClick, mark) {
   return tokens.flatMap((tok, i) => {
     const code = tok.s && normalizeStrong(tok.s);
     const word = code ? (
@@ -128,7 +163,9 @@ function renderTokens(tokens, onWordClick) {
     ) : (
       <span key={i}>{tok.t}</span>
     );
+    // `n` = translator note on this word: a † right after it opens the note
+    const out = tok.n ? [word, mark(`tn${i}`)] : [word];
     // `j` = no space in the source before this token (a tag boundary inside a word)
-    return i === 0 || tok.j ? [word] : [<span key={`sp${i}`}> </span>, word];
+    return i === 0 || tok.j ? out : [<span key={`sp${i}`}> </span>, ...out];
   });
 }

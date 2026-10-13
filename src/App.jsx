@@ -440,6 +440,7 @@ export default function App() {
                 word,
                 morph: tok?.m,
                 form: tok?.g,
+                note: tok?.n,
                 source: top,
               });
             }}
@@ -468,6 +469,7 @@ export default function App() {
                 word,
                 morph: tok?.m,
                 form: tok?.g,
+                note: tok?.n,
                 source: bottom,
               });
             }}
@@ -500,6 +502,7 @@ export default function App() {
               word={selection.word}
               morph={selection.morph}
               form={selection.form}
+              note={selection.note}
               source={selection.source}
               lang={lang || "en"}
               currentBookId={refPos.book}

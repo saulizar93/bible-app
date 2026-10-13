@@ -156,6 +156,23 @@ The RVO is **generated**: `scripts/rvo/transform.py` starts every time from the 
 
 6. Raise `DATA_VERSION` in `src/js/data.js` (section 6), then commit and push.
 
+### To add a translator's note
+
+1. Open `scripts/rvo/notas-traductor.json` and add the verse, the word the note belongs to, and the note:
+
+   ```json
+   "Mateo 1:25": { "primogénito;": "El texto crítico (CT) omite «primogénito». Lucas 2:7 contiene «primogénito» y no tiene variante." }
+   ```
+
+   - The word must appear exactly as the verse reads **in the RVO** (after your manual edits), with its punctuation. Several words can be given (`"de Jesús"`).
+   - Use `"*"` instead of a word for a note about the whole verse (the † goes at the end of the verse).
+   - Several notes in one verse go in the same `{ }`, separated by commas.
+
+2. Run `python3 scripts/rvo/transform.py`. A line starting with `!` means the word was not found.
+3. Raise `DATA_VERSION` in `src/js/data.js`, then commit and push.
+
+In the app a gold **†** appears after the word (with Strong's on or off); tapping it opens the note under the verse. Tapping the word with Strong's on also shows the note at the top of the Strong's panel.
+
 ### To change a Strong's tag in the RVO
 
 Edit the token in `scripts/rvo/backup-original/<book>.json` (the RV1909 wording, same rules as section 3), or add a rule to `scripts/fix-strongs.py`. Then run `python3 scripts/rvo/transform.py` and rebuild the RVO word search.
