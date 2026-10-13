@@ -612,3 +612,8 @@
 - App.jsx passes `tok.n` to StrongsPanel (`note`), which shows it at the top of the panel (StrongsPanel.css `.strongs-tnote`).
 - DATA_VERSION +1. README section 4: "To add a translator's note".
 - Note: running `git diff` from the AI's shell left a .git/index.lock (deletion not permitted there); it was moved to .git/stale-index-lock-claude and stale-index-lock-claude2 — safe to delete.
+
+## 2026-10-12 — Job 2:9 (RV1909 / RVO): comma moved to its word
+
+- The user retagged Job 2:9 "Bendice"/"Maldice" to H1288 in the Spanish Bibles; the concordances (rv1909-strong, rvo-strong, straubinger-strong) already list Job 2:9 under H1288, so no rebuild was needed.
+- In rv1909-strong and scripts/rvo/backup-original the tokens read "Bendice ," + "á Dios" (shown as "Bendice , á Dios" with Strong's on, and not matching the verse text). Changed to "Bendice" + "á Dios,"; tokens now spell the verse. transform.py rerun (RVO: "Bendice" + "a Dios,"). DATA_VERSION +1.
