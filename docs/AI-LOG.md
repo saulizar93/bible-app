@@ -631,3 +631,7 @@
 ## 2026-10-14 — Bibliography entries numbered
 
 - bibliography.en.md / .es.md: every entry (not the five tier-legend lines) changed from "- {tier} …" to "N. {tier} …", numbered continuously across all sections 1–213 (same count in both languages); the intro says "213 entries in total". Rendered as numbered lists by the ordered-list support in InfoPanel (tier badges and colors unchanged; each section's list starts at its first number).
+
+## 2026-10-14 — The One True Church: the keys before the apostles
+
+- one-true-church.en.md / .es.md, section 7 ("The keys"): new point that the scribes and Pharisees held the "key of knowledge" before the apostles — Moses' seat (Matt 23:2-3), Luke 11:52 and its parallel Matt 23:13 — quoted in full (KJV / RVG); the key is the word declared, not an office.

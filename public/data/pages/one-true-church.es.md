@@ -375,6 +375,14 @@ Así es, y los apóstoles que la dirigían son los que **escribieron** el Nuevo 
 
 > **Apocalipsis 1:18:** «y el que vivo, y estuve muerto; y he aquí que vivo para siempre, amén. Y tengo las llaves de la muerte y del infierno.»
 
+- **Las llaves antes de los apóstoles.** Las llaves no comenzaron con Pedro. Antes de los apóstoles, las tenían los **escribas y fariseos**: se sentaban «en la cátedra de Moisés», que no es una silla, sino la posesión y la enseñanza de la Ley (Mateo 23:2-3). Jesús dijo que tenían «la llave de la ciencia» y que «cerráis el reino del cielo delante de los hombres» (Lucas 11:52 y su pasaje paralelo, Mateo 23:13). Así que la llave es el conocimiento de la palabra de Dios: quien la declara abre el reino a los hombres, y quien la retiene o la tuerce lo cierra. Los fariseos tenían la llave y cerraron la puerta; Pedro recibió las llaves y la abrió predicando. En ambos casos la llave es la palabra, no un cargo que admite o excluye a las personas por su propia autoridad; y la cátedra de los escribas y fariseos no los hacía tener razón, ni pasó a sus sucesores.
+
+> **Mateo 23:2-3:** «diciendo: En la cátedra de Moisés se sientan los escribas y los fariseos: Así que, todo lo que os digan que guardéis, guardadlo y hacedlo, pero no hagáis conforme a sus obras, porque ellos dicen, y no hacen.»
+
+> **Lucas 11:52:** «¡Ay de vosotros, doctores de la ley! que habéis quitado la llave de la ciencia; vosotros mismos no entrasteis, y a los que entraban se lo impedisteis.»
+
+> **Mateo 23:13:** «Mas ¡ay de vosotros, escribas y fariseos, hipócritas! porque cerráis el reino del cielo delante de los hombres; porque ni entráis, ni a los que están entrando dejáis entrar.»
+
 - **Ningún sucesor.** Nada en el pasaje habla de un sucesor de Pedro, de Roma ni de un obispo de Roma que ocupe el lugar de Pedro. Las cartas de Pedro nunca reclaman esa autoridad; él escribe como «siervo y apóstol de Jesucristo» (2 Pedro 1:1) y «anciano también» (1 Pedro 5:1).
 
 # 8. Libertad, no un sistema

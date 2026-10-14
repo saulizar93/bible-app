@@ -375,6 +375,14 @@ It did — and the apostles who led it are the ones who **wrote** the New Testam
 
 > **Revelation 1:18:** "I am he that liveth, and was dead; and, behold, I am alive for evermore, Amen; and have the keys of hell and of death."
 
+- **The keys before the apostles.** The keys were not new with Peter. Before the apostles, the **scribes and Pharisees** held them: they "sit in Moses' seat" — not a chair, but the possession and teaching of the Law (Matthew 23:2-3). Jesus said they had "the key of knowledge" and that they "shut up the kingdom of heaven against men" (Luke 11:52 and its parallel, Matthew 23:13). So the key is the knowledge of God's word: whoever declares it opens the kingdom to men, and whoever withholds or twists it shuts it. The Pharisees had the key and shut the door; Peter received the keys and opened it by preaching. In both cases the key is the word, not an office that admits or excludes people by its own authority — and the scribes' and Pharisees' seat did not make them right, nor did it pass on to their successors.
+
+> **Matthew 23:2-3:** "Saying, The scribes and the Pharisees sit in Moses' seat: All therefore whatsoever they bid you observe, that observe and do; but do not ye after their works: for they say, and do not."
+
+> **Luke 11:52:** "Woe unto you, lawyers! for ye have taken away the key of knowledge: ye entered not in yourselves, and them that were entering in ye hindered."
+
+> **Matthew 23:13:** "But woe unto you, scribes and Pharisees, hypocrites! for ye shut up the kingdom of heaven against men: for ye neither go in yourselves, neither suffer ye them that are entering to go in."
+
 - **No successor.** Nothing in the passage speaks of a successor to Peter, of Rome, or of a bishop of Rome holding Peter's place. Peter's letters never claim such authority; he writes as "a servant and an apostle of Jesus Christ" (2 Peter 1:1) and "also an elder" (1 Peter 5:1).
 
 # 8. Freedom, not a system
