@@ -716,21 +716,21 @@ Jehová hizo el nuevo pacto. Hebreos dice que un testamento no tiene valor «ent
 
 # 9. El Hijo engendrado
 
-### 93. Si «Dios el Hijo» es eterno, ¿cuándo fue engendrado?
+### 93. Si «Dios Hijo» es eterno, ¿cuándo fue engendrado, o acaso fue engendrado dos veces?
 
-Hebreos y Hechos dicen: «yo te he engendrado **hoy**», y Hechos lo aplica a cuando Dios levantó a Jesús. El ángel le dijo a María que el niño sería llamado Hijo de Dios **porque** el Espíritu Santo la cubriría con su sombra. Pablo dice que Dios envió a su Hijo «hecho de mujer». ¿Cuándo es ese «hoy»? No suena a eternidad.
+Hebreos dice: «**Hoy** te he engendrado». El ángel le dijo a María que el niño sería llamado Hijo de Dios **porque** el Espíritu Santo la cubriría con su sombra (literalmente, engendrado —o «concebido»— por el Espíritu Santo, según Mateo 1:20). Pablo dice que Dios envió a su Hijo «nacido de mujer y nacido bajo la ley». ¿Cuándo es ese «hoy»? No suena a "engendrado eternamente," como dicen los Trinitarios.
 
-> **Hebreos 1:5 (RVG):** «Porque ¿a cuál de los ángeles dijo Dios jamás: Mi Hijo eres tú, yo te he engendrado hoy, y otra vez: Yo seré a Él Padre, y Él me será a mí Hijo?»
+> **Hebreos 1:5 (RVG):** «Porque ¿a cuál de los ángeles dijo Dios jamás: Mi Hijo eres tú, yo te he engendrado **hoy**, y otra vez: Yo **seré** a Él Padre, y Él me **será** a mí Hijo?» - el autor de Hebreos aplica la profecía sobre la generación de Salomón, recogida en 2 Samuel 7:14, a la generación del futuro Hijo de Dios
 
-> **Hechos 13:33 (RVG):** «la cual Dios ha cumplido a los hijos de ellos, a nosotros; resucitando a Jesús; como también en el salmo segundo está escrito: Mi Hijo eres tú, yo te he engendrado hoy.»
+> **Mateo 1:20 (RVG):** "José hijo de David, no temas recibir a María tu esposa, porque lo que en ella es **engendrado**, **del Espíritu Santo es**."
 
-> **Lucas 1:35 (RVG):** «Y respondiendo el ángel le dijo: El Espíritu Santo vendrá sobre ti, y el poder del Altísimo te cubrirá con su sombra; por lo cual también lo Santo que de ti nacerá, será llamado el Hijo de Dios.»
+> **Lucas 1:35 (RVG):** «Y respondiendo el ángel le dijo: **El Espíritu Santo** vendrá sobre ti, y el poder del Altísimo te cubrirá con su sombra; por lo cual también lo Santo que de ti nacerá, será llamado el Hijo de Dios.»
 
-> **Gálatas 4:4 (RVG):** «Mas venido el cumplimiento del tiempo, Dios envió a su Hijo, hecho de mujer, hecho bajo la ley,»
+> **Gálatas 4:4 (RVG):** «Mas venido el cumplimiento del tiempo, Dios envió a su Hijo, **hecho de mujer, hecho bajo la ley**»
 
-> **Juan 1:14 (RVG):** «Y el Verbo fue hecho carne, y habitó entre nosotros (y vimos su gloria, gloria como del unigénito del Padre), lleno de gracia y de verdad.»
+> **Juan 1:14 (RVG):** «Y el Verbo fue hecho carne, y habitó entre nosotros (y vimos su gloria, gloria como del **unigénito**(_literal: 'engendrado'_) del Padre), lleno de gracia y de verdad.»
 
-> **Juan 3:16 (RVG):** «Porque de tal manera amó Dios al mundo, que ha dado a su Hijo unigénito, para que todo aquel que en Él cree no se pierda, mas tenga vida eterna.»
+> **Juan 3:16 (RVG):** «Porque de tal manera amó Dios al mundo, que ha dado a su Hijo **unigénito**, para que todo aquel que en Él cree no se pierda, mas tenga vida eterna.»
 
 ### 94. ¿Dónde dice la Biblia «Dios el Hijo», «Dios el Espíritu Santo», «Hijo eterno», «tres personas» o «Trinidad»?
 

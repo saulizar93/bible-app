@@ -716,21 +716,21 @@ The LORD made the new covenant. Hebrews says a testament has no force "while the
 
 # 9. The begotten Son
 
-### 93. If "God the Son" is eternal, when was He begotten?
+### 93. If "God the Son" is eternal, when was He begotten or was he begotten twice?
 
-Hebrews and Acts say, "**this day** have I begotten thee," and Acts applies it to God raising up Jesus. The angel told Mary that the child would be called the Son of God **because** the Holy Ghost would overshadow her. Paul says God sent His Son "made of a woman." When is that "today"? It does not sound like eternity.
+Hebrews says, "**this day** have I begotten thee." The angel told Mary that the child would be called the Son of God **because** the Holy Ghost would overshadow her (literally begotten("conceived") by the Holy Spirit in Mat 1:20). Paul says God sent His Son "made of a woman, made under the law." When is that "today"? It does not sound like "eternaly begotten," as Trinitarians say.
 
-> **Hebrews 1:5 (KJV):** "For unto which of the angels said he at any time, Thou art my Son, this day have I begotten thee? And again, I will be to him a Father, and he shall be to me a Son?"
+> **Hebrews 1:5 (KJV):** "For unto which of the angels said he at any time, Thou art my Son, **this day** have I begotten thee? And again, **I will** be to him a Father, and **he shall** be to me a Son?" - the author of Hebrews applies the begetting prophecy of Solomon from 2 Samuel 7:14, and it applies it to the begetting of the future ("will", "shall") Son of God
 
-> **Acts 13:33 (KJV):** "God hath fulfilled the same unto us their children, in that he hath raised up Jesus again; as it is also written in the second psalm, Thou art my Son, this day have I begotten thee."
+> **Matthew 1:20 (KJV):** "Joseph, thou son of David, fear not to take unto thee Mary thy wife: for that which is **conceived** in her **is of the Holy Ghost**.
 
-> **Luke 1:35 (KJV):** "And the angel answered and said unto her, The Holy Ghost shall come upon thee, and the power of the Highest shall overshadow thee: therefore also that holy thing which shall be born of thee shall be called the Son of God."
+> **Luke 1:35 (KJV):** "And the angel answered and said unto her, **The Holy Ghost** shall come upon thee, and the power of the Highest shall overshadow thee: therefore also that holy thing which shall be born of thee shall be called the Son of God."
 
-> **Galatians 4:4 (KJV):** "But when the fulness of the time was come, God sent forth his Son, made of a woman, made under the law,"
+> **Galatians 4:4 (KJV):** "But when the fulness of the time was come, God sent forth his Son (_the same way John the Baptist was "sent"_), **made of a woman**, **made under the law**,"
 
-> **John 1:14 (KJV):** "And the Word was made flesh, and dwelt among us, (and we beheld his glory, the glory as of the only begotten of the Father,) full of grace and truth."
+> **John 1:14 (KJV):** "And the Word was made flesh, and dwelt among us, (and we beheld his glory, the glory as of the only **begotten** of the Father,) full of grace and truth."
 
-> **John 3:16 (KJV):** "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life."
+> **John 3:16 (KJV):** "For God so loved the world, that he gave his only **begotten** Son, that whosoever believeth in him should not perish, but have everlasting life."
 
 ### 94. Where does the Bible say "God the Son," "God the Holy Spirit," "eternal Son," "three persons," or "Trinity"?
 
