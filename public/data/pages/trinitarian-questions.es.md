@@ -54,27 +54,61 @@ Pedro oyó con sus propios oídos el mandato de Mateo 28:19. Pocas semanas despu
 
 ### 5. En Mateo 28:20 Jesús dijo: «He aquí, yo estoy con vosotros todos los días». ¿Cómo, si estaba a punto de ascender al cielo? ¿No es el Espíritu Santo el que se queda con nosotros para siempre?
 
-> **Mateo 28:20 (RVG):** «enseñándoles que guarden todas las cosas que os he mandado; y he aquí, yo estoy con vosotros todos los días, hasta el fin del mundo. Amén.»
+> **Mateo 28:20 (RVG):** «enseñándoles que guarden todas las cosas que os he mandado; y he aquí, yo estoy con vosotros todos los días (_como Espíritu Santo_), hasta el fin del mundo. Amén.»
 
-> **Juan 14:16-18 (RVG):** «y yo rogaré al Padre, y Él os dará otro Consolador, para que esté con vosotros para siempre; el Espíritu de verdad, a quien el mundo no puede recibir, porque no le ve, ni le conoce; pero vosotros le conocéis; porque mora con vosotros, y estará en vosotros. No os dejaré huérfanos; vendré a vosotros.»
+> **Juan 14:16-18 (RVG):** "y yo (Jesús como Hijo humano) rogaré al Padre (_el único Espíritu divino_), y Él (_el Padre_) os dará otro Consolador (_su Espíritu Santo en lugar de su presencia atravez de su hijo humano_), para que esté con vosotros para siempre; el Espíritu de verdad, a quien el mundo no puede recibir, porque no le ve, ni le conoce; pero vosotros le conocéis (_puesto que Él habita plenamente en el Hijo humano_); porque mora con vosotros (_como el Jesús humano_) y estará en vosotros (_como Espíritu Santo_). No os dejaré **huérfanos** (_osea sin Padre_); vendré(_Jesus_) a vosotros (_como Espíritu Santo_)."
 
 ### 6. ¿Cuál es el nombre del Padre?
 
 Jesús dijo que vino en el nombre de su Padre, que manifestó el nombre del Padre y que lo dio a conocer.
 
-> **Juan 5:43 (RVG):** «Yo he venido en el nombre de mi Padre, y no me recibís; si otro viniere en su propio nombre, a ese recibiréis.»
+> **Mateo 1:21 (RVG):** "Y dará a luz un hijo, y **llamarás su nombre JESÚS**; porque Él salvará a su pueblo de sus pecados.."
 
-> **Juan 17:6 (RVG):** «He manifestado tu nombre a los hombres que del mundo me diste; tuyos eran, y me los diste, y han guardado tu palabra.»
+> **Mateo 21:9 (RVG):** "¡Hosanna al Hijo de David! ¡Bendito **el que viene en el nombre del Señor**!"
 
-> **Juan 17:26 (RVG):** «Y yo les he dado a conocer tu nombre, y lo daré a conocer aún; para que el amor con que me has amado, esté en ellos, y yo en ellos.»
+> **Hebreos 1:4 (RVG):** "hecho tanto más superior que los ángeles, cuanto **heredó** más excelente nombre que ellos."
 
-> **Hebreos 2:12 (RVG):** «diciendo: Anunciaré tu nombre a mis hermanos, en medio de la iglesia te alabaré.»
+> **Hebreos 2:12 (RVG):** "Anunciaré **tu nombre** a mis hermanos"
+
+> **Filipenses 2:9-11 (RVG):** "Por lo cual **Dios también le** exaltó hasta lo sumo, y **le dio un nombre** que es **sobre todo nombre**: para que al nombre de **Jesús**, se doble toda rodilla; de los que están en los cielos, y en la tierra, y debajo de la tierra, y toda lengua confiese que Jesucristo es el Señor, para gloria de Dios Padre."
+
+> **Juan 5:43 (RVG):** "**Yo he venido en el nombre de mi Padre**, y no me recibís; si otro viniere en su propio nombre, a ése recibiréis."
+
+> **Juan 10:25 (RVG):** "Jesús les respondió: Os lo he dicho, y no creéis; las obras que yo hago **en nombre de mi Padre**, ellas dan testimonio de mí."
+
+> **Juan 17:6 (RVG):** "He manifestado **tu nombre** a los hombres que del mundo me diste; tuyos eran, y me los diste, y han guardado tu palabra".
+
+> **Juan 17:11 (BSB):** "Padre Santo, protégelos mediante **tu nombre, el nombre que me diste**, para que sean uno, así como nosotros somos uno".
+
+> **Juan 17:12 (BSB):** "Los protegí y preservé mediante **tu nombre, el nombre que me diste**".
+
+> **Juan 17:26 (RVG):** "Y yo les he dado a conocer **tu nombre**, y lo daré a conocer aún; para que el amor con que me has amado, esté en ellos, y yo en ellos".
+
+> **Apocalipsis 14:1 (BSB):** "Entonces miré y vi al Cordero de pie sobre el monte Sion, y con Él a 144.000 que tenían **su nombre y el nombre de su Padre** escritos en sus frentes".
+
+> **Apocalipsis 22:2-4 (RVG):** "Y no habrá más maldición; y el trono **de Dios y del Cordero** estará en ella, y **sus** siervos **le** servirán; y verán **su** rostro, y **su nombre** estará en sus frentes".
 
 ### 7. ¿Cuál es el nombre del Espíritu Santo?
 
 Jesús dijo que el Padre enviaría al Espíritu Santo «en mi nombre».
 
-> **Juan 14:26 (RVG):** «Mas el Consolador, el Espíritu Santo, a quien el Padre enviará en mi nombre, Él os enseñará todas las cosas, y os recordará todo lo que yo os he dicho.»
+> **Juan 14:26 (RVG):** "Mas el Consolador, el Espíritu Santo, a quien el Padre enviará **en mi nombre**, Él os enseñará todas las cosas, y os recordará **todo lo que yo os he dicho**."
+
+> **Juan 14:17-18 (RVG):** "el Espíritu de verdad, a quien el mundo no puede recibir, porque no le ve, ni le conoce; pero **vosotros le conocéis; porque mora con vosotros**, y **estará en vosotros**. No os dejaré huérfanos; **vendré a vosotros**."
+
+> **Juan 16:7 (RVG):** Pero yo os digo la verdad: Os es necesario que yo me vaya; porque **si no me fuera, el Consolador no vendría a vosotros**; mas si me fuere, os le enviaré.
+
+> **Mateo 28:20 (RVG):** "enseñándoles que guarden todas las cosas que os he mandado; y he aquí **yo estoy con vosotros todos los días**, hasta el fin del mundo. Amén."
+
+> **Hechos 16:6-7 (BSB):** "Después de que **el Espíritu Santo les impidió** hablar la palabra en la provincia de Asia, recorrieron la región de Frigia y Galacia. Y cuando llegaron a los límites de Misia, intentaron entrar en Bitinia, pero **el Espíritu de Jesús no se lo permitió**."
+
+> **Romanos 8:9 (RVG):** "Mas vosotros no estáis en la carne, sino en el Espíritu, si es que **el Espíritu de Dios** mora en vosotros. Y si alguno no tiene **el Espíritu de Cristo**, el tal no es de Él."
+
+> **2 Corintios 3:17 (RVG):** "Porque **el Señor es el Espíritu**; y donde está el Espíritu del Señor, allí hay libertad."
+
+> **Filipenses 1:19 (RVG):** "Porque sé que por vuestra oración y la suministración **del Espíritu de Jesucristo**, esto se tornará para mi liberación,"
+
+> **1 Pedro 1:10-11 (RVG):** "Acerca de esta salvación inquirieron y diligentemente indagaron **los profetas** que profetizaron de la gracia que había de venir a vosotros, escudriñando cuándo o en qué punto de tiempo indicaba **el Espíritu de Cristo** que estaba en ellos, cuando prenunciaba los sufrimientos de Cristo, y las glorias después de ellos."
 
 ### 8. ¿Cuál es el nombre del Hijo, y qué significa?
 
@@ -115,6 +149,12 @@ Un hijo hereda el nombre de su padre. El nombre de Jesús es «sobre todo nombre
 > **Juan 1:1 (RVG):** «En el principio era el Verbo, y el Verbo era con Dios, y el Verbo era Dios.»
 
 > **Juan 1:14 (RVG):** «Y el Verbo fue hecho carne, y habitó entre nosotros (y vimos su gloria, gloria como del unigénito del Padre), lleno de gracia y de verdad.»
+
+> **Salmos 33:3,9 (RVG):** «Por la palabra de Jehová fueron hechos los cielos, y todo el ejército de ellos por el aliento de su boca... Porque Él habló, y fue hecho; Él mandó, y se estableció.»
+
+> **Salmos 29:3,5,8 (RVG):** «La voz de Jehová sobre las aguas; truena el Dios de gloria; Jehová sobre las muchas aguas...La voz de Jehová quiebra los cedros; quebró Jehová los cedros del Líbano...La voz de Jehová hace temblar el desierto; hace temblar Jehová el desierto de Cades.»
+
+Para los griegos del 1er siglo "el Verbo" or "la Parabla" no era una persona, esa la sabiduria, el plan, el racionamiento, el decreto eterno del universo que estaba detras de como todo funcionaba. Juan escribio en griego para una audiencia griega, porque le cambiaria el significado y hubiera convertido la Palabra en su propia persona?
 
 ### 13. En 1 Timoteo 2:5, ¿quién es el «un Dios», y entre quiénes está el mediador?
 

@@ -166,7 +166,7 @@ Scripture is the same. A book is God-breathed the moment the prophet or apostle 
 
 The church's role is like that of John the Baptist. John pointed at Jesus — "Behold the Lamb of God" (John 1:29) — but nobody would say John "gave us" Jesus, or that Jesus' authority depended on John. "He must increase, but I must decrease" (John 3:30). A church that points to the Scriptures is doing its job; a church that claims to stand above them because it pointed to them has forgotten that job.
 
-Even the verse Catholics quote — the church is "the pillar and ground of the truth" (1 Timothy 3:15) — describes a pillar. A pillar holds something up and displays it; it does not create it. And Irenaeus, as we saw, used the same words for the Scriptures.
+Even the verse Catholics quote — the church is "the pillar and ground of the truth" (1 Timothy 3:15) — describes a pillar. A pillar holds something up and displays it; it does not create it. This pillar must hold Scripture if it wants to remain the ground of truth, as shown in the same verse with context - "These things **write I unto thee**... **that thou mayest know how thou oughtest to behave thyself in the house of God**, which is the church of the living God, the pillar and ground of the truth" (1 Timothy 3:14-15).
 
 # 5. Rome's list is not today's Catholic Bible
 

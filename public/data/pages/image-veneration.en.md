@@ -26,7 +26,7 @@ It can feel safe to believe what most Christians believe. But the majority, even
 - **Unbaptized infants go to hell.** Augustine taught it, and the Council of Florence (1439) defined that the souls of those who die "in original sin alone" go down "straightaway to hell," though to lesser punishments. Medieval theologians softened this into **Limbo**, which was taught for centuries; in 2007 the International Theological Commission wrote that there are "serious theological and liturgical grounds for hope" that such infants are saved.
 - **No salvation outside the Roman Church.** Boniface VIII declared it "altogether necessary to salvation for every human creature to be subject to the Roman Pontiff" (_Unam Sanctam_, 1302), and Florence (1442) said that pagans, Jews, heretics and schismatics go "into the everlasting fire" unless they join her before death. Vatican II (_Lumen Gentium_ 16, 1964) teaches that those who are not Catholic through no fault of their own can be saved.
 - **Slavery.** Nicholas V authorized the king of Portugal to reduce Saracens and pagans to "perpetual servitude" (_Dum Diversas_, 1452; _Romanus Pontifex_, 1455). As late as 1866 an instruction of the Holy Office under Pius IX said that slavery in itself "is not at all contrary to the natural and divine law."
-- **Usury** (charging interest on loans). Lateran III (1179) excommunicated open usurers, the Council of Vienne (1311) declared it heresy to say usury is not a sin, and Benedict XIV repeated the condemnation in 1745 (_Vix Pervenit_). From the 1820s the Holy Office quietly allowed Catholics to lend at interest.
+- **Usury** (charging interest on loans). Lateran III (1179) excommunicated open usurers, the Council of Vienne (1311) declared it heresy to say usury is not a sin, and Benedict XIV repeated the condemnation in 1745 (_Vix Pervenit_). Yet, during the nineteenth century, the Holy Office permitted Catholics to receive interest under certain circumstances, reflecting a developing distinction between prohibited usury and interest received under legitimate titles.
 - **The death penalty.** Innocent III required converted Waldensians to confess that the state may execute without mortal sin (1208), and the Catechism of 1992 allowed it in rare cases. In 2018 the Catechism was changed to say it is "inadmissible."
 - **Religious liberty.** Gregory XVI called liberty of conscience an "absurd and erroneous" idea, even "madness" (_Mirari Vos_, 1832), and Pius IX condemned it again (_Quanta Cura_, 1864). Vatican II affirmed religious liberty as a right (_Dignitatis Humanae_, 1965).
 - **Worship with non-Catholics.** The Code of Canon Law of 1917 (canon 1258) forbade Catholics to take an active part in non-Catholic services. Since Vatican II, joint prayer is encouraged.
@@ -49,7 +49,7 @@ Catholic and Orthodox theology distinguishes _latreia_ (worship, given to God al
 
 The golden calf was not presented as a new god. Aaron built an altar before it and proclaimed, "To morrow is **a feast to the LORD**" (Exodus 32:5). The people meant to worship **the God who brought them out of Egypt** by means of an image (32:4). God called it corruption and judgment followed:
 
-> **Exodus 32:8:** "They have turned aside quickly out of the way which I commanded them: they have made them a molten calf, and have worshipped it, and have sacrificed thereunto, and said, These be thy gods, O Israel, which have brought thee up out of the land of Egypt."
+> **Exodus 32:8 (BSB):** "How quickly they have turned aside from the way I commanded them. They have made for themselves a molten calf and have bowed down to it. They have sacrificed to it and said, ‘O Israel, **this is your God**, who brought you up out of the land of Egypt.’"
 
 Using an image to honour the true God is precisely the defence offered for icons: "the honour passes to the prototype." Israel's sin at Sinai shows that God does not accept it.
 
@@ -57,7 +57,7 @@ Using an image to honour the true God is precisely the defence offered for icons
 
 Five centuries later, King Jeroboam set up golden calves at Bethel and Dan. The reason was **politics**:
 
-> **1 Kings 12:26-28:** "And Jeroboam said in his heart, Now shall the kingdom return to the house of David: If this people go up to do sacrifice in the house of the LORD at Jerusalem, then shall the heart of this people turn again unto their lord… Whereupon **the king took counsel**, and made two calves of gold, and said unto them, It is too much for you to go up to Jerusalem: behold thy gods, O Israel, which brought thee up out of the land of Egypt."
+> **1 Kings 12:26-28:** "And Jeroboam said in his heart, Now shall the kingdom return to the house of David: If this people go up to do sacrifice in the house of the LORD at Jerusalem, then shall the heart of this people turn again unto their lord… Whereupon **the king took counsel**, and made two calves of gold, and said unto them, It is too much for you to go up to Jerusalem: **behold thy gods**, O Israel, which brought thee up out of the land of Egypt."
 
 "And this thing became a sin" (1 Kings 12:30). Remember this pattern when we come to the emperors and empresses of the eighth and ninth centuries.
 
@@ -79,7 +79,7 @@ Five centuries later, King Jeroboam set up golden calves at Bethel and Dan. The 
 
 > **Habakkuk 2:18:** "What profiteth the graven image that the maker thereof hath graven it; the molten image, and **a teacher of lies**…?"
 
-> **Jeremiah 10:8:** "…**the stock is a doctrine of vanities**."
+> **Jeremiah 10:8 (BSB):** "But they are altogether senseless and foolish, **instructed** by worthless idols made of wood!"
 
 Notice the last two. Images are defended as "books for the illiterate." The prophets say an image teaches **lies** and **vanities**.
 
@@ -232,17 +232,17 @@ Defenders of icons say this canon was only a precaution during persecution. Even
 
 ### Summary of the first three centuries
 
-| Date | Witness | Testimony |
-|---|---|---|
-| c. 155 | Justin Martyr | Images are "soulless and dead"; Christians do not honour them |
-| c. 180 | Irenaeus | The only people honouring images of Christ are the heretical Carpocratians, "after the manner of the Gentiles" |
-| c. 200–250 | Minucius Felix | Pagans ask why Christians have "no acknowledged images" |
-| c. 200 | Clement of Alexandria | "Works of art cannot then be sacred and divine" |
-| c. 200–210 | Tertullian | "God prohibits an idol as much to be made as to be worshipped" |
-| c. 248 | Origen | Christians "avoid temples, altars, and images" and would rather die |
-| c. 305 | Arnobius | To "pray to an image without feeling" is a disgrace |
-| c. 305 | Synod of Elvira | No pictures in churches, lest they be worshipped |
-| c. 310 | Lactantius | "There is no religion wherever there is an image" |
+| Date       | Witness               | Testimony                                                                                                      |
+| ---------- | --------------------- | -------------------------------------------------------------------------------------------------------------- |
+| c. 155     | Justin Martyr         | Images are "soulless and dead"; Christians do not honour them                                                  |
+| c. 180     | Irenaeus              | The only people honouring images of Christ are the heretical Carpocratians, "after the manner of the Gentiles" |
+| c. 200–250 | Minucius Felix        | Pagans ask why Christians have "no acknowledged images"                                                        |
+| c. 200     | Clement of Alexandria | "Works of art cannot then be sacred and divine"                                                                |
+| c. 200–210 | Tertullian            | "God prohibits an idol as much to be made as to be worshipped"                                                 |
+| c. 248     | Origen                | Christians "avoid temples, altars, and images" and would rather die                                            |
+| c. 305     | Arnobius              | To "pray to an image without feeling" is a disgrace                                                            |
+| c. 305     | Synod of Elvira       | No pictures in churches, lest they be worshipped                                                               |
+| c. 310     | Lactantius            | "There is no religion wherever there is an image"                                                              |
 
 There is **not one** Christian writer before 325 who teaches that believers should bow to, kiss, or pray before an image. The burial art of the catacombs shows Christians used symbols and Bible scenes; nothing in it shows a cult of images. When the Fathers spoke about images, they spoke against them.
 
@@ -252,7 +252,7 @@ There is **not one** Christian writer before 325 who teaches that believers shou
 
 In 311 the persecution ended (Edict of Galerius); in 313 the Edict of Milan gave Christians full freedom; and in 380 the Edict of Thessalonica made Nicene Christianity the religion of the empire. Within a few generations the church went from a persecuted minority to the religion of the majority, and many who entered brought their old religious habits with them.
 
-One of those habits was the **cult of the emperor's image**. In the Roman Empire the emperor's portrait (the _laurata_) stood in courts and cities; people bowed before it, lit candles and burned incense to it, and treated an insult to the image as an insult to the emperor. This is exactly what Wisdom 14:17 describes: an "express image of a king" honoured "as if he were present." When Basil the Great wrote, "the honour paid to the image passes on to the prototype" (_On the Holy Spirit_ 18.45), his illustration was **the emperor's image**, and his subject was the Trinity, not church pictures. Nicaea II later quoted the line as if Basil had been speaking about icons.
+One of those habits was the **cult of the emperor's image**. In the Roman Empire the emperor's portrait (the _laurata_) stood in courts and cities; people bowed before it, lit candles and burned incense to it, and treated an insult to the image as an insult to the emperor. This is exactly what Wisdom 14:17 describes: an "express image of a king" honoured "as if he were present." When Basil the Great wrote, "the honour paid to the image passes on to the prototype" (_On the Holy Spirit_ 18.45), he was talking about Jesus Christ as the image of the Father, not church pictures. The honor given to Jesus of course passes to the Father because the Father dwells in him: "God was **in** Christ, reconciling the world unto himself" (2 Corinthians 5:19) & "For **in him** dwelleth all the fulness of the Godhead bodily" (Colossians 2:9). It would be foolish to believe the honor given to a lifeless plaster statue passes to the person it represents as the person depicted neither dwells in the material, nor looks like it at all. Nicaea II later quoted the line as if Basil had been speaking about icons.
 
 Historian Robin Jensen (_Face to Face: Portraits of the Divine in Early Christianity_, 2005) notes that portraits of Christ, the apostles and the saints appear mostly toward the **end of the fourth century**. Even then, the leaders of the church spoke against their veneration.
 
@@ -362,7 +362,7 @@ Because there was no support for veneration in the first centuries, the council 
 - **The letter of Jesus to King Abgar of Edessa** and the legend of the miraculous image of Christ sent to Edessa.
 - **A miracle story of an icon of Christ at Beirut** that bled when Jews pierced it.
 - **A story from John Moschus' _Spiritual Meadow_** read approvingly at the council: a demon promised a monk that he would stop tempting him to impurity if the monk stopped venerating an image of Christ and Mary; the monk's abbot told him it would be **better to enter every brothel in the city** than to refuse to venerate Christ and His Mother in an image.
-- **Basil the Great**, quoted as if he were speaking about icons, when he was speaking about the Trinity, using the emperor's image as an illustration.
+- **Basil the Great**, quoted as if he were speaking about icons, when he was speaking about the Father receiving honor through His image, Jesus.
 - **Psalms about God's "face" read as if they were about painted faces**: "Thy face, O Lord, will I seek" (Psalm 27:8; 26:8 in the Douay-Rheims), "All the rich among the people shall entreat thy countenance" (Psalm 45:12; 44:13 in the Douay-Rheims), and "The light of thy countenance, O Lord, is signed upon us" (Psalm 4:6; 4:7 in the Douay-Rheims).
 
 The Frankish theologians of Charlemagne's court rejected these legends and mocked these interpretations.

@@ -31,15 +31,15 @@ Para comparar a los Padres con justicia, necesitamos la definición misma. La Co
 
 Así que un Padre de la Iglesia que sostuviera la doctrina moderna enseñaría todo esto:
 
-| | Punto de la doctrina moderna | Lo que excluye |
-|---|---|---|
-| 1 | Un Dios en **tres personas** | Un Dios que es el Padre, revelado como Hijo y Espíritu |
-| 2 | Los tres son de **una sustancia** (_homoousios_) | Un Hijo de naturaleza distinta o inferior |
-| 3 | Los tres son **iguales** en poder y gloria | Un Hijo «en segundo lugar», «menor» que el Padre |
-| 4 | El Hijo es engendrado **eternamente** | Un Hijo que llegó a ser Hijo en la creación o en la encarnación |
-| 5 | El Hijo es engendrado por **naturaleza**, no por la voluntad del Padre | Un Hijo producido por una decisión del Padre |
-| 6 | El Espíritu Santo es una **tercera persona divina**, adorada junto con el Padre y el Hijo | Un Espíritu que es un poder, una criatura o el Hijo |
-| 7 | (Occidente) El Espíritu procede del Padre **y del Hijo** | La postura oriental: solo del Padre |
+|     | Punto de la doctrina moderna                                                              | Lo que excluye                                                  |
+| --- | ----------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| 1   | Un Dios en **tres personas**                                                              | Un Dios que es el Padre, revelado como Hijo y Espíritu          |
+| 2   | Los tres son de **una sustancia** (_homoousios_)                                          | Un Hijo de naturaleza distinta o inferior                       |
+| 3   | Los tres son **iguales** en poder y gloria                                                | Un Hijo «en segundo lugar», «menor» que el Padre                |
+| 4   | El Hijo es engendrado **eternamente**                                                     | Un Hijo que llegó a ser Hijo en la creación o en la encarnación |
+| 5   | El Hijo es engendrado por **naturaleza**, no por la voluntad del Padre                    | Un Hijo producido por una decisión del Padre                    |
+| 6   | El Espíritu Santo es una **tercera persona divina**, adorada junto con el Padre y el Hijo | Un Espíritu que es un poder, una criatura o el Hijo             |
+| 7   | (Occidente) El Espíritu procede del Padre **y del Hijo**                                  | La postura oriental: solo del Padre                             |
 
 Tenga esta tabla presente mientras recorremos los siglos.
 
@@ -154,7 +154,7 @@ Hipólito también nos cuenta algo notable. Los obispos de Roma de su época, **
 
 ### Tertuliano (hacia 200–220): la primera «Trinidad», y un Hijo que tuvo principio
 
-Tertuliano de Cartago acuñó las palabras latinas que llegaron a ser el vocabulario de la doctrina: _trinitas_, _persona_, _substantia_ (_Contra Práxeas_ 2–3, hacia 213). Pero su Trinidad no es la moderna.
+Tertuliano de Cartago, escribiendo **fuera** de la Iglesia principal de Roma, creó las palabras latinas que llegaron a ser el vocabulario de la doctrina: _trinitas_, _persona_, _substantia_ (_Contra Práxeas_ 2–3, hacia 213). Pero su Trinidad no es la moderna.
 
 - **El Hijo tuvo principio como Hijo.** «Hubo un tiempo en que no existían junto a Él ni el pecado **ni el Hijo**» (_Contra Hermógenes_ 3). Dios «no pudo haber sido Padre antes del Hijo».
 - **El Hijo nació en la creación.** La Palabra estaba en Dios como su razón; «entonces, pues, la Palabra misma toma su propia forma… cuando Dios dice: "Sea la luz". **Este es el nacimiento perfecto de la Palabra**» (_Contra Práxeas_ 7).
@@ -189,19 +189,19 @@ Orígenes también dice que muchos cristianos de su tiempo, temiendo «proclamar
 
 ### Resumen: nadie antes de Nicea sostuvo la doctrina moderna
 
-| Escritor | Fecha | «Tres personas, una sustancia» | Hijo igual al Padre | Hijo eternamente Hijo | Espíritu, persona divina |
-|---|---|---|---|---|---|
-| Clemente de Roma | hacia 96 | No | No se dice | No se dice | No se dice |
-| Ignacio | hacia 110 | No | «Nuestro Dios, Jesucristo» | Palabra «salida del silencio» | No se dice |
-| Hermas | hacia 140 | No | — | — | El Espíritu **es** el Hijo |
-| Justino | hacia 155 | No | No: «segundo lugar», «otro Dios… sujeto» | No: engendrado por voluntad antes de la creación | «Tercer lugar» |
-| Teófilo | hacia 180 | No: Dios, Palabra, Sabiduría (+ el hombre) | — | No: «emitido» para la creación | La Sabiduría |
-| Ireneo | hacia 180 | No | No: «el Padre está por encima de todo» | No definido | Las «manos» de Dios |
-| Hipólito | hacia 220 | No | — | No: Hijo porque había de llegar a serlo | — |
-| Tertuliano | hacia 213 | Acuña los términos | No: «una porción del todo» | No: «hubo un tiempo en que… el Hijo» no existía | Tercero, del Padre por el Hijo |
-| Orígenes | hacia 230 | Tres _hipóstasis_ | No: «segundo Dios» | **Sí** | Hecho por medio del Hijo |
-| Novaciano | hacia 250 | No | No: sujeto al Padre | No: nacido cuando el Padre quiso | — |
-| Dionisio | hacia 260 | No | No: «una obra y algo hecho» | No | — |
+| Escritor         | Fecha     | «Tres personas, una sustancia»             | Hijo igual al Padre                      | Hijo eternamente Hijo                            | Espíritu, persona divina       |
+| ---------------- | --------- | ------------------------------------------ | ---------------------------------------- | ------------------------------------------------ | ------------------------------ |
+| Clemente de Roma | hacia 96  | No                                         | No se dice                               | No se dice                                       | No se dice                     |
+| Ignacio          | hacia 110 | No                                         | «Nuestro Dios, Jesucristo»               | Palabra «salida del silencio»                    | No se dice                     |
+| Hermas           | hacia 140 | No                                         | —                                        | —                                                | El Espíritu **es** el Hijo     |
+| Justino          | hacia 155 | No                                         | No: «segundo lugar», «otro Dios… sujeto» | No: engendrado por voluntad antes de la creación | «Tercer lugar»                 |
+| Teófilo          | hacia 180 | No: Dios, Palabra, Sabiduría (+ el hombre) | —                                        | No: «emitido» para la creación                   | La Sabiduría                   |
+| Ireneo           | hacia 180 | No                                         | No: «el Padre está por encima de todo»   | No definido                                      | Las «manos» de Dios            |
+| Hipólito         | hacia 220 | No                                         | —                                        | No: Hijo porque había de llegar a serlo          | —                              |
+| Tertuliano       | hacia 213 | Acuña los términos                         | No: «una porción del todo»               | No: «hubo un tiempo en que… el Hijo» no existía  | Tercero, del Padre por el Hijo |
+| Orígenes         | hacia 230 | Tres _hipóstasis_                          | No: «segundo Dios»                       | **Sí**                                           | Hecho por medio del Hijo       |
+| Novaciano        | hacia 250 | No                                         | No: sujeto al Padre                      | No: nacido cuando el Padre quiso                 | —                              |
+| Dionisio         | hacia 260 | No                                         | No: «una obra y algo hecho»              | No                                               | —                              |
 
 Ninguno de ellos tenía «la Trinidad correcta». Si los apóstoles la hubieran enseñado, sus seguidores no habrían necesitado trescientos años, un emperador y una serie de concilios para descubrirla.
 
@@ -265,28 +265,28 @@ Así que, más de mil años después de los apóstoles, las dos iglesias más gr
 
 ### Cronología
 
-| Fecha | Acontecimiento |
-|---|---|
-| hacia 525 a. C. | Los filósofos griegos comienzan a alegorizar a los dioses de Homero |
-| siglo IV a. C. | Platón: la realidad suprema es como el sol, más allá del ser; es imposible dar a conocer al Padre de todo |
-| hacia 20 a. C.–50 d. C. | Filón: Dios no tiene nombre propio; el Logos es un «segundo Dios» |
-| hacia 155 | Justino: el Padre no tiene nombre; el Hijo es «otro Dios» en «segundo lugar» |
-| hacia 180 | Teófilo: primera «tríada» (Dios, Palabra, Sabiduría); Ireneo: el Padre está «por encima de todo» |
-| hacia 213 | Tertuliano acuña _trinitas_; admite que la mayoría de los creyentes «mantienen la Monarquía» |
-| hacia 230 | Orígenes: el Hijo, un «segundo Dios»; orar solo al Padre |
-| 268 | El Concilio de Antioquía rechaza _homoousios_ |
-| 325 | Nicea, bajo Constantino, adopta _homoousios_; «y en el Espíritu Santo» |
-| 341–360 | Concilios rivales; Rímini (359): «el mundo entero… arriano» |
-| 360–380 | Los capadocios separan _ousía_ e _hipóstasis_ |
-| 380 | Edicto de Tesalónica: todos deben creer en la Trinidad o ser castigados |
-| 381 | Constantinopla añade el artículo sobre el Espíritu Santo |
-| 385 | Ejecución de Prisciliano |
-| hacia 400–420 | Agustín: el Espíritu procede del Padre y del Hijo |
-| siglos V–VI | Credo atanasiano |
-| 589 | Toledo III inserta el filioque |
-| 1014 | Roma adopta el filioque |
-| 1054 | Cisma entre Oriente y Occidente |
-| 1274, 1439 | Lyon II y Florencia definen el filioque como dogma |
+| Fecha                   | Acontecimiento                                                                                            |
+| ----------------------- | --------------------------------------------------------------------------------------------------------- |
+| hacia 525 a. C.         | Los filósofos griegos comienzan a alegorizar a los dioses de Homero                                       |
+| siglo IV a. C.          | Platón: la realidad suprema es como el sol, más allá del ser; es imposible dar a conocer al Padre de todo |
+| hacia 20 a. C.–50 d. C. | Filón: Dios no tiene nombre propio; el Logos es un «segundo Dios»                                         |
+| hacia 155               | Justino: el Padre no tiene nombre; el Hijo es «otro Dios» en «segundo lugar»                              |
+| hacia 180               | Teófilo: primera «tríada» (Dios, Palabra, Sabiduría); Ireneo: el Padre está «por encima de todo»          |
+| hacia 213               | Tertuliano acuña _trinitas_; admite que la mayoría de los creyentes «mantienen la Monarquía(Unicidad)»    |
+| hacia 230               | Orígenes: el Hijo, un «segundo Dios»; orar solo al Padre                                                  |
+| 268                     | El Concilio de Antioquía rechaza _homoousios_                                                             |
+| 325                     | Nicea, bajo Constantino, adopta _homoousios_; «y en el Espíritu Santo»                                    |
+| 341–360                 | Concilios rivales; Rímini (359): «el mundo entero… arriano»                                               |
+| 360–380                 | Los capadocios separan _ousía_ e _hipóstasis_                                                             |
+| 380                     | Edicto de Tesalónica: todos deben creer en la Trinidad o ser castigados                                   |
+| 381                     | Constantinopla añade el artículo sobre el Espíritu Santo                                                  |
+| 385                     | Ejecución de Prisciliano                                                                                  |
+| hacia 400–420           | Agustín: el Espíritu procede del Padre y del Hijo                                                         |
+| siglos V–VI             | Credo atanasiano                                                                                          |
+| 589                     | Toledo III inserta el filioque                                                                            |
+| 1014                    | Roma adopta el filioque                                                                                   |
+| 1054                    | Cisma entre Oriente y Occidente                                                                           |
+| 1274, 1439              | Lyon II y Florencia definen el filioque como dogma                                                        |
 
 # 7. El Nombre: el Hijo heredó el nombre del Padre
 
@@ -302,9 +302,9 @@ Mientras el Padre de los filósofos se convertía en un Dios sin nombre, la Bibl
 
 > **Isaías 52:6:** «Por tanto, **mi pueblo sabrá mi nombre** por esta causa en aquel día; porque yo mismo que hablo, he aquí, Yo soy».
 
-> **Proverbios 30:4:** «…¿**Cuál es su nombre, y el nombre de su Hijo**, si lo sabes?»
+> **Éxodo 23:21:** «Guárdate delante de Él, y oye su voz… porque **mi nombre está en Él**» - el nombre de Dios presente en el Ángel exigía adoración al Ángel.
 
-> **Éxodo 23:21:** «Guárdate delante de Él, y oye su voz… porque **mi nombre está en Él**».
+> **1 Reyes 8:29:** «Que estén tus ojos abiertos de noche y de día sobre esta casa, sobre este lugar del cual has dicho: **Mi nombre estará allí**» — La presencia de Dios estaba literalmente en el Templo porque su nombre estaba allí.
 
 ### Al Hijo se le llama Padre
 
@@ -404,12 +404,11 @@ El bautismo en el nombre de Jesús no desapareció de golpe. Hacia el año 256, 
 
 ### El Espíritu es el Espíritu de Jesús
 
-El Nuevo Testamento no presenta al Espíritu Santo como una tercera persona con un nombre aparte. Es «el Espíritu de Cristo», «el Espíritu de su Hijo», «el Espíritu de Jesucristo»:
+El Nuevo Testamento no presenta al Espíritu Santo como una tercera persona con un nombre aparte. Es «el Espíritu de Cristo», «el Espíritu de Jesucristo»:
 
-- «…les fue prohibido por el Espíritu Santo… pero **el Espíritu** no se lo permitió» (Hechos 16:6-7; la mayoría de los manuscritos griegos: «**el Espíritu de Jesús**»).
+- «…les fue prohibido por el Espíritu Santo… pero **el Espíritu** no se lo permitió» (Hechos 16:6-7; CT: «**el Espíritu de Jesús**»).
 - «…si es que **el Espíritu de Dios** mora en vosotros. Y si alguno no tiene **el Espíritu de Cristo**, el tal no es de Él» (Romanos 8:9).
 - «…**el Espíritu de Cristo** que estaba en ellos [los profetas]…» (1 Pedro 1:11).
-- «Dios envió **el Espíritu de su Hijo** a vuestros corazones» (Gálatas 4:6).
 - «…la suministración del **Espíritu de Jesucristo**» (Filipenses 1:19).
 - «Porque **el Señor es el Espíritu**» (2 Corintios 3:17).
 - «…otro Consolador… el Espíritu de verdad… mora con vosotros, y estará en vosotros. **No os dejaré huérfanos; vendré a vosotros**» (Juan 14:16-18).
@@ -422,7 +421,7 @@ Así que el Padre, el Hijo y el Espíritu Santo comparten **un solo nombre**, y 
 
 **«Los Padres buscaban las palabras a tientas; los concilios solo aclararon lo que creían los apóstoles».** Aclarar significaría decir lo mismo con más precisión. Pero los concilios revirtieron lo que dijeron los Padres: el «otro Dios… sujeto» de Justino, el «hubo un tiempo en que… el Hijo» no existía de Tertuliano, el «segundo Dios» de Orígenes, el rechazo de _homoousios_ por el Concilio de Antioquía; todo eso se volvió herejía según los criterios posteriores. Una doctrina que condena a todos los que enseñaron antes de que ella se definiera no es una aclaración; es un desarrollo.
 
-**«Tertuliano e Hipólito condenaron a los que decían que el Padre se encarnó».** Es cierto. Pero la alternativa que ellos daban —un Hijo inferior al Padre, que llegó a ser Hijo en la creación o en la encarnación— también fue condenada después. Y ellos mismos nos dicen que los obispos de Roma (Ceferino, Calixto) y «la mayoría de los creyentes» sostenían la Monarquía del único Dios.
+**«Tertuliano e Hipólito condenaron a los que decían que el Padre se encarnó».** Es cierto. Pero la alternativa que ellos daban —un Hijo inferior al Padre, que llegó a ser Hijo en la creación o en la encarnación— también fue condenada después. Y ellos mismos nos dicen que los obispos de Roma (Ceferino, Calixto) y «la mayoría de los creyentes» sostenían la Monarquía del único Dios (Unicidad).
 
 **«Mateo 28:19 prueba que hay tres personas».** Menciona un solo **nombre**, y los apóstoles lo cumplieron con el nombre de Jesucristo. Padre, Hijo y Espíritu Santo son tres maneras en que Dios se ha revelado —como Padre en la creación, como Hijo en la redención, como Espíritu en la iglesia—, no tres personas con tres nombres.
 

@@ -138,15 +138,15 @@ Ireneo, que de niño había escuchado a Policarpo, cita casi todos los libros de
 
 ### Y muchos más, todos antes del 382
 
-| Fecha | Testigo | Lo que muestra |
-|---|---|---|
-| hacia 170–200 | Fragmento Muratoriano | Una lista de los libros del Nuevo Testamento leídos en las iglesias (fecha discutida) |
-| hacia 200 | Papiros P46, P66, P75 | Las cartas de Pablo ya copiadas como una colección; Lucas y Juan en un mismo libro |
-| hacia 200 | Tertuliano | Llama «Nuevo Testamento» a los escritos apostólicos, junto al Antiguo |
-| hacia 250 | Orígenes | Cita todo el Nuevo Testamento como Escritura |
-| hacia 325 | Eusebio, _Historia eclesiástica_ 3.25 | Libros «reconocidos» por todas las iglesias: los Evangelios, Hechos, Pablo, 1 Pedro, 1 Juan, (Apocalipsis) |
-| hacia 350 | Cirilo de Jerusalén | «No me creas porque yo te digo estas cosas, si no recibes de las Santas Escrituras la prueba» (_Catequesis_ 4.17) |
-| 367 | Atanasio, _Carta festal_ 39 | Enumera exactamente nuestros 27 libros del Nuevo Testamento, 15 años antes que Roma |
+| Fecha         | Testigo                               | Lo que muestra                                                                                                    |
+| ------------- | ------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| hacia 170–200 | Fragmento Muratoriano                 | Una lista de los libros del Nuevo Testamento leídos en las iglesias (fecha discutida)                             |
+| hacia 200     | Papiros P46, P66, P75                 | Las cartas de Pablo ya copiadas como una colección; Lucas y Juan en un mismo libro                                |
+| hacia 200     | Tertuliano                            | Llama «Nuevo Testamento» a los escritos apostólicos, junto al Antiguo                                             |
+| hacia 250     | Orígenes                              | Cita todo el Nuevo Testamento como Escritura                                                                      |
+| hacia 325     | Eusebio, _Historia eclesiástica_ 3.25 | Libros «reconocidos» por todas las iglesias: los Evangelios, Hechos, Pablo, 1 Pedro, 1 Juan, (Apocalipsis)        |
+| hacia 350     | Cirilo de Jerusalén                   | «No me creas porque yo te digo estas cosas, si no recibes de las Santas Escrituras la prueba» (_Catequesis_ 4.17) |
+| 367           | Atanasio, _Carta festal_ 39           | Enumera exactamente nuestros 27 libros del Nuevo Testamento, 15 años antes que Roma                               |
 
 Atanasio, obispo de Alejandría, escribió en 367 acerca de esos 27 libros:
 
@@ -166,7 +166,7 @@ Con la Escritura pasa lo mismo. Un libro es inspirado por Dios en el momento en 
 
 El papel de la iglesia es como el de Juan el Bautista. Juan señaló a Jesús —«He aquí el Cordero de Dios» (Juan 1:29)—, pero nadie diría que Juan «nos dio» a Jesús, ni que la autoridad de Jesús dependía de Juan. «Es necesario que Él crezca, y que yo mengüe» (Juan 3:30). Una iglesia que señala a las Escrituras hace su trabajo; una iglesia que dice estar por encima de ellas porque las señaló, ha olvidado ese trabajo.
 
-Incluso el versículo que citan los católicos —la iglesia es «columna y apoyo de la verdad» (1 Timoteo 3:15)— describe una columna. Una columna sostiene algo y lo exhibe; no lo crea. E Ireneo, como vimos, usó las mismas palabras para las Escrituras.
+Incluso el versículo que citan los católicos —la iglesia es «columna y apoyo de la verdad» (1 Timoteo 3:15)— describe una columna. Una columna sostiene algo y lo exhibe; no lo crea. Esta columna debe sostener las Escrituras si quiere permanecer como el apoyo de la verdad, tal como se muestra en el mismo versículo en contexto: «Esto **te escribo**... **para que si tardo, sepas cómo debes conducirte en la casa de Dios**, que es la iglesia del Dios viviente, columna y apoyo de la verdad» (1 Timoteo 3:14-15).
 
 # 5. La lista de Roma no es la Biblia católica de hoy
 

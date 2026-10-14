@@ -26,7 +26,7 @@ Puede dar seguridad creer lo que cree la mayoría de los cristianos. Pero la may
 - **Los niños que mueren sin bautismo van al infierno.** Lo enseñó Agustín, y el Concilio de Florencia (1439) definió que las almas de quienes mueren «con solo el pecado original» bajan «inmediatamente al infierno», aunque a penas menores. Los teólogos medievales lo suavizaron con el **limbo**, que se enseñó durante siglos; en 2007 la Comisión Teológica Internacional escribió que hay «serias razones teológicas y litúrgicas para esperar» que esos niños se salven.
 - **No hay salvación fuera de la Iglesia romana.** Bonifacio VIII declaró que «es absolutamente necesario para la salvación de toda criatura humana estar sujeta al Romano Pontífice» (_Unam Sanctam_, 1302), y Florencia (1442) dijo que paganos, judíos, herejes y cismáticos irán «al fuego eterno» si no se unen a ella antes de morir. El Vaticano II (_Lumen Gentium_ 16, 1964) enseña que quienes no son católicos sin culpa propia pueden salvarse.
 - **La esclavitud.** Nicolás V autorizó al rey de Portugal a reducir a sarracenos y paganos a «servidumbre perpetua» (_Dum Diversas_, 1452; _Romanus Pontifex_, 1455). Todavía en 1866 una instrucción del Santo Oficio bajo Pío IX decía que la esclavitud en sí misma «no es en absoluto contraria al derecho natural y divino».
-- **La usura** (cobrar interés por un préstamo). Letrán III (1179) excomulgó a los usureros públicos, el Concilio de Vienne (1311) declaró herejía decir que la usura no es pecado, y Benedicto XIV repitió la condena en 1745 (_Vix Pervenit_). Desde la década de 1820, el Santo Oficio permitió discretamente a los católicos prestar con interés.
+- **La usura** (cobrar interés por un préstamo). Letrán III (1179) excomulgó a los usureros públicos, el Concilio de Vienne (1311) declaró herejía decir que la usura no es pecado, y Benedicto XIV repitió la condena en 1745 (_Vix Pervenit_). Sin embargo, durante el siglo XIX, el Santo Oficio permitió a los católicos percibir intereses bajo determinadas circunstancias, lo que reflejaba una distinción creciente entre la usura prohibida y los intereses percibidos en virtud de títulos legítimos.
 - **La pena de muerte.** Inocencio III exigió a los valdenses convertidos confesar que el Estado puede ejecutar sin pecado mortal (1208), y el Catecismo de 1992 la permitía en casos excepcionales. En 2018 se cambió el Catecismo para decir que es «inadmisible».
 - **La libertad religiosa.** Gregorio XVI llamó a la libertad de conciencia una idea «absurda y errónea», incluso un «delirio» (_Mirari Vos_, 1832), y Pío IX la condenó de nuevo (_Quanta Cura_, 1864). El Vaticano II afirmó la libertad religiosa como un derecho (_Dignitatis Humanae_, 1965).
 - **El culto con no católicos.** El Código de Derecho Canónico de 1917 (canon 1258) prohibía a los católicos participar activamente en cultos no católicos. Desde el Vaticano II se fomenta la oración en común.
@@ -49,7 +49,7 @@ La teología católica y ortodoxa distingue entre _latría_ (adoración, que se 
 
 El becerro de oro no se presentó como un dios nuevo. Aarón edificó un altar delante de él y pregonó: «Mañana será **fiesta a Jehová**» (Éxodo 32:5). El pueblo quería adorar **al Dios que lo sacó de Egipto** por medio de una imagen (32:4). Dios lo llamó corrupción, y vino el juicio:
 
-> **Éxodo 32:8:** «Pronto se han apartado del camino que yo les mandé, y se han hecho un becerro de fundición, y lo han adorado, y han sacrificado a él, y han dicho: Israel, estos son tus dioses, que te sacaron de la tierra de Egipto».
+> **Éxodo 32:8 (BSB):** «¡Qué pronto se han desviado del camino que les ordené! Se han hecho un becerro de fundición y se han postrado ante él; le han ofrecido sacrificios y han dicho: «¡Oh Israel, **este es tu Dios**, el que te sacó de la tierra de Egipto!».».
 
 Usar una imagen para honrar al Dios verdadero es precisamente la defensa que se da de los íconos: «el honor pasa al original». El pecado de Israel en el Sinaí muestra que Dios no lo acepta.
 
@@ -57,7 +57,7 @@ Usar una imagen para honrar al Dios verdadero es precisamente la defensa que se 
 
 Cinco siglos después, el rey Jeroboam puso becerros de oro en Betel y en Dan. La razón fue **política**:
 
-> **1 Reyes 12:26-28:** «Y dijo Jeroboam en su corazón: Ahora volverá el reino a la casa de David, si este pueblo subiere a ofrecer sacrificios en la casa de Jehová en Jerusalén; porque el corazón de este pueblo se volverá a su señor Roboam… Y **habiendo tomado consejo, hizo el rey** dos becerros de oro, y dijo al pueblo: Bastante habéis subido a Jerusalén; he aquí tus dioses, oh Israel, que te hicieron subir de la tierra de Egipto».
+> **1 Reyes 12:26-28:** «Y dijo Jeroboam en su corazón: Ahora volverá el reino a la casa de David, si este pueblo subiere a ofrecer sacrificios en la casa de Jehová en Jerusalén; porque el corazón de este pueblo se volverá a su señor Roboam… Y **habiendo tomado consejo, hizo el rey** dos becerros de oro, y dijo al pueblo: Bastante habéis subido a Jerusalén; **he aquí tus dioses**, oh Israel, que te hicieron subir de la tierra de Egipto».
 
 «Y esto fue ocasión de pecado» (1 Reyes 12:30). Recuerde este patrón cuando lleguemos a los emperadores y emperatrices de los siglos VIII y IX.
 
@@ -232,17 +232,17 @@ Los defensores de los íconos dicen que este canon fue solo una precaución dura
 
 ### Resumen de los tres primeros siglos
 
-| Fecha | Testigo | Testimonio |
-|---|---|---|
-| hacia 155 | Justino Mártir | Las imágenes son «cosas sin alma y muertas»; los cristianos no las honran |
-| hacia 180 | Ireneo | Los únicos que honran imágenes de Cristo son los carpocracianos herejes, «a la manera de los gentiles» |
-| hacia 200–250 | Minucio Félix | Los paganos preguntan por qué los cristianos «no tienen imágenes conocidas» |
-| hacia 200 | Clemente de Alejandría | «Las obras de arte no pueden ser sagradas y divinas» |
-| hacia 200–210 | Tertuliano | «Dios prohíbe tanto que se haga un ídolo como que se le adore» |
-| hacia 248 | Orígenes | Los cristianos «evitan templos, altares e imágenes» y prefieren morir |
-| hacia 305 | Arnobio | «Orar a una imagen sin sentido» es una deshonra |
-| hacia 305 | Sínodo de Elvira | No debe haber pinturas en las iglesias, para que no se adoren |
-| hacia 310 | Lactancio | «No hay religión dondequiera que haya una imagen» |
+| Fecha         | Testigo                | Testimonio                                                                                             |
+| ------------- | ---------------------- | ------------------------------------------------------------------------------------------------------ |
+| hacia 155     | Justino Mártir         | Las imágenes son «cosas sin alma y muertas»; los cristianos no las honran                              |
+| hacia 180     | Ireneo                 | Los únicos que honran imágenes de Cristo son los carpocracianos herejes, «a la manera de los gentiles» |
+| hacia 200–250 | Minucio Félix          | Los paganos preguntan por qué los cristianos «no tienen imágenes conocidas»                            |
+| hacia 200     | Clemente de Alejandría | «Las obras de arte no pueden ser sagradas y divinas»                                                   |
+| hacia 200–210 | Tertuliano             | «Dios prohíbe tanto que se haga un ídolo como que se le adore»                                         |
+| hacia 248     | Orígenes               | Los cristianos «evitan templos, altares e imágenes» y prefieren morir                                  |
+| hacia 305     | Arnobio                | «Orar a una imagen sin sentido» es una deshonra                                                        |
+| hacia 305     | Sínodo de Elvira       | No debe haber pinturas en las iglesias, para que no se adoren                                          |
+| hacia 310     | Lactancio              | «No hay religión dondequiera que haya una imagen»                                                      |
 
 **No hay ni un solo** escritor cristiano antes del 325 que enseñe que los creyentes deban inclinarse ante una imagen, besarla u orar delante de ella. El arte funerario de las catacumbas muestra que los cristianos usaban símbolos y escenas bíblicas; nada en él muestra un culto a las imágenes. Cuando los Padres hablaban de imágenes, hablaban en contra de ellas.
 
@@ -252,7 +252,7 @@ Los defensores de los íconos dicen que este canon fue solo una precaución dura
 
 En el 311 terminó la persecución (Edicto de Galerio); en el 313 el Edicto de Milán dio plena libertad a los cristianos; y en el 380 el Edicto de Tesalónica hizo del cristianismo niceno la religión del imperio. En pocas generaciones la iglesia pasó de ser una minoría perseguida a ser la religión de la mayoría, y muchos de los que entraron trajeron consigo sus antiguos hábitos religiosos.
 
-Uno de esos hábitos era el **culto a la imagen del emperador**. En el Imperio romano, el retrato del emperador (la _laurata_) estaba en los tribunales y las ciudades; la gente se inclinaba ante él, le encendía velas y le quemaba incienso, y un insulto a la imagen se consideraba un insulto al emperador. Es exactamente lo que describe Sabiduría 14:17: una «imagen visible del rey» honrada «como si estuviera presente». Cuando Basilio el Grande escribió: «el honor que se da a la imagen pasa al original» (_Sobre el Espíritu Santo_ 18.45), su ejemplo era **la imagen del emperador**, y su tema era la Trinidad, no las pinturas de las iglesias. Nicea II citó después la frase como si Basilio hubiera hablado de íconos.
+Uno de esos hábitos era el **culto a la imagen del emperador**. En el Imperio romano, el retrato del emperador (la _laurata_) estaba en los tribunales y las ciudades; la gente se inclinaba ante él, le encendía velas y le quemaba incienso, y un insulto a la imagen se consideraba un insulto al emperador. Es exactamente lo que describe Sabiduría 14:17: una «imagen visible del rey» honrada «como si estuviera presente». Cuando Basilio el Grande escribió: «el honor que se da a la imagen pasa al original» (_Sobre el Espíritu Santo_ 18.45), él hablaba de Jesucristo como imagen del Padre, no de imágenes eclesiásticas. La honra tributada a Jesús se traslada, naturalmente, al Padre, puesto que el Padre habita en él: «Dios estaba **en** Cristo reconciliando consigo al mundo» (2 Corintios 5:19) y «porque **en Él** habita corporalmente toda la plenitud de la Deidad» (Colosenses 2:9). Sería insensato creer que la honra tributada a una estatua de yeso inerte pasa a la persona que representa, ya que la persona retratada ni habita en el material ni se asemeja en absoluto a él. Más tarde, el Concilio de Nicea II citó esa frase como si Basilio hubiera estado hablando de iconos.
 
 La historiadora Robin Jensen (_Face to Face: Portraits of the Divine in Early Christianity_, 2005) señala que los retratos de Cristo, de los apóstoles y de los santos aparecen sobre todo hacia **finales del siglo IV**. Aun entonces, los líderes de la iglesia hablaron en contra de su veneración.
 
@@ -362,7 +362,7 @@ Como no había apoyo para la veneración en los primeros siglos, el concilio se 
 - **La carta de Jesús al rey Abgar de Edesa** y la leyenda de la imagen milagrosa de Cristo enviada a Edesa.
 - **Un relato milagroso de un ícono de Cristo en Beirut** que sangró cuando unos judíos lo traspasaron.
 - **Una historia del _Prado espiritual_ de Juan Mosco**, leída con aprobación en el concilio: un demonio le prometió a un monje que dejaría de tentarlo con impureza si el monje dejaba de venerar una imagen de Cristo y de María; el abad del monje le dijo que **más le valía entrar en todos los prostíbulos de la ciudad** que negarse a venerar a Cristo y a Su Madre en una imagen.
-- **Basilio el Grande**, citado como si hablara de íconos, cuando hablaba de la Trinidad y usaba la imagen del emperador como ilustración.
+- **Basilio el Grande**, citado como si hablara de íconos, cuando hablaba de que el Padre recibe honra a través de su imagen, Jesús.
 - **Salmos sobre el «rostro» de Dios leídos como si hablaran de rostros pintados**: «Tu rostro buscaré, oh Señor» (Salmo 27:8; 26:8 en la numeración latina), «Todos los ricos del pueblo implorarán tu rostro» (Salmo 45:12; 44:13 en la numeración latina) y «Impresa está sobre nosotros, Señor, la luz de tu rostro» (Salmo 4:6; 4:7 en la numeración latina).
 
 Los teólogos francos de la corte de Carlomagno rechazaron estas leyendas y se burlaron de estas interpretaciones.

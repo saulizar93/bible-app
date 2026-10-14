@@ -54,27 +54,61 @@ Peter heard the command of Matthew 28:19 with his own ears. A few weeks later, o
 
 ### 5. In Matthew 28:20 Jesus said, "Lo, I am with you alway." How, if He was about to ascend to heaven? Isn't it the Holy Spirit who stays with us forever?
 
-> **Matthew 28:20 (KJV):** "Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you alway, even unto the end of the world. Amen."
+> **Matthew 28:20 (KJV):** "Teaching them to observe all things whatsoever I have commanded you: and, lo, **I am with you alway**(_as Holy Spirit_), even unto the end of the world. Amen."
 
-> **John 14:16-18 (KJV):** "And I will pray the Father, and he shall give you another Comforter, that he may abide with you for ever; Even the Spirit of truth; whom the world cannot receive, because it seeth him not, neither knoweth him: but ye know him; for he dwelleth with you, and shall be in you. I will not leave you comfortless: I will come to you."
+> **John 14:16-18 (KJV):** "And I(_Jesus as a human Son_) will pray the Father(_the one divine Spirit_), and he(_the Father_) shall give you another Comforter(_His Holy Spirit instead of through the human Jesus_), that he(_Holy Spirit_) may abide with you for ever; Even the Spirit of truth; whom the world cannot receive, because it seeth him not, neither knoweth him: but ye know him(_since He dwells fully in the human Son_); for he dwelleth with you(_as human Jesus_), and shall be in you(_as Holy Spirit_). **I**(_Jesus_) will not leave you comfortless(or BSB: "**as orphans**", aka "**without a Father**"): **I**(_Jesus_) will come to you(_as Holy Spirit_)."
 
 ### 6. What is the name of the Father?
 
 Jesus said He came in His Father's name, that He manifested the Father's name, and that He declared it.
 
-> **John 5:43 (KJV):** "I am come in my Father’s name, and ye receive me not: if another shall come in his own name, him ye will receive."
+> **Matthew 1:21 (KJV):** "And she shall bring forth a son, and **thou shalt** call his name JESUS: for he shall save his people from their sins."
 
-> **John 17:6 (KJV):** "I have manifested thy name unto the men which thou gavest me out of the world: thine they were, and thou gavest them me; and they have kept thy word."
+> **Matthew 21:9 (KJV):**: "Hosanna to the Son of David: Blessed is **he that cometh in the name of the Lord**;"
 
-> **John 17:26 (KJV):** "And I have declared unto them thy name, and will declare it: that the love wherewith thou hast loved me may be in them, and I in them."
+> **Hebrew 1:4 (KJV):**: "Being made so much better than the angels, as he hath **by inheritance** obtained a more excellent name than they."
 
-> **Hebrews 2:12 (KJV):** "Saying, I will declare thy name unto my brethren, in the midst of the church will I sing praise unto thee."
+> **Hebre 2:12 (KJV):**: "I will declare **thy name** unto my brethren"
+
+> **Philippians 2:9-11 (KJV):**: "Wherefore **God also hath** highly exalted him, and **given him a name** which is **above every name**: That at the name of **Jesus** every knee should bow, of things in heaven, and things in earth, and things under the earth; And that every tongue should confess that Jesus Christ is Lord, to the glory of God the Father."
+
+> **John 5:43 (KJV):** "**I am come in my Father’s name**, and ye receive me not: if another shall come in his own name, him ye will receive."
+
+> **John 10:25 (KJV):** "Jesus answered them, I told you, and ye believed not: the works that I do **in my Father’s name**, they bear witness of me.
+
+> **John 17:6 (KJV):** "I have manifested **thy name** unto the men which thou gavest me out of the world: thine they were, and thou gavest them me; and they have kept thy word."
+
+> **John 17:11 (BSB):** "Holy Father, protect them by **Your name, the name You gave Me**, so that they may be one as We are one."
+
+> **John 17:12 (BSB):** "I protected and preserved them by **Your name, the name You gave Me**."
+
+> **John 17:26 (KJV):** "And I have declared unto them **thy name**, and will declare it: that the love wherewith thou hast loved me may be in them, and I in them."
+
+> **Revelation 14:1 (BSB):** "Then I looked and saw the Lamb standing on Mount Zion, and with Him 144,000 who had **His name and His Father’s name** written on their foreheads.
+
+> **Revelation 22:2-4 (KJV):** "And there shall be no more curse: but the throne **of God and of the Lamb** shall be in it; and **his** servants shall serve **him**: And they shall see **his** face; and **his name** shall be in their foreheads."
 
 ### 7. What is the name of the Holy Spirit?
 
 Jesus said the Father would send the Holy Ghost "in my name."
 
-> **John 14:26 (KJV):** "But the Comforter, which is the Holy Ghost, whom the Father will send in my name, he shall teach you all things, and bring all things to your remembrance, whatsoever I have said unto you."
+> **John 14:26 (KJV):** "But the Comforter, which is **the Holy Ghost**, whom the Father will send **in my name**, he shall teach you all things, and bring all things to your remembrance, **whatsoever I have said unto you**."
+
+> **John 14:17-18 (KJV):** "Even **the Spirit of truth**; whom the world cannot receive, because it seeth him not, neither knoweth him: but **ye know him; for he dwelleth with you**, and **shall be in you**. **I** will not leave you comfortless: **I** will come to you."
+
+> **John 16:7 (KJV):** "Nevertheless I tell you the truth; It is expedient for you that I go away: for **if I go not away, the Comforter will not come unto you**; but if I depart, I will send him unto you."
+
+> **Matthew 28:20 (KJV):** "Teaching them to observe all things whatsoever I have commanded you: and, lo, **I am with you alway, even unto the end of the world**. Amen."
+
+> **Acts 16:6-7 (BSB):** "After **the Holy Spirit prevented them** from speaking the word in the province of Asia, they traveled through the region of Phrygia and Galatia. And when they came to the border of Mysia, they tried to enter Bithynia, but **the Spirit of Jesus would not permit them**."
+
+> **Romans 8:9 (KJV):** "But ye are not in the flesh, but in the Spirit, if so be that **the Spirit of God** dwell in you. Now if any man have not **the Spirit of Christ**, he is none of his."
+
+> **2 Corinthians 3:17 (KJV):** "Now **the Lord is that Spirit**: and where the Spirit of the Lord is, there is liberty."
+
+> **Philippians 1:19 (KJV):** "For I know that this shall turn to my salvation through your prayer, and the supply of **the Spirit of Jesus Christ**"
+
+> **1 Peter 1:10-11 (KJV):** "Of which salvation **the prophets** have enquired and searched diligently, who prophesied of the grace that should come unto you: Searching what, or what manner of time **the Spirit of Christ** which was in them did signify, when it testified beforehand the sufferings of Christ, and the glory that should follow."
 
 ### 8. What is the name of the Son, and what does it mean?
 
@@ -115,6 +149,12 @@ A son inherits his father's name. The name of Jesus is "above every name," and t
 > **John 1:1 (KJV):** "In the beginning was the Word, and the Word was with God, and the Word was God."
 
 > **John 1:14 (KJV):** "And the Word was made flesh, and dwelt among us, (and we beheld his glory, the glory as of the only begotten of the Father,) full of grace and truth."
+
+> **Psalms 33:6,9 (KJV):** "By the word of the Lord were the heavens made; and all the host of them by the breath of his mouth. For he spake, and it was done; he commanded, and it stood fast."
+
+> **Psalms 29:3,5,8 (KJV):** "The voice of the Lord is upon the waters: the God of glory thundereth: the Lord is upon many waters... The voice of the Lord breaketh the cedars; yea, the Lord breaketh the cedars of Lebanon...The voice of the Lord shaketh the wilderness; the Lord shaketh the wilderness of Kadesh."
+
+For first-century Greeks, "the Word" (or **Logos**) was not a person; it was the wisdom, the plan, the reasoning, the rationale, and the eternal decree of the universe that lay behind the way everything functioned. John wrote in Greek for a Greek audience; why would he change the meaning and turn the Word into a person?
 
 ### 13. In 1 Timothy 2:5, who is the "one God," and between whom does the mediator stand?
 
@@ -224,9 +264,9 @@ And if Jesus Christ is the "one Lord," is the Father not Lord? Paul is quoting t
 
 > **Psalm 22:1 (KJV):** "My God, my God, why hast thou forsaken me? why art thou so far from helping me, and from the words of my roaring?"
 
-### 33. In Philippians 2:6-8, who humbled Himself and took the form of a servant: "God the Son," or the one God who came in the flesh?
+### 33. In Philippians 2:5-8, is one God equal to another second God (making two Gods), OR does it simply mean that the **human** Jesus ("let this mind be **in you**, which was also in Christ Jesus") had all the attributes of deity("in the form of God", "equal to God"), such as omnipresence, omniscience, and omnipotence but let go of His divine prerogatives ("form of a servant") for His earthly ministry?
 
-> **Philippians 2:6-8 (KJV):** "Who, being in the form of God, thought it not robbery to be equal with God: But made himself of no reputation, and took upon him the form of a servant, and was made in the likeness of men: And being found in fashion as a man, he humbled himself, and became obedient unto death, even the death of the cross."
+> **Philippians 2:5-8 (KJV):** "Let this mind be in you, which was also in Christ Jesus: Who, being in the form of God, thought it not robbery to be equal with God: But made himself of no reputation, and took upon him the form of a servant, and was made in the likeness of men: And being found in fashion as a man, he humbled himself, and became obedient unto death, even the death of the cross."
 
 ### 34. John 5:23 says all should honour the Son as they honour the Father. Where is the Holy Spirit? Why is there no command to honour the Spirit as the Father?
 

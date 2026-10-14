@@ -31,15 +31,15 @@ To compare the Fathers fairly, we need the definition itself. The Westminster Co
 
 So a Father who held the modern doctrine would teach all of these:
 
-| | Point of the modern doctrine | What it rules out |
-|---|---|---|
-| 1 | One God in **three persons** | One God who is the Father, revealed as Son and Spirit |
-| 2 | The three are of **one substance** (_homoousios_) | A Son of a different or lesser nature |
-| 3 | The three are **co-equal** in power and glory | A Son "in the second place," "less" than the Father |
-| 4 | The Son is **eternally** begotten | A Son who became Son at creation or at the incarnation |
-| 5 | The Son is begotten by **nature**, not by the Father's will | A Son produced by a decision of the Father |
-| 6 | The Holy Spirit is a **third divine person**, worshipped with the Father and the Son | A Spirit who is a power, a creature, or the Son |
-| 7 | (West) The Spirit proceeds from the Father **and the Son** | The Eastern view, from the Father alone |
+|     | Point of the modern doctrine                                                         | What it rules out                                      |
+| --- | ------------------------------------------------------------------------------------ | ------------------------------------------------------ |
+| 1   | One God in **three persons**                                                         | One God who is the Father, revealed as Son and Spirit  |
+| 2   | The three are of **one substance** (_homoousios_)                                    | A Son of a different or lesser nature                  |
+| 3   | The three are **co-equal** in power and glory                                        | A Son "in the second place," "less" than the Father    |
+| 4   | The Son is **eternally** begotten                                                    | A Son who became Son at creation or at the incarnation |
+| 5   | The Son is begotten by **nature**, not by the Father's will                          | A Son produced by a decision of the Father             |
+| 6   | The Holy Spirit is a **third divine person**, worshipped with the Father and the Son | A Spirit who is a power, a creature, or the Son        |
+| 7   | (West) The Spirit proceeds from the Father **and the Son**                           | The Eastern view, from the Father alone                |
 
 Keep this table in mind as we go through the centuries.
 
@@ -154,7 +154,7 @@ Hippolytus also tells us something remarkable. The bishops of Rome in his day, *
 
 ### Tertullian (c. 200–220): the first "Trinity" — and a Son who had a beginning
 
-Tertullian of Carthage coined the Latin words that became the vocabulary of the doctrine: _trinitas_, _persona_, _substantia_ (_Against Praxeas_ 2–3, c. 213). Yet his Trinity is not the modern one.
+Tertullian of Carthage, writing **outside** the mainstream Roman Church, coined the Latin words that became the vocabulary of the doctrine: _trinitas_, _persona_, _substantia_ (_Against Praxeas_ 2–3, c. 213). Yet his Trinity is not the modern one.
 
 - **The Son had a beginning as Son.** "There was a time when neither sin existed with Him, **nor the Son**" (_Against Hermogenes_ 3). God "could not have been the Father previous to the Son."
 - **The Son was born at creation.** The Word was in God as His reason; "then, therefore, does the Word also Himself assume His own form… when God says, 'Let there be light.' **This is the perfect nativity of the Word**" (_Against Praxeas_ 7).
@@ -189,19 +189,19 @@ Origen also says that many Christians of his time, afraid "to proclaim **two God
 
 ### Summary: no one before Nicaea held the modern doctrine
 
-| Writer | Date | "Three persons, one substance" | Son co-equal | Son eternally Son | Spirit a divine person |
-|---|---|---|---|---|---|
-| Clement of Rome | c. 96 | No | Not stated | Not stated | Not stated |
-| Ignatius | c. 110 | No | "Our God, Jesus Christ" | Word "proceeded from silence" | Not stated |
-| Hermas | c. 140 | No | — | — | The Spirit **is** the Son |
-| Justin | c. 155 | No | No: "second place," "another God… subject" | No: begotten by will before creation | "Third rank" |
-| Theophilus | c. 180 | No: God, Word, Wisdom (+ man) | — | No: "emitted" for creation | Wisdom |
-| Irenaeus | c. 180 | No | No: "the Father is above all" | Not defined | The "hands" of God |
-| Hippolytus | c. 220 | No | — | No: Son because He would become such | — |
-| Tertullian | c. 213 | Coins the terms | No: "a portion of the whole" | No: "there was a time when… the Son" was not | Third, from the Father through the Son |
-| Origen | c. 230 | Three _hypostases_ | No: "second God" | **Yes** | Made through the Son |
-| Novatian | c. 250 | No | No: subject to the Father | No: born when the Father willed | — |
-| Dionysius | c. 260 | No | No: "a work and made" | No | — |
+| Writer          | Date   | "Three persons, one substance" | Son co-equal                               | Son eternally Son                            | Spirit a divine person                 |
+| --------------- | ------ | ------------------------------ | ------------------------------------------ | -------------------------------------------- | -------------------------------------- |
+| Clement of Rome | c. 96  | No                             | Not stated                                 | Not stated                                   | Not stated                             |
+| Ignatius        | c. 110 | No                             | "Our God, Jesus Christ"                    | Word "proceeded from silence"                | Not stated                             |
+| Hermas          | c. 140 | No                             | —                                          | —                                            | The Spirit **is** the Son              |
+| Justin          | c. 155 | No                             | No: "second place," "another God… subject" | No: begotten by will before creation         | "Third rank"                           |
+| Theophilus      | c. 180 | No: God, Word, Wisdom (+ man)  | —                                          | No: "emitted" for creation                   | Wisdom                                 |
+| Irenaeus        | c. 180 | No                             | No: "the Father is above all"              | Not defined                                  | The "hands" of God                     |
+| Hippolytus      | c. 220 | No                             | —                                          | No: Son because He would become such         | —                                      |
+| Tertullian      | c. 213 | Coins the terms                | No: "a portion of the whole"               | No: "there was a time when… the Son" was not | Third, from the Father through the Son |
+| Origen          | c. 230 | Three _hypostases_             | No: "second God"                           | **Yes**                                      | Made through the Son                   |
+| Novatian        | c. 250 | No                             | No: subject to the Father                  | No: born when the Father willed              | —                                      |
+| Dionysius       | c. 260 | No                             | No: "a work and made"                      | No                                           | —                                      |
 
 None of them had "the right Trinity." If the apostles had taught it, their followers would not have needed three hundred years, an emperor and a series of councils to discover it.
 
@@ -265,28 +265,28 @@ So, more than a thousand years after the apostles, the two largest churches that
 
 ### Timeline
 
-| Date | Event |
-|---|---|
-| c. 525 B.C. | Greek philosophers begin to allegorize Homer's gods |
-| 4th c. B.C. | Plato: the highest reality is like the sun, beyond being; the Father of all is impossible to declare |
-| c. 20 B.C.–A.D. 50 | Philo: God has no proper name; the Logos is a "second God" |
-| c. 155 | Justin: the Father is nameless; the Son is "another God" in "the second place" |
-| c. 180 | Theophilus: first "triad" (God, Word, Wisdom); Irenaeus: the Father is "above all" |
-| c. 213 | Tertullian coins _trinitas_; admits the majority of believers "maintain the Monarchy" |
-| c. 230 | Origen: the Son a "second God"; pray to the Father only |
-| 268 | Council of Antioch rejects _homoousios_ |
-| 325 | Nicaea, under Constantine, adopts _homoousios_; "and in the Holy Spirit" |
-| 341–360 | Rival councils; Rimini (359): "the whole world… Arian" |
-| 360s–380s | Cappadocians separate _ousia_ and _hypostasis_ |
-| 380 | Edict of Thessalonica: all must believe the Trinity or be punished |
-| 381 | Constantinople adds the article on the Holy Spirit |
-| 385 | Priscillian executed |
-| c. 400–420 | Augustine: the Spirit from the Father and the Son |
-| 5th–6th c. | Athanasian Creed |
-| 589 | Toledo III inserts the filioque |
-| 1014 | Rome adopts the filioque |
-| 1054 | East–West schism |
-| 1274, 1439 | Lyons II and Florence define the filioque as dogma |
+| Date               | Event                                                                                                |
+| ------------------ | ---------------------------------------------------------------------------------------------------- |
+| c. 525 B.C.        | Greek philosophers begin to allegorize Homer's gods                                                  |
+| 4th c. B.C.        | Plato: the highest reality is like the sun, beyond being; the Father of all is impossible to declare |
+| c. 20 B.C.–A.D. 50 | Philo: God has no proper name; the Logos is a "second God"                                           |
+| c. 155             | Justin: the Father is nameless; the Son is "another God" in "the second place"                       |
+| c. 180             | Theophilus: first "triad" (God, Word, Wisdom); Irenaeus: the Father is "above all"                   |
+| c. 213             | Tertullian coins _trinitas_; admits the majority of believers "maintain the Monarchy(Oneness)"       |
+| c. 230             | Origen: the Son a "second God"; pray to the Father only                                              |
+| 268                | Council of Antioch rejects _homoousios_                                                              |
+| 325                | Nicaea, under Constantine, adopts _homoousios_; "and in the Holy Spirit"                             |
+| 341–360            | Rival councils; Rimini (359): "the whole world… Arian"                                               |
+| 360s–380s          | Cappadocians separate _ousia_ and _hypostasis_                                                       |
+| 380                | Edict of Thessalonica: all must believe the Trinity or be punished                                   |
+| 381                | Constantinople adds the article on the Holy Spirit                                                   |
+| 385                | Priscillian executed                                                                                 |
+| c. 400–420         | Augustine: the Spirit from the Father and the Son                                                    |
+| 5th–6th c.         | Athanasian Creed                                                                                     |
+| 589                | Toledo III inserts the filioque                                                                      |
+| 1014               | Rome adopts the filioque                                                                             |
+| 1054               | East–West schism                                                                                     |
+| 1274, 1439         | Lyons II and Florence define the filioque as dogma                                                   |
 
 # 7. The Name: the Son inherited the Father's name
 
@@ -302,9 +302,9 @@ While the philosophers' Father became a God without a name, the Bible moves in t
 
 > **Isaiah 52:6:** "Therefore **my people shall know my name**: therefore they shall know in that day that I am he that doth speak: behold, it is I."
 
-> **Proverbs 30:4:** "…**what is his name, and what is his son's name**, if thou canst tell?"
+> **Exodus 23:21:** "Beware of him, and obey his voice… for **my name is in him**" - God's name present in the Angel demanded worship of the Angel
 
-> **Exodus 23:21:** "Beware of him, and obey his voice… for **my name is in him**."
+> **1 Kings 8:29:** "That thine eyes may be open toward this house night and day, even toward the place of which thou hast said, **My name shall be there**" - God's presence was literally present in the Temple because His name was there
 
 ### The Son is called the Father
 
@@ -404,12 +404,11 @@ Baptism in the name of Jesus did not disappear at once. Around A.D. 256, Cyprian
 
 ### The Spirit is the Spirit of Jesus
 
-The New Testament does not present the Holy Spirit as a third person with a separate name. It is "the Spirit of Christ," "the Spirit of His Son," "the Spirit of Jesus Christ":
+The New Testament does not present the Holy Spirit as a third person with a separate name. It is "the Spirit of Christ," "the Spirit of Jesus Christ":
 
-- "…forbidden of the Holy Ghost… but **the Spirit** suffered them not" (Acts 16:6-7; most Greek manuscripts: "**the Spirit of Jesus**").
+- "…forbidden of the Holy Ghost… but **the Spirit** suffered them not" (Acts 16:6-7; CT: "**the Spirit of Jesus**").
 - "…if so be that **the Spirit of God** dwell in you. Now if any man have not **the Spirit of Christ**, he is none of his" (Romans 8:9).
 - "…**the Spirit of Christ** which was in them [the prophets]…" (1 Peter 1:11).
-- "God hath sent forth **the Spirit of his Son** into your hearts" (Galatians 4:6).
 - "…the supply of **the Spirit of Jesus Christ**" (Philippians 1:19).
 - "Now **the Lord is that Spirit**" (2 Corinthians 3:17).
 - "…the Comforter… the Spirit of truth… he dwelleth with you, and shall be in you. **I will not leave you comfortless: I will come to you**" (John 14:16-18).
@@ -422,7 +421,7 @@ So the Father, the Son and the Holy Spirit share **one name**, and that name is 
 
 **"The Fathers were groping for words; the councils only clarified what the apostles believed."** Clarifying would mean saying the same thing more precisely. But the councils reversed what the Fathers said: Justin's "another God… subject," Tertullian's "there was a time when… the Son" was not, Origen's "second God," the Council of Antioch's rejection of _homoousios_ — all of these became heresy by later standards. A doctrine that condemns everyone who taught before it was defined is not a clarification; it is a development.
 
-**"Tertullian and Hippolytus condemned those who said the Father became incarnate."** They did. But their own alternative — a Son lower than the Father, who became Son at creation or at the incarnation — was condemned later too. And they themselves tell us that the bishops of Rome (Zephyrinus, Callistus) and "the majority of believers" held to the Monarchy of the one God.
+**"Tertullian and Hippolytus condemned those who said the Father became incarnate."** They did. But their own alternative — a Son lower than the Father, who became Son at creation or at the incarnation — was condemned later too. And they themselves tell us that the bishops of Rome (Zephyrinus, Callistus) and "the majority of believers" held to the Monarchy of the one God (Oneness).
 
 **"Matthew 28:19 proves three persons."** It mentions one **name**, and the apostles fulfilled it with the name of Jesus Christ. Father, Son and Holy Spirit are three ways God has revealed Himself — as Father in creation, as Son in redemption, as Spirit in the church — not three persons with three names.
 
