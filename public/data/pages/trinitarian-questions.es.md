@@ -264,9 +264,9 @@ Y si Jesucristo es el «un Señor», ¿no es Señor el Padre? Pablo está citand
 
 > **Salmos 22:1 (RVG):** «Dios mío, Dios mío, ¿por qué me has abandonado? ¿ Por qué estás tan lejos de mi salvación, y de las palabras de mi clamor?»
 
-### 33. En Filipenses 2:6-8, ¿quién se humilló y tomó forma de siervo: «Dios el Hijo», o el único Dios que vino en carne?
+### 33. En Filipenses 2:5-8, ¿se trata de un Dios igual a otro segundo Dios (lo que resultaría en dos Dioses), o significa simplemente que el Jesús **humano** («haya, pues, en **vosotros** este sentir que hubo también en Cristo Jesús») poseía todos los atributos de la deidad («en forma de Dios», «igual a Dios»), tales como la omnipresencia, la omnisciencia y la omnipotencia, pero renunció a sus prerrogativas divinas («forma de siervo») para su ministerio terrenal?
 
-> **Filipenses 2:6-8 (RVG):** «el cual, siendo en forma de Dios, no tuvo por usurpación el ser igual a Dios; sino que se despojó a sí mismo, tomando forma de siervo, hecho semejante a los hombres; y hallado en la condición de hombre, se humilló a sí mismo, haciéndose obediente hasta la muerte, y muerte de cruz.»
+> **Filipenses 2:5-8 (RVG):** «Haya, pues, en vosotros este sentir que hubo también en Cristo Jesús; el cual, siendo en forma de Dios, no tuvo por usurpación el ser igual a Dios; sino que se despojó a sí mismo, tomando forma de siervo, hecho semejante a los hombres; y hallado en la condición de hombre, se humilló a sí mismo, haciéndose obediente hasta la muerte, y muerte de cruz.»
 
 ### 34. Juan 5:23 dice que todos honren al Hijo como honran al Padre. ¿Dónde está el Espíritu Santo? ¿Por qué no hay un mandato de honrar al Espíritu como al Padre?
 
@@ -370,13 +370,7 @@ En el versículo 6 les fue prohibido «por el Espíritu Santo»; en el versícul
 
 > **Romanos 8:9 (RVG):** «Mas vosotros no estáis en la carne, sino en el Espíritu, si es que el Espíritu de Dios mora en vosotros. Y si alguno no tiene el Espíritu de Cristo, el tal no es de Él.»
 
-### 48. ¿Por qué Dios envió «el Espíritu de su Hijo» a nuestros corazones? ¿No envió el Padre al Espíritu Santo?
-
-> **Gálatas 4:6 (RVG):** «Y por cuanto sois hijos, Dios envió el Espíritu de su Hijo a vuestros corazones, el cual clama: Abba, Padre.»
-
-> **Juan 14:26 (RVG):** «Mas el Consolador, el Espíritu Santo, a quien el Padre enviará en mi nombre, Él os enseñará todas las cosas, y os recordará todo lo que yo os he dicho.»
-
-### 49. ¿Cuántos espíritus moran en el corazón de un cristiano?
+### 48. ¿Cuántos espíritus moran en el corazón de un cristiano?
 
 Recibimos al Espíritu Santo; el Padre y el Hijo vendrán y «harán con él morada»; el Espíritu de Dios y el Espíritu de Cristo moran en nosotros; el Padre nos fortalece «por su Espíritu» para «que habite Cristo por la fe en vuestros corazones». Y sin embargo hay un solo Espíritu.
 
@@ -390,21 +384,21 @@ Recibimos al Espíritu Santo; el Padre y el Hijo vendrán y «harán con él mor
 
 > **Efesios 4:4 (RVG):** «Hay un cuerpo, y un Espíritu, así como vosotros sois llamados en una misma esperanza de vuestro llamamiento.»
 
-### 50. ¿Qué Espíritu estaba en los profetas del Antiguo Testamento: el Espíritu de Cristo, o el Espíritu Santo?
+### 49. ¿Qué Espíritu estaba en los profetas del Antiguo Testamento: el Espíritu de Cristo, o el Espíritu Santo?
 
 > **1 Pedro 1:10-11 (RVG):** «Acerca de esta salvación inquirieron y diligentemente indagaron los profetas que profetizaron de la gracia que había de venir a vosotros, escudriñando cuándo o en qué punto de tiempo indicaba el Espíritu de Cristo que estaba en ellos, cuando prenunciaba los sufrimientos de Cristo, y las glorias después de ellos.»
 
 > **2 Pedro 1:21 (RVG):** «porque la profecía no vino en tiempo pasado por la voluntad del hombre; sino que los santos hombres de Dios hablaron siendo guiados por el Espíritu Santo.»
 
-### 51. ¿Por qué dice Pablo: «Porque el Señor es el Espíritu»?
+### 50. ¿Por qué dice Pablo: «Porque el Señor es el Espíritu»?
 
 > **2 Corintios 3:17 (RVG):** «Porque el Señor es el Espíritu; y donde está el Espíritu del Señor, allí hay libertad.»
 
-### 52. ¿Por qué habla Pablo de «la suministración del Espíritu de Jesucristo»? ¿Dónde está el Espíritu Santo?
+### 51. ¿Por qué habla Pablo de «la suministración del Espíritu de Jesucristo»? ¿Dónde está el Espíritu Santo?
 
 > **Filipenses 1:19 (RVG):** «Porque sé que esto se tornará para mi salvación por vuestra oración y la suministración del Espíritu de Jesucristo,»
 
-### 53. ¿Quién nos da las palabras en tiempos de persecución: el Espíritu del Padre, el Espíritu Santo, o Jesús?
+### 52. ¿Quién nos da las palabras en tiempos de persecución: el Espíritu del Padre, el Espíritu Santo, o Jesús?
 
 > **Mateo 10:19-20 (RVG):** «Mas cuando os entregaren, no os preocupéis de cómo o qué habéis de hablar; porque en aquella misma hora, os será dado lo que habéis de hablar. Porque no sois vosotros los que habláis, sino el Espíritu de vuestro Padre que habla en vosotros.»
 
@@ -412,7 +406,7 @@ Recibimos al Espíritu Santo; el Padre y el Hijo vendrán y «harán con él mor
 
 > **Lucas 21:15 (RVG):** «porque yo os daré palabra y sabiduría, la cual ninguno de vuestros adversarios podrá resistir ni contradecir.»
 
-### 54. ¿Son «el Espíritu de Dios» en Génesis, «el Espíritu de Jehová» en Isaías y «el Espíritu de vuestro Padre» en Mateo el mismo Espíritu, o espíritus diferentes?
+### 53. ¿Son «el Espíritu de Dios» en Génesis, «el Espíritu de Jehová» en Isaías y «el Espíritu de vuestro Padre» en Mateo el mismo Espíritu, o espíritus diferentes?
 
 > **Génesis 1:2 (RVG):** «Y la tierra estaba sin forma y vacía, y las tinieblas estaban sobre la faz del abismo, y el Espíritu de Dios se movía sobre la faz de las aguas.»
 
@@ -420,7 +414,7 @@ Recibimos al Espíritu Santo; el Padre y el Hijo vendrán y «harán con él mor
 
 > **Mateo 10:20 (RVG):** «Porque no sois vosotros los que habláis, sino el Espíritu de vuestro Padre que habla en vosotros.»
 
-### 55. ¿Quién derramó el Espíritu en Pentecostés?
+### 54. ¿Quién derramó el Espíritu en Pentecostés?
 
 En Joel, Jehová dice: «derramaré mi Espíritu». Pedro dice que esto es aquello. Los discípulos fueron «llenos del Espíritu Santo». Y Pedro dice que Jesús, exaltado, «ha derramado esto». ¿Lo derramó el Padre, el Hijo, o el único Jehová?
 
@@ -432,13 +426,13 @@ En Joel, Jehová dice: «derramaré mi Espíritu». Pedro dice que esto es aquel
 
 > **Hechos 2:33 (RVG):** «Así que, exaltado por la diestra de Dios, y habiendo recibido del Padre la promesa del Espíritu Santo, ha derramado esto que ahora vosotros veis y oís.»
 
-### 56. ¿Por qué dijo Jesús: «No os dejaré huérfanos; vendré a vosotros»?
+### 55. ¿Por qué dijo Jesús: «No os dejaré huérfanos; vendré a vosotros»?
 
 La palabra griega es _orphanoús_, «huérfanos». Solo un padre deja huérfanos. Y el Consolador que prometió en el versículo 16 resulta ser, en el versículo 18, Jesús mismo que viene a ellos.
 
 > **Juan 14:16-18 (RVG):** «y yo rogaré al Padre, y Él os dará otro Consolador, para que esté con vosotros para siempre; el Espíritu de verdad, a quien el mundo no puede recibir, porque no le ve, ni le conoce; pero vosotros le conocéis; porque mora con vosotros, y estará en vosotros. No os dejaré huérfanos; vendré a vosotros.»
 
-### 57. ¿Quién es nuestro Consolador: el Espíritu Santo, Jesús, o el Padre, «el Dios de toda consolación»?
+### 56. ¿Quién es nuestro Consolador: el Espíritu Santo, Jesús, o el Padre, «el Dios de toda consolación»?
 
 > **Juan 14:26 (RVG):** «Mas el Consolador, el Espíritu Santo, a quien el Padre enviará en mi nombre, Él os enseñará todas las cosas, y os recordará todo lo que yo os he dicho.»
 
@@ -446,7 +440,7 @@ La palabra griega es _orphanoús_, «huérfanos». Solo un padre deja huérfanos
 
 > **2 Corintios 1:3-4 (RVG):** «Bendito sea el Dios y Padre de nuestro Señor Jesucristo, el Padre de misericordias, y el Dios de toda consolación, el cual nos consuela en todas nuestras tribulaciones, para que podamos nosotros consolar a los que están en cualquier angustia, con la consolación con que nosotros mismos somos consolados de Dios.»
 
-### 58. Si el Espíritu Santo es una persona coigual, ¿por qué siempre es «enviado» —a veces por el Padre, a veces por Jesús— y nunca envía a nadie?
+### 57. Si el Espíritu Santo es una persona coigual, ¿por qué siempre es «enviado» —a veces por el Padre, a veces por Jesús— y nunca envía a nadie?
 
 > **Juan 14:26 (RVG):** «Mas el Consolador, el Espíritu Santo, a quien el Padre enviará en mi nombre, Él os enseñará todas las cosas, y os recordará todo lo que yo os he dicho.»
 
@@ -454,7 +448,7 @@ La palabra griega es _orphanoús_, «huérfanos». Solo un padre deja huérfanos
 
 > **Juan 16:7 (RVG):** «Pero yo os digo la verdad: Os es necesario que yo me vaya; porque si no me fuera, el Consolador no vendría a vosotros; mas si me fuere, os lo enviaré.»
 
-### 59. ¿Por qué el Espíritu Santo nunca aparece en los saludos de los apóstoles?
+### 58. ¿Por qué el Espíritu Santo nunca aparece en los saludos de los apóstoles?
 
 Pablo comienza sus cartas con «Gracia y paz a vosotros, de Dios nuestro Padre y del Señor Jesucristo». Si el Espíritu Santo es una tercera persona coigual, ¿por qué nunca se le saluda?
 
@@ -466,39 +460,39 @@ Pablo comienza sus cartas con «Gracia y paz a vosotros, de Dios nuestro Padre y
 
 > **Efesios 1:2 (RVG):** «Gracia sea a vosotros, y paz de Dios nuestro Padre y del Señor Jesucristo.»
 
-### 60. Si el Espíritu «procede del Padre», como dijo Jesús y confesó el Concilio de Constantinopla (381), ¿cómo no es también un Hijo del Padre? Y si procede del Padre «y del Hijo», como añadió el Concilio de Toledo (589), ¿qué relación tiene con el Hijo?
+### 59. Si el Espíritu «procede del Padre», como dijo Jesús y confesó el Concilio de Constantinopla (381), ¿cómo no es también un Hijo del Padre? Y si procede del Padre «y del Hijo», como añadió el Concilio de Toledo (589), ¿qué relación tiene con el Hijo?
 
 > **Juan 15:26 (RVG):** «Pero cuando venga el Consolador, a quien yo os enviaré del Padre, el Espíritu de verdad que procede del Padre, Él dará testimonio de mí.»
 
 # 6. El Padre en el Hijo
 
-### 61. ¿Por qué reprendió Jesús a Felipe por pedir ver al Padre?
+### 60. ¿Por qué reprendió Jesús a Felipe por pedir ver al Padre?
 
 «¿Tanto tiempo hace que estoy con vosotros, y aún no me has conocido, Felipe? El que me ha visto a mí, ha visto al Padre». Si el Padre es una persona distinta, la petición de Felipe era razonable. ¿Por qué Jesús la trata como no conocerlo a Él?
 
 > **Juan 14:7-9 (RVG):** «Si me conocieseis, también a mi Padre conoceríais; y desde ahora le conocéis, y le habéis visto. Felipe le dijo: Señor, muéstranos al Padre, y nos basta. Jesús le dijo: ¿Tanto tiempo hace que estoy con vosotros, y aún no me has conocido, Felipe? El que me ha visto a mí, ha visto al Padre; ¿cómo, pues, dices tú: Muéstranos al Padre?»
 
-### 62. ¿Por qué dijo Jesús: «El que me ve, ve al que me envió»? ¿No está el Padre en el cielo?
+### 61. ¿Por qué dijo Jesús: «El que me ve, ve al que me envió»? ¿No está el Padre en el cielo?
 
 > **Juan 12:45 (RVG):** «y el que me ve, ve al que me envió.»
 
-### 63. ¿Por qué dijo Jesús: «Si a mí me conocieseis, también a mi Padre conoceríais»? ¿No son personas distintas?
+### 62. ¿Por qué dijo Jesús: «Si a mí me conocieseis, también a mi Padre conoceríais»? ¿No son personas distintas?
 
 > **Juan 8:19 (RVG):** «Entonces le dijeron: ¿Dónde está tu Padre? Respondió Jesús: Ni a mí me conocéis, ni a mi Padre; si a mí me conocieseis, también a mi Padre conoceríais.»
 
-### 64. ¿Por qué dijo Jesús: «Yo y mi Padre uno somos»? ¿Dónde está el Espíritu Santo?
+### 63. ¿Por qué dijo Jesús: «Yo y mi Padre uno somos»? ¿Dónde está el Espíritu Santo?
 
 > **Juan 10:30 (RVG):** «Yo y mi Padre uno somos.»
 
-### 65. ¿Por qué dijo Jesús: «el Padre está en mí, y yo en Él»? ¿Dónde está el Espíritu Santo?
+### 64. ¿Por qué dijo Jesús: «el Padre está en mí, y yo en Él»? ¿Dónde está el Espíritu Santo?
 
 > **Juan 10:38 (RVG):** «Pero si las hago, aunque a mí no me creáis, creed a las obras; para que conozcáis y creáis que el Padre está en mí, y yo en Él.»
 
-### 66. ¿Por qué dijo Jesús que si no creéis que «yo soy», moriréis en vuestros pecados, sin mencionar a otras dos personas?
+### 65. ¿Por qué dijo Jesús que si no creéis que «yo soy», moriréis en vuestros pecados, sin mencionar a otras dos personas?
 
 > **Juan 8:24 (RVG):** «Por eso os dije que moriréis en vuestros pecados; porque si no creéis que yo soy, en vuestros pecados moriréis.»
 
-### 67. Si hay un solo Padre, ¿por qué al Hijo se le llama «Padre Eterno»? ¿Por qué habla Jesús de «los hijos que Dios me dio» y promete no dejarnos huérfanos?
+### 66. Si hay un solo Padre, ¿por qué al Hijo se le llama «Padre Eterno»? ¿Por qué habla Jesús de «los hijos que Dios me dio» y promete no dejarnos huérfanos?
 
 > **Efesios 4:6 (RVG):** «un Dios y Padre de todos, el cual es sobre todo, y por todo, y en todos vosotros.»
 
@@ -510,31 +504,31 @@ Pablo comienza sus cartas con «Gracia y paz a vosotros, de Dios nuestro Padre y
 
 > **Juan 14:18 (RVG):** «No os dejaré huérfanos; vendré a vosotros.»
 
-### 68. ¿Es Jesús una parte de la Deidad, o está la Deidad en Jesús?
+### 67. ¿Es Jesús una parte de la Deidad, o está la Deidad en Jesús?
 
 Colosenses no dice que Jesús sea una tercera parte de la Deidad. Dice que en Él habita «corporalmente toda la plenitud de la Deidad», y que estamos completos en Él. Si estamos completos en Él, ¿por qué debemos honrar a otras dos personas?
 
 > **Colosenses 2:9-10 (RVG):** «Porque en Él habita corporalmente toda la plenitud de la Deidad, y vosotros estáis completos en Él, el cual es la cabeza de todo principado y potestad.»
 
-### 69. Malaquías dice que «vendrá repentinamente a su templo el Señor a quien vosotros buscáis». Jesús llamó templo a su cuerpo. ¿Qué persona de un Jehová trino vino a su templo, y habitó en él?
+### 68. Malaquías dice que «vendrá repentinamente a su templo el Señor a quien vosotros buscáis». Jesús llamó templo a su cuerpo. ¿Qué persona de un Jehová trino vino a su templo, y habitó en él?
 
 > **Malaquías 3:1 (RVG):** «He aquí, yo envío mi mensajero, el cual preparará el camino delante de mí; y vendrá repentinamente a su templo el Señor a quien vosotros buscáis, y el mensajero del pacto, a quien deseáis vosotros. He aquí viene, dice Jehová de los ejércitos.»
 
 > **Juan 2:19-21 (RVG):** «Respondió Jesús y les dijo: Destruid este templo, y en tres días lo levantaré. Entonces dijeron los judíos: En cuarenta y seis años fue edificado este templo, ¿y tú lo levantarás en tres días? Pero Él hablaba del templo de su cuerpo.»
 
-### 70. Isaías dijo: «preparad el camino de Jehová» (YHWH). Juan el Bautista preparó el camino a Jesús. ¿Qué persona de un YHWH trino anunció Juan?
+### 69. Isaías dijo: «preparad el camino de Jehová» (YHWH). Juan el Bautista preparó el camino a Jesús. ¿Qué persona de un YHWH trino anunció Juan?
 
 > **Isaías 40:3 (RVG):** «Voz del que clama en el desierto: Preparad el camino de Jehová: enderezad calzada en la soledad a nuestro Dios.»
 
 > **Mateo 3:1-3 (RVG):** «En aquellos días vino Juan el Bautista predicando en el desierto de Judea, y diciendo: Arrepentíos, porque el reino del cielo se ha acercado. Porque este es aquél de quien habló el profeta Isaías, diciendo: Voz del que clama en el desierto: Preparad el camino del Señor: Enderezad sus sendas.»
 
-### 71. En Zacarías, Jehová dice: «mirarán a mí, a quien traspasaron». Juan lo aplica a Jesús en la cruz. ¿Qué persona de un Jehová trino fue traspasada?
+### 70. En Zacarías, Jehová dice: «mirarán a mí, a quien traspasaron». Juan lo aplica a Jesús en la cruz. ¿Qué persona de un Jehová trino fue traspasada?
 
 > **Zacarías 12:10 (RVG):** «Y derramaré sobre la casa de David y sobre los moradores de Jerusalén el espíritu de gracia y de oración; y mirarán a mí, a quien traspasaron, y harán llanto sobre Él, como llanto sobre unigénito, afligiéndose sobre Él como quien se aflige sobre primogénito.»
 
 > **Juan 19:37 (RVG):** «Y también otra Escritura dice: Mirarán a Aquél a quien traspasaron.»
 
-### 72. Isaías vio «al Señor sentado sobre un trono» y dijo: «han visto mis ojos al Rey, Jehová de los ejércitos». Juan dice que Isaías vio la gloria de Jesús y habló de Él. ¿Vio Isaías a una persona o a tres en el trono?
+### 71. Isaías vio «al Señor sentado sobre un trono» y dijo: «han visto mis ojos al Rey, Jehová de los ejércitos». Juan dice que Isaías vio la gloria de Jesús y habló de Él. ¿Vio Isaías a una persona o a tres en el trono?
 
 > **Isaías 6:1 (RVG):** «En el año que murió el rey Uzías vi yo al Señor sentado sobre un trono alto y sublime, y el borde de su vestidura llenaba el templo.»
 
@@ -544,7 +538,7 @@ Colosenses no dice que Jesús sea una tercera parte de la Deidad. Dice que en É
 
 # 7. ¿Quién es Él? El Jehová del Antiguo Testamento y Jesús
 
-### 73. ¿Quién es el Primero y el Último: un Jehová trino, o Jesús? Si Jehová es una Trinidad, ¿cuál de las tres personas es «el primero»? ¿Son los tres primeros?
+### 72. ¿Quién es el Primero y el Último: un Jehová trino, o Jesús? Si Jehová es una Trinidad, ¿cuál de las tres personas es «el primero»? ¿Son los tres primeros?
 
 > **Isaías 44:6 (RVG):** «Así dice Jehová, el Rey de Israel, y su Redentor, Jehová de los ejércitos: Yo soy el primero, y yo soy el postrero, y fuera de mí no hay Dios.»
 
@@ -554,7 +548,7 @@ Colosenses no dice que Jesús sea una tercera parte de la Deidad. Dice que en É
 
 > **Apocalipsis 22:13 (RVG):** «Yo soy el Alfa y la Omega, el principio y el fin, el primero y el postrero.»
 
-### 74. ¿Quién es nuestro Redentor: un Jehová trino, o Jesús?
+### 73. ¿Quién es nuestro Redentor: un Jehová trino, o Jesús?
 
 > **Isaías 54:5 (RVG):** «Porque tu marido es tu Hacedor; Jehová de los ejércitos es su nombre; y tu Redentor, el Santo de Israel; Dios de toda la tierra será llamado.»
 
@@ -562,7 +556,7 @@ Colosenses no dice que Jesús sea una tercera parte de la Deidad. Dice que en É
 
 > **Apocalipsis 5:9 (RVG):** «Y cantaban un cántico nuevo, diciendo: Digno eres de tomar el libro y de abrir sus sellos; porque tú fuiste inmolado, y nos has redimido para Dios con tu sangre, de todo linaje y lengua y pueblo y nación;»
 
-### 75. ¿Quién es el Creador? Jehová dice que hizo todas las cosas «solo» y «por mí mismo». La Escritura dice que todas las cosas fueron hechas por Jesús. ¿Es el Jehová trino quien estaba solo, o Jesús?
+### 74. ¿Quién es el Creador? Jehová dice que hizo todas las cosas «solo» y «por mí mismo». La Escritura dice que todas las cosas fueron hechas por Jesús. ¿Es el Jehová trino quien estaba solo, o Jesús?
 
 > **Isaías 44:24 (RVG):** «Así dice Jehová, tu Redentor, el que te formó desde el vientre: Yo soy Jehová, el Creador de todo, que extiendo solo los cielos, que extiendo la tierra por mí mismo;»
 
@@ -572,13 +566,13 @@ Colosenses no dice que Jesús sea una tercera parte de la Deidad. Dice que en É
 
 > **Hebreos 1:10 (RVG):** «Y: Tú, Señor, en el principio fundaste la tierra, y los cielos son obra de tus manos:»
 
-### 76. ¿Quién es el Rey de Israel: un Jehová trino, o Jesús?
+### 75. ¿Quién es el Rey de Israel: un Jehová trino, o Jesús?
 
 > **Isaías 44:6 (RVG):** «Así dice Jehová, el Rey de Israel, y su Redentor, Jehová de los ejércitos: Yo soy el primero, y yo soy el postrero, y fuera de mí no hay Dios.»
 
 > **Juan 1:49 (RVG):** «Respondió Natanael y le dijo: Rabí, tú eres el Hijo de Dios: Tú eres el Rey de Israel.»
 
-### 77. ¿Quién es el único Salvador: un Jehová trino, o Jesús? Pablo dice «Dios nuestro Salvador» y «Jesucristo nuestro Salvador» casi en la misma frase.
+### 76. ¿Quién es el único Salvador: un Jehová trino, o Jesús? Pablo dice «Dios nuestro Salvador» y «Jesucristo nuestro Salvador» casi en la misma frase.
 
 > **Isaías 43:11 (RVG):** «Yo, yo soy Jehová, y fuera de mí no hay quien salve.»
 
@@ -586,13 +580,13 @@ Colosenses no dice que Jesús sea una tercera parte de la Deidad. Dice que en É
 
 > **Tito 3:4-6 (RVG):** «Pero cuando se manifestó la bondad de Dios nuestro Salvador, y su amor para con los hombres, nos salvó, no por obras de justicia que nosotros hayamos hecho, sino por su misericordia, por el lavamiento de la regeneración y de la renovación del Espíritu Santo; el cual derramó en nosotros abundantemente por Jesucristo nuestro Salvador,»
 
-### 78. ¿Quién es el Señor de señores: un Jehová trino, o Jesús?
+### 77. ¿Quién es el Señor de señores: un Jehová trino, o Jesús?
 
 > **Salmos 136:3 (RVG):** «Dad gracias al Señor de los señores, porque para siempre es su misericordia.»
 
 > **Apocalipsis 19:16 (RVG):** «Y en su vestidura y en su muslo tiene escrito este nombre: REY DE REYES Y SEÑOR DE SEÑORES.»
 
-### 79. ¿Quién es nuestra salvación: un Jehová trino, o solo Jesús? Cuando Simeón sostuvo al niño Jesús, dijo: «han visto mis ojos tu salvación».
+### 78. ¿Quién es nuestra salvación: un Jehová trino, o solo Jesús? Cuando Simeón sostuvo al niño Jesús, dijo: «han visto mis ojos tu salvación».
 
 > **Isaías 12:2 (RVG):** «He aquí, Dios es mi salvación; confiaré, y no temeré; porque mi fortaleza y mi canción es Jehová, Jehová, el cual ha sido mi salvación.»
 
@@ -602,25 +596,25 @@ Colosenses no dice que Jesús sea una tercera parte de la Deidad. Dice que en É
 
 > **Hechos 4:12 (RVG):** «Y en ningún otro hay salvación; porque no hay otro nombre bajo del cielo, dado a los hombres, en que debamos ser salvos.»
 
-### 80. ¿Quién es la Roca: un Jehová trino, o Jesús?
+### 79. ¿Quién es la Roca: un Jehová trino, o Jesús?
 
 > **Salmos 18:2 (RVG):** «Jehová es mi Roca, mi castillo y mi Libertador; mi Dios, mi fortaleza, en Él confiaré; mi escudo, el cuerno de mi salvación, y mi alto refugio.»
 
 > **1 Corintios 10:4 (RVG):** «y todos bebieron la misma bebida espiritual; porque bebían de la Roca espiritual que los seguía, y la Roca era Cristo.»
 
-### 81. ¿Quién es el «YO SOY»: un Jehová trino, o Jesús?
+### 80. ¿Quién es el «YO SOY»: un Jehová trino, o Jesús?
 
 > **Éxodo 3:14 (RVG):** «Y respondió Dios a Moisés: YO SOY EL QUE SOY. Y dijo: Así dirás a los hijos de Israel: YO SOY me ha enviado a vosotros.»
 
 > **Juan 8:58 (RVG):** «Jesús les dijo: De cierto, de cierto os digo: Antes que Abraham fuese, yo soy.»
 
-### 82. ¿Quién es el Todopoderoso: un Jehová trino, o Jesús?
+### 81. ¿Quién es el Todopoderoso: un Jehová trino, o Jesús?
 
 > **Génesis 17:1 (RVG):** «Y cuando Abram tenía noventa y nueve años, Jehová apareció a Abram y le dijo: Yo soy el Dios Todopoderoso; anda delante de mí, y sé perfecto.»
 
 > **Apocalipsis 1:8 (RVG):** «Yo soy el Alfa y la Omega, el principio y el fin, dice el Señor, el que es y que era y que ha de venir, el Todopoderoso.»
 
-### 83. ¿Quién sacó a Israel de Egipto: un Jehová trino, o Jesús?
+### 82. ¿Quién sacó a Israel de Egipto: un Jehová trino, o Jesús?
 
 Según el texto griego crítico, Judas 5 dice que **Jesús** libró a su pueblo de Egipto (así la BSB, ESV, NET y NLT), y Pablo dice que Israel tentó a **Cristo** en el desierto.
 
@@ -630,7 +624,7 @@ Según el texto griego crítico, Judas 5 dice que **Jesús** libró a su pueblo 
 
 > **1 Corintios 10:9 (RVG):** «Ni tentemos a Cristo, como también algunos de ellos le tentaron, y perecieron por las serpientes.»
 
-### 84. ¿Ante quién se doblará toda rodilla: ante un Jehová trino, o ante Jesús?
+### 83. ¿Ante quién se doblará toda rodilla: ante un Jehová trino, o ante Jesús?
 
 > **Isaías 45:23 (RVG):** «Por mí mismo he jurado, de mi boca salió palabra en justicia, y no será revocada. Que ante mí se doblará toda rodilla, y jurará toda lengua.»
 
@@ -638,7 +632,7 @@ Según el texto griego crítico, Judas 5 dice que **Jesús** libró a su pueblo 
 
 > **Filipenses 2:10 (RVG):** «para que al nombre de Jesús, se doble toda rodilla; de los que están en el cielo, y en la tierra, y debajo de la tierra,»
 
-### 85. ¿Quién es el Pastor: un Jehová trino, o Jesús?
+### 84. ¿Quién es el Pastor: un Jehová trino, o Jesús?
 
 > **Salmos 23:1 (RVG):** «Jehová es mi pastor; nada me faltará.»
 
@@ -646,7 +640,7 @@ Según el texto griego crítico, Judas 5 dice que **Jesús** libró a su pueblo 
 
 # 8. ¿Quién lo hace?
 
-### 86. ¿Quién intercede por nosotros: Jesús, o el Espíritu Santo? Si hay «un mediador», ¿cómo hay dos intercesores?
+### 85. ¿Quién intercede por nosotros: Jesús, o el Espíritu Santo? Si hay «un mediador», ¿cómo hay dos intercesores?
 
 > **Hebreos 7:25 (RVG):** «por lo cual puede también salvar eternamente a los que por Él se acercan a Dios, viviendo siempre para interceder por ellos.»
 
@@ -654,7 +648,7 @@ Según el texto griego crítico, Judas 5 dice que **Jesús** libró a su pueblo 
 
 > **1 Timoteo 2:5 (RVG):** «Porque hay un solo Dios, y un solo mediador entre Dios y los hombres, Jesucristo hombre;»
 
-### 87. ¿Quién nos santifica: Jesús, el Espíritu Santo, o el Padre?
+### 86. ¿Quién nos santifica: Jesús, el Espíritu Santo, o el Padre?
 
 > **Efesios 5:25-26 (RVG):** «Maridos, amad a vuestras esposas, así como Cristo amó a la iglesia, y se entregó a sí mismo por ella; para santificarla limpiándola en el lavamiento del agua por la palabra,»
 
@@ -662,25 +656,25 @@ Según el texto griego crítico, Judas 5 dice que **Jesús** libró a su pueblo 
 
 > **Judas 1:1 (RVG):** «Judas, siervo de Jesucristo, y hermano de Jacobo, a los llamados, santificados en Dios el Padre, y preservados en Jesucristo:»
 
-### 88. ¿Quién responde la oración: el Padre, o Jesús?
+### 87. ¿Quién responde la oración: el Padre, o Jesús?
 
 > **Juan 16:23 (RVG):** «En aquel día no me preguntaréis nada. De cierto, de cierto os digo, que todo cuanto pidiereis al Padre en mi nombre, os lo dará.»
 
 > **Juan 14:14 (MSB):** «Si me pedís algo en mi nombre, yo lo haré.»
 
-### 89. ¿Quién atrae a las personas a Dios: el Padre, o Jesús?
+### 88. ¿Quién atrae a las personas a Dios: el Padre, o Jesús?
 
 > **Juan 6:44 (RVG):** «Ninguno puede venir a mí, si el Padre que me envió no le trajere; y yo le resucitaré en el día postrero.»
 
 > **Juan 12:32 (RVG):** «Y yo, si fuere levantado de la tierra, a todos atraeré a mí mismo.»
 
-### 90. ¿Quién resucitará a los creyentes: Dios, que levantó al Señor, o Jesús?
+### 89. ¿Quién resucitará a los creyentes: Dios, que levantó al Señor, o Jesús?
 
 > **1 Corintios 6:14 (RVG):** «Y Dios, que resucitó al Señor, también a nosotros nos resucitará con su poder.»
 
 > **Juan 6:40 (RVG):** «Y esta es la voluntad del que me envió: Que todo aquel que ve al Hijo, y cree en Él, tenga vida eterna; y yo le resucitaré en el día postrero.»
 
-### 91. ¿Quién resucitó a Jesús de los muertos: el Padre, Jesús mismo, o el Espíritu?
+### 90. ¿Quién resucitó a Jesús de los muertos: el Padre, Jesús mismo, o el Espíritu?
 
 > **Gálatas 1:1 (RVG):** «Pablo, apóstol (no de hombres ni por hombre, sino por Jesucristo, y por Dios el Padre que le resucitó de entre los muertos),»
 
@@ -690,7 +684,7 @@ Según el texto griego crítico, Judas 5 dice que **Jesús** libró a su pueblo 
 
 > **1 Corintios 15:15 (RVG):** «Y además somos hallados falsos testigos de Dios; porque hemos testificado de Dios, que Él resucitó a Cristo; al cual no resucitó, si en verdad los muertos no resucitan.»
 
-### 92. ¿A quién adoramos, y a quién oramos?
+### 91. ¿A quién adoramos, y a quién oramos?
 
 Jesús dijo que adoráramos al Padre y que oráramos «Padre nuestro». Sin embargo, Esteban invocó a Jesús, y Jesús recibió adoración. Nadie en la Biblia ora jamás al Espíritu Santo ni lo adora como una persona aparte. ¿Por qué no, si es coigual?
 
@@ -708,7 +702,7 @@ Jesús dijo que adoráramos al Padre y que oráramos «Padre nuestro». Sin emba
 
 > **Juan 9:38 (RVG):** «Y él dijo: Creo, Señor; y le adoró.»
 
-### 93. ¿Quién hizo el nuevo pacto, y quién murió para que entrara en vigor?
+### 92. ¿Quién hizo el nuevo pacto, y quién murió para que entrara en vigor?
 
 Jehová hizo el nuevo pacto. Hebreos dice que un testamento no tiene valor «entre tanto que el testador vive»; el testador debe morir. Si Jehová es una Trinidad, ¿murieron las tres personas? Si solo murió el Hijo, ¿cómo murió el Jehová que hizo el pacto?
 
@@ -722,7 +716,7 @@ Jehová hizo el nuevo pacto. Hebreos dice que un testamento no tiene valor «ent
 
 # 9. El Hijo engendrado
 
-### 94. Si «Dios el Hijo» es eterno, ¿cuándo fue engendrado?
+### 93. Si «Dios el Hijo» es eterno, ¿cuándo fue engendrado?
 
 Hebreos y Hechos dicen: «yo te he engendrado **hoy**», y Hechos lo aplica a cuando Dios levantó a Jesús. El ángel le dijo a María que el niño sería llamado Hijo de Dios **porque** el Espíritu Santo la cubriría con su sombra. Pablo dice que Dios envió a su Hijo «hecho de mujer». ¿Cuándo es ese «hoy»? No suena a eternidad.
 
@@ -738,7 +732,7 @@ Hebreos y Hechos dicen: «yo te he engendrado **hoy**», y Hechos lo aplica a cu
 
 > **Juan 3:16 (RVG):** «Porque de tal manera amó Dios al mundo, que ha dado a su Hijo unigénito, para que todo aquel que en Él cree no se pierda, mas tenga vida eterna.»
 
-### 95. ¿Dónde dice la Biblia «Dios el Hijo», «Dios el Espíritu Santo», «Hijo eterno», «tres personas» o «Trinidad»?
+### 94. ¿Dónde dice la Biblia «Dios el Hijo», «Dios el Espíritu Santo», «Hijo eterno», «tres personas» o «Trinidad»?
 
 La Biblia dice «el Hijo de Dios», una y otra vez. Ni una sola vez dice «Dios el Hijo». Si la doctrina es esencial para la salvación, ¿por qué faltan en la Escritura sus términos básicos?
 

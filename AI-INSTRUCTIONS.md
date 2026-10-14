@@ -41,4 +41,4 @@ This is a Bible app with Oneness Study Notes. I want to make it as user friendly
 - Menu entries: `src/js/pages.js` (`INFO_PAGES`, in menu order, labels in `en` and `es`).
 - Each page's text: `public/data/pages/<id>.en.md` and `<id>.es.md`. Supported Markdown subset is documented at the top of `src/components/InfoPanel/InfoPanel.jsx`.
 - Bible quotations on these pages: KJV in English, RVG in Spanish (BSB / MSB only where a textual variant matters); quote from the app's own files in `public/data/bibles/` rather than from memory.
-- "Questions for Trinitarians" (`trinitarian-questions`) is generated: edit `C:\dev\bible-app\tmp-check\qgen\questions.txt`, then from `C:\dev\bible-app` run `python3 tmp-check/qgen/build_questions.py tmp-check/qgen/questions.txt bible-app`. Don't edit its .md files by hand.
+- "Questions for Trinitarians" (`trinitarian-questions`) was first generated from `C:\dev\bible-app\tmp-check\qgen\questions.txt` with `build_questions.py`, but since October 2026 the author edits its .md files by hand. Don't rerun the generator (it would overwrite those edits); edit the .md files directly and keep the question numbers sequential in both languages.

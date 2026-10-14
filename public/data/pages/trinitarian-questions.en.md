@@ -370,13 +370,7 @@ In verse 6 they were forbidden "of the Holy Ghost"; in verse 7, in the critical 
 
 > **Romans 8:9 (KJV):** "But ye are not in the flesh, but in the Spirit, if so be that the Spirit of God dwell in you. Now if any man have not the Spirit of Christ, he is none of his."
 
-### 48. Why did God send "the Spirit of his Son" into our hearts? Didn't the Father send the Holy Ghost?
-
-> **Galatians 4:6 (KJV):** "And because ye are sons, God hath sent forth the Spirit of his Son into your hearts, crying, Abba, Father."
-
-> **John 14:26 (KJV):** "But the Comforter, which is the Holy Ghost, whom the Father will send in my name, he shall teach you all things, and bring all things to your remembrance, whatsoever I have said unto you."
-
-### 49. How many spirits dwell in a Christian's heart?
+### 48. How many spirits dwell in a Christian's heart?
 
 We receive the Holy Spirit; the Father and the Son "make our abode" with us; the Spirit of God and the Spirit of Christ dwell in us; the Father strengthens us "by his Spirit" so "that Christ may dwell in your hearts." Yet there is one Spirit.
 
@@ -390,21 +384,21 @@ We receive the Holy Spirit; the Father and the Son "make our abode" with us; the
 
 > **Ephesians 4:4 (KJV):** "There is one body, and one Spirit, even as ye are called in one hope of your calling;"
 
-### 50. Which Spirit was in the prophets of the Old Testament: the Spirit of Christ, or the Holy Ghost?
+### 49. Which Spirit was in the prophets of the Old Testament: the Spirit of Christ, or the Holy Ghost?
 
 > **1 Peter 1:10-11 (KJV):** "Of which salvation the prophets have enquired and searched diligently, who prophesied of the grace that should come unto you: Searching what, or what manner of time the Spirit of Christ which was in them did signify, when it testified beforehand the sufferings of Christ, and the glory that should follow."
 
 > **2 Peter 1:21 (KJV):** "For the prophecy came not in old time by the will of man: but holy men of God spake as they were moved by the Holy Ghost."
 
-### 51. Why does Paul say, "Now the Lord is that Spirit"?
+### 50. Why does Paul say, "Now the Lord is that Spirit"?
 
 > **2 Corinthians 3:17 (KJV):** "Now the Lord is that Spirit: and where the Spirit of the Lord is, there is liberty."
 
-### 52. Why does Paul speak of "the supply of the Spirit of Jesus Christ"? Where is the Holy Spirit?
+### 51. Why does Paul speak of "the supply of the Spirit of Jesus Christ"? Where is the Holy Spirit?
 
 > **Philippians 1:19 (KJV):** "For I know that this shall turn to my salvation through your prayer, and the supply of the Spirit of Jesus Christ,"
 
-### 53. Who gives us words in times of persecution: the Spirit of the Father, the Holy Ghost, or Jesus?
+### 52. Who gives us words in times of persecution: the Spirit of the Father, the Holy Ghost, or Jesus?
 
 > **Matthew 10:19-20 (KJV):** "But when they deliver you up, take no thought how or what ye shall speak: for it shall be given you in that same hour what ye shall speak. For it is not ye that speak, but the Spirit of your Father which speaketh in you."
 
@@ -412,7 +406,7 @@ We receive the Holy Spirit; the Father and the Son "make our abode" with us; the
 
 > **Luke 21:15 (KJV):** "For I will give you a mouth and wisdom, which all your adversaries shall not be able to gainsay nor resist."
 
-### 54. Are "the Spirit of God" in Genesis, "the Spirit of the LORD" in Isaiah, and "the Spirit of your Father" in Matthew the same Spirit, or different spirits?
+### 53. Are "the Spirit of God" in Genesis, "the Spirit of the LORD" in Isaiah, and "the Spirit of your Father" in Matthew the same Spirit, or different spirits?
 
 > **Genesis 1:2 (KJV):** "And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters."
 
@@ -420,7 +414,7 @@ We receive the Holy Spirit; the Father and the Son "make our abode" with us; the
 
 > **Matthew 10:20 (KJV):** "For it is not ye that speak, but the Spirit of your Father which speaketh in you."
 
-### 55. Who poured out the Spirit at Pentecost?
+### 54. Who poured out the Spirit at Pentecost?
 
 In Joel, the LORD says, "I will pour out my spirit." Peter says this is that. The disciples were "filled with the Holy Ghost." And Peter says Jesus, exalted, "hath shed forth this." Is the Spirit poured out by the Father, by the Son, or by the one LORD?
 
@@ -432,13 +426,13 @@ In Joel, the LORD says, "I will pour out my spirit." Peter says this is that. Th
 
 > **Acts 2:33 (KJV):** "Therefore being by the right hand of God exalted, and having received of the Father the promise of the Holy Ghost, he hath shed forth this, which ye now see and hear."
 
-### 56. Why did Jesus say, "I will not leave you comfortless: I will come to you"?
+### 55. Why did Jesus say, "I will not leave you comfortless: I will come to you"?
 
 The Greek word is _orphanous_, "orphans." Only a father leaves orphans. And the Comforter He promised in verse 16 turns out, in verse 18, to be Jesus Himself coming to them.
 
 > **John 14:16-18 (KJV):** "And I will pray the Father, and he shall give you another Comforter, that he may abide with you for ever; Even the Spirit of truth; whom the world cannot receive, because it seeth him not, neither knoweth him: but ye know him; for he dwelleth with you, and shall be in you. I will not leave you comfortless: I will come to you."
 
-### 57. Who is our Comforter: the Holy Ghost, Jesus, or the Father, "the God of all comfort"?
+### 56. Who is our Comforter: the Holy Ghost, Jesus, or the Father, "the God of all comfort"?
 
 > **John 14:26 (KJV):** "But the Comforter, which is the Holy Ghost, whom the Father will send in my name, he shall teach you all things, and bring all things to your remembrance, whatsoever I have said unto you."
 
@@ -446,7 +440,7 @@ The Greek word is _orphanous_, "orphans." Only a father leaves orphans. And the 
 
 > **2 Corinthians 1:3-4 (KJV):** "Blessed be God, even the Father of our Lord Jesus Christ, the Father of mercies, and the God of all comfort; Who comforteth us in all our tribulation, that we may be able to comfort them which are in any trouble, by the comfort wherewith we ourselves are comforted of God."
 
-### 58. If the Holy Spirit is a co-equal person, why is He always "sent" — sometimes by the Father, sometimes by Jesus — and never sends anyone?
+### 57. If the Holy Spirit is a co-equal person, why is He always "sent" — sometimes by the Father, sometimes by Jesus — and never sends anyone?
 
 > **John 14:26 (KJV):** "But the Comforter, which is the Holy Ghost, whom the Father will send in my name, he shall teach you all things, and bring all things to your remembrance, whatsoever I have said unto you."
 
@@ -454,7 +448,7 @@ The Greek word is _orphanous_, "orphans." Only a father leaves orphans. And the 
 
 > **John 16:7 (KJV):** "Nevertheless I tell you the truth; It is expedient for you that I go away: for if I go not away, the Comforter will not come unto you; but if I depart, I will send him unto you."
 
-### 59. Why does the Holy Spirit never appear in the apostles' greetings?
+### 58. Why does the Holy Spirit never appear in the apostles' greetings?
 
 Paul opens his letters with "Grace to you and peace from God our Father, and the Lord Jesus Christ." If the Holy Spirit is a co-equal third person, why is He never greeted?
 
@@ -466,39 +460,39 @@ Paul opens his letters with "Grace to you and peace from God our Father, and the
 
 > **Ephesians 1:2 (KJV):** "Grace be to you, and peace, from God our Father, and from the Lord Jesus Christ."
 
-### 60. If the Spirit "proceedeth from the Father," as Jesus said and the Council of Constantinople (381) confessed, how is He not also a Son of the Father? And if He proceeds from the Father "and the Son," as the Council of Toledo (589) added, what relation does He have to the Son?
+### 59. If the Spirit "proceedeth from the Father," as Jesus said and the Council of Constantinople (381) confessed, how is He not also a Son of the Father? And if He proceeds from the Father "and the Son," as the Council of Toledo (589) added, what relation does He have to the Son?
 
 > **John 15:26 (KJV):** "But when the Comforter is come, whom I will send unto you from the Father, even the Spirit of truth, which proceedeth from the Father, he shall testify of me:"
 
 # 6. The Father in the Son
 
-### 61. Why did Jesus rebuke Philip for asking to see the Father?
+### 60. Why did Jesus rebuke Philip for asking to see the Father?
 
 "Have I been so long time with you, and yet hast thou not known me, Philip? he that hath seen me hath seen the Father." If the Father is a distinct person, Philip's request was reasonable. Why does Jesus treat it as not knowing Him?
 
 > **John 14:7-9 (KJV):** "If ye had known me, ye should have known my Father also: and from henceforth ye know him, and have seen him. Philip saith unto him, Lord, shew us the Father, and it sufficeth us. Jesus saith unto him, Have I been so long time with you, and yet hast thou not known me, Philip? he that hath seen me hath seen the Father; and how sayest thou then, Shew us the Father?"
 
-### 62. Why did Jesus say, "He that seeth me seeth him that sent me"? Isn't the Father in heaven?
+### 61. Why did Jesus say, "He that seeth me seeth him that sent me"? Isn't the Father in heaven?
 
 > **John 12:45 (KJV):** "And he that seeth me seeth him that sent me."
 
-### 63. Why did Jesus say, "If ye had known me, ye should have known my Father also"? Aren't they distinct persons?
+### 62. Why did Jesus say, "If ye had known me, ye should have known my Father also"? Aren't they distinct persons?
 
 > **John 8:19 (KJV):** "Then said they unto him, Where is thy Father? Jesus answered, Ye neither know me, nor my Father: if ye had known me, ye should have known my Father also."
 
-### 64. Why did Jesus say, "I and my Father are one"? Where is the Holy Spirit?
+### 63. Why did Jesus say, "I and my Father are one"? Where is the Holy Spirit?
 
 > **John 10:30 (KJV):** "I and my Father are one."
 
-### 65. Why did Jesus say, "the Father is in me, and I in him"? Where is the Holy Spirit?
+### 64. Why did Jesus say, "the Father is in me, and I in him"? Where is the Holy Spirit?
 
 > **John 10:38 (KJV):** "But if I do, though ye believe not me, believe the works: that ye may know, and believe, that the Father is in me, and I in him."
 
-### 66. Why did Jesus say that if you do not believe that "I am he," you will die in your sins — with no mention of two other persons?
+### 65. Why did Jesus say that if you do not believe that "I am he," you will die in your sins — with no mention of two other persons?
 
 > **John 8:24 (KJV):** "I said therefore unto you, that ye shall die in your sins: for if ye believe not that I am he, ye shall die in your sins."
 
-### 67. If there is one Father, why is the Son called "The everlasting Father"? Why does Jesus speak of "the children which God hath given me" and promise not to leave us orphans?
+### 66. If there is one Father, why is the Son called "The everlasting Father"? Why does Jesus speak of "the children which God hath given me" and promise not to leave us orphans?
 
 > **Ephesians 4:6 (KJV):** "One God and Father of all, who is above all, and through all, and in you all."
 
@@ -510,31 +504,31 @@ Paul opens his letters with "Grace to you and peace from God our Father, and the
 
 > **John 14:18 (KJV):** "I will not leave you comfortless: I will come to you."
 
-### 68. Is Jesus a part of the Godhead, or is the Godhead in Jesus?
+### 67. Is Jesus a part of the Godhead, or is the Godhead in Jesus?
 
 Colossians does not say that Jesus is one third of the Godhead. It says that in Him dwells "all the fulness of the Godhead bodily," and that we are complete in Him. If we are complete in Him, why must we honour two other persons?
 
 > **Colossians 2:9-10 (KJV):** "For in him dwelleth all the fulness of the Godhead bodily. And ye are complete in him, which is the head of all principality and power:"
 
-### 69. Malachi says "the Lord, whom ye seek, shall suddenly come to his temple." Jesus called His body the temple. Which person of a triune LORD came to the temple — and dwelt in it?
+### 68. Malachi says "the Lord, whom ye seek, shall suddenly come to his temple." Jesus called His body the temple. Which person of a triune LORD came to the temple — and dwelt in it?
 
 > **Malachi 3:1 (KJV):** "Behold, I will send my messenger, and he shall prepare the way before me: and the Lord, whom ye seek, shall suddenly come to his temple, even the messenger of the covenant, whom ye delight in: behold, he shall come, saith the LORD of hosts."
 
 > **John 2:19-21 (KJV):** "Jesus answered and said unto them, Destroy this temple, and in three days I will raise it up. Then said the Jews, Forty and six years was this temple in building, and wilt thou rear it up in three days? But he spake of the temple of his body."
 
-### 70. Isaiah said to "prepare ye the way of the LORD" (YHWH). John the Baptist prepared the way for Jesus. Which person of a triune YHWH did John announce?
+### 69. Isaiah said to "prepare ye the way of the LORD" (YHWH). John the Baptist prepared the way for Jesus. Which person of a triune YHWH did John announce?
 
 > **Isaiah 40:3 (KJV):** "The voice of him that crieth in the wilderness, Prepare ye the way of the LORD, make straight in the desert a highway for our God."
 
 > **Matthew 3:1-3 (KJV):** "In those days came John the Baptist, preaching in the wilderness of Judaea, And saying, Repent ye: for the kingdom of heaven is at hand. For this is he that was spoken of by the prophet Esaias, saying, The voice of one crying in the wilderness, Prepare ye the way of the Lord, make his paths straight."
 
-### 71. In Zechariah, the LORD says, "they shall look upon me whom they have pierced." John applies it to Jesus on the cross. Which person of a triune LORD was pierced?
+### 70. In Zechariah, the LORD says, "they shall look upon me whom they have pierced." John applies it to Jesus on the cross. Which person of a triune LORD was pierced?
 
 > **Zechariah 12:10 (KJV):** "And I will pour upon the house of David, and upon the inhabitants of Jerusalem, the spirit of grace and of supplications: and they shall look upon me whom they have pierced, and they shall mourn for him, as one mourneth for his only son, and shall be in bitterness for him, as one that is in bitterness for his firstborn."
 
 > **John 19:37 (KJV):** "And again another scripture saith, They shall look on him whom they pierced."
 
-### 72. Isaiah saw "the Lord sitting upon a throne" and said, "mine eyes have seen the King, the LORD of hosts." John says Isaiah saw Jesus' glory and spoke of Him. Did Isaiah see one person or three on the throne?
+### 71. Isaiah saw "the Lord sitting upon a throne" and said, "mine eyes have seen the King, the LORD of hosts." John says Isaiah saw Jesus' glory and spoke of Him. Did Isaiah see one person or three on the throne?
 
 > **Isaiah 6:1 (KJV):** "In the year that king Uzziah died I saw also the Lord sitting upon a throne, high and lifted up, and his train filled the temple."
 
@@ -544,7 +538,7 @@ Colossians does not say that Jesus is one third of the Godhead. It says that in 
 
 # 7. Who is He? The LORD of the Old Testament and Jesus
 
-### 73. Who is the First and the Last: a triune LORD, or Jesus? If the LORD is a Trinity, which of the three persons is "the first"? Are all three first?
+### 72. Who is the First and the Last: a triune LORD, or Jesus? If the LORD is a Trinity, which of the three persons is "the first"? Are all three first?
 
 > **Isaiah 44:6 (KJV):** "Thus saith the LORD the King of Israel, and his redeemer the LORD of hosts; I am the first, and I am the last; and beside me there is no God."
 
@@ -554,7 +548,7 @@ Colossians does not say that Jesus is one third of the Godhead. It says that in 
 
 > **Revelation 22:13 (KJV):** "I am Alpha and Omega, the beginning and the end, the first and the last."
 
-### 74. Who is our Redeemer: a triune LORD, or Jesus?
+### 73. Who is our Redeemer: a triune LORD, or Jesus?
 
 > **Isaiah 54:5 (KJV):** "For thy Maker is thine husband; the LORD of hosts is his name; and thy Redeemer the Holy One of Israel; The God of the whole earth shall he be called."
 
@@ -562,7 +556,7 @@ Colossians does not say that Jesus is one third of the Godhead. It says that in 
 
 > **Revelation 5:9 (KJV):** "And they sung a new song, saying, Thou art worthy to take the book, and to open the seals thereof: for thou wast slain, and hast redeemed us to God by thy blood out of every kindred, and tongue, and people, and nation;"
 
-### 75. Who is the Creator? The LORD says He made all things "alone" and "by myself." Scripture says all things were made by Jesus. Is the triune LORD alone, or Jesus?
+### 74. Who is the Creator? The LORD says He made all things "alone" and "by myself." Scripture says all things were made by Jesus. Is the triune LORD alone, or Jesus?
 
 > **Isaiah 44:24 (KJV):** "Thus saith the LORD, thy redeemer, and he that formed thee from the womb, I am the LORD that maketh all things; that stretcheth forth the heavens alone; that spreadeth abroad the earth by myself;"
 
@@ -572,13 +566,13 @@ Colossians does not say that Jesus is one third of the Godhead. It says that in 
 
 > **Hebrews 1:10 (KJV):** "And, Thou, Lord, in the beginning hast laid the foundation of the earth; and the heavens are the works of thine hands:"
 
-### 76. Who is the King of Israel: a triune LORD, or Jesus?
+### 75. Who is the King of Israel: a triune LORD, or Jesus?
 
 > **Isaiah 44:6 (KJV):** "Thus saith the LORD the King of Israel, and his redeemer the LORD of hosts; I am the first, and I am the last; and beside me there is no God."
 
 > **John 1:49 (KJV):** "Nathanael answered and saith unto him, Rabbi, thou art the Son of God; thou art the King of Israel."
 
-### 77. Who is the only Saviour: a triune LORD, or Jesus? Paul calls "God our Saviour" and "Jesus Christ our Saviour" in the same breath.
+### 76. Who is the only Saviour: a triune LORD, or Jesus? Paul calls "God our Saviour" and "Jesus Christ our Saviour" in the same breath.
 
 > **Isaiah 43:11 (KJV):** "I, even I, am the LORD; and beside me there is no saviour."
 
@@ -586,13 +580,13 @@ Colossians does not say that Jesus is one third of the Godhead. It says that in 
 
 > **Titus 3:4-6 (KJV):** "But after that the kindness and love of God our Saviour toward man appeared, Not by works of righteousness which we have done, but according to his mercy he saved us, by the washing of regeneration, and renewing of the Holy Ghost; Which he shed on us abundantly through Jesus Christ our Saviour;"
 
-### 78. Who is the Lord of lords: a triune LORD, or Jesus?
+### 77. Who is the Lord of lords: a triune LORD, or Jesus?
 
 > **Psalm 136:3 (KJV):** "O give thanks to the Lord of lords: for his mercy endureth for ever."
 
 > **Revelation 19:16 (KJV):** "And he hath on his vesture and on his thigh a name written, KING OF KINGS, AND LORD OF LORDS."
 
-### 79. Who is our salvation: a triune LORD, or Jesus alone? When Simeon held the baby Jesus he said, "mine eyes have seen thy salvation."
+### 78. Who is our salvation: a triune LORD, or Jesus alone? When Simeon held the baby Jesus he said, "mine eyes have seen thy salvation."
 
 > **Isaiah 12:2 (KJV):** "Behold, God is my salvation; I will trust, and not be afraid: for the LORD JEHOVAH is my strength and my song; he also is become my salvation."
 
@@ -602,25 +596,25 @@ Colossians does not say that Jesus is one third of the Godhead. It says that in 
 
 > **Acts 4:12 (KJV):** "Neither is there salvation in any other: for there is none other name under heaven given among men, whereby we must be saved."
 
-### 80. Who is the Rock: a triune LORD, or Jesus?
+### 79. Who is the Rock: a triune LORD, or Jesus?
 
 > **Psalm 18:2 (KJV):** "The LORD is my rock, and my fortress, and my deliverer; my God, my strength, in whom I will trust; my buckler, and the horn of my salvation, and my high tower."
 
 > **1 Corinthians 10:4 (KJV):** "And did all drink the same spiritual drink: for they drank of that spiritual Rock that followed them: and that Rock was Christ."
 
-### 81. Who is the "I AM": a triune LORD, or Jesus?
+### 80. Who is the "I AM": a triune LORD, or Jesus?
 
 > **Exodus 3:14 (KJV):** "And God said unto Moses, I AM THAT I AM: and he said, Thus shalt thou say unto the children of Israel, I AM hath sent me unto you."
 
 > **John 8:58 (KJV):** "Jesus said unto them, Verily, verily, I say unto you, Before Abraham was, I am."
 
-### 82. Who is the Almighty: a triune LORD, or Jesus?
+### 81. Who is the Almighty: a triune LORD, or Jesus?
 
 > **Genesis 17:1 (KJV):** "And when Abram was ninety years old and nine, the LORD appeared to Abram, and said unto him, I am the Almighty God; walk before me, and be thou perfect."
 
 > **Revelation 1:8 (KJV):** "I am Alpha and Omega, the beginning and the ending, saith the Lord, which is, and which was, and which is to come, the Almighty."
 
-### 83. Who brought Israel out of Egypt: a triune LORD, or Jesus?
+### 82. Who brought Israel out of Egypt: a triune LORD, or Jesus?
 
 In the critical Greek text, Jude 5 says that **Jesus** delivered His people out of Egypt (so the BSB, ESV, NET and NLT), and Paul says Israel tempted **Christ** in the wilderness.
 
@@ -630,7 +624,7 @@ In the critical Greek text, Jude 5 says that **Jesus** delivered His people out 
 
 > **1 Corinthians 10:9 (KJV):** "Neither let us tempt Christ, as some of them also tempted, and were destroyed of serpents."
 
-### 84. To whom will every knee bow: a triune LORD, or Jesus?
+### 83. To whom will every knee bow: a triune LORD, or Jesus?
 
 > **Isaiah 45:23 (KJV):** "I have sworn by myself, the word is gone out of my mouth in righteousness, and shall not return, That unto me every knee shall bow, every tongue shall swear."
 
@@ -638,7 +632,7 @@ In the critical Greek text, Jude 5 says that **Jesus** delivered His people out 
 
 > **Philippians 2:10 (KJV):** "That at the name of Jesus every knee should bow, of things in heaven, and things in earth, and things under the earth;"
 
-### 85. Who is the Shepherd: a triune LORD, or Jesus?
+### 84. Who is the Shepherd: a triune LORD, or Jesus?
 
 > **Psalm 23:1 (KJV):** "The LORD is my shepherd; I shall not want."
 
@@ -646,7 +640,7 @@ In the critical Greek text, Jude 5 says that **Jesus** delivered His people out 
 
 # 8. Who does it?
 
-### 86. Who intercedes for us: Jesus, or the Holy Spirit? If there is "one mediator," how are there two intercessors?
+### 85. Who intercedes for us: Jesus, or the Holy Spirit? If there is "one mediator," how are there two intercessors?
 
 > **Hebrews 7:25 (KJV):** "Wherefore he is able also to save them to the uttermost that come unto God by him, seeing he ever liveth to make intercession for them."
 
@@ -654,7 +648,7 @@ In the critical Greek text, Jude 5 says that **Jesus** delivered His people out 
 
 > **1 Timothy 2:5 (KJV):** "For there is one God, and one mediator between God and men, the man Christ Jesus;"
 
-### 87. Who sanctifies us: Jesus, the Holy Spirit, or the Father?
+### 86. Who sanctifies us: Jesus, the Holy Spirit, or the Father?
 
 > **Ephesians 5:25-26 (KJV):** "Husbands, love your wives, even as Christ also loved the church, and gave himself for it; That he might sanctify and cleanse it with the washing of water by the word,"
 
@@ -662,25 +656,25 @@ In the critical Greek text, Jude 5 says that **Jesus** delivered His people out 
 
 > **Jude 1:1 (KJV):** "Jude, the servant of Jesus Christ, and brother of James, to them that are sanctified by God the Father, and preserved in Jesus Christ, and called:"
 
-### 88. Who answers prayer: the Father, or Jesus?
+### 87. Who answers prayer: the Father, or Jesus?
 
 > **John 16:23 (KJV):** "And in that day ye shall ask me nothing. Verily, verily, I say unto you, Whatsoever ye shall ask the Father in my name, he will give it you."
 
 > **John 14:14 (MSB):** "If you ask Me for anything in My name, I will do it."
 
-### 89. Who draws people to God: the Father, or Jesus?
+### 88. Who draws people to God: the Father, or Jesus?
 
 > **John 6:44 (KJV):** "No man can come to me, except the Father which hath sent me draw him: and I will raise him up at the last day."
 
 > **John 12:32 (KJV):** "And I, if I be lifted up from the earth, will draw all men unto me."
 
-### 90. Who will raise the believers from the dead: God, who raised up the Lord, or Jesus?
+### 89. Who will raise the believers from the dead: God, who raised up the Lord, or Jesus?
 
 > **1 Corinthians 6:14 (KJV):** "And God hath both raised up the Lord, and will also raise up us by his own power."
 
 > **John 6:40 (KJV):** "And this is the will of him that sent me, that every one which seeth the Son, and believeth on him, may have everlasting life: and I will raise him up at the last day."
 
-### 91. Who raised Jesus from the dead: the Father, Jesus Himself, or the Spirit?
+### 90. Who raised Jesus from the dead: the Father, Jesus Himself, or the Spirit?
 
 > **Galatians 1:1 (KJV):** "Paul, an apostle, (not of men, neither by man, but by Jesus Christ, and God the Father, who raised him from the dead;)"
 
@@ -690,7 +684,7 @@ In the critical Greek text, Jude 5 says that **Jesus** delivered His people out 
 
 > **1 Corinthians 15:15 (KJV):** "Yea, and we are found false witnesses of God; because we have testified of God that he raised up Christ: whom he raised not up, if so be that the dead rise not."
 
-### 92. Whom do we worship, and to whom do we pray?
+### 91. Whom do we worship, and to whom do we pray?
 
 Jesus said to worship the Father and to pray "Our Father." Yet Stephen called on Jesus, and Jesus received worship. No one in the Bible ever prays to the Holy Spirit or worships Him as a separate person. Why not, if He is co-equal?
 
@@ -708,7 +702,7 @@ Jesus said to worship the Father and to pray "Our Father." Yet Stephen called on
 
 > **John 9:38 (KJV):** "And he said, Lord, I believe. And he worshipped him."
 
-### 93. Who made the new covenant, and who died to put it in force?
+### 92. Who made the new covenant, and who died to put it in force?
 
 The LORD made the new covenant. Hebrews says a testament has no force "while the testator liveth" — the testator must die. If the LORD is a Trinity, did all three persons die? If only the Son died, how did the LORD who made the covenant die?
 
@@ -722,7 +716,7 @@ The LORD made the new covenant. Hebrews says a testament has no force "while the
 
 # 9. The begotten Son
 
-### 94. If "God the Son" is eternal, when was He begotten?
+### 93. If "God the Son" is eternal, when was He begotten?
 
 Hebrews and Acts say, "**this day** have I begotten thee," and Acts applies it to God raising up Jesus. The angel told Mary that the child would be called the Son of God **because** the Holy Ghost would overshadow her. Paul says God sent His Son "made of a woman." When is that "today"? It does not sound like eternity.
 
@@ -738,7 +732,7 @@ Hebrews and Acts say, "**this day** have I begotten thee," and Acts applies it t
 
 > **John 3:16 (KJV):** "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life."
 
-### 95. Where does the Bible say "God the Son," "God the Holy Spirit," "eternal Son," "three persons," or "Trinity"?
+### 94. Where does the Bible say "God the Son," "God the Holy Spirit," "eternal Son," "three persons," or "Trinity"?
 
 The Bible says "the Son of God," again and again. It never once says "God the Son." If the doctrine is essential to salvation, why are its basic terms missing from Scripture?
 

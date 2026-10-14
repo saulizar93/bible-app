@@ -622,3 +622,12 @@
 
 - translations.en.md / .es.md: the short TR/MT/CT list became a section: ~5,800 Greek manuscripts; the Byzantine ("Antiochian") tradition behind TR and MT (usually estimated at 80 to over 90% of manuscripts); the Alexandrian tradition behind the CT (Vaticanus and Sinaiticus, Egyptian papyri); both sides' arguments (older vs. majority/used copies); TR ≈ MT (Hodges–Farstad differs in ~1,800 mostly small places) with the TR following the Latin in Acts 9:6, 1 John 5:7-8, Rev 22:16-21 ("book" vs "tree" of life) and Acts 8:37. Inline Spanish quotations from the RVG.
 - Not as requested: "0.5%" and "over 99%" were changed — the two codices are ~0.03% of manuscripts, Alexandrian-type manuscripts a small minority, and the Byzantine share is usually estimated at 80 to over 90%, not 99%.
+
+## 2026-10-14 — Questions for Trinitarians: question 48 removed
+
+- trinitarian-questions.en.md / .es.md (hand-edited by the author): removed question 48 ("Why did God send 'the Spirit of his Son'…" / «¿Por qué Dios envió "el Espíritu de su Hijo"…») and renumbered 49–95 as 48–94 (94 questions, checked sequential in both files).
+- These .md files are now edited by hand and differ from tmp-check/qgen/questions.txt; do not rerun build_questions.py, or it will overwrite them.
+
+## 2026-10-14 — Bibliography entries numbered
+
+- bibliography.en.md / .es.md: every entry (not the five tier-legend lines) changed from "- {tier} …" to "N. {tier} …", numbered continuously across all sections 1–213 (same count in both languages); the intro says "213 entries in total". Rendered as numbered lists by the ordered-list support in InfoPanel (tier badges and colors unchanged; each section's list starts at its first number).
