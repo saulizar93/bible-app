@@ -639,3 +639,7 @@
 ## 2026-10-14 — Settings: space between "Clear saved data" confirmation and "Download App"
 
 - SettingsModal.css `.settings-download`: margin-top 14px -> 20px, plus padding-top 16px and a divider line (border-top var(--line)), so the "Yes, clear and reload" / Cancel buttons no longer sit right above the Download App button.
+
+## 2026-10-14 — Problems with Catholicism: petros in the LXX, Peter as skandalon
+
+- problems-with-catholicism.en/.es (.md and tmp-check/qgen .tpl), section 1: added the Septuagint use of _petros_ for stones thrown by hand (2 Maccabees 1:16; 4:41), and expanded the Matt 16:23 point: Peter is called a _skandalon_ ("thou art an offence unto me" / «me eres tropiezo»), a stumbling stone in Christ's way, so he cannot be the foundation rock reserved for Christ.
