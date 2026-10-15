@@ -68,11 +68,46 @@ Heber C. Kimball and Orson Pratt taught the same. The Church today does not offi
 
 In Latter-day Saint teaching, every person lived before birth as a spirit child of Heavenly Father and a Heavenly Mother. Jesus was the firstborn of these spirit children, and **Lucifer was another**; in the pre-mortal council, the two presented competing plans, and Lucifer rebelled when the Father chose Jesus' (Moses 4:1-4; Abraham 3:27-28). So Jesus, Lucifer and every human being are spirit siblings.
 
-The Bible says Jesus is not one of the created beings but their Creator — including every angel, "thrones, or dominions, or principalities, or powers."
+Biblical Jesus is a lot more than that. In the man born of Mary, conceived by the Holy Spirit (Matthew 1:20) dwells the same God of the Old Testament in the flesh (Colossians 2:9-10).
 
-> **John 1:3:** "All things were made by him; and without him was not any thing made that was made."
+> **Colossians 2:9:** "For in him dwelleth all the fulness of the Godhead bodily."
 
-> **Colossians 1:16-17:** "For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him: And he is before all things, and by him all things consist."
+Isaiah speaks of preparing the way of YHWH, Israel's God. Matthew applies this prophecy to John the Baptist's preparation for Jesus' ministry.
+
+> **Isaiah 40:3:** "The voice of him that crieth in the wilderness, Prepare ye the way of the LORD(YHWH), make straight in the desert a highway for our God."
+
+> **Matthew 3:3:** "For this is he that was spoken of by the prophet Esaias, saying, The voice of one crying in the wilderness, Prepare ye the way of the Lord, make his paths straight."
+
+Both Jesus and YHWH are called the First and the Last:
+
+> **Isaiah 48:12:** "the first, and .. the last"
+> **Revelation 1:17-18:** "Fear not; I am the first and the last: I am he that liveth, and was dead; and, behold, I am alive for evermore, Amen; and have the keys of hell and of death."
+
+Jesus is the same I AM:
+
+> **John 8:58:** “Jesus said unto them, Verily, verily, I say unto you, Before Abraham was, I AM."
+> **Exodus 3:14:** "I AM THAT I AM."
+
+He is one with the Father:
+
+> **John 10:30:** "I and my Father are one."
+
+> **John 14:9:** "He that hath seen me hath seen the Father."
+
+In the Hebrew text of Zechariah, YHWH is the speaker, and the pierced one is described in the first person. John applies the prophecy to Jesus' crucifixion:
+
+> **Zechariah 12:10:** "And they shall look upon me whom they have pierced, and they shall mourn for him, as one mourneth for his only son."
+> **John 19:37:** "And again another scripture saith, They shall look on him whom they pierced."
+
+Jesus is the one on the throne:
+
+> **Isaiah 6:1:** "I saw also the Lord sitting upon a throne, high and lifted up, and his train filled the temple."
+> **John 12:41:** "These things said Esaias, when he saw his glory, and spake of him." -
+
+Everyone will kneel at YHWH-savior (aka "Jesus"):
+
+> **Isaiah 45:23:** "That unto me every knee shall bow, every tongue shall swear."
+> **Philippians 2:10-11:** "That at the name of Jesus every knee should bow, of things in heaven, and things in earth, and things under the earth; And that every tongue should confess that Jesus Christ is Lord, to the glory of God the Father."
 
 # 3. Joseph Smith: the man and his visions
 

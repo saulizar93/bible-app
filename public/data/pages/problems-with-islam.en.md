@@ -32,13 +32,13 @@ The Bible also says that God's final word was spoken in His Son, and that the fa
 
 The Qur'an tells almost nothing about Muhammad's life. To know what he said and did, Muslims depend on the **hadith** (reports passed down by chains of narrators) and the **sira** (biography). The problem is how late they are.
 
-| Source | Written | Years after Muhammad's death (632) |
-|---|---|---|
-| Ibn Ishaq, _Sirat Rasul Allah_ (earliest biography) | before 767 — survives only in Ibn Hisham's edited version (d. 833) | ~135 (original lost) |
-| Al-Bukhari, _Sahih_ (the most trusted hadith collection) | c. 846 (al-Bukhari died 870) | ~215 |
-| Muslim ibn al-Hajjaj, _Sahih Muslim_ | before 875 | ~230 |
+| Source                                                   | Written                                                            | Years after Muhammad's death (632) |
+| -------------------------------------------------------- | ------------------------------------------------------------------ | ---------------------------------- |
+| Ibn Ishaq, _Sirat Rasul Allah_ (earliest biography)      | before 767 — survives only in Ibn Hisham's edited version (d. 833) | ~135 (original lost)               |
+| Al-Bukhari, _Sahih_ (the most trusted hadith collection) | c. 846 (al-Bukhari died 870)                                       | ~215                               |
+| Muslim ibn al-Hajjaj, _Sahih Muslim_                     | before 875                                                         | ~230                               |
 
-By comparison, the Gospel of Mark was written around 65–70, about 35–40 years after Jesus' death, and Paul's letters in the 50s, some 20–25 years after it — within the lifetime of the eyewitnesses. That is like writing the first history of the American Revolution today from stories passed down by word of mouth.
+By comparison, the Gospel of Mark was written around 65–70, about 35–40 years after Jesus' death, and that's taking the liberal dates from people who do not believe that Jesus predicted the destruction of the Temple in 70 AD. Paul's letters were written since the 50s, some 20–25 years after the events — within the lifetime of the eyewitnesses. He also mentions that he was given a creed in 1 Corinthians 15:3-8 about Jesus' crucifixion and resurrection, this would date the creed even earlier than 50 AD. Could they have written earlier? Sure, but for what purpose? Especially when most people were not able to read and would rather hear the apostles themselves.
 
 Muslim scholars themselves admit the problem. Tradition says al-Bukhari examined about **600,000** reports and accepted only some **7,000** (about 2,600 without repetitions) — that is, the great majority of reports circulating in his day were judged unreliable. Ibn Hisham, who edited Ibn Ishaq, says he left out things "which would distress certain people."
 

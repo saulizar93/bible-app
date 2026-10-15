@@ -104,17 +104,17 @@ En 601 el papa Gregorio Magno instruyó a los misioneros en Inglaterra que no de
 
 # 5. Doctrinas añadidas a lo largo de los siglos
 
-| Doctrina | Primera enseñanza / definición | ¿En la Escritura? |
-|---|---|---|
-| Bautismo de infantes | Mencionado por primera vez por Tertuliano (c. 200), que se oponía; unido al pecado original por Cipriano (253) y Agustín (vea **El bautismo**) | Primero la fe y el arrepentimiento (Hechos 2:38; 8:36-37) |
-| Purgatorio | Gregorio Magno, _Diálogos_ 4.41 (c. 593); definido en Lyon II (1274), Florencia (1439), Trento (1563) | «ausentes del cuerpo, y presentes con el Señor» (2 Cor 5:8) |
-| Indulgencias | La indulgencia de cruzada de Urbano II (1095); el «tesoro de méritos» (Clemente VI, 1343) | Cristo, «habiendo hecho la purificación de nuestros pecados por sí mismo» (Heb 1:3) |
-| Celibato clerical | Exigido en Letrán II (1139), que declaró inválidos los matrimonios de los sacerdotes | El obispo, «marido de una sola esposa» (1 Tim 3:2); «prohibirán casarse» (1 Tim 4:1-3) |
-| Transubstanciación | Definida en Letrán IV (1215) | «Haced esto en memoria de mí» (Lucas 22:19) |
-| Siete sacramentos | Pedro Lombardo (década de 1150), cuando las listas iban de 2 a unos 30; definidos en Florencia (1439) y Trento (1547) | — |
-| Inmaculada Concepción de María | Pío IX (1854) | María necesitaba un Salvador (Lucas 1:47) |
-| Asunción corporal de María | Pío XII (1950) | — |
-| Infalibilidad papal | Vaticano I (1870) | — |
+| Doctrina                       | Primera enseñanza / definición                                                                                                                 | ¿En la Escritura?                                                                      |
+| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| Bautismo de infantes           | Mencionado por primera vez por Tertuliano (c. 200), que se oponía; unido al pecado original por Cipriano (253) y Agustín (vea **El bautismo**) | Primero la fe y el arrepentimiento (Hechos 2:38; 8:36-37)                              |
+| Purgatorio                     | Gregorio Magno, _Diálogos_ 4.41 (c. 593); definido en Lyon II (1274), Florencia (1439), Trento (1563)                                          | «ausentes del cuerpo, y presentes con el Señor» (2 Cor 5:8)                            |
+| Indulgencias                   | La indulgencia de cruzada de Urbano II (1095); el «tesoro de méritos» (Clemente VI, 1343)                                                      | Cristo, «habiendo hecho la purificación de nuestros pecados por sí mismo» (Heb 1:3)    |
+| Celibato clerical              | Exigido en Letrán II (1139), que declaró inválidos los matrimonios de los sacerdotes                                                           | El obispo, «marido de una sola esposa» (1 Tim 3:2); «prohibirán casarse» (1 Tim 4:1-3) |
+| Transubstanciación             | Definida en Letrán IV (1215)                                                                                                                   | «Haced esto en memoria de mí» (Lucas 22:19)                                            |
+| Siete sacramentos              | Pedro Lombardo (década de 1150), cuando las listas iban de 2 a unos 30; definidos en Florencia (1439) y Trento (1547)                          | —                                                                                      |
+| Inmaculada Concepción de María | Pío IX (1854)                                                                                                                                  | María necesitaba un Salvador (Lucas 1:47)                                              |
+| Asunción corporal de María     | Pío XII (1950)                                                                                                                                 | —                                                                                      |
+| Infalibilidad papal            | Vaticano I (1870)                                                                                                                              | —                                                                                      |
 
 El milagro que a menudo se asocia con la Eucaristía es el **milagro de Bolsena** (1263), donde un sacerdote de Praga que dudaba de la presencia real vio sangrar la hostia; llevó al papa Urbano IV a establecer la fiesta de **Corpus Christi** (1264), después de que la transubstanciación ya había sido definida.
 
@@ -140,7 +140,7 @@ El Catecismo enseña que María permaneció virgen «incluso en el parto» (CIC 
 
 Vea también Mateo 12:46-50; Marcos 3:31-35; 6:3; Juan 2:12; 7:3-5; Hechos 1:14; 1 Corintios 9:5. Pablo dice a los casados que no se nieguen el uno al otro (1 Corintios 7:3-5).
 
-Las respuestas a estos versículos vienen del **Protoevangelio de Santiago**, un escrito anónimo de hacia el año 150 que dice ser de Santiago. Inventa el nacimiento de María de Joaquín y Ana, su infancia en el templo, un José viudo y anciano con hijos de un matrimonio anterior (así los «hermanos» de Jesús serían hermanastros), y una partera que examina a María después del parto y la encuentra todavía virgen (capítulos 19–20). Orígenes (_Comentario a Mateo_ 10.17) y Clemente de Alejandría (_Stromata_ 7.16) lo usaron. Pero nunca fue aceptado como Escritura: **Jerónimo** rechazó su teoría de los hermanastros y llamó primos a los hermanos (_Contra Helvidio_, 383), y el _Decreto Gelasiano_ (siglo VI) lo puso entre los apócrifos rechazados. (La historia del niño Jesús que mata a otro niño es de otro libro apócrifo, el _Evangelio de la infancia de Tomás_.) Los nombres de los padres de María, su presentación en el templo y su virginidad de por vida entraron en las fiestas y el arte católicos a partir de este libro.
+Las respuestas a estos versículos vienen del **Protoevangelio de Santiago**, un escrito anónimo de hacia el año 150 que dice ser de Santiago(Jacobo), ya que Santiago era considerado el obispo universal por varios grupos judeocristianos, como los ebionitas. Inventa el nacimiento de María de Joaquín y Ana, su infancia en el templo, un José viudo y anciano con hijos de un matrimonio anterior (así los «hermanos» de Jesús serían hermanastros), y una partera que examina a María después del parto y la encuentra todavía virgen (capítulos 19–20). Orígenes (_Comentario a Mateo_ 10.17) y Clemente de Alejandría (_Stromata_ 7.16) lo usaron. Pero nunca fue aceptado como Escritura: **Jerónimo** rechazó su teoría de los hermanastros y llamó primos a los hermanos (_Contra Helvidio_, 383), y el _Decreto Gelasiano_ (siglo VI) lo puso entre los apócrifos rechazados. Los nombres de los padres de María, su presentación en el templo y su virginidad de por vida entraron en las fiestas y el arte católicos a partir de este libro.
 
 ### ¿Inmaculada?
 
@@ -162,11 +162,12 @@ La Iglesia presenta cada nuevo título mariano como una verdad que siempre estuv
 
 ### Los libros deuterocanónicos
 
-Los católicos dicen que los protestantes quitaron siete libros. La historia muestra que la cuestión estuvo abierta dentro del mismo catolicismo hasta 1546 (vea **Libros deuterocanónicos** y **¿Quién nos dio la Biblia?**).
+Los católicos dicen que los protestantes quitaron siete libros. La historia muestra que no fueron parte del canon hasta 1546 (vea **Libros deuterocanónicos** y **¿Quién nos dio la Biblia?**).
 
 - **La Biblia de Jesús** eran las Escrituras hebreas, que los judíos ordenaban de Génesis a Crónicas. Él habló de la sangre de los profetas «desde la sangre de Abel, hasta la sangre de Zacarías» (Lucas 11:51): el primer y el último mártir en ese orden (Génesis 4; 2 Crónicas 24:20-22).
+- **Pablo** dijo que el Antiguo Testamento fue confiado a los judíos («porque ciertamente a ellos les ha sido confiada la palabra de Dios.», Romanos 3:2), y los judíos los rechazaron.
 - **El mismo 1 Macabeos** dice que en su tiempo no había profeta (4:46; 9:27; 14:41).
-- **Jerónimo**, que tradujo la Vulgata latina, escribió que la Iglesia lee Judit, Tobías y Macabeos «para edificación del pueblo, no para confirmar la autoridad de las doctrinas» (_Prefacio a los libros de Salomón_); notó en la historia de Susana juegos de palabras griegos que muestran que no fue escrita en hebreo. Atanasio, Cirilo de Jerusalén, Rufino y Gregorio Magno también los excluyeron del canon, y el cardenal Cayetano, adversario de Lutero, todavía seguía a Jerónimo en 1532. Agustín y los concilios del norte de África (393–419) los aceptaron.
+- **Jerónimo**, que tradujo la Vulgata latina, escribió que la Iglesia lee Judit, Tobías y Macabeos «para edificación del pueblo, no para confirmar la autoridad de las doctrinas» (_Prefacio a los libros de Salomón_); notó en la historia de Susana juegos de palabras griegos que muestran que no fue escrita en hebreo. Atanasio, Cirilo de Jerusalén, Rufino y Gregorio Magno también los excluyeron del canon, y el cardenal Cayetano, adversario de Lutero, todavía seguía a Jerónimo en 1532. Agustín y los concilios del norte de África (393–419) los aceptaron pero ellos no hablaban hebreo. Los que si hablaban hebreo, como Jerónimo y Origenes, los rechazaron.
 - En la **Disputa de Leipzig** (1519), Juan Eck defendió el purgatorio con 2 Macabeos 12:43-46 (la oración por los muertos); Lutero respondió que el libro no era canónico. En 1546 el **Concilio de Trento** declaró canónicos estos libros bajo anatema: la primera vez que un concilio de toda la Iglesia de Occidente lo hizo obligatorio.
 
 ### La Biblia lejos del pueblo

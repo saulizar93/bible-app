@@ -104,17 +104,17 @@ In 601 Pope Gregory the Great instructed missionaries in England not to destroy 
 
 # 5. Doctrines added through the centuries
 
-| Doctrine | First taught / defined | In Scripture? |
-|---|---|---|
-| Infant baptism | First mentioned by Tertullian (c. 200), who opposed it; linked to original sin by Cyprian (253) and Augustine (see **Baptism**) | Faith and repentance come first (Acts 2:38; 8:36-37) |
-| Purgatory | Gregory the Great, _Dialogues_ 4.41 (c. 593); defined at Lyon II (1274), Florence (1439), Trent (1563) | "To be absent from the body… present with the Lord" (2 Cor 5:8) |
-| Indulgences | Urban II's crusade indulgence (1095); "treasury of merit" (Clement VI, 1343) | Christ "by himself purged our sins" (Heb 1:3) |
-| Clerical celibacy | Required at Lateran II (1139), which declared priests' marriages invalid | A bishop "the husband of one wife" (1 Tim 3:2); "forbidding to marry" (1 Tim 4:1-3) |
-| Transubstantiation | Defined at Lateran IV (1215) | "This do in remembrance of me" (Luke 22:19) |
-| Seven sacraments | Peter Lombard (1150s), when lists ran from 2 to about 30; defined at Florence (1439) and Trent (1547) | — |
-| Mary's Immaculate Conception | Pius IX (1854) | Mary needed a Savior (Luke 1:47) |
-| Mary's bodily Assumption | Pius XII (1950) | — |
-| Papal infallibility | Vatican I (1870) | — |
+| Doctrine                     | First taught / defined                                                                                                          | In Scripture?                                                                       |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| Infant baptism               | First mentioned by Tertullian (c. 200), who opposed it; linked to original sin by Cyprian (253) and Augustine (see **Baptism**) | Faith and repentance come first (Acts 2:38; 8:36-37)                                |
+| Purgatory                    | Gregory the Great, _Dialogues_ 4.41 (c. 593); defined at Lyon II (1274), Florence (1439), Trent (1563)                          | "To be absent from the body… present with the Lord" (2 Cor 5:8)                     |
+| Indulgences                  | Urban II's crusade indulgence (1095); "treasury of merit" (Clement VI, 1343)                                                    | Christ "by himself purged our sins" (Heb 1:3)                                       |
+| Clerical celibacy            | Required at Lateran II (1139), which declared priests' marriages invalid                                                        | A bishop "the husband of one wife" (1 Tim 3:2); "forbidding to marry" (1 Tim 4:1-3) |
+| Transubstantiation           | Defined at Lateran IV (1215)                                                                                                    | "This do in remembrance of me" (Luke 22:19)                                         |
+| Seven sacraments             | Peter Lombard (1150s), when lists ran from 2 to about 30; defined at Florence (1439) and Trent (1547)                           | —                                                                                   |
+| Mary's Immaculate Conception | Pius IX (1854)                                                                                                                  | Mary needed a Savior (Luke 1:47)                                                    |
+| Mary's bodily Assumption     | Pius XII (1950)                                                                                                                 | —                                                                                   |
+| Papal infallibility          | Vatican I (1870)                                                                                                                | —                                                                                   |
 
 The miracle often tied to the Eucharist is the **miracle of Bolsena** (1263), where a priest from Prague who doubted the real presence saw the host bleed; it led Pope Urban IV to establish the feast of **Corpus Christi** (1264) — after transubstantiation had already been defined.
 
@@ -140,7 +140,7 @@ The Catechism teaches that Mary remained a virgin "even in the act of giving bir
 
 See also Matthew 12:46-50; Mark 3:31-35; 6:3; John 2:12; 7:3-5; Acts 1:14; 1 Corinthians 9:5. Paul tells married couples not to deprive one another (1 Corinthians 7:3-5).
 
-The answers to these verses come from the **Protoevangelium of James**, an anonymous writing of about 150 that claims to be by James. It invents Mary's birth to Joachim and Anna, her childhood in the temple, an elderly widower Joseph with sons from a previous marriage (so Jesus' "brothers" are step-brothers), and a midwife who examines Mary after the birth and finds her still a virgin (chapters 19–20). Origen (_Commentary on Matthew_ 10.17) and Clement of Alexandria (_Stromata_ 7.16) used it. But it was never accepted as Scripture: **Jerome** rejected its step-brother theory and called the brothers cousins (_Against Helvidius_, 383), and the _Gelasian Decree_ (6th century) listed it among the rejected apocrypha. (The story of the boy Jesus striking a child dead is from a different apocryphal book, the _Infancy Gospel of Thomas_.) Mary's parents' names, her presentation in the temple and her lifelong virginity all entered Catholic feasts and art from this book.
+The answers to these verses come from the **Protoevangelium of James**, an anonymous writing of about 150 that claims to be by James, since James used to be treated as the universal bishop by early Jewish Christian groups, such as the ebionites. It invents Mary's birth to Joachim and Anna, her childhood in the temple, an elderly widower Joseph with sons from a previous marriage (so Jesus' "brothers" are step-brothers), and a midwife who examines Mary after the birth and finds her still a virgin (chapters 19–20). Origen (_Commentary on Matthew_ 10.17) and Clement of Alexandria (_Stromata_ 7.16) used it. But it was never accepted as Scripture: **Jerome** rejected its step-brother theory and called the brothers cousins (_Against Helvidius_, 383), and the _Gelasian Decree_ (6th century) listed it among the rejected apocrypha. Mary's parents' names, her presentation in the temple and her lifelong virginity all entered Catholic feasts and art from this book.
 
 ### Immaculate?
 
@@ -162,11 +162,12 @@ The Church presents each new Marian title as a truth that was always there and o
 
 ### The deuterocanonical books
 
-Catholics say Protestants removed seven books. History shows the question was open within Catholicism itself until 1546 (see **Deuterocanonical Books** and **Who gave us the Bible?**).
+Catholics say Protestants removed seven books. History shows they were not canon until 1546 (see **Deuterocanonical Books** and **Who gave us the Bible?**).
 
 - **Jesus' Bible** was the Hebrew Scriptures, which the Jews arranged from Genesis to Chronicles. He spoke of the blood of the prophets "from the blood of Abel unto the blood of Zacharias" (Luke 11:51) — the first and last martyrs in that order (Genesis 4; 2 Chronicles 24:20-22).
+- **Paul** said the Old Testament was entrusted to the Jews ("unto them were committed the oracles of God", Romans 3:2), and the Jews rejected them.
 - **1 Maccabees itself** says there was no prophet in its day (4:46; 9:27; 14:41).
-- **Jerome**, who translated the Latin Vulgate, wrote that the Church reads Judith, Tobit and Maccabees "for the edification of the people, not to confirm the authority of doctrines" (_Preface to the Books of Solomon_); he noted Greek puns in the story of Susanna that show it was not written in Hebrew. Athanasius, Cyril of Jerusalem, Rufinus and Gregory the Great also excluded them from the canon, and Cardinal Cajetan, Luther's opponent, still followed Jerome in 1532. Augustine and the North African councils (393–419) accepted them.
+- **Jerome**, who translated the Latin Vulgate, wrote that the Church reads Judith, Tobit and Maccabees "for the edification of the people, not to confirm the authority of doctrines" (_Preface to the Books of Solomon_); he noted Greek puns in the story of Susanna that show it was not written in Hebrew. Athanasius, Cyril of Jerusalem, Rufinus and Gregory the Great also excluded them from the canon, and Cardinal Cajetan, Luther's opponent, still followed Jerome in 1532. Augustine and the North African councils (393–419) accepted them, although they did not speak Hebrew. The ones that knew Hebrew, like Jerome and Origen, rejected them.
 - At the **Leipzig Disputation** (1519), Johann Eck defended purgatory with 2 Maccabees 12:43-46 (prayer for the dead); Luther answered that the book was not canonical. In 1546 the **Council of Trent** declared these books canonical under anathema — the first time a council of the whole Western Church made it binding.
 
 ### Keeping the Bible from the people

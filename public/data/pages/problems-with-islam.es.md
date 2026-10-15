@@ -32,13 +32,13 @@ La Biblia dice además que la palabra final de Dios fue hablada en su Hijo, y qu
 
 El Corán no cuenta casi nada de la vida de Mahoma. Para saber lo que dijo e hizo, los musulmanes dependen de los **hadices** (relatos transmitidos por cadenas de narradores) y de la **sira** (biografía). El problema es lo tardías que son.
 
-| Fuente | Escrita | Años después de la muerte de Mahoma (632) |
-|---|---|---|
-| Ibn Ishaq, _Sirat Rasul Allah_ (la biografía más antigua) | antes de 767; solo sobrevive en la versión editada de Ibn Hisham (m. 833) | ~135 (el original se perdió) |
-| Al-Bujari, _Sahih_ (la colección de hadices de más confianza) | c. 846 (al-Bujari murió en 870) | ~215 |
-| Muslim ibn al-Hayyay, _Sahih Muslim_ | antes de 875 | ~230 |
+| Fuente                                                        | Escrita                                                                   | Años después de la muerte de Mahoma (632) |
+| ------------------------------------------------------------- | ------------------------------------------------------------------------- | ----------------------------------------- |
+| Ibn Ishaq, _Sirat Rasul Allah_ (la biografía más antigua)     | antes de 767; solo sobrevive en la versión editada de Ibn Hisham (m. 833) | ~135 (el original se perdió)              |
+| Al-Bujari, _Sahih_ (la colección de hadices de más confianza) | c. 846 (al-Bujari murió en 870)                                           | ~215                                      |
+| Muslim ibn al-Hayyay, _Sahih Muslim_                          | antes de 875                                                              | ~230                                      |
 
-En comparación, el Evangelio de Marcos se escribió hacia el 65–70, unos 35–40 años después de la muerte de Jesús, y las cartas de Pablo en los años 50, unos 20–25 años después, en vida de los testigos oculares. Es como si hoy escribiéramos la primera historia de la independencia de los Estados Unidos a partir de relatos transmitidos de boca en boca.
+En comparación, el Evangelio de Marcos fue escrito alrededor de los años 65–70, unos 35–40 años después de la muerte de Jesús; esto, considerando las dataciones más tardías propuestas por quienes no creen que Jesús predijera la destrucción del Templo en el año 70 d. C. Las cartas de Pablo fueron escritas a partir de la década de 1950, unos 20–25 años después de los acontecimientos, es decir, durante la vida de los testigos presenciales. Además, Pablo menciona que recibió un credo —recogido en 1 Corintios 15:3-8— sobre la crucifixión y la resurrección de Jesús, lo que situaría el origen de dicho credo incluso antes del año 50 d. C. ¿Podrían haber escrito antes? Sin duda, pero ¿con qué fin? Especialmente si tenemos en cuenta que la mayoría de la gente no sabía leer y prefería escuchar directamente a los apóstoles.
 
 Los mismos eruditos musulmanes reconocen el problema. La tradición dice que al-Bujari examinó unos **600.000** relatos y aceptó solo unos **7.000** (unos 2.600 sin repeticiones); es decir, la gran mayoría de los relatos que circulaban en su época fueron juzgados poco confiables. Ibn Hisham, que editó a Ibn Ishaq, dice que omitió cosas «que afligirían a ciertas personas».
 

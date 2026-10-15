@@ -68,11 +68,46 @@ Heber C. Kimball y Orson Pratt enseñaron lo mismo. La Iglesia hoy no explica of
 
 Según la enseñanza de los Santos de los Últimos Días, toda persona vivió antes de nacer como hijo espiritual de un Padre Celestial y una Madre Celestial. Jesús fue el primogénito de esos hijos espirituales, y **Lucifer fue otro**; en el concilio premortal, los dos presentaron planes en competencia, y Lucifer se rebeló cuando el Padre escogió el de Jesús (Moisés 4:1-4; Abraham 3:27-28). Así que Jesús, Lucifer y todo ser humano son hermanos espirituales.
 
-La Biblia dice que Jesús no es uno de los seres creados sino su Creador, incluido todo ángel, «sean tronos, sean dominios, sean principados, sean potestades».
+El Jesús bíblico es mucho más que eso. En el hombre nacido de María, concebido por el Espíritu Santo (Mateo 1:20), habita en carne propia el mismo Dios del Antiguo Testamento (Colosenses 2:9-10).
 
-> **Juan 1:3:** «Todas las cosas por Él fueron hechas, y sin Él nada de lo que ha sido hecho, fue hecho.»
+> **Colosenses 2:9:** «Porque en él habita corporalmente toda la plenitud de la Deidad».
 
-> **Colosenses 1:16-17:** «Porque por Él fueron creadas todas las cosas, las que hay en el cielo y las que hay en la tierra, visibles e invisibles, sean tronos, sean dominios, sean principados, sean potestades; todo fue creado por Él y para Él. Y Él es antes de todas las cosas, y todas las cosas por Él subsisten;»
+Isaías habla de preparar el camino de YHWH, el Dios de Israel. Mateo aplica esta profecía a la labor de Juan el Bautista preparando el camino para el ministerio de Jesús.
+
+> **Isaías 40:3:** «Voz del que clama en el desierto: Preparad el camino de Jehová; enderezad calzada en la soledad a nuestro Dios.».
+
+> **Mateo 3:3:** «Porque éste es aquél de quien habló el profeta Isaías, diciendo: Voz del que clama en el desierto: Preparad el camino del Señor: Enderezad sus sendas.».
+
+Tanto a Jesús como a YHWH se les llama «el primero y el último»:
+
+> **Isaías 48:12:** «Yo mismo, yo el primero, yo también el postrero.».
+> **Apocalipsis 1:17-18:** «No temas; yo soy el primero y el último; y el que vivo, y estuve muerto; y he aquí que vivo para siempre, amén. Y tengo las llaves de la muerte y del infierno.».
+
+Jesús es el mismo «YO SOY»:
+
+> **Juan 8:58:** «De cierto, de cierto os digo: Antes que Abraham fuese, YO SOY».
+> **Éxodo 3:14:** «YO SOY EL QUE SOY. Y dijo: Así dirás a los hijos de Israel: YO SOY me ha enviado a vosotros.».
+
+Él es uno con el Padre:
+
+> **Juan 10:30:** «Yo y mi Padre uno somos».
+
+> **Juan 14:9:** «El que me ha visto a mí, ha visto al Padre; ¿cómo, pues, dices tú: Muéstranos al Padre?».
+
+En el texto hebreo de Zacarías, YHWH es quien habla, y aquel a quien traspasaron se describe en primera persona. Juan aplica la profecía a la crucifixión de Jesús:
+
+> **Zacarías 12:10:** «Y derramaré sobre la casa de David, y sobre los moradores de Jerusalén, el espíritu de gracia y de oración; y mirarán a mí, a quien traspasaron, y harán llanto sobre Él, como llanto sobre unigénito, afligiéndose sobre Él como quien se aflige sobre primogénito.».
+> **Juan 19:37:** «Y también otra Escritura dice: Mirarán a Aquél a quien traspasaron."».
+
+Jesús es quien está en el trono:
+
+> **Isaías 6:1:** «En el año que murió el rey Uzías vi yo al Señor sentado sobre un trono alto y sublime, y el borde de su vestidura llenaba el templo.».
+> **Juan 12:41:** «Estas cosas dijo Isaías cuando vio su gloria, y habló acerca de Él.».
+
+Todos se arrodillarán ante YHWH-Salvador (es decir, «Jesús»):
+
+> **Isaías 45:23:** «Que a mí se doblará toda rodilla, y jurará toda lengua.».
+> **Filipenses 2:10:** «para que al nombre de Jesús, se doble toda rodilla; de los que están en el cielo, y en la tierra, y debajo de la tierra,».
 
 # 3. José Smith: el hombre y sus visiones
 
