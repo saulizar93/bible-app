@@ -18,6 +18,27 @@ The Critical Text leans most heavily on two 4th-century codices, **Codex Vatican
 
 Defenders of the CT answer that **older is better**: Vaticanus and Sinaiticus are centuries older than most Byzantine copies, and the earliest papyri tend to agree with them. Defenders of the TR and MT answer that the Byzantine copies are late **because they were used** — worn-out manuscripts were replaced by fresh copies — while the Alexandrian codices survived because they were not in use and because Egypt's dry climate preserves papyrus and parchment; and that a reading attested across the whole Greek-speaking world over many centuries is more likely to be original than one found in a few manuscripts from one region.
 
+### How much do they really differ?
+
+Very little, in most places. The great majority of differences between the CT and the TR are small: spelling, word order, or a word that is clear from the context anyway. For example, in Matthew 1:6 the TR says "**David the king** begat Solomon," the CT simply "**David** begat Solomon"; in Matthew 4:18 the TR says "And **Jesus**, walking by the sea of Galilee," the CT "And walking by the sea…" — and modern translations of the CT add "Jesus" back for clarity, because the context makes it obvious. Differences like these change nothing.
+
+The same gospel can be learned from any of these texts: one God who came in the flesh, the virgin birth, the cross, the resurrection, repentance, baptism in Jesus' name and the gift of the Holy Ghost are all there in every one of them. Still, where they differ, the readings found across the whole Greek-speaking church deserve more trust than those of a small group of manuscripts from one region.
+
+### John 1:18: the one CT reading I reject
+
+There is one Critical Text reading that I do reject, because it could change doctrine: **John 1:18**. The TR and the Majority Text read "the only begotten **Son**" (_ho monogenēs huios_); the CT reads "the only begotten **God**" (_monogenēs theos_), following Papyri 66 and 75 and the codices Sinaiticus and Vaticanus. The BSB, following the CT, adds "who is Himself God"; the MSB, following the Majority Text, does not. You can compare them side by side in this app.
+
+> **John 1:18 (KJV):** "No man hath seen God at any time; the only begotten Son, which is in the bosom of the Father, he hath declared him."
+
+God is not begotten. The eternal God has no beginning and was not born; what was begotten is the Son, conceived in Mary by the Holy Ghost. And a God cannot "declare" (explain, make known) the invisible God to us — it is the man Christ Jesus, the one mediator between God and men (1 Timothy 2:5), in whom the invisible God is seen and known. The TR and MT reading agrees with the rest of Scripture:
+
+- "For God so loved the world, that he gave his **only begotten Son**… because he hath not believed in the name of the **only begotten Son** of God" (John 3:16, 18; also 1 John 4:9).
+- "That which is **conceived** in her is of the Holy Ghost" (Matthew 1:20) — the Greek word (_gennēthen_) means "begotten": the Son was begotten in time, in the womb of Mary.
+- "Thou art my Son, **this day have I begotten thee**" (Hebrews 1:5) — the Son has a day on which He was begotten; God has none.
+- "The **Son of God** is come, and hath given us an understanding, that we may know him that is true" (1 John 5:20) — the Son, come in the flesh, makes the true God known.
+
+And the overwhelming majority of Greek manuscripts read "only begotten **Son**." The reading "only begotten God" comes from the same small Alexandrian group from Egypt, and I do not trust that group on this point: Alexandria was the home of very influential teachers such as **Origen** (c. 185–254), who taught that the Son is a "second God" (_Against Celsus_ 5.39), subordinate to the Father, and of **Arius**, a presbyter of Alexandria, who called the Son a begotten god created by the Father. "Only begotten God" fits their theology of a second, lesser divine being; "only begotten Son" fits the Bible's one God manifested in the flesh.
+
 ### TR and MT: almost the same text
 
 The TR and the MT agree in the overwhelming majority of their wording; the Hodges–Farstad Majority Text differs from the TR in about 1,800 places, most of them small (spelling, word order, a single word). The best-known differences are places where Erasmus, who had only a few late Greek manuscripts, followed the **Latin Vulgate** against most Greek manuscripts:

@@ -18,6 +18,27 @@ El Texto Crítico se apoya sobre todo en dos códices del siglo IV, el **Códice
 
 Los defensores del CT responden que **lo más antiguo es mejor**: el Vaticano y el Sinaítico son siglos más antiguos que la mayoría de las copias bizantinas, y los papiros más antiguos tienden a coincidir con ellos. Los defensores del TR y del MT responden que las copias bizantinas son tardías **porque se usaban**: los manuscritos gastados se reemplazaban por copias nuevas; mientras que los códices alejandrinos sobrevivieron porque no estaban en uso y porque el clima seco de Egipto conserva el papiro y el pergamino; y que una lectura atestiguada en todo el mundo de habla griega durante muchos siglos tiene más probabilidad de ser la original que una que se encuentra en unos pocos manuscritos de una sola región.
 
+### ¿Cuánto difieren en realidad?
+
+Muy poco, en la mayoría de los lugares. La gran mayoría de las diferencias entre el CT y el TR son pequeñas: ortografía, orden de palabras, o una palabra que de todos modos es clara por el contexto. Por ejemplo, en Mateo 1:6 el TR dice «el **rey David** engendró a Salomón», y el CT simplemente «**David** engendró a Salomón»; en Mateo 4:18 el TR dice «Y andando **Jesús** junto al mar de Galilea», y el CT «Y andando junto al mar…», y las traducciones modernas del CT vuelven a añadir «Jesús» para mayor claridad, porque el contexto lo hace evidente. Diferencias como estas no cambian nada.
+
+El mismo evangelio se puede aprender de cualquiera de estos textos: un solo Dios que vino en carne, el nacimiento virginal, la cruz, la resurrección, el arrepentimiento, el bautismo en el nombre de Jesús y el don del Espíritu Santo están en todos ellos. Aun así, donde difieren, las lecturas que se encuentran en toda la iglesia de habla griega merecen más confianza que las de un pequeño grupo de manuscritos de una sola región.
+
+### Juan 1:18: la única lectura del CT que rechazo
+
+Hay una lectura del Texto Crítico que sí rechazo, porque pudiera cambiar la doctrina: **Juan 1:18**. El TR y el Texto Mayoritario dicen «el unigénito **Hijo**» (_ho monogenēs huios_); el CT dice «el unigénito **Dios**» (_monogenēs theos_), siguiendo los papiros 66 y 75 y los códices Sinaítico y Vaticano. La BSB, que sigue el CT, añade «que es Él mismo Dios»; la MSB, que sigue el Texto Mayoritario, no lo hace. Puede compararlas lado a lado en esta aplicación.
+
+> **Juan 1:18 (RVG):** «A Dios nadie le vio jamás; el unigénito Hijo, que está en el seno del Padre, Él le ha dado a conocer.»
+
+Dios no es engendrado. El Dios eterno no tiene principio ni nació; lo que fue engendrado es el Hijo, concebido en María por el Espíritu Santo. Y un Dios no puede «dar a conocer» (explicar, revelar) al Dios invisible; es el hombre Cristo Jesús, el único mediador entre Dios y los hombres (1 Timoteo 2:5), en quien el Dios invisible es visto y conocido. La lectura del TR y del MT concuerda con el resto de la Escritura:
+
+- «Porque de tal manera amó Dios al mundo, que ha dado a su **Hijo unigénito**… porque no ha creído en el nombre del **unigénito Hijo** de Dios» (Juan 3:16, 18; también 1 Juan 4:9).
+- «Lo que en ella es **engendrado**, del Espíritu Santo es» (Mateo 1:20): el Hijo fue engendrado en el tiempo, en el vientre de María.
+- «Mi Hijo eres tú, **yo te he engendrado hoy**» (Hebreos 1:5): el Hijo tiene un día en que fue engendrado; Dios no lo tiene.
+- «El **Hijo de Dios** ha venido, y nos ha dado entendimiento para conocer al que es verdadero» (1 Juan 5:20): el Hijo, venido en carne, da a conocer al Dios verdadero.
+
+Y la abrumadora mayoría de los manuscritos griegos dicen «unigénito **Hijo**». La lectura «unigénito Dios» viene del mismo pequeño grupo alejandrino de Egipto, y en este punto no confío en ese grupo: Alejandría fue el hogar de maestros muy influyentes como **Orígenes** (c. 185–254), que enseñó que el Hijo es un «segundo Dios» (_Contra Celso_ 5.39), subordinado al Padre, y de **Arrio**, presbítero de Alejandría, que llamaba al Hijo un dios engendrado creado por el Padre. «Unigénito Dios» encaja con su teología de un segundo ser divino inferior; «unigénito Hijo» encaja con el único Dios de la Biblia manifestado en carne.
+
 ### TR y MT: casi el mismo texto
 
 El TR y el MT coinciden en la abrumadora mayoría de sus palabras; el Texto Mayoritario de Hodges y Farstad difiere del TR en unos 1.800 lugares, en su mayoría pequeños (ortografía, orden de palabras, una sola palabra). Las diferencias más conocidas son lugares donde Erasmo, que solo tenía unos pocos manuscritos griegos tardíos, siguió a la **Vulgata latina** en contra de la mayoría de los manuscritos griegos:
