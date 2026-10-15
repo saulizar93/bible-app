@@ -69,7 +69,7 @@ The non-Christian astronomer Sir Fred Hoyle wrote: "A common sense interpretatio
 
 **Think about coins.** If you throw 50 coins and every one lands heads, the odds are about 1 in 10^15 (a thousand trillion). Nobody would believe it happened by chance; they would check the coins. The universe has not 50 but dozens of "coins," many tuned far more finely than heads or tails — and all of them landed right.
 
-The usual reply is that there might be an infinite number of other universes we cannot see (a "multiverse"), and we just happen to be in a lucky one. But there is no evidence for those universes; the theory was invented to escape the conclusion. It takes more faith to believe in infinite invisible universes than in one Creator.
+The usual reply is that there might be an infinite number of other universes we cannot see (a "multiverse"), and we just happen to be in a lucky one. But there is no evidence for those universes; the theory was invented to escape the conclusion. It takes more faith to believe in infinite invisible universes than in one Creator, which would still be needed to create the "multiverse."
 
 # 5. Design: more time does not help
 
@@ -158,17 +158,17 @@ The fact that we can reason, do mathematics, discover the laws of nature, and as
 
 # 13. Putting it together
 
-| Evidence | What it points to |
-|---|---|
-| Something exists rather than nothing | A cause beyond the universe |
-| The universe began; the Second Law shows it was "wound up" | A cause outside time, space and matter |
-| The constants of physics are finely tuned for life | An intelligent designer |
-| DNA is a coded language; proteins are precise machines | A mind as the source of information |
-| Origin-of-life experiments need a scientist | Intelligence is needed to make life's ingredients |
-| The Cambrian explosion: sudden new body plans | Sudden input of new information |
-| Similar designs across living things | One designer reusing a plan |
-| The moral law | A moral lawgiver |
-| Reason itself | A rational Creator |
+| Evidence                                                   | What it points to                                 |
+| ---------------------------------------------------------- | ------------------------------------------------- |
+| Something exists rather than nothing                       | A cause beyond the universe                       |
+| The universe began; the Second Law shows it was "wound up" | A cause outside time, space and matter            |
+| The constants of physics are finely tuned for life         | An intelligent designer                           |
+| DNA is a coded language; proteins are precise machines     | A mind as the source of information               |
+| Origin-of-life experiments need a scientist                | Intelligence is needed to make life's ingredients |
+| The Cambrian explosion: sudden new body plans              | Sudden input of new information                   |
+| Similar designs across living things                       | One designer reusing a plan                       |
+| The moral law                                              | A moral lawgiver                                  |
+| Reason itself                                              | A rational Creator                                |
 
 No single line of evidence forces anyone to believe. But together they form a powerful case, and the alternative — that everything came from nothing, for no reason, and then organized itself into minds that can know right from wrong — requires far more faith.
 

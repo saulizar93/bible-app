@@ -84,7 +84,7 @@ A church is a pillar of the truth **as long as it holds up God's Word**. A pilla
 
 # 3. What "church" means
 
-The Greek word translated "church" is **_ekklesia_**, from _ek_ ("out") and _kaleō_ ("to call"): the people **called out**, an **assembly** or **congregation**. In Acts 19 the same word is used for the town assembly of Ephesus (Acts 19:32, 39, 41). It never means a building, and it never means a hierarchy.
+The Greek word translated "church" is **_ekklesia_**, from _ek_ ("out") and _kaleō_ ("to call"): the people **called out**, an **assembly** or **congregation**. In Acts 19 the same word is used for the town assembly of Ephesus (Acts 19:32, 39, 41), and the Jews gathered in the desert were also called **_ekklesia_** (Acts 7:38). It never means a building, and it never means a hierarchy.
 
 **William Tyndale** translated _ekklesia_ as "**congregation**" in his English New Testament (1526). Sir Thomas More attacked his translation for precisely this, and for words like "elder" instead of "priest" and "repent" instead of "do penance," because those words undercut the institution's claims. Tyndale was condemned as a heretic, strangled and burned in 1536.
 
@@ -330,26 +330,26 @@ The apostles' letters were read aloud **to everyone** in the congregations, in t
 
 # 5. Acts and modern Catholicism side by side
 
-| | The church in Acts and the letters | Modern Roman Catholicism |
-|---|---|---|
-| Who is baptized | Those who hear, repent and believe (Acts 2:38, 41; 8:12) | Infants (CCC 1250) |
-| How | Immersion: "went down both into the water" (Acts 8:38; Romans 6:4) | Immersion or pouring (CCC 1239-1240); pouring is the usual practice |
-| Formula | "In the name of Jesus Christ" (Acts 2:38; 10:48; 19:5) | "I baptize you in the name of the Father, and of the Son, and of the Holy Spirit" (CCC 1240) |
-| The Holy Ghost | Poured out with speaking in tongues (Acts 2:4; 10:46; 19:6) | Given through the sacrament of Confirmation by a bishop (CCC 1285, 1312) |
-| Lord's Supper | Bread and cup, in remembrance, in homes (Acts 2:46; 1 Corinthians 11:24-26) | The Mass, a "propitiatory" sacrifice (Trent, Session 22); the bread becomes Christ's body (CCC 1376) and is adored (CCC 1378); for centuries the cup was withheld from the laity (Council of Constance, 1415) |
-| Sacrifice | Christ offered "once for all"; believers offer praise and good works (Hebrews 10:10-18; 13:15-16) | "The sacrifice of Christ and the sacrifice of the Eucharist are one single sacrifice" (CCC 1367) |
-| Priests | Every believer (1 Peter 2:5, 9; Revelation 1:6) | A separate ordained priesthood that "differs essentially" from the faithful (CCC 1547) |
-| Leaders | Plural elders/overseers in each church, married (Titus 1:5-7; 1 Timothy 3:2) | Pope, cardinals, bishops, priests; celibacy required of priests in the Latin rite (CCC 1579) |
-| Head | Christ (Ephesians 1:22; Colossians 1:18) | The pope has "full, supreme, and universal power over the whole Church" (CCC 882) and teaches infallibly (Vatican I, 1870) |
-| Titles | "Call no man your father upon the earth" (Matthew 23:9) | "Father," "Holy Father," "Your Eminence" |
-| Prayer | To God, in Jesus' name; to the Lord Jesus (Acts 4:24-30; 7:59) | Also to Mary and the saints (CCC 2679, 2683; the Hail Mary, CCC 2676-2677) |
-| Mary | One of the believers praying (Acts 1:14) | Immaculate Conception (1854), Assumption (1950), "Queen over all things" (CCC 966) |
-| Images | Idol-makers lost their trade (Acts 19:24-27) | Images and statues venerated (CCC 2132; Nicaea II) |
-| Forgiveness | Repent, be baptized, confess to God and to one another (Acts 2:38; 1 John 1:9; James 5:16) | Confession of serious sins to a priest (CCC 1456-1457); indulgences (CCC 1471) |
-| After death | "Absent from the body… present with the Lord" (2 Corinthians 5:8) | Purgatory for many of the saved (CCC 1030-1031) |
-| Food and days | "Let no man therefore judge you in meat, or in drink" (Colossians 2:16) | Days of fasting and abstinence required by the precepts of the Church (CCC 2043) |
-| Meeting place | Houses (Acts 2:46; Romans 16:5; Colossians 4:15) | Consecrated churches with altars, tabernacles and relics |
-| Scripture | Read to everyone; the Bereans checked even Paul (Acts 17:11) | The Magisterium "alone" gives the authentic interpretation (CCC 85, 100) |
+|                 | The church in Acts and the letters                                                                | Modern Roman Catholicism                                                                                                                                                                                      |
+| --------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Who is baptized | Those who hear, repent and believe (Acts 2:38, 41; 8:12)                                          | Infants (CCC 1250)                                                                                                                                                                                            |
+| How             | Immersion: "went down both into the water" (Acts 8:38; Romans 6:4)                                | Immersion or pouring (CCC 1239-1240); pouring is the usual practice                                                                                                                                           |
+| Formula         | "In the name of Jesus Christ" (Acts 2:38; 10:48; 19:5)                                            | "I baptize you in the name of the Father, and of the Son, and of the Holy Spirit" (CCC 1240)                                                                                                                  |
+| The Holy Ghost  | Poured out with speaking in tongues (Acts 2:4; 10:46; 19:6)                                       | Given through the sacrament of Confirmation by a bishop (CCC 1285, 1312)                                                                                                                                      |
+| Lord's Supper   | Bread and cup, in remembrance, in homes (Acts 2:46; 1 Corinthians 11:24-26)                       | The Mass, a "propitiatory" sacrifice (Trent, Session 22); the bread becomes Christ's body (CCC 1376) and is adored (CCC 1378); for centuries the cup was withheld from the laity (Council of Constance, 1415) |
+| Sacrifice       | Christ offered "once for all"; believers offer praise and good works (Hebrews 10:10-18; 13:15-16) | "The sacrifice of Christ and the sacrifice of the Eucharist are one single sacrifice" (CCC 1367)                                                                                                              |
+| Priests         | Every believer (1 Peter 2:5, 9; Revelation 1:6)                                                   | A separate ordained priesthood that "differs essentially" from the faithful (CCC 1547)                                                                                                                        |
+| Leaders         | Plural elders/overseers in each church, married (Titus 1:5-7; 1 Timothy 3:2)                      | Pope, cardinals, bishops, priests; celibacy required of priests in the Latin rite (CCC 1579)                                                                                                                  |
+| Head            | Christ (Ephesians 1:22; Colossians 1:18)                                                          | The pope has "full, supreme, and universal power over the whole Church" (CCC 882) and teaches infallibly (Vatican I, 1870)                                                                                    |
+| Titles          | "Call no man your father upon the earth" (Matthew 23:9)                                           | "Father," "Holy Father," "Your Eminence"                                                                                                                                                                      |
+| Prayer          | To God, in Jesus' name; to the Lord Jesus (Acts 4:24-30; 7:59)                                    | Also to Mary and the saints (CCC 2679, 2683; the Hail Mary, CCC 2676-2677)                                                                                                                                    |
+| Mary            | One of the believers praying (Acts 1:14)                                                          | Immaculate Conception (1854), Assumption (1950), "Queen over all things" (CCC 966)                                                                                                                            |
+| Images          | Idol-makers lost their trade (Acts 19:24-27)                                                      | Images and statues venerated (CCC 2132; Nicaea II)                                                                                                                                                            |
+| Forgiveness     | Repent, be baptized, confess to God and to one another (Acts 2:38; 1 John 1:9; James 5:16)        | Confession of serious sins to a priest (CCC 1456-1457); indulgences (CCC 1471)                                                                                                                                |
+| After death     | "Absent from the body… present with the Lord" (2 Corinthians 5:8)                                 | Purgatory for many of the saved (CCC 1030-1031)                                                                                                                                                               |
+| Food and days   | "Let no man therefore judge you in meat, or in drink" (Colossians 2:16)                           | Days of fasting and abstinence required by the precepts of the Church (CCC 2043)                                                                                                                              |
+| Meeting place   | Houses (Acts 2:46; Romans 16:5; Colossians 4:15)                                                  | Consecrated churches with altars, tabernacles and relics                                                                                                                                                      |
+| Scripture       | Read to everyone; the Bereans checked even Paul (Acts 17:11)                                      | The Magisterium "alone" gives the authentic interpretation (CCC 85, 100)                                                                                                                                      |
 
 A church does not become the church of Acts by saying it is. If we put the two descriptions side by side, they are not describing the same church.
 

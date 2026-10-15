@@ -138,15 +138,15 @@ Irenaeus, who as a boy had heard Polycarp, quotes nearly every book of the New T
 
 ### And many more, all before 382
 
-| Date | Witness | What it shows |
-|---|---|---|
-| c. 170–200 | Muratorian Fragment | A list of New Testament books read in the churches (date debated) |
-| c. 200 | Papyri P46, P66, P75 | Paul's letters already copied as one collection; Luke and John in one book |
-| c. 200 | Tertullian | Calls the apostolic writings the "New Testament," beside the Old |
-| c. 250 | Origen | Quotes the whole New Testament as Scripture |
-| c. 325 | Eusebius, _Church History_ 3.25 | Books "acknowledged" by all the churches: the Gospels, Acts, Paul, 1 Peter, 1 John, (Revelation) |
-| c. 350 | Cyril of Jerusalem | "Do not believe me because I tell thee these things, unless thou receive from the Holy Scriptures the proof" (_Catechetical Lectures_ 4.17) |
-| 367 | Athanasius, _Festal Letter_ 39 | Lists exactly our 27 New Testament books, 15 years before Rome |
+| Date       | Witness                         | What it shows                                                                                                                               |
+| ---------- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| c. 170–200 | Muratorian Fragment             | A list of New Testament books read in the churches (date debated)                                                                           |
+| c. 200     | Papyri P46, P66, P75            | Paul's letters already copied as one collection; Luke and John in one book                                                                  |
+| c. 200     | Tertullian                      | Calls the apostolic writings the "New Testament," beside the Old                                                                            |
+| c. 250     | Origen                          | Quotes the whole New Testament as Scripture                                                                                                 |
+| c. 325     | Eusebius, _Church History_ 3.25 | Books "acknowledged" by all the churches: the Gospels, Acts, Paul, 1 Peter, 1 John, (Revelation)                                            |
+| c. 350     | Cyril of Jerusalem              | "Do not believe me because I tell thee these things, unless thou receive from the Holy Scriptures the proof" (_Catechetical Lectures_ 4.17) |
+| 367        | Athanasius, _Festal Letter_ 39  | Lists exactly our 27 New Testament books, 15 years before Rome                                                                              |
 
 Athanasius, bishop of Alexandria, wrote of those 27 books in 367:
 
@@ -258,7 +258,7 @@ The Bible came back to the people of Europe through men and women who paid for i
 ### Spain — the story of our Spanish Bible
 
 - **Francisco de Enzinas** translated the New Testament into Spanish (1543) and presented it to Emperor Charles V; he was imprisoned and escaped. His brother **Jaime de Enzinas** was burned in Rome in 1547.
-- **Juan Pérez de Pineda** published a Spanish New Testament in Geneva (1556) and was burned in effigy.
+- **Juan Pérez de Pineda** published a Spanish New Testament in Geneva (1556) and was burned in effigy (which means that a dummy, doll, or physical likeness of a person is publicly set on fire as a symbolic execution or expression of intense hatred).
 - **Julián Hernández** ("Julianillo"), a small man who smuggled Spanish New Testaments into Seville hidden in wine barrels, was caught, imprisoned and tortured for three years, and burned at Seville on December 22, 1560.
 - **Constantino Ponce de la Fuente**, preacher of Seville's cathedral, died in the Inquisition's prison; his bones and effigy were burned. **Dr. Juan Gil (Egidio)** was exhumed and burned the same year.
 - **Casiodoro de Reina**, a monk of San Isidoro del Campo in Seville, fled with other monks in 1557. The Inquisition burned him in effigy in Seville in 1562. Hunted across Europe, he finished the first complete Spanish Bible translated from Hebrew and Greek, the **Biblia del Oso**, printed in Basel in **1569**.

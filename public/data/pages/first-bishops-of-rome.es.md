@@ -176,7 +176,6 @@ No se conserva ningún escrito doctrinal. Los mártires de Lyon le escribieron a
 Víctor es el primer obispo de Roma que actúa claramente como un único obispo gobernante, y el primero recordado por escribir en latín. De él se saben tres cosas:
 
 - **Excomulgó a Teódoto el curtidor** (Eusebio, _Historia eclesiástica_ 5.28.6), que enseñaba que Jesús era un simple hombre sobre quien vino el Espíritu en su bautismo. Ese es el error opuesto a la unicidad: Teódoto negaba que Dios mismo estuviera en Cristo desde su concepción. Así que Víctor defendió la deidad de Cristo.
-- **Los seguidores de Teódoto afirmaban que la verdad se había conservado en Roma «hasta los tiempos de Víctor, que fue el decimotercer obispo de Roma desde Pedro», pero que «desde su sucesor, Ceferino, la verdad había sido mutilada»** (Eusebio, _Historia eclesiástica_ 5.28.3). Incluso los adversarios de los obispos romanos admitían que Ceferino enseñaba algo que ellos rechazaban.
 - **Práxeas llegó a Roma** en su tiempo o poco antes. Tertuliano, escribiendo contra él hacia el año 213, dice que Práxeas convenció al obispo de Roma de retirar su reconocimiento a los profetas montanistas:
 
 > «Con esto Práxeas hizo en Roma un doble servicio al diablo: expulsó la profecía e introdujo la herejía; puso en fuga al Paráclito y **crucificó al Padre**». (_Contra Práxeas_ 1)
@@ -197,7 +196,7 @@ Ambas declaraciones encajan exactamente con la fe unicitaria: hay un solo Dios, 
 
 ### 16. Calixto I (hacia 217–222)
 
-Calixto fue diácono de Ceferino y su sucesor. Hipólito lo despreciaba y cuenta toda su historia: había sido esclavo de un cristiano llamado Carpóforo, le administró un banco y perdió el dinero, y fue enviado a las minas de Cerdeña antes de ser liberado y llegar a ser líder de la iglesia (_Refutación_ 9.7). Hipólito también relata que Calixto **excomulgó a Sabelio** «por no tener opiniones ortodoxas», mientras conservaba su propia enseñanza (9.7). Y esta es esa enseñanza, tal como la describe el mismo Hipólito:
+Calixto fue diácono de Ceferino y su sucesor. Hipólito lo despreciaba y cuenta toda su historia: había sido esclavo de un cristiano llamado Carpóforo, le administró un banco y perdió el dinero, y fue enviado a las minas de Cerdeña antes de ser liberado y llegar a ser líder de la iglesia (_Refutación_ 9.7). Hipólito también relata que Calixto **excomulgó a Sabelio** «por no tener opiniones ortodoxas» (Es probable que Sabelio enseñara modalismo en lugar de la doctrina de la Unicidad, o tal vez otra cosa que discrepaba de la teología de Calixto, aun cuando ambos coincidían en la monarquía de Dios)., mientras conservaba su propia enseñanza (9.7). Y esta es esa enseñanza, tal como la describe el mismo Hipólito:
 
 > «Calixto afirma que el Logos mismo es Hijo, y que Él mismo es Padre; y que, aunque se le designa con un título diferente, en realidad es un solo espíritu indivisible. Y sostiene que el Padre no es una persona y el Hijo otra, sino que son uno y el mismo; y que todas las cosas están llenas del Espíritu divino, tanto las de arriba como las de abajo. Y afirma que **el Espíritu que se encarnó en la virgen no es distinto del Padre, sino uno y el mismo**. Y añade que esto es lo que declaró el Salvador: "¿No crees que yo estoy en el Padre, y el Padre en mí?". **Porque lo que se ve, que es hombre, él lo considera el Hijo; mientras que el Espíritu, que estaba contenido en el Hijo, lo considera el Padre.** Porque, dice (Calixto), **no profesaré creer en dos Dioses, Padre e Hijo, sino en uno.** Porque el Padre, que subsistía en el Hijo mismo, después de haber tomado para sí nuestra carne, la elevó a la naturaleza de la Deidad, uniéndola consigo mismo, y la hizo una; de modo que Padre e Hijo deben llamarse un solo Dios, y que esta Persona, siendo una, no puede ser dos. Y de esta manera Calixto sostiene que el Padre padeció junto con el Hijo; porque no quiere afirmar que el Padre padeció y es una sola Persona, cuidándose de evitar la blasfemia contra el Padre. (¡Qué cuidadoso es!) Necio y bribón, que improvisa blasfemias en todas direcciones, solo para no parecer que habla contra la verdad, y no se avergüenza de caer unas veces en la doctrina de Sabelio, y otras en la de Teódoto». (_Refutación de todas las herejías_ 9.7; 9.12 en la numeración griega)
 
@@ -207,7 +206,7 @@ Observe lo que enseñaba Calixto, aun a través de las palabras de un enemigo:
 - **El Hijo es el hombre que se vio; el Padre es el Espíritu que habitaba en el Hijo.** Es exactamente como los creyentes unicitarios explican hoy Juan 14:10 y Colosenses 2:9.
 - **«No profesaré creer en dos Dioses, Padre e Hijo, sino en uno».**
 - El Padre no padeció como Padre; Él **«padeció junto con»** el Hijo, en la carne que había tomado. Hipólito se burla de esta distinción cuidadosa («¡Qué cuidadoso es!») porque no encaja con su caricatura.
-- Calixto mismo rechazó a Sabelio. Su enseñanza no era lo que sus enemigos llamaban «sabelianismo»; a los creyentes unicitarios hoy se les tergiversa de la misma manera, como si negaran al Hijo.
+- Calixto mismo rechazó a Sabelio. Su enseñanza no era lo que sus enemigos llamaban «sabelianismo»; a los creyentes unicitarios de hoy todavia se les mal representa de la misma manera al ser llamados "Modalistas," como si negaran al Hijo.
 
 Y Calixto respondió a sus críticos con una acusación propia. Hipólito se queja de que Calixto les dijo públicamente a él y a sus seguidores: «**Sois diteístas**», adoradores de dos dioses (9.7). En la Roma de hacia el año 220, era el obispo quien acusaba al creyente en dos personas divinas de predicar dos dioses.
 
@@ -215,17 +214,17 @@ Hipólito añade que los seguidores de Calixto formaron una escuela «que contin
 
 # 3. Hipólito, el primer antipapa
 
-Hipólito era presbítero en Roma y el teólogo más erudito de la ciudad. No aceptó a Calixto como obispo y dirigió una congregación rival: la Iglesia católica lo cuenta como **el primer antipapa**. Él era quien defendía una distinción de personas: la teología del «Logos» de Justino y Tertuliano. Sin embargo, ni siquiera su postura era la doctrina posterior de la Trinidad: enseñaba que al Verbo se le llamó «Hijo» porque llegaría a ser Hijo en la encarnación (_Contra Noeto_ 15), y que el Verbo fue engendrado cuando el Padre quiso.
+Hipólito era presbítero en Roma. No aceptó a Calixto como obispo y dirigió una congregación rival: la Iglesia católica lo cuenta como **el primer antipapa**. Él era quien defendía una distinción de personas: la teología del «Logos» de Justino y Tertuliano. Sin embargo, ni siquiera su postura era la doctrina posterior de la Trinidad: enseñaba que al Verbo se le llamó «Hijo» porque llegaría a ser Hijo en la encarnación (_Contra Noeto_ 15), y que el Verbo fue engendrado cuando el Padre quiso.
 
 Así, en la Roma de hacia el año 220:
 
-| | Calixto (el obispo de Roma) | Hipólito (el obispo rival) |
-|---|---|---|
-| Situación católica hoy | Papa y santo | El primer antipapa (después reconciliado; también santo) |
-| Dios | «Un solo espíritu indivisible» | Dios y su Verbo, personas distintas |
-| El Hijo | «Lo que se ve, que es hombre» | El Verbo, llamado Hijo porque llegaría a serlo |
-| El Padre | «El Espíritu, que estaba contenido en el Hijo» | Distinto del Hijo |
-| Acusación contra el otro | «Sois diteístas» | «Sabeliano», «teodociano», «bribón» |
+|                          | Calixto (el obispo de Roma)                    | Hipólito (el obispo rival)                               |
+| ------------------------ | ---------------------------------------------- | -------------------------------------------------------- |
+| Situación católica hoy   | Papa y santo                                   | El primer antipapa (después reconciliado; también santo) |
+| Dios                     | «Un solo espíritu indivisible»                 | Dios y su Verbo, personas distintas                      |
+| El Hijo                  | «Lo que se ve, que es hombre»                  | El Verbo, llamado Hijo porque llegaría a serlo           |
+| El Padre                 | «El Espíritu, que estaba contenido en el Hijo» | Distinto del Hijo                                        |
+| Acusación contra el otro | «Sois diteístas»                               | «Sabeliano», «teodociano», «bribón»                      |
 
 El hombre que figura en la lista oficial de papas enseñaba un solo Dios que habitaba en el hombre Cristo Jesús. El hombre que enseñaba personas divinas distintas figura en la lista de antipapas. (Hipólito fue desterrado a Cerdeña en el año 235 junto con el papa Ponciano, se reconcilió allí, y ambos murieron en las minas.)
 

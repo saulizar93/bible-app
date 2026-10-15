@@ -258,7 +258,7 @@ La Biblia volvió al pueblo de Europa por medio de hombres y mujeres que la paga
 ### España: la historia de nuestra Biblia en español
 
 - **Francisco de Enzinas** tradujo el Nuevo Testamento al español (1543) y se lo presentó al emperador Carlos V; fue encarcelado y escapó. Su hermano **Jaime de Enzinas** fue quemado en Roma en 1547.
-- **Juan Pérez de Pineda** publicó un Nuevo Testamento en español en Ginebra (1556) y fue quemado en efigie.
+- **Juan Pérez de Pineda** publicó un Nuevo Testamento en español en Ginebra (1556) y fue quemado en efigie (significa que un muñeco, una figura o una representación física de una persona es quemada públicamente como una ejecución simbólica o como expresión de un odio intenso).
 - **Julián Hernández** («Julianillo»), un hombre de baja estatura que introducía Nuevos Testamentos en español en Sevilla escondidos en toneles de vino, fue capturado, encarcelado y torturado durante tres años, y quemado en Sevilla el 22 de diciembre de 1560.
 - **Constantino Ponce de la Fuente**, predicador de la catedral de Sevilla, murió en la cárcel de la Inquisición; sus huesos y su efigie fueron quemados. El **doctor Juan Gil (Egidio)** fue desenterrado y quemado ese mismo año.
 - **Casiodoro de Reina**, monje de San Isidoro del Campo en Sevilla, huyó con otros monjes en 1557. La Inquisición lo quemó en efigie en Sevilla en 1562. Perseguido por toda Europa, terminó la primera Biblia completa en español traducida del hebreo y el griego, la **Biblia del Oso**, impresa en Basilea en **1569**.

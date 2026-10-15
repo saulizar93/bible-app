@@ -69,7 +69,7 @@ El astrónomo no cristiano Sir Fred Hoyle escribió: «Una interpretación de se
 
 **Piense en monedas.** Si lanza 50 monedas y todas caen en cara, la probabilidad es de aproximadamente 1 en 10^15 (mil billones). Nadie creería que ocurrió por casualidad; revisarían las monedas. El universo no tiene 50 sino decenas de «monedas», muchas ajustadas con mucha más precisión que cara o cruz, y todas cayeron bien.
 
-La respuesta habitual es que podría haber un número infinito de otros universos que no podemos ver (un «multiverso»), y que nosotros simplemente estamos en uno con suerte. Pero no hay ninguna evidencia de esos universos; la teoría se inventó para escapar de la conclusión. Hace falta más fe para creer en infinitos universos invisibles que en un solo Creador.
+La respuesta habitual es que podría haber un número infinito de otros universos que no podemos ver (un «multiverso»), y que nosotros simplemente estamos en uno con suerte. Pero no hay ninguna evidencia de esos universos; la teoría se inventó para escapar de la conclusión. Hace falta más fe para creer en infinitos universos invisibles que en un solo Creador, el cual seguiría siendo necesario para crear el «multiverso».
 
 # 5. El diseño: más tiempo no ayuda
 
@@ -158,17 +158,17 @@ El hecho de que podamos razonar, hacer matemáticas, descubrir las leyes de la n
 
 # 13. Juntándolo todo
 
-| Evidencia | A qué apunta |
-|---|---|
-| Existe algo en lugar de nada | Una causa más allá del universo |
-| El universo comenzó; la segunda ley muestra que «se le dio cuerda» | Una causa fuera del tiempo, el espacio y la materia |
-| Las constantes de la física están finamente ajustadas para la vida | Un diseñador inteligente |
-| El ADN es un lenguaje codificado; las proteínas son máquinas precisas | Una mente como fuente de la información |
-| Los experimentos sobre el origen de la vida necesitan un científico | Hace falta inteligencia para fabricar los ingredientes de la vida |
-| La explosión cámbrica: nuevos planes corporales de repente | Un aporte repentino de información nueva |
-| Diseños similares entre los seres vivos | Un solo diseñador que reutiliza un plan |
-| La ley moral | Un legislador moral |
-| La razón misma | Un Creador racional |
+| Evidencia                                                             | A qué apunta                                                      |
+| --------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| Existe algo en lugar de nada                                          | Una causa más allá del universo                                   |
+| El universo comenzó; la segunda ley muestra que «se le dio cuerda»    | Una causa fuera del tiempo, el espacio y la materia               |
+| Las constantes de la física están finamente ajustadas para la vida    | Un diseñador inteligente                                          |
+| El ADN es un lenguaje codificado; las proteínas son máquinas precisas | Una mente como fuente de la información                           |
+| Los experimentos sobre el origen de la vida necesitan un científico   | Hace falta inteligencia para fabricar los ingredientes de la vida |
+| La explosión cámbrica: nuevos planes corporales de repente            | Un aporte repentino de información nueva                          |
+| Diseños similares entre los seres vivos                               | Un solo diseñador que reutiliza un plan                           |
+| La ley moral                                                          | Un legislador moral                                               |
+| La razón misma                                                        | Un Creador racional                                               |
 
 Ninguna línea de evidencia, por sí sola, obliga a nadie a creer. Pero juntas forman un caso poderoso, y la alternativa —que todo salió de la nada, sin razón, y luego se organizó solo hasta formar mentes capaces de distinguir el bien del mal— requiere mucha más fe.
 

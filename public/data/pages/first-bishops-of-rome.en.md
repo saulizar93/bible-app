@@ -176,7 +176,6 @@ No doctrinal writing survives. The martyrs of Lyon wrote to him about the Montan
 Victor is the first bishop of Rome who clearly acts as a single ruling bishop, and the first remembered as writing in Latin. Three things are known about him:
 
 - **He excommunicated Theodotus the tanner** (Eusebius, _Church History_ 5.28.6), who taught that Jesus was a mere man on whom the Spirit came at His baptism. That is the opposite error from Oneness: Theodotus denied that God Himself was in Christ from His conception. So Victor defended the deity of Christ.
-- **The followers of Theodotus claimed that the truth had been preserved in Rome "until the times of Victor, who was the thirteenth bishop of Rome from Peter," but that "from his successor, Zephyrinus, the truth had been mutilated"** (Eusebius, _Church History_ 5.28.3). Even the opponents of the Roman bishops admitted that Zephyrinus was teaching something they rejected.
 - **Praxeas came to Rome** in his time or just before. Tertullian, writing against him around A.D. 213, says Praxeas persuaded the bishop of Rome to withdraw his recognition of the Montanist prophets:
 
 > "By this Praxeas did a twofold service for the devil at Rome: he drove away prophecy, and he brought in heresy; he put to flight the Paraclete, and **he crucified the Father**." (_Against Praxeas_ 1)
@@ -197,7 +196,7 @@ Both statements fit the Oneness faith exactly: there is one God, and He is Jesus
 
 ### 16. Callistus I (c. 217–222)
 
-Callistus was Zephyrinus's deacon and his successor. Hippolytus despised him, and tells his whole story: he had been a slave of a Christian named Carpophorus, managed a bank for him and lost the money, and was sent to the mines of Sardinia before he was released and became a leader of the church (_Refutation_ 9.7). Hippolytus also reports that Callistus **excommunicated Sabellius** "as not entertaining orthodox opinions," while keeping his own teaching (9.7). And here is that teaching, as Hippolytus himself describes it:
+Callistus was Zephyrinus's deacon and his successor. Hippolytus despised him, and tells his whole story: he had been a slave of a Christian named Carpophorus, managed a bank for him and lost the money, and was sent to the mines of Sardinia before he was released and became a leader of the church (_Refutation_ 9.7). Hippolytus also reports that Callistus **excommunicated Sabellius** "as not entertaining orthodox opinions" (Sabellius was probably teaching Modalism instead of Oneness, or perhaps something else that disagreed with Callistus' theology even if they both agreed on the Monarchy of God), while keeping his own teaching (9.7). And here is that teaching, as Hippolytus himself describes it:
 
 > "Callistus alleges that the Logos Himself is Son, and that Himself is Father; and that though denominated by a different title, yet that in reality He is one indivisible spirit. And he maintains that the Father is not one person and the Son another, but that they are one and the same; and that all things are full of the Divine Spirit, both those above and those below. And he affirms that **the Spirit, which became incarnate in the virgin, is not different from the Father, but one and the same**. And he adds, that this is what has been declared by the Saviour: 'Do you not believe that I am in the Father, and the Father in me?' **For that which is seen, which is man, he considers to be the Son; whereas the Spirit, which was contained in the Son, to be the Father.** For, says (Callistus), **I will not profess belief in two Gods, Father and Son, but in one.** For the Father, who subsisted in the Son Himself, after He had taken unto Himself our flesh, raised it to the nature of Deity, by bringing it into union with Himself, and made it one; so that Father and Son must be styled one God, and that this Person being one, cannot be two. And in this way Callistus contends that the Father suffered along with the Son; for he does not wish to assert that the Father suffered, and is one Person, being careful to avoid blasphemy against the Father. (How careful he is!) senseless and knavish fellow, who improvises blasphemies in every direction, only that he may not seem to speak in violation of the truth, and is not abashed at being at one time betrayed into the tenet of Sabellius, whereas at another into the doctrine of Theodotus." (_Refutation of All Heresies_ 9.7; 9.12 in the Greek numbering)
 
@@ -207,7 +206,7 @@ Notice what Callistus taught, even through the words of an enemy:
 - **The Son is the man who was seen; the Father is the Spirit who dwelt in the Son.** That is exactly how Oneness believers explain John 14:10 and Colossians 2:9 today.
 - **"I will not profess belief in two Gods, Father and Son, but in one."**
 - The Father did not suffer as the Father; He **"suffered along with"** the Son, in the flesh He had taken. Hippolytus mocks this careful distinction ("How careful he is!") because it does not fit his caricature.
-- Callistus himself rejected Sabellius. Callistus' teaching was not what his enemies called "Sabellianism"; Oneness believers today are misrepresented the same way, as if they denied the Son.
+- Callistus himself rejected Sabellius. Callistus' teaching was not what his enemies called "Sabellianism"; Oneness believers today are often misrepresented the same way and called "Modalists," as if they denied the Son.
 
 And Callistus answered his critics with a charge of his own. Hippolytus complains that Callistus said to him and his followers publicly, "**You are Ditheists**" — worshippers of two gods (9.7). In Rome around A.D. 220, it was the bishop who accused the believer in two divine persons of preaching two gods.
 
@@ -215,17 +214,17 @@ Hippolytus adds that the followers of Callistus formed a school "which continues
 
 # 3. Hippolytus, the first antipope
 
-Hippolytus was a presbyter in Rome and the most learned theologian there. He did not accept Callistus as bishop and led a rival congregation: the Catholic Church counts him as **the first antipope**. He was the one who defended a distinction of persons — the "Logos" theology of Justin and Tertullian. Yet even his own view was not the later doctrine of the Trinity: he taught that the Word was called "Son" because He would become Son at the incarnation (_Against Noetus_ 15), and that the Word was begotten when the Father willed.
+Hippolytus was a presbyter in Rome. He did not accept Callistus as bishop and led a rival congregation: the Catholic Church counts him as **the first antipope**. He was the one who defended a distinction of persons — the "Logos" theology of Justin and Tertullian. Yet even his own view was not the later doctrine of the Trinity: he taught that the Word was called "Son" because He would become Son at the incarnation (_Against Noetus_ 15), and that the Word was begotten when the Father willed.
 
 So in Rome around A.D. 220:
 
-| | Callistus (the bishop of Rome) | Hippolytus (the rival bishop) |
-|---|---|---|
-| Catholic status today | Pope and saint | The first antipope (later reconciled; also a saint) |
-| God | "One indivisible Spirit" | God and His Word, distinct persons |
-| The Son | "That which is seen, which is man" | The Word, called Son because He would become Son |
-| The Father | "The Spirit, which was contained in the Son" | Distinct from the Son |
-| Charge against the other | "You are Ditheists" | "Sabellian," "Theodotian," "knavish fellow" |
+|                          | Callistus (the bishop of Rome)               | Hippolytus (the rival bishop)                       |
+| ------------------------ | -------------------------------------------- | --------------------------------------------------- |
+| Catholic status today    | Pope and saint                               | The first antipope (later reconciled; also a saint) |
+| God                      | "One indivisible Spirit"                     | God and His Word, distinct persons                  |
+| The Son                  | "That which is seen, which is man"           | The Word, called Son because He would become Son    |
+| The Father               | "The Spirit, which was contained in the Son" | Distinct from the Son                               |
+| Charge against the other | "You are Ditheists"                          | "Sabellian," "Theodotian," "knavish fellow"         |
 
 The man on the official list of popes taught one God dwelling in the man Christ Jesus. The man who taught distinct divine persons is on the list of antipopes. (Hippolytus was exiled to Sardinia in 235 together with Pope Pontian, was reconciled there, and both died in the mines.)
 
