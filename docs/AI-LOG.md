@@ -643,3 +643,7 @@
 ## 2026-10-14 — Problems with Catholicism: petros in the LXX, Peter as skandalon
 
 - problems-with-catholicism.en/.es (.md and tmp-check/qgen .tpl), section 1: added the Septuagint use of _petros_ for stones thrown by hand (2 Maccabees 1:16; 4:41), and expanded the Matt 16:23 point: Peter is called a _skandalon_ ("thou art an offence unto me" / «me eres tropiezo»), a stumbling stone in Christ's way, so he cannot be the foundation rock reserved for Christ.
+
+## 2026-10-14 — Launoy's count clarified (Matthew 16:18, Problems with Catholicism)
+
+- matthew-16-18.en/.es (summary bullet, section 3, conclusion) and problems-with-catholicism.en/.es (section 1), .md and .tpl: "four in five against the papal reading" no longer implies the fifth agreed with Rome. Added that the 17 who called Peter the rock did not draw the papal conclusion — Tertullian (promise personal to Peter, On Modesty 21), Cyprian ("a like partnership both of honour and power", no "bishop of bishops"), Origen (every confessor "becomes a Peter") — and that the transfer of Peter's rock and keys to the bishop of Rome alone appears only from the late 4th century in the Roman bishops' own letters (Siricius 385, Leo I 440s); outside Rome's own bishops, no early Father read the verse as the popes do.

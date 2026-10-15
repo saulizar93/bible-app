@@ -10,7 +10,7 @@ This page tests that claim against the Fathers of the early church. In short:
 
 - The Fathers did **not** agree on what "this rock" means. Most said it is **Peter's confession of faith**, or **Christ Himself**; others said **all the apostles**; a minority said **Peter**.
 - Even the Fathers who said "Peter" did **not** conclude that the bishop of Rome rules the whole church.
-- A seventeenth-century French Catholic scholar who counted the patristic interpretations found that about **four out of five** Fathers did not identify the rock with Peter. A Catholic archbishop presented those figures to the bishops at the First Vatican Council.
+- A seventeenth-century French Catholic scholar who counted the patristic interpretations found that about **four out of five** Fathers did not even identify the rock with Peter — and the fifth who did still did not read the verse the way the popes do today. A Catholic archbishop presented those figures to the bishops at the First Vatican Council.
 - Rome binds itself to interpret Scripture only "according to the unanimous consent of the Fathers" — and then defines a doctrine on a verse on which the Fathers were not unanimous.
 
 Much of the patristic material on this page is gathered in William Webster, _The Matthew 16 Controversy: Peter and the Rock_ (Christian Resources, 1996). Bible quotations are from the King James Version; the Fathers are quoted from the _Ante-Nicene Fathers_ and _Nicene and Post-Nicene Fathers_ translations.
@@ -100,7 +100,9 @@ Gregory refused the title for himself as well. Six centuries later Gregory VII d
 | **All the apostles** | **8** |
 | All the faithful | (a few) |
 
-Of the 85 who chose one of the first four answers, **68 — about 80% — did not identify the rock with Peter**. And the 17 who did say "Peter" did not say "the pope."
+Of the 85 who chose one of the first four answers, **68 — about 80% — did not identify the rock with Peter**.
+
+That does **not** mean the other one in five agreed with Rome. The 17 who said "Peter" did not say "the pope," and the early ones among them said the opposite: **Tertullian** said the promise was given to Peter **personally** and could not pass to anyone else (_On Modesty_ 21); **Cyprian** said all the apostles had "a like partnership both of honour and power" and that no bishop is "a bishop of bishops"; and **Origen**, who also spoke of Peter as the rock, said every disciple who confesses Christ "becomes a Peter." The claim that Peter's rock and keys pass to the bishop of Rome alone, with power over the whole church, appears only from the late 4th century, in the letters of the bishops of Rome themselves (Siricius, 385; Leo I, 440s). Outside Rome's own bishops, **not one** of the early Fathers in Launoy's count read Matthew 16:18 the way the popes do today.
 
 At the First Vatican Council (1870), **Peter Richard Kenrick**, Catholic archbishop of St. Louis, prepared a speech against the definition of papal primacy and infallibility, citing Launoy's figures. He concluded: "If we are bound to follow the greater number of the Fathers in this matter, then we must hold for certain that the word '_petra_' means **not Peter professing the faith, but the faith professed by Peter**." Kenrick never got to deliver it at the council; he had it printed in Naples (_Concio in Concilio Vaticano habenda at non habita_, 1870).
 
@@ -114,7 +116,7 @@ Even the modern _Catechism of the Catholic Church_ keeps both readings side by s
 
 # Conclusion
 
-The Fathers did not read Matthew 16:18 the way Rome does today. Origen said every disciple who confesses Christ becomes a rock; Hilary, Ambrose and Chrysostom said the rock is Peter's confession of faith; Augustine said "the rock was Christ" and left the reader to choose; Jerome said the church rests on all the apostles alike; Tertullian and Cyprian, who called Peter the rock, denied that the promise made one bishop the ruler of the others; and a bishop of Rome called the claim to be universal bishop the mark of a forerunner of Antichrist. A Catholic scholar counted the Fathers and found four in five against the papal reading, and a Catholic archbishop tried to tell that to Vatican I. The rock on which the church is built is the truth Peter confessed — that Jesus is "the Christ, the Son of the living God" — and Christ Himself.
+The Fathers did not read Matthew 16:18 the way Rome does today. Origen said every disciple who confesses Christ becomes a rock; Hilary, Ambrose and Chrysostom said the rock is Peter's confession of faith; Augustine said "the rock was Christ" and left the reader to choose; Jerome said the church rests on all the apostles alike; Tertullian and Cyprian, who called Peter the rock, denied that the promise made one bishop the ruler of the others; and a bishop of Rome called the claim to be universal bishop the mark of a forerunner of Antichrist. A Catholic scholar counted the Fathers and found four in five who did not even call Peter the rock — and the fifth did not mean what the popes mean — and a Catholic archbishop tried to tell that to Vatican I. The rock on which the church is built is the truth Peter confessed — that Jesus is "the Christ, the Son of the living God" — and Christ Himself.
 
 "For other foundation can no man lay than that is laid, which is Jesus Christ." (1 Corinthians 3:11)
 

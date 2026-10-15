@@ -10,7 +10,7 @@ Esta página pone a prueba esa afirmación con los Padres de la iglesia antigua.
 
 - Los Padres **no** estaban de acuerdo sobre lo que significa «esta roca». La mayoría dijo que es **la confesión de fe de Pedro**, o **Cristo mismo**; otros dijeron **todos los apóstoles**; una minoría dijo **Pedro**.
 - Incluso los Padres que dijeron «Pedro» **no** concluyeron que el obispo de Roma gobierna toda la iglesia.
-- Un estudioso católico francés del siglo XVII que contó las interpretaciones patrísticas encontró que aproximadamente **cuatro de cada cinco** Padres no identificaban la roca con Pedro. Un arzobispo católico presentó esas cifras a los obispos del Concilio Vaticano I.
+- Un estudioso católico francés del siglo XVII que contó las interpretaciones patrísticas encontró que aproximadamente **cuatro de cada cinco** Padres ni siquiera identificaban la roca con Pedro, y el quinto que sí lo hacía tampoco leía el versículo como lo leen hoy los papas. Un arzobispo católico presentó esas cifras a los obispos del Concilio Vaticano I.
 - Roma se obliga a interpretar la Escritura solo «según el consentimiento unánime de los Padres», y luego define una doctrina sobre un versículo en el que los Padres no fueron unánimes.
 
 Gran parte del material patrístico de esta página está reunido en William Webster, _The Matthew 16 Controversy: Peter and the Rock_ (Christian Resources, 1996). Las citas bíblicas son de la Reina-Valera Gómez (RVG); los Padres están traducidos de las ediciones inglesas _Ante-Nicene Fathers_ y _Nicene and Post-Nicene Fathers_.
@@ -100,7 +100,9 @@ Gregorio también rechazó ese título para sí mismo. Seis siglos después, Gre
 | **Todos los apóstoles** | **8** |
 | Todos los fieles | (unos pocos) |
 
-De los 85 que escogieron una de las cuatro primeras respuestas, **68 —alrededor del 80 %— no identificaban la roca con Pedro**. Y los 17 que sí dijeron «Pedro» no dijeron «el papa».
+De los 85 que escogieron una de las cuatro primeras respuestas, **68 —alrededor del 80 %— no identificaban la roca con Pedro**.
+
+Eso **no** significa que el otro quinto estuviera de acuerdo con Roma. Los 17 que dijeron «Pedro» no dijeron «el papa», y los más antiguos entre ellos dijeron lo contrario: **Tertuliano** dijo que la promesa fue dada a Pedro **personalmente** y no podía pasar a nadie más (_Sobre la modestia_ 21); **Cipriano** dijo que todos los apóstoles tenían «igual participación tanto de honor como de poder» y que ningún obispo es «obispo de obispos»; y **Orígenes**, que también habló de Pedro como la roca, dijo que todo discípulo que confiesa a Cristo «llega a ser un Pedro». La idea de que la roca y las llaves de Pedro pasan solo al obispo de Roma, con poder sobre toda la iglesia, aparece solo desde fines del siglo IV, en las cartas de los mismos obispos de Roma (Siricio, 385; León I, década de 440). Fuera de los propios obispos de Roma, **ni uno solo** de los Padres antiguos del recuento de Launoy leyó Mateo 16:18 como lo leen hoy los papas.
 
 En el Concilio Vaticano I (1870), **Peter Richard Kenrick**, arzobispo católico de San Luis, preparó un discurso contra la definición del primado y la infalibilidad papal, citando las cifras de Launoy. Concluyó: «Si estamos obligados a seguir al mayor número de los Padres en este asunto, entonces debemos tener por cierto que la palabra "_petra_" significa **no a Pedro que profesa la fe, sino la fe profesada por Pedro**». Kenrick nunca llegó a pronunciarlo en el concilio; lo hizo imprimir en Nápoles (_Concio in Concilio Vaticano habenda at non habita_, 1870).
 
@@ -114,7 +116,7 @@ Incluso el moderno _Catecismo de la Iglesia Católica_ mantiene ambas lecturas u
 
 # Conclusión
 
-Los Padres no leyeron Mateo 16:18 como lo lee Roma hoy. Orígenes dijo que todo discípulo que confiesa a Cristo llega a ser una roca; Hilario, Ambrosio y Crisóstomo dijeron que la roca es la confesión de fe de Pedro; Agustín dijo «la roca era Cristo» y dejó que el lector escogiera; Jerónimo dijo que la iglesia descansa sobre todos los apóstoles por igual; Tertuliano y Cipriano, que llamaron roca a Pedro, negaron que la promesa hiciera a un obispo gobernante de los demás; y un obispo de Roma llamó a la pretensión de ser obispo universal la marca de un precursor del Anticristo. Un estudioso católico contó a los Padres y encontró a cuatro de cada cinco en contra de la lectura papal, y un arzobispo católico intentó decírselo al Vaticano I. La roca sobre la que está edificada la iglesia es la verdad que Pedro confesó —que Jesús es «el Cristo, el Hijo del Dios viviente»— y Cristo mismo.
+Los Padres no leyeron Mateo 16:18 como lo lee Roma hoy. Orígenes dijo que todo discípulo que confiesa a Cristo llega a ser una roca; Hilario, Ambrosio y Crisóstomo dijeron que la roca es la confesión de fe de Pedro; Agustín dijo «la roca era Cristo» y dejó que el lector escogiera; Jerónimo dijo que la iglesia descansa sobre todos los apóstoles por igual; Tertuliano y Cipriano, que llamaron roca a Pedro, negaron que la promesa hiciera a un obispo gobernante de los demás; y un obispo de Roma llamó a la pretensión de ser obispo universal la marca de un precursor del Anticristo. Un estudioso católico contó a los Padres y encontró que cuatro de cada cinco ni siquiera llamaban roca a Pedro, y que el quinto no quería decir lo que dicen los papas; y un arzobispo católico intentó decírselo al Vaticano I. La roca sobre la que está edificada la iglesia es la verdad que Pedro confesó —que Jesús es «el Cristo, el Hijo del Dios viviente»— y Cristo mismo.
 
 «Porque nadie puede poner otro fundamento que el que está puesto, el cual es Jesucristo». (1 Corintios 3:11)
 
