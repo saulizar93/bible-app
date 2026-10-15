@@ -207,8 +207,12 @@
 :root[data-theme="dark"] .settings-clear.danger { background: #e57368; color: #1a1a1a; }
 
 /* "Download App" (install + offline downloads), below "Clear saved data". */
+/* its own block, separated by a line, so it never sits right under the
+   "Yes, clear and reload" confirmation buttons */
 .settings-download {
-  margin-top: 14px;
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
 }
 .settings-download-btn {
   height: 38px;

@@ -635,3 +635,7 @@
 ## 2026-10-14 — The One True Church: the keys before the apostles
 
 - one-true-church.en.md / .es.md, section 7 ("The keys"): new point that the scribes and Pharisees held the "key of knowledge" before the apostles — Moses' seat (Matt 23:2-3), Luke 11:52 and its parallel Matt 23:13 — quoted in full (KJV / RVG); the key is the word declared, not an office.
+
+## 2026-10-14 — Settings: space between "Clear saved data" confirmation and "Download App"
+
+- SettingsModal.css `.settings-download`: margin-top 14px -> 20px, plus padding-top 16px and a divider line (border-top var(--line)), so the "Yes, clear and reload" / Cancel buttons no longer sit right above the Download App button.
