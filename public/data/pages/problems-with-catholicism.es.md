@@ -24,7 +24,27 @@ El texto principal del papado es Mateo 16:18. Los apologistas católicos explica
 - **Pablo no edificaba sobre fundamento ajeno** (Romanos 15:20), y sin embargo escribió a la iglesia de Roma, planeó visitarla, y en dieciséis capítulos, con saludos a más de dos docenas de personas de allí (Romanos 16), nunca menciona a Pedro.
 - **Los Padres no estaban de acuerdo con Roma.** Orígenes (c. 245) dijo que todo discípulo que confiesa a Cristo como Pedro «llega a ser un Pedro»; Hilario, Ambrosio y Crisóstomo dijeron que la roca es la confesión de fe de Pedro; Agustín dijo «la roca era Cristo» y dejó que el lector escogiera (_Retractaciones_ 1.21). El erudito católico Jean de Launoy contó a los intérpretes antiguos y encontró que cuatro de cada cinco ni siquiera identificaban la roca con Pedro. Y el quinto tampoco estaba de acuerdo con Roma: Tertuliano dijo que la promesa fue dada a Pedro personalmente y no podía pasarse a otros (_Sobre la modestia_ 21), y Cipriano dijo que cada apóstol tenía «igual participación tanto de honor como de poder». Fuera de los propios obispos de Roma, ni un solo Padre antiguo leyó el versículo como lo leen hoy los papas (vea **Mateo 16:18**).
 
-La palabra «iglesia» (_ekklesía_) significa una asamblea de llamados, los creyentes, no una institución con sede en una ciudad.
+### «Iglesia» significa asamblea
+
+La palabra que se traduce «iglesia» es el griego _ekklesía_ (Strong G1577), de _ek_ («fuera») y _kaléo_ («llamar»): una asamblea de personas llamadas y reunidas. Era una palabra común para una reunión de gente, no una institución religiosa, y el mismo Nuevo Testamento lo demuestra:
+
+- **Una turba pagana en Éfeso era una _ekklesía_.** Cuando los plateros de Éfeso se amotinaron contra Pablo, Lucas llama tres veces _ekklesía_ a la multitud del teatro, la misma palabra que Jesús usó en Mateo 16:18. Los traductores la vertieron como «concurrencia» y «asamblea», porque nadie podría llamar iglesia a una turba que gritaba «¡Grande es Diana de los efesios!»:
+
+> **Hechos 19:32:** «Unos, pues, gritaban una cosa, y otros otra; porque la **concurrencia** estaba confusa, y la mayoría de ellos no sabían por qué se habían reunido.»
+
+> **Hechos 19:39, 41:** «Y si demandáis alguna otra cosa, en legítima **asamblea** se puede decidir… Y habiendo dicho esto, despidió la **asamblea**.»
+
+- **Israel en el desierto era una _ekklesía_.** Esteban llamó al pueblo de Israel reunido en el Sinaí «la iglesia en el desierto» (Hechos 7:38), y el Antiguo Testamento griego usa _ekklesía_ para la asamblea de Israel (en hebreo _qahal_): «el día de la asamblea» en que Dios dio la Ley (Deuteronomio 9:10; 18:16). Sin papa ni jerarquía: un pueblo reunido por Dios.
+
+> **Hechos 7:38:** «Este es aquél que estuvo en la **iglesia en el desierto** con el Ángel que le hablaba en el monte Sinaí, y con nuestros padres; y recibió los oráculos de vida para dárnoslos.»
+
+- **Las iglesias del Nuevo Testamento se reunían en casas.** «Saludad también a la iglesia que está en su casa» (Romanos 16:5; también 1 Corintios 16:19; Colosenses 4:15; Filemón 2). Cuando Jesús dijo «dilo a la iglesia» (Mateo 18:17), hablaba de la reunión local de los creyentes.
+
+Así que cuando Jesús dijo «edificaré mi **ekklesía**», hablaba de su pueblo, los que Él llama fuera del mundo y reúne a sí mismo, no de una institución con sede, jerarquía y ciudad capital.
+
+### ¿Por qué «iglesia» y no «congregación»?
+
+«Iglesia» no es una traducción de _ekklesía_, sino una transliteración: la palabra griega pasó al latín como _ecclesia_ y al español como «iglesia», y con el tiempo llegó a significar un edificio y una institución. En inglés pasó algo parecido: «church» viene del griego _kyriakón_, «la [casa] del Señor», un edificio. **William Tyndale**, en el primer Nuevo Testamento inglés traducido del griego (1526), tradujo _ekklesía_ como «**congregación**». El canciller católico **Tomás Moro** lo atacó por ello (_Diálogo sobre las herejías_, 1529), porque «congregación» sacaba a la institución del texto. Cuando los traductores del rey Jacobo comenzaron su trabajo en 1604, las reglas que les dio el arzobispo Richard Bancroft exigían: «**Que se conserven las antiguas palabras eclesiásticas; a saber, que la palabra _iglesia_ no se traduzca _congregación_**» (Regla 3). La palabra se conservó porque apoyaba una iglesia como institución (edificios, obispos y jerarquía) en lugar de una congregación de creyentes. Sin embargo, en Hechos 19, donde _ekklesía_ significaba un motín, los mismos traductores escribieron «asamblea».
 
 # 2. Las llaves
 

@@ -24,7 +24,27 @@ The main text for the papacy is Matthew 16:18. Catholic apologists explain that 
 - **Paul did not build on another man's foundation** (Romans 15:20) — yet he wrote to the church of Rome, planned to visit it, and in sixteen chapters, with greetings to more than two dozen people there (Romans 16), never mentions Peter.
 - **The Fathers did not agree with Rome.** Origen (c. 245) said every disciple who confesses Christ as Peter did "becomes a Peter"; Hilary, Ambrose and Chrysostom said the rock is Peter's confession of faith; Augustine said "the rock was Christ" and left the reader to choose (_Retractations_ 1.21). The Catholic scholar Jean de Launoy counted the ancient interpreters and found that four in five did not even identify the rock with Peter. And the fifth did not agree with Rome either: Tertullian said the promise was given to Peter personally and could not be passed on (_On Modesty_ 21), and Cyprian said every apostle had "a like partnership both of honour and power." Outside Rome's own bishops, not one early Father read the verse the way the popes do today (see **Matthew 16:18**).
 
-The word "church" (_ekklesia_) means an assembly of called-out people — the believers — not an institution with headquarters in a city.
+### "Church" means assembly
+
+The word translated "church" is the Greek _ekklesia_ (Strong's G1577), from _ek_ ("out") and _kaleo_ ("to call"): an assembly of people called out and gathered together. It was an ordinary word for a meeting of people, not a religious institution, and the New Testament itself proves it:
+
+- **A pagan mob in Ephesus was an _ekklesia_.** When the silversmiths of Ephesus rioted against Paul, Luke calls the crowd in the theater an _ekklesia_ three times — the same word Jesus used in Matthew 16:18. The translators rendered it "assembly" there, because no one could call a mob shouting "Great is Diana of the Ephesians" a church:
+
+> **Acts 19:32:** "Some therefore cried one thing, and some another: for the **assembly** was confused; and the more part knew not wherefore they were come together."
+
+> **Acts 19:39, 41:** "But if ye enquire any thing concerning other matters, it shall be determined in a lawful **assembly**… And when he had thus spoken, he dismissed the **assembly**."
+
+- **Israel in the desert was an _ekklesia_.** Stephen called the people of Israel gathered at Sinai "the church in the wilderness" (Acts 7:38), and the Greek Old Testament uses _ekklesia_ for the assembly of Israel (Hebrew _qahal_) — "the day of the assembly" when God gave the Law (Deuteronomy 9:10; 18:16). No pope, no hierarchy: a people gathered by God.
+
+> **Acts 7:38:** "This is he, that was in the **church in the wilderness** with the angel which spake to him in the mount Sina, and with our fathers: who received the lively oracles to give unto us."
+
+- **The churches of the New Testament met in houses.** "Greet the church that is in their house" (Romans 16:5; also 1 Corinthians 16:19; Colossians 4:15; Philemon 2). When Jesus said "tell it unto the church" (Matthew 18:17), He meant the local gathering of believers.
+
+So when Jesus said "I will build my **ekklesia**," He was speaking of His people — those He calls out of the world and gathers to Himself — not of an institution with a headquarters, a hierarchy and a capital city.
+
+### Why "church" and not "congregation"?
+
+The English word "church" does not come from _ekklesia_ at all; it comes from the Greek _kyriakon_, "the Lord's [house]" — a building. **William Tyndale**, in the first English New Testament translated from the Greek (1526), rendered _ekklesia_ as "**congregation**." The Catholic Lord Chancellor **Thomas More** attacked him for it (_Dialogue Concerning Heresies_, 1529), because "congregation" took the institution out of the text. When King James's translators began their work in 1604, the rules given to them by Archbishop Richard Bancroft required: "**The old ecclesiastical words to be kept, viz. the word _church_ not to be translated _congregation_**" (Rule 3). The word was kept because it supported a church as an institution — buildings, bishops and hierarchy — rather than a congregation of believers. Yet in Acts 19, where _ekklesia_ meant a riot, the same translators wrote "assembly."
 
 # 2. The keys
 
