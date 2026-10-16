@@ -219,7 +219,7 @@ The Bible's way is the Bereans' way: every teacher, every church and every tradi
 # 11. Common objections
 
 - **"The Bible does not list its own canon."** God's people recognized His Word before any council in Rome; see **Who gave us the Bible?**
-- **"Hold the traditions… whether by word, or our epistle" (2 Thessalonians 2:15).** Paul's traditions were the apostles' own teaching, and the only apostolic teaching we can verify today is the written one. Paul never appeals to a tradition that contradicts or adds to what he wrote; he tells the church to avoid anyone who does not follow it (2 Thessalonians 3:6, 14).
+- **"Hold the traditions… whether by word, or our epistle" (2 Thessalonians 2:15).** Notice Paul's two categories: "By word"- the apostolic teaching Paul delivered orally while present with the Thessalonians; and by "our epistle": the same apostolic teaching Paul delivered in writing. The contrast is between two modes of delivering the same teaching, not between two **different** complementary sources of information. Both forms came from the apostles themselves. Paul never appeals to a tradition that contradicts or adds to what he wrote; he instructs the church to distance itself from anyone who does not follow it (2 Thessalonians 3:6, 14).
 - **"Not everything Jesus did is written" (John 21:25).** True — but John says what **is** written is enough to believe and have life (John 20:31).
 - **"The church is the pillar and ground of the truth" (1 Timothy 3:15).** A pillar holds up the truth; it does not create it or sit above it. See **The One True Church**.
 

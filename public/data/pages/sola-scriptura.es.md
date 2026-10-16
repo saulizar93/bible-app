@@ -219,7 +219,7 @@ El camino de la Biblia es el de los de Berea: todo maestro, toda iglesia y toda 
 # 11. Objeciones comunes
 
 - **«La Biblia no da la lista de sus propios libros».** El pueblo de Dios reconoció su Palabra antes de cualquier concilio en Roma; vea **¿Quién nos dio la Biblia?**
-- **«Retened la doctrina… sea por palabra, o por carta nuestra» (2 Tesalonicenses 2:15).** Las tradiciones de Pablo eran la enseñanza de los propios apóstoles, y la única enseñanza apostólica que hoy podemos comprobar es la escrita. Pablo nunca apela a una tradición que contradiga o añada a lo que escribió; manda a la iglesia apartarse de quien no la siga (2 Tesalonicenses 3:6, 14).
+- **«Retened la doctrina… sea por palabra, o por carta nuestra» (2 Tesalonicenses 2:15).** Observa las dos categorías que señala Pablo: «de palabra» —la enseñanza apostólica que Pablo transmitió oralmente mientras estaba presente con los tesalonicenses— y «por nuestra epístola»: esa misma enseñanza apostólica que Pablo transmitió por escrito. El contraste radica en dos modalidades de transmisión de una misma enseñanza, no en dos fuentes de información **distintas** y complementarias. Ambas formas provienen de los propios apóstoles. Pablo nunca apela a una tradición que contradiga o añada a lo que escribió; manda a la iglesia apartarse de quien no la siga (2 Tesalonicenses 3:6, 14).
 - **«No todo lo que Jesús hizo está escrito» (Juan 21:25).** Es cierto, pero Juan dice que lo que **está** escrito basta para creer y tener vida (Juan 20:31).
 - **«La iglesia es columna y apoyo de la verdad» (1 Timoteo 3:15).** Una columna sostiene la verdad; no la crea ni está por encima de ella. Vea **La única iglesia verdadera**.
 
