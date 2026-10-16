@@ -81,6 +81,10 @@ export const INFO_PAGES = [
     label: { en: "Problems with Mormonism", es: "Problemas con el mormonismo" },
   },
   {
+    id: "biblical-salvation",
+    label: { en: "Biblical Salvation", es: "La salvación bíblica" },
+  },
+  {
     id: "sola-scriptura",
     label: { en: "Sola Scriptura", es: "Sola Scriptura" },
   },
