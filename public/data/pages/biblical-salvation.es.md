@@ -178,7 +178,7 @@ El evangelio nos llama a creer en el sacrificio de Jesús, a arrepentirnos y a b
 
 ### «Para» perdón de los pecados, no «a causa de»
 
-Algunos enseñan que en Hechos 2:38 _eis aphesin hamartiōn_ significa «**a causa del** perdón de los pecados», como si los pecados ya estuvieran perdonados antes del bautismo. La propuesta la hizo Julius R. Mantey (1951), y el erudito Ralph Marcus le respondió enseguida, mostrando que los ejemplos griegos ofrecidos no establecen un sentido causal (_Journal of Biblical Literature_, 1951–1952). La respuesta decisiva está en la Biblia misma: Jesús usó **exactamente la misma frase** para su propia sangre, «derramada por muchos **para remisión de pecados**» (_eis aphesin hamartiōn_, Mateo 26:28). Jesús no derramó su sangre porque los pecados ya estuvieran perdonados, sino **para que** lo fueran. El bautismo de Juan también era «para remisión de pecados» (Marcos 1:4), y Ananías le dijo a Pablo: «sé bautizado; y **lava** tus pecados» (Hechos 22:16).
+Algunos enseñan que en Hechos 2:38 _eis aphesin hamartiōn_ significa «**a causa del** perdón de los pecados», como si los pecados ya estuvieran perdonados antes del bautismo. La propuesta la hizo Julius R. Mantey (1951), y el erudito Ralph Marcus le respondió enseguida, mostrando que los ejemplos griegos ofrecidos no establecen un sentido causal (_Journal of Biblical Literature_, 1951–1952). La respuesta decisiva está en la Biblia misma: Jesús usó **exactamente la misma frase** para su propia sangre, «derramada por muchos **para remisión de pecados**» (_eis aphesin hamartiōn_, Mateo 26:28). Jesús no derramó su sangre porque los pecados ya estuvieran perdonados, sino **para que** lo fueran. Ananías le dijo a Pablo: «sé bautizado; y **lava** tus pecados» (Hechos 22:16). El bautismo de Juan también era «para remisión de pecados» (Marcos 1:4) en su dispensación, antes de ser remplazado por el bautismo de Jesús (Hechos 19:3-5).
 
 > **Mateo 26:28:** «porque esto es mi sangre del nuevo testamento, la cual es derramada por muchos para remisión de pecados.»
 
@@ -277,6 +277,24 @@ Los **dones** espirituales no son lo mismo que el **fruto** del Espíritu. Mucho
 > **1 Corintios 11:20-21:** «Así que cuando vosotros os reunís en un lugar, esto no es comer la cena del Señor. Pues al comer, cada uno se adelanta a tomar su propia cena; y uno tiene hambre, y otro está embriagado.»
 
 > **1 Corintios 13:1-3:** «Si yo hablase lenguas humanas y angélicas, y no tengo caridad, vengo a ser como metal que resuena, o címbalo que retiñe. Y si tuviese el don de profecía, y entendiese todos los misterios y toda ciencia; y si tuviese toda la fe, de tal manera que trasladase los montes, y no tengo caridad, nada soy. Y si repartiese todos mis bienes para dar de comer a los pobres, y si entregase mi cuerpo para ser quemado, y no tengo caridad, de nada me sirve.»
+
+Pablo no daba por hecho que todos los de Corinto que tenían dones eran salvos. Les advirtió claramente que los fornicarios, idólatras, adúlteros, ladrones, borrachos y otros semejantes «no heredarán el reino de Dios», y les recordó: «esto erais algunos de vosotros», pero habían sido lavados y justificados «en el nombre del Señor Jesús». Les dijo que con un llamado hermano que viviera así ni siquiera comieran. Les recordó que todo Israel fue bautizado «en Moisés» y comió el mismo alimento espiritual, «pero Dios no se agradó de muchos de ellos»: «el que piensa estar firme, mire que no caiga». Les dijo que «algunos no conocen a Dios», temía que muchos «no se han arrepentido» de su inmundicia y fornicación, y les mandó: «Examinaos a vosotros mismos si estáis en la fe». Los dones no probaban que alguien fuera salvo; la vida sí.
+
+> **1 Corintios 6:9-11:** «¿No sabéis que los injustos no heredarán el reino de Dios? No os engañéis: Ni los fornicarios, ni los idólatras, ni los adúlteros, ni los afeminados, ni los que se echan con varones, ni los ladrones, ni los avaros, ni los borrachos, ni los maldicientes, ni los estafadores, heredarán el reino de Dios. Y esto erais algunos de vosotros; mas ya sois lavados, ya sois santificados, ya sois justificados en el nombre del Señor Jesús, y por el Espíritu de nuestro Dios.»
+
+> **1 Corintios 5:11-13:** «Mas ahora os he escrito, que no os asociéis con ninguno que, llamándose hermano, sea fornicario, o avaro, o idólatra, o maldiciente, o borracho, o ladrón, con el tal ni aun comáis. Porque ¿qué me va a mí en juzgar a los que están fuera? ¿No juzgáis vosotros a los que están dentro? Porque a los que están fuera, Dios juzgará. Quitad, pues, a ese perverso de entre vosotros.»
+
+> **1 Corintios 10:1-5:** «Mas no quiero, hermanos, que ignoréis que nuestros padres todos estuvieron bajo la nube, y todos pasaron a través del mar; y todos en Moisés fueron bautizados en la nube y en el mar; y todos comieron el mismo alimento espiritual; y todos bebieron la misma bebida espiritual; porque bebían de la Roca espiritual que los seguía, y la Roca era Cristo. Pero Dios no se agradó de muchos de ellos; por lo cual quedaron postrados en el desierto.»
+
+> **1 Corintios 10:11-12:** «Y todas estas cosas les acontecieron como ejemplo; y están escritas para amonestarnos a nosotros, sobre quienes los fines de los siglos han venido. Así que, el que piensa estar firme, mire que no caiga.»
+
+> **1 Corintios 15:33-34:** «No os engañéis; las malas conversaciones corrompen las buenas costumbres. Despertad a justicia, y no pequéis; porque algunos no conocen a Dios; para vergüenza vuestra lo digo.»
+
+> **2 Corintios 12:20-21:** «Pues temo que cuando llegare, no os halle tales como quiero, y yo sea hallado de vosotros cual no queréis; que haya entre vosotros contiendas, envidias, iras, disensiones, insidias, murmuraciones, presunciones, desórdenes. No sea que cuando volviere, mi Dios me humille entre vosotros, y haya de llorar por muchos de los que antes han pecado, y no se han arrepentido de la inmundicia y fornicación, y la lascivia que han cometido.»
+
+> **2 Corintios 13:5:** «Examinaos a vosotros mismos si estáis en la fe; probaos a vosotros mismos. ¿No os conocéis a vosotros mismos, que Jesucristo está en vosotros, a menos que seáis reprobados?»
+
+> **Gálatas 5:19-21:** «Y manifiestas son las obras de la carne, que son: Adulterio, fornicación, inmundicia, lascivia, idolatría, hechicerías, enemistades, pleitos, celos, iras, contiendas, disensiones, herejías, envidias, homicidios, borracheras, desenfrenos y cosas semejantes a estas; de las cuales os denuncio, como también ya os denuncié, que los que hacen tales cosas no heredarán el reino de Dios.»
 
 # 13. El fruto del Espíritu
 

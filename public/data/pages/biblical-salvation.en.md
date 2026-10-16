@@ -176,7 +176,7 @@ The gospel calls us to believe in the sacrifice of Jesus, to repent, and to be b
 
 ### "For" the remission of sins — not "because of"
 
-Some teach that in Acts 2:38 _eis aphesin hamartiōn_ means "**because** of the remission of sins," as if sins were already forgiven before baptism. The suggestion was made by Julius R. Mantey (1951) and answered at once by the scholar Ralph Marcus, who showed that the Greek examples offered do not establish a causal meaning (_Journal of Biblical Literature_, 1951–1952). The decisive answer is in the Bible itself: Jesus used **the exact same phrase** of His own blood — "shed for many **for the remission of sins**" (_eis aphesin hamartiōn_, Matthew 26:28). Jesus did not shed His blood because sins were already forgiven, but **in order that** they might be. John's baptism was likewise "for the remission of sins" (Mark 1:4), and Ananias told Paul, "be baptized, and **wash away** thy sins" (Acts 22:16).
+Some teach that in Acts 2:38 _eis aphesin hamartiōn_ means "**because** of the remission of sins," as if sins were already forgiven before baptism. The suggestion was made by Julius R. Mantey (1951) and answered at once by the scholar Ralph Marcus, who showed that the Greek examples offered do not establish a causal meaning (_Journal of Biblical Literature_, 1951–1952). The decisive answer is in the Bible itself: Jesus used **the exact same phrase** of His own blood — "shed for many **for the remission of sins**" (_eis aphesin hamartiōn_, Matthew 26:28). Jesus did not shed His blood because sins were already forgiven, but **in order that** they might be. Ananias told Paul, "be baptized, and **wash away** thy sins" (Acts 22:16). John's baptism was likewise "for the remission of sins" in his dispensation (Mark 1:4) before replaced by Jesus' baptism (Acts 19:3-5).
 
 > **Matthew 26:28:** "For this is my blood of the new testament, which is shed for many for the remission of sins."
 
@@ -275,6 +275,24 @@ Spiritual **gifts** are not the same as the **fruit** of the Spirit. Many will s
 > **1 Corinthians 11:20-21:** "When ye come together therefore into one place, this is not to eat the Lord’s supper. For in eating every one taketh before other his own supper: and one is hungry, and another is drunken."
 
 > **1 Corinthians 13:1-3:** "Though I speak with the tongues of men and of angels, and have not charity, I am become as sounding brass, or a tinkling cymbal. And though I have the gift of prophecy, and understand all mysteries, and all knowledge; and though I have all faith, so that I could remove mountains, and have not charity, I am nothing. And though I bestow all my goods to feed the poor, and though I give my body to be burned, and have not charity, it profiteth me nothing."
+
+Paul did not assume that everyone in Corinth who had gifts was saved. He warned them plainly that fornicators, idolaters, adulterers, thieves, drunkards and the like "shall not inherit the kingdom of God" — and reminded them, "such were some of you," but they had been washed and justified "in the name of the Lord Jesus." He told them not even to eat with a so-called brother who lived that way. He reminded them that all Israel was baptized "unto Moses" and ate the same spiritual meat, "but with many of them God was not well pleased": "let him that thinketh he standeth take heed lest he fall." He said that "some have not the knowledge of God," feared that many had "not repented" of their uncleanness and fornication, and told them, "Examine yourselves, whether ye be in the faith." Gifts did not prove that anyone was saved; the life did.
+
+> **1 Corinthians 6:9-11:** "Know ye not that the unrighteous shall not inherit the kingdom of God? Be not deceived: neither fornicators, nor idolaters, nor adulterers, nor effeminate, nor abusers of themselves with mankind, Nor thieves, nor covetous, nor drunkards, nor revilers, nor extortioners, shall inherit the kingdom of God. And such were some of you: but ye are washed, but ye are sanctified, but ye are justified in the name of the Lord Jesus, and by the Spirit of our God."
+
+> **1 Corinthians 5:11-13:** "But now I have written unto you not to keep company, if any man that is called a brother be a fornicator, or covetous, or an idolater, or a railer, or a drunkard, or an extortioner; with such an one no not to eat. For what have I to do to judge them also that are without? do not ye judge them that are within? But them that are without God judgeth. Therefore put away from among yourselves that wicked person."
+
+> **1 Corinthians 10:1-5:** "Moreover, brethren, I would not that ye should be ignorant, how that all our fathers were under the cloud, and all passed through the sea; And were all baptized unto Moses in the cloud and in the sea; And did all eat the same spiritual meat; And did all drink the same spiritual drink: for they drank of that spiritual Rock that followed them: and that Rock was Christ. But with many of them God was not well pleased: for they were overthrown in the wilderness."
+
+> **1 Corinthians 10:11-12:** "Now all these things happened unto them for ensamples: and they are written for our admonition, upon whom the ends of the world are come. Wherefore let him that thinketh he standeth take heed lest he fall."
+
+> **1 Corinthians 15:33-34:** "Be not deceived: evil communications corrupt good manners. Awake to righteousness, and sin not; for some have not the knowledge of God: I speak this to your shame."
+
+> **2 Corinthians 12:20-21:** "For I fear, lest, when I come, I shall not find you such as I would, and that I shall be found unto you such as ye would not: lest there be debates, envyings, wraths, strifes, backbitings, whisperings, swellings, tumults: And lest, when I come again, my God will humble me among you, and that I shall bewail many which have sinned already, and have not repented of the uncleanness and fornication and lasciviousness which they have committed."
+
+> **2 Corinthians 13:5:** "Examine yourselves, whether ye be in the faith; prove your own selves. Know ye not your own selves, how that Jesus Christ is in you, except ye be reprobates?"
+
+> **Galatians 5:19-21:** "Now the works of the flesh are manifest, which are these; Adultery, fornication, uncleanness, lasciviousness, Idolatry, witchcraft, hatred, variance, emulations, wrath, strife, seditions, heresies, Envyings, murders, drunkenness, revellings, and such like: of the which I tell you before, as I have also told you in time past, that they which do such things shall not inherit the kingdom of God."
 
 # 13. The fruit of the Spirit
 
