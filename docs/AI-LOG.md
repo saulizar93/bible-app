@@ -663,3 +663,8 @@
 ## 2026-10-14 — Bible Translations: more TR/MT differences; how the Comma Johanneum entered the TR
 
 - translations.en.md / .es.md, "TR and MT: almost the same text": new examples John 17:11 (TR "those whom" = Vulgate quos; majority "thy name which thou hast given me"; v.12 MT = TR, CT "name"), Luke 2:22 ("her" vs "their" purification), Rev 16:5 ("and shalt be", Beza's 1598 conjecture). Intro sentence now covers Latin readings and editors' choices. 1 John 5:7-8 expanded: omitted in Erasmus's 1516/1519 editions, attacked by Edward Lee and Diego López de Zúñiga (Stunica), Codex Montfortianus (c. 1520), added in 1522 "lest anyone have occasion for slander" while suspecting the MS had been conformed to the Latin. Verified against KJV/MSB/BSB/RVG in the app (MSB has "name" in 17:11 and "those You gave Me" in 17:12).
+
+## 2026-10-15 — Stop browser auto-translation (Android: "Gr" -> "Gramo", blank screen)
+
+- Cause: <html lang="en"> while the app showed Spanish, so Chrome on Android offered/applied Google Translate. It translated "Gr" (Greek toggle) as "Gramo" (gram), and its rewriting of text nodes breaks React's DOM updates, leaving a blank screen.
+- index.html: `<html translate="no" class="notranslate">` and `<meta name="google" content="notranslate">`. App.jsx: `document.documentElement.lang` follows the app language (en/es).

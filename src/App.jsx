@@ -96,6 +96,12 @@ export default function App() {
     bottom: savedDefault(STORAGE_KEYS.DEFAULT_BOTTOM),
   }));
 
+  // <html lang> follows the app language, so browsers don't think a Spanish
+  // screen is English and offer to translate it (see index.html notranslate).
+  useEffect(() => {
+    document.documentElement.lang = lang || "en";
+  }, [lang]);
+
   // Settings: light / dark theme (app_theme), applied on <html>.
   const [theme, setTheme] = useState(loadTheme);
   useEffect(() => applyTheme(theme), [theme]);
