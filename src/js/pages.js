@@ -80,6 +80,10 @@ export const INFO_PAGES = [
     id: "problems-with-mormonism",
     label: { en: "Problems with Mormonism", es: "Problemas con el mormonismo" },
   },
+  {
+    id: "key-oneness-verses",
+    label: { en: "Key Oneness verses", es: "Versículos clave de la Unicidad" },
+  },
   { id: "bibliography", label: { en: "Bibliography", es: "Bibliografía" } },
   { id: "author", label: { en: "About the Author", es: "Acerca del autor" } },
   // Not a Markdown page: InfoPanel shows the ReportBugForm for this id.

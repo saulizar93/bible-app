@@ -668,3 +668,11 @@
 
 - Cause: <html lang="en"> while the app showed Spanish, so Chrome on Android offered/applied Google Translate. It translated "Gr" (Greek toggle) as "Gramo" (gram), and its rewriting of text nodes breaks React's DOM updates, leaving a blank screen.
 - index.html: `<html translate="no" class="notranslate">` and `<meta name="google" content="notranslate">`. App.jsx: `document.documentElement.lang` follows the app language (en/es).
+
+## 2026-10-16 — Info page: Key Oneness verses
+
+- src/js/pages.js: new entry `key-oneness-verses` ("Key Oneness verses" / "Versículos clave de la Unicidad") right below "Problems with Mormonism".
+- public/data/pages/key-oneness-verses.en.md / .es.md, generated with fill_quotes.py from tmp-check/qgen/key-oneness-verses.{en,es}.tpl: 21 sections from the author's outline, 258 verses quoted in full per language (KJV / RVG; BSB for Acts 16:6-7, John 17:11-12, Rev 14:1 in English, with the BSB reading translated in the Spanish text; NRSV/AMPC only as short phrases for Jas 2:7 and Gal 3:20). Inline quotations checked against KJV/RVG.
+- fill_quotes.py: a ref may end with [BSB] / [MSB] / [KJV] to quote that Bible (label "(BSB)").
+- Added verses: Joel 2:32 + Acts 2:21, Rom 10:13; Col 3:17; Isa 64:8; Matt 23:9; John 4:24; 1 Cor 6:17; Mark 16:16; John 8:24; Mark 1:2; John 19:37; Rev 1:17-18; Isa 45:12; Luke 2:11; Isa 6:1-5 + John 12:41; Jer 17:10 + Rev 2:23; Isa 8:13-14 + 1 Pet 2:7-8; Gal 4:6 (Father); Heb 10:15-17 + Jer 31:33; Acts 5:3-4; 2 Sam 23:2-3; Rev 5:8; 8:3-4; Matt 6:6; John 14:13-14; 1 Tim 2:5; Heb 5:14; 1 Cor 14:29; 2:15; 5:12; John 1:14; Isa 55:11; Heb 11:3; Rev 19:13.
+- Corrections to the outline: "one flesh" with mia is Matt 19:5-6 (Matt 26:69 is "a damsel", mia paidiskē — kept as a second mia example); "one body" in 1 Cor 12:13 is hen (sōma is neuter), and Gal 3:28 "ye are all one (heis)" is explained by Eph 2:15 "one new man"; added John 17:21-22 and 1 Cor 3:8 as hen used for a unity of persons; Ps 33:3 -> 33:6 (the verse about the word of the LORD); 1 Pet 1:1 -> 1:2 and Jude 1 -> Jude 1:1; Titus 1:3 -> 1:13; Malachi 3:1 paired with Mark 1:2 as well as John 2:19-21; Isa 45:8 -> 45:12; 2 Pet 3:5,7 moved to "The Word".
