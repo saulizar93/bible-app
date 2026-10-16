@@ -32,11 +32,11 @@ Ahora Dios nos está cortejando. Quiere una esposa, no un esclavo; está a la pu
 
 # 2. Los que lo rechazan reciben lo que escogieron
 
-El mal no es algo que Dios haya creado; es la ausencia del bien, lo que queda donde Dios no está (Agustín lo llamó _privatio boni_, la privación del bien). En esta vida solo probamos lo que es el mal, porque Dios todavía lo detiene y su pueblo todavía es «la sal de la tierra». Imagine el mundo cuando Dios se retire por completo. Los que lo rechazan reciben exactamente lo que pidieron: **la separación de Dios**. Jesús lo describió como un fuego que nunca se apaga y un gusano que nunca muere.
+El mal no es algo que Dios haya creado; es la ausencia del bien, lo que queda donde Dios no está (Agustín lo llamó _privatio boni_, la privación del bien). En esta vida solo probamos lo que es el mal, porque Dios todavía lo detiene y su pueblo todavía es «la sal de la tierra». Imagine el mundo cuando Dios se retire por completo. Los que lo rechazan reciben exactamente lo que pidieron: **la separación de Dios**. Jesús lo describió como un fuego que nunca se apaga y un gusano que nunca muere, probablemente debido a la gran cantidad de combustible que se está suministrando al infierno.
 
 > **Mateo 5:13-14:** «Vosotros sois la sal de la tierra; pero si la sal pierde su sabor, ¿con qué será salada? No sirve más para nada, sino para ser echada fuera y ser hollada por los hombres. Vosotros sois la luz del mundo. Una ciudad asentada sobre un monte no se puede esconder.»
 
-> **2 Tesalonicenses 1:8-9:** «en llama de fuego, para cobrar venganza de los que no conocen a Dios, y no obedecen al evangelio de nuestro Señor Jesucristo; los cuales serán castigados con eterna destrucción de la presencia del Señor, y de la gloria de su poder,»
+> **2 Tesalonicenses 1:8-9 (BSB):** «en fuego llameante, infligiendo venganza sobre aquellos que no conocen a Dios y no obedecen el evangelio de nuestro Señor Jesús. Ellos sufrirán la pena de destrucción eterna, **separados** de la presencia del Señor y de la gloria de su poder,»
 
 > **Mateo 25:41:** «Entonces dirá también a los de la izquierda: Apartaos de mí, malditos, al fuego eterno preparado para el diablo y sus ángeles.»
 
@@ -136,7 +136,7 @@ Jesús no dijo «haced el fruto bueno», sino «haced el árbol bueno y su fruto
 
 En el juicio de las naciones, el Pastor primero **aparta** las ovejas de los cabritos, «como aparta el pastor las ovejas de los cabritos», y solo después habla de lo que hizo cada uno. Las ovejas ni siquiera recuerdan sus buenas obras; las hicieron porque eso es lo que son las ovejas.
 
-> **Mateo 25:31-40:** «Cuando el Hijo del Hombre venga en su gloria, y todos los santos ángeles con Él, entonces se sentará sobre el trono de su gloria; y serán reunidas delante de Él todas las naciones; y apartará los unos de los otros, como aparta el pastor las ovejas de los cabritos; y pondrá las ovejas a su derecha, y los cabritos a la izquierda. Entonces el Rey dirá a los de su derecha: Venid, benditos de mi Padre, heredad el reino preparado para vosotros desde la fundación del mundo. Porque tuve hambre, y me disteis de comer; tuve sed, y me disteis de beber; fui extranjero, y me recogisteis; \+add estuve\+add* desnudo, y me cubristeis; enfermo, y me visitasteis; en la cárcel, y vinisteis a mí. Entonces los justos le responderán, diciendo: Señor, ¿cuándo te vimos hambriento, y te sustentamos, o sediento, y te dimos de beber? ¿Y cuándo te vimos extranjero, y te recogimos, o desnudo, y te cubrimos? ¿O cuándo te vimos enfermo o en la cárcel, y vinimos a ti? Y respondiendo el Rey, les dirá: De cierto os digo: En cuanto lo hicisteis a uno de estos mis hermanos más pequeños, a mí lo hicisteis.»
+> **Mateo 25:31-40:** «Cuando el Hijo del Hombre venga en su gloria, y todos los santos ángeles con Él, entonces se sentará sobre el trono de su gloria; y serán reunidas delante de Él todas las naciones; y apartará los unos de los otros, como aparta el pastor las ovejas de los cabritos; y pondrá las ovejas a su derecha, y los cabritos a la izquierda. Entonces el Rey dirá a los de su derecha: Venid, benditos de mi Padre, heredad el reino preparado para vosotros desde la fundación del mundo. Porque tuve hambre, y me disteis de comer; tuve sed, y me disteis de beber; fui extranjero, y me recogisteis; \+add estuve\+add\* desnudo, y me cubristeis; enfermo, y me visitasteis; en la cárcel, y vinisteis a mí. Entonces los justos le responderán, diciendo: Señor, ¿cuándo te vimos hambriento, y te sustentamos, o sediento, y te dimos de beber? ¿Y cuándo te vimos extranjero, y te recogimos, o desnudo, y te cubrimos? ¿O cuándo te vimos enfermo o en la cárcel, y vinimos a ti? Y respondiendo el Rey, les dirá: De cierto os digo: En cuanto lo hicisteis a uno de estos mis hermanos más pequeños, a mí lo hicisteis.»
 
 > **Juan 10:27-28:** «Mis ovejas oyen mi voz, y yo las conozco, y me siguen; y yo les doy vida eterna, y no perecerán jamás, ni nadie las arrebatará de mi mano.»
 
@@ -144,7 +144,9 @@ En el juicio de las naciones, el Pastor primero **aparta** las ovejas de los cab
 
 Un cristiano es un **discípulo** (_mathētēs_, el que aprende) de Cristo. Jesús dijo a sus seguidores que no se dejaran llamar «Rabí» ni «maestro», porque uno es nuestro Maestro, el Cristo. No somos discípulos de un papa ni de un pastor, sino de Jesús; los maestros en la iglesia solo transmiten lo que Él mandó.
 
-> **Mateo 23:8-10:** «Mas vosotros no queráis que os llamen Rabí; porque uno es vuestro Maestro, el Cristo, y todos vosotros sois hermanos. Y no llaméis vuestro padre a nadie en la tierra; porque uno es vuestro Padre, el que está en el cielo. Ni seáis llamados maestros; porque uno es vuestro Maestro, el Cristo.»
+> **Mateo 23:8-10 (BSB):** «Pero ustedes no deben dejarse llamar "Rabí", porque tienen un solo **Maestro**, y todos ustedes son hermanos. Y no llamen "padre" a nadie en la tierra, porque tienen un solo Padre, el que está en el cielo. Tampoco deben dejarse llamar "instructores", porque tienen un solo Instructor: el Cristo."
+
+Mateo 23:8–10 (BSB)»
 
 > **Juan 13:13:** «Vosotros me llamáis Maestro, y Señor, y decís bien, porque lo soy.»
 

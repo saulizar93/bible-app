@@ -32,11 +32,11 @@ Now God is courting us. He wants a bride, not a slave; He stands at the door and
 
 # 2. Those who refuse Him get what they chose
 
-Evil is not a thing God created; it is the absence of good — what remains where God is not (Augustine called it _privatio boni_, the privation of good). In this life we only taste what evil is, because God still restrains it, and His people are still "the salt of the earth." Imagine the world when God withdraws completely. Those who reject Him receive exactly what they asked for: **separation from God**. Jesus described it as a fire that is never quenched and a worm that never dies.
+Evil is not a thing God created; it is the absence of good — what remains where God is not (Augustine called it _privatio boni_, the privation of good). In this life we only taste what evil is, because God still restrains it, and His people are still "the salt of the earth." Imagine the world when God withdraws completely. Those who reject Him receive exactly what they asked for: **separation from God**. Jesus described it as a fire that is never quenched and a worm that never dies, probably because of how much fuel is being fed into hell.
 
 > **Matthew 5:13-14:** "Ye are the salt of the earth: but if the salt have lost his savour, wherewith shall it be salted? it is thenceforth good for nothing, but to be cast out, and to be trodden under foot of men. Ye are the light of the world. A city that is set on an hill cannot be hid."
 
-> **2 Thessalonians 1:8-9:** "In flaming fire taking vengeance on them that know not God, and that obey not the gospel of our Lord Jesus Christ: Who shall be punished with everlasting destruction from the presence of the Lord, and from the glory of his power;"
+> **2 Thessalonians 1:8-9 (BSB):** "in blazing fire, inflicting vengeance on those who do not know God and do not obey the gospel of our Lord Jesus. They will suffer the penalty of eternal destruction, **separated** from the presence of the Lord and the glory of His might,"
 
 > **Matthew 25:41:** "Then shall he say also unto them on the left hand, Depart from me, ye cursed, into everlasting fire, prepared for the devil and his angels:"
 
@@ -144,7 +144,7 @@ In the judgment of the nations, the Shepherd **separates** the sheep from the go
 
 A Christian is a **disciple** (_mathētēs_, a learner) of Christ. Jesus told His followers not to be called "Rabbi" or "master," because one is our Master, Christ. We are not disciples of a pope or a pastor, but of Jesus; teachers in the church only pass on what He commanded.
 
-> **Matthew 23:8-10:** "But be not ye called Rabbi: for one is your Master, even Christ; and all ye are brethren. And call no man your father upon the earth: for one is your Father, which is in heaven. Neither be ye called masters: for one is your Master, even Christ."
+> **Matthew 23:8-10 (BSB):** "But you are not to be called ‘Rabbi,’ for you have one **Teacher**, and you are all brothers. And do not call anyone on earth your father, for you have one Father, who is in heaven. Nor are you to be called instructors, for you have one Instructor, the Christ."
 
 > **John 13:13:** "Ye call me Master and Lord: and ye say well; for so I am."
 
