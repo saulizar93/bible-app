@@ -81,6 +81,10 @@ export const INFO_PAGES = [
     label: { en: "Problems with Mormonism", es: "Problemas con el mormonismo" },
   },
   {
+    id: "sola-scriptura",
+    label: { en: "Sola Scriptura", es: "Sola Scriptura" },
+  },
+  {
     id: "key-oneness-verses",
     label: { en: "Key Oneness verses", es: "Versículos clave de la Unicidad" },
   },
