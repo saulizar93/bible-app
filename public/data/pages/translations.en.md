@@ -6,7 +6,7 @@ No original letter of an apostle survives; we have copies. About **5,800 Greek m
 
 - **Textus Receptus (TR)** — the "Received Text," the printed Greek New Testament of Erasmus (1516) and its later editions by Stephanus (1550) and Beza (1598). It stands behind the King James Version and the Reina-Valera.
 - **Majority Text (MT)** — the reading found in the majority of surviving Greek manuscripts (printed, for example, by Hodges and Farstad, 1982, and Robinson and Pierpont, 2005). The MSB follows it.
-- **Critical Text (CT)** — the modern scholarly text (Nestle-Aland 28 / UBS 5) that gives more weight to a few older manuscripts. Most modern Bibles, Protestant and Catholic, follow it (BSB, NIV, ESV, RV1960 in some places, and modern Catholic Bibles).
+- **Critical Text (CT)** — the modern scholarly text (Nestle-Aland 28 / UBS 5) that gives more weight to a few older manuscripts. Most modern Bibles, Protestant and Catholic, follow it (BSB, NIV, ESV, LSB, NASB, and modern Catholic Bibles).
 
 ### The Byzantine (Antiochian) tradition: TR and MT
 

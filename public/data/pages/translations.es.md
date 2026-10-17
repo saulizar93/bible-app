@@ -6,7 +6,7 @@ No se conserva ninguna carta original de un apóstol; tenemos copias. Se conocen
 
 - **Textus Receptus (TR)**: el «Texto Recibido», el Nuevo Testamento griego impreso por Erasmo (1516) y sus ediciones posteriores de Estienne (Stephanus, 1550) y Beza (1598). Es la base de la Reina-Valera y de la King James Version.
 - **Texto Mayoritario (MT)**: la lectura que se encuentra en la mayoría de los manuscritos griegos que se conservan (impreso, por ejemplo, por Hodges y Farstad, 1982, y por Robinson y Pierpont, 2005). La MSB lo sigue.
-- **Texto Crítico (CT)**: el texto académico moderno (Nestle-Aland 28 / UBS 5), que da más peso a unos pocos manuscritos más antiguos. La mayoría de las Biblias modernas, protestantes y católicas, lo siguen (BSB, NVI, LBLA, la RV1960 en algunos lugares y las Biblias católicas modernas).
+- **Texto Crítico (CT)**: el texto académico moderno (Nestle-Aland 28 / UBS 5), que da más peso a unos pocos manuscritos más antiguos. La mayoría de las Biblias modernas, protestantes y católicas, lo siguen (BSB, NVI, LBLA, RV2015, TLA, NTV, y las Biblias católicas modernas).
 
 ### La tradición bizantina (antioquena): TR y MT
 
