@@ -144,9 +144,7 @@ En el juicio de las naciones, el Pastor primero **aparta** las ovejas de los cab
 
 Un cristiano es un **discípulo** (_mathētēs_, el que aprende) de Cristo. Jesús dijo a sus seguidores que no se dejaran llamar «Rabí» ni «maestro», porque uno es nuestro Maestro, el Cristo. No somos discípulos de un papa ni de un pastor, sino de Jesús; los maestros en la iglesia solo transmiten lo que Él mandó.
 
-> **Mateo 23:8-10 (BSB):** «Pero ustedes no deben dejarse llamar "Rabí", porque tienen un solo **Maestro**, y todos ustedes son hermanos. Y no llamen "padre" a nadie en la tierra, porque tienen un solo Padre, el que está en el cielo. Tampoco deben dejarse llamar "instructores", porque tienen un solo Instructor: el Cristo."
-
-Mateo 23:8–10 (BSB)»
+> **Mateo 23:8-10 (BSB):** «Pero ustedes no deben dejarse llamar "Rabí", porque tienen un solo **Maestro**, y todos ustedes son hermanos. Y no llamen "padre" a nadie en la tierra, porque tienen un solo Padre, el que está en el cielo. Tampoco deben dejarse llamar "instructores", porque tienen un solo Instructor: el Cristo."»
 
 > **Juan 13:13:** «Vosotros me llamáis Maestro, y Señor, y decís bien, porque lo soy.»
 
@@ -158,15 +156,21 @@ Mateo 23:8–10 (BSB)»
 
 # 9. Creer, arrepentirse, bautizarse en su nombre
 
-El evangelio nos llama a creer en el sacrificio de Jesús, a arrepentirnos y a bautizarnos en su nombre para perdón de los pecados. En el bautismo, por la fe, nos «revestimos de Cristo», somos sepultados con Él y resucitamos para andar en vida nueva. No es obra nuestra; es «la fe en el poder de Dios» la que obra en ella (Colosenses 2:12), y no hay otro nombre en que podamos ser salvos.
+El evangelio nos llama a creer en el sacrificio de Jesús, a arrepentirnos y a ser bautizados en su nombre para la remisión de los pecados. En el bautismo, por medio de la fe, nos «revestimos de Cristo» (Gálatas 3:27) para nuestra justificación ante el Padre (Romanos 5:1); somos sepultados con Él y resucitamos para andar en una vida nueva. No es por obra nuestra, sino por nuestra «fe en el poder de Dios» (Colosenses 2:12) lo que nos salva, en el único nombre dado a los hombres bajo el cielo por el cual debemos ser salvos (Hechos 4:12).
 
-> **Hechos 2:38:** «Entonces Pedro les dijo: Arrepentíos, y bautícese cada uno de vosotros en el nombre de Jesucristo para remisión de pecados; y recibiréis el don del Espíritu Santo.»
+> **Hechos 2:38:** «Entonces Pedro les dijo: Arrepentíos, y bautícese cada uno de vosotros **en el nombre de Jesucristo para remisión de pecados**; y recibiréis el don del Espíritu Santo.»
 
-> **Hechos 22:16:** «Ahora, pues, ¿por qué te detienes? Levántate y sé bautizado; y lava tus pecados invocando el nombre del Señor.»
+> **Hechos 22:16:** «Ahora, pues, ¿por qué te detienes? Levántate y sé bautizado; y **lava tus pecados invocando el nombre del Señor**.»
+
+> **Gálatas 3:26-27:** «porque todos sois hijos de Dios por la fe en Cristo Jesús, porque todos los que habéis sido bautizados en Cristo, de Cristo **estáis revestidos**.»
+
+> **Romanos 5:1:** «Justificados, pues, por la fe, tenemos paz para con Dios **por medio de nuestro Señor Jesucristo**»
+
+> **2 Corintios 5:21:** «Al que no conoció pecado, lo hizo pecado por nosotros, para que nosotros fuésemos hechos justicia de Dios en Él.»
+
+> **Filipenses 3:9:** «y ser hallado en Él, no teniendo mi propia justicia, que es de la ley, sino la que es **por** la fe de **Cristo**, la **justicia** que es de Dios **por la fe**;»
 
 > **Marcos 16:16:** «El que creyere y fuere bautizado, será salvo; mas el que no creyere, será condenado.»
-
-> **Gálatas 3:26-27:** «porque todos sois hijos de Dios por la fe en Cristo Jesús, porque todos los que habéis sido bautizados en Cristo, de Cristo estáis revestidos.»
 
 > **Romanos 6:3-4:** «¿O no sabéis que todos los que hemos sido bautizados en Cristo Jesús, hemos sido bautizados en su muerte? Porque somos sepultados con Él en la muerte por el bautismo; para que como Cristo resucitó de los muertos por la gloria del Padre, así también nosotros andemos en novedad de vida.»
 
@@ -186,9 +190,9 @@ Algunos enseñan que en Hechos 2:38 _eis aphesin hamartiōn_ significa «**a cau
 
 > **Lucas 24:47:** «y que se predicase en su nombre el arrepentimiento y la remisión de pecados en todas las naciones, comenzando desde Jerusalén.»
 
-### Obedecer no es ganar
+### Obedecer no es meritar
 
-Si alguien le prometiera un millón de dólares, y lo único que tuviera que hacer fuera ir al banco a recogerlo, y usted dijera que le cree pero nunca fuera, ¿de verdad le creyó? Y si fuera y lo recogiera, ¿se **ganó** el millón por caminar hasta el banco? Claro que no. El bautismo es obediencia al mandato de nuestro único Maestro; nos sometemos por fe, confiando en que Él perdona nuestros pecados como lo prometió. Dios obra por medio de la obediencia, pero el regalo sigue siendo un regalo.
+Si alguien le prometiera un millón de dólares, y lo único que tuviera que hacer fuera ir al banco a recogerlo, y usted dijera que le cree pero nunca fuera, ¿de verdad le creyó? Y si fuera y lo recogiera, ¿**meritó** el millón simplemente por caminar hasta el banco? Claro que no. El bautismo es obediencia al mandato de nuestro único Maestro; nos sometemos por fe, confiando en que Él perdona nuestros pecados como lo prometió. Dios obra por medio de la obediencia, pero el regalo sigue siendo un regalo.
 
 > **Hebreos 5:9:** «y habiendo sido hecho perfecto, vino a ser autor de eterna salvación a todos los que le obedecen;»
 
@@ -222,7 +226,7 @@ La fe que salva actúa como si la palabra de Dios fuera verdad. Noé construyó,
 
 > **Hebreos 11:24-27:** «Por fe Moisés, hecho ya grande, rehusó ser llamado hijo de la hija de Faraón; escogiendo antes ser afligido con el pueblo de Dios, que gozar de los placeres temporales de pecado. Teniendo por mayores riquezas el vituperio de Cristo que los tesoros en Egipto; porque tenía puesta su mirada en el galardón. Por fe dejó a Egipto, no temiendo la ira del rey; porque se sostuvo como viendo al Invisible.»
 
-Santiago no dice que las obras salven; dice que una fe sin obras está **muerta**, es decir, que no es fe salvadora en absoluto. Siempre es la **fe** la que es probada; las obras son probadas por fuego para **recompensas**, mientras que aquel cuya obra se quema «él mismo será salvo, aunque así como por fuego».
+Santiago (Jacobo) no dice que las obras salven; él afirma que una fe sin obras está **muerta**, porque una fe que salva siempre va acompañada de obras. Y nótese que, en lo que respecta a la justificación, lo que siempre se somete a prueba es la **fe** y no las obras; las obras son probadas por fuego para determinar las **recompensas**, no la salvación. Aquel cuya obra se queme «él mismo será salvo, aunque así como por fuego».
 
 > **Santiago 2:14-18:** «Hermanos míos, ¿qué aprovechará si alguno dice que tiene fe, y no tiene obras? ¿Podrá la fe salvarle? Y si el hermano o la hermana están desnudos, y tienen necesidad del alimento de cada día, y alguno de vosotros les dice: Id en paz, calentaos y saciaos; pero no les da lo que necesitan para el cuerpo, ¿de qué aprovechará? Así también la fe, si no tiene obras, es muerta en sí misma. Pero alguno dirá: Tú tienes fe, y yo tengo obras; muéstrame tu fe sin tus obras, y yo te mostraré mi fe por mis obras.»
 
@@ -278,7 +282,7 @@ Los **dones** espirituales no son lo mismo que el **fruto** del Espíritu. Mucho
 
 > **1 Corintios 13:1-3:** «Si yo hablase lenguas humanas y angélicas, y no tengo caridad, vengo a ser como metal que resuena, o címbalo que retiñe. Y si tuviese el don de profecía, y entendiese todos los misterios y toda ciencia; y si tuviese toda la fe, de tal manera que trasladase los montes, y no tengo caridad, nada soy. Y si repartiese todos mis bienes para dar de comer a los pobres, y si entregase mi cuerpo para ser quemado, y no tengo caridad, de nada me sirve.»
 
-Pablo no daba por hecho que todos los de Corinto que tenían dones eran salvos. Les advirtió claramente que los fornicarios, idólatras, adúlteros, ladrones, borrachos y otros semejantes «no heredarán el reino de Dios», y les recordó: «esto erais algunos de vosotros», pero habían sido lavados y justificados «en el nombre del Señor Jesús». Les dijo que con un llamado hermano que viviera así ni siquiera comieran. Les recordó que todo Israel fue bautizado «en Moisés» y comió el mismo alimento espiritual, «pero Dios no se agradó de muchos de ellos»: «el que piensa estar firme, mire que no caiga». Les dijo que «algunos no conocen a Dios», temía que muchos «no se han arrepentido» de su inmundicia y fornicación, y les mandó: «Examinaos a vosotros mismos si estáis en la fe». Los dones no probaban que alguien fuera salvo; la vida sí.
+Pablo no daba por hecho que todos los de Corinto que tenían dones eran salvos. Les advirtió claramente que los fornicarios, idólatras, adúlteros, ladrones, borrachos y otros semejantes «no heredarán el reino de Dios», y les recordó: «esto erais algunos de vosotros», pero habían sido lavados y justificados «en el nombre del Señor Jesús». Les dijo que ni siquiera comieran con un hermano falso que viviera en ese tipo de pecaods. Les recordó que t odo Israel fue bautizado «en Moisés» y comió el mismo alimento espiritual, «pero Dios no se agradó de muchos de ellos»: «el que piensa estar firme, mire que no caiga». Les dijo que «algunos no conocen a Dios», temía que muchos «no se han arrepentido» de su inmundicia y fornicación, y les mandó: «Examinaos a vosotros mismos si estáis en la fe». Los dones no probaban que alguien fuera salvo; la vida sí.
 
 > **1 Corintios 6:9-11:** «¿No sabéis que los injustos no heredarán el reino de Dios? No os engañéis: Ni los fornicarios, ni los idólatras, ni los adúlteros, ni los afeminados, ni los que se echan con varones, ni los ladrones, ni los avaros, ni los borrachos, ni los maldicientes, ni los estafadores, heredarán el reino de Dios. Y esto erais algunos de vosotros; mas ya sois lavados, ya sois santificados, ya sois justificados en el nombre del Señor Jesús, y por el Espíritu de nuestro Dios.»
 

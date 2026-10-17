@@ -156,19 +156,25 @@ A Christian is a **disciple** (_mathētēs_, a learner) of Christ. Jesus told Hi
 
 # 9. Believe, repent, be baptized in His name
 
-The gospel calls us to believe in the sacrifice of Jesus, to repent, and to be baptized in His name for the remission of sins. Baptism is where, by faith, we "put on Christ," are buried with Him and rise to walk in newness of life. It is not our work; it is "the operation of God," and there is no other name by which we must be saved.
+The gospel calls us to believe in the sacrifice of Jesus, to repent, and to be baptized in His name for the remission of sins. Baptism is where, by faith, we "put on Christ" (Galatians 3:27) for justification before the Father (Romans 5:1), we are buried with Him and rise to walk in newness of life. It is not our work, but our "faith in the power of God" (Colossians 2:12 BSB) that saves us in the only name given to men under heaven by which we must be saved (Acts 4:12).
 
-> **Acts 2:38:** "Then Peter said unto them, Repent, and be baptized every one of you in the name of Jesus Christ for the remission of sins, and ye shall receive the gift of the Holy Ghost."
+> **Acts 2:38:** "Then Peter said unto them, Repent, and be baptized every one of you **in the name of Jesus Christ for the remission of sins**, and ye shall receive the gift of the Holy Ghost."
 
-> **Acts 22:16:** "And now why tarriest thou? arise, and be baptized, and wash away thy sins, calling on the name of the Lord."
+> **Acts 22:16:** "And now why tarriest thou? arise, and be baptized, and **wash away thy sins**, **calling on the name of the Lord**."
+
+> **Galatians 3:26-27:** "For ye are all the children of God by faith in Christ Jesus. For as many of you as have been baptized into Christ have **put on** Christ."
+
+> **Romans 5:1:** "Therefore being justified by faith, we have peace with God **through our Lord Jesus** Christ."
+
+> **2 Corinthians 5:21:** "For he hath made him to be sin for us, who knew no sin; that we might be made the righteousness of God in him."
+
+> **Philipians 3:9:** "And be found in him, not having mine own righteousness, which is of the law, but that which is **through** the faith of **Christ**, the **righteousness** which is of God **by faith**"
 
 > **Mark 16:16:** "He that believeth and is baptized shall be saved; but he that believeth not shall be damned."
 
-> **Galatians 3:26-27:** "For ye are all the children of God by faith in Christ Jesus. For as many of you as have been baptized into Christ have put on Christ."
-
 > **Romans 6:3-4:** "Know ye not, that so many of us as were baptized into Jesus Christ were baptized into his death? Therefore we are buried with him by baptism into death: that like as Christ was raised up from the dead by the glory of the Father, even so we also should walk in newness of life."
 
-> **Colossians 2:12:** "Buried with him in baptism, wherein also ye are risen with him through the faith of the operation of God, who hath raised him from the dead."
+> **Colossians 2:12 (BSB):** "And having been buried with Him in baptism, you were raised with Him through your faith in the power of God, who raised Him from the dead."
 
 > **1 Peter 3:21:** "The like figure whereunto even baptism doth also now save us (not the putting away of the filth of the flesh, but the answer of a good conscience toward God,) by the resurrection of Jesus Christ:"
 
@@ -176,7 +182,7 @@ The gospel calls us to believe in the sacrifice of Jesus, to repent, and to be b
 
 ### "For" the remission of sins — not "because of"
 
-Some teach that in Acts 2:38 _eis aphesin hamartiōn_ means "**because** of the remission of sins," as if sins were already forgiven before baptism. The suggestion was made by Julius R. Mantey (1951) and answered at once by the scholar Ralph Marcus, who showed that the Greek examples offered do not establish a causal meaning (_Journal of Biblical Literature_, 1951–1952). The decisive answer is in the Bible itself: Jesus used **the exact same phrase** of His own blood — "shed for many **for the remission of sins**" (_eis aphesin hamartiōn_, Matthew 26:28). Jesus did not shed His blood because sins were already forgiven, but **in order that** they might be. Ananias told Paul, "be baptized, and **wash away** thy sins" (Acts 22:16). John's baptism was likewise "for the remission of sins" in his dispensation (Mark 1:4) before being replaced by Jesus' baptism (Acts 19:3-5).
+Some teach that in Acts 2:38 _eis aphesin hamartiōn_ means "**because** of the remission of sins," as if sins were already forgiven before baptism. The suggestion was made by Julius R. Mantey (1951) and answered at once by the scholar Ralph Marcus, who showed that the Greek examples offered do not establish a causal meaning (_Journal of Biblical Literature_, 1951–1952). The decisive answer is in the Bible itself: Jesus used **the exact same phrase** of His own blood — "shed for many **for the remission of sins**" (_eis aphesin hamartiōn_, Matthew 26:28). Jesus did not shed His blood because sins were already forgiven, but **in order that** they might be. Ananias told Paul, "be baptized, and **wash away** thy sins" (Acts 22:16). John's baptism was likewise "for the remission of sins" in his dispensation (Mark 1:4), before being replaced by Jesus' baptism (Acts 19:3-5).
 
 > **Matthew 26:28:** "For this is my blood of the new testament, which is shed for many for the remission of sins."
 
@@ -220,7 +226,7 @@ Saving faith acts as if God's word were true. Noah built, Abraham went, Moses le
 
 > **Hebrews 11:24-27:** "By faith Moses, when he was come to years, refused to be called the son of Pharaoh’s daughter; Choosing rather to suffer affliction with the people of God, than to enjoy the pleasures of sin for a season; Esteeming the reproach of Christ greater riches than the treasures in Egypt: for he had respect unto the recompence of the reward. By faith he forsook Egypt, not fearing the wrath of the king: for he endured, as seeing him who is invisible."
 
-James does not say that works save; he says that a faith without works is **dead** — not a saving faith at all. It is always the **faith** that is tested; the works are tried by fire for **rewards**, while the one whose work burns "himself shall be saved; yet so as by fire."
+James does not say that works save; he says that a faith without works is **dead**, because a saving faith is always accompanied by works. And notice how it is always the **faith** that is being tested for justification, not the works; the works are tried by fire for **rewards**, not salvation. The one whose work burns "himself shall be saved; yet so as by fire."
 
 > **James 2:14-18:** "What doth it profit, my brethren, though a man say he hath faith, and have not works? can faith save him? If a brother or sister be naked, and destitute of daily food, And one of you say unto them, Depart in peace, be ye warmed and filled; notwithstanding ye give them not those things which are needful to the body; what doth it profit? Even so faith, if it hath not works, is dead, being alone. Yea, a man may say, Thou hast faith, and I have works: shew me thy faith without thy works, and I will shew thee my faith by my works."
 
