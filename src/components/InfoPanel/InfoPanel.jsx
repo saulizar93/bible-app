@@ -37,6 +37,8 @@ export default function InfoPanel({
     const load = async (l) => {
       const res = await fetch(
         `${import.meta.env.BASE_URL}data/pages/${pageId}.${l}.md`,
+        // Skip the browser's HTTP cache so an edited page shows at once.
+        { cache: "no-cache" },
       );
       const body = res.ok ? await res.text() : "";
       // Vite's dev server answers a missing file with index.html — treat as missing.

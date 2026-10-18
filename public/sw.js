@@ -4,7 +4,7 @@
  * App" panel (src/js/offline.js) downloads whole translations into it.
  *
  * Bump SHELL_VERSION to force every installed copy to drop its old shell. */
-const SHELL_VERSION = 1;
+const SHELL_VERSION = 2;
 const CACHE = `shell-v${SHELL_VERSION}`;
 const SCOPE = new URL(self.registration.scope);
 
@@ -66,8 +66,25 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  // Everything else in scope (hashed assets, icons, info pages):
-  // stale-while-revalidate.
+  // Info pages (.md and their pictures): network first, so edits show at
+  // once; the saved copy is used only when offline.
+  if (/\/data\/pages\//.test(url.pathname)) {
+    event.respondWith(
+      (async () => {
+        const cache = await caches.open(CACHE);
+        try {
+          const res = await fetch(req);
+          if (res.ok) cache.put(req, res.clone());
+          return res;
+        } catch {
+          return (await cache.match(req, { ignoreSearch: true })) || Response.error();
+        }
+      })(),
+    );
+    return;
+  }
+
+  // Everything else in scope (hashed assets, icons): stale-while-revalidate.
   event.respondWith(
     (async () => {
       const cache = await caches.open(CACHE);

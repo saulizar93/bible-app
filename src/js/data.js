@@ -335,7 +335,8 @@ export async function loadConcordance(rawCode, source) {
 }
 
 /** Wipe everything this app has stored on the device — the IndexedDB cache of
- *  Bible chapters, notes and lexicon shards, plus every localStorage setting —
+ *  Bible chapters, notes and lexicon shards, the offline cache of the app
+ *  shell and info pages (and its service worker), plus every localStorage setting —
  *  so the next load fetches only the current data. Used by Settings ▸
  *  "Clear saved data". The caller reloads the page afterwards. */
 export async function clearAllAppData() {
@@ -368,6 +369,14 @@ export async function clearAllAppData() {
     }
   } catch {
     /* Cache API unavailable */
+  }
+  try {
+    // Drop the offline service worker too; the app registers a fresh one on
+    // the next load, so no old copy of the shell or info pages survives.
+    const regs = (await navigator.serviceWorker?.getRegistrations?.()) || [];
+    await Promise.all(regs.map((r) => r.unregister()));
+  } catch {
+    /* service workers unavailable */
   }
   try {
     localStorage.clear();
