@@ -2,15 +2,15 @@ These are the key verses for the Oneness of God: that there is one God, the Fath
 
 # 1. The Great Commission
 
-All four Gospels and Acts record Jesus' last command. Matthew speaks of "the **name**" (singular) of the Father, the Son and the Holy Ghost; Luke says repentance and remission of sins would be preached "in **his** name" — and the apostles carried it out by baptizing in the name of Jesus (section 4).
+All four Gospels and Acts record Jesus' last command. Matthew speaks of "**the name**" (singular) of the Father, the Son and the Holy Ghost; Luke says repentance and remission of sins would be preached "in **his name**" — and the apostles carried it out by baptizing **in the name of Jesus** (section 4).
 
-> **Matthew 28:19-20:** "Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost: Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you alway, even unto the end of the world. Amen."
+> **Matthew 28:19-20:** "Go ye therefore, and teach all nations, baptizing them **in the name** of the Father, and of the Son, and of the Holy Ghost: Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you alway, even unto the end of the world. Amen."
 
-> **Mark 16:15-18:** "And he said unto them, Go ye into all the world, and preach the gospel to every creature. He that believeth and is baptized shall be saved; but he that believeth not shall be damned. And these signs shall follow them that believe; In my name shall they cast out devils; they shall speak with new tongues; They shall take up serpents; and if they drink any deadly thing, it shall not hurt them; they shall lay hands on the sick, and they shall recover."
+> **Mark 16:15-18:** "And he said unto them, Go ye into all the world, and preach the gospel to every creature. He that believeth and is baptized shall be saved; but he that believeth not shall be damned. And these signs shall follow them that believe; **In my name** shall they cast out devils; they shall speak with new tongues; They shall take up serpents; and if they drink any deadly thing, it shall not hurt them; they shall lay hands on the sick, and they shall recover."
 
-> **Luke 24:45-49:** "Then opened he their understanding, that they might understand the scriptures, And said unto them, Thus it is written, and thus it behoved Christ to suffer, and to rise from the dead the third day: And that repentance and remission of sins should be preached in his name among all nations, beginning at Jerusalem. And ye are witnesses of these things. And, behold, I send the promise of my Father upon you: but tarry ye in the city of Jerusalem, until ye be endued with power from on high."
+> **Luke 24:45-49:** "Then **opened he their understanding**, that they might understand the scriptures, And said unto them, Thus it is written, and thus it behoved Christ to suffer, and to rise from the dead the third day: And that repentance and remission of sins should be preached **in his name** among all nations, beginning at Jerusalem. And ye are witnesses of these things. And, behold, I send the promise of my Father upon you: but tarry ye in the city of Jerusalem, until ye be endued with power from on high."
 
-> **John 20:21-23:** "Then said Jesus to them again, Peace be unto you: as my Father hath sent me, even so send I you. And when he had said this, he breathed on them, and saith unto them, Receive ye the Holy Ghost: Whose soever sins ye remit, they are remitted unto them; and whose soever sins ye retain, they are retained."
+> **John 20:21-23:** "Then said Jesus to them again, Peace be unto you: as my Father hath sent me, even so send I you. And when he had said this, **he breathed on them**, and saith unto them, Receive ye the Holy Ghost: Whose soever sins ye remit, they are remitted unto them; and whose soever sins ye retain, they are retained."
 
 > **Acts 1:8:** "But ye shall receive power, after that the Holy Ghost is come upon you: and ye shall be witnesses unto me both in Jerusalem, and in all Judæa, and in Samaria, and unto the uttermost part of the earth."
 
@@ -18,79 +18,79 @@ All four Gospels and Acts record Jesus' last command. Matthew speaks of "the **n
 
 The prophets said that God's people would know His name, and that in that day His name would be one.
 
-> **Isaiah 52:6:** "Therefore my people shall know my name: therefore they shall know in that day that I am he that doth speak: behold, it is I."
+> **Isaiah 52:6:** "Therefore my people shall know **my name**: therefore they shall know in that day that I am he that doth speak: behold, it is I."
 
-> **Zechariah 14:9:** "And the LORD shall be king over all the earth: in that day shall there be one LORD, and his name one."
+> **Zechariah 14:9:** "And the LORD shall be king over all the earth: in that day shall there be one LORD, and **his name one**."
 
-> **Joel 2:32:** "And it shall come to pass, that whosoever shall call on the name of the LORD shall be delivered: for in mount Zion and in Jerusalem shall be deliverance, as the LORD hath said, and in the remnant whom the LORD shall call."
+> **Joel 2:32:** "And it shall come to pass, that whosoever shall **call on the name of the LORD** shall be delivered: for in mount Zion and in Jerusalem shall be deliverance, as the LORD hath said, and in the remnant whom the LORD shall call."
 
-That name is Jesus: Peter quoted Joel at Pentecost, and Paul applied it to Jesus.
+That name is **Jesus** (which means "YHWH-Saves"): Peter quoted Joel at Pentecost, and Paul applied it to Jesus.
 
-> **Acts 2:21:** "And it shall come to pass, that whosoever shall call on the name of the Lord shall be saved."
+> **Acts 2:21:** "And it shall come to pass, that whosoever shall **call on the name of the Lord** shall be saved."
 
 > **Romans 10:13:** "For whosoever shall call upon the name of the Lord shall be saved."
 
-> **John 3:18:** "He that believeth on him is not condemned: but he that believeth not is condemned already, because he hath not believed in the name of the only begotten Son of God."
+> **John 3:18:** "He that believeth on him is not condemned: but he that believeth not is condemned already, because he hath not believed **in the name** of the only begotten Son of God."
 
-> **Revelation 22:3-4:** "And there shall be no more curse: but the throne of God and of the Lamb shall be in it; and his servants shall serve him: And they shall see his face; and his name shall be in their foreheads."
+> **Revelation 22:3-4:** "And there shall be no more curse: but the throne of God and of the Lamb shall be in it; and his servants shall serve him: And they shall see his face; and **his name** shall be in their foreheads."
 
 # 3. Jesus fulfills all three
 
 "Father," "Son" and "Holy Ghost" are titles, not names; the one name of all three is **Jesus**. The child born is the "everlasting Father," and there is no other name under heaven by which we must be saved.
 
-> **Isaiah 9:6:** "For unto us a child is born, unto us a son is given: and the government shall be upon his shoulder: and his name shall be called Wonderful, Counsellor, The mighty God, The everlasting Father, The Prince of Peace."
+> **Isaiah 9:6:** "For unto us a child is born, unto us a **son** is given: and the government shall be upon his shoulder: and his name shall be called Wonderful, **Counsellor**, The mighty God, The everlasting **Father**, The Prince of Peace."
 
-> **Acts 4:12:** "Neither is there salvation in any other: for there is none other name under heaven given among men, whereby we must be saved."
+> **Acts 4:12:** "Neither is there salvation in any other: for **there is none other name** under heaven given among men, whereby we must be saved."
 
-> **Philippians 2:9-11:** "Wherefore God also hath highly exalted him, and given him a name which is above every name: That at the name of Jesus every knee should bow, of things in heaven, and things in earth, and things under the earth; And that every tongue should confess that Jesus Christ is Lord, to the glory of God the Father."
+> **Philippians 2:9-11:** "Wherefore God also hath highly exalted him, and **given him a name which is above every name**: That **at the name of Jesus** every knee should bow, of things in heaven, and things in earth, and things under the earth; And that every tongue should confess that Jesus Christ is Lord, to the glory of God the Father."
 
-> **Ephesians 1:20-21:** "Which he wrought in Christ, when he raised him from the dead, and set him at his own right hand in the heavenly places, Far above all principality, and power, and might, and dominion, and every name that is named, not only in this world, but also in that which is to come:"
+> **Ephesians 1:20-21:** "Which he wrought in Christ, when he raised him from the dead, and set him at his own right hand in the heavenly places, **Far above** all principality, and power, and might, and dominion, and **every name that is named, not only in this world, but also in that which is to come**:"
 
-> **Colossians 3:17:** "And what soever ye do in word or deed, do all in the name of the Lord Jesus, giving thanks to God and the Father by him."
+> **Colossians 3:17:** "And **what soever ye do** in word or deed, **do all in the name of the Lord Jesus**, giving thanks to God and the Father by him."
 
-> **Revelation 22:3-4:** "And there shall be no more curse: but the throne of God and of the Lamb shall be in it; and his servants shall serve him: And they shall see his face; and his name shall be in their foreheads."
+> **Revelation 22:3-4:** "And there shall be no more curse: but the throne of God and of the Lamb shall be in it; and his servants shall serve him: And they shall see his face; and **his name** shall be in their foreheads."
 
-> **1 John 3:23:** "And this is his commandment, That we should believe on the name of his Son Jesus Christ, and love one another, as he gave us commandment."
+> **1 John 3:23:** "And this is his commandment, That we should believe **on the name of his Son Jesus Christ**, and love one another, as he gave us commandment."
 
-> **1 John 5:13:** "These things have I written unto you that believe on the name of the Son of God; that ye may know that ye have eternal life, and that ye may believe on the name of the Son of God."
+> **1 John 5:13:** "These things have I written unto you that believe **on the name of the Son of God**; that ye may know that ye have eternal life, and that ye may believe on the name of the Son of God."
 
 # 4. Baptism in Jesus' name
 
 Every baptism the apostles performed was in the name of Jesus. There is no record of anyone baptized with the words "Father, Son and Holy Ghost."
 
-> **Acts 2:38:** "Then Peter said unto them, Repent, and be baptized every one of you in the name of Jesus Christ for the remission of sins, and ye shall receive the gift of the Holy Ghost."
+> **Acts 2:38:** "Then Peter said unto them, Repent, and **be baptized** every one of you **in the name of Jesus Christ** for the remission of sins, and ye shall receive the gift of the Holy Ghost."
 
-> **Acts 8:12:** "But when they believed Philip preaching the things concerning the kingdom of God, and the name of Jesus Christ, they were baptized, both men and women."
+> **Acts 8:12:** "But when they believed Philip **preaching** the things concerning the kingdom of God, and **the name of Jesus Christ**, they were baptized, both men and women."
 
-> **Acts 8:16:** "(For as yet he was fallen upon none of them: only they were baptized in the name of the Lord Jesus.)"
+> **Acts 8:16:** "(For as yet he was fallen upon none of them: only they were **baptized in the name of the Lord Jesus**.)"
 
-> **Acts 10:48:** "And he commanded them to be baptized in the name of the Lord. Then prayed they him to tarry certain days."
+> **Acts 10:48:** "And he commanded them to be **baptized in the name of the Lord**. Then prayed they him to tarry certain days."
 
-> **Acts 19:5:** "When they heard this, they were baptized in the name of the Lord Jesus."
+> **Acts 19:5:** "When they heard this, they were **baptized in the name of the Lord Jesus**."
 
-> **Acts 22:16:** "And now why tarriest thou? arise, and be baptized, and wash away thy sins, calling on the name of the Lord."
+> **Acts 22:16:** "And now why tarriest thou? arise, and be baptized, and wash away thy sins, **calling on the name of the Lord**."
 
 Paul's letters assume the same: believers were baptized into Christ, buried with Him and clothed with Him; and "were ye baptized in the name of Paul?" only makes sense if they had been baptized in the name of the one who was crucified for them.
 
-> **Romans 6:3-4:** "Know ye not, that so many of us as were baptized into Jesus Christ were baptized into his death? Therefore we are buried with him by baptism into death: that like as Christ was raised up from the dead by the glory of the Father, even so we also should walk in newness of life."
+> **Romans 6:3-4:** "Know ye not, that so many of us as were **baptized into Jesus Christ** were baptized into his death? Therefore we are buried with him by baptism into death: that like as Christ was raised up from the dead by the glory of the Father, even so we also should walk in newness of life."
 
-> **1 Corinthians 1:13-14:** "Is Christ divided? was Paul crucified for you? or were ye baptized in the name of Paul? I thank God that I baptized none of you, but Crispus and Gaius;"
+> **1 Corinthians 1:13-14:** "Is Christ divided? was Paul crucified for you? or **were ye baptized in the name of Paul?** I thank God that I baptized none of you, but Crispus and Gaius;"
 
-> **Galatians 3:27:** "For as many of you as have been baptized into Christ have put on Christ."
+> **Galatians 3:27:** "For as many of you as have been **baptized into Christ** have **put on Christ**."
 
-> **Colossians 2:12:** "Buried with him in baptism, wherein also ye are risen with him through the faith of the operation of God, who hath raised him from the dead."
+> **Colossians 2:12:** "**Buried with him in baptism**, wherein also ye are risen with him through the faith of the operation of God, who hath raised him from the dead."
 
 James speaks of "that worthy name by the which ye are called." The NRSV translates it "the excellent name that was **invoked over you**," and the AMPC "the precious name by which you are distinguished and called [the name of Christ invoked in baptism]" — the name spoken over them when they were baptized.
 
-> **James 2:7:** "Do not they blaspheme that worthy name by the which ye are called?"
+> **James 2:7 (RSV):** "Is it not they who blaspheme **the honorable name** which was **invoked over you**?"
 
 # 5. The name of the Father
 
 The Son came in His Father's name, declared it, manifested it and received it — and that name is Jesus.
 
-> **Matthew 1:21:** "And she shall bring forth a son, and thou shalt call his name JESUS: for he shall save his people from their sins."
+> **Matthew 1:21:** "And she shall bring forth a son, and **thou shalt call his name JESUS** (_YHWH-Saves_): for he shall save his people from their sins."
 
-> **Matthew 21:9:** "And the multitudes that went before, and that followed, cried, saying, Hosanna to the Son of David: Blessed is he that cometh in the name of the Lord; Hosanna in the highest."
+> **Matthew 21:9:** "And the multitudes that went before, and that followed, cried, saying, Hosanna to the Son of David: Blessed is **he that cometh in the name of the Lord**; Hosanna in the highest."
 
 > **John 5:43:** "I am come in my Father’s name, and ye receive me not: if another shall come in his own name, him ye will receive."
 

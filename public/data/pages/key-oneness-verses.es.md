@@ -2,15 +2,15 @@ Estos son los versículos clave sobre la Unicidad de Dios: que hay un solo Dios,
 
 # 1. La Gran Comisión
 
-Los cuatro Evangelios y Hechos registran el último mandato de Jesús. Mateo habla de «el **nombre**» (en singular) del Padre, del Hijo y del Espíritu Santo; Lucas dice que el arrepentimiento y la remisión de pecados se predicarían «en **su** nombre»; y los apóstoles lo cumplieron bautizando en el nombre de Jesús (sección 4).
+Los cuatro Evangelios y Hechos registran el último mandato de Jesús. Mateo habla de «**el nombre**» (en singular) del Padre, del Hijo y del Espíritu Santo; Lucas dice que el arrepentimiento y la remisión de pecados se predicarían «en **su nombre**»; y los apóstoles lo cumplieron bautizando **en el nombre de Jesús** (sección 4).
 
-> **Mateo 28:19-20:** «Por tanto, id, y enseñad a todas las naciones, bautizándoles en el nombre del Padre, y del Hijo, y del Espíritu Santo; enseñándoles que guarden todas las cosas que os he mandado; y he aquí, yo estoy con vosotros todos los días, hasta el fin del mundo. Amén.»
+> **Mateo 28:19-20:** «Por tanto, id, y enseñad a todas las naciones, bautizándoles **en el nombre** del Padre, y del Hijo, y del Espíritu Santo; enseñándoles que guarden todas las cosas que os he mandado; y he aquí, yo estoy con vosotros todos los días, hasta el fin del mundo. Amén.»
 
-> **Marcos 16:15-18:** «Y les dijo: Id por todo el mundo y predicad el evangelio a toda criatura. El que creyere y fuere bautizado, será salvo; mas el que no creyere, será condenado. Y estas señales seguirán a los que creen: En mi nombre echarán fuera demonios; hablarán nuevas lenguas; tomarán serpientes; y si bebieren cosa mortífera, no les dañará; sobre los enfermos pondrán sus manos y sanarán.»
+> **Marcos 16:15-18:** «Y les dijo: Id por todo el mundo y predicad el evangelio a toda criatura. El que creyere y fuere bautizado, será salvo; mas el que no creyere, será condenado. Y estas señales seguirán a los que creen: **En mi nombre** echarán fuera demonios; hablarán nuevas lenguas; tomarán serpientes; y si bebieren cosa mortífera, no les dañará; sobre los enfermos pondrán sus manos y sanarán.»
 
-> **Lucas 24:45-49:** «Entonces les abrió el entendimiento, para que comprendiesen las Escrituras; y les dijo: Así está escrito, y así fue necesario que el Cristo padeciese, y resucitase de los muertos al tercer día; y que se predicase en su nombre el arrepentimiento y la remisión de pecados en todas las naciones, comenzando desde Jerusalén. Y vosotros sois testigos de estas cosas. Y he aquí, yo enviaré sobre vosotros la promesa de mi Padre: mas vosotros quedaos en la ciudad de Jerusalén hasta que seáis investidos con poder de lo alto.»
+> **Lucas 24:45-49:** «Entonces **les abrió el entendimiento**, para que comprendiesen las Escrituras; y les dijo: Así está escrito, y así fue necesario que el Cristo padeciese, y resucitase de los muertos al tercer día; y que se predicase **en su nombre** el arrepentimiento y la remisión de pecados en todas las naciones, comenzando desde Jerusalén. Y vosotros sois testigos de estas cosas. Y he aquí, yo enviaré sobre vosotros la promesa de mi Padre: mas vosotros quedaos en la ciudad de Jerusalén hasta que seáis investidos con poder de lo alto.»
 
-> **Juan 20:21-23:** «Entonces Jesús les dijo otra vez: Paz a vosotros: Como me envió el Padre, así también yo os envío. Y habiendo dicho esto, sopló en ellos, y les dijo: Recibid el Espíritu Santo. A quienes remitiereis los pecados, les son remitidos; a quienes se los retuviereis, les son retenidos.»
+> **Juan 20:21-23:** «Entonces Jesús les dijo otra vez: Paz a vosotros: Como me envió el Padre, así también yo os envío. Y habiendo dicho esto, **sopló en ellos**, y les dijo: Recibid el Espíritu Santo. A quienes remitiereis los pecados, les son remitidos; a quienes se los retuviereis, les son retenidos.»
 
 > **Hechos 1:8:** «Pero recibiréis poder cuando haya venido sobre vosotros el Espíritu Santo; y me seréis testigos, a la vez, en Jerusalén, en toda Judea, en Samaria, y hasta lo último de la tierra.»
 
@@ -18,79 +18,79 @@ Los cuatro Evangelios y Hechos registran el último mandato de Jesús. Mateo hab
 
 Los profetas dijeron que el pueblo de Dios conocería su nombre, y que en aquel día su nombre sería uno.
 
-> **Isaías 52:6:** «Por tanto, mi pueblo sabrá mi nombre por esta causa en aquel día; porque yo mismo que hablo, he aquí, Yo soy.»
+> **Isaías 52:6:** «Por tanto, mi pueblo sabrá **mi nombre** por esta causa en aquel día; porque yo mismo que hablo, he aquí, Yo soy.»
 
-> **Zacarías 14:9:** «Y Jehová será Rey sobre toda la tierra. En aquel día Jehová será uno, y uno su nombre.»
+> **Zacarías 14:9:** «Y Jehová será Rey sobre toda la tierra. En aquel día Jehová será uno, y **uno su nombre**.»
 
-> **Joel 2:32:** «Y sucederá que todo aquel que invocare el nombre de Jehová, será salvo; porque en el monte de Sión y en Jerusalén habrá salvación, como Jehová ha dicho, y en los que quedaren, a los cuales Jehová habrá llamado.»
+> **Joel 2:32:** «Y sucederá que todo aquel que **invocare el nombre de Jehová**, será salvo; porque en el monte de Sión y en Jerusalén habrá salvación, como Jehová ha dicho, y en los que quedaren, a los cuales Jehová habrá llamado.»
 
-Ese nombre es Jesús: Pedro citó a Joel en Pentecostés, y Pablo lo aplicó a Jesús.
+Ese nombre es **Jesús** (que significa "Jehová-salva"): Pedro citó a Joel en Pentecostés, y Pablo lo aplicó a Jesús.
 
-> **Hechos 2:21:** «Y sucederá que todo aquel que invocare el nombre del Señor, será salvo.»
+> **Hechos 2:21:** «Y sucederá que todo aquel que **invocare el nombre del Señor**, será salvo.»
 
-> **Romanos 10:13:** «Porque todo aquel que invocare el nombre del Señor, será salvo.»
+> **Romanos 10:13:** «Porque todo aquel que **invocare el nombre del Señor**, será salvo.»
 
-> **Juan 3:18:** «El que en Él cree, no es condenado, pero el que no cree, ya es condenado, porque no ha creído en el nombre del unigénito Hijo de Dios.»
+> **Juan 3:18:** «El que en Él cree, no es condenado, pero el que no cree, ya es condenado, porque no ha creído **en el nombre** del unigénito Hijo de Dios.»
 
-> **Apocalipsis 22:3-4:** «Y no habrá más maldición; y el trono de Dios y del Cordero estará en ella, y sus siervos le servirán; y verán su rostro, y su nombre estará en sus frentes.»
+> **Apocalipsis 22:3-4:** «Y no habrá más maldición; y el trono de Dios y del Cordero estará en ella, y sus siervos le servirán; y verán su rostro, y **su nombre** estará en sus frentes.»
 
 # 3. Jesús cumple los tres
 
 «Padre», «Hijo» y «Espíritu Santo» son títulos, no nombres; el único nombre de los tres es **Jesús**. El niño que nació es el «Padre Eterno», y no hay otro nombre bajo el cielo en que podamos ser salvos.
 
-> **Isaías 9:6:** «Porque un niño nos es nacido, un hijo nos es dado; y el principado será sobre su hombro; y se llamará su nombre Admirable, Consejero, Dios Fuerte, Padre Eterno, Príncipe de Paz.»
+> **Isaías 9:6:** «Porque un niño nos es nacido, un **hijo** nos es dado; y el principado será sobre su hombro; y se llamará su nombre Admirable, **Consejero**, Dios Fuerte, **Padre** Eterno, Príncipe de Paz.»
 
-> **Hechos 4:12:** «Y en ningún otro hay salvación; porque no hay otro nombre bajo del cielo, dado a los hombres, en que debamos ser salvos.»
+> **Hechos 4:12:** «Y en ningún otro hay salvación; porque **no hay otro nombre** bajo del cielo, dado a los hombres, en que debamos ser salvos.»
 
-> **Filipenses 2:9-11:** «Por lo cual Dios también le exaltó hasta lo sumo, y le dio un nombre que es sobre todo nombre; para que al nombre de Jesús, se doble toda rodilla; de los que están en el cielo, y en la tierra, y debajo de la tierra, y toda lengua confiese que Jesucristo es el Señor, para la gloria de Dios Padre.»
+> **Filipenses 2:9-11:** «Por lo cual Dios también le exaltó hasta lo sumo, y **le dio un nombre que es sobre todo nombre**; para que **al nombre de Jesús**, se doble toda rodilla; de los que están en el cielo, y en la tierra, y debajo de la tierra, y toda lengua confiese que Jesucristo es el Señor, para la gloria de Dios Padre.»
 
-> **Efesios 1:20-21:** «la cual operó en Cristo, resucitándole de los muertos, y sentándole a su diestra en los lugares celestiales, sobre todo principado y potestad y potencia y señorío, y sobre todo nombre que se nombra, no sólo en este mundo, sino también en el venidero;»
+> **Efesios 1:20-21:** «la cual operó en Cristo, resucitándole de los muertos, y sentándole a su diestra en los lugares celestiales, sobre todo principado y potestad y potencia y señorío, y **sobre todo nombre que se nombra, no sólo en este mundo, sino también en el venidero**;»
 
-> **Colosenses 3:17:** «Y todo lo que hacéis, sea de palabra o de hecho, hacedlo todo en el nombre del Señor Jesús, dando gracias a Dios y el Padre por medio de Él.»
+> **Colosenses 3:17:** «Y **todo** lo que hacéis, sea de palabra o de hecho, **hacedlo todo en el nombre del Señor Jesús**, dando gracias a Dios y el Padre por medio de Él.»
 
-> **Apocalipsis 22:3-4:** «Y no habrá más maldición; y el trono de Dios y del Cordero estará en ella, y sus siervos le servirán; y verán su rostro, y su nombre estará en sus frentes.»
+> **Apocalipsis 22:3-4:** «Y no habrá más maldición; y el trono de Dios y del Cordero estará en ella, y sus siervos le servirán; y verán su rostro, y **su nombre** estará en sus frentes.»
 
-> **1 Juan 3:23:** «Y este es su mandamiento: Que creamos en el nombre de su Hijo Jesucristo, y nos amemos unos a otros como nos lo ha mandado.»
+> **1 Juan 3:23:** «Y este es su mandamiento: Que creamos **en el nombre de su Hijo Jesucristo**, y nos amemos unos a otros como nos lo ha mandado.»
 
-> **1 Juan 5:13:** «Estas cosas os he escrito a vosotros que creéis en el nombre del Hijo de Dios, para que sepáis que tenéis vida eterna, y para que creáis en el nombre del Hijo de Dios.»
+> **1 Juan 5:13:** «Estas cosas os he escrito a vosotros que creéis **en el nombre del Hijo de Dios**, para que sepáis que tenéis vida eterna, y para que creáis en el nombre del Hijo de Dios.»
 
 # 4. El bautismo en el nombre de Jesús
 
 Todos los bautismos que realizaron los apóstoles fueron en el nombre de Jesús. No hay registro de nadie bautizado con las palabras «Padre, Hijo y Espíritu Santo».
 
-> **Hechos 2:38:** «Entonces Pedro les dijo: Arrepentíos, y bautícese cada uno de vosotros en el nombre de Jesucristo para remisión de pecados; y recibiréis el don del Espíritu Santo.»
+> **Hechos 2:38:** «Entonces Pedro les dijo: Arrepentíos, y **bautícese** cada uno de vosotros **en el nombre de Jesucristo** para remisión de pecados; y recibiréis el don del Espíritu Santo.»
 
-> **Hechos 8:12:** «Pero cuando creyeron a Felipe, que les predicaba acerca del reino de Dios y el nombre de Jesucristo, fueron bautizados, así hombres como mujeres.»
+> **Hechos 8:12:** «Pero cuando creyeron a Felipe, que **les predicaba** acerca del reino de Dios y **el nombre de Jesucristo**, fueron bautizados, así hombres como mujeres.»
 
-> **Hechos 8:16:** «porque aún no había descendido sobre ninguno de ellos, sino que solamente habían sido bautizados en el nombre del Señor Jesús.»
+> **Hechos 8:16:** «porque aún no había descendido sobre ninguno de ellos, sino que solamente habían sido **bautizados en el nombre del Señor Jesús**.»
 
-> **Hechos 10:48:** «Y les mandó que fueran bautizados en el nombre del Señor. Entonces le rogaron que se quedase por algunos días.»
+> **Hechos 10:48:** «Y les mandó que fueran **bautizados en el nombre del Señor**. Entonces le rogaron que se quedase por algunos días.»
 
-> **Hechos 19:5:** «Cuando oyeron esto, fueron bautizados en el nombre del Señor Jesús.»
+> **Hechos 19:5:** «Cuando oyeron esto, fueron **bautizados en el nombre del Señor Jesús**.»
 
-> **Hechos 22:16:** «Ahora, pues, ¿por qué te detienes? Levántate y sé bautizado; y lava tus pecados invocando el nombre del Señor.»
+> **Hechos 22:16:** «Ahora, pues, ¿por qué te detienes? Levántate y sé bautizado; y lava tus pecados **invocando el nombre del Señor**.»
 
 Las cartas de Pablo suponen lo mismo: los creyentes fueron bautizados en Cristo, sepultados con Él y revestidos de Él; y «¿o fuisteis bautizados en el nombre de Pablo?» solo tiene sentido si habían sido bautizados en el nombre del que fue crucificado por ellos.
 
-> **Romanos 6:3-4:** «¿O no sabéis que todos los que hemos sido bautizados en Cristo Jesús, hemos sido bautizados en su muerte? Porque somos sepultados con Él en la muerte por el bautismo; para que como Cristo resucitó de los muertos por la gloria del Padre, así también nosotros andemos en novedad de vida.»
+> **Romanos 6:3-4:** «¿O no sabéis que todos los que hemos sido **bautizados en Cristo Jesús**, hemos sido bautizados en su muerte? Porque somos sepultados con Él en la muerte por el bautismo; para que como Cristo resucitó de los muertos por la gloria del Padre, así también nosotros andemos en novedad de vida.»
 
-> **1 Corintios 1:13-14:** «¿Está dividido Cristo? ¿Fue crucificado Pablo por vosotros? ¿O fuisteis bautizados en el nombre de Pablo? Doy gracias a Dios que a ninguno de vosotros he bautizado, sino a Crispo y a Gayo,»
+> **1 Corintios 1:13-14:** «¿Está dividido Cristo? ¿Fue crucificado Pablo por vosotros? **¿O fuisteis bautizados en el nombre de Pablo?** Doy gracias a Dios que a ninguno de vosotros he bautizado, sino a Crispo y a Gayo,»
 
-> **Gálatas 3:27:** «porque todos los que habéis sido bautizados en Cristo, de Cristo estáis revestidos.»
+> **Gálatas 3:27:** «porque todos los que habéis sido **bautizados en Cristo**, **de Cristo estáis revestidos**.»
 
-> **Colosenses 2:12:** «Sepultados con Él en el bautismo, en el cual también sois resucitados con Él, mediante la fe en el poder de Dios que le levantó de los muertos.»
+> **Colosenses 2:12:** «**Sepultados con Él en el bautismo**, en el cual también sois resucitados con Él, mediante la fe en el poder de Dios que le levantó de los muertos.»
 
 Santiago habla de «el buen nombre por el cual sois llamados». La NRSV lo traduce «el excelente nombre que fue **invocado sobre vosotros**», y la AMPC «el precioso nombre por el cual sois distinguidos y llamados [el nombre de Cristo invocado en el bautismo]» (traducidos del inglés): el nombre pronunciado sobre ellos cuando fueron bautizados.
 
-> **Santiago 2:7:** «¿No blasfeman ellos el buen nombre por el cual sois llamados?»
+> **Santiago 2:7 (RV1909):** «¿No blasfeman ellos **el buen nombre** que fué **invocado sobre vosotros**?»
 
 # 5. El nombre del Padre
 
 El Hijo vino en el nombre de su Padre, lo declaró, lo manifestó y lo recibió; y ese nombre es Jesús.
 
-> **Mateo 1:21:** «Y dará a luz un hijo, y llamarás su nombre JESÚS; porque Él salvará a su pueblo de sus pecados.»
+> **Mateo 1:21:** «Y dará a luz un hijo, y **llamarás su nombre JESÚS** (_YHWH-Salva_); porque Él salvará a su pueblo de sus pecados.»
 
-> **Mateo 21:9:** «Y las multitudes que iban delante y los que iban detrás aclamaban, diciendo: ¡Hosanna al Hijo de David! ¡Bendito el que viene en el nombre del Señor! ¡Hosanna en las alturas!»
+> **Mateo 21:9:** «Y las multitudes que iban delante y los que iban detrás aclamaban, diciendo: ¡Hosanna al Hijo de David! ¡Bendito **el que viene en el nombre del Señor**! ¡Hosanna en las alturas!»
 
 > **Juan 5:43:** «Yo he venido en el nombre de mi Padre, y no me recibís; si otro viniere en su propio nombre, a ese recibiréis.»
 
