@@ -44,7 +44,7 @@ Ese nombre es **Jesús** (que significa "Jehová-salva"): Pedro citó a Joel en 
 
 > **Filipenses 2:9-11:** «Por lo cual Dios también le exaltó hasta lo sumo, y **le dio un nombre que es sobre todo nombre**; para que **al nombre de Jesús**, se doble toda rodilla; de los que están en el cielo, y en la tierra, y debajo de la tierra, y toda lengua confiese que Jesucristo es el Señor, para la gloria de Dios Padre.»
 
-> **Efesios 1:20-21:** «la cual operó en Cristo, resucitándole de los muertos, y sentándole a su diestra en los lugares celestiales, sobre todo principado y potestad y potencia y señorío, y **sobre todo nombre que se nombra, no sólo en este mundo, sino también en el venidero**;»
+> **Efesios 1:20-21:** «la cual operó en Cristo, resucitándole de los muertos, y sentándole a su diestra en los lugares celestiales, sobre todo principado y potestad y potencia y señorío, y **sobre todo nombre que se nombra**, no sólo en este mundo, sino también en el venidero;»
 
 > **Colosenses 3:17:** «Y **todo** lo que hacéis, sea de palabra o de hecho, **hacedlo todo en el nombre del Señor Jesús**, dando gracias a Dios y el Padre por medio de Él.»
 
@@ -72,7 +72,7 @@ Todos los bautismos que realizaron los apóstoles fueron en el nombre de Jesús.
 
 Las cartas de Pablo suponen lo mismo: los creyentes fueron bautizados en Cristo, sepultados con Él y revestidos de Él; y «¿o fuisteis bautizados en el nombre de Pablo?» solo tiene sentido si habían sido bautizados en el nombre del que fue crucificado por ellos.
 
-> **Romanos 6:3-4:** «¿O no sabéis que todos los que hemos sido **bautizados en Cristo Jesús**, hemos sido bautizados en su muerte? Porque somos sepultados con Él en la muerte por el bautismo; para que como Cristo resucitó de los muertos por la gloria del Padre, así también nosotros andemos en novedad de vida.»
+> **Romanos 6:3-4:** «¿O no sabéis que todos los que hemos sido **bautizados en Cristo Jesús**, hemos sido **bautizados en su muerte**? Porque somos **sepultados con Él** en la muerte por el bautismo; para que como Cristo resucitó de los muertos por la gloria del Padre, así también nosotros andemos en novedad de vida.»
 
 > **1 Corintios 1:13-14:** «¿Está dividido Cristo? ¿Fue crucificado Pablo por vosotros? **¿O fuisteis bautizados en el nombre de Pablo?** Doy gracias a Dios que a ninguno de vosotros he bautizado, sino a Crispo y a Gayo,»
 
@@ -80,47 +80,47 @@ Las cartas de Pablo suponen lo mismo: los creyentes fueron bautizados en Cristo,
 
 > **Colosenses 2:12:** «**Sepultados con Él en el bautismo**, en el cual también sois resucitados con Él, mediante la fe en el poder de Dios que le levantó de los muertos.»
 
-Santiago habla de «el buen nombre por el cual sois llamados». La NRSV lo traduce «el excelente nombre que fue **invocado sobre vosotros**», y la AMPC «el precioso nombre por el cual sois distinguidos y llamados [el nombre de Cristo invocado en el bautismo]» (traducidos del inglés): el nombre pronunciado sobre ellos cuando fueron bautizados.
+Santiago habla de «el buen nombre por el cual sois llamados». La NRSV lo traduce «el excelente nombre que fue **invocado sobre vosotros**», y la AMPC «el precioso nombre por el cual sois distinguidos y llamados [**el nombre de Cristo invocado en el bautismo**]» (traducidos del inglés): el nombre pronunciado sobre ellos cuando fueron bautizados.
 
 > **Santiago 2:7 (RV1909):** «¿No blasfeman ellos **el buen nombre** que fué **invocado sobre vosotros**?»
 
 # 5. El nombre del Padre
 
-El Hijo vino en el nombre de su Padre, lo declaró, lo manifestó y lo recibió; y ese nombre es Jesús.
+El Hijo vino en el nombre de su Padre, lo declaró, lo manifestó y lo recibió; y ese nombre es Jesús (_YHWH-Salva_).
 
-> **Mateo 1:21:** «Y dará a luz un hijo, y **llamarás su nombre JESÚS** (_YHWH-Salva_); porque Él salvará a su pueblo de sus pecados.»
+> **Mateo 1:21:** «Y dará a luz un hijo, y **llamarás su nombre JESÚS**; porque Él salvará a su pueblo de sus pecados.»
 
 > **Mateo 21:9:** «Y las multitudes que iban delante y los que iban detrás aclamaban, diciendo: ¡Hosanna al Hijo de David! ¡Bendito **el que viene en el nombre del Señor**! ¡Hosanna en las alturas!»
 
-> **Juan 5:43:** «Yo he venido en el nombre de mi Padre, y no me recibís; si otro viniere en su propio nombre, a ese recibiréis.»
+> **Juan 5:43:** «Yo **he venido en el nombre de mi Padre**, y no me recibís; si otro viniere en su propio nombre, a ese recibiréis.»
 
-> **Juan 10:25:** «Jesús les respondió: Os lo he dicho, y no creéis; las obras que yo hago en nombre de mi Padre, ellas dan testimonio de mí;»
+> **Juan 10:25:** «Jesús les respondió: Os lo he dicho, y no creéis; **las obras que yo hago en nombre de mi Padre**, ellas dan testimonio de mí;»
 
-> **Juan 17:6:** «He manifestado tu nombre a los hombres que del mundo me diste; tuyos eran, y me los diste, y han guardado tu palabra.»
+> **Juan 17:6:** «**He manifestado tu nombre** a los hombres que del mundo me diste; tuyos eran, y me los diste, y han guardado tu palabra.»
 
-> **Juan 17:26:** «Y yo les he dado a conocer tu nombre, y lo daré a conocer aún; para que el amor con que me has amado, esté en ellos, y yo en ellos.»
+> **Juan 17:26:** «Y yo **les he dado a conocer tu nombre**, y lo daré a conocer aún; para que el amor con que me has amado, esté en ellos, y yo en ellos.»
 
-En Juan 17:11-12 la mayoría de los manuscritos griegos dicen que el nombre del Padre fue **dado** al Hijo. La RVG, que sigue el TR, dice «a los que me has dado»; la BSB dice: «Padre Santo, guárdalos por tu nombre, **el nombre que me diste**… Mientras estaba con ellos, los protegí y los guardé por tu nombre, **el nombre que me diste**» (traducido de la BSB; vea **Traducciones de la Biblia**).
+En Juan 17:11-12, tanto el Texto Mayoritario como el Texto Crítico señalan que el nombre del Padre fue **dado** al Hijo (el _Textus Receptus_ sigue al texto latino y dice: «aquellos que me has dado»; véase **Traducciones de la Biblia**):
 
-> **Juan 17:11:** «Y ya no estoy en el mundo; pero estos están en el mundo, y yo a ti vengo. Padre Santo, a los que me has dado, guárdalos en tu nombre, para que sean uno, así como nosotros.»
+> **Juan 17:11 (BSB):** ««Ya no estaré en el mundo, pero ellos están en el mundo, y Yo voy hacia Ti. Padre Santo, protégelos mediante **Tu nombre, el nombre que Me diste**, para que sean uno, así como Nosotros somos uno».»
 
-> **Juan 17:12:** «Cuando estaba con ellos en el mundo, yo los guardaba en tu nombre; a los que me diste yo los guardé; y ninguno de ellos se perdió, sino el hijo de perdición; para que la Escritura se cumpliese.»
+> **Juan 17:12 (BSB):** «Mientras estaba con ellos, los protegí y los preservé mediante **Tu nombre, el nombre que Me diste**. Ninguno de ellos se ha perdido, salvo el hijo de perdición, para que se cumpliera la Escritura.»
 
 El Hijo «heredó más excelente nombre», y declara el nombre del Padre a sus hermanos, como lo anunció el Salmo:
 
-> **Hebreos 1:4:** «hecho tanto más superior que los ángeles, cuanto heredó más excelente nombre que ellos.»
+> **Hebreos 1:4:** «hecho tanto más superior que los ángeles, cuanto **heredó** más excelente **nombre** que ellos.»
 
-> **Hebreos 2:12:** «diciendo: Anunciaré tu nombre a mis hermanos, en medio de la iglesia te alabaré.»
+> **Hebreos 2:12:** «diciendo: **Anunciaré tu nombre** a mis hermanos, en medio de la iglesia te alabaré.»
 
-> **Salmos 22:22:** «Anunciaré tu nombre a mis hermanos; en medio de la congregación te alabaré.»
+> **Salmos 22:22:** «**Anunciaré tu nombre** a mis hermanos; en medio de la congregación te alabaré.»
 
-> **Filipenses 2:9-11:** «Por lo cual Dios también le exaltó hasta lo sumo, y le dio un nombre que es sobre todo nombre; para que al nombre de Jesús, se doble toda rodilla; de los que están en el cielo, y en la tierra, y debajo de la tierra, y toda lengua confiese que Jesucristo es el Señor, para la gloria de Dios Padre.»
+> **Filipenses 2:9-11:** «Por lo cual **Dios** también le exaltó hasta lo sumo, y **le dio un nombre que es sobre todo nombre**; para que al nombre de **Jesús**, se doble toda rodilla; de los que están en el cielo, y en la tierra, y debajo de la tierra, y toda lengua confiese que Jesucristo es el Señor, para la gloria de Dios Padre.»
 
 Al final, los redimidos llevan un solo nombre en la frente, «su nombre», el del que está en el trono de Dios y del Cordero. En Apocalipsis 14:1 la mayoría de los manuscritos (y la BSB) dicen: «que tenían **su nombre y el nombre de su Padre** escrito en sus frentes».
 
-> **Apocalipsis 14:1:** «Y miré, y he aquí un Cordero estaba en pie sobre el monte de Sión, y con Él ciento cuarenta y cuatro mil, que tenían el nombre de su Padre escrito en sus frentes.»
+> **Apocalipsis 14:1:** «Luego miré y vi al Cordero de pie sobre el monte Sion, y con él a 144.000 que tenían **su nombre y el nombre de su Padre** escritos en sus frentes.»
 
-> **Apocalipsis 22:3-4:** «Y no habrá más maldición; y el trono de Dios y del Cordero estará en ella, y sus siervos le servirán; y verán su rostro, y su nombre estará en sus frentes.»
+> **Apocalipsis 22:3-4:** «Y no habrá más maldición; y el trono de **Dios y del Cordero** estará en ella, y sus siervos le servirán; y verán su rostro, y **su nombre** estará en sus frentes.»
 
 # 6. El nombre del Espíritu
 

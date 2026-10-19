@@ -28,7 +28,7 @@ That name is **Jesus** (which means "YHWH-Saves"): Peter quoted Joel at Pentecos
 
 > **Acts 2:21:** "And it shall come to pass, that whosoever shall **call on the name of the Lord** shall be saved."
 
-> **Romans 10:13:** "For whosoever shall call upon the name of the Lord shall be saved."
+> **Romans 10:13:** "For whosoever shall **call upon the name of the Lord** shall be saved."
 
 > **John 3:18:** "He that believeth on him is not condemned: but he that believeth not is condemned already, because he hath not believed **in the name** of the only begotten Son of God."
 
@@ -44,7 +44,7 @@ That name is **Jesus** (which means "YHWH-Saves"): Peter quoted Joel at Pentecos
 
 > **Philippians 2:9-11:** "Wherefore God also hath highly exalted him, and **given him a name which is above every name**: That **at the name of Jesus** every knee should bow, of things in heaven, and things in earth, and things under the earth; And that every tongue should confess that Jesus Christ is Lord, to the glory of God the Father."
 
-> **Ephesians 1:20-21:** "Which he wrought in Christ, when he raised him from the dead, and set him at his own right hand in the heavenly places, **Far above** all principality, and power, and might, and dominion, and **every name that is named, not only in this world, but also in that which is to come**:"
+> **Ephesians 1:20-21:** "Which he wrought in Christ, when he raised him from the dead, and set him at his own right hand in the heavenly places, **Far above** all principality, and power, and might, and dominion, and **every name that is named**, not only in this world, but also in that which is to come:"
 
 > **Colossians 3:17:** "And **what soever ye do** in word or deed, **do all in the name of the Lord Jesus**, giving thanks to God and the Father by him."
 
@@ -72,7 +72,7 @@ Every baptism the apostles performed was in the name of Jesus. There is no recor
 
 Paul's letters assume the same: believers were baptized into Christ, buried with Him and clothed with Him; and "were ye baptized in the name of Paul?" only makes sense if they had been baptized in the name of the one who was crucified for them.
 
-> **Romans 6:3-4:** "Know ye not, that so many of us as were **baptized into Jesus Christ** were baptized into his death? Therefore we are buried with him by baptism into death: that like as Christ was raised up from the dead by the glory of the Father, even so we also should walk in newness of life."
+> **Romans 6:3-4:** "Know ye not, that so many of us as were **baptized into Jesus Christ** were **baptized into his death**? Therefore we are **buried with him** by baptism into death: that like as Christ was raised up from the dead by the glory of the Father, even so we also should walk in newness of life."
 
 > **1 Corinthians 1:13-14:** "Is Christ divided? was Paul crucified for you? or **were ye baptized in the name of Paul?** I thank God that I baptized none of you, but Crispus and Gaius;"
 
@@ -80,47 +80,47 @@ Paul's letters assume the same: believers were baptized into Christ, buried with
 
 > **Colossians 2:12:** "**Buried with him in baptism**, wherein also ye are risen with him through the faith of the operation of God, who hath raised him from the dead."
 
-James speaks of "that worthy name by the which ye are called." The NRSV translates it "the excellent name that was **invoked over you**," and the AMPC "the precious name by which you are distinguished and called [the name of Christ invoked in baptism]" — the name spoken over them when they were baptized.
+James speaks of "that worthy name by the which ye are called." The NRSV translates it "the excellent name that was **invoked over you**," and the AMPC "the precious name by which you are distinguished and called [**the name of Christ invoked in baptism**]" — the name spoken over them when they were baptized.
 
 > **James 2:7 (RSV):** "Is it not they who blaspheme **the honorable name** which was **invoked over you**?"
 
 # 5. The name of the Father
 
-The Son came in His Father's name, declared it, manifested it and received it — and that name is Jesus.
+The Son came in His Father's name, declared it, manifested it and received it — and that name is Jesus (_YHWH-Saves_).
 
-> **Matthew 1:21:** "And she shall bring forth a son, and **thou shalt call his name JESUS** (_YHWH-Saves_): for he shall save his people from their sins."
+> **Matthew 1:21:** "And she shall bring forth a son, and **thou shalt call his name JESUS**: for he shall save his people from their sins."
 
 > **Matthew 21:9:** "And the multitudes that went before, and that followed, cried, saying, Hosanna to the Son of David: Blessed is **he that cometh in the name of the Lord**; Hosanna in the highest."
 
-> **John 5:43:** "I am come in my Father’s name, and ye receive me not: if another shall come in his own name, him ye will receive."
+> **John 5:43:** "**I am come in my Father’s name**, and ye receive me not: if another shall come in his own name, him ye will receive."
 
-> **John 10:25:** "Jesus answered them, I told you, and ye believed not: the works that I do in my Father’s name, they bear witness of me."
+> **John 10:25:** "Jesus answered them, I told you, and ye believed not: **the works that I do in my Father’s name**, they bear witness of me."
 
-> **John 17:6:** "I have manifested thy name unto the men which thou gavest me out of the world: thine they were, and thou gavest them me; and they have kept thy word."
+> **John 17:6:** "**I have manifested thy name** unto the men which thou gavest me out of the world: thine they were, and thou gavest them me; and they have kept thy word."
 
-> **John 17:26:** "And I have declared unto them thy name, and will declare it: that the love wherewith thou hast loved me may be in them, and I in them."
+> **John 17:26:** "And **I have declared unto them thy name**, and will declare it: that the love wherewith thou hast loved me may be in them, and I in them."
 
-In John 17:11-12 most Greek manuscripts say that the Father's name was **given** to the Son (the KJV, following the TR, reads "those whom thou hast given me"; see **Bible Translations**):
+In John 17:11-12, the Majority Text & the Critical Text say that the Father's name was **given** to the Son (the Textus Receptus follows the Latin, and reads: "those whom thou hast given me"; see **Bible Translations**):
 
-> **John 17:11 (BSB):** "I will no longer be in the world, but they are in the world, and I am coming to You. Holy Father, protect them by Your name, the name You gave Me, so that they may be one as We are one."
+> **John 17:11 (BSB):** "I will no longer be in the world, but they are in the world, and I am coming to You. Holy Father, protect them by **Your name, the name You gave Me**, so that they may be one as We are one."
 
-> **John 17:12 (BSB):** "While I was with them, I protected and preserved them by Your name, the name You gave Me. Not one of them has been lost, except the son of destruction, so that the Scripture would be fulfilled."
+> **John 17:12 (BSB):** "While I was with them, I protected and preserved them by **Your name, the name You gave Me**. Not one of them has been lost, except the son of destruction, so that the Scripture would be fulfilled."
 
 The Son "hath by inheritance obtained a more excellent name," and declares the Father's name to His brethren, as the Psalm foretold:
 
-> **Hebrews 1:4:** "Being made so much better than the angels, as he hath by inheritance obtained a more excellent name than they."
+> **Hebrews 1:4:** "Being made so much better than the angels, as he hath **by inheritance** obtained a more excellent **name** than they."
 
-> **Hebrews 2:12:** "Saying, I will declare thy name unto my brethren, in the midst of the church will I sing praise unto thee."
+> **Hebrews 2:12:** "Saying, **I will declare thy name** unto my brethren, in the midst of the church will I sing praise unto thee."
 
-> **Psalm 22:22:** "I will declare thy name unto my brethren: in the midst of the congregation will I praise thee."
+> **Psalm 22:22:** "**I will declare thy name** unto my brethren: in the midst of the congregation will I praise thee."
 
-> **Philippians 2:9-11:** "Wherefore God also hath highly exalted him, and given him a name which is above every name: That at the name of Jesus every knee should bow, of things in heaven, and things in earth, and things under the earth; And that every tongue should confess that Jesus Christ is Lord, to the glory of God the Father."
+> **Philippians 2:9-11:** "Wherefore **God also hath** highly exalted him, and **given him a name which is above every name**: That at the name of **Jesus** every knee should bow, of things in heaven, and things in earth, and things under the earth; And that every tongue should confess that Jesus Christ is Lord, to the glory of God the Father."
 
 At the end, the redeemed bear one name on their foreheads — "his name," the name of the one on the throne of God and of the Lamb:
 
-> **Revelation 14:1 (BSB):** "Then I looked and saw the Lamb standing on Mount Zion, and with Him 144,000 who had His name and His Father’s name written on their foreheads."
+> **Revelation 14:1 (BSB):** "Then I looked and saw the Lamb standing on Mount Zion, and with Him 144,000 who had **His name and His Father’s name** written on their foreheads."
 
-> **Revelation 22:3-4:** "And there shall be no more curse: but the throne of God and of the Lamb shall be in it; and his servants shall serve him: And they shall see his face; and his name shall be in their foreheads."
+> **Revelation 22:3-4:** "And there shall be no more curse: but the throne of **God and of the Lamb** shall be in it; and his servants shall serve him: And they shall see his face; and **his name** shall be in their foreheads."
 
 # 6. The name of the Spirit
 
