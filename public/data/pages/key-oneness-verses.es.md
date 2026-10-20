@@ -86,7 +86,7 @@ Santiago habla de «el buen nombre por el cual sois llamados». La NRSV lo tradu
 
 # 5. El nombre del Padre
 
-El Hijo vino en el nombre de su Padre, lo declaró, lo manifestó y lo recibió; y ese nombre es Jesús (_YHWH-Salva_).
+El Hijo vino en el nombre de su Padre, lo declaró, lo manifestó y lo recibió; y ese nombre es Jesús (_YHWH-Salva_). El nombre del Padre representa su presencia, su autoridad y su identidad. YHWH dijo que su nombre sería puesto sobre el templo (1 Reyes 8:29), y su gloria, posteriormente, llenó el templo (2 Crónicas 7:1–2). Del mismo modo, YHWH declaró que su nombre estaba en su Ángel (Éxodo 23:20–21). Esto es coherente con el hecho de que el Ángel es una manifestación de YHWH mismo: el Ángel se le apareció a Moisés, pero quien hablaba desde la zarza ardiente se identificó como el Dios de Abraham, Isaac y Jacob (Éxodo 3:2–6). Asimismo, Manoa entendió que su encuentro con el Ángel del Señor equivalía a haber visto a Dios (Jueces 13:20–22), y la visión en Zacarías 3:1–5 asocia al Ángel del Señor con la eliminación de la iniquidad de Josué. Ahora, el nombre está en el Hijo (Hebreos 1:4); el Padre se ha manifestado en carne a través de Jesucristo (2 Corintios 5:19; 1 Timoteo 3:16).
 
 > **Mateo 1:21:** «Y dará a luz un hijo, y **llamarás su nombre JESÚS**; porque Él salvará a su pueblo de sus pecados.»
 
@@ -124,65 +124,61 @@ Al final, los redimidos llevan un solo nombre en la frente, «su nombre», el de
 
 # 6. El nombre del Espíritu
 
-El Espíritu Santo es el Espíritu de Jesucristo. El Consolador viene en el nombre de Jesús, y Jesús dijo que en el Consolador Él mismo vendría. En Hechos 16:7 el Texto Crítico (BSB) dice: «pero **el Espíritu de Jesús** no se lo permitió».
+El Espíritu Santo no es el espíritu humano, sino el Espíritu divino de Jesús. El Consolador viene en el nombre de Jesús, con la autoridad de Jesús, para recordarnos las enseñanzas de Jesús, pues Él es Jesús mismo, actuando como un Consolador espiritual en lugar de uno humano. Jesús mismo dijo que vendría a nosotros y estaría con nosotros hasta el fin de los tiempos.
 
-> **Hechos 16:6-7:** «Y pasando a Frigia y a la provincia de Galacia, les fue prohibido por el Espíritu Santo predicar la palabra en Asia. Y cuando llegaron a Misia, intentaron ir a Bitinia; pero el Espíritu no se lo permitió.»
+> **Hechos 16:6-7 (BSB):** «Después de que **el Espíritu Santo** les impidiera anunciar la palabra en la provincia de Asia, recorrieron la región de Frigia y Galacia. Y al llegar a los límites de Misia, intentaron entrar en Bitinia, pero **el Espíritu de Jesús** no se lo permitió.»
 
-> **Romanos 8:9:** «Mas vosotros no estáis en la carne, sino en el Espíritu, si es que el Espíritu de Dios mora en vosotros. Y si alguno no tiene el Espíritu de Cristo, el tal no es de Él.»
+> **Romanos 8:9:** «Mas vosotros no estáis en la carne, sino en **el Espíritu**, si es que **el Espíritu de Dios** mora en vosotros. Y si alguno no tiene **el Espíritu de Cristo**, el tal no es de Él.»
 
-> **1 Pedro 1:10-11:** «Acerca de esta salvación inquirieron y diligentemente indagaron los profetas que profetizaron de la gracia que había de venir a vosotros, escudriñando cuándo o en qué punto de tiempo indicaba el Espíritu de Cristo que estaba en ellos, cuando prenunciaba los sufrimientos de Cristo, y las glorias después de ellos.»
+> **1 Pedro 1:10-11:** «Acerca de esta salvación inquirieron y diligentemente indagaron **los profetas** que profetizaron de la gracia que había de venir a vosotros, escudriñando cuándo o en qué punto de tiempo indicaba **el Espíritu de Cristo** que estaba en ellos, cuando prenunciaba los sufrimientos de Cristo, y las glorias después de ellos.»
 
-> **Gálatas 4:6:** «Y por cuanto sois hijos, Dios envió el Espíritu de su Hijo a vuestros corazones, el cual clama: Abba, Padre.»
+> **Filipenses 1:19:** «Porque sé que esto se tornará para mi salvación por vuestra oración y la suministración **del Espíritu de Jesucristo**,»
 
-> **Filipenses 1:19:** «Porque sé que esto se tornará para mi salvación por vuestra oración y la suministración del Espíritu de Jesucristo,»
+> **2 Corintios 3:17:** «Porque **el Señor es el Espíritu**; y donde está el Espíritu del Señor, allí hay libertad.»
 
-> **2 Corintios 3:17:** «Porque el Señor es el Espíritu; y donde está el Espíritu del Señor, allí hay libertad.»
+> **Juan 14:17-18:** «**el Espíritu de verdad**, a quien el mundo no puede recibir, porque no le ve, ni le conoce; pero **vosotros le conocéis; porque mora con vosotros**, y **estará en vosotros**. No os dejaré huérfanos; **vendré a vosotros**.»
 
-> **Juan 14:17-18:** «el Espíritu de verdad, a quien el mundo no puede recibir, porque no le ve, ni le conoce; pero vosotros le conocéis; porque mora con vosotros, y estará en vosotros. No os dejaré huérfanos; vendré a vosotros.»
+> **Juan 14:26:** «Mas el Consolador, **el Espíritu Santo**, a quien el Padre enviará **en mi nombre**, Él os enseñará todas las cosas, y os **recordará todo lo que yo os he dicho**.»
 
-> **Juan 14:26:** «Mas el Consolador, el Espíritu Santo, a quien el Padre enviará en mi nombre, Él os enseñará todas las cosas, y os recordará todo lo que yo os he dicho.»
+> **Juan 16:7:** «Pero yo os digo la verdad: Os es necesario que yo me vaya; porque **si no me fuera, el Consolador no vendría a vosotros**; mas si me fuere, os lo enviaré.»
 
-> **Juan 16:7:** «Pero yo os digo la verdad: Os es necesario que yo me vaya; porque si no me fuera, el Consolador no vendría a vosotros; mas si me fuere, os lo enviaré.»
-
-> **Mateo 28:20:** «enseñándoles que guarden todas las cosas que os he mandado; y he aquí, yo estoy con vosotros todos los días, hasta el fin del mundo. Amén.»
+> **Mateo 28:20:** «enseñándoles que guarden todas las cosas que os he mandado; y he aquí, **yo estoy con vosotros todos los días, hasta el fin del mundo**. Amén.»
 
 # 7. Un solo Espíritu
 
 Hay un cuerpo, un Espíritu, un Señor; no tres espíritus. Dios es Espíritu, y el que se une al Señor, un espíritu es con Él.
 
-> **Efesios 4:4-6:** «Hay un cuerpo, y un Espíritu, así como vosotros sois llamados en una misma esperanza de vuestro llamamiento. Un Señor, una fe, un bautismo, un Dios y Padre de todos, el cual es sobre todo, y por todo, y en todos vosotros.»
+> **Efesios 4:4-6:** «Hay un cuerpo, y **un Espíritu**, así como vosotros sois llamados en una misma esperanza de vuestro llamamiento. Un Señor, una fe, un bautismo, **un Dios y Padre** de todos, el cual es sobre todo, y por todo, y en todos vosotros.»
 
-> **1 Corintios 12:13:** «Porque por un solo Espíritu somos todos bautizados en un cuerpo, ya sean judíos o gentiles, ya sean siervos o libres; y todos hemos bebido de un mismo Espíritu.»
+> **1 Corintios 12:13:** «Porque por **un solo Espíritu** somos todos bautizados en un cuerpo, ya sean judíos o gentiles, ya sean siervos o libres; y todos hemos bebido de **un mismo Espíritu**.»
 
-> **Juan 4:24:** «Dios es Espíritu; y los que le adoran, en espíritu y en verdad es necesario que le adoren.»
-
-> **1 Corintios 6:17:** «Pero el que se une al Señor, un espíritu es.»
+> **Juan 4:24:** «**Dios es Espíritu**; y los que le adoran, en espíritu y en verdad es necesario que le adoren.»
 
 # 8. Un solo Padre
 
 Ambos Testamentos conocen a un solo Padre, que es el único Dios.
 
-> **Deuteronomio 32:6:** «¿Así pagas a Jehová, oh pueblo loco e ignorante? ¿No es Él tu Padre que te poseyó? Él te hizo y te estableció.»
+> **Deuteronomio 32:6:** «¿Así pagas a **Jehová**, oh pueblo loco e ignorante? ¿No es Él **tu Padre** que te poseyó? **Él te hizo** y te estableció.»
 
-> **Isaías 63:16:** «Pero tú eres nuestro Padre, si bien Abraham nos ignora, e Israel no nos conoce; tú, oh Jehová, eres nuestro Padre; nuestro Redentor, tu nombre es desde la eternidad.»
+> **Isaías 63:16:** «Pero tú eres **nuestro Padre**, si bien Abraham nos ignora, e Israel no nos conoce; **tú, oh Jehová, eres nuestro Padre**; nuestro Redentor, **tu nombre** es desde la eternidad.»
 
-> **Isaías 64:8:** «Pero ahora, oh Jehová, tú eres nuestro Padre; nosotros somos el barro, y tú nuestro alfarero; obra de tus manos somos todos nosotros.»
+> **Isaías 64:8:** «Pero ahora, **oh Jehová, tú eres nuestro Padre**; nosotros somos el barro, y tú nuestro alfarero; obra de tus manos somos todos nosotros.»
 
-> **Jeremías 3:19:** «Mas yo dije: ¿Cómo he de ponerte entre los hijos, y darte la tierra deseable, la rica heredad de los ejércitos de las naciones? Y dije: Padre mío me llamarás, y no te apartarás de en pos de mí.»
+> **Jeremías 3:19:** «Mas yo dije: ¿Cómo he de ponerte entre los hijos, y darte la tierra deseable, la rica heredad de los ejércitos de las naciones? Y dije: **Padre mío me llamarás**, y no te apartarás de en pos de mí.»
 
-> **Malaquías 2:10:** «¿No tenemos todos un mismo padre? ¿No nos ha creado un mismo Dios? ¿Por qué menospreciaremos cada uno a su hermano, quebrantando el pacto de nuestros padres?»
+> **Malaquías 2:10:** «¿No tenemos todos **un mismo padre**? ¿No nos ha creado **un mismo Dios**? ¿Por qué menospreciaremos cada uno a su hermano, quebrantando el pacto de nuestros padres?»
 
-> **Mateo 6:9:** «Vosotros, pues, oraréis así: Padre nuestro que estás en el cielo, santificado sea tu nombre.»
+> **Mateo 6:9:** «Vosotros, pues, oraréis así: **Padre nuestro** que estás en el cielo, santificado sea tu nombre.»
 
-> **Mateo 23:9:** «Y no llaméis vuestro padre a nadie en la tierra; porque uno es vuestro Padre, el que está en el cielo.»
+> **Mateo 23:9:** «Y no llaméis vuestro padre a nadie en la tierra; porque **uno es vuestro Padre**, el que está en el cielo.»
 
-> **Juan 20:17:** «Jesús le dijo: No me toques; porque aún no he subido a mi Padre; mas ve a mis hermanos, y diles: Subo a mi Padre y a vuestro Padre, a mi Dios y a vuestro Dios.»
+> **Juan 20:17:** «Jesús le dijo: No me toques; porque aún no he subido a mi Padre; mas ve a mis hermanos, y diles: Subo a **mi Padre y a vuestro Padre**, a **mi Dios y a vuestro Dios**.»
 
-> **1 Corintios 8:6:** «mas para nosotros sólo hay un Dios, el Padre, de quien son todas las cosas, y nosotros en Él; y un Señor, Jesucristo, por el cual son todas las cosas, y nosotros por Él.»
+> **1 Corintios 8:6:** «mas para nosotros **sólo hay un Dios, el Padre**, de quien son todas las cosas, y nosotros en Él; y un Señor, Jesucristo, por el cual son todas las cosas, y nosotros por Él.»
 
-> **Efesios 4:6:** «un Dios y Padre de todos, el cual es sobre todo, y por todo, y en todos vosotros.»
+> **Efesios 4:6:** «**un Dios y Padre de todos**, el cual es sobre todo, y por todo, y en todos vosotros.»
 
-> **Santiago 1:17:** «Toda buena dádiva y todo don perfecto desciende de lo alto, del Padre de las luces, en el cual no hay mudanza, ni sombra de variación.»
+> **Santiago 1:17:** «Toda buena dádiva y todo don perfecto desciende de lo alto, **del Padre** de las luces, en el cual no hay mudanza, ni sombra de variación.»
 
 # 9. Un solo Espíritu, muchas descripciones
 
@@ -195,61 +191,59 @@ La Escritura llama al único Espíritu con muchas descripciones. Si fueran espí
 - **El Espíritu:** Juan 7:39; Romanos 8:2
 - **El Espíritu de vuestro Padre:** Mateo 10:20; Juan 15:26
 
-> **Génesis 1:2:** «Y la tierra estaba sin forma y vacía, y las tinieblas estaban sobre la faz del abismo, y el Espíritu de Dios se movía sobre la faz de las aguas.»
+> **Génesis 1:2:** «Y la tierra estaba sin forma y vacía, y las tinieblas estaban sobre la faz del abismo, y **el Espíritu de Dios** se movía sobre la faz de las aguas.»
 
-> **1 Samuel 10:10:** «Y cuando llegaron allá al collado, he aquí la compañía de los profetas que venía a encontrarse con él, y el Espíritu de Dios vino sobre él, y profetizó entre ellos.»
+> **1 Samuel 10:10:** «Y cuando llegaron allá al collado, he aquí la compañía de los profetas que venía a encontrarse con él, y **el Espíritu de Dios** vino sobre él, y profetizó entre ellos.»
 
-> **Jueces 3:10:** «Y el Espíritu de Jehová fue sobre él, y juzgó a Israel, y salió a batalla, y Jehová entregó en su mano a Cusan-risataim, rey de Mesopotamia, y prevaleció su mano contra Cusan-risataim.»
+> **Jueces 3:10:** «Y **el Espíritu de Jehová** fue sobre él, y juzgó a Israel, y salió a batalla, y Jehová entregó en su mano a Cusan-risataim, rey de Mesopotamia, y prevaleció su mano contra Cusan-risataim.»
 
-> **Jueces 6:34:** «Pero el Espíritu de Jehová vino sobre Gedeón, y cuando este tocó la trompeta, Abiezer se reunió con él.»
+> **Jueces 6:34:** «Pero **el Espíritu de Jehová** vino sobre Gedeón, y cuando este tocó la trompeta, Abiezer se reunió con él.»
 
-> **Isaías 11:2:** «Y reposará sobre Él el Espíritu de Jehová; espíritu de sabiduría y de entendimiento, espíritu de consejo y de poder, espíritu de conocimiento y de temor de Jehová.»
+> **Isaías 11:2:** «Y reposará sobre Él **el Espíritu de Jehová**; espíritu de sabiduría y de entendimiento, espíritu de consejo y de poder, espíritu de conocimiento y de temor de Jehová.»
 
-> **Miqueas 3:8:** «Mas yo estoy lleno de poder del Espíritu de Jehová, y de juicio, y de fortaleza, para denunciar a Jacob su transgresión, y a Israel su pecado.»
+> **Miqueas 3:8:** «Mas yo estoy lleno de poder del **Espíritu de Jehová**, y de juicio, y de fortaleza, para denunciar a Jacob su transgresión, y a Israel su pecado.»
 
-> **Gálatas 4:6:** «Y por cuanto sois hijos, Dios envió el Espíritu de su Hijo a vuestros corazones, el cual clama: Abba, Padre.»
+> **Filipenses 1:19:** «Porque sé que esto se tornará para mi salvación por vuestra oración y la suministración **del Espíritu de Jesucristo**,»
 
-> **Filipenses 1:19:** «Porque sé que esto se tornará para mi salvación por vuestra oración y la suministración del Espíritu de Jesucristo,»
+> **Romanos 8:9:** «Mas vosotros no estáis en la carne, sino en **el Espíritu**, si es que **el Espíritu de Dios** mora en vosotros. Y si alguno no tiene **el Espíritu de Cristo**, el tal no es de Él.»
 
-> **Romanos 8:9:** «Mas vosotros no estáis en la carne, sino en el Espíritu, si es que el Espíritu de Dios mora en vosotros. Y si alguno no tiene el Espíritu de Cristo, el tal no es de Él.»
+> **Juan 7:39:** «(Esto dijo del **Espíritu Santo** que habían de recibir los que creyesen en Él; porque **el Espíritu Santo** **aún no había sido dado; porque Jesús no había sido aún glorificado**.)»
 
-> **Juan 7:39:** «(Esto dijo del Espíritu Santo que habían de recibir los que creyesen en Él; porque el Espíritu Santo aún no había sido dado; porque Jesús no había sido aún glorificado.)»
+> **Romanos 8:2:** «Porque la ley **del Espíritu de vida** en Cristo Jesús me ha librado de la ley del pecado y de la muerte.»
 
-> **Romanos 8:2:** «Porque la ley del Espíritu de vida en Cristo Jesús me ha librado de la ley del pecado y de la muerte.»
+> **Mateo 10:20:** «Porque no sois vosotros los que habláis, sino **el Espíritu de vuestro Padre** que habla en vosotros.»
 
-> **Mateo 10:20:** «Porque no sois vosotros los que habláis, sino el Espíritu de vuestro Padre que habla en vosotros.»
-
-> **Juan 15:26:** «Pero cuando venga el Consolador, a quien yo os enviaré del Padre, el Espíritu de verdad que procede del Padre, Él dará testimonio de mí.»
+> **Juan 15:26:** «Pero cuando venga **el Consolador**, a quien yo os enviaré del Padre, **el Espíritu de verdad** que procede del Padre, Él dará testimonio de mí.»
 
 # 10. El bautismo requiere fe
 
-El bautismo es para los que han oído, creído y se han arrepentido; no es para infantes que no pueden creer.
+El bautismo es para los que han oído, creído y se han arrepentido; no es para infantes que no pueden creer, porque de los tales ya es el reino de los cielos (Mateo 19:14).
 
-> **Marcos 16:16:** «El que creyere y fuere bautizado, será salvo; mas el que no creyere, será condenado.»
+> **Marcos 16:16:** «El que **creyere** y fuere bautizado, será salvo; mas el que no creyere, será condenado.»
 
-> **Hechos 2:38:** «Entonces Pedro les dijo: Arrepentíos, y bautícese cada uno de vosotros en el nombre de Jesucristo para remisión de pecados; y recibiréis el don del Espíritu Santo.»
+> **Hechos 2:38:** «Entonces Pedro les dijo: **Arrepentíos**, y bautícese cada uno de vosotros en el nombre de Jesucristo para remisión de pecados; y recibiréis el don del Espíritu Santo.»
 
-> **Hechos 2:41:** «Así que, los que con gozo recibieron su palabra, fueron bautizados; y aquel día fueron añadidas a ellos como tres mil almas.»
+> **Hechos 2:41:** «Así que, los que con gozo **recibieron su palabra**, fueron bautizados; y aquel día fueron añadidas a ellos como tres mil almas.»
 
-> **Hechos 8:12:** «Pero cuando creyeron a Felipe, que les predicaba acerca del reino de Dios y el nombre de Jesucristo, fueron bautizados, así hombres como mujeres.»
+> **Hechos 8:12:** «Pero cuando **creyeron** a Felipe, que **les predicaba** acerca del reino de Dios y el nombre de Jesucristo, fueron bautizados, así hombres como mujeres.»
 
-> **Hechos 8:37:** «Y Felipe dijo: Si crees de todo corazón, bien puedes. Y él respondiendo, dijo: Creo que Jesucristo es el Hijo de Dios.»
+> **Hechos 8:37:** «Y Felipe dijo: **Si crees de todo corazón**, bien puedes. Y él respondiendo, dijo: **Creo** que Jesucristo es el Hijo de Dios.»
 
-> **Hechos 18:8:** «Y Crispo, el principal de la sinagoga, creyó en el Señor con toda su casa; y muchos de los corintios al oír, creían y eran bautizados.»
+> **Hechos 18:8:** «Y Crispo, el principal de la sinagoga, **creyó** en el Señor **con toda su casa**; y muchos de los corintios **al oír, creían** y eran bautizados.»
 
-> **Hechos 19:4-5:** «Y Pablo les dijo: Juan bautizó con el bautismo de arrepentimiento, diciendo al pueblo que creyesen en Aquél que vendría después de él, esto es, en Cristo Jesús. Cuando oyeron esto, fueron bautizados en el nombre del Señor Jesús.»
+> **Hechos 19:4-5:** «Y Pablo les dijo: Juan bautizó con el bautismo de **arrepentimiento**, diciendo al pueblo que **creyesen** en Aquél que vendría después de él, esto es, en Cristo Jesús. Cuando **oyeron** esto, fueron bautizados en el nombre del Señor Jesús.»
 
-> **Hechos 22:16:** «Ahora, pues, ¿por qué te detienes? Levántate y sé bautizado; y lava tus pecados invocando el nombre del Señor.»
+> **Hechos 22:16:** «Ahora, pues, ¿por qué te detienes? **Levántate** y sé bautizado; y \*lava tus pecados **invocando** el nombre del Señor.»
 
 Creer es creer en el nombre del unigénito Hijo y confesar a Jesús como Señor; el que niega al Hijo tampoco tiene al Padre.
 
-> **Juan 20:31:** «Pero estas se han escrito, para que creáis que Jesús es el Cristo, el Hijo de Dios; y para que creyendo, tengáis vida en su nombre.»
+> **Juan 20:31:** «Pero estas se han escrito, para que **creáis** que Jesús es el Cristo, el Hijo de Dios; y para que **creyendo**, tengáis vida en su nombre.»
 
-> **Juan 3:18:** «El que en Él cree, no es condenado, pero el que no cree, ya es condenado, porque no ha creído en el nombre del unigénito Hijo de Dios.»
+> **Juan 3:18:** «**El que en Él cree**, no es condenado, pero el que no cree, ya es condenado, porque no ha creído en el nombre del unigénito Hijo de Dios.»
 
-> **Romanos 10:9-10:** «Que si confesares con tu boca al Señor Jesús, y creyeres en tu corazón que Dios le levantó de los muertos, serás salvo. Porque con el corazón se cree para justicia; y con la boca se hace confesión para salvación.»
+> **Romanos 10:9-10:** «Que si **confesares** con tu boca al Señor Jesús, y **creyeres** en tu corazón que Dios le levantó de los muertos, serás salvo. Porque con el corazón se cree para justicia; y con la boca se hace confesión para salvación.»
 
-> **1 Juan 2:22-23:** «¿Quién es mentiroso, sino el que niega que Jesús es el Cristo? Este es anticristo, que niega al Padre y al Hijo. Todo aquel que niega al Hijo, tampoco tiene al Padre. El que confiesa al Hijo tiene también al Padre.»
+> **1 Juan 2:22-23:** «¿Quién es mentiroso, sino el que niega que Jesús es el Cristo? Este es anticristo, que niega al Padre y al Hijo. Todo aquel que niega al Hijo, tampoco tiene al Padre. El que **confiesa** al Hijo tiene también al Padre.»
 
 # 11. Jesús es YHWH
 

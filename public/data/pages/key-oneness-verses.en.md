@@ -86,7 +86,7 @@ James speaks of "that worthy name by the which ye are called." The NRSV translat
 
 # 5. The name of the Father
 
-The Son came in His Father's name, declared it, manifested it and received it — and that name is Jesus (_YHWH-Saves_).
+The Son came in His Father's name, declared it, manifested it and received it — and that name is Jesus (_YHWH-Saves_). The name of the Father represents His presence, authority, and identity. YHWH said that His name would be placed on the temple (1 Kings 8:29), and His glory subsequently filled the temple (2 Chronicles 7:1–2). Likewise, YHWH declared that His name was in His Angel (Exodus 23:20–21). This is consistent with the Angel being a manifestation of YHWH Himself: the Angel appeared to Moses, yet the one speaking from the burning bush identified Himself as the God of Abraham, Isaac, and Jacob (Exodus 3:2–6). Manoah likewise understood his encounter with the Angel of the LORD as having seen God (Judges 13:20–22), and the vision in Zechariah 3:1–5 associates the Angel of the LORD with the removal of Joshua's iniquity. Now the name is in the Son (Hebrews 1:4); the Father has manifested Himself in the flesh through Jesus Christ (2 Corinthians 5:19; 1 Timothy 3:16).
 
 > **Matthew 1:21:** "And she shall bring forth a son, and **thou shalt call his name JESUS**: for he shall save his people from their sins."
 
@@ -124,65 +124,61 @@ At the end, the redeemed bear one name on their foreheads — "his name," the na
 
 # 6. The name of the Spirit
 
-The Holy Spirit is the Spirit of Jesus Christ. The Comforter comes in Jesus' name, and Jesus said that in the Comforter He Himself would come.
+The Holy Spirit is not the human, but the divine Spirit of Jesus. The Comforter comes in Jesus' name, with the authority of Jesus, to remind us of Jesus' teachings because He's Jesus Himself as a Spiritual Comforter rather than a human one. Jesus said it himself that he would come to us & be with us until the end of the age.
 
-> **Acts 16:6-7 (BSB):** "After the Holy Spirit had prevented them from speaking the word in the province of Asia, they traveled through the region of Phrygia and Galatia. And when they came to the border of Mysia, they tried to enter Bithynia, but the Spirit of Jesus would not permit them."
+> **Acts 16:6-7 (BSB):** "After **the Holy Spirit** had prevented them from speaking the word in the province of Asia, they traveled through the region of Phrygia and Galatia. And when they came to the border of Mysia, they tried to enter Bithynia, but **the Spirit of Jesus** would not permit them."
 
-> **Romans 8:9:** "But ye are not in the flesh, but in the Spirit, if so be that the Spirit of God dwell in you. Now if any man have not the Spirit of Christ, he is none of his."
+> **Romans 8:9:** "But ye are not in the flesh, but **in the Spirit**, if so be that **the Spirit of God** dwell in you. Now if any man have not **the Spirit of Christ**, he is none of his."
 
-> **1 Peter 1:10-11:** "Of which salvation the prophets have enquired and searched diligently, who prophesied of the grace that should come unto you: Searching what, or what manner of time the Spirit of Christ which was in them did signify, when it testified beforehand the sufferings of Christ, and the glory that should follow."
+> **1 Peter 1:10-11:** "Of which salvation **the prophets** have enquired and searched diligently, who prophesied of the grace that should come unto you: Searching what, or what manner of time **the Spirit of Christ** which was in them did signify, when it testified beforehand the sufferings of Christ, and the glory that should follow."
 
-> **Galatians 4:6:** "And because ye are sons, God hath sent forth the Spirit of his Son into your hearts, crying, Abba, Father."
+> **Philippians 1:19:** "For I know that this shall turn to my salvation through your prayer, and the supply of **the Spirit of Jesus Christ**,"
 
-> **Philippians 1:19:** "For I know that this shall turn to my salvation through your prayer, and the supply of the Spirit of Jesus Christ,"
+> **2 Corinthians 3:17:** "Now **the Lord is that Spirit**: and where the Spirit of the Lord is, there is liberty."
 
-> **2 Corinthians 3:17:** "Now the Lord is that Spirit: and where the Spirit of the Lord is, there is liberty."
+> **John 14:17-18:** "Even **the Spirit of truth**; whom the world cannot receive, because it seeth him not, neither knoweth him: but **ye know him\*; for he dwelleth with you**, and **shall be in you**. I will not leave you comfortless: **I will come to you**."
 
-> **John 14:17-18:** "Even the Spirit of truth; whom the world cannot receive, because it seeth him not, neither knoweth him: but ye know him; for he dwelleth with you, and shall be in you. I will not leave you comfortless: I will come to you."
+> **John 14:26:** "But the Comforter, which is **the Holy Ghost**, whom the Father will send **in my name**, he shall teach you all things, and **bring** all things **to your remembrance, whatsoever I have said** unto you."
 
-> **John 14:26:** "But the Comforter, which is the Holy Ghost, whom the Father will send in my name, he shall teach you all things, and bring all things to your remembrance, whatsoever I have said unto you."
+> **John 16:7:** "Nevertheless I tell you the truth; It is expedient for you that I go away: for **if I go not away, the Comforter will not come** unto you; but if I depart, I will send him unto you."
 
-> **John 16:7:** "Nevertheless I tell you the truth; It is expedient for you that I go away: for if I go not away, the Comforter will not come unto you; but if I depart, I will send him unto you."
-
-> **Matthew 28:20:** "Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you alway, even unto the end of the world. Amen."
+> **Matthew 28:20:** "Teaching them to observe all things whatsoever I have commanded you: and, lo, **I am with you alway, even unto the end of the world**. Amen."
 
 # 7. One Spirit
 
 There is one body, one Spirit, one Lord — not three spirits. God is a Spirit, and whoever is joined to the Lord is one spirit with Him.
 
-> **Ephesians 4:4-6:** "There is one body, and one Spirit, even as ye are called in one hope of your calling; One Lord, one faith, one baptism, One God and Father of all, who is above all, and through all, and in you all."
+> **Ephesians 4:4-6:** "There is one body, and **one Spirit**, even as ye are called in one hope of your calling; One Lord, one faith, one baptism, **One God and Father** of all, who is above all, and through all, and in you all."
 
-> **1 Corinthians 12:13:** "For by one Spirit are we all baptized into one body, whether we be Jews or Gentiles, whether we be bond or free; and have been all made to drink into one Spirit."
+> **1 Corinthians 12:13:** "For by **one Spirit** are we all baptized into one body, whether we be Jews or Gentiles, whether we be bond or free; and have been all made to drink into **one Spirit**."
 
-> **John 4:24:** "God is a Spirit: and they that worship him must worship him in spirit and in truth."
-
-> **1 Corinthians 6:17:** "But he that is joined unto the Lord is one spirit."
+> **John 4:24:** "**God is a Spirit**: and they that worship him must worship him in spirit and in truth."
 
 # 8. One Father
 
 Both Testaments know one Father, who is the one God.
 
-> **Deuteronomy 32:6:** "Do ye thus requite the LORD, O foolish people and unwise? is not he thy father that hath bought thee? hath he not made thee, and established thee?"
+> **Deuteronomy 32:6:** "Do ye thus requite **the LORD**, O foolish people and unwise? is not he **thy father** that hath bought thee? hath he not **made thee**, and established thee?"
 
-> **Isaiah 63:16:** "Doubtless thou art our father, though Abraham be ignorant of us, and Israel acknowledge us not: thou, O LORD, art our father, our redeemer; thy name is from everlasting."
+> **Isaiah 63:16:** "Doubtless **thou art our father**, though Abraham be ignorant of us, and Israel acknowledge us not: **thou, O LORD, art our father**, our redeemer; thy name is from everlasting."
 
-> **Isaiah 64:8:** "But now, O LORD, thou art our father; we are the clay, and thou our potter; and we all are the work of thy hand."
+> **Isaiah 64:8:** "But now, **O LORD, thou art our father**; we are the clay, and thou our potter; and we all are the work of thy hand."
 
-> **Jeremiah 3:19:** "But I said, How shall I put thee among the children, and give thee a pleasant land, a goodly heritage of the hosts of nations? and I said, Thou shalt call me, My father; and shalt not turn away from me."
+> **Jeremiah 3:19:** "But I said, How shall I put thee among the children, and give thee a pleasant land, a goodly heritage of the hosts of nations? and I said, **Thou shalt call me, My father**; and shalt not turn away from me."
 
-> **Malachi 2:10:** "Have we not all one father? hath not one God created us? why do we deal treacherously every man against his brother, by profaning the covenant of our fathers?"
+> **Malachi 2:10:** "Have we not all **one father**? hath not **one God** created us? why do we deal treacherously every man against his brother, by profaning the covenant of our fathers?"
 
-> **Matthew 6:9:** "After this manner therefore pray ye: Our Father which art in heaven, Hallowed be thy name."
+> **Matthew 6:9:** "After this manner therefore pray ye: **Our Father** which art in heaven, Hallowed be thy name."
 
-> **Matthew 23:9:** "And call no man your father upon the earth: for one is your Father, which is in heaven."
+> **Matthew 23:9:** "And call no man your father upon the earth: for **one is your Father**, which is in heaven."
 
-> **John 20:17:** "Jesus saith unto her, Touch me not; for I am not yet ascended to my Father: but go to my brethren, and say unto them, I ascend unto my Father, and your Father; and to my God, and your God."
+> **John 20:17:** "Jesus saith unto her, Touch me not; for I am not yet ascended to my Father: but go to my brethren, and say unto them, I ascend unto **my Father, and your Father**; and to **my God, and your God**."
 
-> **1 Corinthians 8:6:** "But to us there is but one God, the Father, of whom are all things, and we in him; and one Lord Jesus Christ, by whom are all things, and we by him."
+> **1 Corinthians 8:6:** "But to us **there is but one God, the Father**, of whom are all things, and we in him; and one Lord Jesus Christ, by whom are all things, and we by him."
 
-> **Ephesians 4:6:** "One God and Father of all, who is above all, and through all, and in you all."
+> **Ephesians 4:6:** "**One God and Father of all**, who is above all, and through all, and in you all."
 
-> **James 1:17:** "Every good gift and every perfect gift is from above, and cometh down from the Father of lights, with whom is no variableness, neither shadow of turning."
+> **James 1:17:** "Every good gift and every perfect gift is from above, and cometh down **from the Father** of lights, with whom is no variableness, neither shadow of turning."
 
 # 9. One Spirit, many descriptions
 
@@ -195,61 +191,59 @@ Scripture calls the one Spirit by many descriptions. If these were different spi
 - **The Spirit:** John 7:39; Romans 8:2
 - **The Spirit of your Father:** Matthew 10:20; John 15:26
 
-> **Genesis 1:2:** "And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters."
+> **Genesis 1:2:** "And the earth was without form, and void; and darkness was upon the face of the deep. And **the Spirit of God** moved upon the face of the waters."
 
-> **1 Samuel 10:10:** "And when they came thither to the hill, behold, a company of prophets met him; and the Spirit of God came upon him, and he prophesied among them."
+> **1 Samuel 10:10:** "And when they came thither to the hill, behold, a company of prophets met him; and **the Spirit of God** came upon him, and he prophesied among them."
 
-> **Judges 3:10:** "And the Spirit of the LORD came upon him, and he judged Israel, and went out to war: and the LORD delivered Chushan-rishathaim king of Mesopotamia into his hand; and his hand prevailed against Chushan-rishathaim."
+> **Judges 3:10:** "And **the Spirit of the LORD** came upon him, and he judged Israel, and went out to war: and the LORD delivered Chushan-rishathaim king of Mesopotamia into his hand; and his hand prevailed against Chushan-rishathaim."
 
-> **Judges 6:34:** "But the Spirit of the LORD came upon Gideon, and he blew a trumpet; and Abi-ezer was gathered after him."
+> **Judges 6:34:** "But **the Spirit of the LORD** came upon Gideon, and he blew a trumpet; and Abi-ezer was gathered after him."
 
-> **Isaiah 11:2:** "And the spirit of the LORD shall rest upon him, the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of the LORD;"
+> **Isaiah 11:2:** "And **the spirit of the LORD** shall rest upon him, the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of the LORD;"
 
-> **Micah 3:8:** "But truly I am full of power by the spirit of the LORD, and of judgment, and of might, to declare unto Jacob his transgression, and to Israel his sin."
+> **Micah 3:8:** "But truly I am full of power by **the spirit of the LORD**, and of judgment, and of might, to declare unto Jacob his transgression, and to Israel his sin."
 
-> **Galatians 4:6:** "And because ye are sons, God hath sent forth the Spirit of his Son into your hearts, crying, Abba, Father."
+> **Philippians 1:19:** "For I know that this shall turn to my salvation through your prayer, and the supply of **the Spirit of Jesus Christ**,"
 
-> **Philippians 1:19:** "For I know that this shall turn to my salvation through your prayer, and the supply of the Spirit of Jesus Christ,"
+> **Romans 8:9:** "But ye are not in the flesh, but in **the Spirit**, if so be that **the Spirit of God** dwell in you. Now if any man have not **the Spirit of Christ**, he is none of his."
 
-> **Romans 8:9:** "But ye are not in the flesh, but in the Spirit, if so be that the Spirit of God dwell in you. Now if any man have not the Spirit of Christ, he is none of his."
+> **John 7:39:** "(But this spake he of **the Spirit**, which they that believe on him should receive: for **the Holy Ghost was not yet given; because that Jesus was not yet glorified**.)"
 
-> **John 7:39:** "(But this spake he of the Spirit, which they that believe on him should receive: for the Holy Ghost was not yet given; because that Jesus was not yet glorified.)"
+> **Romans 8:2:** "For the law of **the Spirit of life** in Christ Jesus hath made me free from the law of sin and death."
 
-> **Romans 8:2:** "For the law of the Spirit of life in Christ Jesus hath made me free from the law of sin and death."
+> **Matthew 10:20:** "For it is not ye that speak, but **the Spirit of your Father** which speaketh in you."
 
-> **Matthew 10:20:** "For it is not ye that speak, but the Spirit of your Father which speaketh in you."
-
-> **John 15:26:** "But when the Comforter is come, whom I will send unto you from the Father, even the Spirit of truth, which proceedeth from the Father, he shall testify of me:"
+> **John 15:26:** "But when **the Comforter** is come, whom I will send unto you from the Father, even **the Spirit of truth**, which proceedeth from the Father, he shall testify of me:"
 
 # 10. Baptism requires faith
 
-Baptism is for those who have heard, believed and repented — it is not for infants who cannot believe.
+Baptism is for those who have heard, believed and repented — it is not for infants who cannot believe, because of such is already the kingdom of heaven (Matthew 19:14).
 
-> **Mark 16:16:** "He that believeth and is baptized shall be saved; but he that believeth not shall be damned."
+> **Mark 16:16:** "**He that believeth** and is baptized shall be saved; but he that believeth not shall be damned."
 
-> **Acts 2:38:** "Then Peter said unto them, Repent, and be baptized every one of you in the name of Jesus Christ for the remission of sins, and ye shall receive the gift of the Holy Ghost."
+> **Acts 2:38:** "Then Peter said unto them, **Repent**, and be baptized every one of you in the name of Jesus Christ for the remission of sins, and ye shall receive the gift of the Holy Ghost."
 
-> **Acts 2:41:** "Then they that gladly received his word were baptized: and the same day there were added unto them about three thousand souls."
+> **Acts 2:41:** "Then they that gladly **received his word** were baptized: and the same day there were added unto them about three thousand souls."
 
-> **Acts 8:12:** "But when they believed Philip preaching the things concerning the kingdom of God, and the name of Jesus Christ, they were baptized, both men and women."
+> **Acts 8:12:** "But when **they believed** Philip **preaching** the things concerning the kingdom of God, and the name of Jesus Christ, they were baptized, both men and women."
 
-> **Acts 8:37:** "And Philip said, If thou believest with all thine heart, thou mayest. And he answered and said, I believe that Jesus Christ is the Son of God."
+> **Acts 8:37:** "And Philip said, **If thou believest with all thine heart**, thou mayest. And he answered and said, **I believe** that Jesus Christ is the Son of God."
 
-> **Acts 18:8:** "And Crispus, the chief ruler of the synagogue, believed on the Lord with all his house; and many of the Corinthians hearing believed, and were baptized."
+> **Acts 18:8:** "And Crispus, the chief ruler of the synagogue, **believed** on the Lord **with all his house**; and many of the Corinthians **hearing believed**, and were baptized."
 
-> **Acts 19:4-5:** "Then said Paul, John verily baptized with the baptism of repentance, saying unto the people, that they should believe on him which should come after him, that is, on Christ Jesus. When they heard this, they were baptized in the name of the Lord Jesus."
+> **Acts 19:4-5:** "Then said Paul, John verily baptized with the baptism of **repentance**, saying unto the people, that they should **believe** on him which should come after him, that is, on Christ Jesus. When **they heard** this, they were baptized in the name of the Lord Jesus."
 
-> **Acts 22:16:** "And now why tarriest thou? arise, and be baptized, and wash away thy sins, calling on the name of the Lord."
+> **Acts 22:16:** "And now why tarriest thou? **arise**, and be baptized, and wash away thy sins, **calling on** the name of the Lord."
 
 To believe is to believe in the name of the only begotten Son and to confess Jesus as Lord; whoever denies the Son does not have the Father.
 
-> **John 20:31:** "But these are written, that ye might believe that Jesus is the Christ, the Son of God; and that believing ye might have life through his name."
+> **John 20:31:** "But these are written, that ye might **believe** that Jesus is the Christ, the Son of God; and that **believing** ye might have life through his name."
 
-> **John 3:18:** "He that believeth on him is not condemned: but he that believeth not is condemned already, because he hath not believed in the name of the only begotten Son of God."
+> **John 3:18:** "**He that believeth on him** is not condemned: but he that believeth not is condemned already, because he hath not believed in the name of the only begotten Son of God."
 
-> **Romans 10:9-10:** "That if thou shalt confess with thy mouth the Lord Jesus, and shalt believe in thine heart that God hath raised him from the dead, thou shalt be saved. For with the heart man believeth unto righteousness; and with the mouth confession is made unto salvation."
+> **Romans 10:9-10:** "That if thou shalt **confess** with thy mouth the Lord Jesus, and shalt **believe** in thine heart that God hath raised him from the dead, thou shalt be saved. For with the heart man believeth unto righteousness; and with the mouth confession is made unto salvation."
 
-> **1 John 2:22-23:** "Who is a liar but he that denieth that Jesus is the Christ? He is antichrist, that denieth the Father and the Son. Whosoever denieth the Son, the same hath not the Father: [but] he that acknowledgeth the Son hath the Father also."
+> **1 John 2:22-23:** "Who is a liar but he that denieth that Jesus is the Christ? He is antichrist, that denieth the Father and the Son. Whosoever denieth the Son, the same hath not the Father: but he that **acknowledgeth** the Son hath the Father also."
 
 # 11. Jesus is YHWH
 
