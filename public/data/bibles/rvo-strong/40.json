@@ -31,7 +31,7 @@
     ],
     "2": [
       "Cuando nació Jesús en Belén de Judea, en los días del rey Herodes, he aquí unos magos llegaron del oriente a Jerusalén,",
-      "Diciendo: ¿Dónde está el Rey de los Judíos, que ha nacido? porque su estrella hemos visto en el oriente, y venimos a adorarle.",
+      "diciendo: ¿Dónde está el Rey de los Judíos, que ha nacido? porque su estrella hemos visto en el oriente, y venimos a adorarle.",
       "Y oyendo esto el rey Herodes, se turbó, y toda Jerusalén con él.",
       "Y convocados todos los príncipes de los sacerdotes, y los escribas del pueblo, les preguntó dónde había de nacer el Cristo.",
       "Y ellos le dijeron: En Belén de Judea; porque así está escrito por el profeta:",
@@ -3499,7 +3499,7 @@
       ],
       [
         {
-          "t": "Diciendo:",
+          "t": "diciendo:",
           "s": "G3004",
           "m": "V-PAP-NPM",
           "g": "λεγοντες"
@@ -3597,10 +3597,16 @@
           "g": "ηλθομεν"
         },
         {
-          "t": "a adorarle.",
+          "t": "a",
           "s": "G846",
           "m": "P-DSM",
           "g": "αυτω"
+        },
+        {
+          "t": "adorarle.",
+          "s": "G4352",
+          "m": "V-AAN",
+          "g": "προσκυνησαι"
         }
       ],
       [
