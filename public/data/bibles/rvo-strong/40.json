@@ -41,11 +41,11 @@
       "Y ellos, habiendo oído al rey, se fueron: y he aquí la estrella que habían visto en el oriente, iba delante de ellos, hasta que llegando, se detuvo sobre donde estaba el niño.",
       "Y al ver la estrella, se regocijaron con muy grande gozo.",
       "Y entrando en la casa, vieron al niño con su madre María, y postrándose, le adoraron; y abriendo sus tesoros, le ofrecieron presentes: oro, incienso y mirra.",
-      "Y siendo avisados por revelación en sueños que no volviesen a Herodes, se volvieron a su tierra por otro camino.",
-      "Y partidos ellos, he aquí el ángel del Señor aparece en sueños a José, diciendo: Levántate, y toma al niño y a su madre, y huye a Egipto, y estáte allá hasta que yo te lo diga; porque ha de acontecer, que Herodes buscará al niño para matarlo.",
-      "Y él despertando, tomó al niño y a su madre de noche, y se fue a Egipto;",
-      "Y estuvo allá hasta la muerte de Herodes: para que se cumpliese lo que fue dicho por el Señor, por el profeta que dijo: De Egipto llamé a mi Hijo.",
-      "Herodes entonces, como se vio burlado de los magos, se enojó mucho, y envió, y mató a todos los niños que había en Belén y en todos sus términos, de edad de dos años abajo, conforme al tiempo que había entendido de los magos.",
+      "Y siendo avisados por revelación en un sueño que no volviesen a Herodes, se volvieron a su tierra por otro camino.",
+      "Y habiendo partido ellos, he aquí el ángel del Señor aparece en un sueño a José, diciendo: Levántate, y toma al niño y a su madre, y huye a Egipto, y quédate allá hasta que yo te diga; porque ha de acontecer, que Herodes buscará al niño para matarlo.",
+      "Y despertando él, tomó al niño y a su madre de noche, y se fue a Egipto;",
+      "Y estuvo allá hasta la muerte de Herodes: para que se cumpliese lo que fue dicho por el Señor por medio del profeta, cuando dijo: De Egipto llamé a mi Hijo.",
+      "Herodes entonces, al verse burlado de los magos, se llenó de ira, y envió matar a todos los niños menores de dos años que había en Belén y en todos sus alrededores, conforme al tiempo que había inquirido de los magos.",
       "Entonces fue cumplido lo que se había dicho por el profeta Jeremías, que dijo:",
       "Voz fue oída en Ramá, grande lamentación, lloro y gemido: Raquel que llora sus hijos; y no quiso ser consolada, porque perecieron.",
       "Pero muerto Herodes, he aquí el ángel del Señor aparece en sueños a José en Egipto,",
@@ -4498,7 +4498,7 @@
           "g": "κατ"
         },
         {
-          "t": "revelación en sueños",
+          "t": "revelación en un sueño",
           "s": "G3677",
           "m": "N-OI",
           "g": "οναρ"
@@ -4576,7 +4576,7 @@
           "g": "δε"
         },
         {
-          "t": "partidos",
+          "t": "habiendo partido",
           "s": "G402",
           "m": "V-AAP-GPM",
           "g": "αναχωρησαντων"
@@ -4616,7 +4616,7 @@
           "g": "κατ"
         },
         {
-          "t": "sueños",
+          "t": "un sueño",
           "s": "G3677",
           "m": "N-OI",
           "g": "οναρ"
@@ -4704,7 +4704,7 @@
           "g": "και"
         },
         {
-          "t": "estáte",
+          "t": "quédate",
           "s": "G2468"
         },
         {
@@ -4724,7 +4724,7 @@
           "s": "G4671"
         },
         {
-          "t": "lo diga;",
+          "t": "diga;",
           "s": "G2036"
         },
         {
@@ -4776,14 +4776,14 @@
           "g": "δε"
         },
         {
-          "t": "él",
-          "s": "G3588"
-        },
-        {
-          "t": "despertando,",
+          "t": "despertando",
           "s": "G1453",
           "m": "V-APP-NSM",
           "g": "εγερθεις"
+        },
+        {
+          "t": "él,",
+          "s": "G3588"
         },
         {
           "t": "tomó",
@@ -4920,29 +4920,25 @@
           "s": "G3588"
         },
         {
-          "t": "Señor,",
+          "t": "Señor",
           "s": "G2962",
           "m": "N-GSM",
           "g": "κυριου"
         },
         {
-          "t": "por",
+          "t": "por medio del",
           "s": "G1223",
           "m": "PREP",
           "g": "δια"
         },
         {
-          "t": "el",
-          "s": "G3588"
-        },
-        {
-          "t": "profeta",
+          "t": "profeta,",
           "s": "G4396",
           "m": "N-GSM",
           "g": "προφητου"
         },
         {
-          "t": "que dijo:",
+          "t": "cuando dijo:",
           "s": "G4483"
         },
         {
@@ -4988,13 +4984,7 @@
           "g": "τοτε"
         },
         {
-          "t": "como",
-          "s": "G3754",
-          "m": "CONJ",
-          "g": "οτι"
-        },
-        {
-          "t": "se vio",
+          "t": "al verse",
           "s": "G1492"
         },
         {
@@ -5022,37 +5012,37 @@
           "g": "μαγων"
         },
         {
-          "t": "se enojó",
+          "t": "se",
           "s": "G2373",
           "m": "V-API-3S",
           "g": "εθυμωθη"
         },
         {
-          "t": "mucho,",
+          "t": "llenó",
           "s": "G3029",
           "m": "ADV",
           "g": "λιαν"
         },
         {
+          "t": "de ira,",
+          "s": "G2373",
+          "m": "V-API-3S",
+          "g": "εθυμωθη"
+        },
+        {
           "t": "y",
           "s": "G2532",
           "m": "CONJ",
           "g": "και"
         },
         {
-          "t": "envió,",
+          "t": "envió",
           "s": "G649",
           "m": "V-AAP-NSM",
           "g": "αποστειλας"
         },
         {
-          "t": "y",
-          "s": "G2532",
-          "m": "CONJ",
-          "g": "και"
-        },
-        {
-          "t": "mató",
+          "t": "matar",
           "s": "G337",
           "m": "V-2AAI-3S",
           "g": "ανειλεν"
@@ -5074,6 +5064,18 @@
           "s": "G3816",
           "m": "N-APM",
           "g": "παιδας"
+        },
+        {
+          "t": "menores",
+          "s": "G2736",
+          "m": "ADV",
+          "g": "κατωτερω"
+        },
+        {
+          "t": "de dos años",
+          "s": "G1332",
+          "m": "A-GSM",
+          "g": "διετους"
         },
         {
           "t": "que",
@@ -5118,34 +5120,10 @@
           "g": "αυτης"
         },
         {
-          "t": "términos,",
+          "t": "alrededores,",
           "s": "G3725",
           "m": "N-DPN",
           "g": "οριοις"
-        },
-        {
-          "t": "de",
-          "s": "G3844",
-          "m": "PREP",
-          "g": "παρα"
-        },
-        {
-          "t": "edad de",
-          "s": "G3844",
-          "m": "PREP",
-          "g": "παρα"
-        },
-        {
-          "t": "dos años",
-          "s": "G1332",
-          "m": "A-GSM",
-          "g": "διετους"
-        },
-        {
-          "t": "abajo,",
-          "s": "G2736",
-          "m": "ADV",
-          "g": "κατωτερω"
         },
         {
           "t": "conforme",
@@ -5172,7 +5150,7 @@
           "g": "ον"
         },
         {
-          "t": "había entendido",
+          "t": "había inquirido",
           "s": "G198",
           "m": "V-AAI-3S",
           "g": "ηκριβωσεν"

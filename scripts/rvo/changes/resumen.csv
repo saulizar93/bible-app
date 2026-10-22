@@ -522,6 +522,7 @@ doncella → joven,doncellas,jóvenes,,23
 doncella → joven,doncella,joven,,9
 edición manual,jacob:,jacob;,,2
 edición manual,cristo.,mesías.,,2
+edición manual,sueños,un sueño,,2
 edición manual,"de jesucristo,","de jesús|g2424 el mesías,|g5547",,1
 edición manual,isaac:,isaac;,,1
 edición manual,hermanos:,hermanos;,,1
@@ -594,6 +595,18 @@ edición manual,puso,detuvo,,1
 edición manual,vista,al ver,,1
 edición manual,"dones,",presentes:|g1435,,1
 edición manual,oro e,"oro,",,1
+edición manual,partidos,habiendo partido,,1
+edición manual,estáte,quédate,,1
+edición manual,te lo,te,,1
+edición manual,"él despertando,","despertando|g1453 él,|g3588",,1
+edición manual,"señor, por el profeta que dijo:","señor|g2962 por medio del|g1223 profeta,|g4396 cuando dijo:|g4483",,1
+edición manual,como se vio,al verse|g1492,,1
+edición manual,"enojó mucho,","llenó|g3029 de ira,|g2373",,1
+edición manual,"envió, y mató",envió|g649 matar|g337,,1
+edición manual,niños,niños|g3816 menores|g2736 de dos años|g1332,,1
+edición manual,"términos,","alrededores,",,1
+edición manual,"de edad de dos años abajo, conforme",conforme|g2596,,1
+edición manual,entendido,inquirido,,1
 empero → pero,empero,pero,,309
 empero → pero,yo empero,pero yo,,12
 empero → pero,esto empero,pero esto,,11
@@ -3803,6 +3816,9 @@ token sin texto,he aquí,,el número Strong se perdió en este versículo,1
 token sin texto,"jerusalén,",,el número Strong se perdió en este versículo,1
 token sin texto,aparecimiento,,el número Strong se perdió en este versículo,1
 token sin texto,"dones,",,el número Strong se perdió en este versículo,1
+token sin texto,como,,el número Strong se perdió en este versículo,1
+token sin texto,de,,el número Strong se perdió en este versículo,1
+token sin texto,edad de,,el número Strong se perdió en este versículo,1
 vianda → comida,vianda,comida,,16
 vianda → comida,viandas,comidas,,15
 á → a,á,a,,19324
