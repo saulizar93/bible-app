@@ -707,3 +707,15 @@
 - The last token «a adorarle.» / «á adorarle.» / «a adorarlo”.» carried only G846 (autō), so «adorar» had no G4352 (proskyneō). Split into «a» (G846, unchanged) + «adorarle.»/«adorarlo”.» (G4352, V-AAN, προσκυνησαι), matching the author's RVO edit. Edited directly in rvg-strong, rv1909-strong and straubinger-strong 40.json; verse text unchanged, only Mt 2:2 tokens differ. scripts/rvo/backup-original not touched (RVO already handled by ediciones-manuales.json).
 - Concordances rebuilt: concord/rv1909-strong (also used by RVG) and concord/straubinger-strong. DATA_VERSION 20 -> 21, LEXICON_VERSION 12 -> 13.
 - Note: a rebuild with scripts/rvg-strong/transfer.mjs would undo these direct edits.
+
+## 2026-10-21 — Mt 2:11 «dones» tagged G1435 in RVG, RV1909, Straubinger
+
+- «dones,» (RVG, RV1909) and «dones:» (Straubinger) were plain untagged tokens; now G1435 (dōron, N-APN, δωρα), as in the KJV. Straubinger's «sus» before it stays untagged (no Greek word). RVO already had «presentes:» on G1435. Direct edits in the three 40.json files; verse text unchanged, only Mt 2:11 tokens differ.
+- Concordances rebuilt: concord/rv1909-strong (also used by RVG) and concord/straubinger-strong. DATA_VERSION 21 -> 22, LEXICON_VERSION 13 -> 14.
+
+## 2026-10-21 — Matthew: untagged words filled in automatically (RVG, RV1909, Straubinger, RVO)
+
+- New rerunnable script scripts/fill-untagged.py (`python3 scripts/fill-untagged.py 40` = dry run, `--write` = apply). Per verse, the Strong's numbers the KJV verse has but the Spanish verse lacks are "missing"; an untagged word gets one only if the Spanish Bibles tie that word to that number elsewhere in the NT (≥3 times and ≥15% of its tagged uses) and no other missing number qualifies. Each number is used at most as many times as it is missing. Parsing and Greek word copied from the KJV token, or left out when the KJV verse has the number in more than one Greek form. Articles (G3588) skipped. Text never changed; a multi-word untagged token is split around the word.
+- Matthew results (words newly tagged / still untagged): RVG 191 / 901, RV1909 26 / 297, Straubinger 517 / 2351, RVO (via scripts/rvo/backup-original, then transform.py) 26 / 298. Verified against HEAD: verse text identical, no existing tag changed. Lists for review: scripts/fill-untagged/40-<bible>-fixed.tsv and -remaining.tsv.
+- backup-original keeps its Prettier layout (the script writes it the same way). Concordances rebuilt: rv1909-strong (also RVG), straubinger-strong, rvo-strong. DATA_VERSION 22 -> 23, LEXICON_VERSION 14 -> 15.
+- A rebuild with scripts/rvg-strong/transfer.mjs would undo these; rerun fill-untagged.py afterwards.
