@@ -33,14 +33,14 @@
       "Cuando nació Jesús en Belén de Judea, en los días del rey Herodes, he aquí unos magos llegaron del oriente a Jerusalén,",
       "diciendo: ¿Dónde está el Rey de los Judíos, que ha nacido? porque su estrella hemos visto en el oriente, y venimos a adorarle.",
       "Y oyendo esto el rey Herodes, se turbó, y toda Jerusalén con él.",
-      "Y convocados todos los príncipes de los sacerdotes, y los escribas del pueblo, les preguntó dónde había de nacer el Cristo.",
+      "Y convocados todos los principales sacerdotes, y los escribas del pueblo, les preguntó dónde había de nacer el Mesías.",
       "Y ellos le dijeron: En Belén de Judea; porque así está escrito por el profeta:",
-      "Y tú, Belén, de tierra de Judá, no eres muy pequeña entre los príncipes de Judá; porque de ti saldrá un guiador, que apacentará a mi pueblo Israel.",
-      "Entonces Herodes, llamando en secreto a los magos, entendió de ellos diligentemente el tiempo del aparecimiento de la estrella;",
-      "Y enviándolos a Belén, dijo: Andad allá, y preguntad con diligencia por el niño; y después que le hallareis, hacédmelo saber, para que yo también vaya y le adore.",
-      "Y ellos, habiendo oído al rey, se fueron: y he aquí la estrella que habían visto en el oriente, iba delante de ellos, hasta que llegando, se puso sobre donde estaba el niño.",
-      "Y vista la estrella, se regocijaron con muy grande gozo.",
-      "Y entrando en la casa, vieron al niño con su madre María, y postrándose, le adoraron; y abriendo sus tesoros, le ofrecieron dones, oro e incienso y mirra.",
+      "Y tú, Belén, de la tierra de Judá, no eres la más pequeña entre los príncipes de Judá; porque de ti saldrá un guiador, que apacentará a mi pueblo Israel.",
+      "Entonces Herodes, llamando en secreto a los magos, indagó de ellos diligentemente el tiempo de la aparición de la estrella;",
+      "y enviándolos a Belén, dijo: Id allá, y preguntad con diligencia por el niño; y después que le hallareis, hacédmelo saber, para que yo también vaya y le adore.",
+      "Y ellos, habiendo oído al rey, se fueron: y he aquí la estrella que habían visto en el oriente, iba delante de ellos, hasta que llegando, se detuvo sobre donde estaba el niño.",
+      "Y al ver la estrella, se regocijaron con muy grande gozo.",
+      "Y entrando en la casa, vieron al niño con su madre María, y postrándose, le adoraron; y abriendo sus tesoros, le ofrecieron presentes: oro, incienso y mirra.",
       "Y siendo avisados por revelación en sueños que no volviesen a Herodes, se volvieron a su tierra por otro camino.",
       "Y partidos ellos, he aquí el ángel del Señor aparece en sueños a José, diciendo: Levántate, y toma al niño y a su madre, y huye a Egipto, y estáte allá hasta que yo te lo diga; porque ha de acontecer, que Herodes buscará al niño para matarlo.",
       "Y él despertando, tomó al niño y a su madre de noche, y se fue a Egipto;",
@@ -3697,7 +3697,7 @@
           "s": "G3588"
         },
         {
-          "t": "príncipes de los sacerdotes,",
+          "t": "principales sacerdotes,",
           "s": "G749",
           "m": "N-APM",
           "g": "αρχιερεις"
@@ -3753,7 +3753,7 @@
           "s": "G3588"
         },
         {
-          "t": "Cristo.",
+          "t": "Mesías.",
           "s": "G5547",
           "m": "N-NSM",
           "g": "χριστος"
@@ -3853,7 +3853,7 @@
           "g": "βηθλεεμ"
         },
         {
-          "t": "de tierra",
+          "t": "de la tierra",
           "s": "G1093",
           "m": "N-VSF",
           "g": "γη"
@@ -3875,7 +3875,7 @@
           "s": "G1488"
         },
         {
-          "t": "muy pequeña",
+          "t": "la más pequeña",
           "s": "G1646",
           "m": "A-NSF-S",
           "g": "ελαχιστη"
@@ -3995,7 +3995,7 @@
           "g": "μαγους"
         },
         {
-          "t": "entendió",
+          "t": "indagó",
           "s": "G198",
           "m": "V-AAI-3S",
           "g": "ηκριβωσεν"
@@ -4023,14 +4023,8 @@
           "g": "χρονον"
         },
         {
-          "t": "del",
+          "t": "de la aparición",
           "s": "G3588"
-        },
-        {
-          "t": "aparecimiento",
-          "s": "G5316",
-          "m": "V-PEP-GSM",
-          "g": "φαινομενου"
         },
         {
           "t": "de la estrella;",
@@ -4041,7 +4035,7 @@
       ],
       [
         {
-          "t": "Y",
+          "t": "y",
           "s": "G2532",
           "m": "CONJ",
           "g": "και"
@@ -4069,7 +4063,7 @@
           "s": "G2036"
         },
         {
-          "t": "Andad",
+          "t": "Id",
           "s": "G4198",
           "m": "V-AOP-NPM",
           "g": "πορευθεντες"
@@ -4252,7 +4246,7 @@
           "g": "ελθων"
         },
         {
-          "t": "se puso",
+          "t": "se detuvo",
           "s": "G2476",
           "m": "V-2AAI-3S",
           "g": "εστη"
@@ -4292,7 +4286,7 @@
           "g": "δε"
         },
         {
-          "t": "vista",
+          "t": "al ver",
           "s": "G1492"
         },
         {
@@ -4454,16 +4448,19 @@
           "g": "προσηνεγκαν"
         },
         {
-          "t": "dones,"
+          "t": "presentes:",
+          "s": "G1435",
+          "m": "N-APN",
+          "g": "δωρα"
         },
         {
-          "t": "oro",
+          "t": "oro,",
           "s": "G5557",
           "m": "N-ASM",
           "g": "χρυσον"
         },
         {
-          "t": "e incienso",
+          "t": "incienso",
           "s": "G3030",
           "m": "N-ASM",
           "g": "λιβανον"
