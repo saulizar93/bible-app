@@ -251,267 +251,265 @@ Una y otra vez el Nuevo Testamento toma lo que el Antiguo dice de YHWH (Jehová)
 
 **La voz en el desierto** prepara el camino de **YHWH**, y Juan el Bautista preparó el camino de Jesús:
 
-> **Isaías 40:3:** «Voz del que clama en el desierto: Preparad el camino de Jehová: enderezad calzada en la soledad a nuestro Dios.»
+> **Isaías 40:3:** «Voz del que clama en el desierto: **Preparad el camino de Jehová**: enderezad calzada en la soledad a nuestro Dios.»
 
-> **Mateo 3:3:** «Porque este es aquél de quien habló el profeta Isaías, diciendo: Voz del que clama en el desierto: Preparad el camino del Señor: Enderezad sus sendas.»
+> **Mateo 3:3:** «Porque este es aquél de quien habló el profeta Isaías, diciendo: Voz del que clama en el desierto: **Preparad el camino del Señor**: Enderezad sus sendas.»
 
 **El Señor viene a su templo**, y Jesús habló del templo de su cuerpo:
 
-> **Malaquías 3:1:** «He aquí, yo envío mi mensajero, el cual preparará el camino delante de mí; y vendrá repentinamente a su templo el Señor a quien vosotros buscáis, y el mensajero del pacto, a quien deseáis vosotros. He aquí viene, dice Jehová de los ejércitos.»
+> **Malaquías 3:1:** «He aquí, yo envío **mi mensajero**, el cual **preparará el camino** delante de mí; y **vendrá** repentinamente **a su templo** el Señor a quien vosotros buscáis, y el mensajero del pacto, a quien deseáis vosotros. He aquí viene, dice Jehová de los ejércitos.»
 
 > **Marcos 1:2:** «Como está escrito en los profetas: He aquí yo envío mi mensajero delante de tu faz. El cual preparará tu camino delante de ti.»
 
-> **Juan 2:19-21:** «Respondió Jesús y les dijo: Destruid este templo, y en tres días lo levantaré. Entonces dijeron los judíos: En cuarenta y seis años fue edificado este templo, ¿y tú lo levantarás en tres días? Pero Él hablaba del templo de su cuerpo.»
+> **Juan 2:19-21:** «Respondió Jesús y les dijo: Destruid este templo, y en tres días lo levantaré. Entonces dijeron los judíos: En cuarenta y seis años fue edificado este templo, ¿y tú lo levantarás en tres días? Pero **Él hablaba del templo de su cuerpo**.»
 
 **Ante YHWH se doblará toda rodilla**, y ante Jesús se doblará toda rodilla:
 
-> **Isaías 45:23:** «Por mí mismo he jurado, de mi boca salió palabra en justicia, y no será revocada. Que ante mí se doblará toda rodilla, y jurará toda lengua.»
+> **Isaías 45:23:** «Por mí mismo he jurado, de mi boca salió palabra en justicia, y no será revocada. Que **ante mí se doblará toda rodilla**, y jurará toda lengua.»
 
-> **Romanos 14:10-11:** «Pero tú, ¿por qué juzgas a tu hermano? O tú también, ¿por qué menosprecias a tu hermano? Porque todos compareceremos ante el tribunal de Cristo. Porque escrito está: Vivo yo, dice el Señor, que ante mí toda rodilla se doblará, y toda lengua confesará a Dios.»
+> **Romanos 14:10-11:** «Pero tú, ¿por qué juzgas a tu hermano? O tú también, ¿por qué menosprecias a tu hermano? Porque todos compareceremos ante el tribunal de Cristo. Porque escrito está: Vivo yo, dice el Señor, que **ante mí toda rodilla se doblará**, y toda lengua confesará a Dios.»
 
-> **Filipenses 2:10-11:** «para que al nombre de Jesús, se doble toda rodilla; de los que están en el cielo, y en la tierra, y debajo de la tierra, y toda lengua confiese que Jesucristo es el Señor, para la gloria de Dios Padre.»
+> **Filipenses 2:10-11:** «para que **al nombre de Jesús, se doble toda rodilla**; de los que están en el cielo, y en la tierra, y debajo de la tierra, y toda lengua confiese que Jesucristo es el Señor, para la gloria de Dios Padre.»
 
 **YHWH fue apreciado en treinta piezas de plata y traspasado**: «mirarán a **mí**, a quien traspasaron»:
 
-> **Zacarías 11:12-13:** «Y les dije: Si os parece bien, dadme mi salario; y si no, dejadlo. Y pesaron por mi salario treinta piezas de plata. Y me dijo Jehová: Échalo al alfarero, ¡hermoso precio con que me han apreciado! Y tomé las treinta piezas de plata, y las eché al alfarero en la casa de Jehová.»
+> **Zacarías 11:12-13:** «Y les dije: Si os parece bien, dadme mi salario; y si no, dejadlo. Y pesaron por mi salario **treinta piezas de plata**. Y me dijo Jehová: Échalo al alfarero, ¡hermoso precio con que me han apreciado! Y tomé las treinta piezas de plata, y las eché al alfarero en la casa de Jehová.»
 
-> **Mateo 26:14-16:** «Entonces uno de los doce, llamado Judas Iscariote, fue a los príncipes de los sacerdotes, y les dijo: ¿Qué me queréis dar, y yo os lo entregaré? Y convinieron con él por treinta piezas de plata. Y desde entonces buscaba oportunidad para traicionarle.»
+> **Mateo 26:14-16:** «Entonces uno de los doce, llamado Judas Iscariote, fue a los príncipes de los sacerdotes, y les dijo: ¿Qué me queréis dar, y yo os lo entregaré? Y convinieron con él por **treinta piezas de plata**. Y desde entonces buscaba oportunidad para traicionarle.»
 
-> **Zacarías 12:10:** «Y derramaré sobre la casa de David y sobre los moradores de Jerusalén el espíritu de gracia y de oración; y mirarán a mí, a quien traspasaron, y harán llanto sobre Él, como llanto sobre unigénito, afligiéndose sobre Él como quien se aflige sobre primogénito.»
+> **Zacarías 12:10:** «Y derramaré sobre la casa de David y sobre los moradores de Jerusalén el espíritu de gracia y de oración; y **mirarán a mí, a quien traspasaron, y harán llanto sobre Él, como llanto sobre unigénito**, afligiéndose sobre Él como quien se aflige sobre primogénito.»
 
-> **Juan 19:34:** «Pero uno de los soldados le abrió el costado con una lanza, y al instante salió sangre y agua.»
+> **Juan 19:34:** «Pero uno de los soldados **le abrió el costado con una lanza**, y al instante salió sangre y agua.»
 
-> **Juan 19:37:** «Y también otra Escritura dice: Mirarán a Aquél a quien traspasaron.»
+> **Juan 19:37:** «Y también otra Escritura dice: **Mirarán a Aquél a quien traspasaron**.»
 
 **Moisés** tuvo por mayores riquezas «el vituperio de Cristo»: el Dios a quien seguía era Cristo:
 
-> **Hebreos 11:26:** «Teniendo por mayores riquezas el vituperio de Cristo que los tesoros en Egipto; porque tenía puesta su mirada en el galardón.»
+> **Hebreos 11:26:** «Teniendo por mayores riquezas **el vituperio de Cristo** que los tesoros en Egipto; porque tenía puesta su mirada en el galardón.»
 
-> **1 Corintios 10:4:** «y todos bebieron la misma bebida espiritual; porque bebían de la Roca espiritual que los seguía, y la Roca era Cristo.»
+> **1 Corintios 10:4:** «y todos bebieron la misma bebida espiritual; porque bebían de la Roca espiritual que los seguía, y **la Roca era Cristo**.»
 
-> **Salmos 18:2:** «Jehová es mi Roca, mi castillo y mi Libertador; mi Dios, mi fortaleza, en Él confiaré; mi escudo, el cuerno de mi salvación, y mi alto refugio.»
+> **Salmos 18:2:** «**Jehová es mi Roca**, mi castillo y mi Libertador; mi Dios, mi fortaleza, en Él confiaré; mi escudo, el cuerno de mi salvación, y mi alto refugio.»
 
 **YO SOY:**
 
-> **Éxodo 3:14-15:** «Y respondió Dios a Moisés: YO SOY EL QUE SOY. Y dijo: Así dirás a los hijos de Israel: YO SOY me ha enviado a vosotros. Y además dijo Dios a Moisés: Así dirás a los hijos de Israel: Jehová, el Dios de vuestros padres, el Dios de Abraham, el Dios de Isaac y el Dios de Jacob, me ha enviado a vosotros. Este es mi nombre para siempre, este es mi memorial por todas las generaciones.»
+> **Éxodo 3:14-15:** «Y respondió Dios a Moisés: **YO SOY EL QUE SOY**. Y dijo: Así dirás a los hijos de Israel: **YO SOY** me ha enviado a vosotros. Y además dijo Dios a Moisés: Así dirás a los hijos de Israel: Jehová, el Dios de vuestros padres, el Dios de Abraham, el Dios de Isaac y el Dios de Jacob, me ha enviado a vosotros. **Este es mi nombre** para siempre, este es mi memorial por todas las generaciones.»
 
-> **Juan 8:58:** «Jesús les dijo: De cierto, de cierto os digo: Antes que Abraham fuese, yo soy.»
+> **Juan 8:58:** «Jesús les dijo: De cierto, de cierto os digo: Antes que Abraham fuese, **yo soy**.»
 
-> **Juan 8:24:** «Por eso os dije que moriréis en vuestros pecados; porque si no creéis que yo soy, en vuestros pecados moriréis.»
+> **Juan 8:24:** «Por eso os dije que moriréis en vuestros pecados; porque si no creéis que **yo soy**, en vuestros pecados moriréis.»
 
 **Mi luz y mi salvación:**
 
-> **Salmos 27:1:** «Jehová es mi luz y mi salvación; ¿a quién temeré? Jehová es la fortaleza de mi vida; ¿de quién he de atemorizarme?»
+> **Salmos 27:1:** «**Jehová** es mi luz y **mi salvación**; ¿a quién temeré? Jehová es la fortaleza de mi vida; ¿de quién he de atemorizarme?»
 
-> **Hechos 4:10-12:** «sea notorio a todos vosotros, y a todo el pueblo de Israel, que por el nombre de Jesucristo de Nazaret, al que vosotros crucificasteis y a quien Dios resucitó de los muertos, por Él este hombre está en vuestra presencia sano. Este Jesús es la piedra reprobada de vosotros los edificadores, la cual ha venido a ser cabeza del ángulo. Y en ningún otro hay salvación; porque no hay otro nombre bajo del cielo, dado a los hombres, en que debamos ser salvos.»
+> **Hechos 4:10-12:** «sea notorio a todos vosotros, y a todo el pueblo de Israel, que por **el nombre de Jesucristo** de Nazaret, al que vosotros crucificasteis y a quien Dios resucitó de los muertos, por Él este hombre está en vuestra presencia sano. Este Jesús es la piedra reprobada de vosotros los edificadores, la cual ha venido a ser cabeza del ángulo. Y **en ningún otro hay salvación**; porque no hay otro nombre bajo del cielo, dado a los hombres, en que debamos ser salvos.»
 
 **El Primero y el Último:**
 
-> **Isaías 41:4:** «¿Quién ordenó e hizo esto? ¿Quién llama las generaciones desde el principio? Yo Jehová, el primero, y yo mismo con los postreros.»
+> **Isaías 41:4:** «¿Quién ordenó e hizo esto? ¿Quién llama las generaciones desde el principio? **Yo Jehová, el primero, y yo mismo con los postreros**.»
 
-> **Isaías 44:6:** «Así dice Jehová, el Rey de Israel, y su Redentor, Jehová de los ejércitos: Yo soy el primero, y yo soy el postrero, y fuera de mí no hay Dios.»
+> **Isaías 44:6:** «Así dice **Jehová**, el Rey de Israel, y su Redentor, Jehová de los ejércitos: **Yo soy el primero, y yo soy el postrero**, y fuera de mí no hay Dios.»
 
-> **Isaías 48:12:** «Óyeme, Jacob, y tú, Israel, mi llamado. Yo mismo, yo soy el primero, yo también soy el postrero.»
+> **Isaías 48:12:** «Óyeme, Jacob, y tú, Israel, mi llamado. Yo mismo, **yo soy el primero, yo también soy el postrero**.»
 
-> **Apocalipsis 1:8:** «Yo soy el Alfa y la Omega, el principio y el fin, dice el Señor, el que es y que era y que ha de venir, el Todopoderoso.»
+> **Apocalipsis 1:8:** «**Yo soy el Alfa y la Omega, el principio y el fin**, dice el Señor, el que es y que era y que ha de venir, el Todopoderoso.»
 
-> **Apocalipsis 1:17-18:** «Y cuando le vi, caí como muerto a sus pies. Y Él puso su diestra sobre mí, diciéndome: No temas; yo soy el primero y el último; y el que vivo, y estuve muerto; y he aquí que vivo para siempre, amén. Y tengo las llaves de la muerte y del infierno.»
+> **Apocalipsis 1:17-18:** «Y cuando le vi, caí como muerto a sus pies. Y Él puso su diestra sobre mí, diciéndome: No temas; **yo soy el primero y el último**; y el que vivo, y estuve muerto; y he aquí que vivo para siempre, amén. Y tengo las llaves de la muerte y del infierno.»
 
-> **Apocalipsis 22:13:** «Yo soy el Alfa y la Omega, el principio y el fin, el primero y el postrero.»
+> **Apocalipsis 22:13:** «**Yo soy el Alfa y la Omega, el principio y el fin, el primero y el postrero**.»
 
 **El Creador que extendió solo los cielos:**
 
-> **Isaías 44:24:** «Así dice Jehová, tu Redentor, el que te formó desde el vientre: Yo soy Jehová, el Creador de todo, que extiendo solo los cielos, que extiendo la tierra por mí mismo;»
+> **Isaías 44:24:** «Así dice **Jehová**, tu Redentor, el que te formó desde el vientre: Yo soy Jehová, **el Creador de todo**, que extiendo **solo** los cielos, que extiendo la tierra **por mí mismo**;»
 
-> **Isaías 45:12:** «Yo hice la tierra, y creé al hombre sobre ella. Yo, mis manos extendieron los cielos, y a todo su ejército ordené.»
+> **Isaías 45:12:** «**Yo hice la tierra**, y creé al hombre sobre ella. Yo, mis manos extendieron los cielos, y a todo su ejército ordené.»
 
-> **Isaías 48:13:** «Mi mano fundó también la tierra, y mi mano derecha midió los cielos con el palmo; al llamarlos yo, comparecen juntamente.»
+> **Isaías 48:13:** «**Mi mano fundó también la tierra**, y mi mano derecha midió los cielos con el palmo; al llamarlos yo, comparecen juntamente.»
 
-> **Hebreos 1:10:** «Y: Tú, Señor, en el principio fundaste la tierra, y los cielos son obra de tus manos:»
+> **Hebreos 1:10:** «Y: Tú, **Señor**, en el principio **fundaste la tierra**, y los cielos son obra de tus manos:»
 
-> **Juan 1:3:** «Todas las cosas por Él fueron hechas, y sin Él nada de lo que ha sido hecho, fue hecho.»
+> **Juan 1:3:** «**Todas las cosas por Él fueron hechas**, y sin Él nada de lo que ha sido hecho, fue hecho.»
 
-> **Colosenses 1:16:** «Porque por Él fueron creadas todas las cosas, las que hay en el cielo y las que hay en la tierra, visibles e invisibles, sean tronos, sean dominios, sean principados, sean potestades; todo fue creado por Él y para Él.»
+> **Colosenses 1:16:** «Porque **por Él fueron creadas todas las cosas**, las que hay en el cielo y las que hay en la tierra, visibles e invisibles, sean tronos, sean dominios, sean principados, sean potestades; todo fue creado por Él y para Él.»
 
 **El único Salvador:**
 
-> **Isaías 43:11:** «Yo, yo soy Jehová, y fuera de mí no hay quien salve.»
+> **Isaías 43:11:** «Yo, yo soy **Jehová**, y **fuera de mí no hay quien salve**.»
 
-> **Tito 2:13:** «Aguardando aquella bendita esperanza, y la manifestación gloriosa de nuestro gran Dios y Salvador Jesucristo,»
+> **Tito 2:13:** «Aguardando aquella bendita esperanza, y la manifestación gloriosa de **nuestro gran Dios y Salvador Jesucristo**,»
 
-> **Lucas 2:11:** «Que os ha nacido hoy, en la ciudad de David, un Salvador, que es Cristo el Señor.»
+> **Lucas 2:11:** «Que os ha nacido hoy, en la ciudad de David, **un Salvador**, que es **Cristo** el Señor.»
 
 **Isaías vio a YHWH en su trono**, y Juan dice que Isaías vio la gloria de Jesús:
 
-> **Isaías 6:1-5:** «En el año que murió el rey Uzías vi yo al Señor sentado sobre un trono alto y sublime, y el borde de su vestidura llenaba el templo. Por encima de él había serafines; cada uno tenía seis alas; con dos cubrían sus rostros, y con dos cubrían sus pies y con dos volaban. Y el uno al otro daba voces, diciendo: Santo, santo, santo, es Jehová de los ejércitos; toda la tierra está llena de su gloria. Y los quiciales de las puertas se estremecieron con la voz del que clamaba, y la casa se llenó de humo. Entonces dije: ¡Ay de mí! que soy muerto; porque siendo hombre inmundo de labios, y habitando en medio de pueblo que tiene labios inmundos, han visto mis ojos al Rey, Jehová de los ejércitos.»
+> **Isaías 6:1-5:** «En el año que murió el rey Uzías **vi yo al Señor sentado sobre un trono** alto y sublime, y el borde de su vestidura llenaba el templo. Por encima de él había serafines; cada uno tenía seis alas; con dos cubrían sus rostros, y con dos cubrían sus pies y con dos volaban. Y el uno al otro daba voces, diciendo: Santo, santo, santo, es **Jehová** de los ejércitos; toda la tierra está llena de su gloria. Y los quiciales de las puertas se estremecieron con la voz del que clamaba, y la casa se llenó de humo. Entonces dije: ¡Ay de mí! que soy muerto; porque siendo hombre inmundo de labios, y habitando en medio de pueblo que tiene labios inmundos, **han visto mis ojos al Rey, Jehová** de los ejércitos.»
 
-> **Juan 12:41:** «Estas cosas dijo Isaías cuando vio su gloria, y habló acerca de Él.»
+> **Juan 12:41:** «Estas cosas dijo **Isaías cuando vio su gloria**, y habló acerca de Él.»
 
 **YHWH escudriña los corazones**, y Jesús dice: «yo soy el que escudriño los riñones y los corazones»:
 
-> **Jeremías 17:10:** «Yo Jehová, que escudriño la mente, que pruebo el corazón, para dar a cada uno según su camino, según el fruto de sus obras.»
+> **Jeremías 17:10:** «**Yo Jehová, que escudriño la mente, que pruebo el corazón**, para dar a cada uno según su camino, según el fruto de sus obras.»
 
-> **Apocalipsis 2:23:** «Y heriré a sus hijos con muerte; y todas las iglesias sabrán que yo soy el que escudriño los riñones y los corazones; y daré a cada uno de vosotros según sus obras.»
+> **Apocalipsis 2:23:** «Y heriré a sus hijos con muerte; y todas las iglesias sabrán que yo soy el que **escudriño los riñones y los corazones**; y daré a cada uno de vosotros según sus obras.»
 
 **YHWH es piedra de tropiezo**, y Jesús es esa piedra:
 
-> **Isaías 8:13-14:** «A Jehová de los ejércitos, a Él santificad; sea Él vuestro temor, y sea Él vuestro miedo. Entonces Él será por santuario; pero a las dos casas de Israel, por piedra de tropiezo y por roca de escándalo; y por lazo y por red a los moradores de Jerusalén.»
+> **Isaías 8:13-14:** «A **Jehová** de los ejércitos, a Él santificad; sea Él vuestro temor, y sea Él vuestro miedo. Entonces Él será por santuario; pero a las dos casas de Israel, **por piedra de tropiezo y por roca de escándalo**; y por lazo y por red a los moradores de Jerusalén.»
 
-> **1 Pedro 2:7-8:** «Para vosotros, pues, los que creéis; Él es precioso; mas para los desobedientes, la piedra que los edificadores desecharon; esta fue hecha la cabeza del ángulo; Y: Piedra de tropiezo, y roca de escándalo a los que tropiezan en la palabra, siendo desobedientes; para lo cual fueron también ordenados.»
+> **1 Pedro 2:7-8:** «Para vosotros, pues, los que creéis; Él es precioso; mas para los desobedientes, la piedra que los edificadores desecharon; esta fue hecha la cabeza del ángulo; Y: **Piedra de tropiezo, y roca de escándalo** a los que tropiezan en la palabra, siendo desobedientes; para lo cual fueron también ordenados.»
 
 # 12. Jesús es el Padre
 
 El Hijo es el único Dios manifestado en carne. El niño es llamado «Padre Eterno»; el único Padre es el único Dios; y en Jesús habita corporalmente toda la plenitud de la Deidad.
 
-> **Isaías 9:6:** «Porque un niño nos es nacido, un hijo nos es dado; y el principado será sobre su hombro; y se llamará su nombre Admirable, Consejero, Dios Fuerte, Padre Eterno, Príncipe de Paz.»
+> **Isaías 9:6:** «Porque un niño nos es nacido, **un hijo** nos es dado; y el principado será sobre su hombro; y se llamará su nombre Admirable, Consejero, Dios Fuerte, **Padre Eterno**, Príncipe de Paz.»
 
-> **Malaquías 2:10:** «¿No tenemos todos un mismo padre? ¿No nos ha creado un mismo Dios? ¿Por qué menospreciaremos cada uno a su hermano, quebrantando el pacto de nuestros padres?»
+> **Malaquías 2:10:** «¿No tenemos todos **un mismo padre**? ¿No nos ha creado **un mismo Dios**? ¿Por qué menospreciaremos cada uno a su hermano, quebrantando el pacto de nuestros padres?»
 
-> **Efesios 4:6:** «un Dios y Padre de todos, el cual es sobre todo, y por todo, y en todos vosotros.»
+> **Efesios 4:6:** «**un Dios y Padre de todos**, el cual es sobre todo, y por todo, y en todos vosotros.»
 
-> **Colosenses 2:9-10:** «Porque en Él habita corporalmente toda la plenitud de la Deidad, y vosotros estáis completos en Él, el cual es la cabeza de todo principado y potestad.»
+> **Colosenses 2:9-10:** «Porque en Él habita corporalmente **toda la plenitud de la Deidad**, y vosotros estáis **completos** en Él, el cual es la **cabeza** de todo principado y potestad.»
 
 Jesús dijo que conocerle a Él es conocer al Padre, que verle a Él es ver al Padre, y que Él y el Padre son uno:
 
-> **Juan 8:19:** «Entonces le dijeron: ¿Dónde está tu Padre? Respondió Jesús: Ni a mí me conocéis, ni a mi Padre; si a mí me conocieseis, también a mi Padre conoceríais.»
+> **Juan 8:19:** «Entonces le dijeron: ¿Dónde está tu Padre? Respondió Jesús: Ni a mí me conocéis, ni a mi Padre; **si a mí me conocieseis, también a mi Padre conoceríais**.»
 
-> **Juan 8:24:** «Por eso os dije que moriréis en vuestros pecados; porque si no creéis que yo soy, en vuestros pecados moriréis.»
+> **Juan 8:24:** «Por eso os dije que moriréis en vuestros pecados; porque si no creéis que **yo soy**, en vuestros pecados moriréis.»
 
-> **Juan 10:30:** «Yo y mi Padre uno somos.»
+> **Juan 10:30:** «Yo y mi Padre **uno** somos.»
 
-> **Juan 10:38:** «Pero si las hago, aunque a mí no me creáis, creed a las obras; para que conozcáis y creáis que el Padre está en mí, y yo en Él.»
+> **Juan 10:38:** «Pero si las hago, aunque a mí no me creáis, creed a las obras; para que conozcáis y creáis que **el Padre está en mí, y yo en Él**.»
 
-> **Juan 12:45:** «y el que me ve, ve al que me envió.»
+> **Juan 12:45:** «y **el que me ve, ve al que me envió**.»
 
-> **Juan 14:7-11:** «Si me conocieseis, también a mi Padre conoceríais; y desde ahora le conocéis, y le habéis visto. Felipe le dijo: Señor, muéstranos al Padre, y nos basta. Jesús le dijo: ¿Tanto tiempo hace que estoy con vosotros, y aún no me has conocido, Felipe? El que me ha visto a mí, ha visto al Padre; ¿cómo, pues, dices tú: Muéstranos al Padre? ¿No crees que yo soy en el Padre, y el Padre en mí? Las palabras que yo os hablo, no las hablo de mí mismo; sino que el Padre que mora en mí, Él hace las obras. Creedme que yo soy en el Padre, y el Padre en mí; de otra manera, creedme por las mismas obras.»
+> **Juan 14:7-11:** «**Si me conocieseis, también a mi Padre conoceríais**; y desde ahora le conocéis, y le habéis visto. Felipe le dijo: Señor, muéstranos al Padre, y nos basta. Jesús le dijo: ¿Tanto tiempo hace que estoy con vosotros, y aún no me has conocido, Felipe? **El que me ha visto a mí, ha visto al Padre**; ¿cómo, pues, dices tú: Muéstranos al Padre? ¿No crees que yo soy en el Padre, y el Padre en mí? Las palabras que yo os hablo, no las hablo de mí mismo; sino que **el Padre que mora en mí**, Él hace las obras. Creedme que **yo soy en el Padre, y el Padre en mí**; de otra manera, creedme por las mismas obras.»
 
-> **Juan 14:18:** «No os dejaré huérfanos; vendré a vosotros.»
+> **Juan 14:18:** «No os dejaré **huérfanos**; vendré a vosotros.»
 
 El que está en el trono dice: «yo seré su Dios, y él será mi hijo»; y ese es el Alfa y la Omega, Jesús (Apocalipsis 22:13, 16). Y Jesús reprende y castiga como el padre al hijo:
 
-> **Apocalipsis 21:6-7:** «Y me dijo: Hecho es. Yo soy el Alfa y la Omega, el principio y el fin. Al que tuviere sed, yo le daré de la fuente del agua de vida gratuitamente. El que venciere, heredará todas las cosas; y yo seré su Dios, y él será mi hijo.»
+> **Apocalipsis 21:6-7:** «Y me dijo: Hecho es. Yo soy **el Alfa y la Omega, el principio y el fin**. Al que tuviere sed, yo le daré de la fuente del agua de vida gratuitamente. **El que venciere**, heredará todas las cosas; y yo seré su Dios, y **él será mi hijo**.»
 
-> **Apocalipsis 3:19:** «Yo reprendo y castigo a todos los que amo; sé, pues, celoso, y arrepiéntete.»
+> **Apocalipsis 3:19:** «Yo reprendo y **castigo a todos los que amo**; sé, pues, celoso, y arrepiéntete.»
 
-> **Proverbios 3:12:** «porque Jehová al que ama corrige, como el padre al hijo en quien se deleita.»
+> **Proverbios 3:12:** «porque **Jehová al que ama corrige**, como el padre al hijo en quien se deleita.»
 
 # 13. Jesús es el Espíritu Santo
 
 El Espíritu Santo es «el Espíritu de Jesucristo». Lo que hace el Espíritu Santo, Jesús dice que lo hace Él.
 
-> **Filipenses 1:19:** «Porque sé que esto se tornará para mi salvación por vuestra oración y la suministración del Espíritu de Jesucristo,»
+> **Filipenses 1:19:** «Porque sé que esto se tornará para mi salvación por vuestra oración y la suministración **del Espíritu de Jesucristo**,»
 
-> **Hechos 16:6-7:** «Y pasando a Frigia y a la provincia de Galacia, les fue prohibido por el Espíritu Santo predicar la palabra en Asia. Y cuando llegaron a Misia, intentaron ir a Bitinia; pero el Espíritu no se lo permitió.»
+> **Hechos 16:6-7 (BSB):** «Después de que **el Espíritu Santo** les impidiera anunciar la palabra en la provincia de Asia, recorrieron la región de Frigia y Galacia. Y al llegar a los límites de Misia, intentaron entrar en Bitinia, pero **el Espíritu de Jesús** no se lo permitió.»
 
-> **Gálatas 4:6:** «Y por cuanto sois hijos, Dios envió el Espíritu de su Hijo a vuestros corazones, el cual clama: Abba, Padre.»
-
-> **2 Corintios 3:17-18:** «Porque el Señor es el Espíritu; y donde está el Espíritu del Señor, allí hay libertad. Por tanto, nosotros todos, mirando con cara descubierta como en un espejo la gloria del Señor, somos transformados en la misma imagen, de gloria en gloria, como por el Espíritu del Señor.»
+> **2 Corintios 3:17-18:** «Porque **el Señor es el Espíritu**; y donde está el Espíritu del Señor, allí hay libertad. Por tanto, nosotros todos, mirando con cara descubierta como en un espejo la gloria del Señor, somos transformados en la misma imagen, de gloria en gloria, como por **el Espíritu del Señor**.»
 
 **El Espíritu en los profetas** era el Espíritu de Cristo, y el Espíritu Santo:
 
-> **1 Pedro 1:10-11:** «Acerca de esta salvación inquirieron y diligentemente indagaron los profetas que profetizaron de la gracia que había de venir a vosotros, escudriñando cuándo o en qué punto de tiempo indicaba el Espíritu de Cristo que estaba en ellos, cuando prenunciaba los sufrimientos de Cristo, y las glorias después de ellos.»
+> **1 Pedro 1:10-11:** «Acerca de esta salvación inquirieron y diligentemente indagaron **los profetas** que profetizaron de la gracia que había de venir a vosotros, escudriñando cuándo o en qué punto de tiempo indicaba **el Espíritu de Cristo que estaba en ellos**, cuando prenunciaba los sufrimientos de Cristo, y las glorias después de ellos.»
 
-> **2 Pedro 1:21:** «porque la profecía no vino en tiempo pasado por la voluntad del hombre; sino que los santos hombres de Dios hablaron siendo guiados por el Espíritu Santo.»
+> **2 Pedro 1:21:** «porque la profecía no vino **en tiempo pasado** por la voluntad del hombre; sino que **los santos hombres** de Dios hablaron siendo **guiados por el Espíritu Santo**.»
 
 **¿Quién resucita a los muertos?** Jesús dice que Él los resucitará; Pablo dice que el Espíritu lo hará:
 
-> **Juan 6:40:** «Y esta es la voluntad del que me envió: Que todo aquel que ve al Hijo, y cree en Él, tenga vida eterna; y yo le resucitaré en el día postrero.»
+> **Juan 6:40:** «Y esta es la voluntad del que me envió: Que todo aquel que ve al Hijo, y cree en Él, tenga vida eterna; y yo **le resucitaré en el día postrero**.»
 
-> **Romanos 8:11:** «Y si el Espíritu de Aquél que levantó de los muertos a Jesús mora en vosotros, el que levantó a Cristo de entre los muertos, vivificará también vuestros cuerpos mortales por su Espíritu que mora en vosotros.»
+> **Romanos 8:11:** «Y si **el Espíritu** de Aquél que levantó de los muertos a Jesús mora en vosotros, el que levantó a Cristo de entre los muertos, **vivificará también vuestros cuerpos mortales** por su Espíritu que mora en vosotros.»
 
 **¿Quién levantó el cuerpo de Jesús?** Jesús dijo que Él levantaría el templo de su cuerpo; Pablo dice que el Espíritu lo levantó:
 
-> **Juan 2:19-21:** «Respondió Jesús y les dijo: Destruid este templo, y en tres días lo levantaré. Entonces dijeron los judíos: En cuarenta y seis años fue edificado este templo, ¿y tú lo levantarás en tres días? Pero Él hablaba del templo de su cuerpo.»
+> **Juan 2:19-21:** «Respondió **Jesús** y les **dijo**: Destruid este templo, y **en tres días lo levantaré**. Entonces dijeron los judíos: En cuarenta y seis años fue edificado este templo, ¿y tú lo levantarás en tres días? Pero Él hablaba del templo de su cuerpo.»
 
-> **Romanos 8:9-11:** «Mas vosotros no estáis en la carne, sino en el Espíritu, si es que el Espíritu de Dios mora en vosotros. Y si alguno no tiene el Espíritu de Cristo, el tal no es de Él. Y si Cristo está en vosotros, el cuerpo a la verdad está muerto a causa del pecado pero el Espíritu vive a causa de la justicia. Y si el Espíritu de Aquél que levantó de los muertos a Jesús mora en vosotros, el que levantó a Cristo de entre los muertos, vivificará también vuestros cuerpos mortales por su Espíritu que mora en vosotros.»
+> **Romanos 8:9-11:** «Mas vosotros no estáis en la carne, sino en el Espíritu, si es que el Espíritu de Dios mora en vosotros. Y si alguno no tiene el Espíritu de Cristo, el tal no es de Él. Y si Cristo está en vosotros, el cuerpo a la verdad está muerto a causa del pecado pero el Espíritu vive a causa de la justicia. Y si **el Espíritu** de Aquél **que levantó de los muertos a Jesús** mora en vosotros, el que levantó a Cristo de entre los muertos, \*vivificará también vuestros cuerpos mortales por su Espíritu que mora en vosotros.»
 
 **Otro Consolador**: «vendré a vosotros»:
 
-> **Juan 14:16:** «y yo rogaré al Padre, y Él os dará otro Consolador, para que esté con vosotros para siempre;»
+> **Juan 14:16:** «y yo rogaré al Padre, y Él os dará **otro Consolador**, para que esté con vosotros para siempre;»
 
-> **Juan 14:18:** «No os dejaré huérfanos; vendré a vosotros.»
+> **Juan 14:18:** «No os dejaré huérfanos; **vendré a vosotros**.»
 
-> **Mateo 28:20:** «enseñándoles que guarden todas las cosas que os he mandado; y he aquí, yo estoy con vosotros todos los días, hasta el fin del mundo. Amén.»
+> **Mateo 28:20:** «enseñándoles que guarden todas las cosas que os he mandado; y he aquí, **yo estoy con vosotros todos los días, hasta el fin del mundo**. Amén.»
 
 > **Juan 16:7:** «Pero yo os digo la verdad: Os es necesario que yo me vaya; porque si no me fuera, el Consolador no vendría a vosotros; mas si me fuere, os lo enviaré.»
 
 **¿Quién da las palabras en la persecución?** El Espíritu Santo, o Jesús:
 
-> **Marcos 13:11:** «Y cuando os llevaren y entregaren, no os preocupéis por lo que habéis de decir, ni lo premeditéis; sino lo que os fuere dado en aquella hora, eso hablad; porque no sois vosotros los que habláis, sino el Espíritu Santo.»
+> **Marcos 13:11:** «Y cuando os llevaren y entregaren, no os preocupéis por lo que habéis de decir, ni lo premeditéis; sino lo que os fuere dado en aquella hora, eso hablad; porque **no sois vosotros los que habláis, sino el Espíritu Santo**.»
 
-> **Lucas 21:15:** «porque yo os daré palabra y sabiduría, la cual ninguno de vuestros adversarios podrá resistir ni contradecir.»
+> **Lucas 21:15:** «porque **yo os daré palabra y sabiduría**, la cual ninguno de vuestros adversarios podrá resistir ni contradecir.»
 
 # 14. El Padre es el Espíritu Santo
 
-El Espíritu de Dios es el propio Espíritu de Dios, como el espíritu del hombre es el suyo propio.
+El Espíritu de Dios es su propio Espíritu, como el espíritu del hombre es el suyo propio. No son personas diferentes.
 
-> **1 Corintios 2:11:** «Porque ¿quién de los hombres sabe las cosas del hombre, sino el espíritu del hombre que está en él? Así tampoco nadie conoce las cosas de Dios, sino el Espíritu de Dios.»
+> **1 Corintios 2:11:** «Porque ¿**quién de los hombres sabe las cosas del hombre, sino el espíritu del hombre** que está en él? Así tampoco **nadie conoce las cosas de Dios, sino el Espíritu de Dios**.»
 
 María concibió «del Espíritu Santo»; así que el Espíritu Santo es el Padre de Jesús:
 
-> **Mateo 1:18-20:** «El nacimiento de Jesucristo fue así: Estando María su madre desposada con José, antes que se juntasen, se halló que había concebido del Espíritu Santo, y José su marido, como era un hombre justo y no quería infamarla, quiso dejarla secretamente. Y pensando él en esto, he aquí el ángel del Señor le apareció en un sueño, diciendo: José, hijo de David, no temas recibir a María tu esposa, porque lo que en ella es engendrado, del Espíritu Santo es.»
+> **Mateo 1:18-20:** «El nacimiento de Jesucristo fue así: Estando María su madre desposada con José, antes que se juntasen, se halló que había concebido del Espíritu Santo, y José su marido, como era un hombre justo y no quería infamarla, quiso dejarla secretamente. Y pensando él en esto, he aquí el ángel del Señor le apareció en un sueño, diciendo: José, hijo de David, no temas recibir a María tu esposa, porque **lo que en ella es engendrado, del Espíritu Santo es**.»
 
-> **Lucas 1:35:** «Y respondiendo el ángel le dijo: El Espíritu Santo vendrá sobre ti, y el poder del Altísimo te cubrirá con su sombra; por lo cual también lo Santo que de ti nacerá, será llamado el Hijo de Dios.»
+> **Lucas 1:35:** «Y respondiendo el ángel le dijo: **El Espíritu Santo vendrá sobre ti**, y el poder del Altísimo te cubrirá con su sombra; por lo cual también **lo Santo que de ti nacerá, será llamado el Hijo de Dios**.»
 
-¿Quién resucitó a Jesús de los muertos? Dios, el Padre, y el Espíritu:
+¿Quién resucitó a Jesús de los muertos, Dios (el Padre), o el Espíritu?
 
-> **Hechos 2:24:** «a quien Dios resucitó, habiendo soltado los dolores de la muerte, por cuanto era imposible ser retenido por ella.»
+> **Hechos 2:24:** «a quien **Dios resucitó**, habiendo soltado los dolores de la muerte, por cuanto era imposible ser retenido por ella.»
 
-> **Efesios 1:17-20:** «para que el Dios de nuestro Señor Jesucristo, el Padre de gloria, os dé espíritu de sabiduría y de revelación en el conocimiento de Él; alumbrando los ojos de vuestro entendimiento, para que sepáis cuál es la esperanza de su llamamiento, y cuáles las riquezas de la gloria de su herencia en los santos; y cuál la supereminente grandeza de su poder para con nosotros los que creemos, según la operación del poder de su fortaleza, la cual operó en Cristo, resucitándole de los muertos, y sentándole a su diestra en los lugares celestiales,»
+> **Efesios 1:17-20:** «para que el Dios de nuestro Señor Jesucristo, **el Padre** de gloria, os dé espíritu de sabiduría y de revelación en el conocimiento de Él; alumbrando los ojos de vuestro entendimiento, para que sepáis cuál es la esperanza de su llamamiento, y cuáles las riquezas de la gloria de su herencia en los santos; y cuál la supereminente grandeza de su poder para con nosotros los que creemos, según la operación del poder de su fortaleza, la cual operó en Cristo, **resucitándole de los muertos**, y sentándole a su diestra en los lugares celestiales,»
 
-> **Romanos 8:11:** «Y si el Espíritu de Aquél que levantó de los muertos a Jesús mora en vosotros, el que levantó a Cristo de entre los muertos, vivificará también vuestros cuerpos mortales por su Espíritu que mora en vosotros.»
+> **Romanos 8:11:** «Y si **el Espíritu** de Aquél **que levantó de los muertos a Jesús** mora en vosotros, el que levantó a Cristo de entre los muertos, vivificará también vuestros cuerpos mortales por su Espíritu que mora en vosotros.»
 
-El Espíritu que recibimos es el Espíritu por el cual clamamos «Abba, Padre»:
+El Espíritu que recibimos es el Espíritu de adopción por el cual clamamos «Abba, Padre»:
 
-> **Romanos 8:15-16:** «Porque no habéis recibido el espíritu de servidumbre para estar otra vez en temor, sino que habéis recibido el Espíritu de adopción, por el cual clamamos: Abba Padre. El Espíritu mismo da testimonio a nuestro espíritu que somos hijos de Dios.»
+> **Romanos 8:15-16:** «Porque no habéis recibido el espíritu de servidumbre para estar otra vez en temor, sino que habéis recibido **el Espíritu de adopción**, por el cual clamamos: Abba Padre. El Espíritu mismo da testimonio a nuestro espíritu que somos hijos de Dios.»
 
-> **Gálatas 4:6:** «Y por cuanto sois hijos, Dios envió el Espíritu de su Hijo a vuestros corazones, el cual clama: Abba, Padre.»
+> **Gálatas 4:6:** «Y por cuanto sois hijos, **Dios envió el Espíritu de su Hijo a vuestros corazones**, el cual clama: **Abba, Padre**.»
 
-¿Quién nos santifica? La «santificación del Espíritu», y «santificados en Dios el Padre»:
+¿Quién nos santifica? La «santificación del Espíritu», o «santificados en Dios el Padre»:
 
-> **1 Pedro 1:2:** «elegidos según la presciencia de Dios Padre en santificación del Espíritu, para obedecer y ser rociados con la sangre de Jesucristo: Gracia y paz os sean multiplicadas.»
+> **1 Pedro 1:2:** «elegidos según la presciencia de Dios Padre en **santificación del Espíritu**, para obedecer y ser rociados con la sangre de Jesucristo: Gracia y paz os sean multiplicadas.»
 
-> **Judas 1:1:** «Judas, siervo de Jesucristo, y hermano de Jacobo, a los llamados, santificados en Dios el Padre, y preservados en Jesucristo:»
+> **Judas 1:1:** «Judas, siervo de Jesucristo, y hermano de Jacobo, a los llamados, **santificados en Dios el Padre**, y preservados en Jesucristo:»
 
 # 15. Dios es uno, no tres
 
-> **Deuteronomio 6:4:** «Oye, oh Israel: Jehová nuestro Dios, Jehová uno es:»
+> **Deuteronomio 6:4:** «Oye, oh Israel: Jehová nuestro Dios, Jehová **uno es**:»
 
-> **Marcos 12:29:** «Y Jesús le respondió: El primer mandamiento de todos es: Oye, oh Israel, el Señor nuestro Dios, el Señor uno es.»
+> **Marcos 12:29:** «Y Jesús le respondió: El primer mandamiento de todos es: Oye, oh Israel, el Señor nuestro Dios, el Señor **uno es** (_"heis": uno singular masculino_).»
 
-> **Marcos 12:32:** «Entonces el escriba le dijo: Bien, Maestro, verdad has dicho, porque hay un Dios, y no hay otro fuera de Él.»
+> **Marcos 12:32:** «Entonces el escriba le dijo: Bien, Maestro, verdad has dicho, porque **hay un Dios** (_"heis": uno singular masculino_), y no hay otro fuera de Él.»
 
-> **Isaías 37:16:** «Oh Jehová de los ejércitos, Dios de Israel, que moras entre los querubines, sólo tú eres Dios sobre todos los reinos de la tierra; tú hiciste el cielo y la tierra.»
+> **Isaías 37:16:** «Oh Jehová de los ejércitos, Dios de Israel, que moras entre los querubines, **sólo tú eres Dios** sobre todos los reinos de la tierra; tú hiciste el cielo y la tierra.»
 
-> **Isaías 43:10:** «Vosotros sois mis testigos, dice Jehová, y mi siervo que yo escogí; para que me conozcáis y creáis, y entendáis que yo mismo soy; antes de mí no fue formado Dios, ni lo será después de mí.»
+> **Isaías 43:10:** «Vosotros sois mis testigos, dice Jehová, y mi siervo que yo escogí; para que me conozcáis y creáis, y entendáis que yo mismo soy; **antes de mí no fue formado Dios, ni lo será después de mí**.»
 
-> **Isaías 44:6:** «Así dice Jehová, el Rey de Israel, y su Redentor, Jehová de los ejércitos: Yo soy el primero, y yo soy el postrero, y fuera de mí no hay Dios.»
+> **Isaías 44:6:** «Así dice Jehová, el Rey de Israel, y su Redentor, Jehová de los ejércitos: **Yo soy el primero, y yo soy el postrero, y fuera de mí no hay Dios**.»
 
-> **Isaías 44:8:** «No temáis, ni tengáis miedo; ¿no os lo he dicho desde antiguo, y lo he declarado? Vosotros sois mis testigos. ¿Hay un Dios aparte de mí? No hay otro Dios; no conozco ninguno.»
+> **Isaías 44:8:** «No temáis, ni tengáis miedo; ¿no os lo he dicho desde antiguo, y lo he declarado? Vosotros sois mis testigos. ¿**Hay un Dios aparte de mí? No hay otro Dios**; no conozco ninguno.»
 
-> **Isaías 44:24:** «Así dice Jehová, tu Redentor, el que te formó desde el vientre: Yo soy Jehová, el Creador de todo, que extiendo solo los cielos, que extiendo la tierra por mí mismo;»
+> **Isaías 44:24:** «Así dice Jehová, tu Redentor, el que te formó desde el vientre: Yo soy Jehová, el Creador de todo, que extiendo **solo** los cielos, que extiendo la tierra **por mí mismo**;»
 
-> **Isaías 45:5-6:** «Yo soy Jehová, y no hay ningún otro. No hay Dios fuera de mí. Yo te ceñí, aunque tú no me has conocido; para que se sepa desde el nacimiento del sol, y hasta donde se pone, que no hay nadie fuera de mí; yo soy Jehová, y no hay otro.»
+> **Isaías 45:5-6:** «Yo soy Jehová, y **no hay ningún otro**. No hay Dios fuera de mí. Yo te ceñí, aunque tú no me has conocido; para que se sepa desde el nacimiento del sol, y hasta donde se pone, que **no hay nadie fuera de mí; yo soy Jehová, y no hay otro**.»
 
-> **Isaías 45:18:** «Porque así dice Jehová, que creó los cielos, el mismo Dios, el que formó e hizo la tierra, Él la estableció; no la creó en vano, para que fuese habitada la creó: Yo soy Jehová, y no hay otro.»
+> **Isaías 45:18:** «Porque así dice Jehová, que creó los cielos, el mismo Dios, el que formó e hizo la tierra, **Él** la estableció; no la creó en vano, para que fuese habitada la creó: **Yo soy Jehová, y no hay otro**.»
 
-> **Isaías 45:21-22:** «Publicad, y hacedlos llegar, y entren todos en consulta. ¿Quién hizo oír esto desde el principio, y lo tiene dicho desde entonces, sino yo Jehová? Y no hay más Dios que yo; Dios justo y Salvador: ningún otro fuera de mí. Mirad a mí, y sed salvos, todos los términos de la tierra: porque yo soy Dios, y no hay más.»
+> **Isaías 45:21-22:** «Publicad, y hacedlos llegar, y entren todos en consulta. ¿Quién hizo oír esto desde el principio, y lo tiene dicho desde entonces, sino yo Jehová? **Y no hay más Dios que yo**; Dios justo y Salvador: **ningún otro fuera de mí**. Mirad a mí, y sed salvos, todos los términos de la tierra: porque **yo soy Dios, y no hay más**.»
 
-> **Isaías 46:5:** «¿A quién me asemejáis, y me igualáis, y me comparáis, para que seamos semejantes?»
+> **Isaías 46:5:** «¿**A quién me asemejáis, y me igualáis**, y me comparáis, para que seamos semejantes?»
 
-> **Isaías 46:9:** «Acordaos de las cosas pasadas desde la antigüedad; porque yo soy Dios, y no hay otro: Yo soy Dios, y no hay nadie semejante a mí;»
+> **Isaías 46:9:** «Acordaos de las cosas pasadas desde la antigüedad; porque **yo soy Dios, y no hay otro: Yo soy Dios, y no hay nadie semejante a mí**;»
 
-> **Isaías 48:11-12:** «Por amor a mí mismo, sí, por amor a mí mismo lo haré: ¿Cómo habría de ser profanado mi nombre? Y mi gloria no la daré a otro. Óyeme, Jacob, y tú, Israel, mi llamado. Yo mismo, yo soy el primero, yo también soy el postrero.»
+> **Isaías 48:11-12:** «Por amor **a mí mismo**, sí, por amor a mí mismo lo haré: ¿Cómo habría de ser profanado **mi nombre**? Y **mi gloria no la daré a otro**. Óyeme, Jacob, y tú, Israel, mi llamado. Yo mismo, **yo soy el primero, yo también soy el postrero**.»
 
 En Juan 17:3 Jesús ora al Padre: «a ti (_se_, singular), el único Dios verdadero»; se dirige a una sola persona, no a tres:
 
-> **Juan 17:3:** «Y esta es la vida eterna: Que te conozcan a ti, el único Dios verdadero, y a Jesucristo, a quien tú has enviado.»
+> **Juan 17:3:** «Y esta es la vida eterna: Que te conozcan **a ti, el único Dios verdadero**, y a Jesucristo, a quien tú has enviado.»
 
-> **Gálatas 3:20:** «Ahora bien, un mediador no es de uno solo, pero Dios es uno.»
+> **Gálatas 3:20:** «Ahora bien, un mediador no es de uno solo, pero **Dios es uno** (_"heis": uno singular masculino_).»
 
-> **1 Timoteo 2:5:** «Porque hay un solo Dios, y un solo mediador entre Dios y los hombres, Jesucristo hombre;»
+> **1 Timoteo 2:5:** «Porque **hay un solo Dios** (_"heis": uno singular masculino_), y un solo mediador entre Dios y los hombres, Jesucristo hombre;»
 
-> **Santiago 2:19:** «Tú crees que hay un Dios; bien haces; también los demonios creen y tiemblan.»
+> **Santiago 2:19:** «Tú crees que **hay un Dios** (_"heis": uno singular masculino_); bien haces; también los demonios creen y tiemblan.»
 
 ### Hebreo: _echad_ y _yachid_
 
@@ -519,165 +517,175 @@ La palabra hebrea para «uno» en Deuteronomio 6:4 es **_echad_**. Es la palabra
 
 La otra palabra hebrea, **_yachid_**, significa «único, solo, solitario»: «tu hijo, tu **único**» (Génesis 22:2), «estoy **desolado**» (Salmos 25:16), «Dios hace habitar en familia a los **solitarios**» (Salmos 68:6). Tiene el sentido de soledad, y la Escritura nunca la usa para Dios: Dios no está solo. _Echad_ es sencillamente la palabra correcta para «un solo Jehová».
 
-> **Génesis 2:24:** «Por tanto, dejará el hombre a su padre y a su madre, y se unirá a su esposa, y serán una sola carne.»
+> **Génesis 2:24:** «Por tanto, dejará el hombre a su padre y a su madre, y se unirá a su esposa, y serán **una** sola carne.»
 
-> **Ezequiel 33:24:** «Hijo de hombre, los que habitan aquellos desiertos en la tierra de Israel, hablan diciendo: Abraham era uno, y poseyó la tierra; pues nosotros somos muchos; a nosotros es dada la tierra en posesión.»
+> **Ezequiel 33:24:** «Hijo de hombre, los que habitan aquellos desiertos en la tierra de Israel, hablan diciendo: Abraham era **uno**, y poseyó la tierra; pues nosotros somos muchos; a nosotros es dada la tierra en posesión.»
 
-> **Génesis 22:2:** «Y dijo: Toma ahora a tu hijo, tu único, Isaac, a quien amas, y vete a la tierra de Moriah, y ofrécelo allí en holocausto sobre uno de los montes que yo te diré.»
+> **Génesis 22:2:** «Y dijo: Toma ahora a tu hijo, tu **único**, Isaac, a quien amas, y vete a la tierra de Moriah, y ofrécelo allí en holocausto sobre uno de los montes que yo te diré.»
 
-> **Salmos 25:16:** «Vuélvete a mí, y tenme misericordia; porque estoy desolado y afligido.»
+> **Salmos 25:16:** «Vuélvete a mí, y tenme misericordia; porque estoy **desolado** y afligido.»
 
-> **Salmos 68:6:** «Dios hace habitar en familia a los solitarios; Él saca a los aprisionados con grillos; mas los rebeldes habitan en tierra seca.»
+> **Salmos 68:6:** «Dios hace habitar en familia a los **solitarios**; Él saca a los aprisionados con grillos; mas los rebeldes habitan en tierra seca.»
+
+La forma más sencilla de refutar la afirmación trinitaria de que _echad_ significa que Dios es una unidad de personas es recurriendo a Zacarías 14:9. Basta con preguntar: «¿Qué significa "uno" (_echad_) en este versículo?». Porque si «un SEÑOR» significa «una unidad de personas», entonces «su nombre, uno» también debería significar una «unidad de nombres»:
+
+> **Zacarías 14:9:** «Y Jehová será rey sobre toda la tierra. En aquel día Jehová será **uno** (_echad_), y **uno** (_echad_) su nombre».
+
+Además, si Deuteronomio 6:4 implica que el SEÑOR es «uno» entendido como una «unidad de personas», ¿por qué Jesús, al citarlo, usó la palabra _heis_, que es la forma singular masculina de «uno»?
+
+> **Deuteronomio 6:4:** «Oye, Israel: Jehová nuestro Dios, Jehová **uno** (_echad_) es».
+
+> **Marcos 12:29:** «Y Jesús le respondió: El primer mandamiento de todos es: Oye, oh Israel, el Señor nuestro Dios, el Señor **uno** (_heis: término singular masculino para "uno"_) es.».
 
 ### Griego: _heis_, _mia_, _hen_
 
 En griego «uno» cambia según el género gramatical: **_heis_** (masculino), **_mia_** (femenino), **_hen_** (neutro).
 
-- **Dios es _heis_.** «El Señor nuestro Dios, el Señor uno (_heis_) es» (Marcos 12:29); «hay un (_heis_) Dios» (Marcos 12:32; 1 Timoteo 2:5); «tú crees que hay un (_heis_) Dios» (Santiago 2:19); «Dios es uno (_heis_)» (Gálatas 3:20). En Gálatas 3:20 todo el argumento de Pablo es que un mediador está entre dos partes, mientras que Dios actuó solo; la AMPC lo traduce «pero Dios es [solo] **una Persona**» (traducido del inglés).
+- **Dios es _heis_.** «El Señor nuestro Dios, el Señor uno (_heis_) es» (Marcos 12:29); «hay un (_heis_) Dios» (Marcos 12:32; 1 Timoteo 2:5); «tú crees que hay un (_heis_) Dios» (Santiago 2:19); «Dios es uno (_heis_)» (Gálatas 3:20). En Gálatas 3:20 todo el argumento de Pablo es que un mediador está entre dos partes, mientras que Dios actuó solo; el término en masculino alude a una persona masculina singular; por eso, la AMPC lo traduce como «pero Dios es [solo] **una Persona**».
 - **La unidad de varios es _hen_.** «Yo y mi Padre uno (_hen_) somos» (Juan 10:30): neutro; no «una persona», sino uno en unidad, el Espíritu divino y el hombre en perfecta unión. El mismo neutro se usa para la unidad de muchas personas: «para que todos sean uno (_hen_)… para que sean uno (_hen_), como nosotros somos uno (_hen_)» (Juan 17:21-22); «el que planta y el que riega son una (_hen_) misma cosa» (1 Corintios 3:8). Cuando la Escritura describe a varias personas en unidad, dice _hen_; nunca «un Dios (_heis_)».
 - **_Mia_ acompaña a sustantivos femeninos:** «los dos serán una (_mian_) sola carne» (Mateo 19:5-6), porque _sarx_ (carne) es femenino; «se le acercó una (_mia_) criada» (Mateo 26:69).
-- **El cuerpo es _hen_ porque _sōma_ es neutro:** «somos todos bautizados en un (_hen_) cuerpo» (1 Corintios 12:13). Cuando Pablo dice «todos vosotros sois uno (_heis_) en Cristo Jesús» (Gálatas 3:28), el masculino se refiere al «nuevo hombre» que Cristo hace «de los dos» (Efesios 2:15) que la iglesia llega a ser en Cristo: una figura de un solo cuerpo, no una afirmación de que los creyentes sean una sola persona.
+- **El cuerpo es _hen_ porque _sōma_ es neutro:** «somos todos bautizados en un (_hen_) cuerpo (_sōma_)» (1 Corintios 12:13). Cuando Pablo dice «todos vosotros sois uno (_heis_) en Cristo Jesús» (Gálatas 3:28), el masculino se refiere al «nuevo hombre» que Cristo hace «de los dos», Judíos y gentiles (Efesios 2:15), que ahora forman la iglesia de Cristo: una figura de un solo cuerpo, no una afirmación de que la unidad de creyentes sean una sola persona masculina.
 
 El patrón es constante: cuando la Biblia cuenta a Dios, dice **_heis_ theos**, un solo Dios; y cuando describe una unidad de varios, dice **_hen_**.
 
-> **Juan 10:30:** «Yo y mi Padre uno somos.»
+> **Juan 10:30:** «Yo y mi Padre **uno** (_hen_) somos.»
 
-> **Juan 17:21-22:** «Para que todos sean uno; como tú, oh Padre, en mí, y yo en ti, que también ellos sean uno en nosotros; para que el mundo crea que tú me enviaste. Y la gloria que me diste, yo les he dado; para que sean uno, como nosotros somos uno.»
+> **Juan 17:21-22:** «Para que todos sean **uno** (_hen_); como tú, oh Padre, en mí, y yo en ti, que también ellos sean **uno** (_hen_) en nosotros; para que el mundo crea que tú me enviaste. Y la gloria que me diste, yo les he dado; para que sean **uno** (_hen_), como nosotros somos **uno** (_hen_).»
 
-> **1 Corintios 3:8:** «Y el que planta y el que riega son una misma cosa; aunque cada uno recibirá su recompensa conforme a su labor.»
+> **1 Corintios 3:8:** «Y el que planta y el que riega son **una** (_hen_) misma cosa; aunque cada uno recibirá su recompensa conforme a su labor.»
 
-> **Mateo 19:5-6:** «Y dijo: Por esto dejará el hombre a su padre y a su madre, y se unirá a su esposa, y los dos serán una sola carne. Así que no son ya más dos, sino una sola carne. Por tanto, lo que Dios unió, no lo separe el hombre.»
+> **Mateo 19:5-6:** «Y dijo: Por esto dejará el hombre a su padre y a su madre, y se unirá a su esposa, y los dos serán **una** (_mia_) sola carne. Así que no son ya más dos, sino una sola carne. Por tanto, lo que Dios unió, no lo separe el hombre.»
 
-> **1 Corintios 12:12-13:** «Porque así como el cuerpo es uno, y tiene muchos miembros, pero todos los miembros del cuerpo, siendo muchos, son un solo cuerpo, así también Cristo. Porque por un solo Espíritu somos todos bautizados en un cuerpo, ya sean judíos o gentiles, ya sean siervos o libres; y todos hemos bebido de un mismo Espíritu.»
+> **1 Corintios 12:12-13:** «Porque así como el cuerpo (_sōma: el cuerpo es neutro, representa una unidad de muchos miembros del cuerpo_) es **uno** (_hen_), y tiene muchos miembros, pero todos los miembros del cuerpo, siendo muchos, son **un** (_hen_) solo cuerpo (_sōma_), así también Cristo. Porque por un solo Espíritu somos todos bautizados en **un** (_hen_) cuerpo (_sōma_), ya sean judíos o gentiles, ya sean siervos o libres; y todos hemos bebido de **un** (_hen_) mismo Espíritu (_pneuma: el Espíritu es neutro, pero el parakletos, el Consolador, es masculino 'heis'_).»
 
-> **Gálatas 3:28:** «Ya no hay judío ni griego; no hay esclavo ni libre; no hay varón ni mujer; porque todos vosotros sois uno en Cristo Jesús.»
+> **Gálatas 3:28:** «Ya no hay judío ni griego; no hay esclavo ni libre; no hay varón ni mujer; porque todos vosotros sois **uno** (_heis, ya que los judíos y los gentiles constituyen un único "hombre nuevo" —en masculino—, tal como se explica arriba y se muestra debajo_) en Cristo Jesús.»
 
-> **Efesios 2:15:** «aboliendo en su carne las enemistades, la ley de los mandamientos contenidos en ordenanzas, para hacer en sí mismo de los dos un nuevo hombre, haciendo así la paz;»
+> **Efesios 2:15:** «aboliendo en su carne las enemistades, la ley de los mandamientos contenidos en ordenanzas, para hacer en sí mismo de los dos **un** (_heis_) nuevo hombre, haciendo así la paz;»
 
 # 16. El Verbo
 
-Para los griegos, el **Logos** nunca fue una persona. Desde Heráclito (c. 500 a. C.) hasta los estoicos, era la razón o el principio racional detrás del universo: el orden, el plan por el cual todo funciona. El filósofo judío **Filón de Alejandría** (c. 20 a. C. – 50 d. C.), mezclando la filosofía griega con la Escritura, llamó al Logos «el segundo Dios» (_Cuestiones sobre el Génesis_ 2.62). Los filósofos cristianos siguieron ese camino: **Justino Mártir** (c. 155) enseñó que además del Hacedor de todo hay «otro Dios y Señor» bajo Él (_Diálogo con Trifón_ 56), que tiene «el segundo lugar» (_Primera Apología_ 13): arriba, el Dios supremo e innombrable de los filósofos; abajo, un Dios menor, su Verbo. Ese fue el comienzo de la «doctrina del Logos».
+Para los griegos, el **Logos** nunca fue una persona. Desde Heráclito (c. 500 a. C.) hasta los estoicos, era la razón o el principio racional detrás del universo: el orden, el plan por el cual todo funciona. El filósofo judío **Filón de Alejandría** (c. 20 a. C. – 50 d. C.), mezclando la filosofía griega con la Escritura, llamó al Logos «el segundo Dios» (_Cuestiones sobre el Génesis_ 2.62). Los filósofos cristianos siguieron ese camino: **Justino Mártir** (c. 155) enseñó que además del Hacedor de todo hay «otro Dios y Señor» bajo Él (_Diálogo con Trifón_ 56), que tiene «el segundo lugar» (_Primera Apología_ 13): arriba, el Dios supremo e innombrable de los filósofos; abajo, un Dios menor, su Verbo. Ese fue el comienzo de la «doctrina del Logos,» que con el tiempo se convirtió en la Trinidad.
 
-En la Biblia, la palabra de Dios es Dios mismo que habla y actúa: «Por la palabra de Jehová fueron hechos los cielos… Porque Él habló, y fue hecho». El Verbo no era un segundo Dios junto a Dios: «el Verbo **era** Dios», y ese Verbo fue hecho carne.
+En la Biblia, la palabra de Dios es Dios mismo que habla y actúa: «Por la palabra de Jehová fueron hechos los cielos… Porque Él habló, y fue hecho». El Verbo no era un segundo Dios junto a Dios: «el Verbo **era** Dios», y ese Verbo fue hecho carne. El Verbo estaba con Dios porque Él habló de redención antes de que hubiera pecado que perdonar. Nada fue creado sin tener en mente la obra redentora del Hijo:
 
-> **Juan 1:1:** «En el principio era el Verbo, y el Verbo era con Dios, y el Verbo era Dios.»
+> **Juan 1:1:** «En el principio era el Verbo, y el Verbo era **con** Dios, y **el Verbo era Dios**.»
 
-> **Juan 1:14:** «Y el Verbo fue hecho carne, y habitó entre nosotros (y vimos su gloria, gloria como del unigénito del Padre), lleno de gracia y de verdad.»
+> **Juan 1:14:** «Y **el Verbo** fue hecho carne, y habitó entre nosotros (y vimos su gloria, gloria como del unigénito del Padre), lleno de gracia y de verdad.»
 
-> **Salmos 33:6:** «Por la palabra de Jehová fueron hechos los cielos, y todo el ejército de ellos por el aliento de su boca.»
+> **Salmos 33:6:** «Por **la palabra** de Jehová fueron hechos los cielos, y todo el ejército de ellos por el aliento de su boca.»
 
-> **Salmos 33:9:** «Porque Él habló, y fue hecho; Él mandó, y se estableció.»
+> **Salmos 33:9:** «Porque **Él habló**, y fue hecho; **Él mandó**, y se estableció.»
 
-> **Salmos 29:3-5:** «La voz de Jehová está sobre las aguas; truena el Dios de gloria; Jehová está sobre las muchas aguas. La voz de Jehová es poderosa; la voz de Jehová es majestuosa. La voz de Jehová quiebra los cedros; quiebra Jehová los cedros del Líbano.»
+> **Salmos 29:3-5:** «**La voz** de Jehová está sobre las aguas; truena el Dios de gloria; Jehová está sobre las muchas aguas. **La voz** de Jehová es poderosa; **la voz** de Jehová es majestuosa. **La voz** de Jehová quiebra los cedros; quiebra Jehová los cedros del Líbano.»
 
-> **Salmos 29:8:** «La voz de Jehová hace temblar el desierto; Jehová hace temblar el desierto de Cades.»
+> **Salmos 29:8:** «**La voz** de Jehová hace temblar el desierto; Jehová hace temblar el desierto de Cades.»
 
-> **Isaías 55:11:** «así será mi palabra que sale de mi boca; no volverá a mí vacía, antes hará lo que yo quiero, y será prosperada en aquello para que la envié.»
+> **Isaías 55:11:** «así será **mi palabra** que sale de mi boca; no volverá a mí vacía, antes hará lo que yo quiero, y será prosperada en aquello para que la envié.»
 
-> **Hebreos 11:3:** «Por fe entendemos haber sido constituido el universo por la palabra de Dios, de manera que lo que se ve, fue hecho de lo que no se veía.»
+> **Hebreos 11:3:** «Por fe entendemos haber sido constituido el universo por **la palabra de Dios**, de manera que lo que se ve, fue hecho de lo que no se veía.»
 
-> **2 Pedro 3:5:** «Porque ellos ignoran voluntariamente esto; que por la palabra de Dios fueron creados los cielos en el tiempo antiguo, y la tierra, que por agua y en agua está asentada;»
+> **2 Pedro 3:5:** «Porque ellos ignoran voluntariamente esto; que **por la palabra de Dios** fueron creados los cielos en el tiempo antiguo, y la tierra, que por agua y en agua está asentada;»
 
-> **2 Pedro 3:7:** «Pero los cielos que son ahora, y la tierra, son reservados por la misma palabra, guardados para el fuego en el día del juicio y de la perdición de los hombres impíos.»
+> **2 Pedro 3:7:** «Pero los cielos que son ahora, y la tierra, son reservados por **la misma palabra**, guardados para el fuego en el día del juicio y de la perdición de los hombres impíos.»
 
-> **Apocalipsis 19:13:** «Y estaba vestido de una ropa teñida en sangre; y su nombre es llamado EL VERBO DE DIOS.»
+> **Apocalipsis 19:13:** «Y estaba vestido de una ropa teñida en sangre; y su nombre es llamado **EL VERBO DE DIOS**.»
 
 # 17. El Padre es YHWH
 
-> **Isaías 63:16:** «Pero tú eres nuestro Padre, si bien Abraham nos ignora, e Israel no nos conoce; tú, oh Jehová, eres nuestro Padre; nuestro Redentor, tu nombre es desde la eternidad.»
+> **Isaías 63:16:** «Pero **tú eres nuestro Padre**, si bien Abraham nos ignora, e Israel no nos conoce; tú, **oh Jehová, eres nuestro Padre**; nuestro Redentor, tu nombre es desde la eternidad.»
 
-> **Isaías 64:8:** «Pero ahora, oh Jehová, tú eres nuestro Padre; nosotros somos el barro, y tú nuestro alfarero; obra de tus manos somos todos nosotros.»
+> **Isaías 64:8:** «Pero ahora, **oh Jehová, tú eres nuestro Padre**; nosotros somos el barro, y tú nuestro alfarero; obra de tus manos somos todos nosotros.»
 
-> **Deuteronomio 32:6:** «¿Así pagas a Jehová, oh pueblo loco e ignorante? ¿No es Él tu Padre que te poseyó? Él te hizo y te estableció.»
+> **Deuteronomio 32:6:** «¿Así pagas a **Jehová**, oh pueblo loco e ignorante? ¿**No es Él tu Padre** que te poseyó? Él te hizo y te estableció.»
 
 # 18. El Espíritu Santo es YHWH
 
 Hebreos dice «como dice el Espíritu Santo» y cita palabras que habló YHWH; mentir al Espíritu Santo es mentir a Dios.
 
-> **Hebreos 3:7-11:** «Por lo cual, como dice el Espíritu Santo: Si oyereis hoy su voz, no endurezcáis vuestros corazones, como en la provocación, en el día de la tentación en el desierto, donde me tentaron vuestros padres; me probaron, y vieron mis obras cuarenta años. A causa de lo cual me disgusté con aquella generación, y dije: Siempre divagan ellos de corazón, y no han conocido mis caminos. Así que, juré yo en mi ira: No entrarán en mi reposo.»
+> **Hebreos 3:7-11:** «Por lo cual, **como dice el Espíritu Santo**: Si oyereis hoy su voz, no endurezcáis vuestros corazones, como en la provocación, en el día de la tentación en el desierto, donde me tentaron vuestros padres; me probaron, y vieron mis obras cuarenta años. A causa de lo cual me disgusté con aquella generación, y dije: Siempre divagan ellos de corazón, y no han conocido mis caminos. Así que, juré yo en mi ira: No entrarán en mi reposo.»
 
-> **Salmos 95:7-11:** «Porque Él es nuestro Dios; Nosotros el pueblo de su prado y ovejas de su mano. Si oyereis hoy su voz, no endurezcáis vuestro corazón como en la provocación, como el día de la tentación en el desierto; Donde me tentaron vuestros padres, me probaron, y vieron mis obras. Cuarenta años estuve disgustado con esta generación, y dije: Pueblo es que divaga de corazón, y no han conocido mis caminos. Por tanto, juré en mi ira que no entrarían en mi reposo.»
+> **Salmos 95:7-11:** «Porque Él es **nuestro Dios**; Nosotros el pueblo de su prado y ovejas de su mano. Si oyereis hoy su voz, no endurezcáis vuestro corazón como en la provocación, como el día de la tentación en el desierto; Donde me tentaron vuestros padres, me probaron, y vieron mis obras. Cuarenta años estuve disgustado con esta generación, y dije: Pueblo es que divaga de corazón, y no han conocido mis caminos. Por tanto, juré en mi ira que no entrarían en mi reposo.»
 
-> **Hebreos 10:15-17:** «Y el Espíritu Santo también nos da testimonio; porque después que había dicho: Este es el pacto que haré con ellos: Después de aquellos días, dice el Señor: Daré mis leyes en sus corazones, y en sus mentes las escribiré; y nunca más me acordaré de sus pecados e iniquidades.»
+> **Hebreos 10:15-17:** «Y **el Espíritu Santo** también nos da testimonio; porque después que había dicho: Este es el pacto que haré con ellos: Después de aquellos días, **dice el Señor** (_en referencia a el 'SEÑOR,' que representa las letras de 'YHWH'_): Daré mis leyes en sus corazones, y en sus mentes las escribiré; y nunca más me acordaré de sus pecados e iniquidades.»
 
-> **Jeremías 31:33:** «Mas este es el pacto que haré con la casa de Israel después de aquellos días, dice Jehová: Daré mi ley en sus entrañas, y la escribiré en sus corazones; y yo seré su Dios, y ellos serán mi pueblo.»
+> **Jeremías 31:33:** «Mas este es el pacto que haré con la casa de Israel después de aquellos días, **dice Jehová**: Daré mi ley en sus entrañas, y la escribiré en sus corazones; y yo seré su Dios, y ellos serán mi pueblo.»
 
-> **Hechos 5:3-4:** «Y dijo Pedro: Ananías, ¿por qué ha llenado Satanás tu corazón para que mintieses al Espíritu Santo, y defraudases del precio de la heredad? Reteniéndola, ¿no se te quedaba a ti? y vendida, ¿no estaba en tu poder? ¿Por qué pusiste esto en tu corazón? No has mentido a los hombres, sino a Dios.»
+> **Hechos 5:3-4:** «Y dijo Pedro: Ananías, ¿por qué ha llenado Satanás tu corazón para que mintieses **al Espíritu Santo**, y defraudases del precio de la heredad? Reteniéndola, ¿no se te quedaba a ti? y vendida, ¿no estaba en tu poder? ¿Por qué pusiste esto en tu corazón? **No has mentido a los hombres, sino a Dios**.»
 
-> **2 Samuel 23:2-3:** «El Espíritu de Jehová ha hablado por mí, y su palabra ha sido en mi lengua. El Dios de Israel ha dicho, me habló la Roca de Israel: El que gobierna a los hombres será justo, gobernando en el temor de Dios.»
+> **2 Samuel 23:2-3:** «**El Espíritu de Jehová** ha hablado por mí, y su palabra ha sido en mi lengua. El Dios de Israel ha dicho, me habló la Roca de Israel: El que gobierna a los hombres será justo, gobernando en el temor de Dios.»
 
 # 19. La oración es adoración
 
 El servicio de culto (_latreia_) es solo para Dios (Mateo 4:10). Ana estaba «sirviendo (_latreuousa_) a Dios de noche y de día con ayunos y **oraciones**»; la oración sube como incienso, el incienso que se ofrece solo a Dios.
 
-> **Mateo 4:10:** «Entonces Jesús le dijo: Vete, Satanás, porque escrito está: Al Señor tu Dios adorarás, y a Él sólo servirás.»
+> **Mateo 4:10:** «Entonces Jesús le dijo: Vete, Satanás, porque escrito está: Al Señor tu Dios adorarás, y a Él sólo **servirás** (_latreuō_).»
 
-> **Lucas 2:37:** «y era viuda como de ochenta y cuatro años, que no se apartaba del templo, sirviendo a Dios de noche y de día con ayunos y oraciones.»
+> **Lucas 2:37:** «y era viuda como de ochenta y cuatro años, que no se apartaba del templo, **sirviendo** (_latreuō_) a Dios de noche y de día con ayunos y oraciones.»
 
-> **Salmos 141:2:** «Suba mi oración delante de ti como el incienso, y el levantar mis manos como la ofrenda de la tarde.»
+> **Salmos 141:2:** «Suba **mi oración** delante de ti **como el incienso**, y el levantar mis manos como la ofrenda de la tarde.»
 
-> **Apocalipsis 5:8:** «Y cuando hubo tomado el libro, los cuatro seres vivientes y los veinticuatro ancianos se postraron delante del Cordero, teniendo cada uno arpas, y tazones de oro llenos de perfumes, que son las oraciones de los santos.»
+> **Apocalipsis 5:8:** «Y cuando hubo tomado el libro, los cuatro seres vivientes y los veinticuatro ancianos se postraron delante del Cordero, teniendo cada uno arpas, y **tazones de oro llenos de perfumes**, que son **las oraciones de los santos**.»
 
-> **Apocalipsis 8:3-4:** «Y otro ángel vino y se puso en pie delante del altar, teniendo un incensario de oro; y le fue dado mucho incienso para que lo ofreciese con las oraciones de todos los santos sobre el altar de oro que estaba delante del trono. Y el humo del incienso subió de la mano del ángel delante de Dios con las oraciones de los santos.»
+> **Apocalipsis 8:3-4:** «Y otro ángel vino y se puso en pie delante del altar, teniendo un incensario de oro; y le fue dado mucho incienso para que lo ofreciese con **las oraciones de todos los santos** sobre el altar de oro que estaba delante del trono. Y el humo del incienso subió de la mano del ángel delante de Dios con **las oraciones de los santos**.»
 
-> **Mateo 6:9:** «Vosotros, pues, oraréis así: Padre nuestro que estás en el cielo, santificado sea tu nombre.»
+> **Mateo 6:9:** «Vosotros, pues, **oraréis así: Padre nuestro** que estás en el cielo, santificado sea tu nombre.»
 
 # 20. La oración solo a Dios
 
 La Escritura nos enseña a orar a Dios, en el nombre de Jesús; nunca a santos ni a ángeles.
 
-> **Salmos 65:2:** «Tú oyes la oración; a ti vendrá toda carne.»
+> **Salmos 65:2:** «**Tú oyes la oración**; a ti vendrá toda carne.»
 
-> **Salmos 50:15:** «Invócame en el día de la angustia; y te libraré, y tú me honrarás.»
+> **Salmos 50:15:** «**Invócame en el día de la angustia**; y te libraré, y tú me honrarás.»
 
-> **Jeremías 29:12:** «Entonces me invocaréis, y vendréis y oraréis a mí, y yo os oiré;»
+> **Jeremías 29:12:** «Entonces me invocaréis, y vendréis y **oraréis a mí**, y yo os oiré;»
 
-> **Jeremías 33:3:** «Clama a mí, y yo te responderé, y te enseñaré cosas grandes y difíciles que tú no conoces.»
+> **Jeremías 33:3:** «**Clama a mí**, y yo te responderé, y te enseñaré cosas grandes y difíciles que tú no conoces.»
 
-> **Isaías 55:6:** «Buscad a Jehová mientras puede ser hallado, llamadle en tanto que está cercano.»
+> **Isaías 55:6:** «**Buscad a Jehová mientras puede ser hallado**, llamadle en tanto que está cercano.»
 
-> **Filipenses 4:6:** «Por nada estéis afanosos, sino sean conocidas vuestras peticiones delante de Dios en toda oración y súplica, con acción de gracias.»
+> **Filipenses 4:6:** «Por nada estéis afanosos, sino **sean conocidas vuestras peticiones delante de Dios en toda oración y súplica**, con acción de gracias.»
 
-> **Mateo 6:6:** «Mas tú, cuando ores, entra en tu alcoba, y cerrada tu puerta ora a tu Padre que está en secreto; y tu Padre que ve en lo secreto, te recompensará en público.»
+> **Mateo 6:6:** «Mas tú, **cuando ores**, entra en tu alcoba, y cerrada tu puerta **ora a tu Padre** que está en secreto; y tu Padre que ve en lo secreto, te recompensará en público.»
 
-> **Mateo 6:9:** «Vosotros, pues, oraréis así: Padre nuestro que estás en el cielo, santificado sea tu nombre.»
+> **Mateo 6:9:** «Vosotros, pues, **oraréis así: Padre nuestro** que estás en el cielo, santificado sea tu nombre.»
 
-> **Juan 16:23-24:** «En aquel día no me preguntaréis nada. De cierto, de cierto os digo, que todo cuanto pidiereis al Padre en mi nombre, os lo dará. Hasta ahora nada habéis pedido en mi nombre; pedid, y recibiréis, para que vuestro gozo sea cumplido.»
+> **Juan 16:23-24:** «En aquel día no me preguntaréis nada. De cierto, de cierto os digo, que **todo cuanto pidiereis al Padre en mi nombre**, os lo dará. Hasta ahora nada habéis pedido en mi nombre; pedid, y recibiréis, para que vuestro gozo sea cumplido.»
 
-> **Juan 15:16:** «No me elegisteis vosotros a mí; sino que yo os elegí a vosotros; y os he puesto para que vayáis y llevéis fruto, y vuestro fruto permanezca; para que todo lo que pidiereis al Padre en mi nombre; Él os lo dé.»
+> **Juan 15:16:** «No me elegisteis vosotros a mí; sino que yo os elegí a vosotros; y os he puesto para que vayáis y llevéis fruto, y vuestro fruto permanezca; para que **todo lo que pidiereis al Padre en mi nombre**; Él os lo dé.»
 
-> **Juan 14:13-14:** «Y todo lo que pidiereis en mi nombre, esto haré; para que el Padre sea glorificado en el Hijo. Si algo pidiereis en mi nombre, yo lo haré.»
+> **Juan 14:13-14:** «Y **todo lo que pidiereis en mi nombre**, esto haré; para que el Padre sea glorificado en el Hijo. **Si algo pidiereis en mi nombre**, yo lo haré.»
 
-> **1 Timoteo 2:5:** «Porque hay un solo Dios, y un solo mediador entre Dios y los hombres, Jesucristo hombre;»
+> **1 Timoteo 2:5:** «Porque hay un solo Dios, y **un solo mediador** entre Dios y los hombres, Jesucristo hombre;»
 
 # 21. Juzgar
 
-«No juzguéis» (Mateo 7:1) no prohíbe el discernimiento. En el mismo pasaje Jesús nos dice que saquemos la viga para mirar «claramente» y ayudar a nuestro hermano, y que no demos lo santo a los perros, lo cual requiere juzgar quién es quién. El griego tiene dos palabras relacionadas: **_krinō_**, «juzgar, decidir», a menudo de dictar sentencia; y **_diakrinō_**, «discernir, distinguir» (1 Corintios 14:29; el sustantivo _diakrisis_ en Hebreos 5:14: «el **discernimiento** del bien y el mal»). Lo que Jesús prohíbe es la condenación hipócrita; lo que manda es «justo juicio». No se puede discernir sin juzgar.
+«No juzguéis» (Mateo 7:1) no prohíbe el discernimiento. En el mismo pasaje Jesús nos dice que saquemos la viga para mirar «claramente» y ayudar a nuestro hermano, y que no demos lo santo a los perros, lo cual requiere juzgar quién es quién. El griego tiene dos palabras relacionadas: **_krinō_**, «juzgar, decidir», a menudo de dictar sentencia; y **_dia-krinō_**, «discernir, distinguir» (1 Corintios 14:29; el sustantivo _diakrisis_ en Hebreos 5:14: «el **discernimiento** del bien y el mal»). Lo que Jesús prohíbe es la condenación hipócrita; lo que manda es «justo juicio». No se puede discernir sin juzgar.
 
-> **Mateo 7:1-6:** «No juzguéis, para que no seáis juzgados. Porque con el juicio con que juzgáis, seréis juzgados, y con la medida con que medís, os volverán a medir. ¿Y por qué miras la paja que está en el ojo de tu hermano, pero no consideras la viga que está en tu propio ojo? ¿O cómo dirás a tu hermano: Déjame sacar la paja de tu ojo, y he aquí, hay una viga en tu propio ojo? ¡Hipócrita! saca primero la viga de tu propio ojo, entonces mirarás claramente para sacar la paja del ojo de tu hermano. No deis lo santo a los perros; ni echéis vuestras perlas delante de los puercos, no sea que las pisoteen, y se vuelvan y os despedacen.»
+> **Mateo 7:1-6:** «**No juzguéis**, para que no seáis juzgados. Porque con el juicio con que juzgáis, seréis juzgados, y con la medida con que medís, os volverán a medir. ¿Y por qué miras la paja que está en el ojo de tu hermano, pero no consideras la viga que está en tu propio ojo? ¿O cómo dirás a tu hermano: Déjame sacar la paja de tu ojo, y he aquí, hay una viga en tu propio ojo? **¡Hipócrita! saca primero la viga de tu propio ojo, entonces mirarás claramente para sacar la paja del ojo de tu hermano. No deis lo santo a los perros; ni echéis vuestras perlas delante de los puercos**, no sea que las pisoteen, y se vuelvan y os despedacen.»
 
-> **Juan 7:24:** «No juzguéis según la apariencia, mas juzgad justo juicio.»
+> **Juan 7:24:** «No juzguéis según la apariencia, mas **juzgad justo juicio**.»
 
-> **Hebreos 5:14:** «mas el alimento sólido es para los que han alcanzado madurez, para los que por el uso tienen los sentidos ejercitados en el discernimiento del bien y el mal.»
+> **Hebreos 5:14:** «mas el alimento sólido es para los que han alcanzado madurez, para los que por el uso tienen los sentidos **ejercitados en el discernimiento del bien y el mal**.»
 
-> **1 Corintios 14:29:** «Asimismo, los profetas hablen dos o tres, y los demás juzguen.»
+> **1 Corintios 14:29:** «Asimismo, los profetas hablen dos o tres, y **los demás juzguen**.»
 
-> **1 Corintios 2:15:** «Pero el que es espiritual juzga todas las cosas; mas él no es juzgado por nadie.»
+> **1 Corintios 2:15:** «Pero **el que es espiritual juzga todas las cosas**; mas él no es juzgado por nadie.»
 
-> **1 Corintios 5:12:** «Porque ¿qué me va a mí en juzgar a los que están fuera? ¿No juzgáis vosotros a los que están dentro?»
+> **1 Corintios 5:12:** «Porque ¿qué me va a mí en juzgar a los que están fuera? **¿No juzgáis vosotros a los que están dentro?**»
 
 Los apóstoles corregían, amonestaban y reprendían, en público cuando era necesario:
 
-> **Mateo 18:15-16:** «Por tanto, si tu hermano peca contra ti, ve y repréndele estando tú y él solos; si te escucha, has ganado a tu hermano. Pero si no te escucha, entonces toma contigo uno o dos más, para que en boca de dos o tres testigos conste toda palabra.»
+> **Mateo 18:15-16:** «Por tanto, **si tu hermano peca contra ti**, ve y **repréndele** estando tú y él solos; si te escucha, has ganado a tu hermano. Pero si no te escucha, entonces toma contigo uno o dos más, para que en boca de dos o tres testigos conste toda palabra.»
 
-> **Hechos 20:31:** «Por tanto, velad, acordándoos que por tres años, de noche y de día, no he cesado de amonestar con lágrimas a cada uno.»
+> **Hechos 20:31:** «Por tanto, velad, acordándoos que por tres años, de noche y de día, **no he cesado de amonestar** con lágrimas a cada uno.»
 
-> **1 Corintios 4:14:** «No escribo esto para avergonzaros, sino que os amonesto como a hijos míos amados.»
+> **1 Corintios 4:14:** «No escribo esto para avergonzaros, sino que **os amonesto** como a hijos míos amados.»
 
-> **Colosenses 1:28:** «A quien nosotros predicamos, amonestando a todo hombre, y enseñando a todo hombre en toda sabiduría, a fin de presentar perfecto en Cristo Jesús a todo hombre.»
+> **Colosenses 1:28:** «A quien nosotros predicamos, **amonestando a todo hombre**, y enseñando a todo hombre en toda sabiduría, a fin de presentar perfecto en Cristo Jesús a todo hombre.»
 
-> **Tito 1:13:** «Este testimonio es verdadero; por tanto, repréndelos duramente, para que sean sanos en la fe,»
+> **Tito 1:13:** «Este testimonio es verdadero; por tanto, **repréndelos duramente**, para que sean sanos en la fe,»
 
-> **Tito 2:15:** «Estas cosas habla y exhorta, y reprende con toda autoridad. Nadie te menosprecie.»
+> **Tito 2:15:** «Estas cosas habla y exhorta, y **reprende con toda autoridad**. Nadie te menosprecie.»
 
-> **Tito 3:10:** «Al hombre hereje, después de una y otra amonestación, deséchalo,»
+> **Tito 3:10:** «Al hombre hereje, después de una y otra **amonestación**, deséchalo,»
