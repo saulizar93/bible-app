@@ -694,3 +694,10 @@
 - src/components/InfoPanel/InfoPanel.jsx: page fetch uses `{ cache: "no-cache" }` (revalidates with the server; a 304 when unchanged).
 - public/sw.js: `data/pages/` (.md and images) now network-first, saved copy only when offline; SHELL_VERSION 1 → 2 so installed copies drop the old cache.
 - src/js/data.js `clearAllAppData()`: also unregisters the service worker (it is registered again on the next load), in addition to clearing IndexedDB, Cache Storage and local/session storage.
+
+## 2026-10-21 — RVO Mateo 2:1 reworded; Strong's fixes in RVO and RVG
+
+- scripts/rvo/ediciones-manuales.json: "Mateo 2:1" now reads «Cuando nació Jesús en Belén de Judea, en los días del rey Herodes, he aquí unos magos llegaron del oriente a Jerusalén,». transform.py rerun (no warnings); only Mt 2:1 changed in public/data/bibles/rvo-strong/40.json.
+- Tags (RVO via `|G####` marks, RVG edited directly in public/data/bibles/rvg-strong/40.json, text unchanged): «Cuando» G1161 δέ (as KJV "Now when"; in RVG «Y cuando» is one G1161 token — previously «cuando» showed G1080), «nació» G1080; «he aquí» G2004 (epitassō) -> G2400 (idou); «Jerusalén,» G2419 -> G2414 Hierosolyma (TR reads Ἱεροσόλυμα), parsing/Greek from the KJV token.
+- Concordance rebuilt (concord/rvo-strong). DATA_VERSION 19 -> 20, LEXICON_VERSION 11 -> 12. npm run build not run (Windows node_modules can't build from the Linux shell; data-only change).
+- Not changed: rv1909-strong, straubinger-strong and scripts/rvo/backup-original still carry G2004 / G2419 on this verse.

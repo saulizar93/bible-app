@@ -30,7 +30,7 @@
       "Pero no la conoció hasta que dio a luz a su hijo primogénito; y llamó su nombre Jesús."
     ],
     "2": [
-      "Y como fue nacido Jesús en Belén de Judea en días del rey Herodes, he aquí unos magos vinieron del oriente a Jerusalén,",
+      "Cuando nació Jesús en Belén de Judea, en los días del rey Herodes, he aquí unos magos llegaron del oriente a Jerusalén,",
       "Diciendo: ¿Dónde está el Rey de los Judíos, que ha nacido? porque su estrella hemos visto en el oriente, y venimos a adorarle.",
       "Y oyendo esto el rey Herodes, se turbó, y toda Jerusalén con él.",
       "Y convocados todos los príncipes de los sacerdotes, y los escribas del pueblo, les preguntó dónde había de nacer el Cristo.",
@@ -3393,13 +3393,13 @@
     "2": [
       [
         {
-          "t": "Y",
+          "t": "Cuando",
           "s": "G1161",
           "m": "CONJ",
           "g": "δε"
         },
         {
-          "t": "como fue nacido",
+          "t": "nació",
           "s": "G1080",
           "m": "V-APP-GSM",
           "g": "γεννηθεντος"
@@ -3423,7 +3423,7 @@
           "g": "βηθλεεμ"
         },
         {
-          "t": "de Judea",
+          "t": "de Judea,",
           "s": "G2449",
           "m": "N-GSF",
           "g": "ιουδαιας"
@@ -3435,7 +3435,7 @@
           "g": "εν"
         },
         {
-          "t": "días",
+          "t": "los días",
           "s": "G2250",
           "m": "N-DPF",
           "g": "ημεραις"
@@ -3458,7 +3458,7 @@
         },
         {
           "t": "he aquí",
-          "s": "G2004"
+          "s": "G2400"
         },
         {
           "t": "unos magos",
@@ -3467,7 +3467,7 @@
           "g": "μαγοι"
         },
         {
-          "t": "vinieron",
+          "t": "llegaron",
           "s": "G3854",
           "m": "V-2ADI-3P",
           "g": "παρεγενοντο"
@@ -3492,7 +3492,9 @@
         },
         {
           "t": "Jerusalén,",
-          "s": "G2419"
+          "s": "G2414",
+          "m": "N-APN",
+          "g": "ιεροσολυμα"
         }
       ],
       [
