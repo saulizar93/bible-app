@@ -701,3 +701,9 @@
 - Tags (RVO via `|G####` marks, RVG edited directly in public/data/bibles/rvg-strong/40.json, text unchanged): «Cuando» G1161 δέ (as KJV "Now when"; in RVG «Y cuando» is one G1161 token — previously «cuando» showed G1080), «nació» G1080; «he aquí» G2004 (epitassō) -> G2400 (idou); «Jerusalén,» G2419 -> G2414 Hierosolyma (TR reads Ἱεροσόλυμα), parsing/Greek from the KJV token.
 - Concordance rebuilt (concord/rvo-strong). DATA_VERSION 19 -> 20, LEXICON_VERSION 11 -> 12. npm run build not run (Windows node_modules can't build from the Linux shell; data-only change).
 - Not changed: rv1909-strong, straubinger-strong and scripts/rvo/backup-original still carry G2004 / G2419 on this verse.
+
+## 2026-10-21 — Mt 2:2 «adorarle» tagged G4352 in RVG, RV1909, Straubinger
+
+- The last token «a adorarle.» / «á adorarle.» / «a adorarlo”.» carried only G846 (autō), so «adorar» had no G4352 (proskyneō). Split into «a» (G846, unchanged) + «adorarle.»/«adorarlo”.» (G4352, V-AAN, προσκυνησαι), matching the author's RVO edit. Edited directly in rvg-strong, rv1909-strong and straubinger-strong 40.json; verse text unchanged, only Mt 2:2 tokens differ. scripts/rvo/backup-original not touched (RVO already handled by ediciones-manuales.json).
+- Concordances rebuilt: concord/rv1909-strong (also used by RVG) and concord/straubinger-strong. DATA_VERSION 20 -> 21, LEXICON_VERSION 12 -> 13.
+- Note: a rebuild with scripts/rvg-strong/transfer.mjs would undo these direct edits.
