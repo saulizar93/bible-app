@@ -743,3 +743,9 @@
 ## 2026-10-22 — Lexicon: G1520 εἷς rewritten (English + Spanish)
 
 - public/data/strongs/greek/1501.json: new def-en/def-es and outline/outline-es explaining the three genders — masculine εἷς (God: Mk 12:29, 32; 1Co 8:6; 1Ti 2:5; Gal 3:20 with the AMPC "God is [only] one Person"; one man: Jn 11:50, Rom 5; Gal 3:28 masculine tied to the "one new man" of Eph 2:15, distinct from neuter "one body"), feminine μία (one flesh Mt 19:5-6, one faith, one fold, Mt 24:41, "first day"), neuter ἕν (unity of persons Jn 10:30; 17:21-23; 1Co 3:8; 1Jn 5:7 TR; Eph 2:14; ἓν σῶμα/πνεῦμα), with the main readings of Jn 10:30 (purpose, essence, Oneness). Marked "manual": true. LEXICON_VERSION 20 -> 21.
+
+## 2026-10-23 — Mt 3:10 «da / hace / produce» tagged G4160 in RVG, RV1909, Straubinger
+
+- The verb sat in one token with «buen» (G2570). Split into «da»/«hace»/«produce» (G4160, V-PAP-NSN, ποιουν) + «buen» (G2570, unchanged), matching the author's RVO edit. Direct edits in the three 40.json files; verse text unchanged, only Mt 3:10 tokens differ.
+- Concordances rebuilt: concord/rv1909-strong (also used by RVG) and concord/straubinger-strong. DATA_VERSION 25 -> 26, LEXICON_VERSION 21 -> 22.
+- Follow-up (same verse): the "therefore" word («por tanto,» in RVO/RVG, «y» in RV1909/Straubinger) was G1161 δέ; now G3767 οὖν (TR: πᾶν οὖν δένδρον). The opening δέ (ἤδη δὲ καί) now on «Ahora,» (RVO, RV1909) and «Y» (RVG); Straubinger has no word for it. RVO via ediciones-manuales.json ("Ahora,": "Ahora,|G1161"; "por tanto,|G3767"), transform.py rerun; others edited directly. Concordances rebuilt (rv1909-strong, straubinger-strong, rvo-strong). DATA_VERSION 26 -> 27, LEXICON_VERSION 22 -> 23.

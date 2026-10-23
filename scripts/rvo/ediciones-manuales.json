@@ -210,8 +210,9 @@
     "despertar": "levantar"
   },
   "Mateo 3:10": {
+    "Ahora,": "Ahora,|G1161",
     "la segur": "el|G3588 hacha|G513",
-    "y todo": "por tanto,|G1161 todo|G3956",
+    "y todo": "por tanto,|G3767 todo|G3956",
     "hace": "da|G4160"
   }
 }
