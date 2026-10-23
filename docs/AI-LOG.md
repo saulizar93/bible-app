@@ -719,3 +719,9 @@
 - Matthew results (words newly tagged / still untagged): RVG 191 / 901, RV1909 26 / 297, Straubinger 517 / 2351, RVO (via scripts/rvo/backup-original, then transform.py) 26 / 298. Verified against HEAD: verse text identical, no existing tag changed. Lists for review: scripts/fill-untagged/40-<bible>-fixed.tsv and -remaining.tsv.
 - backup-original keeps its Prettier layout (the script writes it the same way). Concordances rebuilt: rv1909-strong (also RVG), straubinger-strong, rvo-strong. DATA_VERSION 22 -> 23, LEXICON_VERSION 14 -> 15.
 - A rebuild with scripts/rvg-strong/transfer.mjs would undo these; rerun fill-untagged.py afterwards.
+
+## 2026-10-22 — Mt 2:22 «avisado»/«advertido» tagged G5537 in RVG and Straubinger
+
+- RVG «avisado» and Straubinger «advertido» were untagged; now G5537 (chrēmatizō, V-APP-NSM, χρηματισθεις) as in the KJV and RVO. Direct edits in the two 40.json files; verse text unchanged, only Mt 2:22 tokens differ. RV1909 not touched (not requested).
+- Concordances rebuilt: concord/rv1909-strong (also used by RVG) and concord/straubinger-strong. DATA_VERSION 23 -> 24, LEXICON_VERSION 15 -> 16.
+- Follow-up (same verse): RVG «siendo avisado» merged into one G5537 token, RVG «Y» and Straubinger «y,» tagged G1161 (second δε); Straubinger «de» before «su padre Herodes» had a stray G2264 — now untagged. Concord/straubinger-strong rebuilt. DATA_VERSION 24 -> 25, LEXICON_VERSION 16 -> 17.
