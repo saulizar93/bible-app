@@ -731,3 +731,15 @@
 - public/data/strongs/greek/4001.json: new def-en/def-es for both, plus an outline/outline-es (shown under "Meanings (outline)"). Πέτρος: a smaller, detached rock that can be lifted and thrown, with 2 Macc 1:16 and 4:41 (LXX, πέτρους thrown as missiles), the contrast with πέτρα, and the name Peter / Cephas (Jn 1:42, Mt 16:18). πέτρα: bedrock, a fixed mass of rock — tombs hewn in the rock (Mt 27:60; Mk 15:46), the builder's foundation (Mt 7:24-25; Lk 6:48; Mt 16:18), and Christ (1Co 10:4; Rom 9:33; 1Pe 2:8).
 - Both entries carry "manual": true. scripts/lexicon-write.mjs now keeps def-en, outline and outline-es of such entries on a lexicon rebuild (before, only def-es survived).
 - LEXICON_VERSION 17 -> 18.
+
+## 2026-10-22 — Lexicon: G3056 λόγος rewritten (English + Spanish)
+
+- public/data/strongs/greek/3001.json: new def-en/def-es and outline/outline-es: NT senses (word/message, account, reason), the Logos in Greek philosophy (Heraclitus, Stoics: impersonal divine reason and plan of the cosmos), Jewish background (Ps 33:6; Philo's Logos as mediator and "second god", QG 2.62, with the scholarly debate noted), Justin Martyr's "another God" (Dial. 56, 61, 128; 1 Apol. 63), and John 1:1, 14 with the two main readings. Marked "manual": true so a lexicon rebuild keeps it. LEXICON_VERSION 18 -> 19.
+
+## 2026-10-22 — Lexicon: G4314 πρός rewritten (English + Spanish)
+
+- public/data/strongs/greek/4001.json: new def-en/def-es and a 10-part outline/outline-es (place: motion toward and proximity, with acc. and dat.; time; relation — "pertaining to" as the KJV renders τὰ πρὸς τὸν θεόν in Heb 2:17; 5:1, also Rom 15:17, Heb 1:7; 4:13; according to; comparison; purpose; against; genitive Ac 27:34; compounds), each with NT examples. Jn 1:1 noted under proximity with both readings. Marked "manual": true. LEXICON_VERSION 19 -> 20.
+
+## 2026-10-22 — Lexicon: G1520 εἷς rewritten (English + Spanish)
+
+- public/data/strongs/greek/1501.json: new def-en/def-es and outline/outline-es explaining the three genders — masculine εἷς (God: Mk 12:29, 32; 1Co 8:6; 1Ti 2:5; Gal 3:20 with the AMPC "God is [only] one Person"; one man: Jn 11:50, Rom 5; Gal 3:28 masculine tied to the "one new man" of Eph 2:15, distinct from neuter "one body"), feminine μία (one flesh Mt 19:5-6, one faith, one fold, Mt 24:41, "first day"), neuter ἕν (unity of persons Jn 10:30; 17:21-23; 1Co 3:8; 1Jn 5:7 TR; Eph 2:14; ἓν σῶμα/πνεῦμα), with the main readings of Jn 10:30 (purpose, essence, Oneness). Marked "manual": true. LEXICON_VERSION 20 -> 21.
