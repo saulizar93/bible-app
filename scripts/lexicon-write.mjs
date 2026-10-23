@@ -8,7 +8,8 @@
  * Spanish definitions are entered BY HAND in public/data/strongs/<lang>/*.json,
  * so this writer never overwrites them: before writing a shard it reads the
  * existing file and keeps any "def-es" that isn't the placeholder. Re-running
- * build-strongs-lexicon.mjs / build-strongs-hebrew.mjs is therefore safe.
+ * build-strongs-lexicon.mjs / build-strongs-hebrew.mjs is therefore safe. Entries with
+ * "manual": true also keep their hand-written def-en, outline and outline-es.
  *
  * Shards are written indented (one field per line) so they are easy to edit
  * in VS Code; GitHub Pages gzips them, so the extra whitespace costs little.
@@ -57,7 +58,13 @@ export function writeLexiconShards(outDir, shards) {
       const hasTranslation = typeof es === "string" && es.trim() && es !== DEF_ES_PLACEHOLDER;
       if (hasTranslation) kept++;
       else placeholders++;
-      out[code] = ordered({ ...entry, "def-es": hasTranslation ? es : DEF_ES_PLACEHOLDER });
+      // Entries marked "manual": true were rewritten by hand (e.g. G4073, G4074):
+      // keep their English definition and outlines too, not just def-es.
+      const prev = previous[code];
+      const manual = prev?.manual
+        ? Object.fromEntries(["def-en", "outline", "outline-es", "manual"].filter((k) => prev[k] !== undefined).map((k) => [k, prev[k]]))
+        : {};
+      out[code] = ordered({ ...entry, "def-es": hasTranslation ? es : DEF_ES_PLACEHOLDER, ...manual });
     }
     fs.writeFileSync(file, JSON.stringify(out, null, 2) + "\n");
   }

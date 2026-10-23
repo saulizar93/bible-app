@@ -725,3 +725,9 @@
 - RVG «avisado» and Straubinger «advertido» were untagged; now G5537 (chrēmatizō, V-APP-NSM, χρηματισθεις) as in the KJV and RVO. Direct edits in the two 40.json files; verse text unchanged, only Mt 2:22 tokens differ. RV1909 not touched (not requested).
 - Concordances rebuilt: concord/rv1909-strong (also used by RVG) and concord/straubinger-strong. DATA_VERSION 23 -> 24, LEXICON_VERSION 15 -> 16.
 - Follow-up (same verse): RVG «siendo avisado» merged into one G5537 token, RVG «Y» and Straubinger «y,» tagged G1161 (second δε); Straubinger «de» before «su padre Herodes» had a stray G2264 — now untagged. Concord/straubinger-strong rebuilt. DATA_VERSION 24 -> 25, LEXICON_VERSION 16 -> 17.
+
+## 2026-10-22 — Lexicon: G4073 πέτρα and G4074 Πέτρος rewritten (English + Spanish)
+
+- public/data/strongs/greek/4001.json: new def-en/def-es for both, plus an outline/outline-es (shown under "Meanings (outline)"). Πέτρος: a smaller, detached rock that can be lifted and thrown, with 2 Macc 1:16 and 4:41 (LXX, πέτρους thrown as missiles), the contrast with πέτρα, and the name Peter / Cephas (Jn 1:42, Mt 16:18). πέτρα: bedrock, a fixed mass of rock — tombs hewn in the rock (Mt 27:60; Mk 15:46), the builder's foundation (Mt 7:24-25; Lk 6:48; Mt 16:18), and Christ (1Co 10:4; Rom 9:33; 1Pe 2:8).
+- Both entries carry "manual": true. scripts/lexicon-write.mjs now keeps def-en, outline and outline-es of such entries on a lexicon rebuild (before, only def-es survived).
+- LEXICON_VERSION 17 -> 18.
