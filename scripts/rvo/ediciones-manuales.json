@@ -142,5 +142,28 @@
     "de edad de dos años abajo, conforme": "conforme|G2596",
     "entendido": "inquirido"
   },
-  "Mateo 2:17": {}
+  "Mateo 2:17": {
+    "fue cumplido": "se cumplió",
+    "lo que se había dicho": "lo que fue dicho",
+    "que dijo:": "cuando dijo:"
+  },
+  "Mateo 2:19": {
+    " sueños": "un sueño"
+  },
+  "Mateo 2:20": {
+    "Diciendo:": "diciendo:",
+    "y toma": "toma",
+    "que muertos": "porque|G1063 han muerto|G2348",
+    "son los que procuraban": "los que procuraban"
+  },
+  "Mateo 2:21": {
+    "se vino": "vino"
+  },
+  "Mateo 2:22": {
+    "Y oyendo": "Pero,|G1161 al oír|G191",
+    "temió": "tuvo temor de",
+    "allá:": "allá;",
+    "amonestado": "advertido",
+    "las partes": "la|G3588 región|G3313"
+  }
 }

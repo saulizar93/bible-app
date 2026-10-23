@@ -71,7 +71,7 @@ Lo que he aprendido en mis estudios es que **el discernimiento no es la capacida
 
 # Metas futuras
 
-1. Terminar mis notas de estudio para el libro de Marcos y el resto del Nuevo Testamento (quizás incluso el Antiguo Testamento, si Dios me concede vida).
+1. Terminar mis notas de estudio para el libro de Marcos y el resto del Nuevo Testamento (quizás incluso el Antiguo Testamento, si Dios me concede vida; ya sé lo que quiero decir, solo necesito tiempo para escribirlo).
 
 2. Corregir errores de ortografía y errores en general por medio del feedback de usuarios.
 

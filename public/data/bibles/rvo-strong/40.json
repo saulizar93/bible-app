@@ -46,12 +46,12 @@
       "Y despertando él, tomó al niño y a su madre de noche, y se fue a Egipto;",
       "Y estuvo allá hasta la muerte de Herodes: para que se cumpliese lo que fue dicho por el Señor por medio del profeta, cuando dijo: De Egipto llamé a mi Hijo.",
       "Herodes entonces, al verse burlado de los magos, se llenó de ira, y envió matar a todos los niños menores de dos años que había en Belén y en todos sus alrededores, conforme al tiempo que había inquirido de los magos.",
-      "Entonces fue cumplido lo que se había dicho por el profeta Jeremías, que dijo:",
+      "Entonces se cumplió lo que fue dicho por el profeta Jeremías, cuando dijo:",
       "Voz fue oída en Ramá, grande lamentación, lloro y gemido: Raquel que llora sus hijos; y no quiso ser consolada, porque perecieron.",
-      "Pero muerto Herodes, he aquí el ángel del Señor aparece en sueños a José en Egipto,",
-      "Diciendo: Levántate, y toma al niño y a su madre, y vete a tierra de Israel; que muertos son los que procuraban la muerte del niño.",
-      "Entonces él se levantó, y tomó al niño y a su madre, y se vino a tierra de Israel.",
-      "Y oyendo que Arquelao reinaba en Judea en lugar de Herodes su padre, temió ir allá: pero amonestado por revelación en sueños, se fue a las partes de Galilea.",
+      "Pero muerto Herodes, he aquí el ángel del Señor aparece en un sueño a José en Egipto,",
+      "diciendo: Levántate, toma al niño y a su madre, y vete a tierra de Israel; porque han muerto los que procuraban la muerte del niño.",
+      "Entonces él se levantó, y tomó al niño y a su madre, y vino a tierra de Israel.",
+      "Pero, al oír que Arquelao reinaba en Judea en lugar de Herodes su padre, tuvo temor de ir allá; pero advertido por revelación en sueños, se fue a la región de Galilea.",
       "Y vino, y habitó en la ciudad que se llama Nazaret: para que se cumpliese lo que fue dicho por los profetas, que había de ser llamado Nazareno."
     ],
     "3": [
@@ -5182,7 +5182,7 @@
           "g": "τοτε"
         },
         {
-          "t": "fue cumplido",
+          "t": "se cumplió",
           "s": "G4137",
           "m": "V-API-3S",
           "g": "επληρωθη"
@@ -5192,7 +5192,7 @@
           "s": "G3588"
         },
         {
-          "t": "que se había dicho",
+          "t": "que fue dicho",
           "s": "G4483"
         },
         {
@@ -5218,7 +5218,7 @@
           "g": "ιερεμιου"
         },
         {
-          "t": "que dijo:",
+          "t": "cuando dijo:",
           "s": "G3004",
           "m": "V-PAP-GSM",
           "g": "λεγοντος"
@@ -5386,7 +5386,7 @@
           "g": "κατ"
         },
         {
-          "t": "sueños",
+          "t": "un sueño",
           "s": "G3677",
           "m": "N-OI",
           "g": "οναρ"
@@ -5412,7 +5412,7 @@
       ],
       [
         {
-          "t": "Diciendo:",
+          "t": "diciendo:",
           "s": "G3004",
           "m": "V-PAP-NSM",
           "g": "λεγων"
@@ -5422,12 +5422,6 @@
           "s": "G1453",
           "m": "V-APP-NSM",
           "g": "εγερθεις"
-        },
-        {
-          "t": "y",
-          "s": "G2532",
-          "m": "CONJ",
-          "g": "και"
         },
         {
           "t": "toma",
@@ -5496,19 +5490,19 @@
           "g": "ισραηλ"
         },
         {
-          "t": "que",
+          "t": "porque",
           "s": "G1063",
           "m": "CONJ",
           "g": "γαρ"
         },
         {
-          "t": "muertos",
+          "t": "han muerto",
           "s": "G2348",
           "m": "V-RAI-3P",
           "g": "τεθνηκασιν"
         },
         {
-          "t": "son los",
+          "t": "los",
           "s": "G3588",
           "m": "T-NPM",
           "g": "οι"
@@ -5602,7 +5596,7 @@
           "g": "και"
         },
         {
-          "t": "se vino",
+          "t": "vino",
           "s": "G2064",
           "m": "V-2AAI-3S",
           "g": "ηλθεν"
@@ -5628,13 +5622,13 @@
       ],
       [
         {
-          "t": "Y",
+          "t": "Pero,",
           "s": "G1161",
           "m": "CONJ",
           "g": "δε"
         },
         {
-          "t": "oyendo",
+          "t": "al oír",
           "s": "G191",
           "m": "V-AAP-NSM",
           "g": "ακουσας"
@@ -5700,7 +5694,7 @@
           "g": "πατρος"
         },
         {
-          "t": "temió",
+          "t": "tuvo temor de",
           "s": "G5399",
           "m": "V-AOI-3S",
           "g": "εφοβηθη"
@@ -5712,7 +5706,7 @@
           "g": "απελθειν"
         },
         {
-          "t": "allá:",
+          "t": "allá;",
           "s": "G1563",
           "m": "ADV",
           "g": "εκει"
@@ -5724,7 +5718,7 @@
           "g": "δε"
         },
         {
-          "t": "amonestado",
+          "t": "advertido",
           "s": "G5537",
           "m": "V-APP-NSM",
           "g": "χρηματισθεις"
@@ -5754,11 +5748,11 @@
           "g": "εις"
         },
         {
-          "t": "las",
+          "t": "la",
           "s": "G3588"
         },
         {
-          "t": "partes",
+          "t": "región",
           "s": "G3313",
           "m": "N-APN",
           "g": "μερη"

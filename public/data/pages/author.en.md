@@ -71,7 +71,7 @@ What I have learned in my studies is that **discernment is not the ability to te
 
 # Future goals
 
-1. Finish my study notes for Mark and the rest of the New Testament (maybe even the Old Testament if God gives me life).
+1. Finish my study notes for Mark and the rest of the New Testament (maybe even the Old Testament if God gives me life; I already know what I want to say, I just need time to write it down).
 
 2. Clean the app from minor typos and mistakes through public feedback.
 
