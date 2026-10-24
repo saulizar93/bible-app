@@ -526,6 +526,7 @@ edición manual,cristo.,mesías.,,2
 edición manual,diciendo:,diciendo:,,2
 edición manual,sueños,un sueño,,2
 edición manual,que dijo:,cuando dijo:,,2
+edición manual,hijo,el hijo,,2
 edición manual,"de jesucristo,","de jesús|g2424 el mesías,|g5547",,1
 edición manual,isaac:,isaac;,,1
 edición manual,hermanos:,hermanos;,,1
@@ -642,7 +643,42 @@ edición manual,despertar,levantar,,1
 edición manual,"ahora,","ahora,|g1161",,1
 edición manual,la segur,el|g3588 hacha|g513,,1
 edición manual,y todo,"por tanto,|g3767 todo|g3956",,1
-edición manual,hace,da|g4160,,1
+edición manual,hace,dé|g4160,,1
+edición manual,es cortado,será cortado,,1
+edición manual,"tras mí,","detrás|g3694 de mí,|g3450",,1
+edición manual,los zapatos,el calzado,,1
+edición manual,en espíritu,en el|g1722 espíritu|g4151,,1
+edición manual,aventará,limpiará,,1
+edición manual,allegará,recogerá,,1
+edición manual,"alfolí,","granero,",,1
+edición manual,"lo resistía mucho,","le|g846 resistía,|g1254",,1
+edición manual,he menester,necesito,,1
+edición manual,"de ti,","por ti,",,1
+edición manual,que fue,de ser,,1
+edición manual,luego,enseguida,,1
+edición manual,de los cielos,del|g1537 cielo|g3772,,1
+edición manual,el cual,quien,,1
+edición manual,contentamiento.,complacencia.,,1
+edición manual,del,por el,,1
+edición manual,habiendo,después de haber,,1
+edición manual,después tuvo hambre.,tuvo hambre.,,1
+edición manual,llegándose,vino,,1
+edición manual,dijo:,y le dijo:,,1
+edición manual,hagan,conviertan en,,1
+edición manual,con solo el,solo|g3441 de|g3588,,1
+edición manual,pero con,sino|g235 de|g1909,,1
+edición manual,le pasa,le|g846 llevó|g3880,,1
+edición manual,"santa ciudad,",ciudad|g4172 santa|g40,,1
+edición manual,pone,puso,,1
+edición manual,las almenas,el|g3588 pináculo|g4419,,1
+edición manual,y le dice:,y|g2532 le|g846 dijo:|g3004,,1
+edición manual,échate,tírate|g906,,1
+edición manual,que escrito,porque escrito,,1
+edición manual,"por ti,","acerca de ti,",,1
+edición manual,"te alzarán en las manos,","en|g1909 sus manos|g5495 te sostendrán|g142,",,1
+edición manual,nunca tropieces,no|g3379 tropiece|g4350e,,1
+edición manual,con tu pie,tu|g4675 pie|g4228,,1
+edición manual,además:,también:,,1
 empero → pero,empero,pero,,309
 empero → pero,yo empero,pero yo,,12
 empero → pero,esto empero,pero esto,,11
@@ -3857,6 +3893,13 @@ token sin texto,de,,el número Strong se perdió en este versículo,1
 token sin texto,edad de,,el número Strong se perdió en este versículo,1
 token sin texto,y,,el número Strong se perdió en este versículo,1
 token sin texto,"ahora,",,el número Strong se perdió en este versículo,1
+token sin texto,"mucho,",,el número Strong se perdió en este versículo,1
+token sin texto,los,,el número Strong se perdió en este versículo,1
+token sin texto,échate,,el número Strong se perdió en este versículo,1
+token sin texto,te,,el número Strong se perdió en este versículo,1
+token sin texto,alzarán,,el número Strong se perdió en este versículo,1
+token sin texto,tropieces,,el número Strong se perdió en este versículo,1
+token sin texto,con,,el número Strong se perdió en este versículo,1
 vianda → comida,vianda,comida,,16
 vianda → comida,viandas,comidas,,15
 á → a,á,a,,19324

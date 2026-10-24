@@ -64,23 +64,23 @@
       "Y viendo él muchos de los Fariseos y de los Saduceos que venían a su bautismo, les decía: Generación de víboras, ¿quién os ha enseñado a huir de la ira venidera?",
       "Haced, pues, frutos dignos de arrepentimiento,",
       "y no penséis decir dentro de vosotros: A Abraham tenemos por padre: porque yo os digo, que Dios puede levantar hijos a Abraham aun de estas piedras.",
-      "Ahora, ya también el hacha está puesta a la raíz de los árboles; por tanto, todo árbol que no da buen fruto, es cortado y echado en el fuego.",
-      "Yo a la verdad os bautizo en agua para arrepentimiento; pero el que viene tras mí, más poderoso es que yo; los zapatos del cual yo no soy digno de llevar; él os bautizará en Espíritu Santo y en fuego.",
-      "Su aventador en su mano está, y aventará su era: y allegará su trigo en el alfolí, y quemará la paja en fuego que nunca se apagará.",
+      "Ahora, ya también el hacha está puesta a la raíz de los árboles; por tanto, todo árbol que no dé buen fruto, será cortado y echado en el fuego.",
+      "Yo a la verdad os bautizo en agua para arrepentimiento; pero el que viene detrás de mí, más poderoso es que yo; el calzado del cual yo no soy digno de llevar; él os bautizará en el Espíritu Santo y en fuego.",
+      "Su aventador en su mano está, y limpiará su era: y recogerá su trigo en el granero, y quemará la paja en fuego que nunca se apagará.",
       "Entonces Jesús vino de Galilea a Juan al Jordán, para ser bautizado de él.",
-      "Pero Juan lo resistía mucho, diciendo: Yo he menester ser bautizado de ti, ¿y tú vienes a mí?",
+      "Pero Juan le resistía, diciendo: Yo necesito ser bautizado por ti, ¿y tú vienes a mí?",
       "Pero respondiendo Jesús le dijo: Deja ahora; porque así nos conviene cumplir toda justicia. Entonces le dejó.",
-      "Y Jesús, después que fue bautizado, subió luego del agua; y he aquí los cielos le fueron abiertos, y vio al Espíritu de Dios que descendía como paloma, y venía sobre él.",
-      "Y he aquí una voz de los cielos que decía: Este es mi Hijo amado, en el cual tengo contentamiento."
+      "Y Jesús, después de ser bautizado, subió enseguida del agua; y he aquí los cielos le fueron abiertos, y vio al Espíritu de Dios que descendía como paloma, y venía sobre él.",
+      "Y he aquí una voz del cielo que decía: Este es mi Hijo amado, en quien tengo complacencia."
     ],
     "4": [
-      "Entonces Jesús fue llevado del Espíritu al desierto, para ser tentado del diablo.",
-      "Y habiendo ayunado cuarenta días y cuarenta noches, después tuvo hambre.",
-      "Y llegándose a él el tentador, dijo: Si eres Hijo de Dios, di que estas piedras se hagan pan.",
-      "Pero él respondiendo, dijo: Escrito está: No con solo el pan vivirá el hombre, pero con toda palabra que sale de la boca de Dios.",
-      "Entonces el diablo le pasa a la santa ciudad, y le pone sobre las almenas del templo,",
-      "Y le dice: Si eres Hijo de Dios, échate abajo; que escrito está: A sus ángeles mandará por ti, y te alzarán en las manos, para que nunca tropieces con tu pie en piedra.",
-      "Jesús le dijo: Escrito está además: No tentarás al Señor tu Dios.",
+      "Entonces Jesús fue llevado por el Espíritu al desierto, para ser tentado del diablo.",
+      "Y después de haber ayunado cuarenta días y cuarenta noches, tuvo hambre.",
+      "Y vino a él el tentador, y le dijo: Si eres el Hijo de Dios, di que estas piedras se conviertan en pan.",
+      "Pero él respondiendo, dijo: Escrito está: No solo de pan vivirá el hombre, sino de toda palabra que sale de la boca de Dios.",
+      "Entonces el diablo le llevó a la ciudad santa y le puso sobre el pináculo del templo,",
+      "y le dijo: Si eres el Hijo de Dios, tírate abajo; porque escrito está: A sus ángeles mandará acerca de ti, y en sus manos te sostendrán para que no tropiece tu pie en piedra.",
+      "Jesús le dijo: Escrito está también: No tentarás al Señor tu Dios.",
       "Otra vez le pasa el diablo a un monte muy alto, y le muestra todos los reinos del mundo, y su gloria,",
       "Y dícele: Todo esto te daré, si postrado me adorares.",
       "Entonces Jesús le dice: Vete, Satanás, que escrito está: Al Señor tu Dios adorarás y a él solo servirás.",
@@ -6760,7 +6760,7 @@
           "g": "μη"
         },
         {
-          "t": "da",
+          "t": "dé",
           "s": "G4160",
           "m": "V-PAP-NSN",
           "g": "ποιουν"
@@ -6778,7 +6778,7 @@
           "g": "καρπον"
         },
         {
-          "t": "es cortado",
+          "t": "será cortado",
           "s": "G1581",
           "m": "V-PPI-3S",
           "g": "εκκοπτεται"
@@ -6874,13 +6874,13 @@
           "g": "ερχομενος"
         },
         {
-          "t": "tras",
+          "t": "detrás",
           "s": "G3694",
           "m": "ADV",
           "g": "οπισω"
         },
         {
-          "t": "mí,",
+          "t": "de mí,",
           "s": "G3450"
         },
         {
@@ -6900,7 +6900,7 @@
           "g": "μου"
         },
         {
-          "t": "los zapatos",
+          "t": "el calzado",
           "s": "G5266",
           "m": "N-APN",
           "g": "υποδηματα"
@@ -6956,7 +6956,7 @@
           "g": "βαπτισει"
         },
         {
-          "t": "en",
+          "t": "en el",
           "s": "G1722",
           "m": "PREP",
           "g": "εν"
@@ -7031,7 +7031,7 @@
           "g": "και"
         },
         {
-          "t": "aventará",
+          "t": "limpiará",
           "s": "G1245",
           "m": "V-FAI-3S-ATT",
           "g": "διακαθαριει"
@@ -7055,7 +7055,7 @@
           "g": "και"
         },
         {
-          "t": "allegará",
+          "t": "recogerá",
           "s": "G4863",
           "m": "V-FAI-3S",
           "g": "συναξει"
@@ -7083,7 +7083,7 @@
           "s": "G3588"
         },
         {
-          "t": "alfolí,",
+          "t": "granero,",
           "s": "G596",
           "m": "N-ASF",
           "g": "αποθηκην"
@@ -7217,19 +7217,16 @@
           "g": "ιωαννης"
         },
         {
-          "t": "lo",
+          "t": "le",
           "s": "G846",
           "m": "P-ASM",
           "g": "αυτον"
         },
         {
-          "t": "resistía",
+          "t": "resistía,",
           "s": "G1254",
           "m": "V-IAI-3S",
           "g": "διεκωλυεν"
-        },
-        {
-          "t": "mucho,"
         },
         {
           "t": "diciendo:",
@@ -7244,7 +7241,7 @@
           "g": "εγω"
         },
         {
-          "t": "he menester",
+          "t": "necesito",
           "s": "G2192",
           "m": "V-PAI-1S",
           "g": "εχω"
@@ -7256,7 +7253,7 @@
           "g": "βαπτισθηναι"
         },
         {
-          "t": "de ti,",
+          "t": "por ti,",
           "s": "G4675"
         },
         {
@@ -7398,7 +7395,7 @@
           "g": "ιησους"
         },
         {
-          "t": "después que fue bautizado,",
+          "t": "después de ser bautizado,",
           "s": "G907",
           "m": "V-APP-NSM",
           "g": "βαπτισθεις"
@@ -7410,7 +7407,7 @@
           "g": "ανεβη"
         },
         {
-          "t": "luego",
+          "t": "enseguida",
           "s": "G2117"
         },
         {
@@ -7544,17 +7541,13 @@
           "g": "φωνη"
         },
         {
-          "t": "de",
+          "t": "del",
           "s": "G1537",
           "m": "PREP",
           "g": "εκ"
         },
         {
-          "t": "los",
-          "s": "G3588"
-        },
-        {
-          "t": "cielos",
+          "t": "cielo",
           "s": "G3772",
           "m": "N-GPM",
           "g": "ουρανων"
@@ -7598,13 +7591,13 @@
           "g": "εν"
         },
         {
-          "t": "el cual",
+          "t": "quien",
           "s": "G3739",
           "m": "R-DSM",
           "g": "ω"
         },
         {
-          "t": "tengo contentamiento.",
+          "t": "tengo complacencia.",
           "s": "G2106",
           "m": "V-AAI-1S",
           "g": "ευδοκησα"
@@ -7632,7 +7625,7 @@
           "g": "ανηχθη"
         },
         {
-          "t": "del Espíritu",
+          "t": "por el Espíritu",
           "s": "G4151",
           "m": "N-GSN",
           "g": "πνευματος"
@@ -7670,7 +7663,7 @@
           "g": "και"
         },
         {
-          "t": "habiendo ayunado",
+          "t": "después de haber ayunado",
           "s": "G3522",
           "m": "V-AAP-NSM",
           "g": "νηστευσας"
@@ -7706,7 +7699,7 @@
           "g": "νυκτας"
         },
         {
-          "t": "después tuvo hambre.",
+          "t": "tuvo hambre.",
           "s": "G3983",
           "m": "V-AAI-3S",
           "g": "επεινασεν"
@@ -7720,7 +7713,7 @@
           "g": "και"
         },
         {
-          "t": "llegándose",
+          "t": "vino",
           "s": "G4334",
           "m": "V-2AAP-NSM",
           "g": "προσελθων"
@@ -7736,7 +7729,7 @@
           "g": "πειραζων"
         },
         {
-          "t": "dijo:",
+          "t": "y le dijo:",
           "s": "G2036"
         },
         {
@@ -7750,7 +7743,7 @@
           "s": "G1488"
         },
         {
-          "t": "Hijo",
+          "t": "el Hijo",
           "s": "G5207",
           "m": "N-NSM",
           "g": "υιος"
@@ -7784,7 +7777,7 @@
           "g": "λιθοι"
         },
         {
-          "t": "se hagan pan.",
+          "t": "se conviertan en pan.",
           "s": "G740",
           "m": "N-NPM",
           "g": "αρτοι"
@@ -7827,13 +7820,13 @@
           "g": "ουκ"
         },
         {
-          "t": "con solo",
+          "t": "solo",
           "s": "G3441",
           "m": "A-DSM",
           "g": "μονω"
         },
         {
-          "t": "el",
+          "t": "de",
           "s": "G3588"
         },
         {
@@ -7859,16 +7852,16 @@
           "g": "ανθρωπος"
         },
         {
-          "t": "pero",
+          "t": "sino",
           "s": "G235",
           "m": "CONJ",
           "g": "αλλ"
         },
         {
-          "t": "con",
+          "t": "de",
           "s": "G1909",
           "m": "PREP",
-          "g": "επι"
+          "g": "επ"
         },
         {
           "t": "toda",
@@ -7931,7 +7924,7 @@
           "g": "αυτον"
         },
         {
-          "t": "pasa",
+          "t": "llevó",
           "s": "G3880",
           "m": "V-PAI-3S",
           "g": "παραλαμβανει"
@@ -7947,16 +7940,16 @@
           "s": "G3588"
         },
         {
+          "t": "ciudad",
+          "s": "G4172",
+          "m": "N-ASF",
+          "g": "πολιν"
+        },
+        {
           "t": "santa",
           "s": "G40",
           "m": "A-ASF",
           "g": "αγιαν"
-        },
-        {
-          "t": "ciudad,",
-          "s": "G4172",
-          "m": "N-ASF",
-          "g": "πολιν"
         },
         {
           "t": "y",
@@ -7971,7 +7964,7 @@
           "g": "αυτον"
         },
         {
-          "t": "pone",
+          "t": "puso",
           "s": "G2476",
           "m": "V-PAI-3S",
           "g": "ιστησιν"
@@ -7983,11 +7976,11 @@
           "g": "επι"
         },
         {
-          "t": "las",
+          "t": "el",
           "s": "G3588"
         },
         {
-          "t": "almenas",
+          "t": "pináculo",
           "s": "G4419",
           "m": "N-ASN",
           "g": "πτερυγιον"
@@ -8005,7 +7998,7 @@
       ],
       [
         {
-          "t": "Y",
+          "t": "y",
           "s": "G2532",
           "m": "CONJ",
           "g": "και"
@@ -8017,7 +8010,7 @@
           "g": "αυτω"
         },
         {
-          "t": "dice:",
+          "t": "dijo:",
           "s": "G3004",
           "m": "V-PAI-3S",
           "g": "λεγει"
@@ -8033,7 +8026,7 @@
           "s": "G1488"
         },
         {
-          "t": "Hijo",
+          "t": "el Hijo",
           "s": "G5207",
           "m": "N-NSM",
           "g": "υιος"
@@ -8045,10 +8038,10 @@
           "g": "θεου"
         },
         {
-          "t": "échate",
-          "s": "G4572",
-          "m": "F-2ASM",
-          "g": "σεαυτον"
+          "t": "tírate",
+          "s": "G906",
+          "m": "V-2AAM-2S",
+          "g": "βαλε"
         },
         {
           "t": "abajo;",
@@ -8057,7 +8050,7 @@
           "g": "κατω"
         },
         {
-          "t": "que escrito",
+          "t": "porque escrito",
           "s": "G1125",
           "m": "V-RPI-3S",
           "g": "γεγραπται"
@@ -8084,7 +8077,7 @@
           "g": "εντελειται"
         },
         {
-          "t": "por ti,",
+          "t": "acerca de ti,",
           "s": "G4675"
         },
         {
@@ -8094,44 +8087,36 @@
           "g": "και"
         },
         {
-          "t": "te",
-          "s": "G4571"
-        },
-        {
-          "t": "alzarán",
-          "s": "G142",
-          "m": "V-FAI-3P",
-          "g": "αρουσιν"
-        },
-        {
           "t": "en",
           "s": "G1909",
           "m": "PREP",
           "g": "επι"
         },
         {
-          "t": "las manos,",
+          "t": "sus manos",
           "s": "G5495",
           "m": "N-GPF",
           "g": "χειρων"
         },
         {
-          "t": "para que nunca",
+          "t": "te sostendrán",
+          "s": "G142,"
+        },
+        {
+          "t": "para que",
           "s": "G3379",
           "m": "ADV-N",
           "g": "μηποτε"
         },
         {
-          "t": "tropieces",
-          "s": "G4350",
-          "m": "V-AAS-2S",
-          "g": "προσκοψης"
+          "t": "no",
+          "s": "G3379",
+          "m": "ADV-N",
+          "g": "μηποτε"
         },
         {
-          "t": "con",
-          "s": "G4314",
-          "m": "PREP",
-          "g": "προς"
+          "t": "tropiece",
+          "s": "G4350e"
         },
         {
           "t": "tu",
@@ -8185,7 +8170,7 @@
           "t": "está"
         },
         {
-          "t": "además:",
+          "t": "también:",
           "s": "G3825",
           "m": "ADV",
           "g": "παλιν"
