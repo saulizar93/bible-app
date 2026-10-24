@@ -754,3 +754,21 @@
 
 - RVG «le dijo:» (one token, G846) split into «le» (G846) + «dijo:» (G3004, V-PAI-3S, λεγει), as in the author's RVO edit. RV1909 «dícele:» is a single word (verb + enclitic «le»), so it can't be split without changing the text: retagged G846 -> G3004 (the verb), losing the αὐτῷ tag in this verse. Verse text unchanged, only Mt 4:9 tokens differ.
 - Concord/rv1909-strong (also used by RVG) rebuilt. DATA_VERSION 27 -> 28, LEXICON_VERSION 23 -> 24.
+
+## 2026-10-24 — Lexicon: G3000 λατρεύω rewritten (English + Spanish)
+
+- public/data/strongs/greek/2501.json: new def-en/def-es and outline/outline-es covering all 21 NT uses (plus noun λατρεία G2999): worship due to God alone (Mt 4:10; Lk 4:8 from Deut 6:13 LXX, beside προσκυνέω; LXX Ex 20:5), prayer and fasting (Lk 2:37; Ac 26:7; 2Ti 1:3; Rom 1:9; Rev 7:15; 22:3), priestly service (Heb 8:5; 9:9; 10:2; 13:10; 9:1, 6; Rom 9:4), spiritual and daily worship (Php 3:3; Heb 9:14; 12:28; Rom 12:1; Ac 24:14; 27:23), idolatry (Ac 7:42; Rom 1:25; Jn 16:2), and the later latria/dulia distinction (Augustine, City of God 10.1; Nicaea II, 787) with a note that the NT does not draw it. Marked "manual": true. LEXICON_VERSION 24 -> 25.
+
+## 2026-10-24 — Lexicon: G4352 προσκυνέω rewritten (English + Spanish)
+
+- public/data/strongs/greek/4001.json: new def-en/def-es and outline/outline-es: the gesture (kiss toward, fall prostrate; LXX bowing to people Gen 23:7; 33:3; 42:6; Mt 18:26), worship due to God alone (Mt 4:9-10; Lk 4:8; Ex 20:5 LXX; Jn 4:23-24), worship of Jesus (Mt 2; 8:2; 14:33; 28:9, 17; Jn 9:38; Heb 1:6), refused by Peter and the angel (Ac 10:25-26; Rev 19:10; 22:8-9; Lystra Ac 14:11-15 noted without the word), idols/demons/beast (Ac 7:43; Rev 9:20; 13:15 etc.), and Nicaea II (787): images given "honorable προσκύνησις, not true latreia", the honor passing to the prototype, and the anathema on those who do not salute images. English quotes checked against the KJV, Spanish against the RVG. Marked "manual": true. LEXICON_VERSION 25 -> 26.
+
+## 2026-10-24 — Lexicon: G1401 δοῦλος rewritten (English + Spanish)
+
+- public/data/strongs/greek/1001.json: new def-en/def-es and outline/outline-es: literal slaves (Mt 8:9; Eph 6:5; 1Co 7:21; Phm 16; Gal 3:28), parables (Mt 25:21; Lk 17:10; Mt 20:27; Mt 6:24), slaves of God/Christ (apostles' titles; Mary the δούλη Lk 1:38; 1Co 7:22-23; Rev 19:5; Php 2:7), of sin or righteousness (Jn 8:34; Rom 6; Gal 4:7; Jn 15:15), the verb δουλεύω used of serving God (Ac 20:19; Rom 12:11; Col 3:24; 1Th 1:9) and false gods (Gal 4:8), δουλεία = bondage (Rom 8:15; Gal 5:1; Heb 2:15), and dulia/hyperdulia (Augustine, City of God 10.1; Aquinas ST II-II q.103) with the note that the NT does not draw that distinction (fellow servants Rev 19:10; 22:9). Quotes checked against KJV / RVG. Marked "manual": true. LEXICON_VERSION 26 -> 27.
+
+## 2026-10-24 — Lexicon: H259 אֶחָד and H3173 יָחִיד rewritten (English + Spanish)
+
+- public/data/strongs/hebrew/1.json (H259): new def-en/def-es; the original outline kept, with new sections: one person (Gen 42:11, 13; Num 16:22; 1Sa 1:1; Judg 13:2; Ezek 33:24; Isa 51:2; Eccl 4:8), of God (Deut 6:4; Mal 2:10; Job 31:15; Zech 14:9), the Shema in the NT with masculine εἷς (Mk 12:29, 32; Gal 3:20; 1Co 8:4), collective nouns and the "compound unity" debate (Gen 2:24; 11:1; Ezek 37:17; Gen 1:5), and אֶחָד vs יָחִיד (God's exclusiveness via אֵין עוֹד and לְבַד: Deut 4:35; Isa 45:5; Ps 86:10; Isa 44:24).
+- public/data/strongs/hebrew/3001.json (H3173): new def-en/def-es; original outline kept, plus all 12 OT uses grouped (only child Gen 22; Judg 11:34; Prov 4:3; mourning Jer 6:26; Amos 8:10; Zech 12:10; desolate Ps 25:16; 68:6; one's life Ps 22:20; 35:17), the LXX μονογενής link to John, why God is אֶחָד not יָחִיד, and later usage (Maimonides, Yigdal) and the Christian "compound unity" argument as later readings.
+- Quotes checked against KJV / RVG. Both marked "manual": true (lexicon-write.mjs keeps them on a rebuild). LEXICON_VERSION 27 -> 28.
