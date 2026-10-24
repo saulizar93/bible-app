@@ -81,8 +81,8 @@
       "Entonces el diablo le llevó a la ciudad santa y le puso sobre el pináculo del templo,",
       "y le dijo: Si eres el Hijo de Dios, tírate abajo; porque escrito está: A sus ángeles mandará acerca de ti, y en sus manos te sostendrán para que no tropiece tu pie en piedra.",
       "Jesús le dijo: Escrito está también: No tentarás al Señor tu Dios.",
-      "Otra vez le pasa el diablo a un monte muy alto, y le muestra todos los reinos del mundo, y su gloria,",
-      "Y dícele: Todo esto te daré, si postrado me adorares.",
+      "Otra vez le llevó el diablo a un monte muy alto, y le mostró todos los reinos del mundo, y la gloria de ellos,",
+      "y le dijo: Todo esto te daré, si postrado me adorares.",
       "Entonces Jesús le dice: Vete, Satanás, que escrito está: Al Señor tu Dios adorarás y a él solo servirás.",
       "El diablo entonces le dejó: y he aquí los ángeles llegaron y le servían.",
       "Pero oyendo Jesús que Juan era preso, se volvió a Galilea;",
@@ -8212,13 +8212,25 @@
           "g": "παλιν"
         },
         {
-          "t": "vez le",
+          "t": "vez",
           "s": "G846",
           "m": "P-ASM",
           "g": "αυτον"
         },
         {
-          "t": "pasa el",
+          "t": "le",
+          "s": "G846",
+          "m": "P-ASM",
+          "g": "αυτον"
+        },
+        {
+          "t": "llevó",
+          "s": "G3880",
+          "m": "V-PAI-3S",
+          "g": "παραλαμβανει"
+        },
+        {
+          "t": "el",
           "s": "G3588"
         },
         {
@@ -8264,7 +8276,7 @@
           "g": "αυτω"
         },
         {
-          "t": "muestra",
+          "t": "mostró",
           "s": "G1166",
           "m": "V-PAI-3S",
           "g": "δεικνυσιν"
@@ -8302,24 +8314,36 @@
           "g": "και"
         },
         {
-          "t": "su gloria,",
+          "t": "la gloria",
           "s": "G1391",
           "m": "N-ASF",
           "g": "δοξαν"
+        },
+        {
+          "t": "de ellos,",
+          "s": "G846",
+          "m": "P-ASM",
+          "g": "αυτον"
         }
       ],
       [
         {
-          "t": "Y",
+          "t": "y",
           "s": "G2532",
           "m": "CONJ",
           "g": "και"
         },
         {
-          "t": "dícele:",
+          "t": "le",
           "s": "G846",
           "m": "P-DSM",
           "g": "αυτω"
+        },
+        {
+          "t": "dijo:",
+          "s": "G3004",
+          "m": "V-PAI-3S",
+          "g": "λεγει"
         },
         {
           "t": "Todo",

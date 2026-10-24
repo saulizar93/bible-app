@@ -749,3 +749,8 @@
 - The verb sat in one token with «buen» (G2570). Split into «da»/«hace»/«produce» (G4160, V-PAP-NSN, ποιουν) + «buen» (G2570, unchanged), matching the author's RVO edit. Direct edits in the three 40.json files; verse text unchanged, only Mt 3:10 tokens differ.
 - Concordances rebuilt: concord/rv1909-strong (also used by RVG) and concord/straubinger-strong. DATA_VERSION 25 -> 26, LEXICON_VERSION 21 -> 22.
 - Follow-up (same verse): the "therefore" word («por tanto,» in RVO/RVG, «y» in RV1909/Straubinger) was G1161 δέ; now G3767 οὖν (TR: πᾶν οὖν δένδρον). The opening δέ (ἤδη δὲ καί) now on «Ahora,» (RVO, RV1909) and «Y» (RVG); Straubinger has no word for it. RVO via ediciones-manuales.json ("Ahora,": "Ahora,|G1161"; "por tanto,|G3767"), transform.py rerun; others edited directly. Concordances rebuilt (rv1909-strong, straubinger-strong, rvo-strong). DATA_VERSION 26 -> 27, LEXICON_VERSION 22 -> 23.
+
+## 2026-10-24 — Mt 4:9 «dijo» tagged G3004 in RVG and RV1909
+
+- RVG «le dijo:» (one token, G846) split into «le» (G846) + «dijo:» (G3004, V-PAI-3S, λεγει), as in the author's RVO edit. RV1909 «dícele:» is a single word (verb + enclitic «le»), so it can't be split without changing the text: retagged G846 -> G3004 (the verb), losing the αὐτῷ tag in this verse. Verse text unchanged, only Mt 4:9 tokens differ.
+- Concord/rv1909-strong (also used by RVG) rebuilt. DATA_VERSION 27 -> 28, LEXICON_VERSION 23 -> 24.
