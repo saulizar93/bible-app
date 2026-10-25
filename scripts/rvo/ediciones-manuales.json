@@ -241,7 +241,8 @@
     "contentamiento.": "complacencia."
   },
   "Mateo 4:1": {
-    "del": "por el"
+    "del": "por el",
+    "del diablo.": "por el diablo."
   },
   "Mateo 4:2": {
     "habiendo": "después de haber",
@@ -283,5 +284,82 @@
   },
   "Mateo 4:9": {
     "Y dícele:": "y|G2532 le|G846 dijo:|G3004"
+  },
+  "Mateo 4:10": {
+    "le dice:": "le|G846 dijo:|G3004",
+    "que escrito": "porque escrito|G1125",
+    "a él": "a Él"
+  },
+  "Mateo 4:11": {
+    "dejó:": "dejó,"
+  },
+  "Mateo 4:12": {
+    "era preso,": "había sido encarcelado,",
+    "se volvió": "regresó"
+  },
+  "Mateo 4:13": {
+    "Y": "y",
+    "a Nazaret,": "Nazaret,",
+    "los confines": "la región"
+  },
+  "Mateo 4:14": {
+    "Para": "para"
+  },
+  "Mateo 4:15": {
+    "La tierra": "Tierra",
+    "la tierra": "tierra",
+    "de la mar,": "del mar",
+    "de la otra parte": "al otro lado",
+    "Gentiles;": "Gentiles:"
+  },
+  "Mateo 4:16": {
+    "asentado": "que moraba",
+    "gran": "una gran",
+    "a los sentados": "a los|G3588 que moraban|G2521",
+    "esclareció.": "resplandeció."
+  },
+  "Mateo 4:17": {
+    "que": "porque|G1063"
+  },
+  "Mateo 4:18": {
+    "a la mar": "al mar",
+    "que es llamado": "llamado",
+    "en la mar;": "en|G1519 el|G3588 mar|G2281"
+  },
+  "Mateo 4:19": {
+    "díceles:": "les dijo:|G3004",
+    "os": "yo os"
+  },
+  "Mateo 4:20": {
+    "luego": "al instante"
+  },
+  "Mateo 4:21": {
+    "el barco": "la|G3588 barca|G4143",
+    "Zebedeo, su padre,": "Zebedeo|G2199 su|G846 padre,|G3962"
+  },
+  "Mateo 4:22": {
+    "luego el barco": "al instante|G2112 la|G3588 barca|G4143"
+  },
+  "Mateo 4:23": {
+    "rodeó": "recorríó"
+  },
+  "Mateo 4:24": {
+    "corría": "se difundió",
+    "la Siria;": "Siria;",
+    "trajeron": "traían a",
+    "mal:": "dolencias,",
+    "tomados": "afligidos",
+    "de diversas": "por diversas",
+    "y los endemoniados,": "los|G3588 endemoniados,|G1139",
+    "y lunáticos,": "lunáticos",
+    "paralíticos,": "paralíticos;"
+  },
+  "Mateo 4:25": {
+    "muchas gentes": "grandes|G4183 multitudes|G3793",
+    "Galilea": "Galielea,",
+    "y de Decápolis": "de Decápolis,",
+    "y de Jerusalén": "de Jerusalén,",
+    "y de Judea": "de Judea",
+    "de la otra parte": "del otro lado"
   }
 }
