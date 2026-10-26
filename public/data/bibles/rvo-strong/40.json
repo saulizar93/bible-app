@@ -127,9 +127,9 @@
       "deja allí tu ofrenda delante del altar, y ve, reconcíliate primero con tu hermano, y entonces ven y presenta tu ofrenda.",
       "Reconcíliate pronto con tu adversario, mientras estás con él en el camino; no sea que el adversario te entregue al juez, y el juez te entregue al alguacil, y seas echado en la cárcel.",
       "De cierto te digo, que no saldrás de allí, hasta que pagues el último cuadrante.",
-      "Oísteis que fue dicho: No adulterarás:",
+      "Oísteis que fue dicho: No cometerás adulterio.",
       "Pero yo os digo, que cualquiera que mira a una mujer para codiciarla, ya adulteró con ella en su corazón.",
-      "Por tanto, si tu ojo derecho te fuere ocasión de caer, sácalo, y échalo de ti: que mejor te es que se pierda uno de tus miembros, que no que todo tu cuerpo sea echado al infierno.",
+      "Por tanto, si tu ojo derecho te fuere ocasión de caer, sácalo, y échalo de ti: que mejor te es que se pierda uno de tus miembros, y no que todo tu cuerpo sea arrojado al infierno.",
       "Y si tu mano derecha te fuere ocasión de caer, córtala, y échala de ti: que mejor te es que se pierda uno de tus miembros, que no que todo tu cuerpo sea echado al infierno.",
       "También fue dicho: Cualquiera que repudiare a su mujer, déle carta de divorcio:",
       "Pero yo os digo, que el que repudiare a su mujer, fuera de causa de fornicación, hace que ella adultere; y el que se casare con la repudiada, comete adulterio.",
@@ -12283,7 +12283,7 @@
           "g": "ου"
         },
         {
-          "t": "adulterarás:",
+          "t": "cometerás adulterio.",
           "s": "G3431",
           "m": "V-FAI-2S",
           "g": "μοιχευσεις"
@@ -12509,7 +12509,7 @@
           "g": "μελων"
         },
         {
-          "t": "que",
+          "t": "y",
           "s": "G2532",
           "m": "CONJ",
           "g": "και"
@@ -12537,7 +12537,7 @@
           "g": "σωμα"
         },
         {
-          "t": "sea echado",
+          "t": "sea arrojado",
           "s": "G906",
           "m": "V-APS-3S",
           "g": "βληθη"

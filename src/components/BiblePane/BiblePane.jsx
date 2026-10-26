@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { byId } from "../../js/books.js";
-import { loadBook, optionFor } from "../../js/data.js";
+import { loadBook, optionFor, noteLabelFor } from "../../js/data.js";
 import { normalizeStrong } from "../../js/strongsCode.js";
 import "./BiblePane.css";
 
@@ -50,7 +50,7 @@ export default function BiblePane({
   const verses = book?.v[refPos.chapter];
   const tokensByVerse = strongsOn ? book?.w?.[refPos.chapter] : null;
   const allTokens = book?.w?.[refPos.chapter]; // translator notes show with Strong's on or off
-  const noteLabel = optionFor(code)?.lang === "es" ? "Nota del traductor" : "Translator's note";
+  const noteLabel = noteLabelFor(code, optionFor(code)?.lang); // "Nota del traductor" only for the RVO
 
   useEffect(() => {
     if (!verses || !highlight) return;

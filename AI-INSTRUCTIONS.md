@@ -30,6 +30,7 @@ This is a Bible app with Oneness Study Notes. I want to make it as user friendly
 - Concordance: `public/data/concord'`
 - Application settings: `vite.config.js/`
 - Decisions: `docs/AI-LOG.md`
+- Strong's fixes / notes for KJV, BSB, MSB, LSV, RVG, RV1909, Straubinger: `scripts/correcciones/correcciones.json`, applied with `python3 scripts/correcciones/aplicar.py` (RVO: `scripts/rvo/ediciones-manuales.json` + `notas-traductor.json`, then `scripts/rvo/transform.py`)
 
 ## Commands
 

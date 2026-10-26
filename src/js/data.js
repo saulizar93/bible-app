@@ -3,7 +3,7 @@ import { normalizeStrong } from "./strongsCode.js";
 
 const DATA_VERSION = 29; // bump to invalidate every cached Bible chapter
 const NOTES_VERSION = 2; // bump separately — notes change far more often
-const LEXICON_VERSION = 35; // bump when strongs/ or concord/ data is rebuilt
+const LEXICON_VERSION = 37; // bump when strongs/ or concord/ data is rebuilt
 
 /** Shown to users (menu footer, notes authorship line) so they can tell when
  *  new data has been published and clear their saved copies in Settings. */
@@ -192,6 +192,13 @@ export const PANE_OPTIONS = [
       "Notas de estudio de la Unicidad escritas originalmente en inglés por Saul Ojeda y traducidas al español a mano y con ayuda de IA.",
   },
 ];
+/** Label for a note (`n` on a token): the RVO's own notes are the translator's;
+ *  on any other Bible a note is the app author's, so it is just "Note" / "Nota". */
+export function noteLabelFor(code, lang) {
+  if (code === "rvo-strong") return lang === "es" ? "Nota del traductor" : "Translator's note";
+  return lang === "es" ? "Nota" : "Note";
+}
+
 export const optionFor = (code) => PANE_OPTIONS.find((o) => o.code === code);
 
 /** Which translation's code holds Strong's-tagged data — used to fetch

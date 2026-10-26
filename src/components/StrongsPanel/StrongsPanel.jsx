@@ -8,6 +8,7 @@ import {
   decodeVid,
   strongsSourceCode,
   optionFor,
+  noteLabelFor,
 } from "../../js/data.js";
 import { normalizeStrong } from "../../js/strongsCode.js";
 import { decodeMorph, decodeHebrewPos } from "../../js/morph.js";
@@ -264,7 +265,7 @@ export default function StrongsPanel({
 
       {note && (
         <p className="strongs-tnote">
-          <strong>{lang === "es" ? "Nota del traductor" : "Translator's note"}:</strong>{" "}
+          <strong>{noteLabelFor(source, lang)}:</strong>{" "}
           {note}
         </p>
       )}

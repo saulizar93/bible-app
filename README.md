@@ -65,6 +65,32 @@ git push
 
 (For the **RVO**, don't edit its files directly — use section 4.)
 
+### The easy way: `scripts/correcciones/correcciones.json` (KJV, BSB, MSB, LSV, RVG, RV1909, Straubinger)
+
+To fix a Strong's tag or add a translator's note while reading, add it to `scripts/correcciones/correcciones.json` under that Bible, then run:
+
+```bash
+python3 scripts/correcciones/aplicar.py
+```
+
+```json
+"rvg-strong": {
+  "etiquetas": {
+    "Mateo 5:24": { "reconcíliate primero": "reconcíliate|G1259 primero|G4412" }
+  },
+  "notas": {
+    "Mateo 5:22": { "sin razón": "El texto crítico (CT) omite «sin razón»..." }
+  }
+}
+```
+
+- **etiquetas** (or **tags**): the left side is the words exactly as they read in that Bible (with punctuation); the right side is the same words with `|G####` (or `|H####`) after each word or group. Unmarked words join the next marked word; words after the last mark join the last one; `|-` = no number. The text itself never changes.
+- **notas** (or **notes**): the word(s) the note belongs to (`"*"` = end of the verse); it shows as † in the app, labelled "Note" / "Nota" (only the RVO's notes say "Nota del traductor").
+- References use the full book name in English or Spanish (`"Matthew 5:24"`, `"Mateo 5:24"`). Other marks on a word, such as `r` (words of Jesus in red), are kept.
+- LSV uses the KJV's word search, so an LSV tag fix changes the word you tap but no search list.
+- Parsing and the Greek/Hebrew word are copied from a token with that number in the same verse, or from the KJV.
+- The script rebuilds that Bible's word search and raises `DATA_VERSION` / `LEXICON_VERSION` for you. It is safe to run any number of times and prints a `!` line for anything it could not apply.
+
 ### What a book file looks like
 
 Each chapter has the plain text of every verse (`v`) and, in tagged Bibles, the same verse split into tokens (`w`). Each token has the words (`t`), the Strong's number (`s`) and, when known, the parsing code (`m`) and the Greek or Hebrew word (`g`). Exodus 32:4 in the RVG:
@@ -80,7 +106,7 @@ Each chapter has the plain text of every verse (`v`) and, in tagged Bibles, the 
 1. **Keep `v` and `w` matching.** The tokens' `t` joined with single spaces must spell the verse in `v` exactly (same words and punctuation). If you change a word, change it in both places.
 2. **To move a tag**, move the words between tokens or change the `s` number. If you change `s`, also fix or delete that token's `m` and `g` (they belong to the old word).
 3. **Keep the file valid JSON** — commas between tokens, double quotes. A broken file stops that book from loading. Editors like VS Code underline mistakes.
-4. **RVG uses RV1909's word search** (and LSV uses the KJV's). If you retag a word in the RVG, make the same change in `rv1909-strong` (and in `scripts/rvo/backup-original` so the RVO gets it too), then rebuild RV1909's word search.
+4. **Every Spanish tagged Bible has its own word search** (RVG since 2026-10-26; LSV uses the KJV's). Rebuild the one for the Bible you changed.
 
 ### After a hand edit
 

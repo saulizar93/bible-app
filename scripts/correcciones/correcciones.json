@@ -1,0 +1,37 @@
+{
+  "_ayuda": "Correcciones de etiquetas Strong y notas para rvg-strong, rv1909-strong y straubinger-strong (la RVO usa scripts/rvo/). Formato: \"biblia\": { \"etiquetas\": { \"Libro c:v\": { \"palabras tal cual\": \"palabra|G#### palabra|G####\" } }, \"notas\": { \"Libro c:v\": { \"palabra(s)\": \"nota\" } } }. Solo cambian las etiquetas, nunca el texto: las palabras de la derecha deben ser las mismas de la izquierda. Las palabras sin marca se unen a la siguiente marcada; las que quedan al final, a la última. \"|-\" = sin número Strong. En notas, \"*\" = al final del versículo. Luego ejecutar: python3 scripts/correcciones/aplicar.py",
+  "_help": "Strong's tag fixes and notes for kjv-strong, bsb-strong, msb-strong and lsv-strong (same rules as the Spanish ones). Format: \"bible\": { \"tags\": { \"Book c:v\": { \"words as they read\": \"word|G#### word|G####\" } }, \"notes\": { \"Book c:v\": { \"word(s)\": \"note\" } } }. Only tags change, never the text: the words on the right must be the same as on the left. Unmarked words join the next marked word; words at the end join the last one. \"|-\" = no Strong's number. In notes, \"*\" = end of the verse. LSV uses the KJV's word search, so LSV tag fixes don't change any word search. Then run: python3 scripts/correcciones/aplicar.py",
+  "kjv-strong": {
+    "tags": {},
+    "notes": {}
+  },
+  "bsb-strong": {
+    "tags": {},
+    "notes": {}
+  },
+  "msb-strong": {
+    "tags": {},
+    "notes": {}
+  },
+  "lsv-strong": {
+    "tags": {},
+    "notes": {}
+  },
+  "rvg-strong": {
+    "etiquetas": {
+      "Mateo 5:24": {
+        "reconcíliate primero": "reconcíliate|G1259 primero|G4412",
+        "presenta": "presenta|G4374"
+      }
+    },
+    "notas": {}
+  },
+  "rv1909-strong": {
+    "etiquetas": {},
+    "notas": {}
+  },
+  "straubinger-strong": {
+    "etiquetas": {},
+    "notas": {}
+  }
+}
