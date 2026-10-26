@@ -809,3 +809,11 @@
 
 - New public/data/concord/rvg-strong/{greek,hebrew}, built from rvg-strong's own tags: `node scripts/build-concordance.mjs public/data/bibles/rvg-strong public/data/concord/rvg-strong`. src/js/data.js: rvg-strong `concord: "rvg-strong/"` (was RV1909's). The Strong's panel and offline downloads read the folder from this field, so nothing else changed. LEXICON_VERSION +1.
 - RVG's retagging (Mt 2–5 fixes, fill-untagged.py) now shows in its concordance. Rebuild it after any further RVG tag change.
+
+## 2026-10-26 — Lexicon: G2835 κοδράντης rewritten (English + Spanish)
+
+- public/data/strongs/greek/2501.json: new def-en/def-es and outline/outline-es: the quadrans in the NT (Mt 5:26; Lk 12:59; Mk 12:42; Lk 21:2), the denarius as a day's wage (Mt 20:2), every NT coin from lepton to talent with its Strong's number, KJV and RVG names and value (lepton, quadrans, as, denarius, drachma, didrachma, stater, thirty pieces of silver, mina, talent), a quick equivalence table (1 denarius = 16 assaria = 64 quadrantes = 128 lepta; talent = 60 minas = 6,000 denarii), a $100-a-day illustration with Mt 18:24, 28; Lk 10:35; Jn 6:7; 12:5; Rev 6:6, and a note that the RVG uses «cuadrante»/«blancas» for more than one coin. Bible quotes checked against KJV / RVG. Marked "manual": true. LEXICON_VERSION 33 -> 34.
+
+## 2026-10-26 — Lexicon: the other NT coins rewritten (English + Spanish)
+
+- G3016 λεπτόν, G787 ἀσσάριον, G1220 δηνάριον, G1406 δραχμή, G1323 δίδραχμον, G4715 στατήρ, G694 ἀργύριον, G3414 μνᾶ, G5007 τάλαντον (greek shards 501, 1001, 3001, 4501, 5001): new def-en/def-es and outline/outline-es for each, with every NT use grouped, the value in denarii (day's wages) and against the other coins, a $100-a-day illustration where useful, and a pointer to G2835 for the full table. Extras: the denarius' name ("ten" asses, 16 from c. 141 BC); didrachma = Ex 30:13 half shekel; stater = shekel, temple tax for two; the thirty pieces of silver (Mt 26-27; Zech 11:12; Ex 21:32) and Ac 19:19; the talent as a weight (Rev 16:21, G5006; Ex 38:25 = 3,000 shekels). Bible quotes checked against KJV / RVG. All marked "manual": true. LEXICON_VERSION 34 -> 35.

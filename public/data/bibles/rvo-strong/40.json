@@ -125,7 +125,7 @@
       "Pero yo os digo, que cualquiera que sin razón se enojare contra su hermano, será culpable de juicio; y cualquiera que dijere a su hermano, Raca, será culpable ante el concilio; y cualquiera que dijere: Estúpido, estará en peligro del fuego del infierno.",
       "Por tanto, si trajeres tu ofrenda al altar, y allí te acordares de que tu hermano tiene algo contra ti,",
       "deja allí tu ofrenda delante del altar, y ve, reconcíliate primero con tu hermano, y entonces ven y presenta tu ofrenda.",
-      "Concíliate con tu adversario pronto, entre tanto que estás con él en el camino; porque no acontezca que el adversario te entregue al juez, y el juez te entregue al alguacil, y seas echado en prisión.",
+      "Reconcíliate pronto con tu adversario, mientras estás con él en el camino; no sea que el adversario te entregue al juez, y el juez te entregue al alguacil, y seas echado en la cárcel.",
       "De cierto te digo, que no saldrás de allí, hasta que pagues el último cuadrante.",
       "Oísteis que fue dicho: No adulterarás:",
       "Pero yo os digo, que cualquiera que mira a una mujer para codiciarla, ya adulteró con ella en su corazón.",
@@ -12036,39 +12036,33 @@
       ],
       [
         {
-          "t": "Concíliate",
+          "t": "Reconcíliate",
           "s": "G2132",
           "m": "V-PAP-NSM",
           "g": "ευνοων"
+        },
+        {
+          "t": "pronto",
+          "s": "G5035",
+          "m": "ADV",
+          "g": "ταχυ"
         },
         {
           "t": "con tu",
           "s": "G4675"
         },
         {
-          "t": "adversario",
+          "t": "adversario,",
           "s": "G476",
           "m": "N-DSM",
           "g": "αντιδικω"
         },
         {
-          "t": "pronto,",
-          "s": "G5035",
-          "m": "ADV",
-          "g": "ταχυ"
-        },
-        {
-          "t": "entre",
+          "t": "mientras",
           "s": "G2193"
         },
         {
-          "t": "tanto",
-          "s": "G3755",
-          "m": "R-GSN-ATT",
-          "g": "οτου"
-        },
-        {
-          "t": "que estás",
+          "t": "estás",
           "s": "G1488"
         },
         {
@@ -12100,13 +12094,13 @@
           "g": "οδω"
         },
         {
-          "t": "porque no",
+          "t": "no sea",
           "s": "G3379",
           "m": "ADV-N",
           "g": "μηποτε"
         },
         {
-          "t": "acontezca que el",
+          "t": "que el",
           "s": "G3588"
         },
         {
@@ -12190,7 +12184,7 @@
           "g": "εις"
         },
         {
-          "t": "prisión.",
+          "t": "la cárcel.",
           "s": "G5438",
           "m": "N-ASF",
           "g": "φυλακην"
@@ -12261,7 +12255,8 @@
           "t": "cuadrante.",
           "s": "G2835",
           "m": "N-ASM",
-          "g": "κοδραντην"
+          "g": "κοδραντην",
+          "n": "1 Denario (Plata) es equivalente a 1 día completo de trabajo. 64 Cuadrantes (Cobre) equivalen a un Denario (Plata)."
         }
       ],
       [
