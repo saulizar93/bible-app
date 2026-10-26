@@ -797,3 +797,4 @@
 - src/app.css: `.show-bottom-fab` styles.
 - Checked with @babel/parser and eslint (no errors/warnings); `npm run build` not run here (Windows node_modules), run it locally.
 - Follow-up: the "Show bottom pane" section (`.settings-bottom-toggle`) gets margin-top 22px, since it has no h3 and sat right under the Font buttons.
+- Follow-up: while the bottom pane is hidden, JumpBar gets only the top pane (`visiblePanes` in App.jsx), so word search, the "In:" source list and the Strong's toggle check use only the pane on screen.

@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect, startTransition } from "react";
+import { useState, useCallback, useEffect, useMemo, startTransition } from "react";
 import { BOOKS, byId, parseRef, suggest } from "./js/books.js";
 import { usePrefetchNextChapter } from "./hooks/usePrefetchNextChapter.js";
 import { loadBook, PANE_OPTIONS, optionFor } from "./js/data.js";
@@ -142,6 +142,13 @@ export default function App() {
     setDefaultPanes((prev) => ({ ...prev, [which]: code }));
     if (code) (which === "top" ? setTop : setBottom)(code);
   };
+
+  // Panes on screen: search (JumpBar) only looks in these, so a hidden bottom
+  // pane doesn't add results.
+  const visiblePanes = useMemo(
+    () => (bottomHidden ? [top] : [top, bottom]),
+    [top, bottom, bottomHidden],
+  );
 
   const book = byId[refPos.book] || byId["MAT"];
   const options = open ? suggest(query, lang || "en") : [];
@@ -419,7 +426,7 @@ export default function App() {
         options={options}
         book={book}
         chapter={refPos.chapter}
-        panes={[top, bottom]}
+        panes={visiblePanes}
         placeholder={`${lang === "es" ? book.es : book.en} ${refPos.chapter}`}
         onSubmit={submit}
         onPick={pick}
