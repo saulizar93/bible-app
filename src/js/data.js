@@ -1,9 +1,9 @@
 import { get, set, clear } from "idb-keyval";
 import { normalizeStrong } from "./strongsCode.js";
 
-const DATA_VERSION = 28; // bump to invalidate every cached Bible chapter
+const DATA_VERSION = 29; // bump to invalidate every cached Bible chapter
 const NOTES_VERSION = 2; // bump separately — notes change far more often
-const LEXICON_VERSION = 32; // bump when strongs/ or concord/ data is rebuilt
+const LEXICON_VERSION = 33; // bump when strongs/ or concord/ data is rebuilt
 
 /** Shown to users (menu footer, notes authorship line) so they can tell when
  *  new data has been published and clear their saved copies in Settings. */
@@ -133,7 +133,7 @@ export const PANE_OPTIONS = [
     // Strong's tags copied from rv1909-strong by scripts/rvg-strong/transfer.mjs
     // (every book, 1–66, now carries a "w").
     strongs: true,
-    concord: "rv1909-strong/", // same versification, so RV1909's concordance fits
+    concord: "rvg-strong/", // its own: data/concord/rvg-strong/{greek,hebrew} (rebuild after retagging RVG)
     citation: "RVG",
     copyright:
       "Santa Biblia Reina Valera Gómez © 2004, 2010, 2023 Dr. Humberto Gómez Caballero. Derechos reservados. Prohibida su reproducción con fines de lucro. Análisis y palabras hebreas del Antiguo Testamento: obra original del Open Scriptures Hebrew Bible, disponible en https://github.com/openscriptures/morphhb (CC BY 4.0).",

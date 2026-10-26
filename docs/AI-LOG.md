@@ -798,3 +798,14 @@
 - Checked with @babel/parser and eslint (no errors/warnings); `npm run build` not run here (Windows node_modules), run it locally.
 - Follow-up: the "Show bottom pane" section (`.settings-bottom-toggle`) gets margin-top 22px, since it has no h3 and sat right under the Font buttons.
 - Follow-up: while the bottom pane is hidden, JumpBar gets only the top pane (`visiblePanes` in App.jsx), so word search, the "In:" source list and the Strong's toggle check use only the pane on screen.
+
+## 2026-10-26 — RVO Mt 5:22 translator's note; RVG Mt 5:24 tags fixed
+
+- scripts/rvo/notas-traductor.json: note on «sin razón» (Mt 5:22): the CT omits εἰκῇ (G1500) following 𝔓64, Sinaiticus and Vaticanus; TR and MT include it. transform.py rerun (no warnings); only Mt 5:22 changed in rvo-strong/40.json (note on the token, text unchanged).
+- public/data/bibles/rvg-strong/40.json, Mt 5:24: the first «ofrenda» had G4374 and «presenta» had G1435 (swapped) — now «ofrenda» G1435 δωρον, «presenta» G4374 προσφερε; «reconcíliate primero» (one token, G4412) split into «reconcíliate» G1259 διαλλαγηθι + «primero» G4412. Text unchanged.
+- RVG uses the rv1909-strong concordance, which was rebuilt but does not include RVG's own tags, so it is unchanged. DATA_VERSION 28 -> 29.
+
+## 2026-10-26 — RVG gets its own concordance
+
+- New public/data/concord/rvg-strong/{greek,hebrew}, built from rvg-strong's own tags: `node scripts/build-concordance.mjs public/data/bibles/rvg-strong public/data/concord/rvg-strong`. src/js/data.js: rvg-strong `concord: "rvg-strong/"` (was RV1909's). The Strong's panel and offline downloads read the folder from this field, so nothing else changed. LEXICON_VERSION +1.
+- RVG's retagging (Mt 2–5 fixes, fill-untagged.py) now shows in its concordance. Rebuild it after any further RVG tag change.

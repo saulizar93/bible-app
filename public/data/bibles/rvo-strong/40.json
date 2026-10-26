@@ -117,14 +117,14 @@
       "Vosotros sois la luz del mundo; una ciudad situada sobre un monte no se puede esconder.",
       "Ni se enciende una lámpara y se pone debajo de un almud, sino sobre el candelero, y alumbra a todos los que están en casa.",
       "Así alumbre vuestra luz delante de los hombres, para que vean vuestras buenas obras, y glorifiquen a vuestro Padre que está en el cielo.",
-      "No penséis que he venido para abolir la ley o los profetas: no he venido para abolir, sino para cumplir.",
-      "Porque de cierto os digo, que hasta que perezca el cielo y la tierra, ni una jota ni un tilde perecerá de la ley, hasta que todas las cosas sean hechas.",
-      "De manera que cualquiera que infringiere uno de estos mandamientos muy pequeños, y así enseñare a los hombres, muy pequeño será llamado en el reino de los cielos: pero cualquiera que hiciere y enseñare, éste será llamado grande en el reino de los cielos.",
-      "Porque os digo, que si vuestra justicia no fuere mayor que la de los escribas y de los Fariseos, no entraréis en el reino de los cielos.",
-      "Oísteis que fue dicho a los antiguos: No matarás; pero cualquiera que matare, será culpado del juicio.",
-      "Pero yo os digo, que cualquiera que se enojare locamente con su hermano, será culpado del juicio; y cualquiera que dijere a su hermano, Raca, será culpado del concejo; y cualquiera que dijere, Fatuo, será culpado del infierno del fuego.",
-      "Por tanto, si trajeres tu presente al altar, y allí te acordares de que tu hermano tiene algo contra ti,",
-      "Deja allí tu presente delante del altar, y vete, vuelve primero en amistad con tu hermano, y entonces ven y ofrece tu presente.",
+      "No penséis que he venido para abolir la ley o los profetas: no he venido a abolir, sino a cumplir.",
+      "Porque de cierto os digo, que hasta que pasen el cielo y la tierra, ni una jota ni una tilde pasará de la ley, hasta que todo se haya cumplido.",
+      "De manera que cualquiera que quebrantare aun el más pequeño de estos mandamientos, y así enseñare a los hombres, será llamado el menor en el reino de los cielos: pero cualquiera que los guardare y los enseñare, éste será llamado grande en el reino de los cielos.",
+      "Porque os digo, que si vuestra justicia no fuere mayor que la de los escribas y fariseos, no entraréis en el reino de los cielos.",
+      "Oísteis que fue dicho a los antiguos: No matarás; pero cualquiera que matare, será culpable de juicio.",
+      "Pero yo os digo, que cualquiera que sin razón se enojare contra su hermano, será culpable de juicio; y cualquiera que dijere a su hermano, Raca, será culpable ante el concilio; y cualquiera que dijere: Estúpido, estará en peligro del fuego del infierno.",
+      "Por tanto, si trajeres tu ofrenda al altar, y allí te acordares de que tu hermano tiene algo contra ti,",
+      "deja allí tu ofrenda delante del altar, y ve, reconcíliate primero con tu hermano, y entonces ven y presenta tu ofrenda.",
       "Concíliate con tu adversario pronto, entre tanto que estás con él en el camino; porque no acontezca que el adversario te entregue al juez, y el juez te entregue al alguacil, y seas echado en prisión.",
       "De cierto te digo, que no saldrás de allí, hasta que pagues el último cuadrante.",
       "Oísteis que fue dicho: No adulterarás:",
@@ -11077,7 +11077,7 @@
           "g": "ηλθον"
         },
         {
-          "t": "para abolir,",
+          "t": "a abolir,",
           "s": "G2647",
           "m": "V-AAN",
           "g": "καταλυσαι"
@@ -11089,7 +11089,7 @@
           "g": "αλλα"
         },
         {
-          "t": "para cumplir.",
+          "t": "a cumplir.",
           "s": "G4137",
           "m": "V-AAN",
           "g": "πληρωσαι"
@@ -11133,7 +11133,7 @@
           "s": "G302"
         },
         {
-          "t": "perezca",
+          "t": "pasen",
           "s": "G3928",
           "m": "V-2AAS-3S",
           "g": "παρελθη"
@@ -11184,18 +11184,24 @@
         },
         {
           "t": "ni",
-          "s": "G2228",
-          "m": "PRT",
-          "g": "η"
+          "s": "G3361",
+          "m": "PRT-N",
+          "g": "μη"
         },
         {
-          "t": "un tilde",
+          "t": "una",
+          "s": "G1520",
+          "m": "A-NSN",
+          "g": "εν"
+        },
+        {
+          "t": "tilde",
           "s": "G2762",
           "m": "N-NSF",
           "g": "κεραια"
         },
         {
-          "t": "perecerá",
+          "t": "pasará",
           "s": "G3928",
           "m": "V-2AAS-3S",
           "g": "παρελθη"
@@ -11227,13 +11233,13 @@
           "s": "G302"
         },
         {
-          "t": "todas",
+          "t": "todo",
           "s": "G3956",
           "m": "A-NPN",
           "g": "παντα"
         },
         {
-          "t": "las cosas sean hechas.",
+          "t": "se haya cumplido.",
           "s": "G1096",
           "m": "V-2ADS-3S",
           "g": "γενηται"
@@ -11259,32 +11265,32 @@
           "g": "ουν"
         },
         {
-          "t": "infringiere",
+          "t": "quebrantare",
           "s": "G3089",
           "m": "V-AAS-3S",
           "g": "λυση"
         },
         {
-          "t": "uno",
+          "t": "aun el",
           "s": "G1520",
           "m": "A-ASF",
           "g": "μιαν"
+        },
+        {
+          "t": "más pequeño",
+          "s": "G1646",
+          "m": "A-GPF-S",
+          "g": "ελαχιστων"
         },
         {
           "t": "de estos",
           "s": "G5130"
         },
         {
-          "t": "mandamientos",
+          "t": "mandamientos,",
           "s": "G1785",
           "m": "N-GPF",
           "g": "εντολων"
-        },
-        {
-          "t": "muy pequeños,",
-          "s": "G1646",
-          "m": "A-GPF-S",
-          "g": "ελαχιστων"
         },
         {
           "t": "y",
@@ -11315,16 +11321,16 @@
           "g": "ανθρωπους"
         },
         {
-          "t": "muy pequeño",
-          "s": "G1646",
-          "m": "A-NSM-S",
-          "g": "ελαχιστος"
-        },
-        {
           "t": "será llamado",
           "s": "G2564",
           "m": "V-FPI-3S",
           "g": "κληθησεται"
+        },
+        {
+          "t": "el menor",
+          "s": "G1646",
+          "m": "A-GPF-S",
+          "g": "ελαχιστων"
         },
         {
           "t": "en",
@@ -11369,7 +11375,7 @@
           "s": "G302"
         },
         {
-          "t": "hiciere",
+          "t": "los guardare",
           "s": "G4160",
           "m": "V-AAS-3S",
           "g": "ποιηση"
@@ -11381,7 +11387,7 @@
           "g": "και"
         },
         {
-          "t": "enseñare,",
+          "t": "los enseñare,",
           "s": "G1321",
           "m": "V-AAS-3S",
           "g": "διδαξη"
@@ -11507,11 +11513,7 @@
           "g": "και"
         },
         {
-          "t": "de los",
-          "s": "G3588"
-        },
-        {
-          "t": "Fariseos,",
+          "t": "fariseos,",
           "s": "G5330",
           "m": "N-GPM",
           "g": "φαρισαιων"
@@ -11621,13 +11623,13 @@
           "s": "G2071"
         },
         {
-          "t": "culpado",
+          "t": "culpable",
           "s": "G1777",
           "m": "A-NSM",
           "g": "ενοχος"
         },
         {
-          "t": "del juicio.",
+          "t": "de juicio.",
           "s": "G2920",
           "m": "N-DSF",
           "g": "κρισει"
@@ -11675,19 +11677,20 @@
           "g": "οτι"
         },
         {
-          "t": "se enojare",
+          "t": "sin razón",
+          "s": "G1500",
+          "m": "ADV",
+          "g": "εικη",
+          "n": "El texto crítico (CT) omite «sin razón» (εἰκῇ, G1500), siguiendo unos pocos manuscritos antiguos (𝔓64, Sinaítico, Vaticano). El Texto Recibido (TR) y el Texto Mayoritario (MT) lo incluyen."
+        },
+        {
+          "t": "se enojare contra",
           "s": "G3710",
           "m": "V-PPP-NSM",
           "g": "οργιζομενος"
         },
         {
-          "t": "locamente",
-          "s": "G1500",
-          "m": "ADV",
-          "g": "εικη"
-        },
-        {
-          "t": "con su",
+          "t": "su",
           "s": "G846",
           "m": "P-GSM",
           "g": "αυτου"
@@ -11703,13 +11706,13 @@
           "s": "G2071"
         },
         {
-          "t": "culpado",
+          "t": "culpable",
           "s": "G1777",
           "m": "A-NSM",
           "g": "ενοχος"
         },
         {
-          "t": "del juicio;",
+          "t": "de juicio;",
           "s": "G2920",
           "m": "N-DSF",
           "g": "κρισει"
@@ -11759,17 +11762,17 @@
           "s": "G2071"
         },
         {
-          "t": "culpado",
+          "t": "culpable",
           "s": "G1777",
           "m": "A-NSM",
           "g": "ενοχος"
         },
         {
-          "t": "del",
+          "t": "ante el",
           "s": "G3588"
         },
         {
-          "t": "concejo;",
+          "t": "concilio;",
           "s": "G4892",
           "m": "N-DSN",
           "g": "συνεδριω"
@@ -11793,36 +11796,38 @@
           "g": "οτι"
         },
         {
-          "t": "dijere,",
+          "t": "dijere:",
           "s": "G2036"
         },
         {
-          "t": "Fatuo,",
+          "t": "Estúpido,",
           "s": "G3474",
           "m": "A-VSM",
           "g": "μωρε"
         },
         {
-          "t": "será",
-          "s": "G2071"
+          "t": "estará",
+          "s": "G1510",
+          "m": "V-FDI-3S",
+          "g": "εσται"
         },
         {
-          "t": "culpado",
+          "t": "en peligro",
           "s": "G1777",
           "m": "A-NSM",
           "g": "ενοχος"
         },
         {
-          "t": "del infierno",
-          "s": "G1067",
-          "m": "N-ASF",
-          "g": "γεενναν"
-        },
-        {
-          "t": "del fuego.",
+          "t": "del fuego",
           "s": "G4442",
           "m": "N-GSN",
           "g": "πυρος"
+        },
+        {
+          "t": "del infierno.",
+          "s": "G1067",
+          "m": "N-ASF",
+          "g": "γεενναν"
         }
       ],
       [
@@ -11849,7 +11854,7 @@
           "s": "G4675"
         },
         {
-          "t": "presente",
+          "t": "ofrenda",
           "s": "G1435",
           "m": "N-ASN",
           "g": "δωρον"
@@ -11917,7 +11922,7 @@
       ],
       [
         {
-          "t": "Deja",
+          "t": "deja",
           "s": "G863",
           "m": "V-2AAM-2S",
           "g": "αφες"
@@ -11933,7 +11938,7 @@
           "s": "G4675"
         },
         {
-          "t": "presente",
+          "t": "ofrenda",
           "s": "G1435",
           "m": "N-ASN",
           "g": "δωρον"
@@ -11961,22 +11966,22 @@
           "g": "και"
         },
         {
-          "t": "vete,",
+          "t": "ve,",
           "s": "G5217",
           "m": "V-PAM-2S",
           "g": "υπαγε"
         },
         {
-          "t": "vuelve primero",
-          "s": "G4412",
-          "m": "ADV-S",
-          "g": "πρωτον"
-        },
-        {
-          "t": "en amistad",
+          "t": "reconcíliate",
           "s": "G1259",
           "m": "V-2APM-2S",
           "g": "διαλλαγηθι"
+        },
+        {
+          "t": "primero",
+          "s": "G4412",
+          "m": "ADV-S",
+          "g": "πρωτον"
         },
         {
           "t": "con tu",
@@ -12013,7 +12018,7 @@
           "g": "και"
         },
         {
-          "t": "ofrece",
+          "t": "presenta",
           "s": "G4374",
           "m": "V-PAM-2S",
           "g": "προσφερε"
@@ -12023,7 +12028,7 @@
           "s": "G4675"
         },
         {
-          "t": "presente.",
+          "t": "ofrenda.",
           "s": "G1435",
           "m": "N-ASN",
           "g": "δωρον"

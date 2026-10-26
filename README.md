@@ -93,6 +93,7 @@ Each chapter has the plain text of every verse (`v`) and, in tagged Bibles, the 
    node scripts/build-concordance.mjs public/data/bibles/bsb-strong    public/data/concord/bsb-strong
    node scripts/build-concordance.mjs public/data/bibles/msb-strong    public/data/concord/msb-strong
    node scripts/build-concordance.mjs public/data/bibles/rv1909-strong public/data/concord/rv1909-strong
+   node scripts/build-concordance.mjs public/data/bibles/rvg-strong    public/data/concord/rvg-strong
    node scripts/build-concordance.mjs public/data/bibles/rvo-strong    public/data/concord/rvo-strong
    node scripts/build-concordance.mjs public/data/bibles/straubinger-strong public/data/concord/straubinger-strong
    ```

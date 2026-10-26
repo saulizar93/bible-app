@@ -2,5 +2,8 @@
   "_ayuda": "Notas del traductor de la RVO, aplicadas en cada ejecución de transform.py. Formato: \"Libro c:v\": { \"palabra(s)\": \"nota\" }. La palabra debe aparecer tal cual en el versículo de la RVO (después de las ediciones manuales, con su puntuación); \"*\" = nota sobre todo el versículo. En la aplicación aparece una † después de la palabra; al tocarla se muestra la nota. Luego ejecutar: python3 scripts/rvo/transform.py",
   "Mateo 1:25": {
     "primogénito;": "El texto crítico (CT) omite «primogénito». Lucas 2:7 contiene «primogénito» y no tiene variante."
+  },
+  "Mateo 5:22": {
+    "sin razón": "El texto crítico (CT) omite «sin razón» (εἰκῇ, G1500), siguiendo unos pocos manuscritos antiguos (𝔓64, Sinaítico, Vaticano). El Texto Recibido (TR) y el Texto Mayoritario (MT) lo incluyen."
   }
 }

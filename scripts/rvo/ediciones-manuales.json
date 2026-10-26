@@ -408,7 +408,43 @@
   },
   "Mateo 5:17": {
     "abrogar": "abolir",
-    "para abrogar,": "para abolir,",
-    "a cumplir.": "para cumplir."
+    "para abrogar,": "a abolir,"
+  },
+  "Mateo 5:18": {
+    "perezca": "pasen",
+    "ni un": "ni|G3361 una|G1520",
+    "perecerá": "pasará",
+    "hasta que todas las cosas sean hechas.": "hasta|G2193 que|G302 todo|G3956 se haya cumplido.|G1096"
+  },
+  "Mateo 5:19": {
+    "infringiere": "quebrantare",
+    "uno de estos mandamientos muy pequeños,": "aun el|G1520 más pequeño|G1646 de estos|G5130 mandamientos,|G1785",
+    "muy pequeño será llamado": "será llamado|G2564 el menor|G1646",
+    "hiciere": "los guardare",
+    "enseñare,": "los enseñare,"
+  },
+  "Mateo 5:20": {
+    "de los Fariseos,": "fariseos,|G5330"
+  },
+  "Mateo 5:21": {
+    "culpado": "culpable",
+    "del": "de"
+  },
+  "Mateo 5:22": {
+    "se enojare locamente con": "sin razón|G1500 se enojare contra|G3710",
+    "culpado del juicio;": "culpable|G1777 de juicio;|G2920",
+    "será culpado del concejo;": "será|G2071 culpable|G1777 ante el|G3588 concilio;|G4892",
+    "dijere, Fatuo,": "dijere:|G2036 Estúpido,|G3474",
+    "será culpado del infierno del fuego.": "estará|G1510 en peligro|G1777 del fuego|G4442 del infierno.|G1067"
+  },
+  "Mateo 5:23": {
+    "presente": "ofrenda"
+  },
+  "Mateo 5:24": {
+    "Deja": "deja",
+    "presente": "ofrenda",
+    "y vete,": "y|G2532 ve,|G5217",
+    "vuelve primero en amistad con tu hermano,": "reconcíliate|G1259 primero|G4412 con tu|G4675 hermano,|G80",
+    "ofrece tu presente.": "presenta|G4374 tu|G4675 ofrenda.|G1435"
   }
 }
