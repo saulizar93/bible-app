@@ -833,3 +833,7 @@
 ## 2026-10-26 — Lexicon: G4202 πορνεία rewritten (English + Spanish)
 
 - public/data/strongs/greek/4001.json: new def-en/def-es and outline/outline-es covering all 25 NT uses: root (πόρνη, πέρνημι) and range, listed beside adultery (Mt 15:19; Mk 7:21; Gal 5:19; Heb 13:4), sexual sin in general (1Co 6:13, 18; 1Th 4:3; Eph 5:3; Col 3:5; 1Co 7:2; Rom 1:29 TR; 2Co 12:21; Rev 9:21; 1Co 5:9-11; 6:9; Rev 21:8), incest (1Co 5:1), Jude 7, Baal-peor (1Co 10:8; Num 25:1), Jn 8:41, the apostolic decree (Ac 15:20, 29; 21:25; Lev 18 reading), the exception clause (Mt 5:32; 19:9) with three views (marital unfaithfulness / betrothal, Mt 1:19 / unlawful marriage, NABRE) and what they share (Mt 19:6), and the figurative sense (Hos 1:2; Ezek 16; Jer 3; Rev 2:20-21; 14:8; 17:2, 4; 18:3; 19:2). Quotes checked against KJV / RVG. Marked "manual": true. LEXICON_VERSION 36 -> 37.
+
+## 2026-10-26 — Lexicon: G3426 μόδιος rewritten (English + Spanish)
+
+- public/data/strongs/greek/3001.json: new def-en/def-es and outline/outline-es explaining the modius as a household grain measure (~8.7 L) and the tub that held it, why "bushel" / «almud» / «celemín» mislead on size, the lamp saying in all three uses (Mt 5:15; Mk 4:21; Lk 11:33; with Lk 8:16 "vessel"), lamp and lampstand (G3088, G3087), and other dry measures for comparison (χοῖνιξ Rev 6:6, σάτον Mt 13:33). Quotes checked against KJV / RVG. Marked "manual": true. LEXICON_VERSION 38 -> 39.
