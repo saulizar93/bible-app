@@ -130,8 +130,8 @@
       "Oísteis que fue dicho: No cometerás adulterio.",
       "Pero yo os digo, que cualquiera que mira a una mujer para codiciarla, ya adulteró con ella en su corazón.",
       "Por tanto, si tu ojo derecho te fuere ocasión de caer, sácalo, y échalo de ti: que mejor te es que se pierda uno de tus miembros, y no que todo tu cuerpo sea arrojado al infierno.",
-      "Y si tu mano derecha te fuere ocasión de caer, córtala, y échala de ti: que mejor te es que se pierda uno de tus miembros, que no que todo tu cuerpo sea echado al infierno.",
-      "También fue dicho: Cualquiera que repudiare a su mujer, déle carta de divorcio:",
+      "Y si tu mano derecha te fuere ocasión de caer, córtala, y échala de ti: que mejor te es que se pierda uno de tus miembros, y no que todo tu cuerpo sea arrojado al infierno.",
+      "También fue dicho: Cualquiera que repudiare a su mujer, déle carta de divorcio.",
       "Pero yo os digo, que el que repudiare a su mujer, fuera de causa de fornicación, hace que ella adultere; y el que se casare con la repudiada, comete adulterio.",
       "Además habéis oído que fue dicho a los antiguos: No te perjurarás; pero pagarás al Señor tus juramentos.",
       "Pero yo os digo: No juréis en ninguna manera: ni por el cielo, porque es el trono de Dios;",
@@ -12673,7 +12673,7 @@
           "g": "μελων"
         },
         {
-          "t": "que",
+          "t": "y",
           "s": "G2532",
           "m": "CONJ",
           "g": "και"
@@ -12701,7 +12701,7 @@
           "g": "σωμα"
         },
         {
-          "t": "sea echado",
+          "t": "sea arrojado",
           "s": "G906",
           "m": "V-APS-3S",
           "g": "βληθη"
@@ -12763,7 +12763,7 @@
           "g": "αυτη"
         },
         {
-          "t": "carta de divorcio:",
+          "t": "carta de divorcio.",
           "s": "G647",
           "m": "N-ASN",
           "g": "αποστασιον"
