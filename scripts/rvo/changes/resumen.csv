@@ -527,6 +527,7 @@ edición manual,diciendo:,diciendo:,,2
 edición manual,sueños,un sueño,,2
 edición manual,que dijo:,cuando dijo:,,2
 edición manual,hijo,el hijo,,2
+edición manual,para,para,,2
 edición manual,la tierra,tierra,,2
 edición manual,presente,ofrenda,,2
 edición manual,que no,y|g2532 no|g3361,,2
@@ -696,7 +697,6 @@ edición manual,"era preso,","había sido encarcelado,",,1
 edición manual,se volvió,regresó,,1
 edición manual,"a nazaret,","nazaret,",,1
 edición manual,los confines,la región,,1
-edición manual,para,para,,1
 edición manual,"de la mar,",del mar,,1
 edición manual,de la otra parte,al otro lado,,1
 edición manual,gentiles;,gentiles:,,1
@@ -783,6 +783,24 @@ edición manual,porque no acontezca,no sea|g3379,,1
 edición manual,prisión.,la cárcel.,,1
 edición manual,adulterarás:,cometerás adulterio.|g3431,,1
 edición manual,divorcio:,divorcio.,,1
+edición manual,que el,que|g3754 cualquiera|g302,,1
+edición manual,fuera de,a no ser por|g3924,,1
+edición manual,te perjurarás;,juraras falsamente;,,1
+edición manual,pero,sino que,,1
+edición manual,pagarás,cumplirás,,1
+edición manual,ni,ni,,1
+edición manual,un,un solo,,1
+edición manual,fue dicho a los antiguos:,fue dicho:|g4483,,1
+edición manual,mal;,que hace mal;,,1
+edición manual,"tu mejilla diestra,","tu mejilla|g4600 derecha,|g1188",,1
+edición manual,a pleito,pleito,,1
+edición manual,"tomarte tu ropa,","quitarte|g2983 la|g3588 túnica,|g5509",,1
+edición manual,cargare,obligue a llevar carga,,1
+edición manual,rehuses.,niegues.,,1
+edición manual,que su sol salga,salir|g393 su|g846 sol|g2246,,1
+edición manual,llueve,que hace llover,,1
+edición manual,"abrazareis a vuestros hermanos solamente,","saludáis|g782 solamente|g3440 a vuestros|g5216 hermanos,|g80",,1
+edición manual,gentiles?,gentiles?,,1
 empero → pero,empero,pero,,309
 empero → pero,yo empero,pero yo,,12
 empero → pero,esto empero,pero esto,,11
@@ -3988,6 +4006,7 @@ tetragrámaton (Dios/Señor) → YHWH,"oh dios,","oh yhwh,",,1
 tetragrámaton (Dios/Señor) → YHWH,"alegres á dios,","alegres á yhwh,",,1
 tetragrámaton (Dios/Señor) → YHWH,dios!,yhwh!,,1
 tetragrámaton (Dios/Señor) → YHWH,"al señor,","a yhwh,",,1
+token sin texto,los,,el número Strong se perdió en este versículo,2
 token sin texto,he aquí,,el número Strong se perdió en este versículo,1
 token sin texto,"jerusalén,",,el número Strong se perdió en este versículo,1
 token sin texto,aparecimiento,,el número Strong se perdió en este versículo,1
@@ -3998,7 +4017,6 @@ token sin texto,edad de,,el número Strong se perdió en este versículo,1
 token sin texto,y,,el número Strong se perdió en este versículo,1
 token sin texto,"ahora,",,el número Strong se perdió en este versículo,1
 token sin texto,"mucho,",,el número Strong se perdió en este versículo,1
-token sin texto,los,,el número Strong se perdió en este versículo,1
 token sin texto,échate,,el número Strong se perdió en este versículo,1
 token sin texto,te,,el número Strong se perdió en este versículo,1
 token sin texto,alzarán,,el número Strong se perdió en este versículo,1
@@ -4009,6 +4027,8 @@ token sin texto,dijeren,,el número Strong se perdió en este versículo,1
 token sin texto,todo mal,,el número Strong se perdió en este versículo,1
 token sin texto,ni,,el número Strong se perdió en este versículo,1
 token sin texto,tanto,,el número Strong se perdió en este versículo,1
+token sin texto,a,,el número Strong se perdió en este versículo,1
+token sin texto,antiguos:,,el número Strong se perdió en este versículo,1
 vianda → comida,vianda,comida,,16
 vianda → comida,viandas,comidas,,15
 á → a,á,a,,19324
