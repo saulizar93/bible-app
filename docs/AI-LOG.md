@@ -788,3 +788,12 @@
 ## 2026-10-25 — Lexicon: G4717 σταυρόω rewritten (English + Spanish)
 
 - public/data/strongs/greek/4501.json: new def-en/def-es and outline/outline-es: root (σταυρός + -όω; classical "fence with stakes", later "crucify"; LXX Esth 7:9; 8:12r; the Roman punishment), Jesus' crucifixion foretold (Mt 20:19; 26:2; Lk 24:7; Mt 23:34), demanded and carried out (Mt 27:22-23, 35, 38, 44; Jn 19:6, 10, 41; Mk 15:25; Lk 23:33; Mt 28:5; Mk 16:6; Rev 11:8), preached (Ac 2:36; 4:10; 1Co 1:13, 23; 2:2, 8; 2Co 13:4; Gal 3:1), figurative (Gal 5:24; 6:14; συσταυρόω Rom 6:6; Gal 2:20), related verbs (ἀνασταυρόω Heb 6:6; προσπήγνυμι Ac 2:23). Bible quotes checked against KJV / RVG. G4716 entry already open in this shard (both edits present). Marked "manual": true. LEXICON_VERSION 31 -> 32.
+
+## 2026-10-26 — Settings: hide the bottom pane; round + button to bring it back
+
+- src/components/SettingsModal/SettingsModal.jsx/.css: new "Show bottom pane" / «Mostrar el panel inferior» switch (role="switch") in its own section above "Default panes", with a hint about the + button. New `.settings-switch` styles.
+- src/App.jsx: `bottomHidden` state saved in localStorage `app_hide_bottom` ("1" = hidden). Hiding clears a verse selection made in the bottom pane. When hidden, a round + button (`.show-bottom-fab`, bottom right, 44px, safe-area aware, raised above the selection bar when it is open) shows the pane again; hiding is only possible from Settings. Compare: picking a translation that opens in the hidden bottom pane shows the pane again.
+- src/components/SplitPanes/SplitPanes.jsx: `hideSecond` prop — renders only the first pane at full size, no divider.
+- src/app.css: `.show-bottom-fab` styles.
+- Checked with @babel/parser and eslint (no errors/warnings); `npm run build` not run here (Windows node_modules), run it locally.
+- Follow-up: the "Show bottom pane" section (`.settings-bottom-toggle`) gets margin-top 22px, since it has no h3 and sat right under the Font buttons.

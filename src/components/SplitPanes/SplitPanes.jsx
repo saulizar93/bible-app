@@ -12,7 +12,7 @@ const MAX_PCT = 85;
  * this doesn't duplicate that breakpoint in JS, it just asks the DOM which
  * way things are currently laid out.
  */
-export default function SplitPanes({ children }) {
+export default function SplitPanes({ children, hideSecond = false }) {
   const [first, second] = children;
   const containerRef = useRef(null);
   const orientationRef = useRef("column");
@@ -43,6 +43,17 @@ export default function SplitPanes({ children }) {
   const endDrag = useCallback(() => {
     draggingRef.current = false;
   }, []);
+
+  // Bottom pane hidden (Settings): the first pane fills the space, no divider.
+  if (hideSecond) {
+    return (
+      <main className="panes" ref={containerRef}>
+        <div className="pane-slot" style={{ flex: "1 1 auto" }}>
+          {first}
+        </div>
+      </main>
+    );
+  }
 
   return (
     <main className="panes" ref={containerRef}>

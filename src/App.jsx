@@ -24,6 +24,8 @@ const STORAGE_KEYS = {
   // opens with them (instead of the last-used pane). Empty = remember last used.
   DEFAULT_TOP: "app_default_top",
   DEFAULT_BOTTOM: "app_default_bottom",
+  // "1" when the bottom pane is hidden (Settings toggle; the + button brings it back)
+  HIDE_BOTTOM: "app_hide_bottom",
 };
 
 /** A saved default pane code, if it still exists in PANE_OPTIONS. */
@@ -91,6 +93,24 @@ export default function App() {
   const [settings, setSettings] = useState(loadSettings); // reading text size + font
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [infoPage, setInfoPage] = useState(null); // id from pages.js, or null
+  const [bottomHidden, setBottomHidden] = useState(() => {
+    try {
+      return localStorage.getItem(STORAGE_KEYS.HIDE_BOTTOM) === "1";
+    } catch {
+      return false;
+    }
+  });
+  const changeBottomHidden = useCallback((hidden) => {
+    try {
+      if (hidden) localStorage.setItem(STORAGE_KEYS.HIDE_BOTTOM, "1");
+      else localStorage.removeItem(STORAGE_KEYS.HIDE_BOTTOM);
+    } catch {
+      /* storage unavailable: keep the choice for this session only */
+    }
+    setBottomHidden(hidden);
+    // a verse selection in the pane being hidden would leave a stray selection bar
+    if (hidden) setVerseSelection((prev) => (prev.source === bottom ? { source: null, verses: new Set() } : prev));
+  }, [bottom]);
   const [defaultPanes, setDefaultPanes] = useState(() => ({
     top: savedDefault(STORAGE_KEYS.DEFAULT_TOP),
     bottom: savedDefault(STORAGE_KEYS.DEFAULT_BOTTOM),
@@ -350,7 +370,12 @@ export default function App() {
   const pickFromCompare = useCallback(
     (code) => {
       const { source, verses } = verseSelection;
-      if (code !== source) (top === source ? setBottom : setTop)(code);
+      if (code !== source) {
+        if (top === source) {
+          setBottom(code);
+          if (bottomHidden) changeBottomHidden(false); // show where the comparison opened
+        } else setTop(code);
+      }
       const first = Math.min(...verses);
       setRefPos((prev) => ({
         ...prev,
@@ -359,7 +384,7 @@ export default function App() {
       setCompareOpen(false);
       setVerseSelection({ source: null, verses: new Set() });
     },
-    [verseSelection, top],
+    [verseSelection, top, bottomHidden, changeBottomHidden],
   );
 
   const handleCloseStrongs = useCallback(() => {
@@ -420,6 +445,8 @@ export default function App() {
           onThemeChange={setTheme}
           defaultPanes={defaultPanes}
           onDefaultPaneChange={changeDefaultPane}
+          bottomHidden={bottomHidden}
+          onBottomHiddenChange={changeBottomHidden}
           onOpenDownload={() => {
             setSettingsOpen(false);
             setSelection(null); // one side panel at a time
@@ -429,7 +456,7 @@ export default function App() {
       )}
 
       <div className="content-row">
-        <SplitPanes>
+        <SplitPanes hideSecond={bottomHidden}>
           <PaneSlot
             code={top}
             refPos={refPos}
@@ -518,6 +545,25 @@ export default function App() {
           </>
         )}
       </div>
+
+      {/* Bottom pane hidden in Settings: small round + button to bring it back */}
+      {bottomHidden && (
+        <button
+          type="button"
+          className={
+            verseSelection.verses.size > 0
+              ? "show-bottom-fab above-bar"
+              : "show-bottom-fab"
+          }
+          onClick={() => changeBottomHidden(false)}
+          aria-label={lang === "es" ? "Mostrar el panel inferior" : "Show the bottom pane"}
+          title={lang === "es" ? "Mostrar el panel inferior" : "Show the bottom pane"}
+        >
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+            <path d="M12 5v14M5 12h14" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" fill="none" />
+          </svg>
+        </button>
+      )}
 
       {verseSelection.verses.size > 0 && (
         <SelectionBar

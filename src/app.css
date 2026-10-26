@@ -160,3 +160,36 @@ body {
   margin-top: 4px;
   line-height: 1.2;
 }
+
+/* Round + button shown when the bottom pane is hidden (Settings); tapping it
+   shows the pane again. Below side panels/modals (z 20+), above the panes. */
+.show-bottom-fab {
+  position: fixed;
+  right: calc(16px + env(safe-area-inset-right, 0px));
+  bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+  z-index: 15;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--bg);
+  color: var(--fg);
+  box-shadow: 0 4px 14px rgb(0 0 0 / 0.2);
+  cursor: pointer;
+}
+.show-bottom-fab:active {
+  transform: scale(0.94);
+}
+.show-bottom-fab:focus-visible {
+  outline: 2px solid var(--fg);
+  outline-offset: 2px;
+}
+/* lift it above the verse selection bar (52px tall) while that is open */
+.show-bottom-fab.above-bar {
+  bottom: calc(68px + env(safe-area-inset-bottom, 0px));
+  z-index: 1001;
+}

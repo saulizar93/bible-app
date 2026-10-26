@@ -13,6 +13,9 @@ const T = {
     language: "Language",
     darkMode: "Dark mode",
     panes: "Default panes",
+    showBottom: "Show bottom pane",
+    showBottomHint:
+      "Turn off to read with one pane. Tap the + button at the bottom right of the screen to bring it back.",
     topPane: "Top pane",
     bottomPane: "Bottom pane",
     remember: "Remember last used",
@@ -45,6 +48,9 @@ const T = {
     language: "Idioma",
     darkMode: "Modo oscuro",
     panes: "Paneles predeterminados",
+    showBottom: "Mostrar el panel inferior",
+    showBottomHint:
+      "Desactívelo para leer con un solo panel. Toque el botón + en la esquina inferior derecha de la pantalla para volver a mostrarlo.",
     topPane: "Panel superior",
     bottomPane: "Panel inferior",
     remember: "Recordar el último usado",
@@ -87,6 +93,8 @@ export default function SettingsModal({
   onThemeChange,
   defaultPanes = { top: "", bottom: "" },
   onDefaultPaneChange,
+  bottomHidden = false,
+  onBottomHiddenChange,
   onOpenDownload,
 }) {
   const t = T[lang] || T.en;
@@ -251,6 +259,23 @@ export default function SettingsModal({
               </button>
             ))}
           </div>
+        </section>
+
+        <section className="settings-bottom-toggle">
+          <div className="settings-switch-row">
+            <span>{t.showBottom}</span>
+            <button
+              type="button"
+              role="switch"
+              aria-checked={!bottomHidden}
+              aria-label={t.showBottom}
+              className={bottomHidden ? "settings-switch" : "settings-switch on"}
+              onClick={() => onBottomHiddenChange?.(!bottomHidden)}
+            >
+              <span className="settings-switch-knob" aria-hidden="true" />
+            </button>
+          </div>
+          <p className="settings-hint">{t.showBottomHint}</p>
         </section>
 
         <section>
