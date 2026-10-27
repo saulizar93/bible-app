@@ -89,6 +89,10 @@ export const INFO_PAGES = [
     label: { en: "Sola Scriptura", es: "Sola Scriptura" },
   },
   {
+    id: "on-israel",
+    label: { en: "On Israel", es: "Sobre Israel" },
+  },
+  {
     id: "key-oneness-verses",
     label: { en: "Key Oneness verses", es: "Versículos clave de la Unicidad" },
   },
