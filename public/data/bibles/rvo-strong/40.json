@@ -151,13 +151,13 @@
       "Sed, pues, vosotros perfectos, como vuestro Padre que está en los cielos es perfecto."
     ],
     "6": [
-      "Mirad que no hagáis vuestra justicia delante de los hombres, para ser vistos de ellos: de otra manera no tendréis merced de vuestro Padre que está en los cielos.",
-      "Cuando pues haces limosna, no hagas tocar trompeta delante de ti, como hacen los hipócritas en las sinagogas y en las plazas, para ser estimados de los hombres: de cierto os digo, que ya tienen su recompensa.",
-      "Pero cuando tú haces limosna, no sepa tu izquierda lo que hace tu derecha;",
-      "Para que sea tu limosna en secreto: y tu Padre que ve en secreto, él te recompensará en público.",
-      "Y cuando oras, no seas como los hipócritas; porque ellos aman el orar en las sinagogas, y en los cantones de las calles en pie, para ser vistos de los hombres: de cierto os digo, que ya tienen su pago.",
-      "Pero tú, cuando oras, éntrate en tu cámara, y cerrada tu puerta, ora a tu Padre que está en secreto; y tu Padre que ve en secreto, te recompensará en público.",
-      "Y orando, no seáis prolijos, como los Gentiles; que piensan que por su parlería serán oídos.",
+      "Mirad que no hagáis vuestra justicia delante de los hombres, para ser vistos de ellos; de otra manera no tendréis recompensa de vuestro Padre que está en los cielos.",
+      "Cuando, pues, des limosna, no hagas tocar trompeta delante de ti, como hacen los hipócritas en las sinagogas y en las calles para ser alabados por los hombres; de cierto os digo que ya tienen su recompensa.",
+      "Pero cuando tú des limosna, que no sepa tu mano izquierda lo que hace tu mano derecha.",
+      "Pero que sea tu limosna en lo secreto, y tu Padre que ve en secreto, Él te recompensará en público.",
+      "Y cuando ores, no seas como los hipócritas; porque ellos aman el orar en pie en las sinagogas y en las esquinas de las calles, para ser vistos de los hombres. De cierto os digo, que ya tienen su recompensa.",
+      "Pero tú, cuando ores, éntrate en tu aposento, y cerrada tu puerta, ora a tu Padre que está en secreto; y tu Padre que ve en lo secreto, te recompensará en público.",
+      "Y cuando oréis, no uséis vanas repeticiones, como los gentiles; que piensan que por su palabrería serán oídos.",
       "No os hagáis, pues, semejantes a ellos; porque vuestro Padre sabe de qué cosas tenéis necesidad, antes que vosotros le pidáis.",
       "Vosotros pues, oraréis así: Padre nuestro que estás en los cielos, santificado sea tu nombre.",
       "Venga tu reino. Sea hecha tu voluntad, como en el cielo, así también en la tierra.",
@@ -14343,7 +14343,7 @@
           "g": "θεαθηναι"
         },
         {
-          "t": "de ellos:",
+          "t": "de ellos;",
           "s": "G846",
           "m": "P-DPM",
           "g": "αυτοις"
@@ -14365,7 +14365,7 @@
           "g": "εχετε"
         },
         {
-          "t": "merced",
+          "t": "recompensa",
           "s": "G3408",
           "m": "N-ASM",
           "g": "μισθον"
@@ -14407,19 +14407,19 @@
       ],
       [
         {
-          "t": "Cuando",
+          "t": "Cuando,",
           "s": "G3752",
           "m": "CONJ",
           "g": "οταν"
         },
         {
-          "t": "pues",
+          "t": "pues,",
           "s": "G3767",
           "m": "CONJ",
           "g": "ουν"
         },
         {
-          "t": "haces limosna,",
+          "t": "des limosna,",
           "s": "G1654",
           "m": "N-ASF",
           "g": "ελεημοσυνην"
@@ -14501,7 +14501,7 @@
           "s": "G3588"
         },
         {
-          "t": "plazas,",
+          "t": "calles",
           "s": "G4505",
           "m": "N-DPF",
           "g": "ρυμαις"
@@ -14513,17 +14513,29 @@
           "g": "οπως"
         },
         {
-          "t": "ser estimados",
+          "t": "ser",
           "s": "G1392",
           "m": "V-APS-3P",
           "g": "δοξασθωσιν"
         },
         {
-          "t": "de los",
+          "t": "alabados",
+          "s": "G1392",
+          "m": "V-APS-3P",
+          "g": "δοξασθωσιν"
+        },
+        {
+          "t": "por",
+          "s": "G5259",
+          "m": "PREP",
+          "g": "υπο"
+        },
+        {
+          "t": "los",
           "s": "G3588"
         },
         {
-          "t": "hombres:",
+          "t": "hombres;",
           "s": "G444",
           "m": "N-GPM",
           "g": "ανθρωπων"
@@ -14539,7 +14551,7 @@
           "s": "G5213"
         },
         {
-          "t": "digo,",
+          "t": "digo",
           "s": "G3004",
           "m": "V-PAI-1S",
           "g": "λεγω"
@@ -14575,13 +14587,13 @@
           "s": "G4675"
         },
         {
-          "t": "haces limosna,",
+          "t": "des limosna,",
           "s": "G1654",
           "m": "N-ASF",
           "g": "ελεημοσυνην"
         },
         {
-          "t": "no",
+          "t": "que no",
           "s": "G3361",
           "m": "PRT-N",
           "g": "μη"
@@ -14597,7 +14609,7 @@
           "s": "G4675"
         },
         {
-          "t": "izquierda",
+          "t": "mano izquierda",
           "s": "G710",
           "m": "A-NSF",
           "g": "αριστερα"
@@ -14619,7 +14631,7 @@
           "s": "G4675"
         },
         {
-          "t": "derecha;",
+          "t": "mano derecha.",
           "s": "G1188",
           "m": "A-NSF",
           "g": "δεξια"
@@ -14627,7 +14639,7 @@
       ],
       [
         {
-          "t": "Para que",
+          "t": "Pero que",
           "s": "G3704",
           "m": "ADV",
           "g": "οπως"
@@ -14653,7 +14665,13 @@
           "g": "εν"
         },
         {
-          "t": "secreto:",
+          "t": "lo",
+          "s": "G846",
+          "m": "P-NSM",
+          "g": "αυτος"
+        },
+        {
+          "t": "secreto,",
           "s": "G2927",
           "m": "A-DSN",
           "g": "κρυπτω"
@@ -14697,7 +14715,7 @@
           "g": "κρυπτω"
         },
         {
-          "t": "él te",
+          "t": "Él te",
           "s": "G4671"
         },
         {
@@ -14733,7 +14751,7 @@
           "g": "οταν"
         },
         {
-          "t": "oras,",
+          "t": "ores,",
           "s": "G4336",
           "m": "V-PNS-2S",
           "g": "προσευχη"
@@ -14783,11 +14801,17 @@
           "g": "προσευχεσθαι"
         },
         {
+          "t": "en pie",
+          "s": "G2476",
+          "m": "V-RAP-NPM",
+          "g": "εστωτες"
+        },
+        {
           "t": "en las",
           "s": "G3588"
         },
         {
-          "t": "sinagogas,",
+          "t": "sinagogas",
           "s": "G4864",
           "m": "N-DPF",
           "g": "συναγωγαις"
@@ -14799,11 +14823,11 @@
           "g": "εν"
         },
         {
-          "t": "los",
+          "t": "las",
           "s": "G3588"
         },
         {
-          "t": "cantones",
+          "t": "esquinas",
           "s": "G1137",
           "m": "N-DPF",
           "g": "γωνιαις"
@@ -14813,22 +14837,10 @@
           "s": "G3588"
         },
         {
-          "t": "calles",
+          "t": "calles,",
           "s": "G4113",
           "m": "N-GPF",
           "g": "πλατειων"
-        },
-        {
-          "t": "en",
-          "s": "G1722",
-          "m": "PREP",
-          "g": "εν"
-        },
-        {
-          "t": "pie,",
-          "s": "G2476",
-          "m": "V-RAP-NPM",
-          "g": "εστωτες"
         },
         {
           "t": "para",
@@ -14847,13 +14859,13 @@
           "s": "G3588"
         },
         {
-          "t": "hombres:",
+          "t": "hombres.",
           "s": "G444",
           "m": "N-DPM",
           "g": "ανθρωποις"
         },
         {
-          "t": "de cierto",
+          "t": "De cierto",
           "s": "G281",
           "m": "HEB",
           "g": "αμην"
@@ -14887,7 +14899,7 @@
           "g": "αυτων"
         },
         {
-          "t": "pago.",
+          "t": "recompensa.",
           "s": "G3408",
           "m": "N-ASM",
           "g": "μισθον"
@@ -14913,7 +14925,7 @@
           "g": "οταν"
         },
         {
-          "t": "oras,",
+          "t": "ores,",
           "s": "G4336",
           "m": "V-PNS-2S",
           "g": "προσευχη"
@@ -14935,7 +14947,7 @@
           "s": "G4675"
         },
         {
-          "t": "cámara,",
+          "t": "aposento,",
           "s": "G5009",
           "m": "N-ASN",
           "g": "ταμιειον"
@@ -15031,7 +15043,7 @@
           "g": "εν"
         },
         {
-          "t": "secreto,",
+          "t": "lo secreto,",
           "s": "G2927",
           "m": "A-DSN",
           "g": "κρυπτω"
@@ -15067,7 +15079,7 @@
           "g": "δε"
         },
         {
-          "t": "orando,",
+          "t": "cuando oréis,",
           "s": "G4336",
           "m": "V-PNP-NPM",
           "g": "προσευχομενοι"
@@ -15079,7 +15091,7 @@
           "g": "μη"
         },
         {
-          "t": "seáis prolijos,",
+          "t": "uséis vanas repeticiones,",
           "s": "G945",
           "m": "V-AAS-2P",
           "g": "βαττολογησητε"
@@ -15095,7 +15107,7 @@
           "s": "G3588"
         },
         {
-          "t": "Gentiles;",
+          "t": "gentiles;",
           "s": "G1483"
         },
         {
@@ -15129,7 +15141,7 @@
           "g": "αυτων"
         },
         {
-          "t": "parlería",
+          "t": "palabrería",
           "s": "G4180",
           "m": "N-DSF",
           "g": "πολυλογια"

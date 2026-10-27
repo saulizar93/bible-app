@@ -509,14 +509,45 @@
     "Gentiles?": "gentiles?"
   },
   "Mateo 6:1": {
+    "ellos:": "ellos;",
     "merced": "recompensa"
   },
   "Mateo 6:2": {
     "Cuando": "Cuando,",
     "pues": "pues,",
-    "haces limosna": "des limosna",
+    "haces limosna,": "des limosna,",
     "plazas,": "calles",
     "estimados de los hombres:": "alabados|G1392 por|G5259 los|G3588 hombres;|G444",
     "digo,": "digo"
+  },
+  "Mateo 6:3": {
+    "haces": "des",
+    "no sepa": "que no|G3361 sepa|G1097",
+    "izquierda": "mano izquierda",
+    "derecha;": "mano derecha."
+  },
+  "Mateo 6:4": {
+    "Para que sea": "Pero que|G3704 sea|G5600",
+    "secreto:": "secreto,",
+    "en secreto,": "en|G1722 lo|G846 secreto,|G2927",
+    "él": "Él"
+  },
+  "Mateo 6:5": {
+    "oras,": "ores,",
+    "en las sinagogas, y en los cantones de las calles en pie,": "en pie|G2476 en las|G3588 sinagogas|G4864 y en|G1722 las|G3588 esquinas|G1137 de las|G3588 calles,|G4113",
+    "hombres:": "hombres.",
+    "de cierto": "De cierto|G281",
+    "pago.": "recompensa."
+  },
+  "Mateo 6:6": {
+    "oras,": "ores,",
+    "cámara,": "aposento,",
+    "en secreto,": "en|G1722 lo secreto,|G2927"
+  },
+  "Mateo 6:7": {
+    "orando,": "cuando oréis,|G4336",
+    "no seáis prolijos,": "no|G3361 uséis vanas repeticiones,|G945",
+    "Gentiles;": "gentiles;",
+    "parlería": "palabrería"
   }
 }
