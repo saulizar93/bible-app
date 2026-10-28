@@ -4,12 +4,14 @@
  * App" panel (src/js/offline.js) downloads whole translations into it.
  *
  * Bump SHELL_VERSION to force every installed copy to drop its old shell. */
-const SHELL_VERSION = 4;
+const SHELL_VERSION = 5;
 const CACHE = `shell-v${SHELL_VERSION}`;
 const SCOPE = new URL(self.registration.scope);
 
-// data/ files handled by IndexedDB in the app — leave them to the network.
-const isAppData = (url) => /\/data\/(bibles|notes|strongs|concord)\//.test(url.pathname);
+// data/ files handled by IndexedDB in the app, and the data manifest (must always
+// be the server's current copy) — leave them to the network.
+const isAppData = (url) =>
+  /\/data\/(bibles|notes|strongs|concord)\//.test(url.pathname) || /\/data\/manifest\.json$/.test(url.pathname);
 
 self.addEventListener("install", (event) => {
   event.waitUntil(

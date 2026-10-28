@@ -9,8 +9,8 @@ Edit scripts/correcciones/correcciones.json, then run:
 
 It never changes the Bible text, only how its words are tagged. Safe to run any
 number of times: a correction that is already applied changes nothing. If a file
-changed, the matching concordance is rebuilt and DATA_VERSION / LEXICON_VERSION
-in src/js/data.js go up by one.
+changed, the matching concordance is rebuilt. (Versions are automatic: see
+scripts/build-manifest.mjs.)
 
 Format (see the "_ayuda" / "_help" lines in the JSON; "etiquetas"/"tags" and
 "notas"/"notes" are the same, and book names may be English or Spanish):
@@ -253,7 +253,7 @@ def main():
     if not changed_bibles:
         print('Nada que cambiar.')
         return
-    # rebuild concordances and bump cache versions
+    # rebuild concordances
     rebuilt = []
     for bible in sorted(changed_bibles):
         out = CONCORD_OF[bible]
@@ -262,12 +262,10 @@ def main():
         subprocess.run(['node', os.path.join(ROOT, 'scripts', 'build-concordance.mjs'),
                         os.path.join(BIBLES, bible), out], check=True)
         rebuilt.append(bible)
-    dj = os.path.join(ROOT, 'src', 'js', 'data.js')
-    s = open(dj, encoding='utf-8', newline='').read()
-    for name in ('DATA_VERSION',) + (('LEXICON_VERSION',) if rebuilt else ()):
-        s = re.sub(rf'(const {name} = )(\d+);', lambda m: f'{m.group(1)}{int(m.group(2)) + 1};', s, count=1)
-    open(dj, 'w', encoding='utf-8', newline='').write(s)
-    print('DATA_VERSION +1' + (f'; concordancias reconstruidas: {", ".join(rebuilt)}; LEXICON_VERSION +1' if rebuilt else ''))
+    # No version numbers to raise: scripts/build-manifest.mjs (run by npm run dev /
+    # npm run build) notices the changed files, and phones re-download only those.
+    print('Concordancias reconstruidas: ' + (', '.join(rebuilt) if rebuilt else 'ninguna') +
+          '. Ejecute npm run dev o npm run build para actualizar public/data/manifest.json.')
 
 if __name__ == '__main__':
     main()

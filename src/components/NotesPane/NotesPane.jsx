@@ -1,31 +1,32 @@
 import { useState, useEffect } from "react";
 import { byId } from "../../js/books.js";
-import { loadNotes, keyCovers, keyStart, optionFor, VERSIONS } from "../../js/data.js";
+import { loadNotes, keyCovers, keyStart, optionFor, packVersion } from "../../js/data.js";
 import "./NotesPane.css";
 
 export default function NotesPane({ lang, refPos, highlight, scroller }) {
-  const [notes, setNotes] = useState(null); // null = loading, {} = loaded-empty
-  const [error, setError] = useState(null);
   const bookNum = byId[refPos.book].n;
+  // The loaded result remembers which chapter it belongs to; while a new chapter
+  // loads, the old result simply doesn't match, so it counts as "loading" without
+  // resetting state inside the effect.
+  const want = `${lang}/${bookNum}/${refPos.chapter}`;
+  const [result, setResult] = useState({ key: null, notes: null, error: null });
+  const current = result.key === want;
+  const notes = current ? result.notes : null; // null = loading, {} = loaded-empty
+  const error = current ? result.error : null;
 
   useEffect(() => {
     let alive = true;
-    setNotes(null);
-    setError(null);
     loadNotes(lang, bookNum, refPos.chapter)
       .then((data) => {
-        if (alive) setNotes(data || {});
+        if (alive) setResult({ key: want, notes: data || {}, error: null });
       })
       .catch((e) => {
-        if (alive) {
-          setNotes({});
-          setError(e.message);
-        }
+        if (alive) setResult({ key: want, notes: {}, error: e.message });
       });
     return () => {
       alive = false;
     };
-  }, [lang, bookNum, refPos.chapter]);
+  }, [lang, bookNum, refPos.chapter, want]);
 
   useEffect(() => {
     if (!notes || !highlight) return;
@@ -85,7 +86,7 @@ export default function NotesPane({ lang, refPos, highlight, scroller }) {
       {noteEls}
       {copyright && (
         <p className="pane-copyright">
-          {copyright} {lang === "es" ? "Versión de las notas" : "Notes version"}: v{VERSIONS.notes}.
+          {copyright} {lang === "es" ? "Versión de las notas" : "Notes version"}: v{packVersion(`notes:${lang}`)}.
         </p>
       )}
     </>

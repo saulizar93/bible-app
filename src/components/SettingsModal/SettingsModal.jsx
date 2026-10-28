@@ -37,9 +37,9 @@ const T = {
     cancel: "Cancel",
     clearing: "Clearing…",
     clearHint:
-      "Deletes the Bibles, notes and lexicon saved on this device, plus all your settings, then reloads so the app downloads only the latest versions. Use this whenever you notice the Data, Notes, or Lexicon versions change so you don't store old data.",
+      "Deletes everything downloaded to this device (Bibles, notes and lexicon) and all your settings, then reloads. You don't need this to get updates: the app replaces old copies by itself. Use it only to free space, for example to start over and download just a few Bibles.",
     clearWarn:
-      "This also resets your language, text size, font, default panes and last-read position. Continue?",
+      "Everything you downloaded will have to be downloaded again, and your language, text size, font and last-read position are reset. Continue?",
     download: "Download App",
     downloadHint:
       "Install the app on this device and choose which Bibles and notes to keep for reading without an internet connection.",
@@ -71,9 +71,9 @@ const T = {
     cancel: "Cancelar",
     clearing: "Borrando…",
     clearHint:
-      "Elimina las Biblias, notas y léxico guardados en este dispositivo, junto con todos sus ajustes, y recarga para que la aplicación descargue solo las versiones más recientes. Usa esto cuando notes que la version de Datos, Notas, o Léxico cambió para no almacenar datos antiguos.",
+      "Elimina todo lo descargado en este dispositivo (Biblias, notas y léxico) y todos sus ajustes, y recarga la aplicación. No lo necesita para recibir actualizaciones: la aplicación reemplaza sola las copias antiguas. Úselo solo para liberar espacio, por ejemplo para empezar de nuevo y descargar solo algunas Biblias.",
     clearWarn:
-      "Esto también restablece su idioma, tamaño del texto, tipo de letra, paneles predeterminados y la última posición de lectura. ¿Continuar?",
+      "Tendrá que descargar de nuevo todo lo que descargó, y se restablecen su idioma, tamaño del texto, tipo de letra y la última posición de lectura. ¿Continuar?",
     download: "Descargar la aplicación",
     downloadHint:
       "Instale la aplicación en este dispositivo y elija qué Biblias y notas guardar para leer sin conexión a internet.",

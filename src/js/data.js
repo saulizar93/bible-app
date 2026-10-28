@@ -1,17 +1,51 @@
-import { get, set, clear } from "idb-keyval";
+import { get, set, del, keys, clear } from "idb-keyval";
 import { normalizeStrong } from "./strongsCode.js";
 
-const DATA_VERSION = 36; // bump to invalidate every cached Bible chapter
-const NOTES_VERSION = 2; // bump separately — notes change far more often
-const LEXICON_VERSION = 45; // bump when strongs/ or concord/ data is rebuilt
+/* ---------- versions: public/data/manifest.json ----------
+ * scripts/build-manifest.mjs (run before `npm run dev` / `npm run build`) gives every
+ * data file a short content hash and every pack (one Bible, one set of notes, the
+ * lexicon, one concordance) a version number that goes up only when its files change.
+ * Each file is stored on the device as "<file>@<hash>", so an update re-downloads only
+ * the files that changed, and pruneOldVersions() deletes the old copies once the new
+ * ones are stored. No version numbers to raise by hand. */
+let manifest = { packs: {}, files: {} };
+let manifestFresh = false; // true once this session has the server's current manifest
+const MANIFEST_KEY = "manifest";
 
-/** Shown to users (menu footer, notes authorship line) so they can tell when
- *  new data has been published and clear their saved copies in Settings. */
-export const VERSIONS = {
-  data: DATA_VERSION,
-  notes: NOTES_VERSION,
-  lexicon: LEXICON_VERSION,
-};
+/** Load the manifest before the app renders (src/main.jsx). Online: the server's
+ *  copy (saved for later); offline or slow: the last saved copy. */
+export async function initData() {
+  try {
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), 4000);
+    const res = await fetch(`${import.meta.env.BASE_URL}data/manifest.json`, {
+      cache: "no-cache",
+      signal: ctrl.signal,
+    });
+    clearTimeout(timer);
+    if (!res.ok) throw new Error(String(res.status));
+    manifest = await res.json();
+    manifestFresh = true;
+    set(MANIFEST_KEY, manifest).catch(() => {});
+  } catch {
+    try {
+      manifest = (await get(MANIFEST_KEY)) || manifest;
+    } catch {
+      /* storage blocked: keep the empty manifest; files load from the network */
+    }
+  }
+  // Tidy up after the app has started.
+  setTimeout(() => pruneOldVersions().catch(() => {}), 3000);
+}
+
+const fileHash = (rel) => manifest.files?.[rel] || "0";
+
+/** Version number of a pack ("bible:rvg-strong", "notes:es", "lexicon", "concord:rvg-strong"). */
+export const packVersion = (pack) => manifest.packs?.[pack]?.v || 1;
+/** Content signature of a pack: changes whenever any of its files changes. */
+export const packSig = (pack) => manifest.packs?.[pack]?.sig || "";
+/** Date the data was last published ("2026-10-28"), shown in the menu. */
+export const dataUpdated = () => manifest.updated || "";
 
 /** Books that have study notes (canonical numbers). Add a book here after
  *  building its notes with scripts/build-notes.mjs. */
@@ -209,21 +243,50 @@ export const strongsSourceCode = () =>
 /* ---------- memory -> IndexedDB -> network ---------- */
 
 const mem = new Map();
+const DEV = import.meta.env.DEV;
+
+/** Any stored copy of this file, whatever its version (offline fallback). */
+async function anyStoredVersion(key) {
+  const prefix = key.slice(0, key.lastIndexOf("@") + 1);
+  try {
+    const all = await keys();
+    const alt = all.find((k) => typeof k === "string" && k.startsWith(prefix) && k !== key);
+    return alt === undefined ? undefined : await get(alt);
+  } catch {
+    return undefined;
+  }
+}
 
 function cachedFetch(key, url) {
   if (mem.has(key)) return mem.get(key);
 
   const promise = (async () => {
-    try {
-      const cached = await get(key);
-      if (cached !== undefined) return cached;
-    } catch {
-      /* private mode, etc. — fall through to network */
+    // In `npm run dev` always read the file itself, so edits show at once
+    // (the manifest is only rebuilt when the dev server starts).
+    if (!DEV) {
+      try {
+        const cached = await get(key);
+        if (cached !== undefined) return cached;
+      } catch {
+        /* private mode, etc. — fall through to network */
+      }
     }
 
-    const res = await fetch(url);
+    let res;
+    try {
+      res = await fetch(url, DEV ? { cache: "no-store" } : undefined);
+    } catch (e) {
+      // Offline and this version isn't stored: use an older stored copy if there is one.
+      const old = await anyStoredVersion(key);
+      if (old !== undefined) return old;
+      throw e;
+    }
     if (res.status === 404) return null; // "nothing written yet" — not an error
-    if (!res.ok) throw new Error(`${url}: ${res.status}`);
+    if (!res.ok) {
+      const old = await anyStoredVersion(key);
+      if (old !== undefined) return old;
+      throw new Error(`${url}: ${res.status}`);
+    }
     let data;
     try {
       data = await res.json();
@@ -233,7 +296,7 @@ function cachedFetch(key, url) {
       // "not valid JSON" the same as "not found" rather than throwing.
       return null;
     }
-    set(key, data).catch(() => {});
+    if (!DEV) set(key, data).catch(() => {});
     return data;
   })();
 
@@ -244,24 +307,40 @@ function cachedFetch(key, url) {
 
 /* Cache keys + URLs for every kind of data file (shared with src/offline.js). */
 const BASE = import.meta.env.BASE_URL;
+// Key = "<kind>/<path>@<content hash>"; the part before "@" names the file.
+const entry = (kind, rel) => [
+  `${kind}/${rel}@${fileHash(`${kind === "bible" ? "bibles" : kind}/${rel}.json`)}`,
+  `${BASE}data/${kind === "bible" ? "bibles" : kind}/${rel}.json`,
+];
 export const SRC = {
-  book: (code, n) => [
-    `bible/${code}/${n}@${DATA_VERSION}`,
-    `${BASE}data/bibles/${code}/${n}.json`,
-  ],
-  notes: (lang, n, ch) => [
-    `notes/${lang}/${n}/${ch}@${NOTES_VERSION}`,
-    `${BASE}data/notes/${lang}/${n}/${ch}.json`,
-  ],
-  strongs: (lang, shard) => [
-    `strongs/${lang}/${shard}@${LEXICON_VERSION}`,
-    `${BASE}data/strongs/${lang}/${shard}.json`,
-  ],
-  concord: (dir, shard) => [
-    `concord/${dir}/${shard}@${LEXICON_VERSION}`,
-    `${BASE}data/concord/${dir}/${shard}.json`,
-  ],
+  book: (code, n) => entry("bible", `${code}/${n}`),
+  notes: (lang, n, ch) => entry("notes", `${lang}/${n}/${ch}`),
+  strongs: (lang, shard) => entry("strongs", `${lang}/${shard}`),
+  concord: (dir, shard) => entry("concord", `${dir}/${shard}`),
 };
+
+/** Delete stored copies of files that have a newer version stored, and of files
+ *  that no longer exist. A copy whose newer version isn't stored yet is kept, so
+ *  it can still be read offline (cachedFetch). Runs once after start-up and after
+ *  each download (offline.js). Only with the server's current manifest. */
+export async function pruneOldVersions() {
+  if (!manifestFresh) return 0;
+  const all = await keys();
+  const have = new Set(all);
+  let removed = 0;
+  for (const k of all) {
+    const m = typeof k === "string" && k.match(/^(bible|notes|strongs|concord)\/(.+)@([^@/]+)$/);
+    if (!m) continue;
+    const [, kind, rel, h] = m;
+    const current = manifest.files[`${kind === "bible" ? "bibles" : kind}/${rel}.json`];
+    if (h === current) continue;
+    if (!current || have.has(`${kind}/${rel}@${current}`)) {
+      await del(k);
+      removed++;
+    }
+  }
+  return removed;
+}
 
 /** Download one file straight into IndexedDB without keeping it in memory
  *  (used for "download for offline"). Resolves true if it is now stored,
@@ -318,10 +397,7 @@ export async function loadStrongsEntry(rawCode) {
   const num = parseInt(code.slice(1), 10);
   const shard = shardStart(num);
   const lang = langOf(code);
-  const data = await cachedFetch(
-    `strongs/${lang}/${shard}@${LEXICON_VERSION}`,
-    `${import.meta.env.BASE_URL}data/strongs/${lang}/${shard}.json`,
-  );
+  const data = await cachedFetch(...SRC.strongs(lang, shard));
   return data ? data[code] || null : null;
 }
 
@@ -334,10 +410,7 @@ export async function loadConcordance(rawCode, source) {
   const shard = shardStart(num);
   const lang = langOf(code);
   const dir = `${optionFor(source)?.concord ?? optionFor(strongsSourceCode())?.concord ?? ""}${lang}`;
-  const data = await cachedFetch(
-    `concord/${dir}/${shard}@${LEXICON_VERSION}`,
-    `${import.meta.env.BASE_URL}data/concord/${dir}/${shard}.json`,
-  );
+  const data = await cachedFetch(...SRC.concord(dir, shard));
   return (data && data[code]) || [];
 }
 

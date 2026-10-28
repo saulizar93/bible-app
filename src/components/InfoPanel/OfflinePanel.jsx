@@ -6,6 +6,7 @@ import {
   canPromptInstall,
   cancelDownload,
   downloadAll,
+  displayVersion,
   downloadPack,
   getState,
   isIOS,
@@ -119,7 +120,7 @@ export default function OfflinePanel({ lang = "en" }) {
                     <div className="offline-name">
                       <span>{o.label}</span>
                       <small>
-                        ≈ {approxSize(o)} MB{o.strongs ? ` · ${t.lexicon}` : ""}
+                        v{displayVersion(o.code)} · ≈ {approxSize(o)} MB{o.strongs ? ` · ${t.lexicon}` : ""}
                       </small>
                     </div>
                     <div className="offline-action">

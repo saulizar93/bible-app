@@ -39,7 +39,8 @@ git push
 | `public/data/strongs/`                   | Greek and Hebrew lexicon                                           |
 | `public/data/notes/`                     | Study notes (built from `sources/matthew-commentary-*.txt`)        |
 | `public/data/pages/`                     | Info pages of the ☰ menu (`<id>.en.md` / `<id>.es.md`)            |
-| `src/js/data.js`                         | List of Bibles shown in the app, and the **cache version numbers** |
+| `src/js/data.js`                         | List of Bibles shown in the app; how data is stored on the device |
+| `public/data/manifest.json`              | Generated data versions (section 6) — commit it with the data      |
 | `src/js/pages.js`                        | Order and titles of the info pages in the ☰ menu                  |
 | `scripts/`                               | Build and fix scripts                                              |
 | `sources/`                               | Original downloaded texts the Bibles were built from               |
@@ -89,7 +90,7 @@ python3 scripts/correcciones/aplicar.py
 - References use the full book name in English or Spanish (`"Matthew 5:24"`, `"Mateo 5:24"`). Other marks on a word, such as `r` (words of Jesus in red), are kept.
 - LSV uses the KJV's word search, so an LSV tag fix changes the word you tap but no search list.
 - Parsing and the Greek/Hebrew word are copied from a token with that number in the same verse, or from the KJV.
-- The script rebuilds that Bible's word search and raises `DATA_VERSION` / `LEXICON_VERSION` for you. It is safe to run any number of times and prints a `!` line for anything it could not apply.
+- The script rebuilds that Bible's word search for you (versions are automatic, section 6). It is safe to run any number of times and prints a `!` line for anything it could not apply.
 
 ### What a book file looks like
 
@@ -126,7 +127,7 @@ Each chapter has the plain text of every verse (`v`) and, in tagged Bibles, the 
 
    Text-only edits (spelling, punctuation) don't need it.
 
-2. **Raise the cache version** in `src/js/data.js` (see section 6).
+2. Run `npm run dev` or `npm run build` once so `public/data/manifest.json` is updated, and commit it with your change (section 6).
 3. Add a line to `docs/AI-LOG.md` saying what you changed and why.
 
 ### Fixes that must survive a rebuild
@@ -181,7 +182,7 @@ The RVO is **generated**: `scripts/rvo/transform.py` starts every time from the 
    node scripts/build-concordance.mjs public/data/bibles/rvo-strong public/data/concord/rvo-strong
    ```
 
-6. Raise `DATA_VERSION` in `src/js/data.js` (section 6), then commit and push.
+6. Commit and push (with `public/data/manifest.json`, see section 6).
 
 ### To add a translator's note
 
@@ -196,7 +197,7 @@ The RVO is **generated**: `scripts/rvo/transform.py` starts every time from the 
    - Several notes in one verse go in the same `{ }`, separated by commas.
 
 2. Run `python3 scripts/rvo/transform.py`. A line starting with `!` means the word was not found.
-3. Raise `DATA_VERSION` in `src/js/data.js`, then commit and push.
+3. Commit and push (with `public/data/manifest.json`, see section 6).
 
 In the app a gold **†** appears after the word (with Strong's on or off); tapping it opens the note under the verse. Tapping the word with Strong's on also shows the note at the top of the Strong's panel.
 
@@ -228,7 +229,7 @@ node scripts/build-notes.mjs sources/matthew-commentary-en.txt en MAT
 node scripts/build-notes.mjs sources/matthew-commentary-es.txt es MAT
 ```
 
-and raise `NOTES_VERSION` in `src/js/data.js`.
+then commit (with `public/data/manifest.json`, see section 6).
 
 ### Info pages (☰ menu)
 
@@ -239,18 +240,16 @@ and raise `NOTES_VERSION` in `src/js/data.js`.
 
 ---
 
-## 6. Cache version numbers (don't skip this)
+## 6. Data versions (automatic)
 
-Phones and installed apps keep the Bible chapters, notes and lexicon they have already loaded (and everything downloaded for offline use). They only fetch new copies when a version number at the top of `src/js/data.js` goes up. After changing data, raise the matching number by 1 before you publish:
+Phones and installed apps keep the Bible chapters, notes and lexicon they have loaded or downloaded. `scripts/build-manifest.mjs` writes `public/data/manifest.json` with a short fingerprint (hash) of every data file and a version number for every pack (each Bible, each set of notes, the lexicon, each concordance). It runs by itself before `npm run dev` and `npm run build`.
 
-| You changed                                                                 | Raise                             |
-| --------------------------------------------------------------------------- | --------------------------------- |
-| Any file in `public/data/bibles/` (text or tags)                            | `DATA_VERSION`                    |
-| Any concordance or lexicon (`public/data/concord/`, `public/data/strongs/`) | `LEXICON_VERSION`                 |
-| Study notes (`public/data/notes/`)                                          | `NOTES_VERSION`                   |
-| The app's offline shell itself (`public/sw.js`)                             | `SHELL_VERSION` in `public/sw.js` |
-
-One bump covers any number of changes made before the same push. After it, the app's Download page shows the downloaded Bibles as "update available".
+- The app stores each file under its fingerprint. When a file changes, the app downloads just that file the next time it is needed, and deletes the old copy once the new one is stored. Files that did not change are never downloaded again.
+- Offline, if the new copy of a file isn't on the phone yet, the app shows the old one until it can update.
+- A pack's version number (shown on the Download page, and for the notes under each chapter) goes up by 1 only when one of its files changed. A downloaded pack shows "Update available" when any of its files changed; "Update" fetches only the changed files.
+- **Commit `public/data/manifest.json` together with the data**, so the version numbers stay in step with what you publish. `node scripts/build-manifest.mjs --reset` starts every pack again at version 1.
+- During `npm run dev` the app always reads the files themselves (no saved copies), so your edits show right away.
+- The only version still raised by hand is `SHELL_VERSION` in `public/sw.js`, when the offline app shell itself changes.
 
 ---
 

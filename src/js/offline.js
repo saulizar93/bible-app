@@ -19,7 +19,9 @@ import {
   SRC,
   storeOffline,
   NOTES_BOOKS,
-  VERSIONS,
+  packSig,
+  packVersion as packNumber,
+  pruneOldVersions,
 } from "./data.js";
 
 const STATUS_KEY = "offline_status";
@@ -77,11 +79,25 @@ const GREEK_SHARDS = 12; // strongs/greek 1..5501 (G1–G5624)
 const HEBREW_SHARDS = 18; // strongs/hebrew 1..8501 (H1–H8674)
 const shards = (n) => Array.from({ length: n }, (_, i) => i * 500 + 1);
 
-/** Version string a pack must have been downloaded with to count as ready. */
-const packVersion = (opt) =>
+/** The manifest packs a download contains: the Bible (or notes), plus the lexicon
+ *  and its own concordance for Strong's Bibles. */
+const packsOf = (opt) =>
   opt.kind === "notes"
-    ? `n${VERSIONS.notes}`
-    : `d${VERSIONS.data}${opt.strongs ? `l${VERSIONS.lexicon}` : ""}`;
+    ? [`notes:${opt.lang}`]
+    : [
+        `bible:${opt.code}`,
+        ...(opt.strongs ? ["lexicon", `concord:${(opt.concord ?? "").replace(/\/$/, "") || "root"}`] : []),
+      ];
+
+/** Signature a download must match to count as ready; changes whenever any of
+ *  its files changes (see scripts/build-manifest.mjs). */
+const packVersion = (opt) => packsOf(opt).map(packSig).join(",");
+
+/** Version number shown on the Download page (the Bible's or notes' own number). */
+export const displayVersion = (code) => {
+  const opt = optionFor(code);
+  return opt ? packNumber(packsOf(opt)[0]) : 1;
+};
 
 function packFiles(opt) {
   if (opt.kind === "notes") {
@@ -181,6 +197,8 @@ export async function downloadPack(code) {
   try {
     await Promise.all(Array.from({ length: 4 }, worker));
     writeStatus({ ...readStatus(), [code]: packVersion(opt) });
+    // The new files are stored: drop the old copies they replace.
+    pruneOldVersions().catch(() => {});
   } catch (e) {
     if (e.name !== "AbortError") errors[code] = e.message || "Download failed";
   } finally {

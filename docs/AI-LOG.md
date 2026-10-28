@@ -863,3 +863,17 @@
 - src/js/settings.js: FONT_SCALES now 75-200% (50% removed; a saved 50% falls back to 100%). numScale removed from DEFAULT_SETTINGS / loadSettings / saveSettings and SETTINGS_KEYS (the old app_verse_num_scale value is ignored).
 - src/App.jsx: --verse-num-scale = text size / 100, so verse numbers grow and shrink with the text.
 - src/components/SettingsModal/SettingsModal.jsx: "Verse number size" section and its strings removed; the sample's verse number follows the text size.
+
+## 2026-10-28 — Automatic data versions; old copies pruned; offline fallback
+
+- Problem: downloaded data was stored as "<file>@<global version>" (DATA_VERSION 36, LEXICON_VERSION 45, NOTES_VERSION 2). Each bump left the old copies on the phone forever, made every downloaded Bible re-download completely, and offline readers could not open a Bible until they tapped Update.
+- New scripts/build-manifest.mjs -> public/data/manifest.json: a 10-hex SHA-1 of every file in public/data/{bibles,notes,strongs,concord} (CRLF normalized), and per pack (bible:<code>, notes:<lang>, lexicon, concord:<dir>|root) a version number that rises only when the pack's files change, plus an "updated" date. All packs reset to v1 (--reset). package.json: predev / prebuild run it, so CI builds and `npm run dev` always have a current manifest.
+- src/js/data.js: DATA_VERSION / NOTES_VERSION / LEXICON_VERSION / VERSIONS removed. initData() (awaited in src/main.jsx before rendering) loads the manifest (4 s timeout, then the saved copy). Keys are now "<kind>/<path>@<hash>" (SRC), so only changed files download. cachedFetch: offline or server error -> any older stored copy of the same file (anyStoredVersion). In DEV it skips the device cache. pruneOldVersions() deletes a copy only when the current one is stored or the file no longer exists (only with a fresh manifest); runs 3 s after start and after every pack download. Exports packVersion, packSig, dataUpdated.
+- src/js/offline.js: a pack's "ready" signature is the manifest sig of its packs (Bible or notes, + lexicon + its concordance for Strong's Bibles); displayVersion() for the panel. Old status strings show "Update available" once.
+- UI: menu footer shows "Data updated: <date>" (was the three version numbers); notes copyright line shows notes:<lang> version; Download page shows "v<n>" per item; Settings "Clear saved data" texts rewritten (only needed to free space / start over).
+- public/sw.js: data/manifest.json is never served from the shell cache; SHELL_VERSION 4 -> 5. scripts/correcciones/aplicar.py no longer edits data.js. README section 6 rewritten ("Data versions (automatic)") and the per-task steps updated.
+- Tested in Node with an in-memory store: new key format, old @36 copy pruned once the new one is stored, a file not re-downloaded keeps its old copy and is served offline, a removed file is pruned.
+
+## 2026-10-28 — NotesPane lint fix (setState in effect)
+
+- src/components/NotesPane/NotesPane.jsx: the effect no longer resets state synchronously (react-hooks/set-state-in-effect). The loaded result is stored with the chapter it belongs to ({ key, notes, error }); when the chapter changes, the old result doesn't match the wanted key, so the pane shows "Loading…" until the new one arrives. Same behavior, one render fewer per chapter change. eslint clean.
