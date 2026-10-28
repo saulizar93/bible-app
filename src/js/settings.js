@@ -7,11 +7,13 @@ export const FONT_SCALES = [50, 75, 100, 125, 150, 175, 200]; // percent of the 
 export const FONTS = [
   { id: "default", label: { en: "Default (Charter)", es: "Predeterminada (Charter)" },
     stack: 'Charter, Georgia, "Times New Roman", serif' },
-  { id: "georgia", label: { en: "Georgia", es: "Georgia" }, stack: 'Georgia, "Times New Roman", serif' },
+  // Oswald and Comic Relief are stored in the app (src/assets/fonts, @font-face in
+  // src/fonts.css), so they work offline; a file loads only when its font is used.
+  { id: "oswald", label: { en: "Oswald", es: "Oswald" }, stack: 'Oswald, "Arial Narrow", sans-serif' },
   { id: "times", label: { en: "Times New Roman", es: "Times New Roman" }, stack: '"Times New Roman", Times, serif' },
   { id: "arial", label: { en: "Arial", es: "Arial" }, stack: "Arial, Helvetica, sans-serif" },
   { id: "verdana", label: { en: "Verdana", es: "Verdana" }, stack: "Verdana, Geneva, sans-serif" },
-  { id: "helvetica", label: { en: "Helvetica", es: "Helvetica" }, stack: '"Helvetica Neue", Helvetica, Arial, sans-serif' },
+  { id: "comic", label: { en: "Comic Relief", es: "Comic Relief" }, stack: '"Comic Relief", "Comic Sans MS", cursive' },
 ];
 
 export const SETTINGS_KEYS = { SCALE: "app_font_scale", FONT: "app_font_family", NUM_SCALE: "app_verse_num_scale" };

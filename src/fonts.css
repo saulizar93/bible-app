@@ -1,0 +1,25 @@
+/* Reading fonts stored in the app (Settings ▸ Font). Both are SIL Open Font
+   License fonts from Google Fonts (licences next to the files), subset to Latin
+   (English, Spanish, accents, punctuation) and saved as .woff.
+   Neither has true italics; the browser slants them for <em>. */
+@font-face {
+  font-family: "Oswald";
+  src: url("./assets/fonts/Oswald-Variable.woff") format("woff");
+  font-weight: 200 700; /* variable font */
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Comic Relief";
+  src: url("./assets/fonts/ComicRelief-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Comic Relief";
+  src: url("./assets/fonts/ComicRelief-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

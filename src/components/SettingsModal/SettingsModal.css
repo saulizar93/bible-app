@@ -273,7 +273,7 @@
   outline-offset: 2px;
 }
 
-/* "Show bottom pane" on/off switch (above Default panes). Its section has no
+/* "Hide 2nd pane" on/off switch (above the hidden Default panes). Its section has no
    h3, so it gets its own top space to separate it from the Font buttons. */
 .settings-bottom-toggle {
   margin-top: 22px;

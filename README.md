@@ -277,3 +277,5 @@ Main scripts:
 ### Licences
 
 Check a source's licence before publishing a Bible built from it. The RVG module is CC BY-NC-ND (non-commercial, no derivatives), and the RV1909 Strong's tagging is distributed with permission to CrossWire; see `docs/AI-LOG.md` (RV1909 con Strong) and the copyright lines in `src/js/data.js`.
+
+The reading fonts Oswald and Comic Relief (`src/assets/fonts`, loaded by `src/fonts.css`) are under the SIL Open Font License; their licence files are kept next to them.

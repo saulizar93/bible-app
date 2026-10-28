@@ -5,6 +5,7 @@ import {
   DEFAULT_SETTINGS,
   fontStack,
 } from "../../js/settings.js";
+// eslint-disable-next-line no-unused-vars -- PANE_OPTIONS is used by the commented-out "Default panes" section
 import { PANE_OPTIONS, clearAllAppData } from "../../js/data.js";
 import "./SettingsModal.css";
 
@@ -13,9 +14,9 @@ const T = {
     language: "Language",
     darkMode: "Dark mode",
     panes: "Default panes",
-    showBottom: "Show bottom pane",
-    showBottomHint:
-      "Turn off to read with one pane. Tap the + button at the bottom right of the screen to bring it back.",
+    hideSecond: "Hide 2nd pane",
+    hideSecondHint:
+      "Turn on to read with one pane. Tap the + button at the bottom right of the screen to bring the 2nd pane back.",
     topPane: "Top pane",
     bottomPane: "Bottom pane",
     remember: "Remember last used",
@@ -48,9 +49,9 @@ const T = {
     language: "Idioma",
     darkMode: "Modo oscuro",
     panes: "Paneles predeterminados",
-    showBottom: "Mostrar el panel inferior",
-    showBottomHint:
-      "Desactívelo para leer con un solo panel. Toque el botón + en la esquina inferior derecha de la pantalla para volver a mostrarlo.",
+    hideSecond: "Ocultar el 2.º panel",
+    hideSecondHint:
+      "Actívelo para leer con un solo panel. Toque el botón + en la esquina inferior derecha de la pantalla para volver a mostrar el 2.º panel.",
     topPane: "Panel superior",
     bottomPane: "Panel inferior",
     remember: "Recordar el último usado",
@@ -91,7 +92,9 @@ export default function SettingsModal({
   onLangChange,
   theme = "dark",
   onThemeChange,
+  // eslint-disable-next-line no-unused-vars -- used by the commented-out "Default panes" section
   defaultPanes = { top: "", bottom: "" },
+  // eslint-disable-next-line no-unused-vars
   onDefaultPaneChange,
   bottomHidden = false,
   onBottomHiddenChange,
@@ -263,21 +266,25 @@ export default function SettingsModal({
 
         <section className="settings-bottom-toggle">
           <div className="settings-switch-row">
-            <span>{t.showBottom}</span>
+            <span>{t.hideSecond}</span>
+            {/* On = 2nd pane hidden. The + button (App.jsx) shows it again, which turns this off. */}
             <button
               type="button"
               role="switch"
-              aria-checked={!bottomHidden}
-              aria-label={t.showBottom}
-              className={bottomHidden ? "settings-switch" : "settings-switch on"}
+              aria-checked={bottomHidden}
+              aria-label={t.hideSecond}
+              className={bottomHidden ? "settings-switch on" : "settings-switch"}
               onClick={() => onBottomHiddenChange?.(!bottomHidden)}
             >
               <span className="settings-switch-knob" aria-hidden="true" />
             </button>
           </div>
-          <p className="settings-hint">{t.showBottomHint}</p>
+          <p className="settings-hint">{t.hideSecondHint}</p>
         </section>
 
+        {/* "Default panes" section — hidden for now (2026-10-28). To bring it back,
+            remove this comment's first and last lines; the strings, props and
+            App.jsx logic are all still in place.
         <section>
           <h3>{t.panes}</h3>
           {[
@@ -321,6 +328,7 @@ export default function SettingsModal({
           ))}
           <p className="settings-hint">{t.panesHint}</p>
         </section>
+        */}
 
         <section className="settings-storage">
           <h3>{t.storage}</h3>

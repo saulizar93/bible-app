@@ -4,7 +4,7 @@
  * App" panel (src/js/offline.js) downloads whole translations into it.
  *
  * Bump SHELL_VERSION to force every installed copy to drop its old shell. */
-const SHELL_VERSION = 2;
+const SHELL_VERSION = 4;
 const CACHE = `shell-v${SHELL_VERSION}`;
 const SCOPE = new URL(self.registration.scope);
 
@@ -23,6 +23,16 @@ self.addEventListener("install", (event) => {
       try {
         const html = await (await fetch(SCOPE.href, { cache: "no-store" })).text();
         const assets = [...html.matchAll(/(?:src|href)="([^"]+\.(?:js|css))"/g)].map((m) => new URL(m[1], SCOPE).href);
+        // Reading fonts (Oswald, Comic Relief) bundled in the CSS: cache them too, so they work offline.
+        for (const css of assets.filter((a) => a.endsWith(".css"))) {
+          try {
+            const text = await (await fetch(css)).text();
+            const fonts = [...text.matchAll(/url\(["']?([^"')]+\.woff2?)["']?\)/g)].map((m) => new URL(m[1], css).href);
+            assets.push(...fonts);
+          } catch {
+            /* not fatal */
+          }
+        }
         await cache.addAll(assets);
       } catch {
         /* offline during install — assets get cached on first use instead */
@@ -46,6 +56,7 @@ self.addEventListener("fetch", (event) => {
   const req = event.request;
   if (req.method !== "GET") return;
   const url = new URL(req.url);
+
   if (url.origin !== SCOPE.origin || !url.pathname.startsWith(SCOPE.pathname)) return;
   if (isAppData(url)) return;
 
