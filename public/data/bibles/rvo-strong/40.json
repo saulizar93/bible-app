@@ -166,12 +166,12 @@
       "Y no nos metas en tentación, mas líbranos del mal; porque tuyo es el reino, y el poder, y la gloria, por todos los siglos. Amén.",
       "Porque si perdonareis a los hombres sus ofensas, os perdonará también a vosotros vuestro Padre celestial.",
       "Pero si no perdonareis a los hombres sus ofensas, tampoco vuestro Padre os perdonará vuestras ofensas.",
-      "Y cuando ayunáis, no pongáis cara triste como los hipócritas; porque ellos desfiguran sus rostros para mostrar a los hombres que ayunan: de cierto os digo, que ya tienen su recompensa.",
-      "Pero tú, cuando ayunas, unge tu cabeza y lava tu rostro;",
-      "Para no parecer a los hombres que ayunas, sino a tu Padre que está en secreto: y tu Padre que ve en secreto, te recompensará en público.",
-      "No os hagáis tesoros en la tierra, donde la polilla y el orín corrompe, y donde ladrones minan y hurtan;",
-      "Pero haceos tesoros en el cielo, donde ni polilla ni orín corrompe, y donde ladrones no minan ni hurtan:",
-      "Porque donde estuviere vuestro tesoro, allí estará vuestro corazón.",
+      "Y cuando ayunáis, no pongáis cara triste como los hipócritas; porque ellos desfiguran sus rostros para mostrar a los hombres que ayunan. De cierto os digo, que ya tienen su recompensa.",
+      "Pero tú, cuando ayunes, unge tu cabeza y lava tu rostro;",
+      "para no mostrar a los hombres que ayunas, sino a tu Padre que está en secreto; y tu Padre que ve en lo secreto, te recompensará en público.",
+      "No os hagáis tesoros en la tierra, donde la polilla y el óxido corrompen, y donde ladrones se meten y roban.",
+      "Pero haceos tesoros en el cielo, donde ni polilla ni el óxido corrompen, y donde ladrones no se meten ni roban.",
+      "Porque donde esté vuestro tesoro, allí estará también vuestro corazón.",
       "La lámpara del cuerpo es el ojo: así que, si tu ojo fuere sincero, todo tu cuerpo será luminoso:",
       "Pero si tu ojo fuere malo, todo tu cuerpo será tenebroso. Así que, si la lumbre que en ti hay son tinieblas, ¿cuántas serán las mismas tinieblas?",
       "Ninguno puede servir a dos señores; porque o aborrecerá al uno y amará al otro, o se llegará al uno y menospreciará al otro: no podéis servir a Dios y a Mammón.",
@@ -15859,13 +15859,13 @@
           "g": "ανθρωποις"
         },
         {
-          "t": "que ayunan:",
+          "t": "que ayunan.",
           "s": "G3522",
           "m": "V-PAP-NPM",
           "g": "νηστευοντες"
         },
         {
-          "t": "de cierto",
+          "t": "De cierto",
           "s": "G281",
           "m": "HEB",
           "g": "αμην"
@@ -15917,7 +15917,7 @@
           "g": "συ"
         },
         {
-          "t": "cuando ayunas,",
+          "t": "cuando ayunes,",
           "s": "G3522",
           "m": "V-PAP-NSM",
           "g": "νηστευων"
@@ -15963,7 +15963,7 @@
       ],
       [
         {
-          "t": "Para",
+          "t": "para",
           "s": "G3704",
           "m": "ADV",
           "g": "οπως"
@@ -15975,7 +15975,7 @@
           "g": "μη"
         },
         {
-          "t": "parecer",
+          "t": "mostrar",
           "s": "G5316",
           "m": "V-2APS-2S",
           "g": "φανης"
@@ -16027,7 +16027,7 @@
           "g": "εν"
         },
         {
-          "t": "secreto:",
+          "t": "secreto;",
           "s": "G2927",
           "m": "A-DSN",
           "g": "κρυπτω"
@@ -16067,7 +16067,7 @@
           "g": "εν"
         },
         {
-          "t": "secreto,",
+          "t": "lo secreto,",
           "s": "G2927",
           "m": "A-DSN",
           "g": "κρυπτω"
@@ -16157,13 +16157,13 @@
           "g": "και"
         },
         {
-          "t": "el orín",
+          "t": "el óxido",
           "s": "G1035",
           "m": "N-NSF",
           "g": "βρωσις"
         },
         {
-          "t": "corrompe,",
+          "t": "corrompen,",
           "s": "G853",
           "m": "V-PAI-3S",
           "g": "αφανιζει"
@@ -16187,7 +16187,7 @@
           "g": "κλεπται"
         },
         {
-          "t": "minan",
+          "t": "se meten",
           "s": "G1358",
           "m": "V-PAI-3P",
           "g": "διορυσσουσιν"
@@ -16199,7 +16199,7 @@
           "g": "και"
         },
         {
-          "t": "hurtan;",
+          "t": "roban.",
           "s": "G2813",
           "m": "V-PAI-3P",
           "g": "κλεπτουσιν"
@@ -16259,13 +16259,13 @@
           "g": "ουτε"
         },
         {
-          "t": "orín",
+          "t": "el óxido",
           "s": "G1035",
           "m": "N-NSF",
           "g": "βρωσις"
         },
         {
-          "t": "corrompe,",
+          "t": "corrompen,",
           "s": "G853",
           "m": "V-PAI-3S",
           "g": "αφανιζει"
@@ -16295,7 +16295,7 @@
           "g": "ου"
         },
         {
-          "t": "minan",
+          "t": "se meten",
           "s": "G1358",
           "m": "V-PAI-3P",
           "g": "διορυσσουσιν"
@@ -16307,7 +16307,7 @@
           "g": "ουδε"
         },
         {
-          "t": "hurtan:",
+          "t": "roban.",
           "s": "G2813",
           "m": "V-PAI-3P",
           "g": "κλεπτουσιν"
@@ -16327,7 +16327,7 @@
           "g": "οπου"
         },
         {
-          "t": "estuviere",
+          "t": "esté",
           "s": "G2076"
         },
         {
@@ -16348,7 +16348,15 @@
         },
         {
           "t": "estará",
-          "s": "G2071"
+          "s": "G1510",
+          "m": "V-PAI-3S",
+          "g": "εστιν"
+        },
+        {
+          "t": "también",
+          "s": "G2532",
+          "m": "CONJ",
+          "g": "και"
         },
         {
           "t": "vuestro",

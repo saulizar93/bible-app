@@ -34,16 +34,52 @@
       },
       "Mateo 6:12": {
         "perdónanos": "perdónanos|G863"
+      },
+      "Mateo 6:21": {
+        "estará": "estará|G1510"
       }
     },
     "notas": {}
   },
   "rv1909-strong": {
-    "etiquetas": {},
+    "etiquetas": {
+      "Mateo 5:45": {
+        "salga sobre": "salga|G393 sobre|G1909"
+      },
+      "Mateo 6:8": {
+        "os hagáis, pues, semejantes": "os hagáis, pues, semejantes|G3666"
+      },
+      "Mateo 6:12": {
+        "perdónanos": "perdónanos|G863"
+      },
+      "Mateo 6:21": {
+        "estará": "estará|G1510"
+      }
+    },
     "notas": {}
   },
   "straubinger-strong": {
-    "etiquetas": {},
+    "etiquetas": {
+      "Mateo 5:24": {
+        "ofrenda delante": "ofrenda|G1435 delante|G1715",
+        "presenta": "presenta|G4374"
+      },
+      "Mateo 5:45": {
+        "que hace levantar": "que hace levantar|G393"
+      },
+      "Mateo 6:7": {
+        "cuando oráis,": "cuando oráis,|G4336"
+      },
+      "Mateo 6:8": {
+        "los imitéis,": "los imitéis,|G3666"
+      },
+      "Mateo 6:12": {
+        "perdónanos": "perdónanos|G863"
+      },
+      "Mateo 6:21": {
+        "estará": "estará|G1510"
+      }
+    },
     "notas": {}
   }
 }

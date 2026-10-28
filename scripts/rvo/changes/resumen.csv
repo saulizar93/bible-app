@@ -521,6 +521,7 @@ declarado → traducido,"interpretado,","traducido,",,1
 doncella → joven,doncellas,jóvenes,,23
 doncella → joven,doncella,joven,,9
 edición manual,y,y,,5
+edición manual,para,para,,3
 edición manual,jacob:,jacob;,,2
 edición manual,cristo.,mesías.,,2
 edición manual,diciendo:,diciendo:,,2
@@ -528,7 +529,6 @@ edición manual,sueños,un sueño,,2
 edición manual,que dijo:,cuando dijo:,,2
 edición manual,pues,"pues,",,2
 edición manual,hijo,el hijo,,2
-edición manual,para,para,,2
 edición manual,la tierra,tierra,,2
 edición manual,merced,recompensa,,2
 edición manual,presente,ofrenda,,2
@@ -536,6 +536,7 @@ edición manual,que no,y|g2532 no|g3361,,2
 edición manual,echado,arrojado,,2
 edición manual,"oras,","ores,",,2
 edición manual,pago.,recompensa.,,2
+edición manual,parecer,mostrar,,2
 edición manual,"de jesucristo,","de jesús|g2424 el mesías,|g5547",,1
 edición manual,isaac:,isaac;,,1
 edición manual,hermanos:,hermanos;,,1
@@ -834,7 +835,17 @@ edición manual,pero,mas,,1
 edición manual,mal:,mal;,,1
 edición manual,"no seáis como los hipócritas, austeros;",no|g3361 pongáis|g1096 cara triste|g4659 como|g5618 los|g3588 hipócritas;|g5273,,1
 edición manual,demudan,desfiguran,,1
-edición manual,parecer,mostrar,,1
+edición manual,ayunan:,ayunan.,,1
+edición manual,de,de,,1
+edición manual,"ayunas,","ayunes,",,1
+edición manual,secreto:,secreto;,,1
+edición manual,"secreto,","lo secreto,",,1
+edición manual,"el orín corrompe,","el óxido|g1035 corrompen,|g853",,1
+edición manual,minan y hurtan;,se meten|g1358 y|g2532 roban.|g2813,,1
+edición manual,"orín corrompe,","el óxido|g1035 corrompen,|g853",,1
+edición manual,minan ni hurtan:,se meten|g1358 ni|g3761 roban.|g2813,,1
+edición manual,estuviere,esté,,1
+edición manual,estará,estará|g1510 también|g2532,,1
 empero → pero,empero,pero,,309
 empero → pero,yo empero,pero yo,,12
 empero → pero,esto empero,pero esto,,11
@@ -4069,6 +4080,7 @@ token sin texto,"pues,",,el número Strong se perdió en este versículo,1
 token sin texto,danos,,el número Strong se perdió en este versículo,1
 token sin texto,nuestro,,el número Strong se perdió en este versículo,1
 token sin texto,perdónanos,,el número Strong se perdió en este versículo,1
+token sin texto,estará,,el número Strong se perdió en este versículo,1
 vianda → comida,vianda,comida,,16
 vianda → comida,viandas,comidas,,15
 á → a,á,a,,19324
