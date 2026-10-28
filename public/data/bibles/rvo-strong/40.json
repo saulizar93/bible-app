@@ -158,15 +158,15 @@
       "Y cuando ores, no seas como los hipócritas; porque ellos aman el orar en pie en las sinagogas y en las esquinas de las calles, para ser vistos de los hombres. De cierto os digo, que ya tienen su recompensa.",
       "Pero tú, cuando ores, éntrate en tu aposento, y cerrada tu puerta, ora a tu Padre que está en secreto; y tu Padre que ve en lo secreto, te recompensará en público.",
       "Y cuando oréis, no uséis vanas repeticiones, como los gentiles; que piensan que por su palabrería serán oídos.",
-      "No os hagáis, pues, semejantes a ellos; porque vuestro Padre sabe de qué cosas tenéis necesidad, antes que vosotros le pidáis.",
+      "No seáis, pues, semejantes a ellos; porque vuestro Padre sabe de qué cosas tenéis necesidad, antes que vosotros le pidáis.",
       "Vosotros pues, oraréis así: Padre nuestro que estás en los cielos, santificado sea tu nombre.",
-      "Venga tu reino. Sea hecha tu voluntad, como en el cielo, así también en la tierra.",
-      "Danos hoy nuestro pan cotidiano.",
+      "Venga tu reino. Hágase tu voluntad, como en el cielo, así también en la tierra.",
+      "El pan nuestro de cada día, dánoslo hoy.",
       "Y perdónanos nuestras deudas, como también nosotros perdonamos a nuestros deudores.",
-      "Y no nos metas en tentación, pero líbranos del mal: porque tuyo es el reino, y el poder, y la gloria, por todos los siglos. Amén.",
+      "Y no nos metas en tentación, mas líbranos del mal; porque tuyo es el reino, y el poder, y la gloria, por todos los siglos. Amén.",
       "Porque si perdonareis a los hombres sus ofensas, os perdonará también a vosotros vuestro Padre celestial.",
       "Pero si no perdonareis a los hombres sus ofensas, tampoco vuestro Padre os perdonará vuestras ofensas.",
-      "Y cuando ayunáis, no seáis como los hipócritas, austeros; porque ellos demudan sus rostros para parecer a los hombres que ayunan: de cierto os digo, que ya tienen su pago.",
+      "Y cuando ayunáis, no pongáis cara triste como los hipócritas; porque ellos desfiguran sus rostros para mostrar a los hombres que ayunan: de cierto os digo, que ya tienen su recompensa.",
       "Pero tú, cuando ayunas, unge tu cabeza y lava tu rostro;",
       "Para no parecer a los hombres que ayunas, sino a tu Padre que está en secreto: y tu Padre que ve en secreto, te recompensará en público.",
       "No os hagáis tesoros en la tierra, donde la polilla y el orín corrompe, y donde ladrones minan y hurtan;",
@@ -15161,19 +15161,7 @@
           "g": "μη"
         },
         {
-          "t": "os"
-        },
-        {
-          "t": "hagáis,"
-        },
-        {
-          "t": "pues,",
-          "s": "G3767",
-          "m": "CONJ",
-          "g": "ουν"
-        },
-        {
-          "t": "semejantes",
+          "t": "seáis, pues, semejantes",
           "s": "G3666",
           "m": "V-APS-2P",
           "g": "ομοιωθητε"
@@ -15339,7 +15327,7 @@
           "g": "βασιλεια"
         },
         {
-          "t": "Sea hecha",
+          "t": "Hágase",
           "s": "G1096",
           "m": "V-AOM-3S",
           "g": "γενηθητω"
@@ -15395,18 +15383,8 @@
       ],
       [
         {
-          "t": "Danos",
-          "s": "G2254"
-        },
-        {
-          "t": "hoy",
-          "s": "G4594",
-          "m": "ADV",
-          "g": "σημερον"
-        },
-        {
-          "t": "nuestro",
-          "s": "G2257"
+          "t": "El",
+          "s": "G3588"
         },
         {
           "t": "pan",
@@ -15415,7 +15393,25 @@
           "g": "αρτον"
         },
         {
-          "t": "cotidiano.",
+          "t": "nuestro",
+          "s": "G1473",
+          "m": "P-1DP",
+          "g": "ημιν"
+        },
+        {
+          "t": "de cada día,",
+          "s": "G1967",
+          "m": "A-ASM",
+          "g": "επιουσιον"
+        },
+        {
+          "t": "dánoslo",
+          "s": "G1325",
+          "m": "V-2AAM-2S",
+          "g": "δος"
+        },
+        {
+          "t": "hoy.",
           "s": "G4594",
           "m": "ADV",
           "g": "σημερον"
@@ -15430,7 +15426,9 @@
         },
         {
           "t": "perdónanos",
-          "s": "G2254"
+          "s": "G863",
+          "m": "V-2AAM-2S",
+          "g": "αφες"
         },
         {
           "t": "nuestras",
@@ -15511,7 +15509,7 @@
           "g": "πειρασμον"
         },
         {
-          "t": "pero",
+          "t": "mas",
           "s": "G235",
           "m": "CONJ",
           "g": "αλλα"
@@ -15527,7 +15525,7 @@
           "g": "απο"
         },
         {
-          "t": "mal:",
+          "t": "mal;",
           "s": "G4190",
           "m": "A-GSM",
           "g": "πονηρου"
@@ -15787,10 +15785,16 @@
           "g": "μη"
         },
         {
-          "t": "seáis",
+          "t": "pongáis",
           "s": "G1096",
           "m": "V-PNM-2P",
           "g": "γινεσθε"
+        },
+        {
+          "t": "cara triste",
+          "s": "G4659",
+          "m": "A-NPM",
+          "g": "σκυθρωποι"
         },
         {
           "t": "como",
@@ -15803,16 +15807,10 @@
           "s": "G3588"
         },
         {
-          "t": "hipócritas,",
+          "t": "hipócritas;",
           "s": "G5273",
           "m": "N-NPM",
           "g": "υποκριται"
-        },
-        {
-          "t": "austeros;",
-          "s": "G4659",
-          "m": "A-NPM",
-          "g": "σκυθρωποι"
         },
         {
           "t": "porque",
@@ -15821,7 +15819,7 @@
           "g": "γαρ"
         },
         {
-          "t": "ellos demudan",
+          "t": "ellos desfiguran",
           "s": "G853",
           "m": "V-PAI-3P",
           "g": "αφανιζουσιν"
@@ -15845,7 +15843,7 @@
           "g": "οπως"
         },
         {
-          "t": "parecer",
+          "t": "mostrar",
           "s": "G5316",
           "m": "V-2APS-3P",
           "g": "φανωσιν"
@@ -15899,7 +15897,7 @@
           "g": "αυτων"
         },
         {
-          "t": "pago.",
+          "t": "recompensa.",
           "s": "G3408",
           "m": "N-ASM",
           "g": "μισθον"

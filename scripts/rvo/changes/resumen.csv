@@ -535,6 +535,7 @@ edición manual,presente,ofrenda,,2
 edición manual,que no,y|g2532 no|g3361,,2
 edición manual,echado,arrojado,,2
 edición manual,"oras,","ores,",,2
+edición manual,pago.,recompensa.,,2
 edición manual,"de jesucristo,","de jesús|g2424 el mesías,|g5547",,1
 edición manual,isaac:,isaac;,,1
 edición manual,hermanos:,hermanos;,,1
@@ -819,13 +820,21 @@ edición manual,él,él,,1
 edición manual,"en las sinagogas, y en los cantones de las calles en pie,","en pie|g2476 en las|g3588 sinagogas|g4864 y en|g1722 las|g3588 esquinas|g1137 de las|g3588 calles,|g4113",,1
 edición manual,hombres:,hombres.,,1
 edición manual,de cierto,de cierto|g281,,1
-edición manual,pago.,recompensa.,,1
 edición manual,"cámara,","aposento,",,1
 edición manual,"en secreto,","en|g1722 lo secreto,|g2927",,1
 edición manual,"orando,","cuando oréis,|g4336",,1
 edición manual,"no seáis prolijos,","no|g3361 uséis vanas repeticiones,|g945",,1
 edición manual,gentiles;,gentiles;,,1
 edición manual,parlería,palabrería,,1
+edición manual,"os hagáis, pues, semejantes","seáis, pues, semejantes|g3666",,1
+edición manual,sea hecha,hágase,,1
+edición manual,danos hoy nuestro pan cotidiano.,"el|g3588 pan|g740 nuestro|g1473 de cada día,|g1967  dánoslo|g1325  hoy.|g4594",,1
+edición manual,perdónanos,perdónanos|g863,,1
+edición manual,pero,mas,,1
+edición manual,mal:,mal;,,1
+edición manual,"no seáis como los hipócritas, austeros;",no|g3361 pongáis|g1096 cara triste|g4659 como|g5618 los|g3588 hipócritas;|g5273,,1
+edición manual,demudan,desfiguran,,1
+edición manual,parecer,mostrar,,1
 empero → pero,empero,pero,,309
 empero → pero,yo empero,pero yo,,12
 empero → pero,esto empero,pero esto,,11
@@ -4054,6 +4063,12 @@ token sin texto,ni,,el número Strong se perdió en este versículo,1
 token sin texto,tanto,,el número Strong se perdió en este versículo,1
 token sin texto,a,,el número Strong se perdió en este versículo,1
 token sin texto,antiguos:,,el número Strong se perdió en este versículo,1
+token sin texto,os,,el número Strong se perdió en este versículo,1
+token sin texto,"hagáis,",,el número Strong se perdió en este versículo,1
+token sin texto,"pues,",,el número Strong se perdió en este versículo,1
+token sin texto,danos,,el número Strong se perdió en este versículo,1
+token sin texto,nuestro,,el número Strong se perdió en este versículo,1
+token sin texto,perdónanos,,el número Strong se perdió en este versículo,1
 vianda → comida,vianda,comida,,16
 vianda → comida,viandas,comidas,,15
 á → a,á,a,,19324
