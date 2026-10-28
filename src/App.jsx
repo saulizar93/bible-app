@@ -407,7 +407,7 @@ export default function App() {
         // read by .pane-body (PaneSlot.css) and .vnum (BiblePane.css)
         "--reading-scale": settings.scale / 100,
         "--reading-font": fontStack(settings.font),
-        "--verse-num-scale": settings.numScale / 100,
+        "--verse-num-scale": settings.scale / 100, // verse numbers follow the text size
       }}
     >
       {/* First-time Language Selection Modal */}

@@ -27,7 +27,6 @@ const T = {
     groupNotes: "Study notes",
     title: "Reading settings",
     size: "Text size",
-    numSize: "Verse number size",
     font: "Font",
     sample: "In the beginning God created the heaven and the earth.",
     reset: "Reset",
@@ -62,7 +61,6 @@ const T = {
     groupNotes: "Notas de estudio",
     title: "Ajustes de lectura",
     size: "Tamaño del texto",
-    numSize: "Tamaño de los números de versículo",
     font: "Tipo de letra",
     sample: "En el principio creó Dios los cielos y la tierra.",
     reset: "Restablecer",
@@ -191,7 +189,7 @@ export default function SettingsModal({
           <span
             className="settings-sample-num"
             style={{
-              fontSize: `max(8px, calc(12px * ${settings.numScale / 100}))`,
+              fontSize: `max(8px, calc(12px * ${settings.scale / 100}))`,
             }}
           >
             1
@@ -212,30 +210,6 @@ export default function SettingsModal({
                   settings.scale === s ? "settings-chip on" : "settings-chip"
                 }
                 onClick={() => onChange({ ...settings, scale: s })}
-              >
-                {s}%
-              </button>
-            ))}
-          </div>
-        </section>
-
-        <section>
-          <h3>{t.numSize}</h3>
-          <div
-            className="settings-chips"
-            role="radiogroup"
-            aria-label={t.numSize}
-          >
-            {FONT_SCALES.map((s) => (
-              <button
-                key={s}
-                type="button"
-                role="radio"
-                aria-checked={settings.numScale === s}
-                className={
-                  settings.numScale === s ? "settings-chip on" : "settings-chip"
-                }
-                onClick={() => onChange({ ...settings, numScale: s })}
               >
                 {s}%
               </button>

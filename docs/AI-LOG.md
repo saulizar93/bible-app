@@ -857,3 +857,9 @@
 - public/sw.js: fonts.googleapis.com / fonts.gstatic.com cached (cache first) so a chosen font works offline; SHELL_VERSION 2 -> 3.
 - Fonts could not be self-hosted: neither the dev machine nor the cloud session could reach npm or Google Fonts.
 - Follow-up: Roboto replaced by **Oswald** (`oswald`, stack Oswald, "Arial Narrow"). Both fonts are now stored in the project instead of loaded from Google Fonts: src/assets/fonts/Oswald-Variable.woff (weights 200-700), ComicRelief-Regular.woff, ComicRelief-Bold.woff, from the google/fonts repository (SIL OFL; Oswald-OFL.txt and ComicRelief-OFL.txt beside them), subset with fontTools to Latin (Basic, Latin-1, Extended-A/B, combining marks, Extended Additional, general punctuation, €, ™, arrows; checked: á é í ó ú ñ ¿ ¡ « » — ’ “ ” †). New src/fonts.css (@font-face, font-display: swap) imported in src/main.jsx. The Google Fonts <link> and the sw.js Google Fonts handler were removed; sw.js install now also precaches the .woff files referenced by the built CSS. SHELL_VERSION 3 -> 4. README licences note added.
+
+## 2026-10-28 — Settings: one text size for text and verse numbers; 50% removed
+
+- src/js/settings.js: FONT_SCALES now 75-200% (50% removed; a saved 50% falls back to 100%). numScale removed from DEFAULT_SETTINGS / loadSettings / saveSettings and SETTINGS_KEYS (the old app_verse_num_scale value is ignored).
+- src/App.jsx: --verse-num-scale = text size / 100, so verse numbers grow and shrink with the text.
+- src/components/SettingsModal/SettingsModal.jsx: "Verse number size" section and its strings removed; the sample's verse number follows the text size.
