@@ -174,17 +174,17 @@
       "Porque donde esté vuestro tesoro, allí estará también vuestro corazón.",
       "La lámpara del cuerpo es el ojo: así que, si tu ojo fuere bueno, todo tu cuerpo estará lleno de luz.",
       "Pero si tu ojo fuere malo, todo tu cuerpo estará en tinieblas. Así que, si la luz que hay en ti es oscuridad, ¡cuán grande es esa oscuridad!",
-      "Ninguno puede servir a dos señores; porque o aborrecerá al uno y amará al otro, o se llegará al uno y menospreciará al otro: no podéis servir a Dios y a Mammón.",
-      "Por tanto os digo: No os congojéis por vuestra vida, qué habéis de comer, o qué habéis de beber; ni por vuestro cuerpo, qué habéis de vestir: ¿no es la vida más que el alimento, y el cuerpo que el vestido?",
-      "Mirad las aves del cielo, que no siembran, ni siegan, ni allegan en alfolíes; y vuestro Padre celestial las alimenta. ¿No sois vosotros mucho mejores que ellas?",
-      "Pero ¿quién de vosotros podrá, congojándose, añadir a su estatura un codo?",
-      "Y por el vestido ¿por qué os congojáis? Reparad los lirios del campo, cómo crecen; no trabajan ni hilan;",
-      "Pero os digo, que ni aun Salomón con toda su gloria fue vestido así como uno de ellos.",
+      "Ninguno puede servir a dos señores; porque o aborrecerá al uno y amará al otro, o apreciará al uno y menospreciará al otro: no podéis servir a Dios y a Mammón.",
+      "Por tanto os digo: No os afanéis por vuestra vida, qué habéis de comer, o qué habéis de beber; ni por vuestro cuerpo, qué habéis de vestir: ¿no es la vida más que el alimento, y el cuerpo que el vestido?",
+      "Mirad las aves del cielo, que no siembran, ni siegan, ni recogen en graneros; y vuestro Padre celestial las alimenta. ¿No sois vosotros mucho mejores que ellas?",
+      "Pero ¿quién de vosotros podrá, por mucho que se afane, añadir a su estatura un codo?",
+      "Y por el vestido ¿por qué os afanáis? Considerad los lirios del campo, cómo crecen; no trabajan ni hilan;",
+      "pero os digo, que ni aun Salomón con toda su gloria se vistió así como uno de ellos.",
       "Y si la hierba del campo que hoy es, y mañana es echada en el horno, Dios la viste así, ¿no hará mucho más a vosotros, hombres de poca fe?",
-      "No os congojéis pues, diciendo: ¿Qué comeremos, o qué beberemos, o con qué nos cubriremos?",
-      "Porque los Gentiles buscan todas estas cosas: que vuestro Padre celestial sabe que de todas estas cosas habéis menester.",
-      "Pero buscad primeramente el reino de Dios y su justicia, y todas estas cosas os serán añadidas.",
-      "Así que, no os congojéis por el día de mañana; que el día de mañana traerá su fatiga: basta al día su afán."
+      "No os preocupéis pues, diciendo: ¿Qué comeremos, o qué beberemos, o con qué nos cubriremos?",
+      "Porque los gentiles buscan todas estas cosas; pero vuestro Padre celestial sabe que tenéis necesidad de todas estas cosas.",
+      "Buscad, pues, primeramente el reino de Dios y su justicia, y todas estas cosas os serán añadidas.",
+      "Así que, no os preocupéis por el día de mañana; porque el día de mañana traerá su propio afán. Basta a cada día su propio mal."
     ],
     "7": [
       "No juzguéis, para que no seáis juzgados.",
@@ -16681,7 +16681,7 @@
           "g": "η"
         },
         {
-          "t": "se llegará",
+          "t": "apreciará",
           "s": "G472",
           "m": "V-FDI-3S",
           "g": "ανθεξεται"
@@ -16750,7 +16750,8 @@
           "t": "a Mammón.",
           "s": "G3126",
           "m": "N-DSM",
-          "g": "μαμμωνα"
+          "g": "μαμμωνα",
+          "n": "Mammon (mamona): Del arameo māmōnā, que significa «riquezas», «dinero», «bienes» o «propiedades». En Mateo 6:24, Jesús personifica las riquezas como un amo que compite con Dios por la lealtad del ser humano. Representa el poder que los bienes materiales pueden ejercer sobre una persona cuando estos se convierten en el objeto principal de su confianza, amor y servicio. En los cómics de Hellblazer de DC, Mammon aparece como un archidemonio asociado con el lucro y la avaricia."
         }
       ],
       [
@@ -16785,7 +16786,7 @@
           "s": "G5213"
         },
         {
-          "t": "congojéis",
+          "t": "afanéis",
           "s": "G3309",
           "m": "V-PAM-2P",
           "g": "μεριμνατε"
@@ -16997,7 +16998,7 @@
           "g": "ουδε"
         },
         {
-          "t": "allegan",
+          "t": "recogen",
           "s": "G4863",
           "m": "V-PAI-3P",
           "g": "συναγουσιν"
@@ -17009,7 +17010,7 @@
           "g": "εις"
         },
         {
-          "t": "alfolíes;",
+          "t": "graneros;",
           "s": "G596",
           "m": "N-APF",
           "g": "αποθηκας"
@@ -17105,7 +17106,7 @@
           "g": "δυναται"
         },
         {
-          "t": "congojándose,",
+          "t": "por mucho que se afane,",
           "s": "G3309",
           "m": "V-PAP-NSM",
           "g": "μεριμνων"
@@ -17144,7 +17145,8 @@
           "t": "codo?",
           "s": "G4083",
           "m": "N-ASM",
-          "g": "πηχυν"
+          "g": "πηχυν",
+          "n": "Añadir un «codo» a la «estatura» es un modismo hebreo para prolongar la vida. El texto original del Nuevo Testamento se escribió en griego, pero Jesús pensaba y enseñaba con una mentalidad hebrea y aramea. La palabra griega utilizada en el versículo es helikia. Esta palabra tiene dos significados válidos: 1) Físico: Estatura o tamaño corporal. 2) Temporal: Edad, madurez o la duración/curso de la vida. En el contexto hebreo, la vida se visualiza frecuentemente como un camino o una carrera que tiene una longitud física mensurable (una distancia). Un codo (amah en hebreo, pekhus en griego) es una unidad de longitud de unos 45 centímetros (la distancia desde el codo hasta la punta de los dedos). Si helikia significa «estatura», añadir un codo te haría crecer casi medio metro de golpe. Esto sería una exageración grotesca (un absurdo físico), ya que la gente no suele preocuparse por ser gigantes. En el pensamiento idiomático semítico, las medidas de longitud se aplicaban metafóricamente al tiempo. El Antiguo Testamento ya hacía esto; por ejemplo, el Salmo 39:5 dice: «Has hecho mis días la medida de un palmo» (otra unidad de longitud usada para medir tiempo). Bajo esta lógica, un «codo» representa un paso más en el camino de la vida, es decir, una pequeña fracción de tiempo añadida al curso de tu existencia."
         }
       ],
       [
@@ -17179,13 +17181,13 @@
           "g": "τι"
         },
         {
-          "t": "os congojáis?",
+          "t": "os afanáis?",
           "s": "G3309",
           "m": "V-PAI-2P",
           "g": "μεριμνατε"
         },
         {
-          "t": "Reparad",
+          "t": "Considerad",
           "s": "G2648",
           "m": "V-2AAM-2P",
           "g": "καταμαθετε"
@@ -17249,7 +17251,7 @@
       ],
       [
         {
-          "t": "Pero",
+          "t": "pero",
           "s": "G1161",
           "m": "CONJ",
           "g": "δε"
@@ -17307,7 +17309,7 @@
           "g": "δοξη"
         },
         {
-          "t": "fue vestido",
+          "t": "se vistió",
           "s": "G4016",
           "m": "V-2AMI-3S",
           "g": "περιεβαλετο"
@@ -17453,13 +17455,10 @@
           "it": 1
         },
         {
-          "t": "de poca",
+          "t": "de poca fe?",
           "s": "G3640",
           "m": "A-VPM",
           "g": "ολιγοπιστοι"
-        },
-        {
-          "t": "fe?"
         }
       ],
       [
@@ -17470,7 +17469,7 @@
           "g": "μη"
         },
         {
-          "t": "os congojéis",
+          "t": "os preocupéis",
           "s": "G3309",
           "m": "V-AAS-2P",
           "g": "μεριμνησητε"
@@ -17548,7 +17547,7 @@
           "s": "G3588"
         },
         {
-          "t": "Gentiles",
+          "t": "gentiles",
           "s": "G1483"
         },
         {
@@ -17568,10 +17567,10 @@
           "s": "G5023"
         },
         {
-          "t": "cosas:"
+          "t": "cosas;"
         },
         {
-          "t": "que",
+          "t": "pero",
           "s": "G3754",
           "m": "CONJ",
           "g": "οτι"
@@ -17605,6 +17604,12 @@
           "g": "οτι"
         },
         {
+          "t": "tenéis necesidad",
+          "s": "G5535",
+          "m": "V-PAI-2P",
+          "g": "χρηζετε"
+        },
+        {
           "t": "de todas",
           "s": "G537",
           "m": "A-GPN",
@@ -17615,24 +17620,24 @@
           "s": "G5130"
         },
         {
-          "t": "cosas habéis menester.",
-          "s": "G5535",
-          "m": "V-PAI-2P",
-          "g": "χρηζετε"
+          "t": "cosas.",
+          "s": "G3778",
+          "m": "D-APN",
+          "g": "ταυτα"
         }
       ],
       [
         {
-          "t": "Pero",
-          "s": "G1161",
-          "m": "CONJ",
-          "g": "δε"
-        },
-        {
-          "t": "buscad",
+          "t": "Buscad,",
           "s": "G2212",
           "m": "V-PAM-2P",
           "g": "ζητειτε"
+        },
+        {
+          "t": "pues,",
+          "s": "G1161",
+          "m": "CONJ",
+          "g": "δε"
         },
         {
           "t": "primeramente",
@@ -17715,7 +17720,7 @@
           "g": "μη"
         },
         {
-          "t": "os congojéis",
+          "t": "os preocupéis",
           "s": "G3309",
           "m": "V-AAS-2P",
           "g": "μεριμνησητε"
@@ -17739,7 +17744,7 @@
           "g": "αυριον"
         },
         {
-          "t": "que",
+          "t": "porque",
           "s": "G1063",
           "m": "CONJ",
           "g": "γαρ"
@@ -17757,40 +17762,44 @@
           "g": "αυριον"
         },
         {
-          "t": "traerá su",
+          "t": "traerá",
           "s": "G1438",
           "m": "F-3GSF",
           "g": "εαυτης"
         },
         {
-          "t": "fatiga:",
-          "s": "G3309",
-          "m": "V-FAI-3S",
-          "g": "μεριμνησει"
+          "t": "su propio",
+          "s": "GG3309"
         },
         {
-          "t": "basta",
+          "t": "afán.",
+          "s": "G3309",
+          "m": "V-AAS-2P",
+          "g": "μεριμνησητε"
+        },
+        {
+          "t": "Basta",
           "s": "G713",
           "m": "A-NSN",
           "g": "αρκετον"
         },
         {
-          "t": "al día",
+          "t": "a cada",
+          "s": "G3588",
+          "m": "T-APN",
+          "g": "τα"
+        },
+        {
+          "t": "día",
           "s": "G2250",
           "m": "N-DSF",
           "g": "ημερα"
         },
         {
-          "t": "su",
+          "t": "su propio mal.",
           "s": "G846",
           "m": "P-GSF",
           "g": "αυτης"
-        },
-        {
-          "t": "afán.",
-          "s": "G2549",
-          "m": "N-NSF",
-          "g": "κακια"
         }
       ]
     ],
