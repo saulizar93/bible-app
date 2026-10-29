@@ -49,6 +49,7 @@ export default function BiblePane({
 
   const verses = book?.v[refPos.chapter];
   const tokensByVerse = strongsOn ? book?.w?.[refPos.chapter] : null;
+  const italics = !!optionFor(code)?.italics; // KJV: supplied words in italics
   const allTokens = book?.w?.[refPos.chapter]; // translator notes show with Strong's on or off
   const noteLabel = noteLabelFor(code, optionFor(code)?.lang); // "Nota del traductor" only for the RVO
 
@@ -122,7 +123,9 @@ export default function BiblePane({
         >
           {i + 1}
         </span>
-        {tokens ? renderTokens(tokens, onWordClick, mark) : text}
+        {tokens
+          ? renderTokens(tokens, onWordClick, mark, italics)
+          : (italics && renderItalics(allTokens?.[i], text)) || text}
         {!tokens && notes.length > 0 && mark("tn-end")}
         {notes.length > 0 && openNotes.has(i + 1) && (
           <span className="tn-box" onClick={(e) => e.stopPropagation()}>
@@ -145,13 +148,33 @@ export default function BiblePane({
 /** Render a verse's tokens as spans, with a single space between each.
  *  Tagged words get a `.sw` span (clickable/underlined only while Strong's
  *  mode is on, via the .strongs-on CSS toggle — see app.css). */
-function renderTokens(tokens, onWordClick, mark) {
+/** Strong's off: the verse as plain text, with the translators' supplied words in
+ *  italics. Returns null (show the plain text) if the tokens don't spell the verse. */
+function renderItalics(tokens, text) {
+  if (!tokens?.some((t) => t.it)) return null;
+  const joined = tokens.map((t, i) => (i === 0 || t.j ? "" : " ") + t.t).join("");
+  if (joined !== text) return null;
+  return tokens.map((t, i) => {
+    const sp = i === 0 || t.j ? "" : " ";
+    return t.it ? (
+      <span key={i}>
+        {sp}
+        <em className="supplied">{t.t}</em>
+      </span>
+    ) : (
+      sp + t.t
+    );
+  });
+}
+
+function renderTokens(tokens, onWordClick, mark, italics) {
   return tokens.flatMap((tok, i) => {
     const code = tok.s && normalizeStrong(tok.s);
+    const supplied = italics && tok.it ? " supplied" : "";
     const word = code ? (
       <span
         key={i}
-        className="strongs-underline"
+        className={`strongs-underline${supplied}`}
         data-strong={code}
         onClick={(e) => {
           e.stopPropagation();
@@ -161,7 +184,9 @@ function renderTokens(tokens, onWordClick, mark) {
         {tok.t}
       </span>
     ) : (
-      <span key={i}>{tok.t}</span>
+      <span key={i} className={supplied.trim() || undefined}>
+        {tok.t}
+      </span>
     );
     // `n` = translator note on this word: a † right after it opens the note
     const out = tok.n ? [word, mark(`tn${i}`)] : [word];

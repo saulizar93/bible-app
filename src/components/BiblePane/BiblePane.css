@@ -98,3 +98,8 @@
 .tn-label {
   font-weight: 700;
 }
+
+/* KJV: words supplied by the translators (italics in printed KJVs) */
+.supplied {
+  font-style: italic;
+}

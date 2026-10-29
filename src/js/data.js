@@ -69,6 +69,9 @@ export const PANE_OPTIONS = [
     kind: "bible",
     lang: "en",
     strongs: true,
+    // Words the translators supplied (printed in italics in the KJV) are marked
+    // "it": 1 on their tokens; show them in italics, with Strong's on or off.
+    italics: true,
     concord: "", // concordance at data/concord/{greek,hebrew}
     citation: "KJV",
     copyright:

@@ -877,3 +877,9 @@
 ## 2026-10-28 — NotesPane lint fix (setState in effect)
 
 - src/components/NotesPane/NotesPane.jsx: the effect no longer resets state synchronously (react-hooks/set-state-in-effect). The loaded result is stored with the chapter it belongs to ({ key, notes, error }); when the chapter changes, the old result doesn't match the wanted key, so the pane shows "Loading…" until the new one arrives. Same behavior, one render fewer per chapter change. eslint clean.
+
+## 2026-10-28 — KJV: translators' supplied words in italics
+
+- kjv-strong tokens already mark the supplied words ("it": 1, 27,023 tokens in 14,233 verses; 19 of them also carry a Strong's number). src/js/data.js: kjv-strong gets `italics: true`.
+- src/components/BiblePane/BiblePane.jsx: with Strong's on, renderTokens adds class "supplied" to those tokens; with Strong's off, renderItalics() rebuilds the verse from its tokens with the supplied words in <em class="supplied">, falling back to the plain text if the tokens don't spell the verse (checked: all 14,233 do). BiblePane.css: .supplied { font-style: italic }.
+- rv1909-strong (4,665) and rvg-strong (3,909, copied from RV1909 by transfer.mjs) also have "it" marks; not turned on.
