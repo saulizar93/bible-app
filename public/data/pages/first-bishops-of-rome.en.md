@@ -49,7 +49,15 @@ The first list of Roman bishops comes from Irenaeus (c. 180): Linus, Anacletus, 
 
 ### The title "pope"
 
-_Papa_ ("father") was used for many bishops; Cyprian of Carthage was addressed as "pope" in the third century. Only in the eleventh century did Gregory VII declare that this name belongs to the bishop of Rome alone: "that this name is unique in the world" (_Dictatus Papae_, 1075).
+_Papa_ ("father") was an affectionate title of honor given to many bishops, not a claim to rule the Church. Some examples:
+
+- **Heraclas of Alexandria** (bishop c. 232-248): his successor Dionysius calls him "our blessed pope (_papas_) Heraclas" (Eusebius, _Church History_ 7.7.4). This is the earliest known use of the title for a bishop, and it is for a bishop of Alexandria, not of Rome.
+- **Cyprian of Carthage** (c. 250): the clergy **of Rome itself**, writing while their own see was vacant, addressed him as "Cyprian, pope" (_Cypriano papae_; Cyprian, _Letters_ 30, 31 and 36).
+- **Augustine of Hippo** (c. 400): Jerome opened his letters to him "To my lord truly holy and most blessed pope Augustine" (_Domino vere sancto et beatissimo papae Augustino_, Jerome, _Letters_ 105 and 112). Hippo was a small town in North Africa.
+- **The bishops of Gaul** (400s): Sidonius Apollinaris addressed his letters to fellow bishops such as Lupus of Troyes as "the lord pope" (_domino papae_).
+- **Today**: the head of the Coptic Orthodox Church is still called "Pope of Alexandria," and so is the Greek Orthodox Patriarch of Alexandria.
+
+Only in the eleventh century did Gregory VII declare that the name belongs to the bishop of Rome alone: "that this name is unique in the world" (_Dictatus Papae_ 11, 1075).
 
 # 2. The first sixteen names, one by one
 
@@ -159,7 +167,33 @@ No writing of Anicetus survives. His best-known act is receiving **Polycarp**, b
 
 > "But may **the God and Father of our Lord Jesus Christ, and Jesus Christ Himself, who is the Son of God**, and our everlasting High Priest, build you up in faith and truth." (12)
 
-Polycarp calls Jesus "the Son of God," never "God the Son." (The later account of his martyrdom ends with a doxology to God "with Him and the Holy Spirit," but even that names no persons.) And John, the apostle Polycarp learned from, wrote:
+Polycarp calls Jesus "the Son of God," never "God the Son."
+
+**Polycarp did not write the account of his death.** _The Martyrdom of Polycarp_ is a letter from "the church of God which sojourneth at Smyrna" to the church at Philomelium, written after he was burned (c. 156) and attributed to a certain Marcion (or Marcianus, ch. 20). Its last chapter says it was copied by Gaius from the papers of Irenaeus, then by Socrates in Corinth, and finally by Pionius (ch. 22), a fourth-century copyist; some scholars, such as Candida Moss (2010), date the account as we have it to the third century. In it, Polycarp's last prayer ends:
+
+> "For this cause, yea and for all things, I praise Thee, I bless Thee, I glorify Thee, through the eternal and heavenly High-priest, Jesus Christ, Thy beloved Son, through whom with Him and the Holy Spirit be glory both now and ever and for the ages to come. Amen."
+> — _Martyrdom of Polycarp_ 14.3 (Lightfoot's translation)
+
+Three things should be noticed:
+
+1. **It is not Polycarp's own writing.** It is the church of Smyrna's report of what he said, passed through several copyists.
+2. **The wording is not secure.** The oldest witness to this prayer, Eusebius (_Church History_ 4.15.35, early 300s), reads "through whom to Thee, with Him, **in** the Holy Spirit, be glory" (_en pneumati hagiō_): glory given to God, through Christ, in the Spirit, not to three co-equal persons. The manuscripts' "**and** the Holy Spirit" (_kai pneumati hagiō_) looks like a later adjustment, and scholars such as Hans von Campenhausen (1957) argued that this and other passages of the Martyrdom were revised and expanded after the original letter.
+3. **Polycarp's own letter has no such formula.** In _To the Philippians_, which he did write, he speaks as Paul does, of "God Almighty" and "the Lord Jesus Christ," "the God and Father of our Lord Jesus Christ, and Jesus Christ Himself, who is the Son of God."
+
+**The doxology at the very end.** The most Trinitarian-sounding line of the whole document is the last one:
+
+> "That the Lord Jesus Christ may also gather me along with His elect into His heavenly kingdom, to whom, with the Father and the Holy Spirit, be glory for ever and ever. Amen."
+> — _Martyrdom of Polycarp_ 22 (_Ante-Nicene Fathers_, vol. 1)
+
+But these are not Polycarp's words, nor even the church of Smyrna's. They are the closing prayer of **Pionius**, the last copyist, who adds that Polycarp revealed the old copy to him in a vision. The _Ante-Nicene Fathers_ edition itself prints a note before this postscript: "What follows is, of course, no part of the original Epistle." Chapters 21-22 (a date note, a farewell, and the copyists' notes) are generally treated as appendices added after the letter, and the farewell's "with whom be glory to God the Father and the Holy Spirit" (22.1) belongs to the same additions.
+
+Even if such a line were from the second century, it would not be the Trinity of the creeds:
+
+- **Naming Father, Son and Spirit together is not the doctrine of the Trinity.** Scripture does it too: "in the name of the Father, and of the Son, and of the Holy Ghost" (Matthew 28:19); "The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Ghost" (2 Corinthians 13:14).
+- **The idea of three co-equal persons did not exist yet.** Polycarp died about 156, in the same years Justin Martyr was writing, and Justin placed the Son "in the second place" and the prophetic Spirit "in the third" (_1 Apology_ 13), calling the Son "another God," numerically distinct from and under the Father (_Dialogue with Trypho_ 56). The Greek word for "trinity" (_trias_) first appears about 180, in Theophilus of Antioch, for "God, His Word and His Wisdom" (_To Autolycus_ 2.15); the Latin _trinitas_ and "three persons, one substance" come from Tertullian about 213 (_Against Praxeas_), after he left the mainstream Roman church. The full equality of the Holy Spirit was not defined until the Council of Constantinople in 381.
+- So a fourth-century copyist's prayer cannot tell us what Polycarp believed. Polycarp's own letter can, and it speaks of God the Father and His Son Jesus Christ.
+
+And John, the apostle Polycarp learned from, wrote:
 
 > **John 14:8-9:** "Philip saith unto him, Lord, shew us the Father, and it sufficeth us. Jesus saith unto him, Have I been so long time with you, and yet hast thou not known me, Philip? he that hath seen me hath seen the Father; and how sayest thou then, Shew us the Father?"
 
@@ -280,9 +314,12 @@ The first names on the list of popes were not popes: Rome was led by elders, Pet
 - Hippolytus, _Refutation of All Heresies_, Book 9, and _Against Noetus_ (_Ante-Nicene Fathers_, vol. 5).
 - Tertullian, _Against Praxeas_ and _The Prescription against Heretics_ (_Ante-Nicene Fathers_, vol. 3).
 - Irenaeus, _Against Heresies_ 3.3-4 (_Ante-Nicene Fathers_, vol. 1).
-- _1 Clement_; Ignatius, _To the Romans_; Polycarp, _To the Philippians_; _The Shepherd of Hermas_ (_Ante-Nicene Fathers_, vols. 1-2).
+- _1 Clement_; Ignatius, _To the Romans_; Polycarp, _To the Philippians_; _The Martyrdom of Polycarp_; _The Shepherd of Hermas_ (_Ante-Nicene Fathers_, vols. 1-2; J. B. Lightfoot, _The Apostolic Fathers_, 1891).
+- Cyprian, _Letters_ 30, 31, 36 (_Ante-Nicene Fathers_, vol. 5); Jerome, _Letters_ 105, 112 (_Nicene and Post-Nicene Fathers_, 2nd series, vol. 6); Sidonius Apollinaris, _Letters_.
+- Justin Martyr, _1 Apology_ 13 and _Dialogue with Trypho_ 56; Theophilus of Antioch, _To Autolycus_ 2.15 (_Ante-Nicene Fathers_, vols. 1-2).
+- Hans von Campenhausen, "Bearbeitungen und Interpolationen des Polykarpmartyriums" (1957); Candida R. Moss, "On the Dating of Polycarp," _Early Christianity_ 1 (2010).
 - The Muratorian Fragment (_Ante-Nicene Fathers_, vol. 5).
-- Eusebius, _Church History_ 3.4; 4.23; 5.3; 5.24; 5.28 (_Nicene and Post-Nicene Fathers_, 2nd series, vol. 1).
+- Eusebius, _Church History_ 3.4; 4.15; 4.23; 5.3; 5.24; 5.28; 7.7 (_Nicene and Post-Nicene Fathers_, 2nd series, vol. 1).
 - Socrates, _Church History_ 1.8, 1.9, 1.24; Theodoret, _Church History_ 2.6; Basil, _Letter_ 69 (_Nicene and Post-Nicene Fathers_, 2nd series).
 - _Theodosian Code_ 16.1.2; 16.4.2. Gregory VII, _Dictatus Papae_ (1075).
 - Francis A. Sullivan, _From Apostles to Bishops: The Development of the Episcopacy in the Early Church_ (2001); Raymond E. Brown and John P. Meier, _Antioch and Rome_ (1983); R. P. C. Hanson, _The Search for the Christian Doctrine of God_ (1988).

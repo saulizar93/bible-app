@@ -49,7 +49,15 @@ La primera lista de obispos romanos viene de Ireneo (hacia 180): Lino, Anacleto,
 
 ### El título «papa»
 
-_Papa_ («padre») se usaba para muchos obispos; a Cipriano de Cartago se le llamaba «papa» en el siglo III. Solo en el siglo XI Gregorio VII declaró que ese nombre pertenece únicamente al obispo de Roma: «que este nombre es único en el mundo» (_Dictatus Papae_, 1075).
+_Papa_ («padre») era un título afectuoso de honra que se daba a muchos obispos, no una pretensión de gobernar la Iglesia. Algunos ejemplos:
+
+- **Heraclas de Alejandría** (obispo hacia 232-248): su sucesor Dionisio lo llama «nuestro bienaventurado papa (_papas_) Heraclas» (Eusebio, _Historia eclesiástica_ 7.7.4). Es el uso más antiguo que se conoce del título para un obispo, y es para un obispo de Alejandría, no de Roma.
+- **Cipriano de Cartago** (hacia 250): el clero **de la misma Roma**, escribiendo mientras su propia sede estaba vacante, se dirigió a él como «Cipriano, papa» (_Cypriano papae_; Cipriano, _Cartas_ 30, 31 y 36).
+- **Agustín de Hipona** (hacia 400): Jerónimo comenzaba sus cartas a él con «A mi señor verdaderamente santo y beatísimo papa Agustín» (_Domino vere sancto et beatissimo papae Augustino_, Jerónimo, _Cartas_ 105 y 112). Hipona era una pequeña ciudad del norte de África.
+- **Los obispos de la Galia** (siglo V): Sidonio Apolinar dirigía sus cartas a obispos como Lupo de Troyes «al señor papa» (_domino papae_).
+- **Hoy**: el jefe de la Iglesia copta ortodoxa todavía se llama «papa de Alejandría», y también el patriarca ortodoxo griego de Alejandría.
+
+Solo en el siglo XI Gregorio VII declaró que ese nombre pertenece únicamente al obispo de Roma: «que este nombre es único en el mundo» (_Dictatus Papae_ 11, 1075).
 
 # 2. Los dieciséis primeros nombres, uno por uno
 
@@ -159,7 +167,33 @@ No se conserva ningún escrito de Aniceto. Su acto más conocido es haber recibi
 
 > «Y que **el Dios y Padre de nuestro Señor Jesucristo, y Jesucristo mismo, que es el Hijo de Dios**, y nuestro eterno Sumo Sacerdote, os edifique en fe y en verdad». (12)
 
-Policarpo llama a Jesús «el Hijo de Dios», nunca «Dios el Hijo». (El relato posterior de su martirio termina con una doxología a Dios «con Él y el Espíritu Santo», pero ni siquiera eso habla de personas.) Y Juan, el apóstol de quien Policarpo aprendió, escribió:
+Policarpo llama a Jesús «el Hijo de Dios», nunca «Dios el Hijo».
+
+**Policarpo no escribió el relato de su muerte.** _El martirio de Policarpo_ es una carta de «la iglesia de Dios que reside en Esmirna» a la iglesia de Filomelio, escrita después de que fue quemado (hacia 156) y atribuida a un tal Marción (o Marciano, cap. 20). Su último capítulo dice que la copió Gayo de los papeles de Ireneo, luego Sócrates en Corinto y, por último, Pionio (cap. 22), un copista del siglo IV; algunos estudiosos, como Candida Moss (2010), fechan el relato tal como lo tenemos en el siglo III. En él, la última oración de Policarpo termina así:
+
+> «Por esto, y por todas las cosas, te alabo, te bendigo, te glorifico, por medio del eterno y celestial Sumo Sacerdote, Jesucristo, tu Hijo amado, por medio del cual sea la gloria a ti con Él y el Espíritu Santo, ahora y siempre y por los siglos venideros. Amén».
+> — _Martirio de Policarpo_ 14.3 (traducido de la versión de Lightfoot)
+
+Hay que notar tres cosas:
+
+1. **No es un escrito de Policarpo.** Es el informe de la iglesia de Esmirna sobre lo que él dijo, pasado por varios copistas.
+2. **La redacción no es segura.** El testigo más antiguo de esta oración, Eusebio (_Historia eclesiástica_ 4.15.35, comienzos del siglo IV), dice: «por medio del cual a ti, con Él, **en** el Espíritu Santo, sea la gloria» (_en pneumati hagiō_): gloria dada a Dios, por medio de Cristo, en el Espíritu, no a tres personas iguales. El «**y** el Espíritu Santo» de los manuscritos (_kai pneumati hagiō_) parece un ajuste posterior, y estudiosos como Hans von Campenhausen (1957) sostuvieron que este y otros pasajes del _Martirio_ fueron revisados y ampliados después de la carta original.
+3. **La carta del propio Policarpo no tiene esa fórmula.** En _A los Filipenses_, que sí escribió, habla como Pablo, de «Dios Todopoderoso» y «el Señor Jesucristo», «el Dios y Padre de nuestro Señor Jesucristo, y Jesucristo mismo, que es el Hijo de Dios».
+
+**La doxología del final.** La frase que más suena a trinitaria en todo el documento es la última:
+
+> «Que el Señor Jesucristo me reúna también con sus escogidos en su reino celestial, a quien, con el Padre y el Espíritu Santo, sea la gloria por los siglos de los siglos. Amén».
+> — _Martirio de Policarpo_ 22 (traducido de _Ante-Nicene Fathers_, vol. 1)
+
+Pero no son palabras de Policarpo, ni siquiera de la iglesia de Esmirna. Son la oración final de **Pionio**, el último copista, que añade que Policarpo le reveló la copia antigua en una visión. La propia edición de _Ante-Nicene Fathers_ pone una nota antes de esta posdata: «Lo que sigue, por supuesto, no forma parte de la Epístola original». Los capítulos 21-22 (una nota sobre la fecha, una despedida y las notas de los copistas) se consideran por lo general apéndices añadidos después de la carta, y el «con quien sea la gloria a Dios el Padre y al Espíritu Santo» de la despedida (22.1) pertenece a esos mismos añadidos.
+
+Aunque una frase así fuera del siglo II, no sería la Trinidad de los credos:
+
+- **Nombrar juntos al Padre, al Hijo y al Espíritu no es la doctrina de la Trinidad.** La Escritura también lo hace: «en el nombre del Padre, y del Hijo, y del Espíritu Santo» (Mateo 28:19); «La gracia del Señor Jesucristo, y el amor de Dios, y la comunión del Espíritu Santo» (2 Corintios 13:14).
+- **La idea de tres personas iguales todavía no existía.** Policarpo murió hacia 156, en los mismos años en que escribía Justino Mártir, y Justino ponía al Hijo «en segundo lugar» y al Espíritu profético «en el tercero» (_1.ª Apología_ 13), y llamaba al Hijo «otro Dios», numéricamente distinto del Padre y subordinado a Él (_Diálogo con Trifón_ 56). La palabra griega para «trinidad» (_trias_) aparece por primera vez hacia 180, en Teófilo de Antioquía, para «Dios, su Verbo y su Sabiduría» (_A Autólico_ 2.15); el latín _trinitas_ y «tres personas, una sustancia» vienen de Tertuliano hacia 213 (_Contra Práxeas_), después de haber abandonado la iglesia principal de Roma. La plena igualdad del Espíritu Santo no se definió hasta el Concilio de Constantinopla en 381.
+- Así que la oración de un copista del siglo IV no puede decirnos lo que creía Policarpo. La carta del propio Policarpo sí puede, y habla de Dios el Padre y de su Hijo Jesucristo.
+
+Y Juan, el apóstol de quien Policarpo aprendió, escribió:
 
 > **Juan 14:8-9:** «Felipe le dijo: Señor, muéstranos al Padre, y nos basta. Jesús le dijo: ¿Tanto tiempo hace que estoy con vosotros, y aún no me has conocido, Felipe? El que me ha visto a mí, ha visto al Padre; ¿cómo, pues, dices tú: Muéstranos al Padre?»
 
@@ -280,9 +314,12 @@ Los primeros nombres de la lista de papas no eran papas: Roma era dirigida por a
 - Hipólito, _Refutación de todas las herejías_, libro 9, y _Contra Noeto_ (_Ante-Nicene Fathers_, vol. 5).
 - Tertuliano, _Contra Práxeas_ y _Prescripción contra los herejes_ (_Ante-Nicene Fathers_, vol. 3).
 - Ireneo, _Contra las herejías_ 3.3-4 (_Ante-Nicene Fathers_, vol. 1).
-- _1 Clemente_; Ignacio, _A los Romanos_; Policarpo, _A los Filipenses_; _El Pastor de Hermas_ (_Ante-Nicene Fathers_, vols. 1-2).
+- _1 Clemente_; Ignacio, _A los Romanos_; Policarpo, _A los Filipenses_; _El martirio de Policarpo_; _El Pastor de Hermas_ (_Ante-Nicene Fathers_, vols. 1-2; J. B. Lightfoot, _The Apostolic Fathers_, 1891).
+- Cipriano, _Cartas_ 30, 31, 36 (_Ante-Nicene Fathers_, vol. 5); Jerónimo, _Cartas_ 105, 112 (_Nicene and Post-Nicene Fathers_, 2.ª serie, vol. 6); Sidonio Apolinar, _Cartas_.
+- Justino Mártir, _1.ª Apología_ 13 y _Diálogo con Trifón_ 56; Teófilo de Antioquía, _A Autólico_ 2.15 (_Ante-Nicene Fathers_, vols. 1-2).
+- Hans von Campenhausen, «Bearbeitungen und Interpolationen des Polykarpmartyriums» (1957); Candida R. Moss, «On the Dating of Polycarp», _Early Christianity_ 1 (2010).
 - El Fragmento Muratoriano (_Ante-Nicene Fathers_, vol. 5).
-- Eusebio, _Historia eclesiástica_ 3.4; 4.23; 5.3; 5.24; 5.28 (_Nicene and Post-Nicene Fathers_, 2.ª serie, vol. 1).
+- Eusebio, _Historia eclesiástica_ 3.4; 4.15; 4.23; 5.3; 5.24; 5.28; 7.7 (_Nicene and Post-Nicene Fathers_, 2.ª serie, vol. 1).
 - Sócrates, _Historia eclesiástica_ 1.8, 1.9, 1.24; Teodoreto, _Historia eclesiástica_ 2.6; Basilio, _Carta_ 69 (_Nicene and Post-Nicene Fathers_, 2.ª serie).
 - _Código Teodosiano_ 16.1.2; 16.4.2. Gregorio VII, _Dictatus Papae_ (1075).
 - Francis A. Sullivan, _From Apostles to Bishops: The Development of the Episcopacy in the Early Church_ (2001); Raymond E. Brown y John P. Meier, _Antioch and Rome_ (1983); R. P. C. Hanson, _The Search for the Christian Doctrine of God_ (1988).
