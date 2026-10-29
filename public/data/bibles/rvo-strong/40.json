@@ -172,8 +172,8 @@
       "No os hagáis tesoros en la tierra, donde la polilla y el óxido corrompen, y donde ladrones se meten y roban.",
       "Pero haceos tesoros en el cielo, donde ni polilla ni el óxido corrompen, y donde ladrones no se meten ni roban.",
       "Porque donde esté vuestro tesoro, allí estará también vuestro corazón.",
-      "La lámpara del cuerpo es el ojo: así que, si tu ojo fuere sincero, todo tu cuerpo será luminoso:",
-      "Pero si tu ojo fuere malo, todo tu cuerpo será tenebroso. Así que, si la lumbre que en ti hay son tinieblas, ¿cuántas serán las mismas tinieblas?",
+      "La lámpara del cuerpo es el ojo: así que, si tu ojo fuere bueno, todo tu cuerpo estará lleno de luz.",
+      "Pero si tu ojo fuere malo, todo tu cuerpo estará en tinieblas. Así que, si la luz que hay en ti es oscuridad, ¡cuán grande es esa oscuridad!",
       "Ninguno puede servir a dos señores; porque o aborrecerá al uno y amará al otro, o se llegará al uno y menospreciará al otro: no podéis servir a Dios y a Mammón.",
       "Por tanto os digo: No os congojéis por vuestra vida, qué habéis de comer, o qué habéis de beber; ni por vuestro cuerpo, qué habéis de vestir: ¿no es la vida más que el alimento, y el cuerpo que el vestido?",
       "Mirad las aves del cielo, que no siembran, ni siegan, ni allegan en alfolíes; y vuestro Padre celestial las alimenta. ¿No sois vosotros mucho mejores que ellas?",
@@ -16431,7 +16431,7 @@
           "s": "G5600"
         },
         {
-          "t": "sincero,",
+          "t": "bueno,",
           "s": "G573",
           "m": "A-NSM",
           "g": "απλους"
@@ -16453,7 +16453,13 @@
           "g": "σωμα"
         },
         {
-          "t": "será luminoso:",
+          "t": "estará",
+          "s": "G1510",
+          "m": "V-PAI-3S",
+          "g": "εστιν"
+        },
+        {
+          "t": "lleno de luz.",
           "s": "G5460",
           "m": "A-NSN",
           "g": "φωτεινον"
@@ -16509,11 +16515,13 @@
           "g": "σωμα"
         },
         {
-          "t": "será",
-          "s": "G2071"
+          "t": "estará",
+          "s": "G1510",
+          "m": "V-PAS-3S",
+          "g": "η"
         },
         {
-          "t": "tenebroso.",
+          "t": "en tinieblas.",
           "s": "G4652",
           "m": "A-NSN",
           "g": "σκοτεινον"
@@ -16537,45 +16545,49 @@
           "g": "το"
         },
         {
-          "t": "lumbre",
+          "t": "luz",
           "s": "G5457",
           "m": "N-NSN",
           "g": "φως"
         },
         {
-          "t": "que",
+          "t": "que hay",
           "s": "G3588",
           "m": "T-NSN",
           "g": "το"
         },
         {
-          "t": "en ti",
-          "s": "G4671"
+          "t": "en",
+          "s": "G1722",
+          "m": "PREP",
+          "g": "εν"
         },
         {
-          "t": "hay son",
-          "s": "G2076"
+          "t": "ti",
+          "s": "G4771",
+          "m": "P-2GS",
+          "g": "σου"
         },
         {
-          "t": "tinieblas,",
-          "s": "G4652",
-          "m": "A-NSN",
-          "g": "σκοτεινον"
+          "t": "es oscuridad,",
+          "s": "G4655",
+          "m": "N-NSN",
+          "g": "σκοτος"
         },
         {
-          "t": "¿cuántas",
+          "t": "¡cuán grande",
           "s": "G4214",
           "m": "Q-NSN",
           "g": "ποσον"
         },
         {
-          "t": "serán las",
+          "t": "es esa",
           "s": "G3588",
           "m": "T-NSN",
           "g": "το"
         },
         {
-          "t": "mismas tinieblas?",
+          "t": "oscuridad!",
           "s": "G4655",
           "m": "N-NSN",
           "g": "σκοτος"

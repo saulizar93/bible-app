@@ -594,5 +594,14 @@
   "Mateo 6:21": {
     "estuviere": "esté",
     "estará": "estará|G1510 también|G2532"
+  },
+  "Mateo 6:22": {
+    "sincero,": "bueno,",
+    "será luminoso:": "estará|G1510 lleno de luz.|G5460"
+  },
+  "Mateo 6:23": {
+    "será tenebroso.": "estará|G1510 en tinieblas.|G4652",
+    "si la lumbre que en ti hay son tinieblas,": "si|G1487 la|G3588 luz|G5457 que hay|G3588 en|G1722 ti|G4771 es oscuridad,|G4655",
+    "¿cuántas serán las mismas tinieblas?": "¡cuán grande|G4214 es esa|G3588 oscuridad!|G4655"
   }
 }
