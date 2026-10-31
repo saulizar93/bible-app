@@ -134,11 +134,26 @@ Not necessarily. Designers reuse good designs. A car company uses the same engin
 
 Living things do **adapt**: finch beaks change size, bacteria develop resistance, dog breeders produce new breeds. Those are real changes within limits. But adaptation is the rearrangement and loss of information that already exists; it does not explain where the information came from in the first place. Evolution describes **variation**, not **creation**.
 
+### Change that goes back and forth
+
+Darwinian evolution needs change that **adds up**: small steps, kept and stacked one on another over millions of years, until a new kind of creature appears. But many of the textbook examples of "evolution in action" do not add up. They swing one way and then back again, like a pendulum, and some of them are not inherited changes at all but a built-in ability to adjust.
+
+- **Darwin's finches.** Peter and Rosemary Grant measured the medium ground finches of Daphne Major, in the Galápagos, for decades. In the 1977 drought only large, hard seeds were left, and birds with deeper beaks survived: the average beak grew about 4%. Then the heavy rains of the 1982–83 El Niño filled the island with small, soft seeds, and the advantage reversed; over the next years the average beak became smaller again. The famous example of evolution was a back-and-forth around the same species.
+- **Beaks that change with the seasons.** A bird's beak is living keratin that keeps growing and wearing down. Sparrows grow larger bills in summer and smaller ones in winter, in the same individual birds, as their food changes and as the bill helps them shed heat (Greenberg and colleagues, _Ecology and Evolution_, 2013). The bird does not evolve each season; it was made able to adjust.
+- **The peppered moth.** In industrial England the dark form of the moth became common as soot darkened the trees; after the Clean Air laws of the 1950s the light form came back, and today the dark form is rare again. Both forms were there all along; only their proportions moved.
+- **Coats and feathers that change with the seasons.** The ptarmigan, the snowshoe hare, the Arctic fox and the stoat (ermine) turn white for winter and brown for summer, every year, triggered by the length of the day.
+- **Armor on demand.** The water flea _Daphnia_ grows a protective helmet and spine when it senses the chemical traces of predators, and goes without them when the predators are gone; its young can be born already "armored."
+- **Resistance that fades.** Bacteria that become resistant to an antibiotic often lose some of that resistance when the drug is no longer used, because the change usually comes from a broken or disabled gene and costs the bacterium in normal conditions.
+
+Biologists call this "fluctuating selection" and "phenotypic plasticity," and they agree it happens. But that is the point: what we actually **observe** is variation that moves within limits and often returns to where it started, and a **pre-built capacity** to change color, size or shape on cue. A switch that turns on a white coat when the days get short, or a beak that is reshaped for each season, is not an accident being slowly improved; it is a feature, and features point to a designer. What the theory needs, and what has never been observed, is the steady gain of new genetic information that builds new organs and new kinds of creatures.
+
 # 11. The moral law
 
 Every human being knows that some things are really wrong — torturing a child for fun, betraying a friend, cruelty to the weak — and not just because we dislike them. We feel the pull of "ought," and we expect others to feel it too. Even someone who says there is no right or wrong will complain the moment someone steals from him.
 
 C. S. Lewis, a former atheist, made this one of his central arguments: a law implies a lawgiver. If there is no God, then morality is only the opinion of a species of animal, and the Holocaust was not really evil — only unpopular. But we know it was evil. So there is a moral law above us, and a Moral Lawgiver above it (_Mere Christianity_, 1952).
+
+Lewis described how this argument turned him around. As an atheist, his main objection to God was that the universe seemed cruel and unjust. Then he asked himself where he had gotten the idea of "just" and "unjust" in the first place. Nobody calls a line crooked unless he already has some idea of a straight line; in the same way, calling the world unjust means measuring it against a real standard of justice, and an accidental, purposeless universe could not have given him one. His very complaint against God assumed the moral law that points to God (_Mere Christianity_, Book 2, chapter 1, "The Rival Conceptions of God").
 
 > **Romans 2:14-15:** "For when the Gentiles, which have not the law, do by nature the things contained in the law, these, having not the law, are a law unto themselves: Which shew the work of the law written in their hearts, their conscience also bearing witness, and their thoughts the mean while accusing or else excusing one another;)"
 
