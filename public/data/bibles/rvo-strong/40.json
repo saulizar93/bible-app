@@ -254,16 +254,16 @@
       "Y he aquí, toda la ciudad salió a encontrar a Jesús; y cuando le vieron, le rogaron que se fuera de sus territorios."
     ],
     "9": [
-      "Entonces entrando en el barco, pasó a la otra parte, y vino a su ciudad.",
-      "Y he aquí le trajeron un paralítico, echado en una cama: y viendo Jesús la fe de ellos, dijo al paralítico: Confía, hijo; tus pecados te son perdonados.",
+      "Entonces entrando Jesús en la barca, pasó al otro lado y vino a su ciudad.",
+      "Y he aquí, le trajeron un paralítico echado en una cama; y viendo Jesús la fe de ellos, dijo al paralítico: Hijo, ten ánimo, tus pecados te son perdonados.",
       "Y he aquí, algunos de los escribas decían dentro de sí: Este blasfema.",
-      "Y viendo Jesús sus pensamientos, dijo: ¿Por qué pensáis mal en vuestros corazones?",
-      "Porque, ¿qué es más fácil, decir: Los pecados te son perdonados; o decir: Levántate, y anda?",
-      "Pues para que sepáis que el Hijo del hombre tiene potestad en la tierra de perdonar pecados, (dice entonces al paralítico): Levántate, toma tu cama, y vete a tu casa.",
+      "Y conociendo Jesús sus pensamientos, dijo: ¿Por qué pensáis mal en vuestros corazones?",
+      "Porque, ¿qué es más fácil, decir: Tus pecados te son perdonados; o decir: Levántate, y anda?",
+      "Pues para que sepáis que el Hijo del hombre tiene autoridad en la tierra para perdonar pecados, (dice entonces al paralítico): Levántate, toma tu camilla, y vete a tu casa.",
       "Entonces él se levantó y se fue a su casa.",
-      "Y las gentes, viéndolo, se maravillaron, y glorificaron a Dios, que había dado tal potestad a los hombres.",
-      "Y pasando Jesús de allí, vio a un hombre que estaba sentado al banco de los públicos tributos, el cual se llamaba Mateo; y dícele: Sígueme. Y se levantó, y le siguió.",
-      "Y aconteció que estando él sentado a la mesa en casa, he aquí que muchos publicanos y pecadores, que habían venido, se sentaron juntamente a la mesa con Jesús y sus discípulos.",
+      "Y las multitudes, viéndolo, se maravillaron, y glorificaron a Dios, que había dado tal autoridad a los hombres.",
+      "Y pasando Jesús de allí, vio a un hombre vio a un hombre llamado Mateo, que estaba sentado en el lugar de los tributos públicos, y le dijo: Sígueme. Y se levantó, y le siguió.",
+      "Y aconteció que estando Él sentado a la mesa en la casa de Mateo he aquí muchos publicanos y pecadores, que habían venido, se sentaron juntamente a la mesa con Jesús y sus discípulos.",
       "Y viendo esto los Fariseos, dijeron a sus discípulos: ¿Por qué come vuestro Maestro con los publicanos y pecadores?",
       "Y oyéndolo Jesús, les dijo: Los que están sanos no tienen necesidad de médico, sino los enfermos.",
       "Andad pues, y aprended qué cosa es: Misericordia quiero, y no sacrificio: porque no he venido a llamar justos, sino pecadores a arrepentimiento.",
@@ -23727,17 +23727,18 @@
           "g": "εμβας"
         },
         {
-          "t": "en",
+          "t": "Jesús en",
           "s": "G1519",
           "m": "PREP",
-          "g": "εις"
+          "g": "εις",
+          "n": "La palabra «Jesús» no está en el texto griego original de ninguna de las tres grandes familias manuscritas (TR, CT, ni MT). Pero el contexto inmediato y los textos paralelos (como Marcos 5:21, que dice «Pasando otra vez Jesús en una barca a la otra orilla...») confirman el hecho histórico."
         },
         {
-          "t": "el",
+          "t": "la",
           "s": "G3588"
         },
         {
-          "t": "barco,",
+          "t": "barca,",
           "s": "G4143",
           "m": "N-ASN",
           "g": "πλοιον"
@@ -23749,14 +23750,10 @@
           "g": "διεπερασεν"
         },
         {
-          "t": "a la",
-          "s": "G3588"
-        },
-        {
-          "t": "otra"
-        },
-        {
-          "t": "parte,"
+          "t": "al otro lado",
+          "s": "G1276",
+          "m": "V-AAI-3S",
+          "g": "διεπερασεν"
         },
         {
           "t": "y",
@@ -23797,7 +23794,7 @@
           "g": "και"
         },
         {
-          "t": "he aquí",
+          "t": "he aquí,",
           "s": "G2400"
         },
         {
@@ -23813,7 +23810,7 @@
           "g": "προσεφερον"
         },
         {
-          "t": "un paralítico,",
+          "t": "un paralítico",
           "s": "G3885",
           "m": "A-ASM",
           "g": "παραλυτικον"
@@ -23831,7 +23828,7 @@
           "g": "επι"
         },
         {
-          "t": "una cama:",
+          "t": "una cama;",
           "s": "G2825",
           "m": "N-GSF",
           "g": "κλινης"
@@ -23879,16 +23876,16 @@
           "g": "παραλυτικω"
         },
         {
-          "t": "Confía,",
-          "s": "G2293",
-          "m": "V-PAM-2S",
-          "g": "θαρσει"
-        },
-        {
-          "t": "hijo;",
+          "t": "Hijo,",
           "s": "G5043",
           "m": "N-VSN",
           "g": "τεκνον"
+        },
+        {
+          "t": "ten ánimo,",
+          "s": "G2293",
+          "m": "V-PAM-2S",
+          "g": "θαρσει"
         },
         {
           "t": "tus",
@@ -23975,7 +23972,7 @@
           "g": "και"
         },
         {
-          "t": "viendo",
+          "t": "conociendo",
           "s": "G1492"
         },
         {
@@ -24055,7 +24052,7 @@
           "s": "G2036"
         },
         {
-          "t": "Los",
+          "t": "Tus",
           "s": "G3588"
         },
         {
@@ -24155,7 +24152,7 @@
           "g": "εχει"
         },
         {
-          "t": "potestad",
+          "t": "autoridad",
           "s": "G1849",
           "m": "N-ASF",
           "g": "εξουσιαν"
@@ -24177,7 +24174,7 @@
           "g": "γης"
         },
         {
-          "t": "de perdonar",
+          "t": "para perdonar",
           "s": "G863",
           "m": "V-PAN",
           "g": "αφιεναι"
@@ -24227,7 +24224,7 @@
           "s": "G4675"
         },
         {
-          "t": "cama,",
+          "t": "camilla,",
           "s": "G2825",
           "m": "N-ASF",
           "g": "κλινην"
@@ -24311,7 +24308,7 @@
           "s": "G3588"
         },
         {
-          "t": "gentes,",
+          "t": "multitudes,",
           "s": "G3793",
           "m": "N-NPM",
           "g": "οχλοι"
@@ -24361,7 +24358,7 @@
           "g": "τοιαυτην"
         },
         {
-          "t": "potestad",
+          "t": "autoridad",
           "s": "G1849",
           "m": "N-ASF",
           "g": "εξουσιαν"
@@ -24413,46 +24410,44 @@
           "g": "ανθρωπον"
         },
         {
+          "t": "vio",
+          "s": "G1492"
+        },
+        {
+          "t": "a un hombre",
+          "s": "G444",
+          "m": "N-ASM",
+          "g": "ανθρωπον"
+        },
+        {
+          "t": "llamado",
+          "s": "G3004",
+          "m": "V-PPP-ASM",
+          "g": "λεγομενον"
+        },
+        {
+          "t": "Mateo,",
+          "s": "G3156",
+          "m": "N-ASM",
+          "g": "ματθαιον"
+        },
+        {
           "t": "que estaba sentado",
           "s": "G2521",
           "m": "V-PNP-ASM",
           "g": "καθημενον"
         },
         {
-          "t": "al",
+          "t": "en",
           "s": "G1909",
           "m": "PREP",
           "g": "επι"
         },
         {
-          "t": "banco",
+          "t": "el lugar de los tributos públicos,",
           "s": "G5058",
           "m": "N-ASN",
           "g": "τελωνιον"
-        },
-        {
-          "t": "de"
-        },
-        {
-          "t": "los"
-        },
-        {
-          "t": "públicos"
-        },
-        {
-          "t": "tributos,"
-        },
-        {
-          "t": "el cual se llamaba",
-          "s": "G3004",
-          "m": "V-PAI-3S",
-          "g": "λεγει"
-        },
-        {
-          "t": "Mateo;",
-          "s": "G3156",
-          "m": "N-ASM",
-          "g": "ματθαιον"
         },
         {
           "t": "y",
@@ -24461,7 +24456,7 @@
           "g": "και"
         },
         {
-          "t": "dícele:",
+          "t": "le dijo:",
           "s": "G846",
           "m": "P-DSM",
           "g": "αυτω"
@@ -24515,7 +24510,7 @@
           "g": "εγενετο"
         },
         {
-          "t": "que estando él",
+          "t": "que estando Él",
           "s": "G846",
           "m": "P-GSM",
           "g": "αυτου"
@@ -24533,17 +24528,18 @@
           "g": "εν"
         },
         {
-          "t": "casa,",
+          "t": "la casa de Mateo",
           "s": "G3614",
           "m": "N-DSF",
-          "g": "οικια"
+          "g": "οικια",
+          "n": "La palabara «Mateo» no se encuentra en los manoescritos griegos, pero es añadida para evitar ambigüedades. Basándose en el contexto del versículo anterior (donde Jesús llama a Mateo) y en los pasajes paralelos de Marcos 2:15 y Lucas 5:29, sabemos con claridad que la cena fue en el hogar del recaudador de impuestos."
         },
         {
           "t": "he aquí",
           "s": "G2400"
         },
         {
-          "t": "que muchos",
+          "t": "muchos",
           "s": "G4183",
           "m": "A-NPM",
           "g": "πολλοι"

@@ -521,8 +521,8 @@ declarado → traducido,"interpretado,","traducido,",,1
 doncella → joven,doncellas,jóvenes,,23
 doncella → joven,doncella,joven,,9
 edición manual,y,y,,6
+edición manual,él,él,,5
 edición manual,para,para,,4
-edición manual,él,él,,4
 edición manual,jacob:,jacob;,,2
 edición manual,cristo.,mesías.,,2
 edición manual,diciendo:,diciendo:,,2
@@ -533,6 +533,7 @@ edición manual,llegándose,vino,,2
 edición manual,hijo,el hijo,,2
 edición manual,la tierra,tierra,,2
 edición manual,luego,al instante,,2
+edición manual,"gentes,","multitudes,",,2
 edición manual,merced,recompensa,,2
 edición manual,presente,ofrenda,,2
 edición manual,que no,y|g2532 no|g3361,,2
@@ -542,6 +543,7 @@ edición manual,pago.,recompensa.,,2
 edición manual,parecer,mostrar,,2
 edición manual,congojéis,preocupéis,,2
 edición manual,aquel hato,aquella manada|g34,,2
+edición manual,potestad,autoridad,,2
 edición manual,"de jesucristo,","de jesús|g2424 el mesías,|g5547",,1
 edición manual,isaac:,isaac;,,1
 edición manual,hermanos:,hermanos;,,1
@@ -737,7 +739,6 @@ edición manual,y de decápolis,"de decápolis,",,1
 edición manual,y de jerusalén,"de jerusalén,",,1
 edición manual,y de judea,de judea,,1
 edición manual,de la otra parte,del otro lado,,1
-edición manual,"gentes,","multitudes,",,1
 edición manual,se llegaron a él sus discípulos.,vinieron|g4334 a él|g846 sus|g846 discipulos.|g3101,,1
 edición manual,recibirán consolación.,serán consolados.,,1
 edición manual,mansos:,humildes:,,1
@@ -962,6 +963,20 @@ edición manual,"de un despeñadero en la mar,",al|g1519 mar|g2281 por un despe�
 edición manual,"porqueros huyeron,",que los apacentaban|g1006 huyeron;|g5343,,1
 edición manual,jesús:,jesús;,,1
 edición manual,rogaban que saliese de sus términos.,rogaron|g3870 que se fuera|g3327 de sus|g846 territorios.|g3725,,1
+edición manual,"en el barco,","jesús en|g1519 la|g3588 barca,|g4143",,1
+edición manual,"a la otra parte,",al otro lado|g1276,,1
+edición manual,he aquí,"he aquí,",,1
+edición manual,"paralítico,",paralítico,,1
+edición manual,cama:,cama;,,1
+edición manual,"confía, hijo;","hijo,|g5043 ten ánimo,|g2293",,1
+edición manual,viendo,conociendo,,1
+edición manual,los,tus,,1
+edición manual,de perdonar,para perdonar|g863,,1
+edición manual,"cama,","camilla,",,1
+edición manual,"que estaba sentado al banco de los públicos tributos, el cual se llamaba mateo;","vio|g1492 a un hombre|g444 llamado|g3004 mateo,|g3156 que estaba sentado|g2521 en|g1909 el lugar de los tributos públicos,|g5058",,1
+edición manual,dícele:,le dijo:,,1
+edición manual,"casa,",la casa de mateo|g3614,,1
+edición manual,que muchos,muchos,,1
 empero → pero,empero,pero,,309
 empero → pero,yo empero,pero yo,,12
 empero → pero,esto empero,pero esto,,11
@@ -4168,14 +4183,14 @@ tetragrámaton (Dios/Señor) → YHWH,"alegres á dios,","alegres á yhwh,",,1
 tetragrámaton (Dios/Señor) → YHWH,dios!,yhwh!,,1
 tetragrámaton (Dios/Señor) → YHWH,"al señor,","a yhwh,",,1
 token sin texto,y,,el número Strong se perdió en este versículo,4
+token sin texto,los,,el número Strong se perdió en este versículo,3
 token sin texto,con,,el número Strong se perdió en este versículo,3
-token sin texto,los,,el número Strong se perdió en este versículo,2
+token sin texto,de,,el número Strong se perdió en este versículo,2
 token sin texto,he aquí,,el número Strong se perdió en este versículo,1
 token sin texto,"jerusalén,",,el número Strong se perdió en este versículo,1
 token sin texto,aparecimiento,,el número Strong se perdió en este versículo,1
 token sin texto,"dones,",,el número Strong se perdió en este versículo,1
 token sin texto,como,,el número Strong se perdió en este versículo,1
-token sin texto,de,,el número Strong se perdió en este versículo,1
 token sin texto,edad de,,el número Strong se perdió en este versículo,1
 token sin texto,"ahora,",,el número Strong se perdió en este versículo,1
 token sin texto,"mucho,",,el número Strong se perdió en este versículo,1
@@ -4209,6 +4224,10 @@ token sin texto,tenemos,,el número Strong se perdió en este versículo,1
 token sin texto,"contigo,",,el número Strong se perdió en este versículo,1
 token sin texto,a molestarnos,,el número Strong se perdió en este versículo,1
 token sin texto,que,,el número Strong se perdió en este versículo,1
+token sin texto,otra,,el número Strong se perdió en este versículo,1
+token sin texto,"parte,",,el número Strong se perdió en este versículo,1
+token sin texto,públicos,,el número Strong se perdió en este versículo,1
+token sin texto,"tributos,",,el número Strong se perdió en este versículo,1
 vianda → comida,vianda,comida,,16
 vianda → comida,viandas,comidas,,15
 á → a,á,a,,19324
