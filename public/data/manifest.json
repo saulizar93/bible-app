@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31",
+ "updated": "2026-11-01",
  "packs": {
   "bible:bsb": {
    "v": 1,
@@ -42,12 +42,12 @@
    "sig": "2e8aefa115aa"
   },
   "bible:rvg-strong": {
-   "v": 2,
-   "sig": "c835cbb9946b"
+   "v": 3,
+   "sig": "b7474686b9d6"
   },
   "bible:rvo-strong": {
-   "v": 2,
-   "sig": "f04d0ddeaaa2"
+   "v": 3,
+   "sig": "2b745c27cb66"
   },
   "bible:straubinger-strong": {
    "v": 2,
@@ -74,8 +74,8 @@
    "sig": "cc1e2d1c0360"
   },
   "concord:rvg-strong": {
-   "v": 2,
-   "sig": "dad8194e8db9"
+   "v": 3,
+   "sig": "cf9e7750f478"
   },
   "concord:rvo-strong": {
    "v": 1,
@@ -793,7 +793,7 @@
   "bibles/rvg-strong/38.json": "c8f8cbed42",
   "bibles/rvg-strong/39.json": "f6828d98d2",
   "bibles/rvg-strong/4.json": "75e2313c58",
-  "bibles/rvg-strong/40.json": "98aac2790b",
+  "bibles/rvg-strong/40.json": "588c0e7340",
   "bibles/rvg-strong/41.json": "17030cb68c",
   "bibles/rvg-strong/42.json": "f617cbd34d",
   "bibles/rvg-strong/43.json": "0658e31c81",
@@ -859,7 +859,7 @@
   "bibles/rvo-strong/38.json": "80aea5414b",
   "bibles/rvo-strong/39.json": "81afbabf5d",
   "bibles/rvo-strong/4.json": "932332571e",
-  "bibles/rvo-strong/40.json": "d91af0b478",
+  "bibles/rvo-strong/40.json": "1138220c39",
   "bibles/rvo-strong/41.json": "de3167b950",
   "bibles/rvo-strong/42.json": "3533ec2979",
   "bibles/rvo-strong/43.json": "02873c2f21",
@@ -1235,7 +1235,7 @@
   "concord/rvg-strong/greek/1001.json": "9e68e1bae3",
   "concord/rvg-strong/greek/11501.json": "4f8f7a8113",
   "concord/rvg-strong/greek/1501.json": "7540cdf591",
-  "concord/rvg-strong/greek/2001.json": "ec3edd6be8",
+  "concord/rvg-strong/greek/2001.json": "7320e71ea8",
   "concord/rvg-strong/greek/2501.json": "ab13160d03",
   "concord/rvg-strong/greek/3001.json": "e6e20875b9",
   "concord/rvg-strong/greek/3501.json": "3294bfd268",
