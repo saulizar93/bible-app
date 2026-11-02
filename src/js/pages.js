@@ -39,6 +39,10 @@ export const INFO_PAGES = [
     label: { en: "Saint intercession", es: "Intercesión de los santos" },
   },
   {
+    id: "on-mary",
+    label: { en: "On Mary", es: "Sobre María" },
+  },
+  {
     id: "matthew-16-18",
     label: { en: "Matthew 16:18", es: "Mateo 16:18" },
   },
