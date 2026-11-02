@@ -220,7 +220,7 @@ Hay un hombre en la Escritura que se dirige a un santo difunto y le pide ayuda: 
 
 > **Lucas 16:29-31:** «Y Abraham le dijo: A Moisés y a los profetas tienen; que los oigan. Él entonces dijo: No, padre Abraham; mas si alguno va a ellos de entre los muertos, se arrepentirán. Mas Abraham le dijo: Si no oyen a Moisés y a los profetas, tampoco se persuadirán aunque alguno se levante de los muertos.»
 
-## Los padres no nos conocen
+## Los Santos no nos conocen
 
 Ni siquiera los más grandes de los muertos oyen al pueblo de Dios. Isaías ora: «Pero tú eres nuestro padre, si bien Abraham nos ignora, e Israel no nos conoce; tú, oh Jehová, eres nuestro padre».
 
@@ -229,6 +229,12 @@ Ni siquiera los más grandes de los muertos oyen al pueblo de Dios. Isaías ora:
 > **Job 14:21:** «Sus hijos alcanzan honor, y él no lo sabe; o son humillados, y no entiende de ellos.»
 
 > **Eclesiastés 9:5-6:** «Porque los que viven saben que han de morir; pero los muertos nada saben, ni tienen más paga; porque su memoria es puesta en olvido. También su amor, su odio y su envidia, fenecieron ya; y nunca más tendrán parte en todo lo que se hace debajo del sol.»
+
+## Pablo tenía que seguir vivo para ayudar a la iglesia
+
+Pablo anhelaba morir y estar con Cristo, lo cual llamó «muchísimo mejor». Sin embargo, eligió quedarse en la carne, porque seguir vivo era «más necesario por causa de vosotros», «para vuestro provecho y gozo de la fe». Si los santos difuntos pudieran ayudar a los creyentes desde el cielo, el razonamiento de Pablo no tendría sentido: podría haberse ido con el Señor y seguir ayudando a los filipenses desde allí. En cambio, dice claramente que su utilidad para ellos dependía de que siguiera **vivo**.
+
+> **Filipenses 1:21-25:** «Porque para mí el vivir es Cristo, y el morir es ganancia. Mas si vivo en la carne, este es el fruto de mi trabajo; no sé entonces qué escoger. Porque de ambas cosas estoy puesto en estrecho, teniendo deseo de partir y estar con Cristo, lo cual es muchísimo mejor; pero quedar en la carne es más necesario por causa de vosotros. Y confiado en esto, sé que quedaré y permaneceré con todos vosotros, para vuestro provecho y gozo de la fe,»
 
 ## «Pero pedimos a nuestros amigos que oren por nosotros»
 
@@ -298,18 +304,18 @@ El cambio no fue solo un accidente de la devoción popular. Los dirigentes de la
 
 El paganismo tenía un dios para cada necesidad. La devoción católica y ortodoxa tiene hoy un santo patrono para las mismas necesidades:
 
-| Necesidad | Protector pagano | Santo patrono hoy |
-| --- | --- | --- |
-| Marineros y el mar | Poseidón / Neptuno; Cástor y Pólux, cuya señal era el resplandor en los mástiles | San Nicolás; San Telmo (Erasmo), cuyo nombre lleva hoy ese mismo resplandor («fuego de San Telmo») |
-| Viajeros | Hermes / Mercurio | San Cristóbal |
-| Cosecha y campo | Deméter / Ceres | San Isidro Labrador |
-| Vino | Dioniso / Baco | San Vicente de Zaragoza; San Urbano |
-| Parto | Juno Lucina; Ilitía; Artemisa | Santa Margarita de Antioquía; San Ramón Nonato; San Gerardo Mayela |
-| Sanidad | Asclepio, en cuyos templos se practicaba la «incubación», dormir en el santuario para ser sanado en un sueño | San Cosme y San Damián, en cuyo santuario de Constantinopla los enfermos dormían para ser sanados de la misma manera |
-| Guerra y soldados | Ares / Marte | San Miguel; San Jorge |
-| Fuego y herreros | Hefesto / Vulcano | San Florián (contra el fuego); San Eloy (metalurgos) |
-| El hogar | los dioses domésticos (_lares_ y _penates_) en un altar de la casa | el altar doméstico con imágenes de santos |
-| Madre del cielo | Isis amamantando a Horus; Cibeles, la «Gran Madre» | la Virgen con el Niño; María «Reina del Cielo» |
+| Necesidad          | Protector pagano                                                                                             | Santo patrono hoy                                                                                                    |
+| ------------------ | ------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------- |
+| Marineros y el mar | Poseidón / Neptuno; Cástor y Pólux, cuya señal era el resplandor en los mástiles                             | San Nicolás; San Telmo (Erasmo), cuyo nombre lleva hoy ese mismo resplandor («fuego de San Telmo»)                   |
+| Viajeros           | Hermes / Mercurio                                                                                            | San Cristóbal                                                                                                        |
+| Cosecha y campo    | Deméter / Ceres                                                                                              | San Isidro Labrador                                                                                                  |
+| Vino               | Dioniso / Baco                                                                                               | San Vicente de Zaragoza; San Urbano                                                                                  |
+| Parto              | Juno Lucina; Ilitía; Artemisa                                                                                | Santa Margarita de Antioquía; San Ramón Nonato; San Gerardo Mayela                                                   |
+| Sanidad            | Asclepio, en cuyos templos se practicaba la «incubación», dormir en el santuario para ser sanado en un sueño | San Cosme y San Damián, en cuyo santuario de Constantinopla los enfermos dormían para ser sanados de la misma manera |
+| Guerra y soldados  | Ares / Marte                                                                                                 | San Miguel; San Jorge                                                                                                |
+| Fuego y herreros   | Hefesto / Vulcano                                                                                            | San Florián (contra el fuego); San Eloy (metalurgos)                                                                 |
+| El hogar           | los dioses domésticos (_lares_ y _penates_) en un altar de la casa                                           | el altar doméstico con imágenes de santos                                                                            |
+| Madre del cielo    | Isis amamantando a Horus; Cibeles, la «Gran Madre»                                                           | la Virgen con el Niño; María «Reina del Cielo»                                                                       |
 
 Los nombres cambiaron; el sistema no. Un dios del mar y un patrono del mar, una diosa del parto y una patrona del parto, reciben ambos las oraciones que pertenecen al Dios que «hiciste el cielo y la tierra, el mar y todo lo que en ellos hay» (Hechos 4:24).
 

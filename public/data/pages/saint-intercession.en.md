@@ -220,7 +220,7 @@ There is one man in Scripture who addresses a departed saint and asks him for he
 
 > **Luke 16:29-31:** "Abraham saith unto him, They have Moses and the prophets; let them hear them. And he said, Nay, father Abraham: but if one went unto them from the dead, they will repent. And he said unto him, If they hear not Moses and the prophets, neither will they be persuaded, though one rose from the dead."
 
-## The fathers do not know us
+## The Saints do not know us
 
 Even the greatest of the dead do not hear God's people. Isaiah prays, "Doubtless thou art our father, though Abraham be ignorant of us, and Israel acknowledge us not: thou, O LORD, art our father."
 
@@ -229,6 +229,12 @@ Even the greatest of the dead do not hear God's people. Isaiah prays, "Doubtless
 > **Job 14:21:** "His sons come to honour, and he knoweth it not; and they are brought low, but he perceiveth it not of them."
 
 > **Ecclesiastes 9:5-6:** "For the living know that they shall die: but the dead know not any thing, neither have they any more a reward; for the memory of them is forgotten. Also their love, and their hatred, and their envy, is now perished; neither have they any more a portion for ever in any thing that is done under the sun."
+
+## Paul had to stay alive to help the church
+
+Paul longed to die and be with Christ, which he called "far better." Yet he chose to remain in the flesh, because staying alive was "more needful for you," "for your furtherance and joy of faith." If departed saints could help believers from heaven, Paul's reasoning would make no sense: he could have gone to be with the Lord and gone on helping the Philippians from there. Instead he says plainly that his usefulness to them depended on his remaining **alive**.
+
+> **Philippians 1:21-25:** "For to me to live is Christ, and to die is gain. But if I live in the flesh, this is the fruit of my labour: yet what I shall choose I wot not. For I am in a strait betwixt two, having a desire to depart, and to be with Christ; which is far better: Nevertheless to abide in the flesh is more needful for you. And having this confidence, I know that I shall abide and continue with you all for your furtherance and joy of faith;"
 
 ## "But we ask our friends to pray for us"
 
@@ -298,18 +304,18 @@ The change was not only an accident of popular devotion. Church leaders adopted 
 
 Paganism had a god for every need. Catholic and Orthodox devotion now has a patron saint for the same needs:
 
-| Need | Pagan protector | Patron saint today |
-| --- | --- | --- |
-| Sailors and the sea | Poseidon / Neptune; Castor and Pollux, whose sign was the glow on ships' masts | St. Nicholas; St. Elmo (Erasmus), whose name the same glow ("St. Elmo's fire") now bears |
-| Travelers | Hermes / Mercury | St. Christopher |
-| Harvest and farming | Demeter / Ceres | St. Isidore the Farmer |
-| Wine | Dionysus / Bacchus | St. Vincent of Saragossa; St. Urban |
-| Childbirth | Juno Lucina; Eileithyia; Artemis | St. Margaret of Antioch; St. Raymond Nonnatus; St. Gerard Majella |
-| Healing | Asclepius, whose temples practised "incubation," sleeping in the shrine to be healed in a dream | Sts. Cosmas and Damian, at whose shrine in Constantinople the sick slept for healing in the same way |
-| War and soldiers | Ares / Mars | St. Michael; St. George |
-| Fire and smiths | Hephaestus / Vulcan | St. Florian (against fire); St. Eligius (metalworkers) |
-| The home | the household gods (_Lares_ and _Penates_) in a shrine in the house | the household altar of saints' images |
-| Mother of heaven | Isis nursing Horus; Cybele, "Great Mother" | the Virgin and Child; Mary "Queen of Heaven" |
+| Need                | Pagan protector                                                                                 | Patron saint today                                                                                   |
+| ------------------- | ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| Sailors and the sea | Poseidon / Neptune; Castor and Pollux, whose sign was the glow on ships' masts                  | St. Nicholas; St. Elmo (Erasmus), whose name the same glow ("St. Elmo's fire") now bears             |
+| Travelers           | Hermes / Mercury                                                                                | St. Christopher                                                                                      |
+| Harvest and farming | Demeter / Ceres                                                                                 | St. Isidore the Farmer                                                                               |
+| Wine                | Dionysus / Bacchus                                                                              | St. Vincent of Saragossa; St. Urban                                                                  |
+| Childbirth          | Juno Lucina; Eileithyia; Artemis                                                                | St. Margaret of Antioch; St. Raymond Nonnatus; St. Gerard Majella                                    |
+| Healing             | Asclepius, whose temples practised "incubation," sleeping in the shrine to be healed in a dream | Sts. Cosmas and Damian, at whose shrine in Constantinople the sick slept for healing in the same way |
+| War and soldiers    | Ares / Mars                                                                                     | St. Michael; St. George                                                                              |
+| Fire and smiths     | Hephaestus / Vulcan                                                                             | St. Florian (against fire); St. Eligius (metalworkers)                                               |
+| The home            | the household gods (_Lares_ and _Penates_) in a shrine in the house                             | the household altar of saints' images                                                                |
+| Mother of heaven    | Isis nursing Horus; Cybele, "Great Mother"                                                      | the Virgin and Child; Mary "Queen of Heaven"                                                         |
 
 The names changed; the system did not. A god of the sea and a patron of the sea, a goddess of childbirth and a patron of childbirth, both receive the prayers that belong to the God who "made heaven, and earth, the sea, and all that in them is" (Acts 4:24).
 
