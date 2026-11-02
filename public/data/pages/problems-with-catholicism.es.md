@@ -192,6 +192,22 @@ El Concilio de Trento declaró: «Si alguno dijere que el impío se justifica **
 
 Los católicos citan Santiago 2:14-26. Pero el propio ejemplo de Santiago, Abraham, fue contado por justo por la fe en Génesis 15, años antes de ofrecer a Isaac en Génesis 22. Santiago muestra que la fe verdadera produce obras; Pablo muestra que las obras no producen la salvación. No eran rivales: Jacobo, Pedro y Juan dieron a Pablo «las diestras de compañerismo» después de oír su evangelio (Gálatas 2:9). Las buenas obras son el fruto del amor: «porque el que no ama a su hermano a quien ha visto, ¿cómo puede amar a Dios a quien no ha visto?» (1 Juan 4:20).
 
+## El «tesoro de méritos»
+
+Roma enseña que la Iglesia guarda un **tesoro** formado por los méritos de Cristo, de María y de los santos, y que el papa puede aplicarlo a los creyentes por medio de las indulgencias, para remitir la pena temporal de sus pecados, aquí o en el purgatorio. El _Catecismo_ dice de los santos: «De esta manera alcanzaron su propia salvación y, al mismo tiempo, cooperaron a la salvación de sus hermanos en la unidad del Cuerpo místico» (_CIC_ 1477; vea 1476-1479).
+
+**No es apostólico.** Ningún apóstol, y ningún escritor de los primeros mil años, describe un fondo acumulado de los méritos de los santos que un obispo pueda repartir. La idea la elaboraron por primera vez los teólogos escolásticos del siglo XIII. **Hugo de Saint-Cher**, un dominico, la expuso hacia **1230**, y Alejandro de Hales, Alberto Magno y Tomás de Aquino la desarrollaron. Un papa la definió por primera vez en **1343**, cuando **Clemente VI** declaró en la bula _Unigenitus Dei Filius_ que Cristo dejó a la Iglesia un tesoro que dispensan los sucesores de Pedro, y que los méritos de María y de todos los elegidos se suman a él. León X lo repitió en 1518 contra Lutero, y Trento sostuvo las indulgencias en 1563. Eso es unos **1.200 años después de los apóstoles**.
+
+**Contradice la salvación por gracia.** Tomás de Aquino explicó por qué había algo que guardar: «muchos santos hicieron obras de satisfacción que excedían lo que requerían sus deudas» (_Suma Teológica_, Suplemento, c. 25, a. 1). Para que haya un **excedente**, primero tiene que haber un **requisito**. Se imagina que los santos alcanzaron la cantidad de obras y sufrimientos que exigían sus propios pecados, y luego la sobrepasaron, de modo que el sobrante puede acreditarse a otros. Eso convierte el cielo en cumplir una medida de obras, justo lo que Pablo negó: «no por obras, para que nadie se gloríe». Los teólogos católicos responden que los méritos de los santos son a su vez fruto de la gracia, y que el tesoro tiene que ver con la pena, no con el perdón. Pero un regalo no tiene sobrante: si la salvación es «don de Dios», nadie pudo haber ganado más de lo que necesitaba. Jesús enseñó que, aun cuando hayamos hecho todo lo mandado, solo hemos hecho nuestro deber, y no sobra nada. En su parábola, las vírgenes prudentes no pudieron compartir su aceite. Y el Salmo dice que nadie puede pagar por el alma de su hermano. Solo la sangre de Cristo limpia de todo pecado, y no necesita que se le añada nada.
+
+> **Lucas 17:10:** «Así también vosotros, cuando hubiereis hecho todo lo que os es mandado, decid: Siervos inútiles somos, porque lo que debíamos hacer, hicimos.»
+
+> **Mateo 25:8-9:** «Y las insensatas dijeron a las prudentes: Dadnos de vuestro aceite; porque nuestras lámparas se apagan. Mas las prudentes respondieron, diciendo: No; no sea que no haya suficiente para nosotras y vosotras, id más bien a los que venden, y comprad para vosotras.»
+
+> **Salmos 49:7-8:** «ninguno de ellos podrá en manera alguna redimir a su hermano, ni dar a Dios su rescate (Porque la redención de su alma es de gran precio, y no se logrará jamás),»
+
+> **1 Juan 1:7:** «mas si andamos en luz, como Él está en luz, tenemos comunión unos con otros, y la sangre de Jesucristo su Hijo nos limpia de todo pecado.»
+
 # Conclusión
 
 Estudiando la predicación católica, examiné cada versículo que se usa para el bautismo, las obras, la única iglesia verdadera, el purgatorio, María y los santos. Una y otra vez, con solo leer el versículo anterior o el siguiente se veía que el pasaje estaba siendo forzado a decir algo que no dice. Roma no es la única iglesia que hace esto, y por eso todo cristiano debe leer la Biblia por sí mismo. El modelo de la iglesia original sigue allí, en el libro de los Hechos y en las cartas de los apóstoles. Los cristianos pueden diferir en asuntos secundarios (Romanos 14:1-12); pero la salvación es por gracia, por medio de la fe en Jesucristo, y ninguna institución tiene sus llaves.
@@ -202,7 +218,7 @@ Estudiando la predicación católica, examiné cada versículo que se usa para e
 
 # Fuentes
 
-- _Catecismo de la Iglesia Católica_ (2.ª ed., 1997), 499, 816, 881-882, 2084-2132; Bonifacio VIII, _Unam Sanctam_ (1302); Concilio de Trento, Sesión 4 (1546) y Sesión 6, cánones sobre la justificación (1547); Vaticano II, _Dei Verbum_ (1965).
+- _Catecismo de la Iglesia Católica_ (2.ª ed., 1997), 499, 816, 881-882, 2084-2132; Bonifacio VIII, _Unam Sanctam_ (1302); Concilio de Trento, Sesión 4 (1546) y Sesión 6, cánones sobre la justificación (1547); Vaticano II, _Dei Verbum_ (1965); _CIC_ 1476-1479; Clemente VI, _Unigenitus Dei Filius_ (1343); Tomás de Aquino, _Suma Teológica_, Suplemento, c. 25, a. 1.
 - Orígenes, _Comentario a Mateo_ 10.17; 12.10-11; Agustín, _Retractaciones_ 1.21; Jerónimo, _Contra Helvidio_ y prefacios a la Vulgata; Firmiliano, _Carta a Cipriano_ (Cipriano, Epístola 74); Beda, _Historia eclesiástica_ 1.30.
 - Cánones de Constantinopla I (381) y Calcedonia (451); Valentiniano III, _Novela_ 17 (445); Siricio, _Carta a Himerio_ (385); _Actas del Concilio de Éfeso_, sesión 3 (431).
 - Lorenzo Valla, _Sobre la Donación de Constantino_ (1440); Eamon Duffy, _Santos y pecadores: una historia de los papas_ (4.ª ed., 2014).

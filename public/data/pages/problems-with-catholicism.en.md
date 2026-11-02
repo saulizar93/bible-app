@@ -192,6 +192,22 @@ The Council of Trent declared: "If any one saith, that by **faith alone** the im
 
 Catholics cite James 2:14-26. But James's own example, Abraham, was counted righteous by faith in Genesis 15 — years before he offered Isaac in Genesis 22. James shows that true faith produces works; Paul shows that works do not produce salvation. They were not rivals: James, Peter and John gave Paul "the right hands of fellowship" after hearing his gospel (Galatians 2:9). Good works are the fruit of love — "for he that loveth not his brother whom he hath seen, how can he love God whom he hath not seen?" (1 John 4:20).
 
+## The "treasury of merit"
+
+Rome teaches that the Church holds a **treasury** made up of the merits of Christ, of Mary, and of the saints, and that the pope can apply it to believers through indulgences, to remit the temporal punishment of their sins, here or in purgatory. The _Catechism_ says of the saints: "In this way they attained their own salvation and at the same time cooperated in saving their brothers in the unity of the Mystical Body" (_CCC_ 1477; see 1476-1479).
+
+**It is not apostolic.** No apostle, and no writer of the first thousand years, describes a stored-up fund of the saints' merits that a bishop can hand out. The idea was first worked out by the scholastic theologians of the 13th century. **Hugh of Saint-Cher**, a Dominican, set it out around **1230**, and Alexander of Hales, Albert the Great and Thomas Aquinas developed it. It was first defined by a pope in **1343**, when **Clement VI** declared in the bull _Unigenitus Dei Filius_ that Christ had left the Church a treasure to be dispensed by Peter's successors, and that the merits of Mary and of all the elect add to it. Leo X repeated it in 1518 against Luther, and Trent upheld indulgences in 1563. That is about **1,200 years after the apostles**.
+
+**It contradicts salvation by grace.** Aquinas explained why there was something to store: "many of the saints performed works of satisfaction exceeding the requirements of their debts" (_Summa Theologiae_, Supplement, q. 25, a. 1). For there to be an **excess**, there must first be a **requirement**. The saints are imagined to have reached the amount of works and suffering their own sins demanded, and then gone beyond it, so that the surplus can be credited to others. That makes heaven a matter of meeting a measure of works, the very thing Paul denied: "not of works, lest any man should boast." Catholic theologians answer that the saints' merits are themselves the fruit of grace, and that the treasury concerns punishment, not forgiveness. But a gift does not have a surplus: if salvation is "the gift of God," no one can have earned more of it than he needed. Jesus taught that even when we have done everything commanded, we have only done our duty, and nothing is left over. In His parable, the wise virgins could not share their oil. And the Psalm says no man can pay for his brother's soul. Only Christ's blood cleanses from all sin, and it needs nothing added to it.
+
+> **Luke 17:10:** "So likewise ye, when ye shall have done all those things which are commanded you, say, We are unprofitable servants: we have done that which was our duty to do."
+
+> **Matthew 25:8-9:** "And the foolish said unto the wise, Give us of your oil; for our lamps are gone out. But the wise answered, saying, Not so; lest there be not enough for us and you: but go ye rather to them that sell, and buy for yourselves."
+
+> **Psalm 49:7-8:** "None of them can by any means redeem his brother, nor give to God a ransom for him: (For the redemption of their soul is precious, and it ceaseth for ever:)"
+
+> **1 John 1:7:** "But if we walk in the light, as he is in the light, we have fellowship one with another, and the blood of Jesus Christ his Son cleanseth us from all sin."
+
 # Conclusion
 
 Studying Catholic preaching, I examined every verse used for baptism, works, the one true church, purgatory, Mary and the saints. Again and again, simply reading the verse before or after showed that the passage was being made to say something it does not say. Rome is not the only church that does this, which is why every Christian should read the Bible for himself. The pattern of the original church is still there, in the book of Acts and the letters of the apostles. Christians may differ on secondary matters (Romans 14:1-12); but salvation is by grace through faith in Jesus Christ, and no institution holds the keys to it.
@@ -202,7 +218,7 @@ Studying Catholic preaching, I examined every verse used for baptism, works, the
 
 # Sources
 
-- _Catechism of the Catholic Church_ (2nd ed., 1997), 499, 816, 881-882, 2084-2132; Boniface VIII, _Unam Sanctam_ (1302); Council of Trent, Session 4 (1546) and Session 6, canons on justification (1547); Vatican II, _Dei Verbum_ (1965).
+- _Catechism of the Catholic Church_ (2nd ed., 1997), 499, 816, 881-882, 2084-2132; Boniface VIII, _Unam Sanctam_ (1302); Council of Trent, Session 4 (1546) and Session 6, canons on justification (1547); Vatican II, _Dei Verbum_ (1965); _CCC_ 1476-1479; Clement VI, _Unigenitus Dei Filius_ (1343); Thomas Aquinas, _Summa Theologiae_, Supplement, q. 25, a. 1.
 - Origen, _Commentary on Matthew_ 10.17; 12.10-11; Augustine, _Retractations_ 1.21; Jerome, _Against Helvidius_ and prefaces to the Vulgate; Firmilian, _Letter to Cyprian_ (Cyprian, Epistle 74); Bede, _Ecclesiastical History_ 1.30.
 - Canons of Constantinople I (381) and Chalcedon (451); Valentinian III, _Novella_ 17 (445); Siricius, _Letter to Himerius_ (385); _Acts of the Council of Ephesus_, session 3 (431).
 - Lorenzo Valla, _On the Donation of Constantine_ (1440); Eamon Duffy, _Saints and Sinners: A History of the Popes_ (4th ed., 2014).
