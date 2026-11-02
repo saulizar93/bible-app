@@ -140,6 +140,8 @@ Muhammad married **Khadijah** when he was about 25 and she about 40, and he had 
 > "…a privilege for thee only, not for the (rest of) believers." (Qur'an 33:50)
 
 - **Aisha** was "married to him when she was six years old and he consummated his marriage with her when she was nine years old" (Sahih al-Bukhari 5133; also 3894, Sahih Muslim 1422). Muhammad was then about 53.
+- **"Her silence is her consent."** Aisha asked whether women should be asked for their consent to marriage. Muhammad said yes. She objected: "A virgin, if asked, feels shy and keeps quiet." He answered: "**Her silence means her consent**" (Sahih al-Bukhari 6946; also 5137, 6971). A girl too young or too frightened to speak is counted as having agreed.
+- **Aisha still played with dolls in his house.** She said: "I used to play with the dolls in the presence of the Prophet," and her girlfriends came to play with her (Sahih al-Bukhari 6130; also Sahih Muslim 2440). The translator's note in the standard English edition (Muhsin Khan) explains that dolls and similar images are otherwise forbidden, but were allowed for Aisha "as she was a little girl, not yet reached the age of puberty," citing Ibn Hajar's _Fath al-Bari_ (vol. 13, p. 143). By Islam's own scholars, then, Muhammad's wife was still a child who had not reached puberty.
 - **Zaynab** was the wife of his adopted son Zayd. A revelation (33:37) approved Muhammad's marrying her after Zayd divorced her, and the next verses ended adoption as a legal relationship (33:4-5, 40).
 - When such revelations came, Aisha said to him: "**I feel that your Lord hastens in fulfilling your wishes and desires**" (Sahih al-Bukhari 4788).
 
@@ -222,4 +224,4 @@ Jesus did not point to a future prophet. He said:
 - David Wood, "The Islamic Dilemma" (Acts17Apologetics).
 - Behnam Sadeghi and Mohsen Goudarzi, "Ṣan'ā' 1 and the Origins of the Qur'ān," _Der Islam_ 87 (2012).
 - Arthur Jeffery, _Materials for the History of the Text of the Qur'ān_ (1937) — the codices of Ibn Mas'ud and Ubayy.
-- Ibn Hajar al-Asqalani, _Hady al-Sari_ (introduction to _Fath al-Bari_) — al-Bukhari's selection.
+- Ibn Hajar al-Asqalani, _Hady al-Sari_ (introduction to _Fath al-Bari_) — al-Bukhari's selection; _Fath al-Bari_ vol. 13, p. 143 — Aisha's dolls.

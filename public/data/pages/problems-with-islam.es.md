@@ -140,6 +140,8 @@ Mahoma se casó con **Jadiya** cuando él tenía unos 25 años y ella unos 40, y
 > «…un privilegio solo para ti, no para (el resto de) los creyentes». (Corán 33:50)
 
 - **Aisha** «se casó con él cuando tenía seis años, y él consumó su matrimonio con ella cuando tenía nueve años» (Sahih al-Bujari 5133; también 3894, Sahih Muslim 1422). Mahoma tenía entonces unos 53 años.
+- **«Su silencio es su consentimiento».** Aisha preguntó si se debía pedir a las mujeres su consentimiento para casarse. Mahoma dijo que sí. Ella objetó: «Una virgen, si se le pregunta, siente vergüenza y se queda callada». Él respondió: «**Su silencio significa su consentimiento**» (Sahih al-Bujari 6946; también 5137, 6971). Una niña demasiado joven o asustada para hablar se cuenta como si hubiera aceptado.
+- **Aisha todavía jugaba con muñecas en su casa.** Ella dijo: «Yo solía jugar con las muñecas en presencia del Profeta», y sus amigas venían a jugar con ella (Sahih al-Bujari 6130; también Sahih Muslim 2440). La nota del traductor en la edición inglesa estándar (Muhsin Khan) explica que las muñecas e imágenes semejantes están prohibidas en general, pero se le permitían a Aisha «porque era una niña pequeña que aún no había llegado a la pubertad», citando el _Fath al-Bari_ de Ibn Hayar (vol. 13, p. 143). Según los propios eruditos del islam, la esposa de Mahoma era todavía una niña que no había llegado a la pubertad.
 - **Zainab** era la esposa de su hijo adoptivo Zayd. Una revelación (33:37) aprobó que Mahoma se casara con ella después de que Zayd se divorció, y los versos siguientes abolieron la adopción como relación legal (33:4-5, 40).
 - Cuando llegaban tales revelaciones, Aisha le dijo: «**Siento que tu Señor se apresura a cumplir tus deseos y tus anhelos**» (Sahih al-Bujari 4788).
 
@@ -222,4 +224,4 @@ Jesús no señaló a un profeta futuro. Él dijo:
 - David Wood, «El dilema islámico» (Acts17Apologetics).
 - Behnam Sadeghi y Mohsen Goudarzi, «Ṣan'ā' 1 and the Origins of the Qur'ān», _Der Islam_ 87 (2012).
 - Arthur Jeffery, _Materials for the History of the Text of the Qur'ān_ (1937): los códices de Ibn Masud y Ubayy.
-- Ibn Hajar al-Asqalani, _Hady al-Sari_ (introducción a _Fath al-Bari_): la selección de al-Bujari.
+- Ibn Hajar al-Asqalani, _Hady al-Sari_ (introducción a _Fath al-Bari_): la selección de al-Bujari; _Fath al-Bari_ vol. 13, p. 143: las muñecas de Aisha.
