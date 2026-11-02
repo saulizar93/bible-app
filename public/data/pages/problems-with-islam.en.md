@@ -56,7 +56,31 @@ That is why the Qur'an has to insist that he is not mad and not inspired by a de
 
 > "Thou art not, for thy Lord's favour unto thee, a madman." (Qur'an 68:2) "And your comrade is not mad… Nor is this the utterance of a devil worthy to be stoned." (81:22, 25)
 
-Muhammad himself later said he had been bewitched for a time, so that he imagined he had done things he had not done (Sahih al-Bukhari 5763–5765), and the Qur'an admits that Satan can insert words into a prophet's message (22:52) — the background of the "Satanic verses" incident reported by Ibn Ishaq and al-Tabari, in which Muhammad briefly praised three pagan goddesses of Mecca. The Bible warns:
+Muhammad himself later said he had been bewitched for a time, so that he imagined he had done things he had not done (Sahih al-Bukhari 5763–5765), and the Qur'an admits that Satan can insert words into a prophet's message (22:52).
+
+### The "Satanic verses": Muhammad admits he was deceived
+
+Ibn Ishaq and al-Tabari both report what happened. In Mecca, longing to win over his tribe, Muhammad was reciting Surah 53. When he reached the verse
+
+> "Have ye thought upon Al-Lat and Al-'Uzza, and Manat, the third, the other?" (Qur'an 53:19-20)
+
+he went on, as if it were revelation: "**These are the exalted cranes (_gharaniq_), whose intercession is to be hoped for.**" Al-Lat, al-'Uzza and Manat were the three goddesses of the Meccan idolaters. The pagans were delighted, and when Muhammad bowed down at the end of the surah, they bowed down with him. Even Sahih al-Bukhari records that strange detail: when the Prophet prostrated at the end of Surat an-Najm, "the Muslims and the pagans" prostrated with him (Sahih al-Bukhari 1067, 4862). Pagans had no reason to bow to a message that condemned their goddesses.
+
+Then, according to the same sources, Gabriel came and rebuked him: "**What have you done, Muhammad? You have recited to the people that which I did not bring you from God, and you have said what was not said to you.**" Muhammad was deeply grieved, and in al-Tabari's account he confesses: "**I have fabricated things against God and have imputed to Him words which He has not spoken**" (al-Tabari, _History_, vol. 6, pp. 108-111; Ibn Ishaq, Guillaume, pp. 165-166).
+
+The two verses were withdrawn, and the Qur'an explains what had happened in two passages that the early commentators connect to this incident:
+
+> "Never sent We a messenger or a prophet before thee but when he recited (the message) Satan proposed (opposition) in respect of that which he recited thereof. But Allah abolisheth that which Satan proposeth. Then Allah establisheth His revelations." (Qur'an 22:52)
+
+> "And they indeed strove hard to beguile thee (Muhammad) away from that wherewith We have inspired thee, that thou shouldst invent other than it against Us; and then would they have accepted thee as a friend. And if We had not made thee wholly firm thou mightest almost have inclined unto them a little." (17:73-74)
+
+So by his own sources, Muhammad:
+
+- **was deceived**: he could not tell the difference between what Gabriel brought and what Satan put on his tongue;
+- **taught idolatry**: he proclaimed, as the word of God, that the goddesses of Mecca could intercede, and led his followers and the idolaters together in prostration;
+- **admitted it**: he said he had spoken against God words that God had not said.
+
+Many Muslim scholars today reject the story, saying its chains of narration are weak. But it is told by the earliest biographer and the greatest early historian and commentator, both devout Muslims with no reason to invent something so damaging, and Ibn Hajar, the great commentator on al-Bukhari, judged that its many chains show the story has a real basis. If Satan could speak through Muhammad once without his noticing, how can anyone be sure he did not do it again? A true prophet of God never had to say, "That last revelation was from the devil." The Bible warns:
 
 > **2 Corinthians 11:14:** "And no marvel; for Satan himself is transformed into an angel of light."
 

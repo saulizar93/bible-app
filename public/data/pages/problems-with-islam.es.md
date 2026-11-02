@@ -56,7 +56,31 @@ Por eso el Corán tiene que insistir en que no está loco ni inspirado por un de
 
 > «Tú no eres, por el favor de tu Señor, un loco». (Corán 68:2) «Y vuestro compañero no está loco… Ni es esta la palabra de un demonio maldito». (81:22, 25)
 
-El mismo Mahoma dijo más tarde que estuvo hechizado por un tiempo, de modo que imaginaba haber hecho cosas que no había hecho (Sahih al-Bujari 5763–5765), y el Corán admite que Satanás puede insertar palabras en el mensaje de un profeta (22:52); ese es el trasfondo del incidente de los «versos satánicos» que relatan Ibn Ishaq y al-Tabari, en el que Mahoma alabó brevemente a tres diosas paganas de La Meca. La Biblia advierte:
+El mismo Mahoma dijo más tarde que estuvo hechizado por un tiempo, de modo que imaginaba haber hecho cosas que no había hecho (Sahih al-Bujari 5763–5765), y el Corán admite que Satanás puede insertar palabras en el mensaje de un profeta (22:52).
+
+### Los «versos satánicos»: Mahoma admite que fue engañado
+
+Ibn Ishaq y al-Tabari relatan lo que sucedió. En La Meca, deseando ganarse a su tribu, Mahoma recitaba la sura 53. Cuando llegó al verso
+
+> «¿Habéis considerado a al-Lat y a al-'Uzza, y a Manat, la tercera, la otra?» (Corán 53:19-20)
+
+continuó, como si fuera revelación: «**Estas son las grullas exaltadas (_garaniq_), cuya intercesión se ha de esperar**». Al-Lat, al-'Uzza y Manat eran las tres diosas de los idólatras de La Meca. Los paganos se alegraron, y cuando Mahoma se postró al final de la sura, ellos se postraron con él. Hasta Sahih al-Bujari registra ese detalle extraño: cuando el Profeta se postró al final de la sura an-Naym, «los musulmanes y los paganos» se postraron con él (Sahih al-Bujari 1067, 4862). Los paganos no tenían ninguna razón para postrarse ante un mensaje que condenaba a sus diosas.
+
+Luego, según las mismas fuentes, Gabriel vino y lo reprendió: «**¿Qué has hecho, Mahoma? Has recitado a la gente lo que yo no te traje de parte de Dios, y has dicho lo que no se te dijo**». Mahoma se afligió mucho, y en el relato de al-Tabari confiesa: «**He inventado cosas contra Dios y le he atribuido palabras que Él no ha dicho**» (al-Tabari, _Historia_, vol. 6, pp. 108-111; Ibn Ishaq, Guillaume, pp. 165-166).
+
+Los dos versos fueron retirados, y el Corán explica lo sucedido en dos pasajes que los primeros comentaristas relacionan con este incidente:
+
+> «Nunca enviamos antes de ti un mensajero ni un profeta sin que, al recitar (el mensaje), Satanás interpusiera algo en lo que recitaba. Pero Alá anula lo que Satanás interpone, y luego Alá confirma sus revelaciones». (Corán 22:52)
+
+> «Y en verdad se esforzaron por apartarte (Mahoma) de lo que te hemos inspirado, para que inventaras contra Nosotros otra cosa; y entonces te habrían tomado por amigo. Y si no te hubiéramos afirmado, casi te habrías inclinado un poco hacia ellos». (17:73-74)
+
+Así que, según sus propias fuentes, Mahoma:
+
+- **fue engañado**: no pudo distinguir entre lo que Gabriel le traía y lo que Satanás puso en su boca;
+- **enseñó idolatría**: proclamó, como palabra de Dios, que las diosas de La Meca podían interceder, y llevó a sus seguidores y a los idólatras juntos a postrarse;
+- **lo admitió**: dijo que había hablado contra Dios palabras que Dios no había dicho.
+
+Muchos eruditos musulmanes hoy rechazan el relato, diciendo que sus cadenas de transmisión son débiles. Pero lo cuentan el primer biógrafo y el mayor historiador y comentarista de los primeros siglos, ambos musulmanes devotos sin ninguna razón para inventar algo tan dañino, e Ibn Hayar, el gran comentarista de al-Bujari, juzgó que sus muchas cadenas muestran que el relato tiene una base real. Si Satanás pudo hablar por medio de Mahoma una vez sin que él lo notara, ¿cómo puede alguien estar seguro de que no lo hizo otra vez? Un verdadero profeta de Dios nunca tuvo que decir: «Esa última revelación era del diablo». La Biblia advierte:
 
 > **2 Corintios 11:14:** «Y no es de maravillarse, porque el mismo Satanás se disfraza como ángel de luz.»
 
