@@ -32,7 +32,18 @@ Now God is courting us. He wants a bride, not a slave; He stands at the door and
 
 # 2. Those who refuse Him get what they chose
 
-Evil is not a thing God created; it is the absence of good — what remains where God is not (Augustine called it _privatio boni_, the privation of good). In this life we only taste what evil is, because God still restrains it, and His people are still "the salt of the earth." Imagine the world when God withdraws completely. Those who reject Him receive exactly what they asked for: **separation from God**. Jesus described it as a fire that is never quenched and a worm that never dies, probably because of how much fuel is being fed into hell.
+Evil is not a thing God created; it is the absence of good — what remains where God is not (Augustine called it _privatio boni_, the privation of good). Creation is full of this pattern:
+
+- **Cold** is the absence of heat. Physics has no unit of "cold"; it measures heat, the motion of molecules. As that motion is taken away, the temperature falls toward absolute zero, but nothing called "cold" is ever added.
+- **Darkness** is the absence of light. Scientists study photons, the particles of light, and measure brightness, but there is no particle of darkness. You cannot pour darkness into a lit room; you can only take the light away, and when a light is switched on, the darkness simply goes.
+- **Silence** is the absence of sound. Sound is a wave travelling through the air and can be measured in decibels; silence is only what is left when the wave stops.
+- **Death** is the absence of life. A body does not die because something called "death" enters it, but because life leaves it.
+
+In the same way, evil has no existence of its own. It is what is left when goodness, which comes from God, is taken away. That is why Scripture says "God is light, and in him is no darkness at all," and why Jesus calls the place of the lost "outer darkness": it is the place furthest from the Light.
+
+> **1 John 1:5:** "This then is the message which we have heard of him, and declare unto you, that God is light, and in him is no darkness at all."
+
+In this life we only taste what evil is, because God still restrains it, and His people are still "the salt of the earth." Imagine the world when God withdraws completely. Those who reject Him receive exactly what they asked for: **separation from God**. Jesus described it as a fire that is never quenched and a worm that never dies, probably because of how much fuel is being fed into hell.
 
 > **Matthew 5:13-14:** "Ye are the salt of the earth: but if the salt have lost his savour, wherewith shall it be salted? it is thenceforth good for nothing, but to be cast out, and to be trodden under foot of men. Ye are the light of the world. A city that is set on an hill cannot be hid."
 

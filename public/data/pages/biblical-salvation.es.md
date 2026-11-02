@@ -32,7 +32,18 @@ Ahora Dios nos está cortejando. Quiere una esposa, no un esclavo; está a la pu
 
 # 2. Los que lo rechazan reciben lo que escogieron
 
-El mal no es algo que Dios haya creado; es la ausencia del bien, lo que queda donde Dios no está (Agustín lo llamó _privatio boni_, la privación del bien). En esta vida solo probamos lo que es el mal, porque Dios todavía lo detiene y su pueblo todavía es «la sal de la tierra». Imagine el mundo cuando Dios se retire por completo. Los que lo rechazan reciben exactamente lo que pidieron: **la separación de Dios**. Jesús lo describió como un fuego que nunca se apaga y un gusano que nunca muere, probablemente debido a la gran cantidad de combustible que se está suministrando al infierno.
+El mal no es algo que Dios haya creado; es la ausencia del bien, lo que queda donde Dios no está (Agustín lo llamó _privatio boni_, la privación del bien). La creación está llena de este patrón:
+
+- **El frío** es la ausencia de calor. La física no tiene una unidad de «frío»; mide el calor, el movimiento de las moléculas. Al quitar ese movimiento, la temperatura baja hacia el cero absoluto, pero nunca se añade algo llamado «frío».
+- **Las tinieblas** son la ausencia de luz. Los científicos estudian los fotones, las partículas de la luz, y miden su intensidad, pero no existe una partícula de oscuridad. No se puede echar oscuridad en un cuarto iluminado; solo se puede quitar la luz, y cuando se enciende una luz, la oscuridad simplemente desaparece.
+- **El silencio** es la ausencia de sonido. El sonido es una onda que viaja por el aire y se mide en decibeles; el silencio es solo lo que queda cuando la onda se detiene.
+- **La muerte** es la ausencia de vida. Un cuerpo no muere porque algo llamado «muerte» entre en él, sino porque la vida lo deja.
+
+De la misma manera, el mal no tiene existencia propia. Es lo que queda cuando se quita el bien, que viene de Dios. Por eso la Escritura dice que «Dios es luz, y en Él no hay ningunas tinieblas», y por eso Jesús llama al lugar de los perdidos «las tinieblas de afuera»: es el lugar más lejano de la Luz.
+
+> **1 Juan 1:5:** «Y este es el mensaje que oímos de Él, y os anunciamos; que Dios es luz, y en Él no hay ningunas tinieblas.»
+
+En esta vida solo probamos lo que es el mal, porque Dios todavía lo detiene y su pueblo todavía es «la sal de la tierra». Imagine el mundo cuando Dios se retire por completo. Los que lo rechazan reciben exactamente lo que pidieron: **la separación de Dios**. Jesús lo describió como un fuego que nunca se apaga y un gusano que nunca muere, probablemente debido a la gran cantidad de combustible que se está suministrando al infierno.
 
 > **Mateo 5:13-14:** «Vosotros sois la sal de la tierra; pero si la sal pierde su sabor, ¿con qué será salada? No sirve más para nada, sino para ser echada fuera y ser hollada por los hombres. Vosotros sois la luz del mundo. Una ciudad asentada sobre un monte no se puede esconder.»
 
