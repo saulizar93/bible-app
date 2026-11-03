@@ -486,7 +486,8 @@ def apply_manual(words):
         return words
     for old, new in edits.items():
         ow, nw = old.split(), new.split()
-        # "palabra|G2424" = this word gets its own token with that Strong's number
+        # "palabra|G2424" = this word gets its own token with that Strong's number;
+        # "palabra|it" = a supplied word: its own untagged token, shown in italics
         marks = [w.split('|', 1)[1] if '|' in w else None for w in nw]
         nw = [w.split('|', 1)[0] for w in nw]
         texts = [w for w, _ in words]
@@ -503,10 +504,19 @@ def apply_manual(words):
                 tag = repl[-1][1] if repl else olds[min(j, len(olds) - 1)][1]
             else:
                 used.add(m); tag = olds[m][1]
-            if marks[j]:
+            if marks[j] == 'it':
+                # consecutive |it words share one token ("del|it lago|it" -> "del lago")
+                if j and marks[j - 1] == 'it':
+                    tag = repl[-1][1]
+                else:
+                    base = tag[2] if isinstance(tag, tuple) else tag
+                    tag = ('it', None, base, (pos, j))
+            elif marks[j]:
                 base = tag[2] if isinstance(tag, tuple) else tag
                 tag = ('new', marks[j], base, j)
             repl.append([w, tag])
+        # supplied (|it) words are never a home for neighbouring unmarked words
+        marks = [None if m == 'it' else m for m in marks]
         if any(marks):
             # Unmarked words go with the next marked word ("de Jesús|G2424" -> "de Jesús"),
             # words after the last mark with the last one ("el Mesías,|G5547").
@@ -514,12 +524,16 @@ def apply_manual(words):
             for k in range(len(repl) - 1, -1, -1):
                 if marks[k]:
                     nxt = repl[k][1]
+                elif isinstance(repl[k][1], tuple) and repl[k][1][0] == 'it':
+                    continue
                 elif nxt is not None:
                     repl[k][1] = nxt
             last = None
             for k in range(len(repl)):
                 if marks[k]:
                     last = repl[k][1]
+                elif isinstance(repl[k][1], tuple) and repl[k][1][0] == 'it':
+                    continue
                 elif last is not None and not any(marks[k:]):
                     repl[k][1] = last
         words = words[:pos] + repl + words[pos + len(ow):]
@@ -577,7 +591,9 @@ def rebuild(tokens, words):
     new = []
     used = set()
     for tag, ws in groups:
-        if isinstance(tag, tuple):          # word given its own Strong's number in ediciones-manuales.json
+        if isinstance(tag, tuple) and tag[0] == 'it':   # supplied word(s), "|it" in ediciones-manuales.json
+            t = {'t': ' '.join(ws), 'it': 1}
+        elif isinstance(tag, tuple):        # word given its own Strong's number in ediciones-manuales.json
             t = {'t': ' '.join(ws), **new_token(tag[1])}
         else:
             t = dict(tokens[tag]); used.add(tag); t['t'] = ' '.join(ws)

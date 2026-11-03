@@ -1,5 +1,5 @@
 {
-  "_ayuda": "Cambios a mano, aplicados al final (después de todas las reglas). Formato: \"Libro c:v\": { \"texto actual\": \"texto nuevo\" }. El texto actual debe aparecer tal cual en el versículo (palabras completas, con su puntuación). Para dar a una palabra su propio número Strong, añada |número: \"de Jesús|G2424 el Mesías,|G5547\". Luego ejecutar: python3 scripts/rvo/transform.py",
+  "_ayuda": "Cambios a mano, aplicados al final (después de todas las reglas). Formato: \"Libro c:v\": { \"texto actual\": \"texto nuevo\" }. El texto actual debe aparecer tal cual en el versículo (palabras completas, con su puntuación). Para dar a una palabra su propio número Strong, añada |número: \"de Jesús|G2424 el Mesías,|G5547\". Para marcar palabras añadidas (sin equivalente en el griego o el hebreo) y mostrarlas en cursiva, añada |it a cada una: \"al|G1519 otro lado|G4008 del|it lago|it\". Las palabras sin marca nunca se juntan con las marcadas |it. Luego ejecutar: python3 scripts/rvo/transform.py",
   "Mateo 1:1": { "de Jesucristo,": "de Jesús|G2424 el Mesías,|G5547" },
   "Mateo 1:2": {
     "Isaac:": "Isaac;",
@@ -777,7 +777,8 @@
   },
   "Mateo 8:18": {
     "viendo Jesús muchas gentes alrededor de sí,": "viéndose|G1492 Jesús|G2424 rodeado|G4012 de mucha|G4183 gente,|G3793",
-    "a la otra parte": "al|G1519 otro lado|G4008"
+    "a la otra parte": "al|G1519 otro lado|G4008",
+    "del lago.": "del|it lago.|it"
   },
   "Mateo 8:19": {
     "llegándose": "vino",
@@ -849,7 +850,7 @@
     "rogaban que saliese de sus términos.": "rogaron|G3870 que se fuera|G3327 de sus|G846 territorios.|G3725"
   },
   "Mateo 9:1": {
-    "en el barco,": "Jesús en|G1519 la|G3588 barca,|G4143",
+    "en el barco,": "Jesús|it en|G1519 la|G3588 barca,|G4143",
     "a la otra parte,": "al otro lado|G1276"
   },
   "Mateo 9:2": {
@@ -879,7 +880,7 @@
   },
   "Mateo 9:10": {
     "él": "Él",
-    "casa,": "la casa de Mateo|G3614",
+    "casa,": "la casa|G3614 de|it Mateo,|it",
     "que muchos": "muchos"
   }
 }

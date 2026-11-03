@@ -263,7 +263,7 @@
       "Entonces él se levantó y se fue a su casa.",
       "Y las multitudes, viéndolo, se maravillaron, y glorificaron a Dios, que había dado tal autoridad a los hombres.",
       "Y pasando Jesús de allí, vio a un hombre vio a un hombre llamado Mateo, que estaba sentado en el lugar de los tributos públicos, y le dijo: Sígueme. Y se levantó, y le siguió.",
-      "Y aconteció que estando Él sentado a la mesa en la casa de Mateo he aquí muchos publicanos y pecadores, que habían venido, se sentaron juntamente a la mesa con Jesús y sus discípulos.",
+      "Y aconteció que estando Él sentado a la mesa en la casa de Mateo, he aquí muchos publicanos y pecadores, que habían venido, se sentaron juntamente a la mesa con Jesús y sus discípulos.",
       "Y viendo esto los Fariseos, dijeron a sus discípulos: ¿Por qué come vuestro Maestro con los publicanos y pecadores?",
       "Y oyéndolo Jesús, les dijo: Los que están sanos no tienen necesidad de médico, sino los enfermos.",
       "Andad pues, y aprended qué cosa es: Misericordia quiero, y no sacrificio: porque no he venido a llamar justos, sino pecadores a arrepentimiento.",
@@ -22203,11 +22203,7 @@
           "g": "περαν"
         },
         {
-          "t": "del",
-          "it": 1
-        },
-        {
-          "t": "lago.",
+          "t": "del lago.",
           "it": 1
         }
       ],
@@ -23265,7 +23261,7 @@
           "s": "G34",
           "m": "N-NSF",
           "g": "αγελη",
-          "n": "Un grupo de cerdos"
+          "n": "Piara es un grupo de cerdos"
         },
         {
           "t": "de",
@@ -23728,11 +23724,14 @@
           "g": "εμβας"
         },
         {
-          "t": "Jesús en",
+          "t": "Jesús",
+          "it": 1
+        },
+        {
+          "t": "en",
           "s": "G1519",
           "m": "PREP",
-          "g": "εις",
-          "n": "La palabra «Jesús» no está en el texto griego original de ninguna de las tres grandes familias manuscritas (TR, CT, ni MT). Pero el contexto inmediato y los textos paralelos (como Marcos 5:21, que dice «Pasando otra vez Jesús en una barca a la otra orilla...») confirman el hecho histórico."
+          "g": "εις"
         },
         {
           "t": "la",
@@ -24529,11 +24528,14 @@
           "g": "εν"
         },
         {
-          "t": "la casa de Mateo",
+          "t": "la casa",
           "s": "G3614",
           "m": "N-DSF",
-          "g": "οικια",
-          "n": "La palabara «Mateo» no se encuentra en los manoescritos griegos, pero es añadida para evitar ambigüedades. Basándose en el contexto del versículo anterior (donde Jesús llama a Mateo) y en los pasajes paralelos de Marcos 2:15 y Lucas 5:29, sabemos con claridad que la cena fue en el hogar del recaudador de impuestos."
+          "g": "οικια"
+        },
+        {
+          "t": "de Mateo,",
+          "it": 1
         },
         {
           "t": "he aquí",

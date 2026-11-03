@@ -182,6 +182,8 @@ export const PANE_OPTIONS = [
     kind: "bible",
     lang: "es",
     strongs: true,
+    // Words the reviser supplied are marked "it": 1 (|it in scripts/rvo/ediciones-manuales.json).
+    italics: true,
     concord: "rvo-strong/", // data/concord/rvo-strong/{greek,hebrew}
     citation: "RVO2026",
     copyright: "Reina Valera Ojeda. Dominio público.",
