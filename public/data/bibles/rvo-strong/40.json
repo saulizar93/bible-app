@@ -275,14 +275,14 @@
       "Y se levantó Jesús, y le siguió, y sus discípulos.",
       "Y he aquí una mujer que estaba enferma de flujo de sangre por ya doce años, se le acercó por detrás y tocó el borde de su manto.",
       "Porque decía dentro de sí: Si tan sólo tocare su manto, seré sana.",
-      "Pero Jesús volviéndose, y mirándola, dijo: Confía, hija, tu fe te ha salvado. Y la mujer fue salva desde aquella hora.",
-      "Y llegado Jesús a casa del principal, viendo los tañedores de flautas, y la gente que hacía bullicio,",
-      "Díceles: Apartaos, que la muchacha no es muerta, pero duerme. Y se burlaban de él.",
-      "Y como la gente fue echada fuera, entró, y la tomó de la mano, y se levantó la muchacha.",
-      "Y salió esta fama por toda aquella tierra.",
-      "Y pasando Jesús de allí, le siguieron dos ciegos, dando voces y diciendo: Ten misericordia de nosotros, Hijo de David.",
-      "Y llegado a la casa, vinieron a él los ciegos; y Jesús les dice: ¿Creéis que puedo hacer esto? Ellos dicen: Sí, Señor.",
-      "Entonces tocó los ojos de ellos, diciendo: Conforme a vuestra fe os sea hecho.",
+      "Pero Jesús, volviéndose y mirándola, dijo: Hija, ten ánimo, tu fe te ha sanado. Y la mujer fue sana desde aquella hora.",
+      "Al llegar Jesús en la casa del principal, viendo a los que tocaban flautas, y la gente que hacía alboroto,",
+      "les dijo: Apartaos, que la muchacha no está muerta, sino duerme. Y se burlaban de Él",
+      "Pero cuando la gente había sido echada fuera, entró, y la tomó de la mano, y la muchacha se levantó.",
+      "Y se difundió la fama de esto por toda aquella región.",
+      "Y partiendo Jesús de allí, le siguieron dos ciegos, dando voces y diciendo: ¡Ten misericordia de nosotros, Hijo de David!",
+      "Y llegando a la casa, vinieron a él los ciegos; y Jesús les dice: ¿Creéis que puedo hacer esto? Ellos dicen: Sí, Señor.",
+      "Entonces les tocó los ojos, diciendo: Conforme a vuestra fe os sea hecho.",
       "Y los ojos de ellos fueron abiertos. Y Jesús les encargó rigurosamente, diciendo: Mirad que nadie lo sepa.",
       "Pero ellos salidos, divulgaron su fama por toda aquella tierra.",
       "Y saliendo ellos, he aquí, le trajeron un hombre mudo, endemoniado.",
@@ -25745,13 +25745,13 @@
           "g": "δε"
         },
         {
-          "t": "Jesús",
+          "t": "Jesús,",
           "s": "G2424",
           "m": "N-NSM",
           "g": "ιησους"
         },
         {
-          "t": "volviéndose,",
+          "t": "volviéndose",
           "s": "G1994",
           "m": "V-2APP-NSM",
           "g": "επιστραφεις"
@@ -25773,16 +25773,16 @@
           "s": "G2036"
         },
         {
-          "t": "Confía,",
-          "s": "G2293",
-          "m": "V-PAM-2S",
-          "g": "θαρσει"
-        },
-        {
-          "t": "hija,",
+          "t": "Hija,",
           "s": "G2364",
           "m": "N-VSF",
           "g": "θυγατερ"
+        },
+        {
+          "t": "ten ánimo,",
+          "s": "G2293",
+          "m": "V-PAM-2S",
+          "g": "θαρσει"
         },
         {
           "t": "tu",
@@ -25799,7 +25799,7 @@
           "s": "G4571"
         },
         {
-          "t": "ha salvado.",
+          "t": "ha sanado.",
           "s": "G4982",
           "m": "V-RAI-3S",
           "g": "σεσωκεν"
@@ -25821,7 +25821,7 @@
           "g": "γυνη"
         },
         {
-          "t": "fue salva",
+          "t": "fue sana",
           "s": "G4982",
           "m": "V-API-3S",
           "g": "εσωθη"
@@ -25847,13 +25847,7 @@
       ],
       [
         {
-          "t": "Y",
-          "s": "G2532",
-          "m": "CONJ",
-          "g": "και"
-        },
-        {
-          "t": "llegado",
+          "t": "Al llegar",
           "s": "G2064",
           "m": "V-2AAP-NSM",
           "g": "ελθων"
@@ -25865,7 +25859,13 @@
           "g": "ιησους"
         },
         {
-          "t": "a casa",
+          "t": "en",
+          "s": "G1519",
+          "m": "PREP",
+          "g": "εις"
+        },
+        {
+          "t": "la casa",
           "s": "G3614",
           "m": "N-ASF",
           "g": "οικιαν"
@@ -25885,11 +25885,11 @@
           "s": "G1492"
         },
         {
-          "t": "los",
+          "t": "a los",
           "s": "G3588"
         },
         {
-          "t": "tañedores de flautas,",
+          "t": "que tocaban flautas,",
           "s": "G834",
           "m": "N-APM",
           "g": "αυλητας"
@@ -25911,7 +25911,7 @@
           "g": "οχλον"
         },
         {
-          "t": "que hacía bullicio,",
+          "t": "que hacía alboroto,",
           "s": "G2350",
           "m": "V-PPP-ASM",
           "g": "θορυβουμενον"
@@ -25919,7 +25919,7 @@
       ],
       [
         {
-          "t": "Díceles:",
+          "t": "les dijo:",
           "s": "G846",
           "m": "P-DPM",
           "g": "αυτοις"
@@ -25947,13 +25947,13 @@
           "g": "ου"
         },
         {
-          "t": "es muerta,",
+          "t": "está muerta,",
           "s": "G599",
           "m": "V-2AAI-3S",
           "g": "απεθανεν"
         },
         {
-          "t": "pero",
+          "t": "sino",
           "s": "G235",
           "m": "CONJ",
           "g": "αλλα"
@@ -25977,7 +25977,7 @@
           "g": "κατεγελων"
         },
         {
-          "t": "de él.",
+          "t": "de Él",
           "s": "G846",
           "m": "P-GSM",
           "g": "αυτου"
@@ -25985,13 +25985,13 @@
       ],
       [
         {
-          "t": "Y",
+          "t": "Pero",
           "s": "G1161",
           "m": "CONJ",
           "g": "δε"
         },
         {
-          "t": "como",
+          "t": "cuando",
           "s": "G3753",
           "m": "ADV",
           "g": "οτε"
@@ -26007,7 +26007,7 @@
           "g": "οχλος"
         },
         {
-          "t": "fue echada fuera,",
+          "t": "había sido echada fuera,",
           "s": "G1544",
           "m": "V-API-3S",
           "g": "εξεβληθη"
@@ -26047,20 +26047,20 @@
           "g": "και"
         },
         {
-          "t": "se levantó",
-          "s": "G1453",
-          "m": "V-API-3S",
-          "g": "ηγερθη"
-        },
-        {
           "t": "la",
           "s": "G3588"
         },
         {
-          "t": "muchacha.",
+          "t": "muchacha",
           "s": "G2877",
           "m": "N-NSN",
           "g": "κορασιον"
+        },
+        {
+          "t": "se levantó.",
+          "s": "G1453",
+          "m": "V-API-3S",
+          "g": "ηγερθη"
         }
       ],
       [
@@ -26071,25 +26071,19 @@
           "g": "και"
         },
         {
-          "t": "salió",
+          "t": "se difundió",
           "s": "G1831",
           "m": "V-2AAI-3S",
           "g": "εξηλθεν"
         },
         {
-          "t": "esta",
-          "s": "G3778",
-          "m": "D-NSF",
-          "g": "αυτη"
-        },
-        {
-          "t": "fama",
+          "t": "la fama",
           "s": "G5345",
           "m": "N-NSF",
           "g": "φημη"
         },
         {
-          "t": "por",
+          "t": "de esto por",
           "s": "G1519",
           "m": "PREP",
           "g": "εις"
@@ -26107,7 +26101,7 @@
           "g": "εκεινην"
         },
         {
-          "t": "tierra.",
+          "t": "región.",
           "s": "G1093",
           "m": "N-ASF",
           "g": "γην"
@@ -26121,7 +26115,7 @@
           "g": "και"
         },
         {
-          "t": "pasando",
+          "t": "partiendo",
           "s": "G3855",
           "m": "V-PAP-DSM",
           "g": "παραγοντι"
@@ -26181,7 +26175,7 @@
           "g": "λεγοντες"
         },
         {
-          "t": "Ten misericordia",
+          "t": "¡Ten misericordia",
           "s": "G1653",
           "m": "V-AAM-2S",
           "g": "ελεησον"
@@ -26197,7 +26191,7 @@
           "g": "υιε"
         },
         {
-          "t": "de David.",
+          "t": "de David!",
           "s": "G1138",
           "m": "N-PRI",
           "g": "δαβιδ"
@@ -26211,7 +26205,7 @@
           "g": "δε"
         },
         {
-          "t": "llegado",
+          "t": "llegando",
           "s": "G2064",
           "m": "V-2AAP-DSM",
           "g": "ελθοντι"
@@ -26333,6 +26327,12 @@
           "g": "τοτε"
         },
         {
+          "t": "les",
+          "s": "G846",
+          "m": "P-GPM",
+          "g": "αυτων"
+        },
+        {
           "t": "tocó",
           "s": "G680",
           "m": "V-ADI-3S",
@@ -26343,19 +26343,10 @@
           "s": "G3588"
         },
         {
-          "t": "ojos",
+          "t": "ojos,",
           "s": "G3788",
           "m": "N-GPM",
           "g": "οφθαλμων"
-        },
-        {
-          "t": "de"
-        },
-        {
-          "t": "ellos,",
-          "s": "G846",
-          "m": "P-GPM",
-          "g": "αυτων"
         },
         {
           "t": "diciendo:",
