@@ -962,9 +962,14 @@
     "David.": "David!"
   },
   "Mateo 9:28": {
-    "llegado": "llegando"
+    "llegado": "llegando",
+    "vinieron a él los ciegos;": "se le|G846 acercaron|G4334 los|G3588 ciegos;|G5185"
   },
   "Mateo 9:29": {
     "tocó los ojos de ellos,": "les|G846 tocó|G680 los|G3588 ojos,|G3788"
+  },
+  "Mateo 9:31": {
+    "ellos salidos,": "ellos,|G3588 en cuanto salieron,|G1831",
+    "tierra.": "región."
   }
 }

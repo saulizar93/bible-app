@@ -281,10 +281,10 @@
       "Pero cuando la gente había sido echada fuera, entró, y la tomó de la mano, y la muchacha se levantó.",
       "Y se difundió la fama de esto por toda aquella región.",
       "Y partiendo Jesús de allí, le siguieron dos ciegos, dando voces y diciendo: ¡Ten misericordia de nosotros, Hijo de David!",
-      "Y llegando a la casa, vinieron a él los ciegos; y Jesús les dice: ¿Creéis que puedo hacer esto? Ellos dicen: Sí, Señor.",
+      "Y llegando a la casa, se le acercaron los ciegos; y Jesús les dice: ¿Creéis que puedo hacer esto? Ellos dicen: Sí, Señor.",
       "Entonces les tocó los ojos, diciendo: Conforme a vuestra fe os sea hecho.",
       "Y los ojos de ellos fueron abiertos. Y Jesús les encargó rigurosamente, diciendo: Mirad que nadie lo sepa.",
-      "Pero ellos salidos, divulgaron su fama por toda aquella tierra.",
+      "Pero ellos en cuanto salieron, divulgaron su fama por toda aquella región.",
       "Y saliendo ellos, he aquí, le trajeron un hombre mudo, endemoniado.",
       "Y echado fuera el demonio, el mudo habló; y las gentes se maravillaron, diciendo: Nunca ha sido vista cosa semejante en Israel.",
       "Pero los Fariseos decían: Por el príncipe de los demonios echa fuera los demonios.",
@@ -26227,16 +26227,16 @@
           "g": "οικιαν"
         },
         {
-          "t": "vinieron",
-          "s": "G4334",
-          "m": "V-2AAI-3P",
-          "g": "προσηλθον"
-        },
-        {
-          "t": "a él",
+          "t": "se le",
           "s": "G846",
           "m": "P-DSM",
           "g": "αυτω"
+        },
+        {
+          "t": "acercaron",
+          "s": "G4334",
+          "m": "V-2AAI-3P",
+          "g": "προσηλθον"
         },
         {
           "t": "los",
@@ -26476,7 +26476,7 @@
           "g": "οι"
         },
         {
-          "t": "salidos,",
+          "t": "en cuanto salieron,",
           "s": "G1831",
           "m": "V-2AAP-NPM",
           "g": "εξελθοντες"
@@ -26512,7 +26512,7 @@
           "g": "εκεινη"
         },
         {
-          "t": "tierra.",
+          "t": "región.",
           "s": "G1093",
           "m": "N-DSF",
           "g": "γη"
