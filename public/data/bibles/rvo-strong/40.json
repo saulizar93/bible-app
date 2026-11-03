@@ -264,17 +264,17 @@
       "Y las multitudes, viéndolo, se maravillaron, y glorificaron a Dios, que había dado tal autoridad a los hombres.",
       "Y pasando Jesús de allí, vio a un hombre vio a un hombre llamado Mateo, que estaba sentado en el lugar de los tributos públicos, y le dijo: Sígueme. Y se levantó, y le siguió.",
       "Y aconteció que estando Él sentado a la mesa en la casa de Mateo, he aquí muchos publicanos y pecadores, que habían venido, se sentaron juntamente a la mesa con Jesús y sus discípulos.",
-      "Y viendo esto los Fariseos, dijeron a sus discípulos: ¿Por qué come vuestro Maestro con los publicanos y pecadores?",
-      "Y oyéndolo Jesús, les dijo: Los que están sanos no tienen necesidad de médico, sino los enfermos.",
-      "Andad pues, y aprended qué cosa es: Misericordia quiero, y no sacrificio: porque no he venido a llamar justos, sino pecadores a arrepentimiento.",
-      "Entonces los discípulos de Juan vienen a él, diciendo: ¿Por qué nosotros y los Fariseos ayunamos muchas veces, y tus discípulos no ayunan?",
-      "Y Jesús les dijo: ¿Pueden los que son de bodas tener luto entre tanto que el esposo está con ellos? pero vendrán días cuando el esposo será quitado de ellos, y entonces ayunarán.",
-      "Y nadie echa remiendo de paño recio en vestido viejo; porque el tal remiendo tira del vestido, y se hace peor la rotura.",
-      "Ni echan vino nuevo en cueros viejos: de otra manera los cueros se rompen, y el vino se derrama, y se pierden los cueros; pero echan el vino nuevo en cueros nuevos, y lo uno y lo otro se conserva juntamente.",
-      "Hablando él estas cosas a ellos, he aquí vino un principal, y le adoraba, diciendo: Mi hija es muerta poco ha: pero ven y pon tu mano sobre ella, y vivirá.",
+      "Y viendo esto los fariseos, dijeron a sus discípulos: ¿Por qué come vuestro Maestro con los publicanos y pecadores?",
+      "Y oyendo esto Jesús, les dijo: Los que están sanos no tienen necesidad de médico, sino los enfermos.",
+      "Id, pues, y aprended lo que significa: Misericordia quiero, y no sacrificio. Porque no he venido a llamar a justos, sino a pecadores al arrepentimiento.",
+      "Entonces vinieron a Él los discípulos de Juan, diciendo: ¿Por qué nosotros y los fariseos ayunamos muchas veces, y tus discípulos no ayunan?",
+      "Y Jesús les dijo: ¿Pueden los que están de bodas tener luto entre tanto que el esposo está con ellos? Pero vendrán días cuando el esposo les será quitado, y entonces ayunarán.",
+      "Nadie pone remiendo de paño nuevo en vestido viejo; porque tal remiendo tira del vestido, y se hace peor la rotura.",
+      "Ni echan vino nuevo en odres viejos; de otra manera los odres se rompen, y el vino se derrama, y los odres se pierden; mas echan el vino nuevo en odres nuevos, y ambos se conservan.",
+      "Hablando él estas cosas a ellos, he aquí vino un principal, y le adoró, diciendo: Mi hija acaba de morir; pero ven y pon tu mano sobre ella, y vivirá.",
       "Y se levantó Jesús, y le siguió, y sus discípulos.",
-      "Y he aquí una mujer enferma de flujo de sangre doce años había, llegándose por detrás, tocó la franja de su vestido:",
-      "Porque decía entre sí: Si tocare solamente su vestido, seré salva.",
+      "Y he aquí una mujer que estaba enferma de flujo de sangre por ya doce años, se le acercó por detrás y tocó el borde de su manto.",
+      "Porque decía dentro de sí: Si tan sólo tocare su manto, seré sana.",
       "Pero Jesús volviéndose, y mirándola, dijo: Confía, hija, tu fe te ha salvado. Y la mujer fue salva desde aquella hora.",
       "Y llegado Jesús a casa del principal, viendo los tañedores de flautas, y la gente que hacía bullicio,",
       "Díceles: Apartaos, que la muchacha no es muerta, pero duerme. Y se burlaban de él.",
@@ -23261,7 +23261,7 @@
           "s": "G34",
           "m": "N-NSF",
           "g": "αγελη",
-          "n": "Piara es un grupo de cerdos"
+          "n": "«Piara» es un grupo de cerdos"
         },
         {
           "t": "de",
@@ -24618,7 +24618,7 @@
           "s": "G3588"
         },
         {
-          "t": "Fariseos,",
+          "t": "fariseos,",
           "s": "G5330",
           "m": "N-NPM",
           "g": "φαρισαιοι"
@@ -24690,7 +24690,7 @@
           "g": "δε"
         },
         {
-          "t": "oyéndolo",
+          "t": "oyendo esto",
           "s": "G191",
           "m": "V-AAP-NSM",
           "g": "ακουσας"
@@ -24764,7 +24764,7 @@
       ],
       [
         {
-          "t": "Andad",
+          "t": "Id,",
           "s": "G4198",
           "m": "V-AOP-NPM",
           "g": "πορευθεντες"
@@ -24782,14 +24782,16 @@
           "g": "μαθετε"
         },
         {
-          "t": "qué",
+          "t": "lo que",
           "s": "G5101",
           "m": "I-NSN",
           "g": "τι"
         },
         {
-          "t": "cosa es:",
-          "s": "G2076"
+          "t": "significa:",
+          "s": "G1510",
+          "m": "V-PAI-3S",
+          "g": "εστιν"
         },
         {
           "t": "Misericordia",
@@ -24816,13 +24818,13 @@
           "g": "ου"
         },
         {
-          "t": "sacrificio:",
+          "t": "sacrificio.",
           "s": "G2378",
           "m": "N-ASF",
           "g": "θυσιαν"
         },
         {
-          "t": "porque",
+          "t": "Porque",
           "s": "G1063",
           "m": "CONJ",
           "g": "γαρ"
@@ -24846,7 +24848,7 @@
           "g": "καλεσαι"
         },
         {
-          "t": "justos,",
+          "t": "a justos,",
           "s": "G1342",
           "m": "A-APM",
           "g": "δικαιους"
@@ -24858,13 +24860,13 @@
           "g": "αλλ"
         },
         {
-          "t": "pecadores",
+          "t": "a pecadores",
           "s": "G268",
           "m": "A-APM",
           "g": "αμαρτωλους"
         },
         {
-          "t": "a arrepentimiento.",
+          "t": "al arrepentimiento.",
           "s": "G3341",
           "m": "N-ASF",
           "g": "μετανοιαν"
@@ -24878,6 +24880,18 @@
           "g": "τοτε"
         },
         {
+          "t": "vinieron",
+          "s": "G4334",
+          "m": "V-PNI-3P",
+          "g": "προσερχονται"
+        },
+        {
+          "t": "a Él",
+          "s": "G846",
+          "m": "P-DSM",
+          "g": "αυτω"
+        },
+        {
           "t": "los",
           "s": "G3588"
         },
@@ -24888,22 +24902,10 @@
           "g": "μαθηται"
         },
         {
-          "t": "de Juan",
+          "t": "de Juan,",
           "s": "G2491",
           "m": "N-GSM",
           "g": "ιωαννου"
-        },
-        {
-          "t": "vienen",
-          "s": "G4334",
-          "m": "V-PNI-3P",
-          "g": "προσερχονται"
-        },
-        {
-          "t": "a él,",
-          "s": "G846",
-          "m": "P-DSM",
-          "g": "αυτω"
         },
         {
           "t": "diciendo:",
@@ -24930,7 +24932,7 @@
           "s": "G3588"
         },
         {
-          "t": "Fariseos",
+          "t": "fariseos",
           "s": "G5330",
           "m": "N-NPM",
           "g": "φαρισαιοι"
@@ -25015,7 +25017,7 @@
           "g": "υιοι"
         },
         {
-          "t": "que son de bodas",
+          "t": "que están de bodas",
           "s": "G3567",
           "m": "N-GSM",
           "g": "νυμφωνος"
@@ -25071,7 +25073,7 @@
           "g": "αυτων"
         },
         {
-          "t": "pero",
+          "t": "Pero",
           "s": "G1161",
           "m": "CONJ",
           "g": "δε"
@@ -25105,16 +25107,16 @@
           "g": "νυμφιος"
         },
         {
-          "t": "será quitado",
+          "t": "les",
+          "s": "G846",
+          "m": "P-DPM",
+          "g": "αυτοις"
+        },
+        {
+          "t": "será quitado,",
           "s": "G522",
           "m": "V-APS-3S",
           "g": "απαρθη"
-        },
-        {
-          "t": "de ellos,",
-          "s": "G846",
-          "m": "P-GPM",
-          "g": "αυτων"
         },
         {
           "t": "y entonces",
@@ -25131,19 +25133,13 @@
       ],
       [
         {
-          "t": "Y",
-          "s": "G2532",
-          "m": "CONJ",
-          "g": "και"
-        },
-        {
-          "t": "nadie",
+          "t": "Nadie",
           "s": "G3762",
           "m": "A-NSM-N",
           "g": "ουδεις"
         },
         {
-          "t": "echa",
+          "t": "pone",
           "s": "G1911",
           "m": "V-PAI-3S",
           "g": "επιβαλλει"
@@ -25161,7 +25157,7 @@
           "g": "ρακους"
         },
         {
-          "t": "recio",
+          "t": "nuevo",
           "s": "G46",
           "m": "A-GSN",
           "g": "αγναφου"
@@ -25191,7 +25187,7 @@
           "g": "γαρ"
         },
         {
-          "t": "el tal remiendo",
+          "t": "tal remiendo",
           "s": "G4138",
           "m": "N-NSN",
           "g": "πληρωμα"
@@ -25271,13 +25267,13 @@
           "g": "εις"
         },
         {
-          "t": "cueros",
+          "t": "odres",
           "s": "G779",
           "m": "N-APM",
           "g": "ασκους"
         },
         {
-          "t": "viejos:",
+          "t": "viejos;",
           "s": "G3820",
           "m": "A-APM",
           "g": "παλαιους"
@@ -25289,14 +25285,18 @@
           "g": "μηγε"
         },
         {
-          "t": "manera los",
+          "t": "manera",
           "s": "G3588"
         },
         {
-          "t": "cueros",
+          "t": "los",
+          "s": "G3588"
+        },
+        {
+          "t": "odres",
           "s": "G779",
-          "m": "N-NPM",
-          "g": "ασκοι"
+          "m": "N-APM",
+          "g": "ασκους"
         },
         {
           "t": "se rompen,",
@@ -25333,23 +25333,23 @@
           "g": "και"
         },
         {
-          "t": "se pierden",
+          "t": "los",
+          "s": "G3588"
+        },
+        {
+          "t": "odres",
+          "s": "G779",
+          "m": "N-APM",
+          "g": "ασκους"
+        },
+        {
+          "t": "se pierden;",
           "s": "G622",
           "m": "V-FMI-3P",
           "g": "απολουνται"
         },
         {
-          "t": "los",
-          "s": "G3588"
-        },
-        {
-          "t": "cueros;",
-          "s": "G779",
-          "m": "N-NPM",
-          "g": "ασκοι"
-        },
-        {
-          "t": "pero",
+          "t": "mas",
           "s": "G235",
           "m": "CONJ",
           "g": "αλλα"
@@ -25383,16 +25383,16 @@
           "g": "εις"
         },
         {
-          "t": "cueros",
+          "t": "odres",
           "s": "G779",
           "m": "N-APM",
           "g": "ασκους"
         },
         {
           "t": "nuevos,",
-          "s": "G2537",
-          "m": "A-APM",
-          "g": "καινους"
+          "s": "G3501",
+          "m": "A-ASM",
+          "g": "νεον"
         },
         {
           "t": "y",
@@ -25401,25 +25401,16 @@
           "g": "και"
         },
         {
-          "t": "lo uno",
+          "t": "ambos",
           "s": "G297",
           "m": "A-APN",
           "g": "αμφοτερα"
         },
         {
-          "t": "y",
-          "s": "G2532",
-          "m": "CONJ",
-          "g": "και"
-        },
-        {
-          "t": "lo otro se conserva",
+          "t": "se conservan.",
           "s": "G4933",
           "m": "V-PPI-3P",
           "g": "συντηρουνται"
-        },
-        {
-          "t": "juntamente."
         }
       ],
       [
@@ -25472,7 +25463,7 @@
           "g": "αυτω"
         },
         {
-          "t": "adoraba,",
+          "t": "adoró,",
           "s": "G4352",
           "m": "V-IAI-3S",
           "g": "προσεκυνει"
@@ -25494,19 +25485,16 @@
           "g": "θυγατηρ"
         },
         {
-          "t": "es muerta",
-          "s": "G5053",
-          "m": "V-AAI-3S",
-          "g": "ετελευτησεν"
-        },
-        {
-          "t": "poco",
+          "t": "acaba",
           "s": "G737",
           "m": "ADV",
           "g": "αρτι"
         },
         {
-          "t": "ha:"
+          "t": "de morir;",
+          "s": "G5053",
+          "m": "V-AAI-3S",
+          "g": "ετελευτησεν"
         },
         {
           "t": "pero",
@@ -25629,50 +25617,53 @@
           "g": "γυνη"
         },
         {
-          "t": "enferma de flujo de sangre",
+          "t": "que estaba enferma de flujo de sangre",
           "s": "G131",
           "m": "V-PAP-NSF",
           "g": "αιμορροουσα"
         },
         {
-          "t": "doce",
+          "t": "por ya doce",
           "s": "G1427",
           "m": "A-NUI",
           "g": "δωδεκα"
         },
         {
-          "t": "años",
+          "t": "años,",
           "s": "G2094",
           "m": "N-APN",
           "g": "ετη"
         },
         {
-          "t": "había,"
-        },
-        {
-          "t": "llegándose",
+          "t": "se le acercó",
           "s": "G4334",
           "m": "V-2AAP-NSF",
           "g": "προσελθουσα"
         },
         {
-          "t": "por detrás,",
+          "t": "por",
           "s": "G3693",
           "m": "ADV",
           "g": "οπισθεν"
         },
         {
-          "t": "tocó",
+          "t": "detrás",
+          "s": "G3693",
+          "m": "ADV",
+          "g": "οπισθεν"
+        },
+        {
+          "t": "y tocó",
           "s": "G680",
           "m": "V-ADI-3S",
           "g": "ηψατο"
         },
         {
-          "t": "la",
+          "t": "el",
           "s": "G3588"
         },
         {
-          "t": "franja",
+          "t": "borde",
           "s": "G2899",
           "m": "N-GSN",
           "g": "κρασπεδου"
@@ -25684,7 +25675,7 @@
           "g": "αυτου"
         },
         {
-          "t": "vestido:",
+          "t": "manto.",
           "s": "G2440",
           "m": "N-GSN",
           "g": "ιματιου"
@@ -25704,7 +25695,7 @@
           "g": "ελεγεν"
         },
         {
-          "t": "entre sí:",
+          "t": "dentro de sí:",
           "s": "G1438",
           "m": "F-3DSF",
           "g": "εαυτη"
@@ -25716,16 +25707,16 @@
           "g": "εαν"
         },
         {
+          "t": "tan sólo",
+          "s": "G3440",
+          "m": "ADV",
+          "g": "μονον"
+        },
+        {
           "t": "tocare",
           "s": "G680",
           "m": "V-AMS-1S",
           "g": "αψωμαι"
-        },
-        {
-          "t": "solamente",
-          "s": "G3440",
-          "m": "ADV",
-          "g": "μονον"
         },
         {
           "t": "su",
@@ -25734,13 +25725,13 @@
           "g": "αυτου"
         },
         {
-          "t": "vestido,",
+          "t": "manto,",
           "s": "G2440",
           "m": "N-GSN",
           "g": "ιματιου"
         },
         {
-          "t": "seré salva.",
+          "t": "seré sana.",
           "s": "G4982",
           "m": "V-FPI-1S",
           "g": "σωθησομαι"
