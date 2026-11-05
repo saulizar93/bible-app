@@ -47,6 +47,10 @@ export const INFO_PAGES = [
     label: { en: "Matthew 16:18", es: "Mateo 16:18" },
   },
   {
+    id: "eucharist",
+    label: { en: "The Eucharist", es: "La Eucaristía" },
+  },
+  {
     id: "church-history",
     label: { en: "Church History", es: "Historia de la Iglesia" },
   },
