@@ -738,6 +738,10 @@
     "como descendió": "cuando Él|G846 descendió|G2597",
     "le seguían muchas gentes.": "grandes|G4183 multitudes|G3793 le seguían.|G190"
   },
+  "Mateo 8:2": {
+    "he aquí un leproso vino,": "he aquí,|G2400 vino|G2064 un leproso,|G3015",
+    "le adoraba, diciendo:": "postrándose|G4352 ante Él,|G846 le decia:|G3004"
+  },
   "Mateo 8:3": {
     "luego": "al instante"
   },
@@ -875,7 +879,7 @@
     "potestad": "autoridad"
   },
   "Mateo 9:9": {
-    "que estaba sentado al banco de los públicos tributos, el cual se llamaba Mateo;": "vio|G1492 a un hombre|G444 llamado|G3004 Mateo,|G3156 que estaba sentado|G2521 en|G1909 el lugar de los tributos públicos,|G5058",
+    "vio a un hombre que estaba sentado al banco de los públicos tributos, el cual se llamaba Mateo;": "vio|G1492 a un hombre|G444 llamado|G3004 Mateo,|G3156 que estaba sentado|G2521 en|G1909 el lugar de los tributos públicos,|G5058",
     "dícele:": "le dijo:"
   },
   "Mateo 9:10": {
@@ -900,7 +904,8 @@
   },
   "Mateo 9:14": {
     "Entonces los discípulos de Juan vienen a él,": "Entonces|G5119 vinieron|G4334 a Él|G846 los|G3588 discípulos|G3101 de Juan,|G2491",
-    "Fariseos": "fariseos"
+    "Fariseos": "fariseos",
+    "muchas veces, y": "seguido,|G4183 pero|G1161"
   },
   "Mateo 9:15": {
     "que son de bodas": "que están de bodas|G3567",
@@ -921,7 +926,9 @@
     "y lo uno y lo otro se conserva juntamente.": "y|G2532 ambos|G297 se conservan.|G4933"
   },
   "Mateo 9:18": {
-    "adoraba,": "adoró,",
+    "él": "Él",
+    "le adoraba,": "postrándose|G4352 ante Él,|G846",
+    "diciendo:": "le dijo:",
     "es muerta poco ha:": "acaba|G737 de morir;|G5053"
   },
   "Mateo 9:20": {
@@ -947,7 +954,7 @@
   "Mateo 9:24": {
     "Díceles:": "les dijo:",
     "es muerta, pero": "está muerta,|G599 sino|G235",
-    "él.": "Él"
+    "él.": "Él."
   },
   "Mateo 9:25": {
     "Y como la gente fue echada fuera,": "Pero|G1161 cuando|G3753 la|G3588 gente|G3793 había sido echada fuera,|G1544",
@@ -971,5 +978,24 @@
   "Mateo 9:31": {
     "ellos salidos,": "ellos,|G3588 en cuanto salieron,|G1831",
     "tierra.": "región."
+  },
+  "Mateo 9:33": {
+    "gentes": "multitudes",
+    "maravillaron, diciendo:": "maravillaban,|G2296 y decían:|G3004",
+    "vista": "visto"
+  },
+  "Mateo 9:34": {
+    "Fariseos": "fariseos"
+  },
+  "Mateo 9:35": {
+    "rodeaba Jesús por": "Jesús|G2424 recorría|G4013"
+  },
+  "Mateo 9:36": {
+    "viendo las gentes,": "al ver|G1492 las|G3588 multitudes,|G3793",
+    "derramadas": "desamparadas"
+  },
+  "Mateo 9:37": {
+    "dice": "dijo",
+    "pero": "mas"
   }
 }
