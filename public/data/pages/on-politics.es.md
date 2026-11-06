@@ -58,6 +58,34 @@ Esa enseñanza, obrando poco a poco en corazones cambiados, puso fin a la esclav
 - **William Wilberforce** y los evangélicos de la secta de Clapham lucharon durante décadas hasta que Gran Bretaña abolió el comercio de esclavos (1807) y la esclavitud misma (1833).
 - En Estados Unidos, el movimiento abolicionista nació de avivamientos cristianos y de predicadores que citaban: «de una sangre ha hecho todo el linaje de los hombres» (Hechos 17:26).
 
+## ¿Por qué tardó tanto?
+
+Si el evangelio condena la esclavitud desde la raíz, ¿por qué les tomó a los cristianos tantos siglos acabar con ella? Primero, porque durante la mayor parte de esa historia el hombre común no tenía las Escrituras. Durante mil años la iglesia romana mantuvo la Biblia en latín, prohibió a los laicos tenerla en su propia lengua, y controló lo que podían leer (vea la sección 9). La gente sabía lo que la iglesia le decía, no lo que Pablo le escribió a Filemón.
+
+Y la iglesia le decía que la esclavitud era lícita. Tomás de Aquino la aceptó como una consecuencia del pecado. En 1452 el papa Nicolás V autorizó al rey de Portugal a reducir a «sarracenos y paganos» a «servidumbre perpetua» (_Dum Diversas_), abriendo el camino al comercio de esclavos por el Atlántico. En 1548 Paulo III confirmó el derecho de los habitantes de Roma a tener esclavos. Todavía en 1866, una instrucción del Santo Oficio aprobada por Pío IX declaró que «la esclavitud misma, considerada en su naturaleza esencial, no es de ninguna manera contraria a la ley natural y divina». Algunos papas sí protestaron: Paulo III prohibió esclavizar a los indios de América (_Sublimis Deus_, 1537), y Gregorio XVI condenó el comercio de esclavos (1839). Y muchos protestantes del Sur también defendieron la esclavitud con la Biblia. Pero dondequiera que los creyentes comunes pudieron leer la Palabra por sí mismos, la conciencia de los cristianos empezó a volverse contra ella.
+
+## Dios obra por un proceso
+
+Dios no exige que un pueblo alcance una moral perfecta de la noche a la mañana. Lo guía paso a paso. Moisés permitió el divorcio «Por la dureza de vuestro corazón… pero al principio no fue así». La ley fue «nuestro ayo(tutor) para traernos a Cristo». Juan el Bautista fue enviado «para preparar un pueblo dispuesto para el Señor». Dios pasó por alto los tiempos de la ignorancia antes de mandar a todos los hombres en todo lugar que se arrepientan. El reino crece como una semilla, «primero hierba, luego espiga, después grano lleno en la espiga», y la senda de los justos va «en aumento hasta que el día es perfecto».
+
+> **Mateo 19:8:** «Él les dijo: Por la dureza de vuestro corazón Moisés os permitió repudiar a vuestras esposas; pero al principio no fue así.»
+
+> **Gálatas 3:24-25:** «De manera que la ley fue nuestro ayo para traernos a Cristo, para que fuésemos justificados por la fe. Mas venida la fe, ya no estamos bajo ayo,»
+
+> **Lucas 1:16-17:** «Y a muchos de los hijos de Israel convertirá al Señor Dios de ellos. Porque él irá delante de Él en el espíritu y el poder de Elías, para hacer volver los corazones de los padres a los hijos, y los desobedientes a la sabiduría de los justos, para preparar un pueblo dispuesto para el Señor.»
+
+> **Hechos 17:30:** «Pero Dios, habiendo pasado por alto los tiempos de esta ignorancia, ahora demanda a todos los hombres en todo lugar, que se arrepientan;»
+
+> **Marcos 4:26-28:** «Y dijo: Así es el reino de Dios, como cuando un hombre echa semilla en la tierra; y duerme y se levanta, de noche y de día, y la semilla brota y crece sin saber él cómo. Porque de suyo fructifica la tierra, primero hierba, luego espiga, después grano lleno en la espiga.»
+
+> **Proverbios 4:18:** «Mas la senda de los justos es como la luz de la aurora, que va en aumento hasta que el día es perfecto.»
+
+Lo que es cierto de un creyente, transformado «de gloria en gloria», también es cierto de las sociedades. La historia lo muestra: dondequiera que el evangelio se extendió y la gente leyó las Escrituras, los niños fueron protegidos, la mujer fue honrada y los esclavos fueron liberados, no de golpe, sino de manera constante, a medida que los corazones cambiaban.
+
+> **2 Corintios 3:18:** «Por tanto, nosotros todos, mirando con cara descubierta como en un espejo la gloria del Señor, somos transformados en la misma imagen, de gloria en gloria, como por el Espíritu del Señor.»
+
+> **Filipenses 1:6:** «estando confiado de esto, que el que comenzó en vosotros la buena obra, la perfeccionará hasta el día de Jesucristo.»
+
 ## La mujer
 
 En un mundo donde el marido tenía un poder casi ilimitado sobre su esposa, los apóstoles dijeron a los maridos que amaran a sus esposas «como a sus propios cuerpos», que se entregaran por ellas como Cristo se entregó por la iglesia, y que las honraran «como a coherederas de la gracia de vida». Las mujeres siguieron a Jesús, sostuvieron su ministerio, fueron las primeras testigos de la resurrección y sirvieron en las iglesias. Sociólogos como Rodney Stark han mostrado que las mujeres se unieron a la iglesia primitiva en gran número porque les daba una dignidad y una seguridad que el mundo pagano no les daba.

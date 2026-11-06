@@ -58,6 +58,34 @@ That teaching, working slowly through changed hearts, ended slavery:
 - **William Wilberforce** and the evangelicals of the Clapham Sect fought for decades until Britain abolished the slave trade (1807) and slavery itself (1833).
 - In America, the abolitionist movement was driven by Christian revival and preachers who quoted "God… hath made of one blood all nations of men" (Acts 17:26).
 
+## Why did it take so long?
+
+If the gospel condemns slavery at its root, why did it take Christians so many centuries to end it? First, because for most of that history the common man did not have the Scriptures. For a thousand years the Roman church kept the Bible in Latin, forbade lay people to own it in their own language, and controlled what they could read (see section 9). People knew what the church told them, not what Paul wrote to Philemon.
+
+And the church told them that slavery was lawful. Thomas Aquinas accepted it as a consequence of sin. In 1452 Pope Nicholas V authorized the king of Portugal to reduce "Saracens and pagans" to "perpetual servitude" (_Dum Diversas_), opening the way for the Atlantic slave trade. In 1548 Paul III confirmed the right of the people of Rome to own slaves. As late as 1866, an instruction of the Holy Office approved by Pius IX declared that "slavery itself, considered as such in its essential nature, is not at all contrary to the natural and divine law." Some popes did protest: Paul III forbade the enslavement of the Indians of America (_Sublimis Deus_, 1537), and Gregory XVI condemned the slave trade (1839). And many Southern Protestants also defended slavery from the Bible. But wherever ordinary believers could read the Word for themselves, the conscience of Christians began to turn against it.
+
+## God works by a process
+
+God does not demand that a people reach perfect morality overnight. He leads them step by step. Moses permitted divorce "because of the hardness of your hearts, … but from the beginning it was not so." The Law was "our schoolmaster(our tutor) to bring us unto Christ." John the Baptist was sent "to make ready a people prepared for the Lord." God "winked at" the times of ignorance before He commanded all men everywhere to repent. The kingdom grows like a seed, "first the blade, then the ear, after that the full corn in the ear," and the path of the just shines "more and more unto the perfect day."
+
+> **Matthew 19:8:** "He saith unto them, Moses because of the hardness of your hearts suffered you to put away your wives: but from the beginning it was not so."
+
+> **Galatians 3:24-25:** "Wherefore the law was our schoolmaster to bring us unto Christ, that we might be justified by faith. But after that faith is come, we are no longer under a schoolmaster."
+
+> **Luke 1:16-17:** "And many of the children of Israel shall he turn to the Lord their God. And he shall go before him in the spirit and power of Elias, to turn the hearts of the fathers to the children, and the disobedient to the wisdom of the just; to make ready a people prepared for the Lord."
+
+> **Acts 17:30:** "And the times of this ignorance God winked at; but now commandeth all men every where to repent:"
+
+> **Mark 4:26-28:** "And he said, So is the kingdom of God, as if a man should cast seed into the ground; And should sleep, and rise night and day, and the seed should spring and grow up, he knoweth not how. For the earth bringeth forth fruit of herself; first the blade, then the ear, after that the full corn in the ear."
+
+> **Proverbs 4:18:** "But the path of the just is as the shining light, that shineth more and more unto the perfect day."
+
+What is true of one believer, changed "from glory to glory," is also true of societies. History shows it: wherever the gospel spread and people read the Scriptures, infants were protected, women were honored, and slaves were set free, not all at once, but steadily, as hearts were changed.
+
+> **2 Corinthians 3:18:** "But we all, with open face beholding as in a glass the glory of the Lord, are changed into the same image from glory to glory, even as by the Spirit of the Lord."
+
+> **Philippians 1:6:** "Being confident of this very thing, that he which hath begun a good work in you will perform it until the day of Jesus Christ:"
+
 ## Women
 
 In a world where a husband had almost unlimited power over his wife, the apostles told husbands to love their wives "as their own bodies," to give themselves for them as Christ gave Himself for the church, and to honor them as "heirs together of the grace of life." Women followed Jesus, supported His ministry, were the first witnesses of the resurrection, and served in the churches. Sociologists like Rodney Stark have shown that women joined the early church in great numbers because it gave them dignity and security the pagan world did not.
