@@ -105,6 +105,10 @@ export const INFO_PAGES = [
     label: { en: "On Israel", es: "Sobre Israel" },
   },
   {
+    id: "on-politics",
+    label: { en: "On Politics", es: "Sobre la política" },
+  },
+  {
     id: "key-oneness-verses",
     label: { en: "Key Oneness verses", es: "Versículos clave de la Unicidad" },
   },
