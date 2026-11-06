@@ -152,7 +152,7 @@ Christians are commanded to **submit** to the authorities, to pay taxes, to hono
 
 > **2 Corinthians 5:20:** "Now then we are ambassadors for Christ, as though God did beseech you by us: we pray you in Christ’s stead, be ye reconciled to God."
 
-But we never put our **trust** in politicians. They are people, as prone to selfishness as anyone. Believing that a politician truly loves you is as naive as believing that a stripper is truly in love with you. The more power we give the government, the more power we give to sinful men.
+But we never put our **trust** in politicians. They are people, as prone to selfishness as anyone. I always like to say that: "Believing that a politician cares about you is as naive as believing that a stripper is in love with you" (it's a saying, not that I endorse those places). The more power we give the government, the more power we give to sinful men.
 
 > **Psalm 146:3-5:** "Put not your trust in princes, nor in the son of man, in whom there is no help. His breath goeth forth, he returneth to his earth; in that very day his thoughts perish. Happy is he that hath the God of Jacob for his help, whose hope is in the LORD his God:"
 
@@ -507,7 +507,7 @@ The Reformers rediscovered the gospel but kept the state church, and persecuted 
 - In Zürich, **Felix Manz** was drowned in 1527 for being rebaptized as a believer.
 - In 1536 Philip **Melanchthon** wrote, and **Luther** signed, an opinion that rulers must use the sword against the Anabaptists.
 - **Fritz Erbe**, a farmer in Lutheran Saxony, refused to baptize his newborn child in 1533. He was imprisoned for life, the last years in an underground hole beneath Wartburg Castle, the same castle where Luther had translated the New Testament, and died there in 1548.
-- Yet Luther himself had written that the word baptism means to **plunge** completely into the water, and that he wished those baptized to be completely immersed (_Sermon on the Sacrament of Baptism_, 1519). He struggled to justify infant baptism and changed his explanation: first by the faith of the church and the sponsors, then by a faith he said God works in the infant, and finally, in the _Large Catechism_ (1529), by saying that baptism rests on God's command, not on faith at all.
+- Yet Luther himself had written that the word baptism means to **plunge** completely into the water, and that he wished those baptized to be completely immersed (_Sermon on the Sacrament of Baptism_, 1519). He struggled to justify infant baptism and changed his explanation: first by the faith of the church and the sponsors, then by a faith he said God works in the infant, and finally, in the _Large Catechism_ (1529), by saying that baptism rests on God's command to baptize, not on faith at all.
 
 ## Anglicans and Puritans
 

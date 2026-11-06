@@ -152,7 +152,7 @@ A los cristianos se les manda **someterse** a las autoridades, pagar los impuest
 
 > **2 Corintios 5:20:** «Así que, somos embajadores de Cristo, como si Dios rogase por medio de nosotros; os rogamos en nombre de Cristo: Reconciliaos con Dios.»
 
-Pero nunca ponemos nuestra **confianza** en los políticos. Son personas, tan inclinadas al egoísmo como cualquiera. Creer que un político de verdad te ama es tan ingenuo como creer que una bailarina de un club nocturno está de verdad enamorada de ti. Mientras más poder le damos al gobierno, más poder les damos a hombres pecadores.
+Pero nunca ponemos nuestra **confianza** en los políticos. Son personas, tan inclinadas al egoísmo como cualquiera. Siempre me gusta decir: «Creer que a un político le importas es tan ingenuo como creer que una bailarina de striptease está enamorada de ti» (es un dicho, no es que recomiende esos lugares). Mientras más poder le damos al gobierno, más poder les damos a hombres pecadores.
 
 > **Salmos 146:3-5:** «No confiéis en príncipes, ni en hijo de hombre, porque no hay en él salvación. Sale su espíritu, se vuelve a la tierra; en el mismo día perecen sus pensamientos. Bienaventurado aquel cuya ayuda es el Dios de Jacob, cuya esperanza está en Jehová su Dios:»
 
@@ -262,7 +262,7 @@ El psicólogo **Jordan Peterson** dijo lo mismo: «Pon tu casa en perfecto orden
 
 Jesús **nos** mandó dar de comer al hambriento, vestir al desnudo y visitar al enfermo, personalmente. Nunca le pidió a Roma que redistribuyera la riqueza del imperio. La iglesia primitiva compartía libremente, pero Pedro le dijo a Ananías que su propiedad y su precio estaban «en tu poder»: dar era voluntario. «Dios ama al dador alegre», no al que da «por necesidad». Votar para obligar a otro a dar no cumple mi deber con mi prójimo. Puede convertirse en una manera de excusarme de él.
 
-> **Mateo 25:35-40:** «Porque tuve hambre, y me disteis de comer; tuve sed, y me disteis de beber; fui extranjero, y me recogisteis; \+add estuve\+add* desnudo, y me cubristeis; enfermo, y me visitasteis; en la cárcel, y vinisteis a mí. Entonces los justos le responderán, diciendo: Señor, ¿cuándo te vimos hambriento, y te sustentamos, o sediento, y te dimos de beber? ¿Y cuándo te vimos extranjero, y te recogimos, o desnudo, y te cubrimos? ¿O cuándo te vimos enfermo o en la cárcel, y vinimos a ti? Y respondiendo el Rey, les dirá: De cierto os digo: En cuanto lo hicisteis a uno de estos mis hermanos más pequeños, a mí lo hicisteis.»
+> **Mateo 25:35-40:** «Porque tuve hambre, y me disteis de comer; tuve sed, y me disteis de beber; fui extranjero, y me recogisteis; \+add estuve\+add\* desnudo, y me cubristeis; enfermo, y me visitasteis; en la cárcel, y vinisteis a mí. Entonces los justos le responderán, diciendo: Señor, ¿cuándo te vimos hambriento, y te sustentamos, o sediento, y te dimos de beber? ¿Y cuándo te vimos extranjero, y te recogimos, o desnudo, y te cubrimos? ¿O cuándo te vimos enfermo o en la cárcel, y vinimos a ti? Y respondiendo el Rey, les dirá: De cierto os digo: En cuanto lo hicisteis a uno de estos mis hermanos más pequeños, a mí lo hicisteis.»
 
 > **Hechos 5:3-4:** «Y dijo Pedro: Ananías, ¿por qué ha llenado Satanás tu corazón para que mintieses al Espíritu Santo, y defraudases del precio de la heredad? Reteniéndola, ¿no se te quedaba a ti? y vendida, ¿no estaba en tu poder? ¿Por qué pusiste esto en tu corazón? No has mentido a los hombres, sino a Dios.»
 
@@ -507,7 +507,7 @@ Los reformadores redescubrieron el evangelio, pero conservaron la iglesia de Est
 - En Zúrich, **Félix Manz** fue ahogado en 1527 por haber sido rebautizado como creyente.
 - En 1536 Felipe **Melanchthon** escribió, y **Lutero** firmó, un dictamen de que los gobernantes debían usar la espada contra los anabaptistas.
 - **Fritz Erbe**, un campesino de la Sajonia luterana, se negó en 1533 a bautizar a su hijo recién nacido. Fue encarcelado de por vida, los últimos años en un hoyo subterráneo bajo el castillo de Wartburg, el mismo castillo donde Lutero tradujo el Nuevo Testamento, y murió allí en 1548.
-- Sin embargo, el mismo Lutero había escrito que la palabra bautismo significa **sumergir** por completo en el agua, y que deseaba que los bautizados fueran sumergidos por completo (_Sermón sobre el sacramento del bautismo_, 1519). Le costó justificar el bautismo de infantes y cambió su explicación: primero por la fe de la iglesia y de los padrinos, luego por una fe que, según él, Dios obra en el niño, y finalmente, en el _Catecismo mayor_ (1529), diciendo que el bautismo descansa en el mandato de Dios, no en la fe.
+- Sin embargo, el mismo Lutero había escrito que la palabra bautismo significa **sumergir** por completo en el agua, y que deseaba que los bautizados fueran sumergidos por completo (_Sermón sobre el sacramento del bautismo_, 1519). Le costó justificar el bautismo de infantes y cambió su explicación: primero por la fe de la iglesia y de los padrinos, luego por una fe que, según él, Dios obra en el niño, y finalmente, en el _Catecismo mayor_ (1529), diciendo que el bautismo descansa en el mandato de Dios de que nos bauticemos, no en la fe.
 
 ## Anglicanos y puritanos
 
