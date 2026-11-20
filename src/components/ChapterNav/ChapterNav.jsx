@@ -1,8 +1,8 @@
 import "./ChapterNav.css";
 
 const T = {
-  en: { prev: "Previous chapter", next: "Next chapter", show: "Show the bottom pane" },
-  es: { prev: "Capítulo anterior", next: "Capítulo siguiente", show: "Mostrar el panel inferior" },
+  en: { prev: "Previous chapter", next: "Next chapter", show: "Show the 2nd pane", hide: "Hide the 2nd pane" },
+  es: { prev: "Capítulo anterior", next: "Capítulo siguiente", show: "Mostrar el 2.º panel", hide: "Ocultar el 2.º panel" },
 };
 
 /**
@@ -11,10 +11,10 @@ const T = {
  * Stacked (phones): bottom-left and bottom-right of the lower pane.
  * The placement is pure CSS (ChapterNav.css), using the same 820px breakpoint
  * that switches .panes between column and row.
- * When the bottom pane is hidden (Settings), the round + that brings it back is
- * drawn here too, stacked just above the → button so neither covers the other.
+ * Just above the → button sits a matching round − / + that hides the 2nd pane
+ * (−) or brings it back (+).
  */
-export default function ChapterNav({ onStep, lang = "en", onShowBottom = null, aboveBar = false }) {
+export default function ChapterNav({ onStep, lang = "en", bottomHidden = false, onToggleBottom = null, aboveBar = false }) {
   const t = T[lang] || T.en;
   return (
     <>
@@ -42,16 +42,16 @@ export default function ChapterNav({ onStep, lang = "en", onShowBottom = null, a
           <path d="M13 6l6 6-6 6" />
         </svg>
       </button>
-      {onShowBottom && (
+      {onToggleBottom && (
         <button
           type="button"
-          className={aboveBar ? "show-bottom-fab in-nav above-bar" : "show-bottom-fab in-nav"}
-          onClick={onShowBottom}
-          aria-label={t.show}
-          title={t.show}
+          className={aboveBar ? "chapter-nav pane-toggle above-bar" : "chapter-nav pane-toggle"}
+          onClick={onToggleBottom}
+          aria-label={bottomHidden ? t.show : t.hide}
+          title={bottomHidden ? t.show : t.hide}
         >
-          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
-            <path d="M12 5v14M5 12h14" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" fill="none" />
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" aria-hidden="true">
+            {bottomHidden ? <path d="M12 5v14M5 12h14" /> : <path d="M5 12h14" />}
           </svg>
         </button>
       )}

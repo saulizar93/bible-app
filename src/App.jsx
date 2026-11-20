@@ -469,7 +469,8 @@ export default function App() {
             <ChapterNav
               onStep={step}
               lang={lang || "en"}
-              onShowBottom={bottomHidden ? () => changeBottomHidden(false) : null}
+              bottomHidden={bottomHidden}
+              onToggleBottom={() => changeBottomHidden(!bottomHidden)}
               aboveBar={verseSelection.verses.size > 0}
             />
           }

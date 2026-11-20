@@ -31,7 +31,8 @@
 /* Stacked panes (phones): bottom corners of the lower pane. */
 .chapter-nav.prev,
 .chapter-nav.next {
-  bottom: max(14px, env(safe-area-inset-bottom, 0px));
+  /* a little room above the very bottom edge of the phone */
+  bottom: calc(22px + env(safe-area-inset-bottom, 0px));
 }
 .chapter-nav.prev {
   left: 12px;
@@ -53,25 +54,25 @@
   }
 }
 
-/* The + that shows the hidden bottom pane (base look in app.css) sits right
-   above the → button: same right edge, one button height (44px) + 10px higher. */
-.show-bottom-fab.in-nav {
-  position: absolute;
+/* The − / + that hides or shows the 2nd pane: same look as the arrows,
+   stacked right above the → button (one button height, 44px, + 10px gap). */
+.chapter-nav.pane-toggle {
   right: 18px;
-  bottom: calc(max(14px, env(safe-area-inset-bottom, 0px)) + 54px);
+  bottom: calc(22px + 54px + env(safe-area-inset-bottom, 0px));
 }
-/* While the verse selection bar (52px) covers the bottom, keep the + above it. */
-.show-bottom-fab.in-nav.above-bar {
+/* While the verse selection bar (52px) covers the bottom, keep it above the bar. */
+.chapter-nav.pane-toggle.above-bar {
+  z-index: 1001;
   bottom: calc(68px + env(safe-area-inset-bottom, 0px));
 }
 @media (min-width: 820px) {
-  .show-bottom-fab.in-nav,
-  .show-bottom-fab.in-nav.above-bar {
+  .chapter-nav.pane-toggle,
+  .chapter-nav.pane-toggle.above-bar {
     bottom: auto;
     top: 50%;
     transform: translateY(calc(-50% - 54px));
   }
-  .show-bottom-fab.in-nav:active {
-    transform: translateY(calc(-50% - 54px)) scale(0.94);
+  .chapter-nav.pane-toggle:active {
+    transform: translateY(calc(-50% - 54px)) scale(0.92);
   }
 }

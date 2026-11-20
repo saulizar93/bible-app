@@ -206,6 +206,8 @@ export default function JumpBar({
   return (
     <>
       <header className="jump">
+        <MainMenu lang={lang} onOpenPage={onOpenPage} variant="help" />
+
         <button
           type="button"
           className="nav-step settings-trigger"

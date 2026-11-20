@@ -1,4 +1,4 @@
-/** Pages in the hamburger menu. Each page's text lives in
+/** Pages in the hamburger menu (help: true = in the ? help menu instead). Each page's text lives in
  *  public/data/pages/<id>.<lang>.md (lang = en | es) — edit those files to
  *  write the page; see InfoPanel.jsx for the supported formatting.
  *  To add a page: add an entry here and create its two .md files. */
@@ -112,13 +112,14 @@ export const INFO_PAGES = [
     id: "key-oneness-verses",
     label: { en: "Key Oneness verses", es: "Versículos clave de la Unicidad" },
   },
-  { id: "bibliography", label: { en: "Bibliography", es: "Bibliografía" } },
-  { id: "author", label: { en: "About the Author", es: "Acerca del autor" } },
+  { id: "bibliography", label: { en: "Bibliography", es: "Bibliografía" }, help: true },
+  { id: "author", label: { en: "About the Author", es: "Acerca del autor" }, help: true },
   // Not a Markdown page: InfoPanel shows the ReportBugForm for this id.
   {
     id: "report",
     label: { en: "Report a bug", es: "Reportar un error" },
     form: true,
+    help: true,
   },
   // Install + offline downloads (InfoPanel shows OfflinePanel for this id).
   // hidden: not listed in the hamburger menu; opened from Settings instead.

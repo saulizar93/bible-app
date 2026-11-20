@@ -20,11 +20,11 @@ const MAX_BYTES = 10 * 1024 * 1024;
 const T = {
   en: {
     intro:
-      "Found a typo, a wrong verse, a mistake in a note, or something that doesn't work? Tell me here and it will be sent to the author.",
+      "Found a typo, a wrong verse, a mistake in a note, a mistagged greek word, or something that doesn't work? Tell me here and it will be sent to the author.",
     kind: "What kind of problem?",
     kinds: {
       typo: "Typo",
-      content: "Error in a translation or note",
+      content: "Error in Bible or note",
       bug: "App bug",
       other: "Other",
     },
@@ -49,12 +49,12 @@ const T = {
   },
   es: {
     intro:
-      "¿Encontró una errata, un versículo equivocado, un error en una nota o algo que no funciona? Cuéntelo aquí y se le enviará al autor.",
+      "¿Encontró una falta de ortografía, un versículo equivocado, un error en una nota, una palabra asignada al griego equivocado, o algo que no funcione? Cuéntelo aquí y se le enviará al autor.",
     kind: "¿Qué tipo de problema?",
     kinds: {
-      typo: "Errata",
-      content: "Error en una traducción o nota",
-      bug: "Falla de la aplicación",
+      typo: "Ortografía",
+      content: "Error en Biblia o nota",
+      bug: "Falla de App",
       other: "Otro",
     },
     message: "Describa el problema",

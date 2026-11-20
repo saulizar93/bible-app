@@ -94,7 +94,9 @@ export default function SettingsModal({
   defaultPanes = { top: "", bottom: "" },
   // eslint-disable-next-line no-unused-vars
   onDefaultPaneChange,
+  // eslint-disable-next-line no-unused-vars -- used by the commented-out "Hide 2nd pane" switch
   bottomHidden = false,
+  // eslint-disable-next-line no-unused-vars -- used by the commented-out "Hide 2nd pane" switch
   onBottomHiddenChange,
   onOpenDownload,
 }) {
@@ -238,10 +240,13 @@ export default function SettingsModal({
           </div>
         </section>
 
+        {/* "Hide 2nd pane" switch — hidden for now (2026-11-19): the round − / + button
+            above the → chapter arrow (ChapterNav) now hides and shows the 2nd pane. To
+            bring the switch back, remove this comment's first and last lines; the
+            strings and props are still in place.
         <section className="settings-bottom-toggle">
           <div className="settings-switch-row">
             <span>{t.hideSecond}</span>
-            {/* On = 2nd pane hidden. The + button (App.jsx) shows it again, which turns this off. */}
             <button
               type="button"
               role="switch"
@@ -255,6 +260,7 @@ export default function SettingsModal({
           </div>
           <p className="settings-hint">{t.hideSecondHint}</p>
         </section>
+        */}
 
         {/* "Default panes" section — hidden for now (2026-10-28). To bring it back,
             remove this comment's first and last lines; the strings, props and

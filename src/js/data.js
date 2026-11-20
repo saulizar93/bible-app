@@ -218,7 +218,7 @@ export const PANE_OPTIONS = [
     kind: "notes",
     lang: "en",
     citation: "Notes (EN)",
-    copyright: "Oneness Study Notes written by Saul Ojeda (2026).",
+    copyright: "Oneness Study Notes written by Saul Ojeda (2026) using the King James Version (KJV).",
   },
   {
     code: "notes:es",
@@ -228,7 +228,7 @@ export const PANE_OPTIONS = [
     lang: "es",
     citation: "Notas (ES)",
     copyright:
-      "Notas de estudio de la Unicidad escritas originalmente en inglés por Saul Ojeda y traducidas al español a mano y con ayuda de IA.",
+      "Notas de estudio de la Unicidad escritas originalmente en inglés por Saul Ojeda con la Biblia King James (KJV), y traducidas al español a mano y con ayuda de IA usando la Reina Valera Gómez (RVG).",
   },
 ];
 /** Label for a note (`n` on a token): the RVO's own notes are the translator's;
