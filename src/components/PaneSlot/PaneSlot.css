@@ -109,10 +109,8 @@
      verse numbers start each verse in one straight column. */
   text-align: left;
 }
-/* The study notes keep their centered layout (verse range and text). */
-.pane-body.notes-body {
-  text-align: center;
-}
+/* Study notes: text aligned left like the Bibles; the verse range above each
+   note stays centered (NotesPane.css .note-ref). */
 
 /* Reading settings (SettingsModal): --reading-scale / --reading-font are set on .app */
 .pane-body {

@@ -12,6 +12,7 @@
 }
 .note-ref {
   display: block;
+  text-align: center;
   font:
     700 12px/1 ui-sans-serif,
     system-ui;
