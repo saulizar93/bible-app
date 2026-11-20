@@ -17,6 +17,7 @@ export default function PaneSlot({
   onVerseClick,
   onVerseToggle,
   onClearHighlight,
+  onGo, // go to a passage (references in the notes)
 }) {
   const opt = optionFor(code) || PANE_OPTIONS[0];
   const scroller = useRef(null);
@@ -109,6 +110,7 @@ export default function PaneSlot({
             highlight={highlight}
             selectedVerses={selectedVerses}
             scroller={scroller}
+            onGo={onGo}
           />
         )}
       </div>

@@ -508,6 +508,7 @@ export default function App() {
             }}
             onVerseClick={selectVerse}
             onVerseToggle={(verse) => toggleVerse(top, verse)}
+            onGo={go}
             onClearHighlight={() =>
               setRefPos((prev) => ({ ...prev, verse: null }))
             }
@@ -537,6 +538,7 @@ export default function App() {
             }}
             onVerseClick={selectVerse}
             onVerseToggle={(verse) => toggleVerse(bottom, verse)}
+            onGo={go}
             onClearHighlight={() =>
               setRefPos((prev) => ({ ...prev, verse: null }))
             }

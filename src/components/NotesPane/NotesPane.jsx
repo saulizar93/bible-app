@@ -3,8 +3,11 @@ import { byId } from "../../js/books.js";
 import { loadNotes, keyCovers, keyStart, optionFor, packVersion } from "../../js/data.js";
 import "./NotesPane.css";
 import { scrollToVerse } from "../../js/scrollToVerse.js";
+import RefPopover, { RefText } from "../RefPopover/RefPopover.jsx";
 
-export default function NotesPane({ lang, refPos, highlight, scroller }) {
+export default function NotesPane({ lang, refPos, highlight, scroller, onGo }) {
+  const [pop, setPop] = useState(null); // { target, anchor, id }: verse pop-up for a tapped reference
+  const openRef = (target, anchor) => setPop((p) => ({ target, anchor, id: (p?.id || 0) + 1 }));
   const bookNum = byId[refPos.book].n;
   // The loaded result remembers which chapter it belongs to; while a new chapter
   // loads, the old result simply doesn't match, so it counts as "loading" without
@@ -69,11 +72,11 @@ export default function NotesPane({ lang, refPos, highlight, scroller }) {
         {notes[key].map((para, i) =>
           para.t === "hl" ? (
             <blockquote key={i} className="note-hl">
-              {para.x}
+              <RefText text={para.x} onOpen={openRef} />
             </blockquote>
           ) : (
             <p key={i} className="note-p">
-              {para.x}
+              <RefText text={para.x} onOpen={openRef} />
             </p>
           ),
         )}
@@ -84,6 +87,16 @@ export default function NotesPane({ lang, refPos, highlight, scroller }) {
   return (
     <>
       {noteEls}
+      {pop && (
+        <RefPopover
+          key={pop.id}
+          target={pop.target}
+          anchor={pop.anchor}
+          lang={lang}
+          onGo={(r) => onGo?.(r)}
+          onClose={() => setPop(null)}
+        />
+      )}
       {copyright && (
         <p className="pane-copyright">
           {copyright} {lang === "es" ? "Versión de las notas" : "Notes version"}: v{packVersion(`notes:${lang}`)}.

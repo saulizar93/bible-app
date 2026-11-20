@@ -4,6 +4,7 @@
   --dim: #7a736a;
   --line: #e2ddd4;
   --hit: #fff2c4;
+  --link: #1f5fb8; /* Bible references in the notes (RefPopover.css) */
   box-sizing: border-box;
   padding-top: env(safe-area-inset-top, 0px);
   padding-bottom: env(safe-area-inset-bottom, 0px);
@@ -17,6 +18,7 @@
     --dim: #8b8377;
     --line: #2c2a24;
     --hit: #3d3413;
+    --link: #7fb2ff;
   }
 *,
 *::before,
