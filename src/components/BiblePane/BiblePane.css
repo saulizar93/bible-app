@@ -93,6 +93,20 @@
   vertical-align: super;
   cursor: pointer;
 }
+/* Strong's off: a speech-bubble icon at the end of the verse, with a padded tap area */
+.tn-mark.tn-icon {
+  display: inline-grid;
+  place-items: center;
+  margin: -0.35em 0 -0.35em 0.15em;
+  padding: 0.35em;
+  border-radius: 999px;
+  font-size: 0.95em;
+  vertical-align: -0.1em;
+}
+.tn-mark.tn-icon:hover,
+.tn-mark.tn-icon[aria-expanded="true"] {
+  background: color-mix(in srgb, #e5c96b 22%, transparent);
+}
 .tn-box {
   display: block;
   margin: 0.35em 0 0.2em;

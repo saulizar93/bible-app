@@ -74,11 +74,13 @@ export default function BiblePane({
     if (!text) return null;
     const tokens = tokensByVerse?.[i];
     const notes = (allTokens?.[i] || []).filter((t) => t.n).map((t) => t.n);
-    const mark = (key) => (
+    // icon: Strong's off -> one speech-bubble button at the end of the verse
+    // (a bigger target); Strong's on -> a † after each word with a note.
+    const mark = (key, icon = false) => (
       <button
         key={key}
         type="button"
-        className="tn-mark"
+        className={icon ? "tn-mark tn-icon" : "tn-mark"}
         aria-label={noteLabel}
         aria-expanded={openNotes.has(i + 1)}
         onClick={(e) => {
@@ -86,7 +88,19 @@ export default function BiblePane({
           toggleNote(i + 1);
         }}
       >
-        †
+        {icon ? (
+          <svg viewBox="0 0 24 24" width="1em" height="1em" aria-hidden="true">
+            <path
+              d="M4 5.5A2.5 2.5 0 0 1 6.5 3h11A2.5 2.5 0 0 1 20 5.5v8a2.5 2.5 0 0 1-2.5 2.5H10l-4.5 4v-4h0A1.5 1.5 0 0 1 4 14.5z"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinejoin="round"
+            />
+          </svg>
+        ) : (
+          "†"
+        )}
       </button>
     );
     return (
@@ -126,7 +140,7 @@ export default function BiblePane({
         {tokens
           ? renderTokens(tokens, onWordClick, mark, italics)
           : (italics && renderItalics(allTokens?.[i], text)) || text}
-        {!tokens && notes.length > 0 && mark("tn-end")}
+        {!tokens && notes.length > 0 && mark("tn-end", true)}
         {notes.length > 0 && openNotes.has(i + 1) && (
           <span className="tn-box" onClick={(e) => e.stopPropagation()}>
             <span className="tn-label">{noteLabel}:</span>{" "}

@@ -1,8 +1,8 @@
 """Add notes defining archaic KJV words to scripts/correcciones/correcciones.json
 (kjv-strong -> notes), one book at a time. Then run aplicar.py.
 
-    python3 scripts/correcciones/arcaismos_kjv.py Matthew
-    python3 scripts/correcciones/aplicar.py
+    python scripts/correcciones/arcaismos_kjv.py Matthew
+    python scripts/correcciones/aplicar.py
 
 To drop a word, delete its line from GLOSSARY (or OVERRIDE) and run both again:
 this script takes its earlier notes off that book first, so removed words lose
@@ -55,15 +55,13 @@ GLOSSARY = {
     'privily': 'secretly, privately',
     'straitly': 'strictly, sternly',
     'strait': 'narrow',
-    'exceeding': 'extremely, very great',
     'sore': 'greatly, severely',
     'despitefully': 'with malice, spitefully',
     'spitefully': 'shamefully, with insult',
     'grievous': 'heavy, burdensome; severe',
     'grievously': 'severely, terribly',
     'verily': 'truly (Greek amēn)',
-    'nay': 'no', 'yea': 'yes; indeed',
-    'lo': 'look! see!', 'behold': 'look! see!',
+    'lo': 'look! see!',
     # verbs (old forms)
     'spake': 'spoke', 'brake': 'broke', 'bade': 'told, commanded; invited',
     'bare': 'carried, bore',
@@ -80,7 +78,6 @@ GLOSSARY = {
     'listed': 'wanted ("as they listed" = as they pleased)',
     'wont': 'accustomed, in the habit',
     'minded': 'intended, planned',
-    'marvelled': 'were amazed',
     'liken': 'compare', 'likened': 'compared',
     'mete': 'measure out',
     'sever': 'separate',
