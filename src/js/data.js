@@ -171,6 +171,8 @@ export const PANE_OPTIONS = [
     // (every book, 1–66, now carries a "w").
     strongs: true,
     concord: "rvg-strong/", // its own: data/concord/rvg-strong/{greek,hebrew} (rebuild after retagging RVG)
+    // Supplied words (~3,900, like the KJV's italics) are marked "it": 1 on their tokens.
+    italics: true,
     citation: "RVG",
     copyright:
       "Santa Biblia Reina Valera Gómez © 2004, 2010, 2023 Dr. Humberto Gómez Caballero. Derechos reservados. Prohibida su reproducción con fines de lucro. Análisis y palabras hebreas del Antiguo Testamento: obra original del Open Scriptures Hebrew Bible, disponible en https://github.com/openscriptures/morphhb (CC BY 4.0).",
