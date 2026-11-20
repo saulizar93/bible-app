@@ -63,7 +63,8 @@ export default function MainMenu({ lang = "en", onOpenPage, variant = "main" }) 
                 </button>
               </li>
             ))}
-            {!isHelp && dataUpdated() && (
+            {/* manifest date: last change to the Bibles, notes, lexicon or concordance */}
+            {dataUpdated() && (
               <li role="none" className="menu-versions">
                 {lang === "es" ? "Datos actualizados" : "Data updated"}: {dataUpdated()}
               </li>
