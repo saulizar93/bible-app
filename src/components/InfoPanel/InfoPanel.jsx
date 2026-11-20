@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import { INFO_PAGES } from "../../js/pages.js";
 import "../StrongsPanel/StrongsPanel.css"; // same panel look as the Strong's panel
 import ReportBugForm from "./ReportBugForm.jsx";
@@ -29,6 +29,8 @@ export default function InfoPanel({
 }) {
   const page = INFO_PAGES.find((p) => p.id === pageId);
   const [text, setText] = useState(null); // null = loading, "" = missing
+  const panelRef = useRef(null);
+  const [headingCount, setHeadingCount] = useState(0);
 
   useEffect(() => {
     let alive = true;
@@ -67,6 +69,34 @@ export default function InfoPanel({
 
   const title = page ? page.label[lang] || page.label.en : "";
 
+  // ▲ / ▼ buttons: jump the page to the previous / next heading.
+  const headings = () =>
+    panelRef.current ? [...panelRef.current.querySelectorAll(".info-body h3, .info-body h4, .info-body h5")] : [];
+  useEffect(() => {
+    // Count headings once the page has rendered, to show the buttons only when there are some.
+    const id = requestAnimationFrame(() => setHeadingCount(headings().length));
+    return () => cancelAnimationFrame(id);
+  }, [text, pageId]);
+  const jumpHeading = useCallback((dir) => {
+    const panel = panelRef.current;
+    if (!panel) return;
+    const top = panel.getBoundingClientRect().top;
+    const GAP = 12; // room left above the heading
+    // Each heading's position inside the scrolled panel.
+    const ys = headings().map((h) => h.getBoundingClientRect().top - top + panel.scrollTop - GAP);
+    const now = panel.scrollTop;
+    const target =
+      dir > 0
+        ? ys.find((y) => y > now + 4)
+        : [...ys].reverse().find((y) => y < now - 4) ?? 0; // before the first heading: back to the top
+    if (target === undefined) return;
+    panel.scrollTo({ top: Math.max(0, target), behavior: "smooth" });
+  }, []);
+  const navT =
+    lang === "es"
+      ? { prev: "Encabezado anterior", next: "Encabezado siguiente" }
+      : { prev: "Previous heading", next: "Next heading" };
+
   return (
     <>
       <div className="strongs-backdrop" onClick={onClose} />
@@ -74,7 +104,24 @@ export default function InfoPanel({
         className="strongs-panel info-panel"
         role="dialog"
         aria-label={title}
+        ref={panelRef}
       >
+        {headingCount > 0 && (
+          <div className="info-heading-nav">
+            <button type="button" onClick={() => jumpHeading(-1)} aria-label={navT.prev} title={navT.prev}>
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="M12 19V5" />
+                <path d="M6 11l6-6 6 6" />
+              </svg>
+            </button>
+            <button type="button" onClick={() => jumpHeading(1)} aria-label={navT.next} title={navT.next}>
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="M12 5v14" />
+                <path d="M18 13l-6 6-6-6" />
+              </svg>
+            </button>
+          </div>
+        )}
         <button
           type="button"
           className="strongs-close"
