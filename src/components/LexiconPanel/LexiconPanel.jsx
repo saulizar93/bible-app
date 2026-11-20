@@ -12,6 +12,7 @@ import {
   decodeVid,
 } from "../../js/data.js";
 import { normalizeStrong } from "../../js/strongsCode.js";
+import { renderingOf } from "../../js/renderings.js";
 import "../StrongsPanel/StrongsPanel.css"; // same panel frame as the Strong's panel
 import "./LexiconPanel.css";
 
@@ -44,6 +45,10 @@ const T = {
     outline: "Meanings (outline)",
     all: "Show all",
     less: "Show less",
+    filterBy: (w) => `Show only the verses where it is translated “${w}”`,
+    unfilter: "Show every rendering again",
+    filteredBy: (w) => `Only verses where it is translated “${w}”.`,
+    showAll: "Show all renderings",
   },
   es: {
     title: "Léxico hebreo y griego",
@@ -70,6 +75,10 @@ const T = {
     outline: "Significados (esquema)",
     all: "Ver todas",
     less: "Ver menos",
+    filterBy: (w) => `Mostrar solo los versículos donde se traduce «${w}»`,
+    unfilter: "Volver a mostrar todas las traducciones",
+    filteredBy: (w) => `Solo versículos donde se traduce «${w}».`,
+    showAll: "Mostrar todas las traducciones",
   },
 };
 
@@ -339,7 +348,43 @@ function WordPage({ code, source, bibleLabel, renderings, lang, t, onBack, onJum
   const [book, setBook] = useState(null);
   const [count, setCount] = useState(CHUNK);
   const [rows, setRows] = useState(null);
+  const [word, setWord] = useState(null); // rendering filter, e.g. "one"
+  const [wordRefs, setWordRefs] = useState(null); // verses where it is rendered that way
   const isHeb = code[0] === "H";
+
+  // Rendering filter: read the books this number occurs in and keep the verses
+  // where its tagged word reads `word` (same reduction as renderings.json).
+  useEffect(() => {
+    if (!word || !refs) return;
+    let alive = true;
+    const nums = [...new Set(refs.map((v) => Math.floor(v / 1_000_000)))];
+    Promise.all(nums.map((n) => loadBook(source, n).then((d) => [n, d])))
+      .then((pairs) => {
+        if (!alive) return;
+        const data = new Map(pairs);
+        setWordRefs(
+          refs.filter((vid) => {
+            const { n, c, v } = decodeVid(vid);
+            const toks = data.get(n)?.w?.[c]?.[v - 1] || [];
+            return toks.some((tok) => tok.s && normalizeStrong(tok.s) === code && renderingOf(tok.t) === word);
+          }),
+        );
+      })
+      .catch(() => alive && setWordRefs([]));
+    return () => {
+      alive = false;
+    };
+  }, [word, refs, source, code]);
+
+  const pickWord = (w) => {
+    setWord((cur) => (cur === w ? null : w)); // tap again to clear
+    setWordRefs(null);
+    setBook(null);
+    setCount(CHUNK);
+    setRows(null);
+  };
+  // the verses the book chart and the list work from
+  const base = word ? wordRefs : refs;
 
   useEffect(() => {
     let alive = true;
@@ -356,16 +401,16 @@ function WordPage({ code, source, bibleLabel, renderings, lang, t, onBack, onJum
 
   const chart = useMemo(() => {
     const m = new Map();
-    for (const vid of refs || []) {
+    for (const vid of base || []) {
       const n = Math.floor(vid / 1_000_000);
       m.set(n, (m.get(n) || 0) + 1);
     }
     return [...m].map(([n, c]) => ({ key: n, label: bookName(byNum[n], lang) || `${n}`, count: c })).sort((a, b) => b.count - a.count);
-  }, [refs, lang]);
+  }, [base, lang]);
 
   const filtered = useMemo(
-    () => (refs ? (book ? refs.filter((v) => Math.floor(v / 1_000_000) === book) : refs) : null),
-    [refs, book],
+    () => (base ? (book ? base.filter((v) => Math.floor(v / 1_000_000) === book) : base) : null),
+    [base, book],
   );
 
   // Verse text for the shown occurrences, with the word for this number marked.
@@ -383,7 +428,11 @@ function WordPage({ code, source, bibleLabel, renderings, lang, t, onBack, onJum
             const d = data.get(n);
             const toks = d?.w?.[c]?.[v - 1];
             const segs = toks
-              ? toks.map((tok) => ({ t: tok.t, j: !!tok.j, hit: !!(tok.s && normalizeStrong(tok.s) === code) }))
+              ? toks.map((tok) => ({
+                  t: tok.t,
+                  j: !!tok.j,
+                  hit: !!(tok.s && normalizeStrong(tok.s) === code && (!word || renderingOf(tok.t) === word)),
+                }))
               : [{ t: d?.v?.[c]?.[v - 1] || "", hit: false }];
             return { vid, book: byNum[n], chapter: c, verse: v, segs };
           }),
@@ -393,7 +442,7 @@ function WordPage({ code, source, bibleLabel, renderings, lang, t, onBack, onJum
     return () => {
       alive = false;
     };
-  }, [filtered, count, source, code]);
+  }, [filtered, count, source, code, word]);
 
   const def = entry && (lang === "es" ? entry["def-es"] : entry["def-en"]);
   const left = filtered ? Math.max(0, filtered.length - count) : 0;
@@ -443,18 +492,39 @@ function WordPage({ code, source, bibleLabel, renderings, lang, t, onBack, onJum
         <>
           <h4 className="strongs-sub">{t.rendered(bibleLabel)}</h4>
           <Clamp lines={3} t={t}>
-            {renderList(renderings)}
+            {renderings.map(([w, n], i) => (
+              <span key={w}>
+                {i > 0 && ", "}
+                <button
+                  type="button"
+                  className={word === w ? "lexicon-chip on" : "lexicon-chip"}
+                  aria-pressed={word === w}
+                  title={word === w ? t.unfilter : t.filterBy(w)}
+                  onClick={() => pickWord(w)}
+                >
+                  {w} ({n})
+                </button>
+              </span>
+            ))}
           </Clamp>
         </>
       )}
 
       <h4 className="strongs-sub">
         {t.occurrences}
-        {refs ? ` (${book ? `${filtered.length} / ` : ""}${refs.length})` : ""}
+        {base ? ` (${book ? `${filtered.length} / ` : ""}${base.length})` : ""}
       </h4>
-      {refs === null ? (
+      {word && (
+        <p className="lexicon-filter">
+          {t.filteredBy(word)}{" "}
+          <button type="button" className="lexicon-expand" onClick={() => pickWord(word)}>
+            {t.showAll}
+          </button>
+        </p>
+      )}
+      {refs === null || (word && wordRefs === null) ? (
         <p className="dim">{t.loading}</p>
-      ) : refs.length === 0 ? (
+      ) : base.length === 0 ? (
         <p className="dim">{t.noOcc}</p>
       ) : (
         <>
@@ -466,7 +536,7 @@ function WordPage({ code, source, bibleLabel, renderings, lang, t, onBack, onJum
               setCount(CHUNK);
               setRows(null);
             }}
-            totalCount={refs.length}
+            totalCount={base.length}
             lang={lang}
           />
           {rows === null ? (

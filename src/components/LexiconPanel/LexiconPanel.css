@@ -205,3 +205,33 @@
   color: inherit;
   font-weight: 700;
 }
+
+/* renderings on the word page: each one filters the verses below */
+.lexicon-chip {
+  display: inline;
+  padding: 0 2px;
+  margin: 0;
+  border: 0;
+  border-radius: 4px;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-decoration: underline dotted;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+.lexicon-chip:hover {
+  background: var(--hit);
+}
+.lexicon-chip.on {
+  background: var(--fg);
+  color: var(--bg);
+  text-decoration: none;
+}
+.lexicon-filter {
+  margin: 0 0 8px;
+  font: 13px/1.4 ui-sans-serif, system-ui, sans-serif;
+}
+.lexicon-filter .lexicon-expand {
+  margin: 0 0 0 6px;
+}
