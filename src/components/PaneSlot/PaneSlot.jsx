@@ -113,7 +113,7 @@ export default function PaneSlot({
         )}
       </header>
       <div
-        className="pane-body"
+        className={opt.kind === "notes" ? "pane-body notes-body" : "pane-body"}
         ref={scroller}
         onClick={() => onClearHighlight?.()}
       >

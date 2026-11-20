@@ -131,6 +131,13 @@
   overflow-y: auto;
   overscroll-behavior: contain;
   padding: 10px 16px 40vh;
+  /* #root centers text (index.css); reading text lines up on the left so the
+     verse numbers start each verse in one straight column. */
+  text-align: left;
+}
+/* The study notes keep their centered layout (verse range and text). */
+.pane-body.notes-body {
+  text-align: center;
 }
 
 /* Reading settings (SettingsModal): --reading-scale / --reading-font are set on .app */

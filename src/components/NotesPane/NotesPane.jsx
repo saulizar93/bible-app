@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { byId } from "../../js/books.js";
 import { loadNotes, keyCovers, keyStart, optionFor, packVersion } from "../../js/data.js";
 import "./NotesPane.css";
+import { scrollToVerse } from "../../js/scrollToVerse.js";
 
 export default function NotesPane({ lang, refPos, highlight, scroller }) {
   const bookNum = byId[refPos.book].n;
@@ -31,10 +32,9 @@ export default function NotesPane({ lang, refPos, highlight, scroller }) {
   useEffect(() => {
     if (!notes || !highlight) return;
     const key = Object.keys(notes).find((k) => keyCovers(k, highlight));
-    if (key)
-      scroller.current
-        ?.querySelector(`[data-v="${keyStart(key)}"]`)
-        ?.scrollIntoView({ block: "start", behavior: "smooth" });
+    if (!key) return;
+    const box = scroller.current;
+    return scrollToVerse(box, box?.querySelector(`[data-v="${keyStart(key)}"]`));
   }, [notes, highlight, scroller]);
 
   const es = lang === "es";

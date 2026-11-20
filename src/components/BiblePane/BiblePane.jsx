@@ -3,6 +3,7 @@ import { byId } from "../../js/books.js";
 import { loadBook, optionFor, noteLabelFor } from "../../js/data.js";
 import { normalizeStrong } from "../../js/strongsCode.js";
 import "./BiblePane.css";
+import { scrollToVerse } from "../../js/scrollToVerse.js";
 
 export default function BiblePane({
   code,
@@ -55,9 +56,8 @@ export default function BiblePane({
 
   useEffect(() => {
     if (!verses || !highlight) return;
-    scroller.current
-      ?.querySelector(`[data-v="${highlight}"]`)
-      ?.scrollIntoView({ block: "start", behavior: "smooth" });
+    const box = scroller.current;
+    return scrollToVerse(box, box?.querySelector(`[data-v="${highlight}"]`));
   }, [verses, highlight, scroller]);
 
   if (error)

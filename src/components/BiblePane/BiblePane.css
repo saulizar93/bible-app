@@ -1,10 +1,13 @@
 .vnum {
   display: inline-block;
+  /* in the verse's left column (see .verse) */
+  position: absolute;
+  left: 0;
+  top: 0.35em;
   font:
     600 max(8px, calc(12px * var(--verse-num-scale, 1))) / 1 ui-sans-serif,
     system-ui;
   color: var(--dim);
-  vertical-align: 0.35em;
   margin-right: 5px;
   padding: 2px 4px;
   border-radius: 4px;
@@ -32,6 +35,11 @@
 
 .verse {
   margin: 0 0 0.55em;
+  /* Hanging indent: the verse number sits in its own left column and every
+     line of the verse starts to the right of it, so no text runs under it.
+     2.3em of the reading font fits a 3-digit number (Psalm 119:176). */
+  position: relative;
+  padding-left: 2.3em;
   content-visibility: auto;
   contain-intrinsic-size: auto 60px;
 }
