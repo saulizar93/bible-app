@@ -932,3 +932,5 @@
 - 2026-11-19: verses use a hanging indent (.verse padding-left 2.3em, .vnum absolutely positioned in that column) so no wrapped line runs under the verse number.
 - 2026-11-19 follow-up: notes panes (en/es) stay centered (.pane-body.notes-body); Bible panes left-aligned.
 - 2026-11-19: fixed jump-to-verse sometimes stopping short/past: content-visibility:auto verses are estimated at 60px until drawn, so smooth scrollIntoView aimed at a moving target (and scrolled the whole page on iOS). New src/js/scrollToVerse.js scrolls only the pane, then re-checks every 120ms (~2s max) and corrects instantly until the verse stays 8px from the top; cancels on user wheel/touch/key. Used by BiblePane and NotesPane.
+- 2026-11-20: verse ▲/▼ moved out of both pane headers into ChapterNav: two see-through round buttons in a column at the middle of the right edge (side by side: one button in from the → / − + column); still step the highlighted verse in both panes (App stepVerse).
+- 2026-11-20 follow-up: wide screens: verse ▲/▼ now stacked directly under the → chapter arrow on the right edge (− / + above it).
