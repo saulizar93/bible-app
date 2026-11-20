@@ -1,0 +1,140 @@
+/* Hebrew & Greek Lexicon: same frame as the Strong's panel (StrongsPanel.css),
+   a little wider so the results table fits. */
+.lexicon-panel {
+  text-align: left;
+  width: min(94vw, 560px);
+}
+@media (min-width: 900px) {
+  .lexicon-panel {
+    width: 440px;
+    max-width: 440px;
+  }
+}
+.lexicon-title {
+  margin: 0 40px 0.6em 0;
+  font-size: 19px;
+  line-height: 1.3;
+}
+.lexicon-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+.lexicon-input {
+  flex: 1 1 220px;
+  min-width: 0;
+  height: 40px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--bg);
+  color: var(--fg);
+  font: 15px ui-sans-serif, system-ui, sans-serif;
+}
+.lexicon-bible {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font: 13px ui-sans-serif, system-ui, sans-serif;
+  color: var(--dim);
+}
+.lexicon-bible select {
+  height: 36px;
+  padding: 0 8px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--fg);
+  font: 14px ui-sans-serif, system-ui, sans-serif;
+}
+.lexicon-hint {
+  margin: 8px 0 12px;
+  font: 12.5px/1.45 ui-sans-serif, system-ui, sans-serif;
+}
+.lexicon-results {
+  width: 100%;
+  border-collapse: collapse;
+  font: 13.5px/1.35 ui-sans-serif, system-ui, sans-serif;
+}
+.lexicon-results th {
+  text-align: left;
+  font-weight: 600;
+  font-size: 11.5px;
+  color: var(--dim);
+  padding: 4px 6px;
+  border-bottom: 1px solid var(--line);
+}
+.lexicon-results td {
+  padding: 8px 6px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+.lexicon-results tbody tr {
+  cursor: pointer;
+}
+.lexicon-results tbody tr:hover,
+.lexicon-results tbody tr:focus-visible {
+  background: var(--hit);
+  outline: none;
+}
+.lex-orig {
+  font: 17px/1.3 "SBL Greek", "Gentium Plus", "Times New Roman", serif;
+  white-space: nowrap;
+}
+.lex-orig.hebrew {
+  font-family: "SBL Hebrew", "Ezra SIL", "Times New Roman", serif;
+  text-align: right;
+}
+.lex-tr {
+  font-style: italic;
+}
+.lex-code {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.lex-rend {
+  color: var(--dim);
+}
+.lexicon-more {
+  font-size: 12.5px;
+}
+
+/* word page */
+.lexicon-back {
+  margin: 0 0 10px;
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: none;
+  color: var(--fg);
+  font: 14px ui-sans-serif, system-ui, sans-serif;
+  cursor: pointer;
+}
+.lexicon-back:hover {
+  background: var(--hit);
+}
+.lexicon-orig {
+  margin: 4px 0 0;
+  font: 34px/1.25 "SBL Greek", "Gentium Plus", "Times New Roman", serif;
+}
+.lexicon-orig.hebrew {
+  font-family: "SBL Hebrew", "Ezra SIL", "Times New Roman", serif;
+}
+.lexicon-tr {
+  margin: 2px 0 0;
+  font-size: 18px;
+  font-style: italic;
+}
+.lexicon-code {
+  margin: 2px 0 12px;
+  font: 13px ui-sans-serif, system-ui, sans-serif;
+}
+.lexicon-rend {
+  margin: 0 0 8px;
+}
+.lex-hit {
+  background: none;
+  color: inherit;
+  font-weight: 700;
+}

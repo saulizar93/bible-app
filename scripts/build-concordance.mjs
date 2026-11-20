@@ -18,6 +18,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { normalizeStrong } from '../src/js/strongsCode.js';
+import { buildRenderings } from './build-lexicon-search.mjs';
 
 const SHARD_SIZE = 500;
 const shardStart = n => Math.floor((n - 1) / SHARD_SIZE) * SHARD_SIZE + 1;
@@ -77,3 +78,7 @@ for (const [lang, prefix] of [['greek', 'G'], ['hebrew', 'H']]) {
 }
 
 console.log(`${index.size} Strong's numbers, ${files} shard files -> ${outRoot}/{greek,hebrew}`);
+
+// How this Bible renders each number, for the Hebrew & Greek Lexicon search.
+buildRenderings(bibleDir, outRoot);
+console.log(`renderings -> ${outRoot}/{greek,hebrew}/renderings.json`);

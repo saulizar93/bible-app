@@ -322,6 +322,10 @@ export const SRC = {
   notes: (lang, n, ch) => entry("notes", `${lang}/${n}/${ch}`),
   strongs: (lang, shard) => entry("strongs", `${lang}/${shard}`),
   concord: (dir, shard) => entry("concord", `${dir}/${shard}`),
+  // Lexicon search (scripts/build-lexicon-search.mjs): every entry's number, word
+  // and transliteration; and per tagged Bible, how it renders each number.
+  strongsIndex: () => entry("strongs", "index"),
+  renderings: (dir, lang) => entry("concord", `${dir}${lang}/renderings`),
 };
 
 /** Delete stored copies of files that have a newer version stored, and of files
@@ -417,6 +421,19 @@ export async function loadConcordance(rawCode, source) {
   const dir = `${optionFor(source)?.concord ?? optionFor(strongsSourceCode())?.concord ?? ""}${lang}`;
   const data = await cachedFetch(...SRC.concord(dir, shard));
   return (data && data[code]) || [];
+}
+
+/** [["G1577","ἐκκλησία","ekklēsía"], ...] — every lexicon entry, for the lexicon search. */
+export async function loadLexiconIndex() {
+  return (await cachedFetch(...SRC.strongsIndex())) || [];
+}
+
+/** How a tagged Bible renders each Strong's number of one language:
+ *  { "G1577": [["church",79],["churches",36],["assembly",3]], ... }.
+ *  `lang` = "greek" | "hebrew"; `source` = the Bible (its concordance folder). */
+export async function loadRenderings(lang, source) {
+  const dir = optionFor(source)?.concord ?? optionFor(strongsSourceCode())?.concord ?? "";
+  return (await cachedFetch(...SRC.renderings(dir, lang))) || {};
 }
 
 /** Wipe everything this app has stored on the device — the IndexedDB cache of

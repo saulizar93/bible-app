@@ -8,6 +8,7 @@ import StrongsPanel from "./components/StrongsPanel/StrongsPanel.jsx";
 import SelectionBar from "./components/SelectionBar/SelectionBar.jsx";
 import SplitPanes from "./components/SplitPanes/SplitPanes.jsx";
 import ChapterNav from "./components/ChapterNav/ChapterNav.jsx";
+import LexiconPanel from "./components/LexiconPanel/LexiconPanel.jsx";
 import LanguageSelectionModal from "./components/Modals/LanguageSelectionModal.jsx";
 import SettingsModal from "./components/SettingsModal/SettingsModal.jsx";
 import InfoPanel from "./components/InfoPanel/InfoPanel.jsx";
@@ -94,6 +95,7 @@ export default function App() {
   const [settings, setSettings] = useState(loadSettings); // reading text size + font
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [infoPage, setInfoPage] = useState(null); // id from pages.js, or null
+  const [lexiconOpen, setLexiconOpen] = useState(false); // Hebrew & Greek Lexicon panel
   const [bottomHidden, setBottomHidden] = useState(() => {
     try {
       return localStorage.getItem(STORAGE_KEYS.HIDE_BOTTOM) === "1";
@@ -437,7 +439,13 @@ export default function App() {
         onOpenSettings={() => setSettingsOpen(true)}
         onOpenPage={(id) => {
           setSelection(null); // one side panel at a time
+          setLexiconOpen(false);
           setInfoPage(id);
+        }}
+        onOpenLexicon={() => {
+          setSelection(null); // one side panel at a time
+          setInfoPage(null);
+          setLexiconOpen(true);
         }}
       />
 
@@ -457,6 +465,7 @@ export default function App() {
           onOpenDownload={() => {
             setSettingsOpen(false);
             setSelection(null); // one side panel at a time
+            setLexiconOpen(false);
             setInfoPage("offline");
           }}
         />
@@ -486,6 +495,7 @@ export default function App() {
             strongsOn={strongsOn}
             onWordClick={(code, word, tok) => {
               setInfoPage(null); // one side panel at a time
+              setLexiconOpen(false);
               setSelection({
                 code,
                 word,
@@ -515,6 +525,7 @@ export default function App() {
             strongsOn={strongsOn}
             onWordClick={(code, word, tok) => {
               setInfoPage(null); // one side panel at a time
+              setLexiconOpen(false);
               setSelection({
                 code,
                 word,
@@ -543,6 +554,21 @@ export default function App() {
             context={`${byId[refPos.book].en} ${refPos.chapter}${refPos.verse ? `:${refPos.verse}` : ""} · ${optionFor(top)?.label || top} / ${optionFor(bottom)?.label || bottom}`}
             onClose={() => setInfoPage(null)}
           />
+        )}
+
+        {lexiconOpen && (
+          <>
+            <div className="strongs-backdrop" onClick={() => setLexiconOpen(false)} />
+            <LexiconPanel
+              lang={lang || "en"}
+              onClose={() => setLexiconOpen(false)}
+              onJump={(ref) => {
+                go(ref);
+                // On phones the lexicon covers the Bible: close it to show the verse.
+                if (window.matchMedia?.("(max-width: 899px)").matches) setLexiconOpen(false);
+              }}
+            />
+          </>
         )}
 
         {selection && (

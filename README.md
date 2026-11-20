@@ -125,7 +125,16 @@ Each chapter has the plain text of every verse (`v`) and, in tagged Bibles, the 
    node scripts/build-concordance.mjs public/data/bibles/straubinger-strong public/data/concord/straubinger-strong
    ```
 
-   Text-only edits (spelling, punctuation) don't need it.
+   This also rebuilds that Bible's `renderings.json` (how it translates each number), used by the
+   Hebrew & Greek Lexicon. After text-only edits (spelling, a changed word) the concordance is fine,
+   but refresh the renderings so the lexicon shows the new wording:
+
+   ```bash
+   node scripts/build-lexicon-search.mjs rvo-strong   # one Bible; with no name: all of them + the lexicon index
+   ```
+
+   Run `node scripts/build-lexicon-search.mjs` with no name after editing the lexicon's Greek/Hebrew
+   words or transliterations (it rewrites `public/data/strongs/index.json`).
 
 2. Run `npm run dev` or `npm run build` once so `public/data/manifest.json` is updated, and commit it with your change (section 6).
 3. Add a line to `docs/AI-LOG.md` saying what you changed and why.

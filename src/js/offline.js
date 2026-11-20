@@ -115,6 +115,8 @@ function packFiles(opt) {
       files.push(SRC.strongs("greek", s), SRC.concord(`${c}greek`, s));
     for (const s of shards(HEBREW_SHARDS))
       files.push(SRC.strongs("hebrew", s), SRC.concord(`${c}hebrew`, s));
+    // Hebrew & Greek Lexicon search works offline too.
+    files.push(SRC.strongsIndex(), SRC.renderings(c, "greek"), SRC.renderings(c, "hebrew"));
   }
   return files;
 }

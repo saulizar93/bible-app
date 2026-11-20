@@ -9,7 +9,7 @@ import "./JumpBar.css";
 
 const T = {
   en: {
-    settings: "Reading settings",
+    settings: "Reading settings", lexicon: "Hebrew & Greek Lexicon",
     pickerAria: "Choose Bible book, chapter, and verse", pickerTitle: "Choose Bible reference",
     searchAria: "Search verse reference", searchTitle: "Search reference",
     strongsOT: "Underline Strong's-tagged Hebrew words", strongsNT: "Underline Strong's-tagged Greek words",
@@ -23,7 +23,7 @@ const T = {
     none: (q, src) => `No matches found for “${q}” in ${src || "active panes"}.`,
   },
   es: {
-    settings: "Ajustes de lectura",
+    settings: "Ajustes de lectura", lexicon: "Léxico hebreo y griego",
     pickerAria: "Elegir libro, capítulo y versículo", pickerTitle: "Elegir referencia bíblica",
     searchAria: "Buscar referencia de versículo", searchTitle: "Buscar referencia",
     strongsOT: "Subrayar las palabras hebreas con números Strong", strongsNT: "Subrayar las palabras griegas con números Strong",
@@ -55,6 +55,7 @@ export default function JumpBar({
   lang = "en",
   onOpenSettings,
   onOpenPage,
+  onOpenLexicon,
 }) {
   const t = T[lang] || T.en;
   const [bookPickerOpen, setBookPickerOpen] = useState(false);
@@ -261,6 +262,21 @@ export default function JumpBar({
             >
               <circle cx="11" cy="11" r="8" />
               <line x1="21" y1="21" x2="16.65" y2="16.65" />
+            </svg>
+          </button>
+
+          <button
+            type="button"
+            className="search-trigger lexicon-trigger"
+            onClick={onOpenLexicon}
+            aria-label={t.lexicon}
+            title={t.lexicon}
+          >
+            {/* dictionary: a closed book with a bookmark ribbon */}
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+              <path d="M14 2v7l2.5-1.5L19 9V2" />
             </svg>
           </button>
 
