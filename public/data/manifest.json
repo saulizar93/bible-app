@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01",
+ "updated": "2026-11-12",
  "packs": {
   "bible:bsb": {
    "v": 1,
@@ -46,8 +46,8 @@
    "sig": "b7474686b9d6"
   },
   "bible:rvo-strong": {
-   "v": 3,
-   "sig": "2b745c27cb66"
+   "v": 4,
+   "sig": "bec67ac314db"
   },
   "bible:straubinger-strong": {
    "v": 2,
@@ -78,16 +78,16 @@
    "sig": "cf9e7750f478"
   },
   "concord:rvo-strong": {
-   "v": 1,
-   "sig": "9974329a0db6"
+   "v": 2,
+   "sig": "b9c9cc56169a"
   },
   "concord:straubinger-strong": {
    "v": 2,
    "sig": "94815c0fc110"
   },
   "lexicon": {
-   "v": 1,
-   "sig": "836e64b93398"
+   "v": 2,
+   "sig": "4c55d1c0af13"
   },
   "notes:en": {
    "v": 1,
@@ -859,7 +859,7 @@
   "bibles/rvo-strong/38.json": "80aea5414b",
   "bibles/rvo-strong/39.json": "81afbabf5d",
   "bibles/rvo-strong/4.json": "932332571e",
-  "bibles/rvo-strong/40.json": "1138220c39",
+  "bibles/rvo-strong/40.json": "88e0a70716",
   "bibles/rvo-strong/41.json": "de3167b950",
   "bibles/rvo-strong/42.json": "3533ec2979",
   "bibles/rvo-strong/43.json": "02873c2f21",
@@ -1080,14 +1080,14 @@
   "notes/es/40/8.json": "e15536d77d",
   "notes/es/40/9.json": "8d265bb1c8",
   "strongs/greek/1.json": "765b538cd4",
-  "strongs/greek/1001.json": "3f6ac473e3",
+  "strongs/greek/1001.json": "53bcf7ffb4",
   "strongs/greek/1501.json": "16fc7e9a02",
   "strongs/greek/2001.json": "5c3c1b0e17",
   "strongs/greek/2501.json": "364f810841",
   "strongs/greek/3001.json": "aad4d5c800",
-  "strongs/greek/3501.json": "ebd06e811a",
+  "strongs/greek/3501.json": "d8777a7538",
   "strongs/greek/4001.json": "2fd66da4a1",
-  "strongs/greek/4501.json": "576b2c2fb2",
+  "strongs/greek/4501.json": "088dc3a57f",
   "strongs/greek/5001.json": "7f54ad96b7",
   "strongs/greek/501.json": "5960862132",
   "strongs/greek/5501.json": "e4cc704727",
@@ -1263,18 +1263,18 @@
   "concord/rvg-strong/hebrew/8001.json": "f6a77ece29",
   "concord/rvg-strong/hebrew/83501.json": "a4168e42cb",
   "concord/rvg-strong/hebrew/8501.json": "7e277ff4fb",
-  "concord/rvo-strong/greek/1.json": "411c5c1ae9",
-  "concord/rvo-strong/greek/1001.json": "422bbe21ee",
+  "concord/rvo-strong/greek/1.json": "ddb07bca05",
+  "concord/rvo-strong/greek/1001.json": "b818c1389a",
   "concord/rvo-strong/greek/11501.json": "4f8f7a8113",
-  "concord/rvo-strong/greek/1501.json": "dc37b54607",
-  "concord/rvo-strong/greek/2001.json": "1e31f45d36",
-  "concord/rvo-strong/greek/2501.json": "6a6464971d",
-  "concord/rvo-strong/greek/3001.json": "da00c87537",
-  "concord/rvo-strong/greek/3501.json": "197cf98369",
-  "concord/rvo-strong/greek/4001.json": "c0be64c096",
-  "concord/rvo-strong/greek/4501.json": "e72e97fecf",
-  "concord/rvo-strong/greek/5001.json": "8e846f2c1d",
-  "concord/rvo-strong/greek/501.json": "7d0f076e93",
+  "concord/rvo-strong/greek/1501.json": "b80f7cc9e7",
+  "concord/rvo-strong/greek/2001.json": "0ee5df42e5",
+  "concord/rvo-strong/greek/2501.json": "d873d54756",
+  "concord/rvo-strong/greek/3001.json": "fba9e20740",
+  "concord/rvo-strong/greek/3501.json": "06cfe08995",
+  "concord/rvo-strong/greek/4001.json": "03abc24c30",
+  "concord/rvo-strong/greek/4501.json": "4d0a16dda4",
+  "concord/rvo-strong/greek/5001.json": "1f6a13f767",
+  "concord/rvo-strong/greek/501.json": "2a0490abdf",
   "concord/rvo-strong/greek/5501.json": "559fc7d3a9",
   "concord/rvo-strong/hebrew/1.json": "9b9cb2bf92",
   "concord/rvo-strong/hebrew/1001.json": "c8f3cf1780",

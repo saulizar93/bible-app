@@ -523,6 +523,7 @@ doncella → joven,doncella,joven,,9
 edición manual,y,y,,6
 edición manual,él,él,,6
 edición manual,para,para,,4
+edición manual,potestad,autoridad,,3
 edición manual,jacob:,jacob;,,2
 edición manual,cristo.,mesías.,,2
 edición manual,diciendo:,diciendo:,,2
@@ -545,7 +546,6 @@ edición manual,parecer,mostrar,,2
 edición manual,congojéis,preocupéis,,2
 edición manual,porque,porque,,2
 edición manual,aquel hato,aquella piara|g34,,2
-edición manual,potestad,autoridad,,2
 edición manual,fariseos,fariseos,,2
 edición manual,"de jesucristo,","de jesús|g2424 el mesías,|g5547",,1
 edición manual,isaac:,isaac;,,1
@@ -1039,6 +1039,11 @@ edición manual,rodeaba jesús por,jesús|g2424 recorría|g4013,,1
 edición manual,"viendo las gentes,","al ver|g1492 las|g3588 multitudes,|g3793",,1
 edición manual,derramadas,desamparadas,,1
 edición manual,dice,dijo,,1
+edición manual,que es dicho,llamado,,1
+edición manual,"jacobo, hijo de zebedeo,","jacobo|g2385 el|g3588 hijo|it de|g3588 zebedeo,|g2199",,1
+edición manual,que también le entregó.,el que|g2532 lo|g846 traicionó.|g3860,,1
+edición manual,"a los cuales dio mandamiento,","y les dio instrucciones,|g3853",,1
+edición manual,"el camino de los gentiles no iréis,","camino|g3598 de los gentiles|g1483 no|g3361 vayáis,|g565",,1
 empero → pero,empero,pero,,309
 empero → pero,yo empero,pero yo,,12
 empero → pero,esto empero,pero esto,,11
@@ -4295,6 +4300,7 @@ token sin texto,juntamente.,,el número Strong se perdió en este versículo,1
 token sin texto,ha:,,el número Strong se perdió en este versículo,1
 token sin texto,"había,",,el número Strong se perdió en este versículo,1
 token sin texto,esta,,el número Strong se perdió en este versículo,1
+token sin texto,a los,,el número Strong se perdió en este versículo,1
 vianda → comida,vianda,comida,,16
 vianda → comida,viandas,comidas,,15
 á → a,á,a,,19324

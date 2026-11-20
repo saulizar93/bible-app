@@ -294,11 +294,11 @@
       "Rogad, pues, al Señor de la mies, que envíe obreros a su mies."
     ],
     "10": [
-      "Entonces llamando a sus doce discípulos, les dio potestad contra los espíritus inmundos, para que los echasen fuera, y sanasen toda enfermedad y toda dolencia.",
-      "Y los nombres de los doce apóstoles son estos: el primero, Simón, que es dicho Pedro, y Andrés su hermano; Jacobo, hijo de Zebedeo, y Juan su hermano;",
+      "Entonces llamando a sus doce discípulos, les dio autoridad contra los espíritus inmundos, para que los echasen fuera, y sanasen toda enfermedad y toda dolencia.",
+      "Y los nombres de los doce apóstoles son estos: el primero, Simón, llamado Pedro, y Andrés su hermano; Jacobo el hijo de Zebedeo, y Juan su hermano;",
       "Felipe, y Bartolomé; Tomás, y Mateo el publicano; Jacobo hijo de Alfeo, y Lebeo, por sobrenombre Tadeo;",
-      "Simón el Cananita y Judas Iscariote, que también le entregó.",
-      "A estos doce envió Jesús, a los cuales dio mandamiento, diciendo: Por el camino de los Gentiles no iréis, y en ciudad de Samaritanos no entréis;",
+      "Simón el Cananita y Judas Iscariote, el que lo traicionó.",
+      "A estos doce envió Jesús, y les dio instrucciones, diciendo: Por camino de los gentiles no vayáis, y en ciudad de Samaritanos no entréis;",
       "Pero id antes a las ovejas perdidas de la casa de Israel.",
       "Y yendo, predicad, diciendo: El reino de los cielos se ha acercado.",
       "Sanad enfermos, limpiad leprosos, resucitad muertos, echad fuera demonios: de gracia recibisteis, dad de gracia.",
@@ -27192,7 +27192,7 @@
           "g": "εδωκεν"
         },
         {
-          "t": "potestad",
+          "t": "autoridad",
           "s": "G1849",
           "m": "N-ASF",
           "g": "εξουσιαν"
@@ -27324,7 +27324,7 @@
           "g": "σιμων"
         },
         {
-          "t": "que es dicho",
+          "t": "llamado",
           "s": "G3004",
           "m": "V-PPP-NSM",
           "g": "λεγομενος"
@@ -27358,17 +27358,25 @@
           "g": "αδελφος"
         },
         {
-          "t": "Jacobo,",
+          "t": "Jacobo",
           "s": "G2385",
           "m": "N-NSM",
           "g": "ιακωβος"
+        },
+        {
+          "t": "el",
+          "s": "G3588"
         },
         {
           "t": "hijo",
           "it": 1
         },
         {
-          "t": "de Zebedeo,",
+          "t": "de",
+          "s": "G3588"
+        },
+        {
+          "t": "Zebedeo,",
           "s": "G2199",
           "m": "N-GSM",
           "g": "ζεβεδαιου"
@@ -27504,19 +27512,19 @@
           "g": "ισκαριωτης"
         },
         {
-          "t": "que también",
+          "t": "el que",
           "s": "G2532",
           "m": "CONJ",
           "g": "και"
         },
         {
-          "t": "le",
+          "t": "lo",
           "s": "G846",
           "m": "P-ASM",
           "g": "αυτον"
         },
         {
-          "t": "entregó.",
+          "t": "traicionó.",
           "s": "G3860",
           "m": "V-2AAP-NSM",
           "g": "παραδους"
@@ -27546,13 +27554,7 @@
           "g": "ιησους"
         },
         {
-          "t": "a los",
-          "s": "G846",
-          "m": "P-DPM",
-          "g": "αυτοις"
-        },
-        {
-          "t": "cuales dio mandamiento,",
+          "t": "y les dio instrucciones,",
           "s": "G3853",
           "m": "V-AAP-NSM",
           "g": "παραγγειλας"
@@ -27570,13 +27572,13 @@
           "g": "εις"
         },
         {
-          "t": "el camino",
+          "t": "camino",
           "s": "G3598",
           "m": "N-ASF",
           "g": "οδον"
         },
         {
-          "t": "de los Gentiles",
+          "t": "de los gentiles",
           "s": "G1483"
         },
         {
@@ -27586,7 +27588,7 @@
           "g": "μη"
         },
         {
-          "t": "iréis,",
+          "t": "vayáis,",
           "s": "G565",
           "m": "V-2AAS-2P",
           "g": "απελθητε"
