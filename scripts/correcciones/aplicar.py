@@ -66,8 +66,38 @@ def join(toks):
         s += ('' if i == 0 or t.get('j') else ' ') + t['t']
     return s
 
+def _inline(o):
+    if isinstance(o, dict):
+        if not o:
+            return '{}'
+        return '{ ' + ', '.join(json.dumps(k, ensure_ascii=False) + ': ' + _inline(v) for k, v in o.items()) + ' }'
+    if isinstance(o, list):
+        return '[' + ', '.join(_inline(v) for v in o) + ']'
+    return json.dumps(o, ensure_ascii=False)
+
+def _pretty(o, ind=0, pre=0, suf=0):
+    """Prettier's JSON layout (80 columns): a value stays on one line if it fits."""
+    s = _inline(o)
+    if not isinstance(o, (dict, list)) or not o or ind + pre + len(s) + suf <= 80:
+        return s
+    pad = ' ' * (ind + 2)
+    if isinstance(o, dict):
+        items = list(o.items())
+        lines = []
+        for i, (k, v) in enumerate(items):
+            kk = json.dumps(k, ensure_ascii=False) + ': '
+            c = ',' if i < len(items) - 1 else ''
+            lines.append(pad + kk + _pretty(v, ind + 2, len(kk), len(c)) + c)
+        return '{\n' + '\n'.join(lines) + '\n' + ' ' * ind + '}'
+    lines = [pad + _pretty(v, ind + 2, 0, 1 if i < len(o) - 1 else 0) + (',' if i < len(o) - 1 else '')
+             for i, v in enumerate(o)]
+    return '[\n' + '\n'.join(lines) + '\n' + ' ' * ind + ']'
+
 def dump_like(obj, raw):
-    if raw.startswith('{"'):
+    if '\n        { "t": ' in raw:
+        # formatted by Prettier (kjv-strong): keep that layout so the file stays small
+        s = _pretty(obj)
+    elif raw.startswith('{"'):
         s = json.dumps(obj, ensure_ascii=False, separators=(',', ':'))
     elif raw.startswith('{\n\t'):
         s = json.dumps(obj, ensure_ascii=False, indent='\t')

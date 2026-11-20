@@ -3,7 +3,1717 @@
   "_help": "Strong's tag fixes and notes for kjv-strong, bsb-strong, msb-strong and lsv-strong (same rules as the Spanish ones). Format: \"bible\": { \"tags\": { \"Book c:v\": { \"words as they read\": \"word|G#### word|G####\" } }, \"notes\": { \"Book c:v\": { \"word(s)\": \"note\" } } }. Only tags change, never the text: the words on the right must be the same as on the left. Unmarked words join the next marked word; words at the end join the last one. \"|-\" = no Strong's number. In notes, \"*\" = end of the verse. LSV uses the KJV's word search, so LSV tag fixes don't change any word search. Then run: python3 scripts/correcciones/aplicar.py",
   "kjv-strong": {
     "tags": {},
-    "notes": {}
+    "notes": {
+      "Matthew 1:1": {
+        "generation": "generation: family history, record of ancestry."
+      },
+      "Matthew 1:2": {
+        "brethren;": "brethren: brothers (also: fellow believers)."
+      },
+      "Matthew 1:11": {
+        "brethren,": "brethren: brothers (also: fellow believers)."
+      },
+      "Matthew 1:18": {
+        "espoused": "espoused: engaged, betrothed (legally pledged in marriage).",
+        "Ghost.": "ghost: spirit (\"Holy Ghost\" = Holy Spirit; \"gave/yielded up the ghost\" = died)."
+      },
+      "Matthew 1:19": {
+        "minded": "minded: intended, planned.",
+        "away": "away: \"put away\" = divorce.",
+        "privily.": "privily: secretly, privately."
+      },
+      "Matthew 1:20": {
+        "behold,": "behold: look! see!.",
+        "Ghost.": "ghost: spirit (\"Holy Ghost\" = Holy Spirit; \"gave/yielded up the ghost\" = died)."
+      },
+      "Matthew 1:23": {
+        "Behold,": "behold: look! see!."
+      },
+      "Matthew 2:1": {
+        "behold,": "behold: look! see!."
+      },
+      "Matthew 2:7": {
+        "privily": "privily: secretly, privately."
+      },
+      "Matthew 2:9": {
+        "lo,": "lo: look! see!."
+      },
+      "Matthew 2:10": {
+        "exceeding": "exceeding: extremely, very great."
+      },
+      "Matthew 2:13": {
+        "behold,": "behold: look! see!."
+      },
+      "Matthew 2:16": {
+        "exceeding": "exceeding: extremely, very great.",
+        "slew": "slew: killed.",
+        "coasts": "coasts: borders, region, territory (not necessarily by the sea).",
+        "thereof,": "thereof: of it."
+      },
+      "Matthew 2:19": {
+        "behold,": "behold: look! see!."
+      },
+      "Matthew 2:22": {
+        "room": "room: \"in the room of\" = in place of.",
+        "thither:": "thither: there, to that place."
+      },
+      "Matthew 3:4": {
+        "raiment": "raiment: clothing.",
+        "leathern": "leathern: made of leather.",
+        "girdle": "girdle: belt (of leather or cloth).",
+        "meat": "meat: food of any kind (\"sat at meat\" = reclined at a meal)."
+      },
+      "Matthew 3:7": {
+        "generation": "generation: brood, offspring."
+      },
+      "Matthew 3:8": {
+        "meet": "meet: fitting, proper."
+      },
+      "Matthew 3:10": {
+        "hewn": "hewn: cut (down, or out of rock)."
+      },
+      "Matthew 3:11": {
+        "Ghost,": "ghost: spirit (\"Holy Ghost\" = Holy Spirit; \"gave/yielded up the ghost\" = died)."
+      },
+      "Matthew 3:12": {
+        "fan": "fan: winnowing fork, for tossing grain so the wind blows the chaff away.",
+        "throughly": "throughly: thoroughly, completely.",
+        "garner;": "garner: granary, barn."
+      },
+      "Matthew 3:14": {
+        "forbad": "forbad: forbade, hindered."
+      },
+      "Matthew 3:15": {
+        "Suffer": "suffer: allow, permit.",
+        "suffered": "suffered: allowed."
+      },
+      "Matthew 3:16": {
+        "straightway": "straightway: immediately.",
+        "lo,": "lo: look! see!."
+      },
+      "Matthew 3:17": {
+        "lo": "lo: look! see!."
+      },
+      "Matthew 4:2": {
+        "hungred.": "hungred: hungry (\"an hungred\" = hungry)."
+      },
+      "Matthew 4:6": {
+        "lest": "lest: so that … not; for fear that."
+      },
+      "Matthew 4:8": {
+        "exceeding": "exceeding: extremely, very great.",
+        "sheweth": "sheweth: shows."
+      },
+      "Matthew 4:10": {
+        "hence,": "hence: from here."
+      },
+      "Matthew 4:11": {
+        "behold,": "behold: look! see!."
+      },
+      "Matthew 4:18": {
+        "brethren,": "brethren: brothers (also: fellow believers)."
+      },
+      "Matthew 4:20": {
+        "straightway": "straightway: immediately."
+      },
+      "Matthew 4:21": {
+        "thence,": "thence: from there.",
+        "brethren,": "brethren: brothers (also: fellow believers).",
+        "ship": "ship: boat."
+      },
+      "Matthew 4:22": {
+        "ship": "ship: boat."
+      },
+      "Matthew 4:24": {
+        "fame": "fame: report, news (about him).",
+        "divers": "divers: various, of different kinds.",
+        "devils,": "devils: demons, evil spirits (Greek daimonia), not \"the devil\" (diabolos).",
+        "lunatick,": "lunatick: epileptic (Greek selēniazomai, \"moon-struck\").",
+        "palsy;": "palsy: paralysis (\"sick of the palsy\" = paralyzed)."
+      },
+      "Matthew 5:12": {
+        "exceeding": "exceeding: extremely, very great."
+      },
+      "Matthew 5:13": {
+        "savour,": "savour: flavour, taste.",
+        "wherewith": "wherewith: with what.",
+        "thenceforth": "thenceforth: from that time on."
+      },
+      "Matthew 5:15": {
+        "candle,": "candle: oil lamp.",
+        "bushel,": "bushel: a basket or bowl for measuring grain.",
+        "candlestick;": "candlestick: lampstand."
+      },
+      "Matthew 5:18": {
+        "verily": "verily: truly (Greek amēn).",
+        "jot": "jot: yod, the smallest letter of the Hebrew alphabet.",
+        "tittle": "tittle: a tiny stroke that tells one Hebrew letter from another."
+      },
+      "Matthew 5:22": {
+        "Raca,": "raca: Aramaic insult: \"empty-head\", \"good-for-nothing\".",
+        "council:": "council: the Sanhedrin, the Jewish high court."
+      },
+      "Matthew 5:23": {
+        "ought": "ought: anything (= aught)."
+      },
+      "Matthew 5:25": {
+        "whiles": "whiles: while.",
+        "lest": "lest: so that … not; for fear that."
+      },
+      "Matthew 5:26": {
+        "Verily": "verily: truly (Greek amēn).",
+        "thence,": "thence: from there.",
+        "uttermost": "uttermost: very last.",
+        "farthing.": "farthing: the smallest copper coin."
+      },
+      "Matthew 5:29": {
+        "offend": "offend: cause to stumble, cause to sin (Greek skandalizō)."
+      },
+      "Matthew 5:30": {
+        "offend": "offend: cause to stumble, cause to sin (Greek skandalizō)."
+      },
+      "Matthew 5:31": {
+        "away": "away: \"put away\" = divorce.",
+        "divorcement:": "divorcement: divorce."
+      },
+      "Matthew 5:32": {
+        "away": "away: \"put away\" = divorce."
+      },
+      "Matthew 5:33": {
+        "forswear": "forswear: swear falsely, break an oath."
+      },
+      "Matthew 5:37": {
+        "communication": "communication: speech, what you say.",
+        "Yea,": "yea: yes; indeed.",
+        "Nay,": "nay: no."
+      },
+      "Matthew 5:39": {
+        "smite": "smite: strike."
+      },
+      "Matthew 5:40": {
+        "sue": "sue: take to court.",
+        "cloke": "cloke: cloak, outer robe."
+      },
+      "Matthew 5:41": {
+        "twain.": "twain: two."
+      },
+      "Matthew 5:44": {
+        "despitefully": "despitefully: with malice, spitefully."
+      },
+      "Matthew 5:46": {
+        "publicans": "publicans: tax collectors (for Rome)."
+      },
+      "Matthew 5:47": {
+        "salute": "salute: greet.",
+        "brethren": "brethren: brothers (also: fellow believers).",
+        "publicans": "publicans: tax collectors (for Rome)."
+      },
+      "Matthew 6:1": {
+        "heed": "heed: attention (\"take heed\" = be careful, watch out).",
+        "alms": "alms: gifts to the poor, charity."
+      },
+      "Matthew 6:2": {
+        "alms,": "alms: gifts to the poor, charity.",
+        "Verily": "verily: truly (Greek amēn)."
+      },
+      "Matthew 6:3": {
+        "alms,": "alms: gifts to the poor, charity."
+      },
+      "Matthew 6:4": {
+        "alms": "alms: gifts to the poor, charity."
+      },
+      "Matthew 6:5": {
+        "Verily": "verily: truly (Greek amēn)."
+      },
+      "Matthew 6:6": {
+        "closet,": "closet: inner, private room."
+      },
+      "Matthew 6:7": {
+        "heathen": "heathen: Gentiles, pagans (non-Jews)."
+      },
+      "Matthew 6:9": {
+        "Hallowed": "hallowed: held holy, honoured as holy."
+      },
+      "Matthew 6:16": {
+        "countenance:": "countenance: face, expression.",
+        "Verily": "verily: truly (Greek amēn)."
+      },
+      "Matthew 6:19": {
+        "corrupt,": "corrupt: destroy, consume."
+      },
+      "Matthew 6:20": {
+        "corrupt,": "corrupt: destroy, consume."
+      },
+      "Matthew 6:22": {
+        "single,": "single: healthy, clear (an eye that sees well); undivided."
+      },
+      "Matthew 6:24": {
+        "mammon.": "mammon: wealth, riches (Aramaic)."
+      },
+      "Matthew 6:25": {
+        "thought": "thought: \"take no thought\" = do not be anxious, do not worry.",
+        "meat,": "meat: food of any kind (\"sat at meat\" = reclined at a meal).",
+        "raiment?": "raiment: clothing."
+      },
+      "Matthew 6:26": {
+        "Behold": "behold: look! see!.",
+        "fowls": "fowls: birds."
+      },
+      "Matthew 6:27": {
+        "thought": "thought: anxious thought, worry.",
+        "cubit": "cubit: about 18 inches (45 cm), the length of a forearm."
+      },
+      "Matthew 6:28": {
+        "thought": "thought: \"take thought\" = be anxious, worry.",
+        "raiment?": "raiment: clothing."
+      },
+      "Matthew 6:29": {
+        "arrayed": "arrayed: clothed, dressed."
+      },
+      "Matthew 6:30": {
+        "Wherefore,": "wherefore: why.",
+        "morrow": "morrow: the next day, tomorrow."
+      },
+      "Matthew 6:31": {
+        "thought,": "thought: \"take no thought\" = do not be anxious, do not worry.",
+        "Wherewithal": "wherewithal: with what."
+      },
+      "Matthew 6:34": {
+        "thought": "thought: \"take no thought\" = do not be anxious, do not worry.",
+        "morrow:": "morrow: the next day, tomorrow.",
+        "thereof.": "thereof: of it."
+      },
+      "Matthew 7:2": {
+        "mete,": "mete: measure out."
+      },
+      "Matthew 7:3": {
+        "mote": "mote: speck, tiny splinter.",
+        "beam": "beam: plank, log."
+      },
+      "Matthew 7:4": {
+        "mote": "mote: speck, tiny splinter.",
+        "behold,": "behold: look! see!.",
+        "beam": "beam: plank, log."
+      },
+      "Matthew 7:5": {
+        "beam": "beam: plank, log.",
+        "mote": "mote: speck, tiny splinter."
+      },
+      "Matthew 7:6": {
+        "swine,": "swine: pigs.",
+        "lest": "lest: so that … not; for fear that.",
+        "rend": "rend: tear."
+      },
+      "Matthew 7:13": {
+        "strait": "strait: narrow.",
+        "thereat:": "thereat: by it, through it."
+      },
+      "Matthew 7:14": {
+        "strait": "strait: narrow."
+      },
+      "Matthew 7:15": {
+        "ravening": "ravening: ravenous, greedy for prey."
+      },
+      "Matthew 7:17": {
+        "corrupt": "corrupt: rotten, bad."
+      },
+      "Matthew 7:18": {
+        "corrupt": "corrupt: rotten, bad."
+      },
+      "Matthew 7:19": {
+        "hewn": "hewn: cut (down, or out of rock)."
+      },
+      "Matthew 7:20": {
+        "Wherefore": "wherefore: therefore, for this reason."
+      },
+      "Matthew 7:22": {
+        "devils?": "devils: demons, evil spirits (Greek daimonia), not \"the devil\" (diabolos)."
+      },
+      "Matthew 7:24": {
+        "liken": "liken: compare."
+      },
+      "Matthew 7:26": {
+        "likened": "likened: compared."
+      },
+      "Matthew 8:2": {
+        "behold,": "behold: look! see!."
+      },
+      "Matthew 8:4": {
+        "shew": "shew: show."
+      },
+      "Matthew 8:5": {
+        "beseeching": "beseeching: begging, pleading with."
+      },
+      "Matthew 8:6": {
+        "palsy,": "palsy: paralysis (\"sick of the palsy\" = paralyzed).",
+        "grievously": "grievously: severely, terribly."
+      },
+      "Matthew 8:10": {
+        "marvelled,": "marvelled: were amazed.",
+        "Verily": "verily: truly (Greek amēn)."
+      },
+      "Matthew 8:13": {
+        "selfsame": "selfsame: very same."
+      },
+      "Matthew 8:16": {
+        "devils:": "devils: demons, evil spirits (Greek daimonia), not \"the devil\" (diabolos)."
+      },
+      "Matthew 8:17": {
+        "bare": "bare: carried, bore."
+      },
+      "Matthew 8:19": {
+        "whithersoever": "whithersoever: wherever."
+      },
+      "Matthew 8:21": {
+        "suffer": "suffer: allow, permit."
+      },
+      "Matthew 8:23": {
+        "ship,": "ship: boat."
+      },
+      "Matthew 8:24": {
+        "behold,": "behold: look! see!.",
+        "insomuch": "insomuch: so much so (that).",
+        "ship": "ship: boat."
+      },
+      "Matthew 8:27": {
+        "marvelled,": "marvelled: were amazed."
+      },
+      "Matthew 8:28": {
+        "devils,": "devils: demons, evil spirits (Greek daimonia), not \"the devil\" (diabolos).",
+        "exceeding": "exceeding: extremely, very great."
+      },
+      "Matthew 8:29": {
+        "behold,": "behold: look! see!.",
+        "hither": "hither: here, to this place."
+      },
+      "Matthew 8:30": {
+        "swine": "swine: pigs."
+      },
+      "Matthew 8:31": {
+        "devils": "devils: demons, evil spirits (Greek daimonia), not \"the devil\" (diabolos).",
+        "besought": "besought: begged, pleaded with.",
+        "suffer": "suffer: allow, permit.",
+        "swine.": "swine: pigs."
+      },
+      "Matthew 8:32": {
+        "swine:": "swine: pigs.",
+        "behold,": "behold: look! see!."
+      },
+      "Matthew 8:33": {
+        "befallen": "befallen: happened (to).",
+        "devils.": "devils: demons, evil spirits (Greek daimonia), not \"the devil\" (diabolos)."
+      },
+      "Matthew 8:34": {
+        "behold,": "behold: look! see!.",
+        "besought": "besought: begged, pleaded with.",
+        "coasts.": "coasts: borders, region, territory (not necessarily by the sea)."
+      },
+      "Matthew 9:1": {
+        "ship,": "ship: boat."
+      },
+      "Matthew 9:2": {
+        "behold,": "behold: look! see!.",
+        "palsy,": "palsy: paralysis (\"sick of the palsy\" = paralyzed).",
+        "cheer;": "cheer: courage (\"be of good cheer\" = take courage)."
+      },
+      "Matthew 9:3": {
+        "behold,": "behold: look! see!."
+      },
+      "Matthew 9:4": {
+        "Wherefore": "wherefore: why."
+      },
+      "Matthew 9:6": {
+        "palsy,)": "palsy: paralysis (\"sick of the palsy\" = paralyzed)."
+      },
+      "Matthew 9:8": {
+        "marvelled,": "marvelled: were amazed."
+      },
+      "Matthew 9:9": {
+        "thence,": "thence: from there.",
+        "receipt": "receipt: place of receiving (\"receipt of custom\" = tax booth). custom: toll, tax."
+      },
+      "Matthew 9:10": {
+        "meat": "meat: food of any kind (\"sat at meat\" = reclined at a meal).",
+        "behold,": "behold: look! see!.",
+        "publicans": "publicans: tax collectors (for Rome)."
+      },
+      "Matthew 9:11": {
+        "publicans": "publicans: tax collectors (for Rome)."
+      },
+      "Matthew 9:16": {
+        "rent": "rent: tore, torn."
+      },
+      "Matthew 9:17": {
+        "bottles:": "bottles: wineskins (leather bags)."
+      },
+      "Matthew 9:18": {
+        "spake": "spake: spoke.",
+        "behold,": "behold: look! see!."
+      },
+      "Matthew 9:20": {
+        "behold,": "behold: look! see!.",
+        "issue": "issue: flow; \"issue of blood\" = bleeding, hemorrhage.",
+        "hem": "hem: edge, fringe (the tassel of the garment)."
+      },
+      "Matthew 9:23": {
+        "minstrels": "minstrels: musicians (here, flute players hired for mourning)."
+      },
+      "Matthew 9:26": {
+        "fame": "fame: report, news (about him).",
+        "hereof": "hereof: of this."
+      },
+      "Matthew 9:27": {
+        "thence,": "thence: from there."
+      },
+      "Matthew 9:28": {
+        "Yea,": "yea: yes; indeed."
+      },
+      "Matthew 9:30": {
+        "straitly": "straitly: strictly, sternly."
+      },
+      "Matthew 9:31": {
+        "fame": "fame: report, news (about him)."
+      },
+      "Matthew 9:32": {
+        "behold,": "behold: look! see!.",
+        "dumb": "dumb: unable to speak, mute.",
+        "devil.": "devil: demon, evil spirit (Greek daimonion)."
+      },
+      "Matthew 9:33": {
+        "devil": "devil: demon, evil spirit (Greek daimonion).",
+        "dumb": "dumb: unable to speak, mute.",
+        "spake:": "spake: spoke.",
+        "marvelled,": "marvelled: were amazed."
+      },
+      "Matthew 9:34": {
+        "devils": "devils: demons, evil spirits (Greek daimonia), not \"the devil\" (diabolos)."
+      },
+      "Matthew 9:37": {
+        "plenteous,": "plenteous: plentiful."
+      },
+      "Matthew 10:3": {
+        "publican;": "publican: tax collector (for Rome)."
+      },
+      "Matthew 10:4": {
+        "Canaanite,": "canaanite: Zealot (from Aramaic qanʼan, \"zealous\"), not a native of Canaan."
+      },
+      "Matthew 10:8": {
+        "devils:": "devils: demons, evil spirits (Greek daimonia), not \"the devil\" (diabolos)."
+      },
+      "Matthew 10:10": {
+        "scrip": "scrip: traveller's bag.",
+        "staves:": "staves: staffs, clubs.",
+        "meat.": "meat: food of any kind (\"sat at meat\" = reclined at a meal)."
+      },
+      "Matthew 10:11": {
+        "thence.": "thence: from there."
+      },
+      "Matthew 10:12": {
+        "salute": "salute: greet."
+      },
+      "Matthew 10:15": {
+        "Verily": "verily: truly (Greek amēn)."
+      },
+      "Matthew 10:16": {
+        "Behold,": "behold: look! see!.",
+        "harmless": "harmless: innocent, pure."
+      },
+      "Matthew 10:19": {
+        "thought": "thought: \"take no thought\" = do not be anxious, do not worry."
+      },
+      "Matthew 10:23": {
+        "verily": "verily: truly (Greek amēn)."
+      },
+      "Matthew 10:29": {
+        "farthing?": "farthing: the smallest copper coin."
+      },
+      "Matthew 10:35": {
+        "variance": "variance: conflict (\"set at variance\" = turn against)."
+      },
+      "Matthew 10:42": {
+        "verily": "verily: truly (Greek amēn)."
+      },
+      "Matthew 11:1": {
+        "thence": "thence: from there."
+      },
+      "Matthew 11:4": {
+        "shew": "shew: show."
+      },
+      "Matthew 11:6": {
+        "offended": "offended: caused to stumble; took offence (would not accept him)."
+      },
+      "Matthew 11:8": {
+        "raiment?": "raiment: clothing.",
+        "behold,": "behold: look! see!."
+      },
+      "Matthew 11:9": {
+        "yea,": "yea: yes; indeed."
+      },
+      "Matthew 11:10": {
+        "Behold,": "behold: look! see!."
+      },
+      "Matthew 11:11": {
+        "Verily": "verily: truly (Greek amēn)."
+      },
+      "Matthew 11:16": {
+        "whereunto": "whereunto: to what (\"whereunto shall I liken\" = to what shall I compare).",
+        "liken": "liken: compare.",
+        "fellows,": "fellows: companions, playmates."
+      },
+      "Matthew 11:17": {
+        "piped": "piped: played the flute."
+      },
+      "Matthew 11:18": {
+        "devil.": "devil: demon, evil spirit (Greek daimonion)."
+      },
+      "Matthew 11:19": {
+        "Behold": "behold: look! see!.",
+        "winebibber,": "winebibber: drunkard, heavy drinker of wine.",
+        "publicans": "publicans: tax collectors (for Rome)."
+      },
+      "Matthew 11:20": {
+        "upbraid": "upbraid: reproach, rebuke.",
+        "wherein": "wherein: in which."
+      },
+      "Matthew 11:21": {
+        "sackcloth": "sackcloth: coarse cloth worn in mourning or repentance."
+      },
+      "Matthew 11:28": {
+        "laden,": "laden: loaded, weighed down."
+      },
+      "Matthew 12:1": {
+        "corn;": "corn: grain (wheat or barley), not maize.",
+        "hungred,": "hungred: hungry (\"an hungred\" = hungry).",
+        "ears": "ears: heads (of grain)."
+      },
+      "Matthew 12:2": {
+        "Behold,": "behold: look! see!."
+      },
+      "Matthew 12:3": {
+        "hungred,": "hungred: hungry (\"an hungred\" = hungry)."
+      },
+      "Matthew 12:4": {
+        "shewbread,": "shewbread: showbread: the consecrated bread set before God in the tabernacle and temple."
+      },
+      "Matthew 12:9": {
+        "thence,": "thence: from there."
+      },
+      "Matthew 12:10": {
+        "behold,": "behold: look! see!."
+      },
+      "Matthew 12:12": {
+        "Wherefore": "wherefore: therefore, for this reason."
+      },
+      "Matthew 12:14": {
+        "council": "council: \"held a council\" = plotted together."
+      },
+      "Matthew 12:15": {
+        "thence:": "thence: from there."
+      },
+      "Matthew 12:18": {
+        "Behold": "behold: look! see!.",
+        "shew": "shew: show."
+      },
+      "Matthew 12:20": {
+        "flax": "flax: \"smoking flax\" = a smouldering lamp wick."
+      },
+      "Matthew 12:22": {
+        "devil,": "devil: demon, evil spirit (Greek daimonion).",
+        "dumb:": "dumb: unable to speak, mute.",
+        "insomuch": "insomuch: so much so (that).",
+        "spake": "spake: spoke."
+      },
+      "Matthew 12:24": {
+        "devils,": "devils: demons, evil spirits (Greek daimonia), not \"the devil\" (diabolos)."
+      },
+      "Matthew 12:27": {
+        "devils,": "devils: demons, evil spirits (Greek daimonia), not \"the devil\" (diabolos)."
+      },
+      "Matthew 12:28": {
+        "devils": "devils: demons, evil spirits (Greek daimonia), not \"the devil\" (diabolos)."
+      },
+      "Matthew 12:29": {
+        "spoil": "spoil: plunder."
+      },
+      "Matthew 12:31": {
+        "Wherefore": "wherefore: therefore, for this reason.",
+        "Ghost": "ghost: spirit (\"Holy Ghost\" = Holy Spirit; \"gave/yielded up the ghost\" = died)."
+      },
+      "Matthew 12:32": {
+        "Ghost,": "ghost: spirit (\"Holy Ghost\" = Holy Spirit; \"gave/yielded up the ghost\" = died)."
+      },
+      "Matthew 12:33": {
+        "corrupt,": "corrupt: rotten, bad."
+      },
+      "Matthew 12:34": {
+        "generation": "generation: brood, offspring."
+      },
+      "Matthew 12:36": {
+        "idle": "idle: careless, useless.",
+        "thereof": "thereof: of it."
+      },
+      "Matthew 12:40": {
+        "whale’s": "whale: a great sea creature, a huge fish (Greek kētos)."
+      },
+      "Matthew 12:41": {
+        "behold,": "behold: look! see!."
+      },
+      "Matthew 12:42": {
+        "uttermost": "uttermost: very last.",
+        "behold,": "behold: look! see!."
+      },
+      "Matthew 12:44": {
+        "whence": "whence: from where.",
+        "garnished.": "garnished: decorated, put in order."
+      },
+      "Matthew 12:46": {
+        "behold,": "behold: look! see!.",
+        "brethren": "brethren: brothers (also: fellow believers)."
+      },
+      "Matthew 12:47": {
+        "Behold,": "behold: look! see!.",
+        "brethren": "brethren: brothers (also: fellow believers)."
+      },
+      "Matthew 12:48": {
+        "brethren?": "brethren: brothers (also: fellow believers)."
+      },
+      "Matthew 12:49": {
+        "Behold": "behold: look! see!.",
+        "brethren!": "brethren: brothers (also: fellow believers)."
+      },
+      "Matthew 13:2": {
+        "ship,": "ship: boat."
+      },
+      "Matthew 13:3": {
+        "spake": "spake: spoke.",
+        "Behold,": "behold: look! see!."
+      },
+      "Matthew 13:4": {
+        "fowls": "fowls: birds."
+      },
+      "Matthew 13:5": {
+        "forthwith": "forthwith: immediately.",
+        "deepness": "deepness: depth."
+      },
+      "Matthew 13:15": {
+        "waxed": "waxed: grew, became. gross: dull, insensitive (literally \"thick, fat\").",
+        "lest": "lest: so that … not; for fear that."
+      },
+      "Matthew 13:17": {
+        "verily": "verily: truly (Greek amēn)."
+      },
+      "Matthew 13:20": {
+        "anon": "anon: at once, immediately."
+      },
+      "Matthew 13:21": {
+        "dureth": "dureth: lasts, endures.",
+        "offended.": "offended: caused to stumble; took offence (would not accept him)."
+      },
+      "Matthew 13:24": {
+        "likened": "likened: compared."
+      },
+      "Matthew 13:25": {
+        "tares": "tares: darnel, a weed that looks like wheat while it grows."
+      },
+      "Matthew 13:26": {
+        "tares": "tares: darnel, a weed that looks like wheat while it grows."
+      },
+      "Matthew 13:27": {
+        "whence": "whence: from where.",
+        "tares?": "tares: darnel, a weed that looks like wheat while it grows."
+      },
+      "Matthew 13:29": {
+        "Nay;": "nay: no.",
+        "lest": "lest: so that … not; for fear that.",
+        "tares,": "tares: darnel, a weed that looks like wheat while it grows."
+      },
+      "Matthew 13:30": {
+        "tares,": "tares: darnel, a weed that looks like wheat while it grows."
+      },
+      "Matthew 13:32": {
+        "thereof.": "thereof: of it."
+      },
+      "Matthew 13:33": {
+        "spake": "spake: spoke.",
+        "leaven,": "leaven: yeast.",
+        "meal,": "meal: flour, ground grain."
+      },
+      "Matthew 13:34": {
+        "spake": "spake: spoke."
+      },
+      "Matthew 13:36": {
+        "tares": "tares: darnel, a weed that looks like wheat while it grows."
+      },
+      "Matthew 13:38": {
+        "tares": "tares: darnel, a weed that looks like wheat while it grows."
+      },
+      "Matthew 13:40": {
+        "tares": "tares: darnel, a weed that looks like wheat while it grows."
+      },
+      "Matthew 13:41": {
+        "offend,": "offend: cause to stumble, cause to sin (Greek skandalizō)."
+      },
+      "Matthew 13:44": {
+        "thereof": "thereof: of it."
+      },
+      "Matthew 13:45": {
+        "goodly": "goodly: fine, beautiful, valuable."
+      },
+      "Matthew 13:49": {
+        "sever": "sever: separate."
+      },
+      "Matthew 13:51": {
+        "Yea,": "yea: yes; indeed."
+      },
+      "Matthew 13:53": {
+        "thence.": "thence: from there."
+      },
+      "Matthew 13:54": {
+        "insomuch": "insomuch: so much so (that).",
+        "Whence": "whence: from where."
+      },
+      "Matthew 13:55": {
+        "brethren,": "brethren: brothers (also: fellow believers)."
+      },
+      "Matthew 13:56": {
+        "Whence": "whence: from where."
+      },
+      "Matthew 13:57": {
+        "offended": "offended: caused to stumble; took offence (would not accept him)."
+      },
+      "Matthew 14:1": {
+        "tetrarch": "tetrarch: ruler of part of a province (originally a fourth part).",
+        "fame": "fame: report, news (about him)."
+      },
+      "Matthew 14:2": {
+        "shew": "shew: show."
+      },
+      "Matthew 14:7": {
+        "Whereupon": "whereupon: upon which, after which."
+      },
+      "Matthew 14:8": {
+        "charger.": "charger: large platter."
+      },
+      "Matthew 14:9": {
+        "meat,": "meat: food of any kind (\"sat at meat\" = reclined at a meal)."
+      },
+      "Matthew 14:11": {
+        "charger,": "charger: large platter.",
+        "damsel:": "damsel: girl, young woman; servant girl."
+      },
+      "Matthew 14:13": {
+        "thence": "thence: from there.",
+        "ship": "ship: boat.",
+        "thereof,": "thereof: of it."
+      },
+      "Matthew 14:15": {
+        "victuals.": "victuals: food, provisions."
+      },
+      "Matthew 14:18": {
+        "hither": "hither: here, to this place."
+      },
+      "Matthew 14:19": {
+        "brake,": "brake: broke."
+      },
+      "Matthew 14:22": {
+        "straightway": "straightway: immediately.",
+        "constrained": "constrained: made, compelled.",
+        "ship,": "ship: boat."
+      },
+      "Matthew 14:24": {
+        "ship": "ship: boat."
+      },
+      "Matthew 14:25": {
+        "watch": "watch: a division of the night; the fourth watch = about 3 to 6 a.m.."
+      },
+      "Matthew 14:27": {
+        "straightway": "straightway: immediately.",
+        "spake": "spake: spoke.",
+        "cheer;": "cheer: courage (\"be of good cheer\" = take courage)."
+      },
+      "Matthew 14:29": {
+        "ship,": "ship: boat."
+      },
+      "Matthew 14:31": {
+        "wherefore": "wherefore: why."
+      },
+      "Matthew 14:32": {
+        "ship,": "ship: boat."
+      },
+      "Matthew 14:33": {
+        "ship": "ship: boat."
+      },
+      "Matthew 14:36": {
+        "besought": "besought: begged, pleaded with.",
+        "hem": "hem: edge, fringe (the tassel of the garment)."
+      },
+      "Matthew 15:8": {
+        "nigh": "nigh: near."
+      },
+      "Matthew 15:12": {
+        "offended,": "offended: caused to stumble; took offence (would not accept him)."
+      },
+      "Matthew 15:17": {
+        "draught?": "draught: latrine, sewer."
+      },
+      "Matthew 15:20": {
+        "unwashen": "unwashen: unwashed."
+      },
+      "Matthew 15:21": {
+        "thence,": "thence: from there.",
+        "coasts": "coasts: borders, region, territory (not necessarily by the sea)."
+      },
+      "Matthew 15:22": {
+        "behold,": "behold: look! see!.",
+        "coasts,": "coasts: borders, region, territory (not necessarily by the sea).",
+        "grievously": "grievously: severely, terribly.",
+        "vexed": "vexed: tormented, afflicted. devil: demon, evil spirit (Greek daimonion)."
+      },
+      "Matthew 15:23": {
+        "besought": "besought: begged, pleaded with."
+      },
+      "Matthew 15:26": {
+        "meet": "meet: fitting, proper."
+      },
+      "Matthew 15:29": {
+        "thence,": "thence: from there.",
+        "nigh": "nigh: near."
+      },
+      "Matthew 15:30": {
+        "dumb,": "dumb: unable to speak, mute."
+      },
+      "Matthew 15:31": {
+        "Insomuch": "insomuch: so much so (that).",
+        "dumb": "dumb: unable to speak, mute."
+      },
+      "Matthew 15:32": {
+        "lest": "lest: so that … not; for fear that."
+      },
+      "Matthew 15:33": {
+        "Whence": "whence: from where."
+      },
+      "Matthew 15:36": {
+        "brake": "brake: broke."
+      },
+      "Matthew 15:37": {
+        "meat": "meat: food of any kind (\"sat at meat\" = reclined at a meal)."
+      },
+      "Matthew 15:39": {
+        "ship,": "ship: boat.",
+        "coasts": "coasts: borders, region, territory (not necessarily by the sea)."
+      },
+      "Matthew 16:1": {
+        "shew": "shew: show."
+      },
+      "Matthew 16:3": {
+        "lowring.": "lowring: overcast, dark and threatening."
+      },
+      "Matthew 16:6": {
+        "heed": "heed: attention (\"take heed\" = be careful, watch out).",
+        "leaven": "leaven: yeast."
+      },
+      "Matthew 16:11": {
+        "spake": "spake: spoke.",
+        "leaven": "leaven: yeast."
+      },
+      "Matthew 16:12": {
+        "bade": "bade: told, commanded; invited.",
+        "leaven": "leaven: yeast."
+      },
+      "Matthew 16:13": {
+        "coasts": "coasts: borders, region, territory (not necessarily by the sea)."
+      },
+      "Matthew 16:21": {
+        "shew": "shew: show."
+      },
+      "Matthew 16:23": {
+        "offence": "offence: cause of stumbling, snare.",
+        "savourest": "savourest: set your mind on (\"thou savourest not\" = you are not thinking of)."
+      },
+      "Matthew 16:28": {
+        "Verily": "verily: truly (Greek amēn)."
+      },
+      "Matthew 17:2": {
+        "raiment": "raiment: clothing."
+      },
+      "Matthew 17:3": {
+        "behold,": "behold: look! see!."
+      },
+      "Matthew 17:4": {
+        "tabernacles;": "tabernacles: tents, shelters."
+      },
+      "Matthew 17:5": {
+        "spake,": "spake: spoke.",
+        "behold,": "behold: look! see!."
+      },
+      "Matthew 17:6": {
+        "sore": "sore: greatly, severely."
+      },
+      "Matthew 17:12": {
+        "listed.": "listed: wanted (\"as they listed\" = as they pleased)."
+      },
+      "Matthew 17:13": {
+        "spake": "spake: spoke."
+      },
+      "Matthew 17:15": {
+        "lunatick,": "lunatick: epileptic (Greek selēniazomai, \"moon-struck\").",
+        "sore": "sore: greatly, severely.",
+        "vexed:": "vexed: tormented, afflicted."
+      },
+      "Matthew 17:17": {
+        "suffer": "suffer: bear with, put up with.",
+        "hither": "hither: here, to this place."
+      },
+      "Matthew 17:18": {
+        "devil;": "devil: demon, evil spirit (Greek daimonion)."
+      },
+      "Matthew 17:20": {
+        "verily": "verily: truly (Greek amēn).",
+        "hence": "hence: from here."
+      },
+      "Matthew 17:21": {
+        "Howbeit": "howbeit: however, nevertheless."
+      },
+      "Matthew 17:22": {
+        "abode": "abode: stayed, remained."
+      },
+      "Matthew 17:23": {
+        "exceeding": "exceeding: extremely, very great."
+      },
+      "Matthew 17:24": {
+        "tribute": "tribute: tax (paid to a ruler)."
+      },
+      "Matthew 17:25": {
+        "prevented": "prevented: spoke first to, anticipated.",
+        "custom": "custom: toll, tax.",
+        "tribute?": "tribute: tax (paid to a ruler)."
+      },
+      "Matthew 17:27": {
+        "lest": "lest: so that … not; for fear that.",
+        "offend": "offend: cause to stumble, cause to sin (Greek skandalizō)."
+      },
+      "Matthew 18:3": {
+        "Verily": "verily: truly (Greek amēn)."
+      },
+      "Matthew 18:5": {
+        "whoso": "whoso: whoever."
+      },
+      "Matthew 18:6": {
+        "whoso": "whoso: whoever.",
+        "offend": "offend: cause to stumble, cause to sin (Greek skandalizō)."
+      },
+      "Matthew 18:7": {
+        "offences!": "offences: causes of stumbling, snares.",
+        "offence": "offence: cause of stumbling, snare."
+      },
+      "Matthew 18:8": {
+        "Wherefore": "wherefore: therefore, for this reason.",
+        "offend": "offend: cause to stumble, cause to sin (Greek skandalizō).",
+        "halt": "halt: lame, crippled."
+      },
+      "Matthew 18:9": {
+        "offend": "offend: cause to stumble, cause to sin (Greek skandalizō)."
+      },
+      "Matthew 18:10": {
+        "heed": "heed: attention (\"take heed\" = be careful, watch out).",
+        "behold": "behold: look! see!."
+      },
+      "Matthew 18:13": {
+        "verily": "verily: truly (Greek amēn)."
+      },
+      "Matthew 18:17": {
+        "heathen": "heathen: Gentiles, pagans (non-Jews).",
+        "publican.": "publican: tax collector (for Rome)."
+      },
+      "Matthew 18:18": {
+        "Verily": "verily: truly (Greek amēn)."
+      },
+      "Matthew 18:23": {
+        "likened": "likened: compared."
+      },
+      "Matthew 18:24": {
+        "talents.": "talents: very large sums (each about 6,000 denarii, some 20 years’ wages)."
+      },
+      "Matthew 18:25": {
+        "forasmuch": "forasmuch: since, because (\"forasmuch as\" = since)."
+      },
+      "Matthew 18:28": {
+        "pence:": "pence: denarii (plural of penny), Roman silver coins, each a day’s wage."
+      },
+      "Matthew 18:29": {
+        "besought": "besought: begged, pleaded with."
+      },
+      "Matthew 19:1": {
+        "coasts": "coasts: borders, region, territory (not necessarily by the sea)."
+      },
+      "Matthew 19:3": {
+        "away": "away: \"put away\" = divorce."
+      },
+      "Matthew 19:5": {
+        "cleave": "cleave: cling, hold fast.",
+        "twain": "twain: two."
+      },
+      "Matthew 19:6": {
+        "Wherefore": "wherefore: therefore, for this reason.",
+        "twain,": "twain: two.",
+        "asunder.": "asunder: apart."
+      },
+      "Matthew 19:7": {
+        "divorcement,": "divorcement: divorce.",
+        "away?": "away: \"put away\" = divorce."
+      },
+      "Matthew 19:8": {
+        "suffered": "suffered: allowed.",
+        "away": "away: \"put away\" = divorce."
+      },
+      "Matthew 19:9": {
+        "away": "away: \"put away\" = divorce.",
+        "whoso": "whoso: whoever."
+      },
+      "Matthew 19:14": {
+        "Suffer": "suffer: allow, permit."
+      },
+      "Matthew 19:15": {
+        "thence.": "thence: from there."
+      },
+      "Matthew 19:16": {
+        "behold,": "behold: look! see!."
+      },
+      "Matthew 19:23": {
+        "Verily": "verily: truly (Greek amēn)."
+      },
+      "Matthew 19:27": {
+        "Behold,": "behold: look! see!."
+      },
+      "Matthew 19:28": {
+        "Verily": "verily: truly (Greek amēn).",
+        "regeneration": "regeneration: the renewal of all things (the new creation)."
+      },
+      "Matthew 19:29": {
+        "brethren,": "brethren: brothers (also: fellow believers)."
+      },
+      "Matthew 20:1": {
+        "hire": "hire: wages, pay."
+      },
+      "Matthew 20:2": {
+        "penny": "penny: denarius, a Roman silver coin, a day’s wage for a labourer."
+      },
+      "Matthew 20:8": {
+        "hire,": "hire: wages, pay."
+      },
+      "Matthew 20:9": {
+        "penny.": "penny: denarius, a Roman silver coin, a day’s wage for a labourer."
+      },
+      "Matthew 20:10": {
+        "penny.": "penny: denarius, a Roman silver coin, a day’s wage for a labourer."
+      },
+      "Matthew 20:11": {
+        "goodman": "goodman: master (of the house)."
+      },
+      "Matthew 20:12": {
+        "wrought": "wrought: worked, did, performed."
+      },
+      "Matthew 20:13": {
+        "penny?": "penny: denarius, a Roman silver coin, a day’s wage for a labourer."
+      },
+      "Matthew 20:15": {
+        "evil,": "evil: \"is thine eye evil\" = are you envious, begrudging."
+      },
+      "Matthew 20:18": {
+        "Behold,": "behold: look! see!."
+      },
+      "Matthew 20:24": {
+        "brethren.": "brethren: brothers (also: fellow believers)."
+      },
+      "Matthew 20:30": {
+        "behold,": "behold: look! see!."
+      },
+      "Matthew 21:1": {
+        "nigh": "nigh: near."
+      },
+      "Matthew 21:2": {
+        "straightway": "straightway: immediately.",
+        "ass": "ass: donkey."
+      },
+      "Matthew 21:3": {
+        "ought": "ought: anything (= aught).",
+        "straightway": "straightway: immediately."
+      },
+      "Matthew 21:5": {
+        "Behold,": "behold: look! see!.",
+        "ass,": "ass: donkey."
+      },
+      "Matthew 21:7": {
+        "ass,": "ass: donkey.",
+        "thereon.": "thereon: on it."
+      },
+      "Matthew 21:8": {
+        "strawed": "strawed: scattered, spread."
+      },
+      "Matthew 21:9": {
+        "Hosanna": "hosanna: \"Save, we pray\" (Hebrew), a cry of praise."
+      },
+      "Matthew 21:15": {
+        "Hosanna": "hosanna: \"Save, we pray\" (Hebrew), a cry of praise.",
+        "sore": "sore: greatly, severely."
+      },
+      "Matthew 21:16": {
+        "Yea;": "yea: yes; indeed.",
+        "sucklings": "sucklings: nursing infants."
+      },
+      "Matthew 21:18": {
+        "hungered.": "hungered: was hungry."
+      },
+      "Matthew 21:19": {
+        "thereon,": "thereon: on it.",
+        "henceforward": "henceforward: from now on.",
+        "presently": "presently: immediately, at once (not \"soon\")."
+      },
+      "Matthew 21:20": {
+        "marvelled,": "marvelled: were amazed."
+      },
+      "Matthew 21:21": {
+        "Verily": "verily: truly (Greek amēn)."
+      },
+      "Matthew 21:25": {
+        "whence": "whence: from where."
+      },
+      "Matthew 21:29": {
+        "repented,": "repented: changed his mind, regretted it."
+      },
+      "Matthew 21:31": {
+        "twain": "twain: two.",
+        "Verily": "verily: truly (Greek amēn).",
+        "publicans": "publicans: tax collectors (for Rome)."
+      },
+      "Matthew 21:32": {
+        "publicans": "publicans: tax collectors (for Rome).",
+        "repented": "repented: changed your minds."
+      },
+      "Matthew 21:33": {
+        "hedged": "hedged: fenced in, surrounded with a hedge.",
+        "let": "let: \"let it out\" = rented it out, leased it.",
+        "husbandmen,": "husbandmen: farmers; here, tenant farmers working a vineyard."
+      },
+      "Matthew 21:34": {
+        "husbandmen,": "husbandmen: farmers; here, tenant farmers working a vineyard."
+      },
+      "Matthew 21:35": {
+        "husbandmen": "husbandmen: farmers; here, tenant farmers working a vineyard."
+      },
+      "Matthew 21:38": {
+        "husbandmen": "husbandmen: farmers; here, tenant farmers working a vineyard."
+      },
+      "Matthew 21:39": {
+        "slew": "slew: killed."
+      },
+      "Matthew 21:40": {
+        "husbandmen?": "husbandmen: farmers; here, tenant farmers working a vineyard."
+      },
+      "Matthew 21:41": {
+        "let": "let: \"let out\" = rent out, lease.",
+        "husbandmen,": "husbandmen: farmers; here, tenant farmers working a vineyard."
+      },
+      "Matthew 21:43": {
+        "thereof.": "thereof: of it."
+      },
+      "Matthew 21:45": {
+        "spake": "spake: spoke."
+      },
+      "Matthew 22:1": {
+        "spake": "spake: spoke."
+      },
+      "Matthew 22:4": {
+        "Behold,": "behold: look! see!.",
+        "fatlings": "fatlings: fattened animals."
+      },
+      "Matthew 22:6": {
+        "entreated": "entreated: treated (here, mistreated).",
+        "spitefully,": "spitefully: shamefully, with insult.",
+        "slew": "slew: killed."
+      },
+      "Matthew 22:7": {
+        "thereof,": "thereof: of it."
+      },
+      "Matthew 22:12": {
+        "hither": "hither: here, to this place."
+      },
+      "Matthew 22:17": {
+        "tribute": "tribute: tax (paid to a ruler)."
+      },
+      "Matthew 22:19": {
+        "Shew": "shew: show.",
+        "tribute": "tribute: tax (paid to a ruler).",
+        "penny.": "penny: denarius, a Roman silver coin, a day’s wage for a labourer."
+      },
+      "Matthew 22:20": {
+        "superscription?": "superscription: inscription."
+      },
+      "Matthew 22:22": {
+        "marvelled,": "marvelled: were amazed."
+      },
+      "Matthew 22:25": {
+        "brethren:": "brethren: brothers (also: fellow believers).",
+        "issue,": "issue: offspring, children."
+      },
+      "Matthew 22:46": {
+        "durst": "durst: dared."
+      },
+      "Matthew 23:1": {
+        "spake": "spake: spoke."
+      },
+      "Matthew 23:4": {
+        "grievous": "grievous: heavy, burdensome; severe."
+      },
+      "Matthew 23:5": {
+        "phylacteries,": "phylacteries: small leather boxes holding Scripture verses, worn on the forehead and arm.",
+        "borders": "borders: tassels, fringes (on the corners of the garment)."
+      },
+      "Matthew 23:6": {
+        "uppermost": "uppermost: highest, most honoured. rooms: places, seats (of honour)."
+      },
+      "Matthew 23:8": {
+        "brethren.": "brethren: brothers (also: fellow believers)."
+      },
+      "Matthew 23:13": {
+        "suffer": "suffer: allow, permit."
+      },
+      "Matthew 23:15": {
+        "compass": "compass: travel around, go over.",
+        "proselyte,": "proselyte: a convert (to Judaism)."
+      },
+      "Matthew 23:16": {
+        "debtor!": "debtor: bound (by his oath)."
+      },
+      "Matthew 23:17": {
+        "sanctifieth": "sanctifieth: makes holy, sets apart."
+      },
+      "Matthew 23:19": {
+        "sanctifieth": "sanctifieth: makes holy, sets apart."
+      },
+      "Matthew 23:20": {
+        "Whoso": "whoso: whoever.",
+        "thereon.": "thereon: on it."
+      },
+      "Matthew 23:21": {
+        "whoso": "whoso: whoever.",
+        "therein.": "therein: in it."
+      },
+      "Matthew 23:22": {
+        "thereon.": "thereon: on it."
+      },
+      "Matthew 23:23": {
+        "tithe": "tithe: give a tenth.",
+        "anise": "anise: dill.",
+        "cummin,": "cummin: a small aromatic seed used as spice."
+      },
+      "Matthew 23:24": {
+        "strain": "strain: \"strain at a gnat\" = strain out a gnat (filter it from a drink)."
+      },
+      "Matthew 23:27": {
+        "whited": "whited: whitewashed.",
+        "sepulchres,": "sepulchres: tombs."
+      },
+      "Matthew 23:29": {
+        "garnish": "garnish: decorate, adorn.",
+        "sepulchres": "sepulchres: tombs."
+      },
+      "Matthew 23:31": {
+        "Wherefore": "wherefore: therefore, for this reason."
+      },
+      "Matthew 23:33": {
+        "generation": "generation: brood, offspring."
+      },
+      "Matthew 23:34": {
+        "Wherefore,": "wherefore: therefore, for this reason.",
+        "behold,": "behold: look! see!."
+      },
+      "Matthew 23:35": {
+        "slew": "slew: killed."
+      },
+      "Matthew 23:36": {
+        "Verily": "verily: truly (Greek amēn)."
+      },
+      "Matthew 23:38": {
+        "Behold,": "behold: look! see!."
+      },
+      "Matthew 23:39": {
+        "henceforth,": "henceforth: from now on."
+      },
+      "Matthew 24:1": {
+        "shew": "shew: show."
+      },
+      "Matthew 24:2": {
+        "verily": "verily: truly (Greek amēn)."
+      },
+      "Matthew 24:4": {
+        "heed": "heed: attention (\"take heed\" = be careful, watch out)."
+      },
+      "Matthew 24:7": {
+        "pestilences,": "pestilences: plagues, epidemics.",
+        "divers": "divers: various, of different kinds."
+      },
+      "Matthew 24:10": {
+        "offended,": "offended: caused to stumble; took offence (would not accept him)."
+      },
+      "Matthew 24:12": {
+        "wax": "wax: grow, become."
+      },
+      "Matthew 24:15": {
+        "(whoso": "whoso: whoever."
+      },
+      "Matthew 24:19": {
+        "suck": "suck: nurse, breast-feed (\"give suck\")."
+      },
+      "Matthew 24:23": {
+        "Lo,": "lo: look! see!."
+      },
+      "Matthew 24:24": {
+        "shew": "shew: show.",
+        "insomuch": "insomuch: so much so (that)."
+      },
+      "Matthew 24:25": {
+        "Behold,": "behold: look! see!."
+      },
+      "Matthew 24:26": {
+        "Wherefore": "wherefore: therefore, for this reason.",
+        "Behold,": "behold: look! see!."
+      },
+      "Matthew 24:28": {
+        "wheresoever": "wheresoever: wherever.",
+        "carcase": "carcase: dead body.",
+        "eagles": "eagles: probably vultures (Greek aetos), which gather over a carcass."
+      },
+      "Matthew 24:32": {
+        "nigh:": "nigh: near."
+      },
+      "Matthew 24:34": {
+        "Verily": "verily: truly (Greek amēn)."
+      },
+      "Matthew 24:43": {
+        "goodman": "goodman: master (of the house).",
+        "watch": "watch: a division of the night.",
+        "suffered": "suffered: allowed."
+      },
+      "Matthew 24:45": {
+        "meat": "meat: food of any kind (\"sat at meat\" = reclined at a meal)."
+      },
+      "Matthew 24:47": {
+        "Verily": "verily: truly (Greek amēn)."
+      },
+      "Matthew 24:49": {
+        "smite": "smite: strike."
+      },
+      "Matthew 24:51": {
+        "asunder,": "asunder: apart."
+      },
+      "Matthew 25:1": {
+        "likened": "likened: compared."
+      },
+      "Matthew 25:5": {
+        "tarried,": "tarried: delayed; stayed."
+      },
+      "Matthew 25:6": {
+        "Behold,": "behold: look! see!."
+      },
+      "Matthew 25:7": {
+        "trimmed": "trimmed: prepared (trimmed the wicks of)."
+      },
+      "Matthew 25:9": {
+        "lest": "lest: so that … not; for fear that."
+      },
+      "Matthew 25:12": {
+        "Verily": "verily: truly (Greek amēn)."
+      },
+      "Matthew 25:13": {
+        "wherein": "wherein: in which."
+      },
+      "Matthew 25:15": {
+        "talents,": "talents: very large sums (each about 6,000 denarii, some 20 years’ wages).",
+        "straightway": "straightway: immediately."
+      },
+      "Matthew 25:16": {
+        "talents": "talents: very large sums (each about 6,000 denarii, some 20 years’ wages)."
+      },
+      "Matthew 25:20": {
+        "talents": "talents: very large sums (each about 6,000 denarii, some 20 years’ wages).",
+        "behold,": "behold: look! see!."
+      },
+      "Matthew 25:22": {
+        "talents": "talents: very large sums (each about 6,000 denarii, some 20 years’ wages).",
+        "behold,": "behold: look! see!."
+      },
+      "Matthew 25:24": {
+        "talent": "talent: a very large sum (about 6,000 denarii, some 20 years’ wages).",
+        "strawed:": "strawed: scattered, spread."
+      },
+      "Matthew 25:25": {
+        "talent": "talent: a very large sum (about 6,000 denarii, some 20 years’ wages).",
+        "lo,": "lo: look! see!."
+      },
+      "Matthew 25:26": {
+        "strawed:": "strawed: scattered, spread."
+      },
+      "Matthew 25:27": {
+        "exchangers,": "exchangers: bankers, moneychangers.",
+        "usury.": "usury: interest (on money lent)."
+      },
+      "Matthew 25:28": {
+        "talent": "talent: a very large sum (about 6,000 denarii, some 20 years’ wages).",
+        "talents.": "talents: very large sums (each about 6,000 denarii, some 20 years’ wages)."
+      },
+      "Matthew 25:35": {
+        "hungred,": "hungred: hungry (\"an hungred\" = hungry).",
+        "meat:": "meat: food of any kind (\"sat at meat\" = reclined at a meal)."
+      },
+      "Matthew 25:37": {
+        "hungred,": "hungred: hungry (\"an hungred\" = hungry)."
+      },
+      "Matthew 25:40": {
+        "Verily": "verily: truly (Greek amēn).",
+        "Inasmuch": "inasmuch: to the extent that (\"inasmuch as\" = in so far as).",
+        "brethren,": "brethren: brothers (also: fellow believers)."
+      },
+      "Matthew 25:42": {
+        "hungred,": "hungred: hungry (\"an hungred\" = hungry).",
+        "meat:": "meat: food of any kind (\"sat at meat\" = reclined at a meal)."
+      },
+      "Matthew 25:44": {
+        "hungred,": "hungred: hungry (\"an hungred\" = hungry).",
+        "athirst,": "athirst: thirsty."
+      },
+      "Matthew 25:45": {
+        "Verily": "verily: truly (Greek amēn).",
+        "Inasmuch": "inasmuch: to the extent that (\"inasmuch as\" = in so far as)."
+      },
+      "Matthew 26:3": {
+        "palace": "palace: courtyard, residence."
+      },
+      "Matthew 26:4": {
+        "subtilty,": "subtilty: cunning, trickery."
+      },
+      "Matthew 26:5": {
+        "lest": "lest: so that … not; for fear that."
+      },
+      "Matthew 26:7": {
+        "meat.": "meat: food of any kind (\"sat at meat\" = reclined at a meal)."
+      },
+      "Matthew 26:10": {
+        "wrought": "wrought: worked, did, performed."
+      },
+      "Matthew 26:13": {
+        "Verily": "verily: truly (Greek amēn).",
+        "Wheresoever": "wheresoever: wherever."
+      },
+      "Matthew 26:15": {
+        "covenanted": "covenanted: agreed, bargained."
+      },
+      "Matthew 26:21": {
+        "Verily": "verily: truly (Greek amēn)."
+      },
+      "Matthew 26:22": {
+        "exceeding": "exceeding: extremely, very great."
+      },
+      "Matthew 26:26": {
+        "brake": "brake: broke."
+      },
+      "Matthew 26:28": {
+        "remission": "remission: forgiveness, release."
+      },
+      "Matthew 26:29": {
+        "henceforth": "henceforth: from now on."
+      },
+      "Matthew 26:31": {
+        "offended": "offended: caused to stumble; took offence (would not accept him).",
+        "smite": "smite: strike."
+      },
+      "Matthew 26:33": {
+        "offended": "offended: caused to stumble; took offence (would not accept him)."
+      },
+      "Matthew 26:34": {
+        "Verily": "verily: truly (Greek amēn).",
+        "cock": "cock: rooster.",
+        "thrice.": "thrice: three times."
+      },
+      "Matthew 26:38": {
+        "exceeding": "exceeding: extremely, very great.",
+        "tarry": "tarry: stay, remain; wait."
+      },
+      "Matthew 26:45": {
+        "behold,": "behold: look! see!."
+      },
+      "Matthew 26:46": {
+        "behold,": "behold: look! see!."
+      },
+      "Matthew 26:47": {
+        "spake,": "spake: spoke.",
+        "lo,": "lo: look! see!.",
+        "staves,": "staves: staffs, clubs."
+      },
+      "Matthew 26:49": {
+        "forthwith": "forthwith: immediately."
+      },
+      "Matthew 26:50": {
+        "wherefore": "wherefore: why."
+      },
+      "Matthew 26:51": {
+        "behold,": "behold: look! see!.",
+        "smote": "smote: struck."
+      },
+      "Matthew 26:53": {
+        "presently": "presently: immediately, at once (not \"soon\")."
+      },
+      "Matthew 26:55": {
+        "staves": "staves: staffs, clubs."
+      },
+      "Matthew 26:58": {
+        "afar": "afar: far away (\"afar off\" = at a distance).",
+        "palace,": "palace: courtyard, residence."
+      },
+      "Matthew 26:59": {
+        "council,": "council: the Sanhedrin, the Jewish high court."
+      },
+      "Matthew 26:60": {
+        "yea,": "yea: yes; indeed."
+      },
+      "Matthew 26:63": {
+        "adjure": "adjure: charge under oath, solemnly command."
+      },
+      "Matthew 26:65": {
+        "rent": "rent: tore, torn.",
+        "behold,": "behold: look! see!."
+      },
+      "Matthew 26:67": {
+        "buffeted": "buffeted: struck with the fists.",
+        "smote": "smote: struck."
+      },
+      "Matthew 26:68": {
+        "smote": "smote: struck."
+      },
+      "Matthew 26:69": {
+        "palace:": "palace: courtyard.",
+        "damsel": "damsel: girl, young woman; servant girl."
+      },
+      "Matthew 26:73": {
+        "bewrayeth": "bewrayeth: betrays, gives away."
+      },
+      "Matthew 26:74": {
+        "cock": "cock: rooster.",
+        "crew.": "crew: crowed."
+      },
+      "Matthew 26:75": {
+        "cock": "cock: rooster.",
+        "thrice.": "thrice: three times."
+      },
+      "Matthew 27:3": {
+        "repented": "repented: \"repented himself\" = was seized with remorse, regretted it."
+      },
+      "Matthew 27:8": {
+        "Wherefore": "wherefore: therefore, for this reason."
+      },
+      "Matthew 27:14": {
+        "insomuch": "insomuch: so much so (that).",
+        "marvelled": "marvelled: were amazed."
+      },
+      "Matthew 27:15": {
+        "wont": "wont: accustomed, in the habit."
+      },
+      "Matthew 27:21": {
+        "twain": "twain: two."
+      },
+      "Matthew 27:27": {
+        "hall,": "hall: \"common hall\" = the praetorium, the governor’s headquarters.",
+        "band": "band: cohort, a unit of Roman soldiers (up to 600 men)."
+      },
+      "Matthew 27:29": {
+        "platted": "platted: braided, woven."
+      },
+      "Matthew 27:30": {
+        "smote": "smote: struck."
+      },
+      "Matthew 27:31": {
+        "raiment": "raiment: clothing."
+      },
+      "Matthew 27:34": {
+        "thereof,": "thereof: of it."
+      },
+      "Matthew 27:35": {
+        "vesture": "vesture: clothing, garment."
+      },
+      "Matthew 27:48": {
+        "straightway": "straightway: immediately."
+      },
+      "Matthew 27:49": {
+        "Let": "let: \"let be\" = leave him alone, wait."
+      },
+      "Matthew 27:50": {
+        "ghost.": "ghost: spirit (\"Holy Ghost\" = Holy Spirit; \"gave/yielded up the ghost\" = died)."
+      },
+      "Matthew 27:51": {
+        "behold,": "behold: look! see!.",
+        "rent": "rent: tore, torn.",
+        "twain": "twain: two."
+      },
+      "Matthew 27:55": {
+        "afar": "afar: far away (\"afar off\" = at a distance)."
+      },
+      "Matthew 27:60": {
+        "hewn": "hewn: cut (down, or out of rock).",
+        "sepulchre,": "sepulchre: tomb."
+      },
+      "Matthew 27:61": {
+        "sepulchre.": "sepulchre: tomb."
+      },
+      "Matthew 27:64": {
+        "sepulchre": "sepulchre: tomb.",
+        "lest": "lest: so that … not; for fear that."
+      },
+      "Matthew 27:65": {
+        "watch:": "watch: guard (of soldiers)."
+      },
+      "Matthew 27:66": {
+        "sepulchre": "sepulchre: tomb.",
+        "watch.": "watch: guard (of soldiers)."
+      },
+      "Matthew 28:1": {
+        "sepulchre.": "sepulchre: tomb."
+      },
+      "Matthew 28:2": {
+        "behold,": "behold: look! see!."
+      },
+      "Matthew 28:3": {
+        "countenance": "countenance: face, expression.",
+        "raiment": "raiment: clothing."
+      },
+      "Matthew 28:7": {
+        "behold,": "behold: look! see!.",
+        "lo,": "lo: look! see!."
+      },
+      "Matthew 28:8": {
+        "sepulchre": "sepulchre: tomb."
+      },
+      "Matthew 28:9": {
+        "behold,": "behold: look! see!."
+      },
+      "Matthew 28:10": {
+        "brethren": "brethren: brothers (also: fellow believers)."
+      },
+      "Matthew 28:11": {
+        "behold,": "behold: look! see!.",
+        "watch": "watch: guard (of soldiers).",
+        "shewed": "shewed: showed."
+      },
+      "Matthew 28:18": {
+        "spake": "spake: spoke."
+      },
+      "Matthew 28:19": {
+        "Ghost:": "ghost: spirit (\"Holy Ghost\" = Holy Spirit; \"gave/yielded up the ghost\" = died)."
+      },
+      "Matthew 28:20": {
+        "lo,": "lo: look! see!.",
+        "alway,": "alway: always."
+      }
+    }
   },
   "bsb-strong": {
     "tags": {},
