@@ -27,8 +27,13 @@ export default function SelectionBar({ count, selectionKey, onCopy, onCompare, o
 
   return (
     <div className="selection-bar">
-      <span>
-        {count} {count === 1 ? t.one : t.many}
+      {/* Short count ("+1", "+2"…); the full wording stays for screen readers. */}
+      <span
+        className="selection-count"
+        aria-label={`${count} ${count === 1 ? t.one : t.many}`}
+        title={`${count} ${count === 1 ? t.one : t.many}`}
+      >
+        +{count}
       </span>
 
       <button onClick={handleCopy}>{copied ? t.copied : t.copy}</button>

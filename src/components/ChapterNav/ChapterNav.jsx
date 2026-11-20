@@ -20,7 +20,7 @@ export default function ChapterNav({ onStep, lang = "en", bottomHidden = false, 
     <>
       <button
         type="button"
-        className="chapter-nav prev"
+        className={aboveBar ? "chapter-nav prev above-bar" : "chapter-nav prev"}
         onClick={() => onStep(-1)}
         aria-label={t.prev}
         title={t.prev}
@@ -32,7 +32,7 @@ export default function ChapterNav({ onStep, lang = "en", bottomHidden = false, 
       </button>
       <button
         type="button"
-        className="chapter-nav next"
+        className={aboveBar ? "chapter-nav next above-bar" : "chapter-nav next"}
         onClick={() => onStep(1)}
         aria-label={t.next}
         title={t.next}

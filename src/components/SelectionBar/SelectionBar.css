@@ -41,3 +41,8 @@
   line-height: 1;
   padding: 5px 9px !important;
 }
+
+.selection-count {
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}

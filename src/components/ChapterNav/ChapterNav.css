@@ -41,10 +41,19 @@
   right: 18px; /* clear of the pane's scrollbar */
 }
 
+/* While the verse selection bar (52px, SelectionBar.css) is open, lift the
+   arrows above it. */
+.chapter-nav.prev.above-bar,
+.chapter-nav.next.above-bar {
+  bottom: calc(52px + 14px + env(safe-area-inset-bottom, 0px));
+}
+
 /* Side by side: vertically centered on the outer left and right edges. */
 @media (min-width: 820px) {
   .chapter-nav.prev,
-  .chapter-nav.next {
+  .chapter-nav.next,
+  .chapter-nav.prev.above-bar,
+  .chapter-nav.next.above-bar {
     bottom: auto;
     top: 50%;
     transform: translateY(-50%);
@@ -60,10 +69,10 @@
   right: 18px;
   bottom: calc(22px + 54px + env(safe-area-inset-bottom, 0px));
 }
-/* While the verse selection bar (52px) covers the bottom, keep it above the bar. */
+/* While the verse selection bar (52px, SelectionBar.css) is open at the bottom,
+   lift the − / + above it too (phones; side by side it sits mid-height). */
 .chapter-nav.pane-toggle.above-bar {
-  z-index: 1001;
-  bottom: calc(68px + env(safe-area-inset-bottom, 0px));
+  bottom: calc(52px + 14px + 54px + env(safe-area-inset-bottom, 0px));
 }
 @media (min-width: 820px) {
   .chapter-nav.pane-toggle,
