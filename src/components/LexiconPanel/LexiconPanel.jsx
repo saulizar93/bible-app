@@ -147,7 +147,9 @@ export default function LexiconPanel({ lang = "en", onClose, onJump }) {
   }, [code, onClose]);
 
   useEffect(() => {
-    if (!code) inputRef.current?.focus();
+    // Focus the search box only with a mouse/keyboard: on phones the keyboard
+    // popping up at once shifts the page.
+    if (!code && window.matchMedia?.("(pointer: fine)").matches) inputRef.current?.focus();
     panelRef.current?.scrollTo({ top: 0 });
   }, [code]);
 
@@ -264,10 +266,10 @@ export default function LexiconPanel({ lang = "en", onClose, onJump }) {
               <table className="lexicon-results">
                 <thead>
                   <tr>
-                    <th>{t.word}</th>
-                    <th>{t.translit}</th>
-                    <th>{t.strongs}</th>
-                    <th>{t.renderings}</th>
+                    <th className="c-orig">{t.word}</th>
+                    <th className="c-tr">{t.translit}</th>
+                    <th className="c-code">{t.strongs}</th>
+                    <th className="c-rend">{t.renderings}</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -284,6 +286,8 @@ export default function LexiconPanel({ lang = "en", onClose, onJump }) {
                         dir={r.c[0] === "H" ? "rtl" : undefined}
                       >
                         {r.gr}
+                        {/* narrow phones: the transliteration column folds in here */}
+                        <span className="lex-tr-inline" dir="ltr">{r.tr}</span>
                       </td>
                       <td className="lex-tr">{r.tr}</td>
                       <td className="lex-code">{r.c}</td>

@@ -2,7 +2,10 @@
    a little wider so the results table fits. */
 .lexicon-panel {
   text-align: left;
-  width: min(94vw, 560px);
+  /* Never wider than the screen minus a small margin, whatever the content. */
+  width: min(calc(100vw - 24px), 520px);
+  max-width: calc(100vw - 24px);
+  overflow-x: hidden;
 }
 @media (min-width: 900px) {
   .lexicon-panel {
@@ -30,7 +33,8 @@
   border-radius: 10px;
   background: var(--bg);
   color: var(--fg);
-  font: 15px ui-sans-serif, system-ui, sans-serif;
+  /* 16px or more: iPhones zoom the whole page into smaller inputs */
+  font: 16px ui-sans-serif, system-ui, sans-serif;
 }
 .lexicon-bible {
   display: flex;
@@ -46,7 +50,7 @@
   border-radius: 8px;
   background: var(--bg);
   color: var(--fg);
-  font: 14px ui-sans-serif, system-ui, sans-serif;
+  font: 16px ui-sans-serif, system-ui, sans-serif; /* no iOS zoom */
 }
 .lexicon-hint {
   margin: 8px 0 12px;
@@ -54,6 +58,8 @@
 }
 .lexicon-results {
   width: 100%;
+  /* fixed columns: long words wrap instead of widening the panel */
+  table-layout: fixed;
   border-collapse: collapse;
   font: 13.5px/1.35 ui-sans-serif, system-ui, sans-serif;
 }
@@ -66,6 +72,7 @@
   border-bottom: 1px solid var(--line);
 }
 .lexicon-results td {
+  overflow-wrap: break-word;
   padding: 8px 6px;
   border-bottom: 1px solid var(--line);
   vertical-align: top;
@@ -80,7 +87,6 @@
 }
 .lex-orig {
   font: 17px/1.3 "SBL Greek", "Gentium Plus", "Times New Roman", serif;
-  white-space: nowrap;
 }
 .lex-orig.hebrew {
   font-family: "SBL Hebrew", "Ezra SIL", "Times New Roman", serif;
@@ -90,8 +96,40 @@
   font-style: italic;
 }
 .lex-code {
-  white-space: nowrap;
   font-variant-numeric: tabular-nums;
+}
+.lexicon-results .c-orig { width: 25%; }
+.lexicon-results .c-tr { width: 23%; }
+.lexicon-results .c-code { width: 17%; }
+.lexicon-results .c-rend { width: 35%; }
+.lex-tr-inline {
+  display: none;
+}
+/* Narrow phones: three columns, the transliteration shown under the word. */
+@media (max-width: 480px) {
+  .lexicon-results .c-tr,
+  .lexicon-results td.lex-tr {
+    display: none;
+  }
+  .lexicon-results .c-orig { width: 36%; }
+  .lexicon-results .c-code { width: 22%; }
+  .lexicon-results .c-rend { width: 42%; }
+  .lex-tr-inline {
+    display: block;
+    margin-top: 2px;
+    font: italic 12.5px/1.3 ui-sans-serif, system-ui, sans-serif;
+    color: var(--dim);
+    text-align: left;
+  }
+  .lex-orig {
+    font-size: 16px;
+  }
+  .lexicon-results {
+    font-size: 13px;
+  }
+}
+.lexicon-orig {
+  overflow-wrap: anywhere;
 }
 .lex-rend {
   color: var(--dim);
