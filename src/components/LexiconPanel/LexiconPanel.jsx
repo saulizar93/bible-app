@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useRef } from "react";
+import { useState, useEffect, useLayoutEffect, useMemo, useRef } from "react";
 import BookFilterChart from "../BookFilterChart/BookFilterChart.jsx";
 import { byNum, bookName } from "../../js/books.js";
 import {
@@ -42,6 +42,8 @@ const T = {
     close: "Close",
     noDef: "No definition found.",
     outline: "Meanings (outline)",
+    all: "Show all",
+    less: "Show less",
   },
   es: {
     title: "Léxico hebreo y griego",
@@ -66,6 +68,8 @@ const T = {
     close: "Cerrar",
     noDef: "No se encontró una definición.",
     outline: "Significados (esquema)",
+    all: "Ver todas",
+    less: "Ver menos",
   },
 };
 
@@ -94,12 +98,32 @@ const plain = (s) =>
 
 const langOf = (code) => (code[0] === "H" ? "hebrew" : "greek");
 
-/** "church (79), churches (36)" — alphabetical. */
-const renderList = (list) =>
-  [...(list || [])]
-    .sort((a, b) => a[0].localeCompare(b[0]))
-    .map(([w, n]) => `${w} (${n})`)
-    .join(", ");
+/** "church (79), churches (36)" — most frequent first (the data is stored that way). */
+const renderList = (list) => (list || []).map(([w, n]) => `${w} (${n})`).join(", ");
+
+/** Text cut to a few lines with "…", and a button to show it all / hide it again
+ *  (only when it is actually cut). */
+function Clamp({ children, lines = 3, t }) {
+  const ref = useRef(null);
+  const [open, setOpen] = useState(false);
+  const [cut, setCut] = useState(false);
+  useLayoutEffect(() => {
+    const el = ref.current;
+    if (el && !open) setCut(el.scrollHeight > el.clientHeight + 1);
+  }, [children, open]);
+  return (
+    <>
+      <p ref={ref} className={open ? "lexicon-rend" : "lexicon-rend clamp"} style={{ "--lines": lines }}>
+        {children}
+      </p>
+      {(cut || open) && (
+        <button type="button" className="lexicon-expand" onClick={() => setOpen((v) => !v)}>
+          {open ? t.less : t.all}
+        </button>
+      )}
+    </>
+  );
+}
 
 export default function LexiconPanel({ lang = "en", onClose, onJump }) {
   const t = T[lang] || T.en;
@@ -291,7 +315,9 @@ export default function LexiconPanel({ lang = "en", onClose, onJump }) {
                       </td>
                       <td className="lex-tr">{r.tr}</td>
                       <td className="lex-code">{r.c}</td>
-                      <td className="lex-rend">{renderList(rend[langOf(r.c)]?.[r.c]) || "—"}</td>
+                      <td className="lex-rend">
+                        <span className="lex-rend-clamp">{renderList(rend[langOf(r.c)]?.[r.c]) || "—"}</span>
+                      </td>
                     </tr>
                   ))}
                 </tbody>
@@ -416,7 +442,9 @@ function WordPage({ code, source, bibleLabel, renderings, lang, t, onBack, onJum
       {renderings?.length > 0 && (
         <>
           <h4 className="strongs-sub">{t.rendered(bibleLabel)}</h4>
-          <p className="lexicon-rend">{renderList(renderings)}</p>
+          <Clamp lines={3} t={t}>
+            {renderList(renderings)}
+          </Clamp>
         </>
       )}
 

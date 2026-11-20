@@ -169,7 +169,36 @@
   font: 13px ui-sans-serif, system-ui, sans-serif;
 }
 .lexicon-rend {
-  margin: 0 0 8px;
+  margin: 0 0 4px;
+}
+/* cut to --lines lines with "…" (Clamp in LexiconPanel.jsx) */
+.lexicon-rend.clamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: var(--lines, 3);
+  line-clamp: var(--lines, 3);
+  overflow: hidden;
+}
+.lexicon-expand {
+  margin: 0 0 10px;
+  padding: 3px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: none;
+  color: var(--fg);
+  font: 12.5px ui-sans-serif, system-ui, sans-serif;
+  cursor: pointer;
+}
+.lexicon-expand:hover {
+  background: var(--hit);
+}
+/* results table: at most two lines of renderings per row, the most frequent first */
+.lex-rend-clamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
 }
 .lex-hit {
   background: none;
