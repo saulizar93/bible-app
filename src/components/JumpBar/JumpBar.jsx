@@ -9,7 +9,7 @@ import "./JumpBar.css";
 
 const T = {
   en: {
-    prev: "Previous chapter", next: "Next chapter", settings: "Reading settings",
+    settings: "Reading settings",
     pickerAria: "Choose Bible book, chapter, and verse", pickerTitle: "Choose Bible reference",
     searchAria: "Search verse reference", searchTitle: "Search reference",
     strongsOT: "Underline Strong's-tagged Hebrew words", strongsNT: "Underline Strong's-tagged Greek words",
@@ -23,7 +23,7 @@ const T = {
     none: (q, src) => `No matches found for “${q}” in ${src || "active panes"}.`,
   },
   es: {
-    prev: "Capítulo anterior", next: "Capítulo siguiente", settings: "Ajustes de lectura",
+    settings: "Ajustes de lectura",
     pickerAria: "Elegir libro, capítulo y versículo", pickerTitle: "Elegir referencia bíblica",
     searchAria: "Buscar referencia de versículo", searchTitle: "Buscar referencia",
     strongsOT: "Subrayar las palabras hebreas con números Strong", strongsNT: "Subrayar las palabras griegas con números Strong",
@@ -50,7 +50,6 @@ export default function JumpBar({
   placeholder,
   onSubmit,
   onPick,
-  onStep,
   strongsOn,
   onToggleStrongs,
   lang = "en",
@@ -209,16 +208,6 @@ export default function JumpBar({
       <header className="jump">
         <button
           type="button"
-          className="nav-step"
-          onClick={() => onStep(-1)}
-          aria-label={t.prev}
-          title={t.prev}
-        >
-          ‹
-        </button>
-
-        <button
-          type="button"
           className="nav-step settings-trigger"
           onClick={onOpenSettings}
           aria-label={t.settings}
@@ -284,16 +273,6 @@ export default function JumpBar({
             {isOT ? t.heb : (t.gr || t.gk)}
           </button>
           )}
-
-          <button
-            type="button"
-            className="nav-step"
-            onClick={() => onStep(1)}
-            aria-label={t.next}
-            title={t.next}
-          >
-            ›
-          </button>
         </div>
       </header>
 

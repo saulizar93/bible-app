@@ -16,7 +16,7 @@ const T = {
     panes: "Default panes",
     hideSecond: "Hide 2nd pane",
     hideSecondHint:
-      "Turn on to read with one pane. Tap the + button at the bottom right of the screen to bring the 2nd pane back.",
+      "Turn on to read with one pane. Tap the + button just above the right arrow to bring the 2nd pane back.",
     topPane: "Top pane",
     bottomPane: "Bottom pane",
     remember: "Remember last used",
@@ -50,7 +50,7 @@ const T = {
     panes: "Paneles predeterminados",
     hideSecond: "Ocultar el 2.º panel",
     hideSecondHint:
-      "Actívelo para leer con un solo panel. Toque el botón + en la esquina inferior derecha de la pantalla para volver a mostrar el 2.º panel.",
+      "Actívelo para leer con un solo panel. Toque el botón + que está justo arriba de la flecha derecha para volver a mostrar el 2.º panel.",
     topPane: "Panel superior",
     bottomPane: "Panel inferior",
     remember: "Recordar el último usado",

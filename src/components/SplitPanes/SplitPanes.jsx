@@ -12,7 +12,7 @@ const MAX_PCT = 85;
  * this doesn't duplicate that breakpoint in JS, it just asks the DOM which
  * way things are currently laid out.
  */
-export default function SplitPanes({ children, hideSecond = false }) {
+export default function SplitPanes({ children, hideSecond = false, overlay = null }) {
   const [first, second] = children;
   const containerRef = useRef(null);
   const orientationRef = useRef("column");
@@ -51,6 +51,7 @@ export default function SplitPanes({ children, hideSecond = false }) {
         <div className="pane-slot" style={{ flex: "1 1 auto" }}>
           {first}
         </div>
+        {overlay}
       </main>
     );
   }
@@ -71,6 +72,7 @@ export default function SplitPanes({ children, hideSecond = false }) {
       <div className="pane-slot" style={{ flex: "1 1 auto" }}>
         {second}
       </div>
+      {overlay}
     </main>
   );
 }

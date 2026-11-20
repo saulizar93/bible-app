@@ -1,6 +1,7 @@
 .panes {
   flex: 1;
   display: flex;
+  position: relative; /* positioning box for the floating chapter buttons (ChapterNav) */
   flex-direction: column;
   min-height: 0;
   /* Without this a flex item can't shrink below its content's min width.
