@@ -10,7 +10,10 @@ import {
   loadConcordance,
   loadBook,
   decodeVid,
+  loadGreekForms,
+  loadGreekNT,
 } from "../../js/data.js";
+import { translitGreek } from "../../js/greekTranslit.js";
 import { normalizeStrong } from "../../js/strongsCode.js";
 import { renderingOf } from "../../js/renderings.js";
 import "../StrongsPanel/StrongsPanel.css"; // same panel frame as the Strong's panel
@@ -24,7 +27,7 @@ const T = {
     title: "Hebrew & Greek Lexicon",
     placeholder: "Search a word, transliteration, or Strong's Number",
     hint: (b) =>
-      `Searches every Greek and Hebrew word tagged in the ${b}: the original word (ἐκκλησία), its transliteration (ekklesia), its Strong's number (G1577), or how the ${b} translates it (church).`,
+      `Searches every Greek and Hebrew word tagged in the ${b}: the original word (ἐκκλησία), its transliteration (ekklesia), its Strong's number (G1577), or how the ${b} translates it (church). Greek words are also found in any form they take in the New Testament (μία, mia → εἷς).`,
     bible: "Bible",
     word: "Word",
     translit: "Transliteration",
@@ -49,12 +52,17 @@ const T = {
     unfilter: "Show every rendering again",
     filteredBy: (w) => `Only verses where it is translated “${w}”.`,
     showAll: "Show all renderings",
+    form: "form",
+    forms: "Forms in the Greek New Testament (KJTR)",
+    formBy: (w) => `Show only the verses where the Greek reads “${w}”`,
+    formFiltered: (w) => `Only verses where the Greek reads “${w}”.`,
+    showAllForms: "Show every form again",
   },
   es: {
     title: "Léxico hebreo y griego",
     placeholder: "Buscar una palabra, transliteración o número Strong",
     hint: (b) =>
-      `Busca en todas las palabras griegas y hebreas etiquetadas en la ${b}: la palabra original (ἐκκλησία), su transliteración (ekklesia), su número Strong (G1577), o cómo la traduce la ${b} (iglesia).`,
+      `Busca en todas las palabras griegas y hebreas etiquetadas en la ${b}: la palabra original (ἐκκλησία), su transliteración (ekklesia), su número Strong (G1577), o cómo la traduce la ${b} (iglesia). Las palabras griegas también se encuentran en cualquier forma que tengan en el Nuevo Testamento (μία, mia → εἷς).`,
     bible: "Biblia",
     word: "Palabra",
     translit: "Transliteración",
@@ -79,6 +87,11 @@ const T = {
     unfilter: "Volver a mostrar todas las traducciones",
     filteredBy: (w) => `Solo versículos donde se traduce «${w}».`,
     showAll: "Mostrar todas las traducciones",
+    form: "forma",
+    forms: "Formas en el Nuevo Testamento griego (KJTR)",
+    formBy: (w) => `Mostrar solo los versículos donde el griego dice «${w}»`,
+    formFiltered: (w) => `Solo versículos donde el griego dice «${w}».`,
+    showAllForms: "Volver a mostrar todas las formas",
   },
 };
 
@@ -147,12 +160,17 @@ export default function LexiconPanel({ lang = "en", onClose, onJump }) {
   const [index, setIndex] = useState(null);
   const [rend, setRend] = useState({}); // "greek" | "hebrew" -> renderings of `source`
   const [code, setCode] = useState(null); // word page open
+  const [openForm, setOpenForm] = useState(null); // Greek form the word page starts filtered by
+  const [forms, setForms] = useState(null); // { "G1520": [["εἷς",98],["μία",17],…] }
   const inputRef = useRef(null);
   const panelRef = useRef(null);
 
   useEffect(() => {
     let alive = true;
     loadLexiconIndex().then((rows) => alive && setIndex(rows));
+    loadGreekForms()
+      .then((f) => alive && setForms(f))
+      .catch(() => alive && setForms({}));
     return () => {
       alive = false;
     };
@@ -192,6 +210,14 @@ export default function LexiconPanel({ lang = "en", onClose, onJump }) {
     [index],
   );
 
+  // Every Greek form of the New Testament, folded and transliterated: μία -> "μια", "mia".
+  const foldedForms = useMemo(() => {
+    const out = [];
+    for (const [c, list] of Object.entries(forms || {}))
+      for (const [form] of list) out.push({ c, form, f: fold(form), ft: fold(translitGreek(form)) });
+    return out;
+  }, [forms]);
+
   // Translation word -> numbers it renders, with how often: "church" -> [["G1577",79],["H6951",…]].
   const byWord = useMemo(() => {
     const m = new Map();
@@ -221,12 +247,22 @@ export default function LexiconPanel({ lang = "en", onClose, onJump }) {
     const q = fold(raw);
     if (!q) return { results: [], total: 0 };
     const scored = new Map(); // code -> score (lower = better)
+    const formOf = new Map(); // code -> the Greek form that matched (μία for "mia")
     for (const r of folded) {
       let s = null;
       if (r.fgr === q || r.ftr === q) s = 0;
       else if (r.fgr.startsWith(q) || r.ftr.startsWith(q)) s = 1;
       else if (q.length > 2 && (r.fgr.includes(q) || r.ftr.includes(q))) s = 3;
       if (s !== null) scored.set(r.c, s);
+    }
+    // Any form of a Greek word in the New Testament: "mia", "μία", "hen" -> G1520 (εἷς).
+    for (const r of foldedForms) {
+      let s = null;
+      if (r.f === q || r.ft === q) s = 0.5;
+      else if (q.length > 2 && (r.f.startsWith(q) || r.ft.startsWith(q))) s = 1.5;
+      if (s === null) continue;
+      if (!scored.has(r.c) || scored.get(r.c) > s) scored.set(r.c, s);
+      if (s === 0.5 && !formOf.has(r.c)) formOf.set(r.c, r.form);
     }
     // How the chosen Bible translates it: "church" finds G1577 and H6951.
     const rq = plain(raw);
@@ -240,9 +276,18 @@ export default function LexiconPanel({ lang = "en", onClose, onJump }) {
     const list = [...scored]
       .filter(([c]) => byCode.has(c))
       .sort((a, b) => a[1] - b[1] || a[0].localeCompare(b[0]))
-      .map(([c]) => byCode.get(c));
+      .map(([c]) => {
+        const r = byCode.get(c);
+        // show the matched form only when it isn't the dictionary form itself
+        const form = formOf.get(c);
+        return form && fold(form) !== r.fgr ? { ...r, form } : r;
+      });
     return { results: list.slice(0, MAX_RESULTS), total: list.length };
-  }, [query, index, folded, byWord]);
+  }, [query, index, folded, byWord, foldedForms]);
+  const openWord = (r) => {
+    setOpenForm(r.form || null);
+    setCode(r.c);
+  };
 
   return (
     <aside className="strongs-panel lexicon-panel" role="dialog" aria-label={t.title} ref={panelRef}>
@@ -257,6 +302,8 @@ export default function LexiconPanel({ lang = "en", onClose, onJump }) {
           source={source}
           bibleLabel={bibleLabel}
           renderings={rend[langOf(code)]?.[code]}
+          forms={forms?.[code]}
+          startForm={openForm}
           lang={lang}
           t={t}
           onBack={() => setCode(null)}
@@ -310,8 +357,8 @@ export default function LexiconPanel({ lang = "en", onClose, onJump }) {
                     <tr
                       key={r.c}
                       tabIndex={0}
-                      onClick={() => setCode(r.c)}
-                      onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && (e.preventDefault(), setCode(r.c))}
+                      onClick={() => openWord(r)}
+                      onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && (e.preventDefault(), openWord(r))}
                     >
                       <td
                         className={r.c[0] === "H" ? "lex-orig hebrew" : "lex-orig"}
@@ -319,6 +366,11 @@ export default function LexiconPanel({ lang = "en", onClose, onJump }) {
                         dir={r.c[0] === "H" ? "rtl" : undefined}
                       >
                         {r.gr}
+                        {r.form && (
+                          <span className="lex-form" lang="grc">
+                            {t.form}: {r.form} <i lang="en">({translitGreek(r.form)})</i>
+                          </span>
+                        )}
                         {/* narrow phones: the transliteration column folds in here */}
                         <span className="lex-tr-inline" dir="ltr">{r.tr}</span>
                       </td>
@@ -342,7 +394,7 @@ export default function LexiconPanel({ lang = "en", onClose, onJump }) {
 
 /** One word: original, transliteration, number + language, definition, how the
  *  chosen Bible renders it, and every verse it occurs in (filter by book; tap to go). */
-function WordPage({ code, source, bibleLabel, renderings, lang, t, onBack, onJump }) {
+function WordPage({ code, source, bibleLabel, renderings, forms, startForm, lang, t, onBack, onJump }) {
   const [entry, setEntry] = useState(undefined);
   const [refs, setRefs] = useState(null);
   const [book, setBook] = useState(null);
@@ -350,6 +402,8 @@ function WordPage({ code, source, bibleLabel, renderings, lang, t, onBack, onJum
   const [rows, setRows] = useState(null);
   const [word, setWord] = useState(null); // rendering filter, e.g. "one"
   const [wordRefs, setWordRefs] = useState(null); // verses where it is rendered that way
+  const [gform, setGform] = useState(startForm || null); // Greek form filter, e.g. "μία"
+  const [formRefs, setFormRefs] = useState(null); // verses where the Greek has that form
   const isHeb = code[0] === "H";
 
   // Rendering filter: read the books this number occurs in and keep the verses
@@ -376,7 +430,44 @@ function WordPage({ code, source, bibleLabel, renderings, lang, t, onBack, onJum
     };
   }, [word, refs, source, code]);
 
+  // Greek form filter: read the Greek of the books this number occurs in and keep
+  // the verses where it has this form (New Testament only).
+  useEffect(() => {
+    if (!gform || !refs) return;
+    let alive = true;
+    const want = fold(gform);
+    const nums = [...new Set(refs.map((v) => Math.floor(v / 1_000_000)))].filter((n) => n >= 40);
+    Promise.all(nums.map((n) => loadGreekNT(n).then((d) => [n, d])))
+      .then((pairs) => {
+        if (!alive) return;
+        const data = new Map(pairs);
+        setFormRefs(
+          refs.filter((vid) => {
+            const { n, c, v } = decodeVid(vid);
+            const words = data.get(n)?.w?.[c]?.[v - 1] || [];
+            return words.some(([w, wc]) => wc === code && fold(w.replace(/[^\p{L}\p{M}]/gu, "")) === want);
+          }),
+        );
+      })
+      .catch(() => alive && setFormRefs([]));
+    return () => {
+      alive = false;
+    };
+  }, [gform, refs, code]);
+
+  const pickForm = (f) => {
+    setGform((cur) => (cur === f ? null : f)); // tap again to clear
+    setFormRefs(null);
+    setWord(null);
+    setWordRefs(null);
+    setBook(null);
+    setCount(CHUNK);
+    setRows(null);
+  };
+
   const pickWord = (w) => {
+    setGform(null);
+    setFormRefs(null);
     setWord((cur) => (cur === w ? null : w)); // tap again to clear
     setWordRefs(null);
     setBook(null);
@@ -384,7 +475,7 @@ function WordPage({ code, source, bibleLabel, renderings, lang, t, onBack, onJum
     setRows(null);
   };
   // the verses the book chart and the list work from
-  const base = word ? wordRefs : refs;
+  const base = word ? wordRefs : gform ? formRefs : refs;
 
   useEffect(() => {
     let alive = true;
@@ -510,6 +601,29 @@ function WordPage({ code, source, bibleLabel, renderings, lang, t, onBack, onJum
         </>
       )}
 
+      {forms?.length > 0 && (
+        <>
+          <h4 className="strongs-sub">{t.forms}</h4>
+          <Clamp lines={3} t={t}>
+            {forms.map(([f, n], i) => (
+              <span key={f}>
+                {i > 0 && ", "}
+                <button
+                  type="button"
+                  lang="grc"
+                  className={gform === f ? "lexicon-chip greek on" : "lexicon-chip greek"}
+                  aria-pressed={gform === f}
+                  title={gform === f ? t.showAllForms : t.formBy(f)}
+                  onClick={() => pickForm(f)}
+                >
+                  {f} <i lang="en">{translitGreek(f)}</i> ({n})
+                </button>
+              </span>
+            ))}
+          </Clamp>
+        </>
+      )}
+
       <h4 className="strongs-sub">
         {t.occurrences}
         {base ? ` (${book ? `${filtered.length} / ` : ""}${base.length})` : ""}
@@ -522,7 +636,15 @@ function WordPage({ code, source, bibleLabel, renderings, lang, t, onBack, onJum
           </button>
         </p>
       )}
-      {refs === null || (word && wordRefs === null) ? (
+      {gform && (
+        <p className="lexicon-filter">
+          {t.formFiltered(gform)}{" "}
+          <button type="button" className="lexicon-expand" onClick={() => pickForm(gform)}>
+            {t.showAllForms}
+          </button>
+        </p>
+      )}
+      {refs === null || (word && wordRefs === null) || (gform && formRefs === null) ? (
         <p className="dim">{t.loading}</p>
       ) : base.length === 0 ? (
         <p className="dim">{t.noOcc}</p>

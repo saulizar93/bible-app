@@ -117,6 +117,9 @@ function packFiles(opt) {
       files.push(SRC.strongs("hebrew", s), SRC.concord(`${c}hebrew`, s));
     // Hebrew & Greek Lexicon search works offline too.
     files.push(SRC.strongsIndex(), SRC.renderings(c, "greek"), SRC.renderings(c, "hebrew"));
+    // Greek New Testament: the interlinear and search by Greek form.
+    files.push(SRC.greekForms());
+    for (let n = 40; n <= 66; n++) files.push(SRC.greekNT(n));
   }
   return files;
 }

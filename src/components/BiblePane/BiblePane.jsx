@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { byId } from "../../js/books.js";
-import { loadBook, optionFor, noteLabelFor } from "../../js/data.js";
+import { loadBook, optionFor, noteLabelFor, loadGreekNT, GREEK_NT_CREDIT } from "../../js/data.js";
+import Interlinear from "../Interlinear/Interlinear.jsx";
 import { normalizeStrong } from "../../js/strongsCode.js";
 import "./BiblePane.css";
 import { scrollToVerse } from "../../js/scrollToVerse.js";
@@ -15,8 +16,14 @@ export default function BiblePane({
   onWordClick,
   onVerseClick,
   onVerseToggle,
+  greekVerses, // Set of verse numbers showing their Greek underneath (New Testament)
+  onCloseGreek, // (verse) => hide that verse's Greek
+  uiLang = "en",
 }) {
   const [book, setBook] = useState(null);
+  const [greek, setGreek] = useState(null); // { n, w } KJTR book, loaded when first needed
+  const bookNum = byId[refPos.book].n;
+  const wantGreek = greekVerses?.size > 0 && bookNum >= 40;
   const [error, setError] = useState(null);
   // Translator notes (`n` on a token, e.g. RVO): verses whose note box is open
   const [openNotes, setOpenNotes] = useState(() => new Set());
@@ -47,6 +54,18 @@ export default function BiblePane({
       alive = false;
     };
   }, [code, refPos.book, refPos.chapter]);
+
+  useEffect(() => {
+    if (!wantGreek || greek?.n === bookNum) return;
+    let alive = true;
+    loadGreekNT(bookNum)
+      .then((g) => alive && setGreek({ n: bookNum, w: g?.w || {} }))
+      .catch(() => alive && setGreek({ n: bookNum, w: {} }));
+    return () => {
+      alive = false;
+    };
+  }, [wantGreek, bookNum, greek?.n]);
+  const greekChapter = wantGreek && greek?.n === bookNum ? greek.w[refPos.chapter] || [] : null;
 
   const verses = book?.v[refPos.chapter];
   const tokensByVerse = strongsOn ? book?.w?.[refPos.chapter] : null;
@@ -141,6 +160,15 @@ export default function BiblePane({
           ? renderTokens(tokens, onWordClick, mark, italics)
           : (italics && renderItalics(allTokens?.[i], text)) || text}
         {!tokens && notes.length > 0 && mark("tn-end", true)}
+        {greekChapter && greekVerses.has(i + 1) && (
+          <Interlinear
+            words={greekChapter[i]}
+            tokens={allTokens?.[i]}
+            lang={uiLang}
+            onWordClick={onWordClick}
+            onClose={() => onCloseGreek?.(i + 1)}
+          />
+        )}
         {notes.length > 0 && openNotes.has(i + 1) && (
           <span className="tn-box" onClick={(e) => e.stopPropagation()}>
             <span className="tn-label">{noteLabel}:</span>{" "}
@@ -155,6 +183,7 @@ export default function BiblePane({
     <>
       {verseEls}
       {copyright && <p className="pane-copyright">{copyright}</p>}
+      {greekChapter && <p className="pane-copyright">{GREEK_NT_CREDIT[uiLang] || GREEK_NT_CREDIT.en}</p>}
     </>
   );
 }

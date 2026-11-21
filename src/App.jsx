@@ -87,6 +87,9 @@ export default function App() {
     verses: new Set(),
   });
 
+  // Verses showing their Greek underneath (Interlinear), in one pane of one chapter.
+  const [greek, setGreek] = useState({ key: "", source: null, verses: new Set() });
+
   const [query, setQuery] = useState("");
   const [open, setOpen] = useState(false);
   const [strongsOn, setStrongsOn] = useState(false);
@@ -303,6 +306,30 @@ export default function App() {
     });
   }, []);
 
+  const chapterKey = `${refPos.book}:${refPos.chapter}`;
+  const greekFor = (code) =>
+    greek.key === chapterKey && greek.source === code ? greek.verses : undefined;
+  // Selection bar "Greek": show the Greek of the selected verses (or hide it
+  // again if they all show it already), then clear the selection.
+  const toggleGreek = useCallback(() => {
+    const { source, verses } = verseSelection;
+    setGreek((prev) => {
+      const cur = prev.key === chapterKey && prev.source === source ? prev.verses : new Set();
+      const next = new Set(cur);
+      const allShown = [...verses].every((v) => cur.has(v));
+      for (const v of verses) allShown ? next.delete(v) : next.add(v);
+      return { key: chapterKey, source, verses: next };
+    });
+    setVerseSelection({ source: null, verses: new Set() });
+  }, [verseSelection, chapterKey]);
+  const closeGreek = useCallback((verse) => {
+    setGreek((prev) => {
+      const next = new Set(prev.verses);
+      next.delete(verse);
+      return { ...prev, verses: next };
+    });
+  }, []);
+
   const copySelectedVerses = useCallback(async () => {
     const { source, verses } = verseSelection;
 
@@ -508,6 +535,8 @@ export default function App() {
             }}
             onVerseClick={selectVerse}
             onVerseToggle={(verse) => toggleVerse(top, verse)}
+            greekVerses={greekFor(top)}
+            onCloseGreek={closeGreek}
             onGo={go}
             onClearHighlight={() =>
               setRefPos((prev) => ({ ...prev, verse: null }))
@@ -538,6 +567,8 @@ export default function App() {
             }}
             onVerseClick={selectVerse}
             onVerseToggle={(verse) => toggleVerse(bottom, verse)}
+            greekVerses={greekFor(bottom)}
+            onCloseGreek={closeGreek}
             onGo={go}
             onClearHighlight={() =>
               setRefPos((prev) => ({ ...prev, verse: null }))
@@ -599,6 +630,12 @@ export default function App() {
           onCompare={
             optionFor(verseSelection.source)?.kind === "bible"
               ? () => setCompareOpen(true)
+              : undefined
+          }
+          onGreek={
+            // New Testament, in a Bible pane: show the Greek of the selected verses
+            optionFor(verseSelection.source)?.kind === "bible" && byId[refPos.book]?.n >= 40
+              ? toggleGreek
               : undefined
           }
           onClear={() => setVerseSelection({ source: null, verses: new Set() })}

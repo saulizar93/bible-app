@@ -328,6 +328,10 @@ export const SRC = {
   // and transliteration; and per tagged Bible, how it renders each number.
   strongsIndex: () => entry("strongs", "index"),
   renderings: (dir, lang) => entry("concord", `${dir}${lang}/renderings`),
+  // Greek New Testament (KJTR, scripts/build-kjtr.mjs): the interlinear and the
+  // lexicon's search by inflected form. Part of the lexicon pack.
+  greekNT: (n) => entry("strongs", `kjtr/${n}`),
+  greekForms: () => entry("strongs", "kjtr/forms"),
 };
 
 /** Delete stored copies of files that have a newer version stored, and of files
@@ -437,6 +441,25 @@ export async function loadRenderings(lang, source) {
   const dir = optionFor(source)?.concord ?? optionFor(strongsSourceCode())?.concord ?? "";
   return (await cachedFetch(...SRC.renderings(dir, lang))) || {};
 }
+
+/** Greek words of one New Testament book, per chapter and verse:
+ *  { b, w: { "1": [ [ ["Βίβλος","G976","N-NSF","βίβλος"], … ], … ] } }
+ *  (word as printed, Strong's number, Robinson parsing, dictionary form).
+ *  null for the Old Testament. */
+export const loadGreekNT = (bookNum) =>
+  bookNum >= 40 && bookNum <= 66 ? cachedFetch(...SRC.greekNT(bookNum)) : Promise.resolve(null);
+
+/** Every form of each Greek number in the New Testament, most frequent first:
+ *  { "G1520": [["εἷς",98],["ἕν",66],["μία",17], …], … }. */
+export async function loadGreekForms() {
+  return (await cachedFetch(...SRC.greekForms())) || {};
+}
+
+/** Credit line for the Greek text (CC BY 4.0 asks for it wherever it is shown). */
+export const GREEK_NT_CREDIT = {
+  en: "Greek: King James Textus Receptus (KJTR), ed. Alan Bunning, Center for New Testament Restoration, 2014 (CC BY 4.0).",
+  es: "Griego: King James Textus Receptus (KJTR), ed. Alan Bunning, Center for New Testament Restoration, 2014 (CC BY 4.0).",
+};
 
 /** Wipe everything this app has stored on the device — the IndexedDB cache of
  *  Bible chapters, notes and lexicon shards, the offline cache of the app

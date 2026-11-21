@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import "./SelectionBar.css";
 
 const T = {
-  en: { one: "verse selected", many: "verses selected", copy: "Copy", copied: "Copied", compare: "Compare", clear: "Clear selection" },
-  es: { one: "versículo seleccionado", many: "versículos seleccionados", copy: "Copiar", copied: "Copiado", compare: "Comparar", clear: "Borrar selección" },
+  en: { one: "verse selected", many: "verses selected", copy: "Copy", copied: "Copied", compare: "Compare", greek: "Greek", greekTitle: "Show the Greek of the selected verses", clear: "Clear selection" },
+  es: { one: "versículo seleccionado", many: "versículos seleccionados", copy: "Copiar", copied: "Copiado", compare: "Comparar", greek: "Griego", greekTitle: "Mostrar el griego de los versículos seleccionados", clear: "Borrar selección" },
 };
 
 /**
@@ -12,7 +12,7 @@ const T = {
  * changes (add/remove a verse, switch source, clear selection), so nothing
  * outside this component needs to know or care that the label is temporary.
  */
-export default function SelectionBar({ count, selectionKey, onCopy, onCompare, onClear, lang = "en" }) {
+export default function SelectionBar({ count, selectionKey, onCopy, onCompare, onGreek, onClear, lang = "en" }) {
   const t = T[lang] || T.en;
   const [copied, setCopied] = useState(false);
 
@@ -39,6 +39,12 @@ export default function SelectionBar({ count, selectionKey, onCopy, onCompare, o
       <button onClick={handleCopy}>{copied ? t.copied : t.copy}</button>
 
       {onCompare && <button onClick={onCompare}>{t.compare}</button>}
+
+      {onGreek && (
+        <button onClick={onGreek} title={t.greekTitle}>
+          {t.greek}
+        </button>
+      )}
 
       <button
         className="selection-close"

@@ -235,3 +235,21 @@
 .lexicon-filter .lexicon-expand {
   margin: 0 0 0 6px;
 }
+
+/* Greek form that matched the search (μία for "mia"), under the dictionary form */
+.lex-form {
+  display: block;
+  margin-top: 2px;
+  font: 13px/1.3 "SBL Greek", "Gentium Plus", "Times New Roman", serif;
+  color: var(--dim);
+}
+.lex-form i {
+  font: italic 12px ui-sans-serif, system-ui, sans-serif;
+}
+.lexicon-chip.greek {
+  font-family: "SBL Greek", "Gentium Plus", "Times New Roman", serif;
+}
+.lexicon-chip.greek i {
+  font: italic 0.85em ui-sans-serif, system-ui, sans-serif;
+  color: var(--dim);
+}

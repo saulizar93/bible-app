@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20",
+ "updated": "2026-11-21",
  "packs": {
   "bible:bsb": {
    "v": 1,
@@ -18,8 +18,8 @@
    "sig": "aef8e0b7fa2c"
   },
   "bible:kjv-strong": {
-   "v": 1,
-   "sig": "35e01bf74484"
+   "v": 2,
+   "sig": "32a79abc5cc9"
   },
   "bible:lsv-strong": {
    "v": 1,
@@ -42,8 +42,8 @@
    "sig": "2e8aefa115aa"
   },
   "bible:rvg-strong": {
-   "v": 3,
-   "sig": "b7474686b9d6"
+   "v": 4,
+   "sig": "6bcc61ae8073"
   },
   "bible:rvo-strong": {
    "v": 4,
@@ -74,8 +74,8 @@
    "sig": "0832b355032c"
   },
   "concord:rvg-strong": {
-   "v": 4,
-   "sig": "c305e73e97d1"
+   "v": 5,
+   "sig": "4cc296793a9a"
   },
   "concord:rvo-strong": {
    "v": 3,
@@ -86,8 +86,8 @@
    "sig": "1f639a339247"
   },
   "lexicon": {
-   "v": 3,
-   "sig": "9609707b5e41"
+   "v": 4,
+   "sig": "72d66e96582a"
   },
   "notes:en": {
    "v": 1,
@@ -331,7 +331,7 @@
   "bibles/kjv-strong/38.json": "d231a5d05f",
   "bibles/kjv-strong/39.json": "0f6930cc08",
   "bibles/kjv-strong/4.json": "ef055c4bb8",
-  "bibles/kjv-strong/40.json": "8926bcc3c4",
+  "bibles/kjv-strong/40.json": "968c906cc6",
   "bibles/kjv-strong/41.json": "c08673abe9",
   "bibles/kjv-strong/42.json": "36fe124c7b",
   "bibles/kjv-strong/43.json": "29fac8d72d",
@@ -793,9 +793,9 @@
   "bibles/rvg-strong/38.json": "c8f8cbed42",
   "bibles/rvg-strong/39.json": "f6828d98d2",
   "bibles/rvg-strong/4.json": "75e2313c58",
-  "bibles/rvg-strong/40.json": "588c0e7340",
-  "bibles/rvg-strong/41.json": "17030cb68c",
-  "bibles/rvg-strong/42.json": "f617cbd34d",
+  "bibles/rvg-strong/40.json": "cf9f0acbf5",
+  "bibles/rvg-strong/41.json": "1cbdff7c2a",
+  "bibles/rvg-strong/42.json": "ce8c26edee",
   "bibles/rvg-strong/43.json": "0658e31c81",
   "bibles/rvg-strong/44.json": "64adf44a6f",
   "bibles/rvg-strong/45.json": "69d1dd2f4b",
@@ -821,7 +821,7 @@
   "bibles/rvg-strong/63.json": "2fc54e4b5e",
   "bibles/rvg-strong/64.json": "db50e2d5f9",
   "bibles/rvg-strong/65.json": "30dd090912",
-  "bibles/rvg-strong/66.json": "8f244069d1",
+  "bibles/rvg-strong/66.json": "05d40db7af",
   "bibles/rvg-strong/7.json": "97216dead3",
   "bibles/rvg-strong/8.json": "7be438d029",
   "bibles/rvg-strong/9.json": "c2c6b0b217",
@@ -1110,6 +1110,34 @@
   "strongs/hebrew/8001.json": "5529d8f788",
   "strongs/hebrew/8501.json": "a8063f1fe9",
   "strongs/index.json": "63aed6214b",
+  "strongs/kjtr/40.json": "a0bdc2841c",
+  "strongs/kjtr/41.json": "dab1fdbf67",
+  "strongs/kjtr/42.json": "42defb9b40",
+  "strongs/kjtr/43.json": "7fd4b6b5c6",
+  "strongs/kjtr/44.json": "28dd42cb3f",
+  "strongs/kjtr/45.json": "371f687658",
+  "strongs/kjtr/46.json": "a2806299c0",
+  "strongs/kjtr/47.json": "cd31cf0fab",
+  "strongs/kjtr/48.json": "497dd045fb",
+  "strongs/kjtr/49.json": "010fb370e7",
+  "strongs/kjtr/50.json": "61300d26b5",
+  "strongs/kjtr/51.json": "152b1c24d5",
+  "strongs/kjtr/52.json": "4982ffe787",
+  "strongs/kjtr/53.json": "af829459b4",
+  "strongs/kjtr/54.json": "43b3d7341f",
+  "strongs/kjtr/55.json": "9a575cf4ec",
+  "strongs/kjtr/56.json": "9408e19d8f",
+  "strongs/kjtr/57.json": "5ff2aa5372",
+  "strongs/kjtr/58.json": "6d9d824ef8",
+  "strongs/kjtr/59.json": "39df8c4967",
+  "strongs/kjtr/60.json": "0f84f77904",
+  "strongs/kjtr/61.json": "99e4b25b28",
+  "strongs/kjtr/62.json": "8714f4751e",
+  "strongs/kjtr/63.json": "f496e65c00",
+  "strongs/kjtr/64.json": "b7081086a9",
+  "strongs/kjtr/65.json": "f40a0aded2",
+  "strongs/kjtr/66.json": "b6e6ba30ae",
+  "strongs/kjtr/forms.json": "0118c6b2a1",
   "concord/bsb-strong/greek/1.json": "787c05b921",
   "concord/bsb-strong/greek/1001.json": "b5011f496e",
   "concord/bsb-strong/greek/1501.json": "c46a1b73d6",
@@ -1253,7 +1281,7 @@
   "concord/rvg-strong/greek/5001.json": "ecc3a1e83c",
   "concord/rvg-strong/greek/501.json": "cec56838c1",
   "concord/rvg-strong/greek/5501.json": "2d6fc53220",
-  "concord/rvg-strong/greek/renderings.json": "7dfd7f0502",
+  "concord/rvg-strong/greek/renderings.json": "13cb1ce361",
   "concord/rvg-strong/hebrew/1.json": "81906da436",
   "concord/rvg-strong/hebrew/1001.json": "f752d2c385",
   "concord/rvg-strong/hebrew/1501.json": "ceeb61dd33",

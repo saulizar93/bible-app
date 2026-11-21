@@ -18,6 +18,8 @@ export default function PaneSlot({
   onVerseToggle,
   onClearHighlight,
   onGo, // go to a passage (references in the notes)
+  greekVerses, // verses showing their Greek (Interlinear)
+  onCloseGreek,
 }) {
   const opt = optionFor(code) || PANE_OPTIONS[0];
   const scroller = useRef(null);
@@ -102,6 +104,9 @@ export default function PaneSlot({
             onWordClick={onWordClick}
             onVerseClick={onVerseClick}
             onVerseToggle={onVerseToggle}
+            greekVerses={greekVerses}
+            onCloseGreek={onCloseGreek}
+            uiLang={es ? "es" : "en"}
           />
         ) : (
           <NotesPane

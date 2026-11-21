@@ -136,6 +136,15 @@ Each chapter has the plain text of every verse (`v`) and, in tagged Bibles, the 
    Run `node scripts/build-lexicon-search.mjs` with no name after editing the lexicon's Greek/Hebrew
    words or transliterations (it rewrites `public/data/strongs/index.json`).
 
+   The Greek New Testament (interlinear under a verse, and the lexicon's search by any Greek form,
+   e.g. "mia" → εἷς) comes from the King James Textus Receptus (KJTR, Alan Bunning, CNTR, CC BY 4.0,
+   https://github.com/Center-for-New-Testament-Restoration/KJTR). To rebuild
+   `public/data/strongs/kjtr/` from its `KJTR.tsv`:
+
+   ```bash
+   node scripts/build-kjtr.mjs path/to/KJTR-main/KJTR.tsv   # default: ~/Downloads/KJTR-main/KJTR.tsv
+   ```
+
 2. Run `npm run dev` or `npm run build` once so `public/data/manifest.json` is updated, and commit it with your change (section 6).
 3. Add a line to `docs/AI-LOG.md` saying what you changed and why.
 
