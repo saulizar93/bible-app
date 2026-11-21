@@ -25,6 +25,10 @@ export default function BiblePane({
   const bookNum = byId[refPos.book].n;
   const isOT = bookNum <= 39;
   const wantGreek = greekVerses?.size > 0;
+  // The interlinear's English/Spanish words always come from one Bible per language,
+  // whatever this pane shows: the KJV for English panes, the RVG for Spanish ones.
+  const glossCode = optionFor(code)?.lang === "es" ? "rvg-strong" : "kjv-strong";
+  const [gloss, setGloss] = useState(null); // { key, w } tokens of that Bible's book
   const [error, setError] = useState(null);
   // Translator notes (`n` on a token, e.g. RVO): verses whose note box is open
   const [openNotes, setOpenNotes] = useState(() => new Set());
@@ -66,6 +70,17 @@ export default function BiblePane({
       alive = false;
     };
   }, [wantGreek, bookNum, greek?.n]);
+  const glossKey = `${glossCode}/${bookNum}`;
+  useEffect(() => {
+    if (!wantGreek || glossCode === code || gloss?.key === glossKey) return;
+    let alive = true;
+    loadBook(glossCode, bookNum)
+      .then((b) => alive && setGloss({ key: glossKey, w: b?.w || {} }))
+      .catch(() => alive && setGloss({ key: glossKey, w: {} }));
+    return () => {
+      alive = false;
+    };
+  }, [wantGreek, glossCode, code, bookNum, glossKey, gloss?.key]);
   const greekChapter = wantGreek && greek?.n === bookNum ? greek.w[refPos.chapter] || [] : null;
 
   const verses = book?.v[refPos.chapter];
@@ -164,7 +179,14 @@ export default function BiblePane({
         {greekChapter && greekVerses.has(i + 1) && (
           <Interlinear
             words={greekChapter[i]}
-            tokens={allTokens?.[i]}
+            tokens={
+              glossCode === code
+                ? allTokens?.[i]
+                : gloss?.key === glossKey
+                  ? gloss.w[refPos.chapter]?.[i]
+                  : undefined
+            }
+            glossLabel={glossCode === "rvg-strong" ? "RVG" : "KJV"}
             hebrew={isOT}
             lang={uiLang}
             onWordClick={onWordClick}

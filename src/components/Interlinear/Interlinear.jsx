@@ -21,8 +21,9 @@ const T = {
 const bare = (w) => w.replace(/[^\p{L}\p{M}]/gu, "");
 const trimPunct = (w) => w.replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu, "");
 
-/** For each original word, the pane's word tagged with the same Strong's number, in
- *  order ("The book" for βίβλος in the KJV, "El libro" in the RVG). */
+/** For each original word, the word tagged with the same Strong's number in the
+ *  gloss Bible (KJV for English panes, RVG for Spanish ones), in order:
+ *  "The book" for βίβλος in the KJV, "libro" in the RVG. */
 function glosses(words, tokens) {
   const queue = new Map();
   for (const tok of tokens || []) {
@@ -36,12 +37,13 @@ function glosses(words, tokens) {
 
 /**
  * The Greek (New Testament) or Hebrew (Old Testament) of one verse under it, word
- * by word: the original word, its transliteration, the word of this Bible tagged
- * with the same number, and the Strong's number with the parsing. Hebrew runs right
+ * by word: the original word, its transliteration, the word the KJV (English panes)
+ * or RVG (Spanish panes) tags with the same number, whatever Bible the pane shows,
+ * and the Strong's number with the parsing. Hebrew runs right
  * to left. Tapping a word opens its definition (same panel as a tagged word of the
  * Bible). Spans only: it sits inside the verse's <p>.
  */
-export default function Interlinear({ words, tokens, hebrew = false, lang = "en", onWordClick, onClose }) {
+export default function Interlinear({ words, tokens, glossLabel, hebrew = false, lang = "en", onWordClick, onClose }) {
   const t = T[lang] || T.en;
   const gl = words ? glosses(words, tokens) : [];
   const translit = hebrew ? translitHebrew : translitGreek;
@@ -52,7 +54,10 @@ export default function Interlinear({ words, tokens, hebrew = false, lang = "en"
       onClick={(e) => e.stopPropagation()}
     >
       <span className="il-head" lang={lang}>
-        <span className="il-title">{hebrew ? t.hebrew : t.greek}</span>
+        <span className="il-title">
+          {hebrew ? t.hebrew : t.greek}
+          {glossLabel ? ` · ${glossLabel}` : ""}
+        </span>
         <button type="button" className="il-close" aria-label={t.close(hebrew)} title={t.close(hebrew)} onClick={onClose}>
           ×
         </button>
