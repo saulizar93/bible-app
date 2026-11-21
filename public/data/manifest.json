@@ -86,8 +86,8 @@
    "sig": "1f639a339247"
   },
   "lexicon": {
-   "v": 5,
-   "sig": "0658d5b505fd"
+   "v": 6,
+   "sig": "519bef312202"
   },
   "notes:en": {
    "v": 1,
@@ -1103,7 +1103,7 @@
   "strongs/hebrew/5001.json": "64ffebf052",
   "strongs/hebrew/501.json": "54bd767690",
   "strongs/hebrew/5501.json": "c4f0ebdf61",
-  "strongs/hebrew/6001.json": "057821954c",
+  "strongs/hebrew/6001.json": "ffce4a222e",
   "strongs/hebrew/6501.json": "0516be695f",
   "strongs/hebrew/7001.json": "15207d038a",
   "strongs/hebrew/7501.json": "94428e3154",
