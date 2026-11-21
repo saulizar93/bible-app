@@ -84,3 +84,12 @@ button.il-word:focus-visible {
   font: 12.5px ui-sans-serif, system-ui, sans-serif;
   color: var(--dim);
 }
+
+/* Hebrew: words run right to left, each column aligned to the right */
+.interlinear.hebrew .il-word {
+  align-items: flex-end;
+  text-align: right;
+}
+.interlinear.hebrew .il-gr {
+  font: 1.2em/1.35 "SBL Hebrew", "Ezra SIL", "Times New Roman", serif;
+}

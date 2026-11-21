@@ -120,6 +120,9 @@ function packFiles(opt) {
     // Greek New Testament: the interlinear and search by Greek form.
     files.push(SRC.greekForms());
     for (let n = 40; n <= 66; n++) files.push(SRC.greekNT(n));
+    // Hebrew Old Testament, the same.
+    files.push(SRC.hebrewForms());
+    for (let n = 1; n <= 39; n++) files.push(SRC.hebrewOT(n));
   }
   return files;
 }

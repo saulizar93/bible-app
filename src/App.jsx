@@ -87,7 +87,7 @@ export default function App() {
     verses: new Set(),
   });
 
-  // Verses showing their Greek underneath (Interlinear), in one pane of one chapter.
+  // Verses showing their Hebrew/Greek underneath (Interlinear), in one pane of one chapter.
   const [greek, setGreek] = useState({ key: "", source: null, verses: new Set() });
 
   const [query, setQuery] = useState("");
@@ -309,7 +309,7 @@ export default function App() {
   const chapterKey = `${refPos.book}:${refPos.chapter}`;
   const greekFor = (code) =>
     greek.key === chapterKey && greek.source === code ? greek.verses : undefined;
-  // Selection bar "Greek": show the Greek of the selected verses (or hide it
+  // Selection bar "Hebrew"/"Greek": show the original of the selected verses (or hide it
   // again if they all show it already), then clear the selection.
   const toggleGreek = useCallback(() => {
     const { source, verses } = verseSelection;
@@ -633,11 +633,10 @@ export default function App() {
               : undefined
           }
           onGreek={
-            // New Testament, in a Bible pane: show the Greek of the selected verses
-            optionFor(verseSelection.source)?.kind === "bible" && byId[refPos.book]?.n >= 40
-              ? toggleGreek
-              : undefined
+            // in a Bible pane: show the Hebrew (OT) or Greek (NT) of the selected verses
+            optionFor(verseSelection.source)?.kind === "bible" ? toggleGreek : undefined
           }
+          original={byId[refPos.book]?.n <= 39 ? "hebrew" : "greek"}
           onClear={() => setVerseSelection({ source: null, verses: new Set() })}
           lang={lang || "en"}
         />

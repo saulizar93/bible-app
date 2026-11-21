@@ -332,6 +332,9 @@ export const SRC = {
   // lexicon's search by inflected form. Part of the lexicon pack.
   greekNT: (n) => entry("strongs", `kjtr/${n}`),
   greekForms: () => entry("strongs", "kjtr/forms"),
+  // Hebrew Old Testament (OSHB / WLC, scripts/build-oshb-interlinear.mjs), same uses.
+  hebrewOT: (n) => entry("strongs", `oshb/${n}`),
+  hebrewForms: () => entry("strongs", "oshb/forms"),
 };
 
 /** Delete stored copies of files that have a newer version stored, and of files
@@ -454,6 +457,26 @@ export const loadGreekNT = (bookNum) =>
 export async function loadGreekForms() {
   return (await cachedFetch(...SRC.greekForms())) || {};
 }
+
+/** Hebrew (and Aramaic) words of one Old Testament book, in KJV chapter/verse numbers:
+ *  { b, w: { "1": [ [ ["בְּרֵאשִׁית","H7225","HR/Ncfsa","רֵאשִׁית"], … ], … ] } }
+ *  (word with vowels, Strong's number, OSHB parsing, the main part when it has prefixes).
+ *  null for the New Testament. */
+export const loadHebrewOT = (bookNum) =>
+  bookNum >= 1 && bookNum <= 39 ? cachedFetch(...SRC.hebrewOT(bookNum)) : Promise.resolve(null);
+
+/** The original-language words of any book: Hebrew (OT) or Greek (NT). */
+export const loadOriginal = (bookNum) => (bookNum <= 39 ? loadHebrewOT(bookNum) : loadGreekNT(bookNum));
+
+/** Every form of each Hebrew number in the Old Testament: { "H430": [["אֱלֹהִים",1062], …] }. */
+export async function loadHebrewForms() {
+  return (await cachedFetch(...SRC.hebrewForms())) || {};
+}
+
+export const HEBREW_OT_CREDIT = {
+  en: "Hebrew: Westminster Leningrad Codex, with Strong's numbers and morphology from the Open Scriptures Hebrew Bible (https://github.com/openscriptures/morphhb, CC BY 4.0).",
+  es: "Hebreo: Códice de Leningrado de Westminster, con números Strong y morfología del Open Scriptures Hebrew Bible (https://github.com/openscriptures/morphhb, CC BY 4.0).",
+};
 
 /** Credit line for the Greek text (CC BY 4.0 asks for it wherever it is shown). */
 export const GREEK_NT_CREDIT = {

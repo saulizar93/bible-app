@@ -249,7 +249,11 @@
 .lexicon-chip.greek {
   font-family: "SBL Greek", "Gentium Plus", "Times New Roman", serif;
 }
-.lexicon-chip.greek i {
+.lexicon-chip.hebrew {
+  font-family: "SBL Hebrew", "Ezra SIL", "Times New Roman", serif;
+}
+.lexicon-chip.greek i,
+.lexicon-chip.hebrew i {
   font: italic 0.85em ui-sans-serif, system-ui, sans-serif;
   color: var(--dim);
 }

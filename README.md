@@ -145,6 +145,14 @@ Each chapter has the plain text of every verse (`v`) and, in tagged Bibles, the 
    node scripts/build-kjtr.mjs path/to/KJTR-main/KJTR.tsv   # default: ~/Downloads/KJTR-main/KJTR.tsv
    ```
 
+   The Hebrew Old Testament for the same features comes from the Open Scriptures Hebrew Bible
+   already in `sources/oshb/wlc` (Westminster Leningrad Codex, CC BY 4.0), converted to KJV verse
+   numbers with its `VerseMap.xml`. To rebuild `public/data/strongs/oshb/`:
+
+   ```bash
+   node scripts/build-oshb-interlinear.mjs
+   ```
+
 2. Run `npm run dev` or `npm run build` once so `public/data/manifest.json` is updated, and commit it with your change (section 6).
 3. Add a line to `docs/AI-LOG.md` saying what you changed and why.
 

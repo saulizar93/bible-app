@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { byId } from "../../js/books.js";
-import { loadBook, optionFor, noteLabelFor, loadGreekNT, GREEK_NT_CREDIT } from "../../js/data.js";
+import { loadBook, optionFor, noteLabelFor, loadOriginal, GREEK_NT_CREDIT, HEBREW_OT_CREDIT } from "../../js/data.js";
 import Interlinear from "../Interlinear/Interlinear.jsx";
 import { normalizeStrong } from "../../js/strongsCode.js";
 import "./BiblePane.css";
@@ -16,14 +16,15 @@ export default function BiblePane({
   onWordClick,
   onVerseClick,
   onVerseToggle,
-  greekVerses, // Set of verse numbers showing their Greek underneath (New Testament)
-  onCloseGreek, // (verse) => hide that verse's Greek
+  greekVerses, // Set of verse numbers showing the original (Hebrew OT / Greek NT) underneath
+  onCloseGreek, // (verse) => hide that verse's original
   uiLang = "en",
 }) {
   const [book, setBook] = useState(null);
-  const [greek, setGreek] = useState(null); // { n, w } KJTR book, loaded when first needed
+  const [greek, setGreek] = useState(null); // { n, w } Hebrew/Greek book, loaded when first needed
   const bookNum = byId[refPos.book].n;
-  const wantGreek = greekVerses?.size > 0 && bookNum >= 40;
+  const isOT = bookNum <= 39;
+  const wantGreek = greekVerses?.size > 0;
   const [error, setError] = useState(null);
   // Translator notes (`n` on a token, e.g. RVO): verses whose note box is open
   const [openNotes, setOpenNotes] = useState(() => new Set());
@@ -58,7 +59,7 @@ export default function BiblePane({
   useEffect(() => {
     if (!wantGreek || greek?.n === bookNum) return;
     let alive = true;
-    loadGreekNT(bookNum)
+    loadOriginal(bookNum)
       .then((g) => alive && setGreek({ n: bookNum, w: g?.w || {} }))
       .catch(() => alive && setGreek({ n: bookNum, w: {} }));
     return () => {
@@ -164,6 +165,7 @@ export default function BiblePane({
           <Interlinear
             words={greekChapter[i]}
             tokens={allTokens?.[i]}
+            hebrew={isOT}
             lang={uiLang}
             onWordClick={onWordClick}
             onClose={() => onCloseGreek?.(i + 1)}
@@ -183,7 +185,9 @@ export default function BiblePane({
     <>
       {verseEls}
       {copyright && <p className="pane-copyright">{copyright}</p>}
-      {greekChapter && <p className="pane-copyright">{GREEK_NT_CREDIT[uiLang] || GREEK_NT_CREDIT.en}</p>}
+      {greekChapter && (
+        <p className="pane-copyright">{(isOT ? HEBREW_OT_CREDIT : GREEK_NT_CREDIT)[uiLang] || GREEK_NT_CREDIT.en}</p>
+      )}
     </>
   );
 }
