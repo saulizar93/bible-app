@@ -86,8 +86,8 @@
    "sig": "1f639a339247"
   },
   "lexicon": {
-   "v": 6,
-   "sig": "519bef312202"
+   "v": 8,
+   "sig": "207e9bf515a5"
   },
   "notes:en": {
    "v": 1,
@@ -1080,7 +1080,7 @@
   "notes/es/40/8.json": "e15536d77d",
   "notes/es/40/9.json": "8d265bb1c8",
   "strongs/greek/1.json": "765b538cd4",
-  "strongs/greek/1001.json": "53bcf7ffb4",
+  "strongs/greek/1001.json": "3c63a2e144",
   "strongs/greek/1501.json": "9bfb6c0aa3",
   "strongs/greek/2001.json": "5c3c1b0e17",
   "strongs/greek/2501.json": "364f810841",
@@ -1103,7 +1103,7 @@
   "strongs/hebrew/5001.json": "64ffebf052",
   "strongs/hebrew/501.json": "54bd767690",
   "strongs/hebrew/5501.json": "c4f0ebdf61",
-  "strongs/hebrew/6001.json": "ffce4a222e",
+  "strongs/hebrew/6001.json": "5c45212730",
   "strongs/hebrew/6501.json": "0516be695f",
   "strongs/hebrew/7001.json": "15207d038a",
   "strongs/hebrew/7501.json": "94428e3154",
