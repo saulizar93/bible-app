@@ -65,21 +65,29 @@
   border-radius: 3px;
 }
 
-/* Copyright notice at the very bottom of the scrollable pane. .pane-body
-   (PaneSlot.css) normally ends with 40vh of padding so the last verse can
-   scroll to the top; when a notice is present that padding moves above the
-   notice instead, so the scroll room is the same and the notice sits at the
-   very end. Keep 40vh in sync with PaneSlot.css. */
+/* Copyright notice at the bottom of the scrollable pane, a short way under the
+   last verse. .pane-body (PaneSlot.css) normally ends with 40vh of padding so the
+   last verse can scroll to the top; when a notice is present that room goes
+   under the last notice instead. Keep 40vh in sync with PaneSlot.css. */
 .pane-body:has(> .pane-copyright) {
   padding-bottom: 0;
 }
 .pane-copyright {
-  margin: max(2.2em, calc(40vh - 4em)) 0 0;
+  margin: 2.2em 0 0;
   padding: 0.8em 0 1rem;
   border-top: 1px solid var(--line);
   font: 12px/1.5 ui-sans-serif, system-ui, sans-serif;
   color: var(--dim);
   text-align: center;
+}
+/* a second notice (the interlinear's Hebrew/Greek credit) right under the first */
+.pane-copyright + .pane-copyright {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+.pane-copyright:last-child {
+  padding-bottom: max(1rem, calc(40vh - 4em));
 }
 
 /* Translator notes: † after the word (or the verse when Strong's is off) toggles the note */
