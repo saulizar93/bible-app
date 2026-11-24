@@ -32,7 +32,7 @@
 .chapter-nav.prev,
 .chapter-nav.next {
   /* a little room above the very bottom edge of the phone */
-  bottom: calc(22px + env(safe-area-inset-bottom, 0px));
+  bottom: calc(40px + env(safe-area-inset-bottom, 0px));
 }
 .chapter-nav.prev {
   left: 12px;
@@ -67,7 +67,7 @@
    stacked right above the → button (one button height, 44px, + 10px gap). */
 .chapter-nav.pane-toggle {
   right: 18px;
-  bottom: calc(22px + 54px + env(safe-area-inset-bottom, 0px));
+  bottom: calc(40px + 54px + env(safe-area-inset-bottom, 0px));
 }
 /* While the verse selection bar (52px, SelectionBar.css) is open at the bottom,
    lift the − / + above it too (phones; side by side it sits mid-height). */
