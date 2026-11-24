@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-24",
  "packs": {
   "bible:bsb": {
    "v": 1,
@@ -86,8 +86,8 @@
    "sig": "1f639a339247"
   },
   "lexicon": {
-   "v": 8,
-   "sig": "207e9bf515a5"
+   "v": 9,
+   "sig": "e83ee98daa15"
   },
   "notes:en": {
    "v": 1,
@@ -1090,7 +1090,7 @@
   "strongs/greek/4501.json": "088dc3a57f",
   "strongs/greek/5001.json": "7f54ad96b7",
   "strongs/greek/501.json": "5960862132",
-  "strongs/greek/5501.json": "e4cc704727",
+  "strongs/greek/5501.json": "b56b5e09ec",
   "strongs/hebrew/1.json": "2a82e969f9",
   "strongs/hebrew/1001.json": "ef0fbe4326",
   "strongs/hebrew/1501.json": "16a0308317",
