@@ -91,6 +91,69 @@ How literal is it? A few examples you can check in the app:
 
 The LSV is released under a **Creative Commons Attribution-ShareAlike 4.0** license (CC BY-SA), which allows anyone to copy, share and even sell it, as long as the LSV is credited and any adapted version is shared under the same license.
 
+## Young's Literal Translation (YLT)
+
+**Robert Young** (1822–1888) was a Scottish publisher and self-taught scholar of the biblical languages, best known for his _Analytical Concordance to the Bible_ (1879), still used today. In **1862** he published his own translation, revised in **1887** and **1898**, with one goal: to follow the Hebrew and Greek word for word, in the same order and with the same tenses, even when the English becomes awkward. Its Old Testament follows the Masoretic Text and its New Testament the Textus Receptus (TR). It is in the **public domain**.
+
+Young believed the Hebrew verb forms should be translated by their tense, not by context, and he translated key words the same way every time. The result is the most literal English Bible of its century, and the starting point of the LSV (2020), which revised it to make it readable. A few examples you can check in the app:
+
+- "In the beginning of God's preparing the heavens and the earth—" (Genesis 1:1).
+- God's name is written "**Jehovah**": "A Psalm of David. Jehovah is my shepherd, I do not lack" (Psalm 23:1).
+- _Aiōnios_ is "**age-during**": "may have life age-during" (John 3:16); "punishment age-during… life age-during" (Matthew 25:46).
+- _Metanoeō_ is "**reform**": "Reform, for come nigh hath the reign of the heavens" (Matthew 3:2); "Reform, and be baptized each of you on the name of Jesus Christ" (Acts 2:38).
+- _Basileia_ is "**reign**" and _makarios_ "**happy**": "Happy the poor in spirit—because theirs is the reign of the heavens" (Matthew 5:3).
+- _Ekklēsia_ is "**assembly**": "upon this rock I will build my assembly" (Matthew 16:18).
+- The Greek present tense is kept: "every one who **is believing** in him" (John 3:16).
+
+In this app the YLT text comes from the CrossWire SWORD module (1898 edition). Young's own italics (words he supplied) are kept, and its Strong's numbers were carried over from the KJV word by word, as for the LSV: about 87% of the words are tagged, and where Young's wording strays far from the KJV's a few words may carry a neighbour's number.
+
+## Septuagint (LXX)
+
+The **Septuagint** is the Greek translation of the Hebrew Scriptures made by Jews in **Alexandria**, Egypt. According to the _Letter of Aristeas_, King Ptolemy II Philadelphus (285–246 BC) asked for the Law of Moses in Greek, and 72 elders from Jerusalem translated it — hence the name "Seventy" (LXX). The legend is embellished, but the Torah was indeed translated in Alexandria in the 3rd century BC, and the Prophets and Writings followed over the next two centuries, by different translators of very different skill. It became the Bible of Greek-speaking Jews and then of the early Church: most Old Testament quotations in the New Testament follow it.
+
+**There was never one fixed list of books.** "The Septuagint" is not a single book with a table of contents but a collection that grew and varied:
+
+- **Philo** of Alexandria (c. 20 BC–AD 50), who read the Scriptures in Greek, quotes or alludes to a great many books of the Hebrew Bible but never to any of the apocrypha.
+- **Josephus** (c. AD 95) counts 22 sacred books, the Hebrew canon, and says nothing has been added to them (_Against Apion_ 1.38–42).
+- The great Christian codices of the 4th–5th centuries each have a different list. **Codex Vaticanus** has Wisdom, Sirach, Judith, Tobit and Baruch but **no Maccabees**; **Codex Sinaiticus** has **1 and 4 Maccabees**; **Codex Alexandrinus** has **all four** books of Maccabees, and its table of contents also lists the Psalms of Solomon.
+
+In this app the LXX pane shows **only the 39 books of the Hebrew (Jewish and Protestant) canon**; the apocrypha are left out. Its New Testament is the KJV's.
+
+**How this pane was made.** The English is **Sir Lancelot Brenton's** translation of 1851 (from the Sixtine edition of 1587, based mainly on Codex Vaticanus), with light language updates (LXX2012, eBible.org, public domain). The Greek of the interlinear is **Alfred Rahlfs'** _Septuaginta_ (1935), with grammatical parsing from the CCAT of the University of Pennsylvania and Strong's numbers added by the CrossWire Bible Society. In Daniel both follow Theodotion's version, and in Judges the "B" text. Brenton's English words were tagged with the Strong's numbers of the Greek words they translate (about three words in four; most names are untagged, because the Greek has no number for them).
+
+**Verses moved to the KJV's numbers.** The Septuagint numbers chapters and verses its own way, and in some books it has a different order. So that the LXX pane can stand beside the KJV, every verse was matched by its content to the KJV verse it corresponds to, without ever splitting a verse: where the Septuagint has more, two of its verses share one KJV number, and where it lacks a verse, that number stays empty. The main moves:
+
+- **Psalms**: the Septuagint joins Psalms 9–10 and 114–115, splits 116 and 147, and counts the titles as verse 1, so most psalms are one number behind. Its Psalm 22 ("The Lord tends me as a shepherd") is shown as **Psalm 23**, its 9:21 as **10:1**.
+- **Jeremiah**: the oracles against the nations (KJV 46–51) come after 25:13 in the Greek, and chapters 26–45 are numbered 33–51. The new covenant, Greek 38:31, is shown at **31:31**; Moab, Greek 31, at **48**. **Jeremiah 30:10–11 is missing** in the Septuagint: those words stand at 46:27–28.
+- **Malachi**: the Greek has only three chapters; its 3:19–24 is shown as **4:1–6**.
+- **1 Kings 20 and 21** are in the opposite order, **Exodus 36–39** describe the tabernacle in another order, and **Genesis 32:1** (Greek) is the KJV's **31:55**, **Isaiah 8:23** is **9:1**, **Exodus 7:26–29** is **8:1–4**, along with many smaller shifts of a verse.
+
+**The name of God.** By the time of the Septuagint, Jews had become afraid to pronounce the name **YHWH**. The Mishnah later says that whoever pronounces the Name as it is written has no share in the world to come (_Sanhedrin_ 10:1). In Alexandria this fear met Greek philosophy, whose highest god had no name: for Plato the maker and father of the universe is "hard to find, and having found him, impossible to declare to all" (_Timaeus_ 28c), and Philo, the Jew of Alexandria, writes that God has no proper name at all (_On the Change of Names_ 11–14). The oldest Greek manuscripts still wrote the Name: a papyrus of Deuteronomy from the 1st century BC (Papyrus Fouad 266) writes **YHWH** in Hebrew letters inside the Greek, the Minor Prophets scroll of Nahal Hever writes it in old Hebrew script, and a Qumran scroll of Leviticus writes **ΙΑΩ** (_Iaō_). In the copies that came down to us it was replaced everywhere by **Κύριος**, "Lord" — the personal name became a title. You can see where this led:
+
+- **Leviticus 24:16** — the Hebrew condemns the man who **blasphemes** the name of YHWH; the Greek says: "And **he that names the name of the Lord**, let him die the death." To _say_ the Name became the crime, which is how the rabbis read the verse too (_Sanhedrin_ 7:5).
+- **Exodus 3:14** — "I will be who I will be" (_ehyeh asher ehyeh_) became "**I am THE BEING**" (_egō eimi ho ōn_): a personal name turned into the philosophers' "Being."
+- **Amos 9:6** — "YHWH is his name" became "**the Lord God Almighty** is his name": a name replaced by titles.
+- **Genesis 2:4; 3:8–9** — "YHWH Elohim" became "**the Lord God**" (Rahlfs' Greek has only "God" in 2:4), and **Psalm 23:1**, "YHWH is my shepherd," became "**the Lord** tends me as a shepherd."
+- **Deuteronomy 32:8** — the bounds of the peoples were set "according to the number of the children of Israel"; the Greek has "according to the number of **the angels of God**."
+
+**A God who does not feel or act like a man.** The translators also softened passages where God is said to have a body, to feel, or to be seen:
+
+- **Genesis 6:6** — "it **repented** the LORD… and it **grieved him** at his heart" became "God **laid it to heart**… and **pondered** it deeply."
+- **Exodus 15:3** — "The LORD is **a man of war**" became "The Lord **bringing wars to nothing**."
+- **Exodus 24:10** — "they **saw the God of Israel**" became "they saw **the place where** the God of Israel stood."
+- **Exodus 4:24** — "the LORD met him, and sought to kill him" became "**the angel of the Lord** met him."
+- **Exodus 19:3** — "Moses went up **unto God**" became "to **the mount** of God"; **Numbers 12:8**, "the **similitude** of the LORD shall he behold," became "he has seen **the glory** of the Lord."
+- **Joshua 4:24** — "the **hand** of the LORD" became "the **power** of the Lord"; **Isaiah 6:1**, "**his train** filled the temple," became "the house was full of **his glory**."
+
+**The New Testament and the Septuagint.** The apostles wrote in Greek and often quoted the Septuagint, so its wording passed into the New Testament:
+
+- **"Lord" for YHWH**: "whosoever shall call upon the name of **the Lord** shall be saved" (Romans 10:13, from Joel 2:32); "**The Lord** said unto my Lord" (Matthew 22:44, from Psalm 110:1).
+- **Hebrews 10:5**: "a **body** hast thou prepared me" — the Septuagint's reading of Psalm 40:6, where the Hebrew says "mine **ears** hast thou opened." (Brenton has "body," as most Greek manuscripts; Rahlfs prints "ears.")
+- **Acts 7:14**: "threescore and **fifteen** souls" — the Septuagint's 75 in Genesis 46:27, against the Hebrew's 70.
+- **Hebrews 1:6**: "let all the angels of God worship him" — Deuteronomy 32:43 in the Greek, a line not in the Hebrew.
+- **Hebrews 11:21**: Jacob "worshipped, leaning upon **the top of his staff**" — the Septuagint of Genesis 47:31, where the Hebrew has "the bed's head."
+- **Matthew 1:23**: "Behold, a **virgin** shall be with child" — the Septuagint's _parthenos_ in Isaiah 7:14.
+
 ## Douay-Rheims Bible, Challoner revision (DRC)
 
 The Douay-Rheims was the Catholic answer to the English Protestant Bibles. It was translated by English Catholic scholars in exile in France — chiefly **Gregory Martin**, under **William Allen** at the English College. The New Testament was printed at **Rheims in 1582** and the Old Testament at **Douai in 1609–1610**, just before the KJV. It was translated not from Hebrew and Greek but from the **Latin Vulgate**, the Bible the Council of Trent had declared "authentic," and it came with heavy notes refuting Protestant teaching.
@@ -137,6 +200,19 @@ The RVG is a revision of the Reina-Valera prepared by **Dr. Humberto Gómez Caba
 - **1 Peter 2:2:** RVG "para que por ella crezcáis" — RV1960 adds "para que por ella crezcáis **para salvación**," a phrase absent from the Textus Receptus.
 
 **Why "caridad"?** _Caridad_ is not a mistake for "love." It comes from the Latin _caritas_, the word the Vulgate used for the Greek _agapē_ — the self-giving love of God and of neighbor, as distinct from _erōs_ (desire) or mere affection. Wycliffe, the Douay-Rheims and the KJV all wrote "charity" in 1 Corinthians 13 (the KJV uses "charity" 28 times); Reina's own Bible of 1569 and the RV1909 wrote "caridad." In older English and Spanish the word meant exactly that: the highest Christian love, a love that acts. Over time "charity" and "caridad" came to mean "almsgiving," so most modern versions (including the RV1960) switched to "amor." The RVG and the KJV keep the older word.
+
+## Reina Valera Ojeda (RVO)
+
+The **Reina Valera Ojeda** is my own revision of the **Reina-Valera 1909**, which is in the public domain. It is a work in progress: so far I have mainly finished the **Gospel of Matthew**, and as I keep writing the study notes I will keep revising the text along with them, book by book.
+
+Its goal is to be **modern, understandable and full of translation notes**, so that the reader gets a deeper understanding of the text than the RV1960 offers. The main changes so far:
+
+- **The name of God is written YHWH** instead of "Jehová": "YHWH es mi pastor; nada me faltará" (Psalm 23:1).
+- **Archaic words and constructions are updated** into everyday Spanish, and the text is retouched where the 1909 wording no longer says clearly what the Greek says: "Libro de la generación de **Jesús el Mesías**, hijo de David" (Matthew 1:1).
+- **Translator's notes** (marked †) explain words and idioms of the original — what _mammon_ means, why "adding a cubit to one's stature" is a Hebrew way of speaking about the length of life, how much a denarius was worth — and where the Greek texts differ.
+- **TR, MT and CT.** The base is the Textus Receptus (TR), like the 1909, but the notes point out where the Majority Text (MT) and the Critical Text (CT) read differently, for example: "The Critical Text (CT) omits 'without a cause' (_eikē_, G1500)… The Textus Receptus (TR) and the Majority Text (MT) include it" (Matthew 5:22).
+
+Its words carry Strong's numbers, so the RVO works with the lexicon and the Hebrew and Greek interlinear like the other Bibles in the app.
 
 ## Torres Amat (1823–1825)
 

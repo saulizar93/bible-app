@@ -553,3 +553,19 @@
 .info-heading-nav button:active {
   transform: scale(0.92);
 }
+
+/* pane (i) button shows one section of Bible Translations: link to the whole page */
+.info-show-all {
+  display: block;
+  margin: 18px auto 8px;
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: none;
+  color: var(--link, var(--fg));
+  font: 600 14px ui-sans-serif, system-ui, sans-serif;
+  cursor: pointer;
+}
+.info-show-all:hover {
+  background: color-mix(in srgb, currentColor 8%, transparent);
+}

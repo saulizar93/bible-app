@@ -9,10 +9,12 @@
      shrinking when the Strong's panel docked, pushing it off-screen. */
   min-width: 0;
 }
+/* (i) about | picker, centred | download */
 .pane-head {
-  display: flex;
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr) 34px;
   align-items: center;
-  justify-content: center;
+  gap: 6px;
   padding: 6px 10px;
   border-bottom: 1px solid var(--line);
 }
@@ -21,6 +23,9 @@
    with a language badge and a caret. The visible text is .pane-current; the
    native <select> covers the whole pill invisibly (keyboard, mobile wheel
    pickers and screen readers keep working). */
+.pane-head > .pane-picker {
+  justify-self: center;
+}
 .pane-picker {
   --pick-bg: #fff2c4;
   --pick-border: #e5c96b;
@@ -133,4 +138,52 @@
   color: #fff;
   font: 700 10px/1 ui-sans-serif, system-ui, sans-serif;
   pointer-events: none;
+}
+
+/* the buttons either side of the picker: see-through, like the chapter arrows */
+.pane-side {
+  position: relative;
+  display: inline-grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background: none;
+  color: var(--dim);
+}
+button.pane-side {
+  cursor: pointer;
+}
+button.pane-side:hover,
+button.pane-side:focus-visible {
+  border-color: var(--line);
+  background: color-mix(in srgb, currentColor 9%, transparent);
+  color: var(--fg);
+  outline: none;
+}
+.pane-download.ready {
+  color: #2f855a;
+  cursor: default;
+}
+.pane-download.downloading {
+  color: var(--link, #1f5fb8);
+}
+.pane-download.outdated,
+.pane-download.error {
+  color: var(--fg);
+}
+.pane-download-dot {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #d97706;
+  box-shadow: 0 0 0 2px var(--bg);
+}
+.pane-download.error .pane-download-dot {
+  background: #c53030;
 }

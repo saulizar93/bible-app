@@ -91,6 +91,69 @@ La LSV fue publicada por **Covenant Press** el 2 de febrero de 2020 como una rev
 
 La LSV se publica bajo la licencia **Creative Commons Atribución-CompartirIgual 4.0** (CC BY-SA), que permite a cualquiera copiarla, compartirla e incluso venderla, siempre que se dé crédito a la LSV y que cualquier versión adaptada se comparta bajo la misma licencia.
 
+## Young's Literal Translation (YLT)
+
+**Robert Young** (1822–1888) fue un editor escocés y estudioso autodidacta de las lenguas bíblicas, conocido sobre todo por su _Analytical Concordance to the Bible_ (1879), que todavía se usa hoy. En **1862** publicó su propia traducción, revisada en **1887** y **1898**, con un solo objetivo: seguir el hebreo y el griego palabra por palabra, en el mismo orden y con los mismos tiempos verbales, aunque el inglés resulte forzado. Su Antiguo Testamento sigue el Texto Masorético y su Nuevo Testamento el Texto Recibido (TR). Es de **dominio público**.
+
+Young creía que las formas verbales hebreas debían traducirse por su tiempo y no por el contexto, y traducía las palabras clave siempre de la misma manera. El resultado es la Biblia inglesa más literal de su siglo, y el punto de partida de la LSV (2020), que la revisó para hacerla legible. Algunos ejemplos que puede comprobar en la app:
+
+- «In the beginning of God's preparing the heavens and the earth—» («En el principio del preparar Dios los cielos y la tierra», Génesis 1:1).
+- El nombre de Dios se escribe «**Jehovah**»: «Jehovah is my shepherd, I do not lack» (Salmo 23:1).
+- _Aiōnios_ es «**age-during**» («que dura por la era»): «life age-during» (Juan 3:16; Mateo 25:46).
+- _Metanoeō_ es «**reform**» («reformaos»): «Reform, for come nigh hath the reign of the heavens» (Mateo 3:2); «Reform, and be baptized each of you on the name of Jesus Christ» (Hechos 2:38).
+- _Basileia_ es «**reign**» («reinado») y _makarios_ «**happy**» («dichosos»): «Happy the poor in spirit—because theirs is the reign of the heavens» (Mateo 5:3).
+- _Ekklēsia_ es «**assembly**» («asamblea»): «upon this rock I will build my assembly» (Mateo 16:18).
+- Se conserva el presente griego: «every one who **is believing** in him» («todo el que está creyendo en él», Juan 3:16).
+
+En esta app el texto de la YLT viene del módulo SWORD de CrossWire (edición de 1898). Se conservan las cursivas del propio Young (las palabras que él añadió), y sus números Strong se copiaron de la KJV palabra por palabra, como en la LSV: cerca del 87% de las palabras están etiquetadas, y donde la redacción de Young se aleja mucho de la KJV algunas palabras pueden llevar el número de una vecina.
+
+## Septuaginta (LXX)
+
+La **Septuaginta** es la traducción griega de las Escrituras hebreas hecha por judíos en **Alejandría**, Egipto. Según la _Carta de Aristeas_, el rey Ptolomeo II Filadelfo (285–246 a. C.) pidió la Ley de Moisés en griego, y 72 ancianos de Jerusalén la tradujeron; de ahí el nombre «Setenta» (LXX). La leyenda está adornada, pero la Torá sí se tradujo en Alejandría en el siglo III a. C., y los Profetas y los Escritos le siguieron en los dos siglos siguientes, por traductores distintos y de muy distinta destreza. Fue la Biblia de los judíos de habla griega y luego de la Iglesia primitiva: la mayoría de las citas del Antiguo Testamento en el Nuevo la siguen.
+
+**Nunca hubo una sola lista fija de libros.** «La Septuaginta» no es un libro con un índice, sino una colección que creció y varió:
+
+- **Filón** de Alejandría (c. 20 a. C.–50 d. C.), que leía las Escrituras en griego, cita o alude a muchísimos libros de la Biblia hebrea, pero nunca a ninguno de los apócrifos.
+- **Josefo** (c. 95 d. C.) cuenta 22 libros sagrados, el canon hebreo, y dice que nada se les ha añadido (_Contra Apión_ 1.38–42).
+- Los grandes códices cristianos de los siglos IV y V tienen cada uno una lista distinta. El **Códice Vaticano** tiene Sabiduría, Eclesiástico, Judit, Tobías y Baruc, pero **ningún libro de Macabeos**; el **Códice Sinaítico** tiene **1 y 4 Macabeos**; el **Códice Alejandrino** tiene **los cuatro** libros de Macabeos, y su índice incluye además los Salmos de Salomón.
+
+En esta app el panel LXX muestra **solo los 39 libros del canon hebreo** (judío y protestante); los apócrifos se dejan fuera. Su Nuevo Testamento es el de la KJV.
+
+**Cómo se hizo este panel.** El inglés es la traducción de **Sir Lancelot Brenton** de 1851 (de la edición sixtina de 1587, basada sobre todo en el Códice Vaticano), con ligeras actualizaciones de lenguaje (LXX2012, eBible.org, dominio público). El griego del interlineal es la _Septuaginta_ de **Alfred Rahlfs** (1935), con el análisis gramatical del CCAT de la Universidad de Pensilvania y los números Strong añadidos por CrossWire Bible Society. En Daniel ambos siguen la versión de Teodoción, y en Jueces el texto «B». Las palabras inglesas de Brenton se etiquetaron con los números Strong de las palabras griegas que traducen (unas tres de cada cuatro; la mayoría de los nombres quedan sin etiqueta, porque el griego no tiene número para ellos).
+
+**Versículos movidos a la numeración de la KJV.** La Septuaginta numera capítulos y versículos a su manera, y en algunos libros tiene otro orden. Para que el panel LXX pueda ponerse junto a la KJV, cada versículo se emparejó por su contenido con el versículo de la KJV al que corresponde, sin partir nunca un versículo: donde la Septuaginta tiene más, dos de sus versículos comparten un número de la KJV, y donde le falta uno, ese número queda vacío. Los cambios principales:
+
+- **Salmos**: la Septuaginta une los Salmos 9–10 y 114–115, divide el 116 y el 147, y cuenta los títulos como versículo 1, así que la mayoría de los salmos van un número atrás. Su Salmo 22 («El Señor me pastorea») se muestra como **Salmo 23**, y su 9:21 como **10:1**.
+- **Jeremías**: los oráculos contra las naciones (KJV 46–51) vienen después de 25:13 en el griego, y los capítulos 26–45 llevan los números 33–51. El nuevo pacto, 38:31 en griego, se muestra en **31:31**; Moab, capítulo 31 en griego, en el **48**. **Jeremías 30:10–11 no está** en la Septuaginta: esas palabras están en 46:27–28.
+- **Malaquías**: el griego tiene solo tres capítulos; su 3:19–24 se muestra como **4:1–6**.
+- **1 Reyes 20 y 21** están en orden inverso, **Éxodo 36–39** describen el tabernáculo en otro orden, y **Génesis 32:1** (griego) es el **31:55** de la KJV, **Isaías 8:23** es **9:1**, **Éxodo 7:26–29** es **8:1–4**, además de muchos desplazamientos menores de un versículo.
+
+**El nombre de Dios.** Para el tiempo de la Septuaginta, los judíos ya temían pronunciar el nombre **YHWH**. La Misná dice después que quien pronuncia el Nombre tal como se escribe no tiene parte en el mundo venidero (_Sanedrín_ 10:1). En Alejandría ese temor se encontró con la filosofía griega, cuyo dios supremo no tenía nombre: para Platón el hacedor y padre del universo es «difícil de hallar, y una vez hallado, imposible de declarar a todos» (_Timeo_ 28c), y Filón, el judío de Alejandría, escribe que Dios no tiene ningún nombre propio (_Sobre el cambio de nombres_ 11–14). Los manuscritos griegos más antiguos todavía escribían el Nombre: un papiro del Deuteronomio del siglo I a. C. (Papiro Fouad 266) escribe **YHWH** con letras hebreas dentro del griego, el rollo de los Profetas Menores de Nahal Hever lo escribe en escritura hebrea antigua, y un rollo de Levítico de Qumrán escribe **ΙΑΩ** (_Iaō_). En las copias que nos llegaron fue sustituido en todas partes por **Κύριος**, «Señor»: el nombre personal se volvió un título. Se ve adónde llevó esto:
+
+- **Levítico 24:16**: el hebreo condena al que **blasfemare** el nombre de YHWH; el griego dice: «el que **nombre el nombre del Señor**, muera de muerte». _Decir_ el Nombre se volvió el delito, y así leyeron el versículo también los rabinos (_Sanedrín_ 7:5).
+- **Éxodo 3:14**: «Seré el que seré» (_ehyeh asher ehyeh_) se volvió «**Yo soy EL QUE ES**» (_egō eimi ho ōn_): un nombre personal convertido en el «Ser» de los filósofos.
+- **Amós 9:6**: «Jehová es su nombre» se volvió «**el Señor Dios Todopoderoso** es su nombre»: un nombre sustituido por títulos.
+- **Génesis 2:4; 3:8–9**: «Jehová Dios» se volvió «**el Señor Dios**» (el griego de Rahlfs dice solo «Dios» en 2:4), y en el **Salmo 23:1** «Jehová es mi pastor» se volvió «**el Señor** me pastorea».
+- **Deuteronomio 32:8**: los términos de los pueblos se establecieron «según el número de los hijos de Israel»; el griego dice «según el número de **los ángeles de Dios**».
+
+**Un Dios que no siente ni obra como hombre.** Los traductores también suavizaron los pasajes donde se dice que Dios tiene cuerpo, que siente o que es visto:
+
+- **Génesis 6:6**: «se **arrepintió** Jehová… y **le pesó** en su corazón» se volvió «Dios **lo tomó a pecho**… y **lo meditó** profundamente».
+- **Éxodo 15:3**: «Jehová es **varón de guerra**» se volvió «el Señor **que acaba con las guerras**».
+- **Éxodo 24:10**: «**vieron al Dios de Israel**» se volvió «vieron **el lugar donde** estaba el Dios de Israel».
+- **Éxodo 4:24**: «le salió al encuentro Jehová, y quiso matarlo» se volvió «le salió al encuentro **el ángel del Señor**».
+- **Éxodo 19:3**: «Moisés subió **a Dios**» se volvió «al **monte** de Dios»; en **Números 12:8**, «verá **la apariencia** de Jehová» se volvió «ha visto **la gloria** del Señor».
+- **Josué 4:24**: «la **mano** de Jehová» se volvió «el **poder** del Señor»; en **Isaías 6:1**, «**el borde de su vestidura** llenaba el templo» se volvió «la casa estaba llena de **su gloria**».
+
+**El Nuevo Testamento y la Septuaginta.** Los apóstoles escribieron en griego y citaban a menudo la Septuaginta, así que su redacción pasó al Nuevo Testamento:
+
+- **«Señor» por YHWH**: «todo aquel que invocare el nombre **del Señor**, será salvo» (Romanos 10:13, de Joel 2:32); «Dijo **el Señor** a mi Señor» (Mateo 22:44, del Salmo 110:1).
+- **Hebreos 10:5**: «me preparaste **cuerpo**»: la lectura de la Septuaginta en el Salmo 40:6, donde el hebreo dice «has abierto mis **oídos**». (Brenton tiene «cuerpo», como la mayoría de los manuscritos griegos; Rahlfs imprime «oídos».)
+- **Hechos 7:14**: «setenta y **cinco** almas»: los 75 de la Septuaginta en Génesis 46:27, frente a los 70 del hebreo.
+- **Hebreos 1:6**: «adórenle todos los ángeles de Dios»: Deuteronomio 32:43 en el griego, una línea que no está en el hebreo.
+- **Hebreos 11:21**: Jacob «adoró apoyándose sobre **el extremo de su bordón**»: la Septuaginta de Génesis 47:31, donde el hebreo dice «la cabecera de la cama».
+- **Mateo 1:23**: «He aquí una **virgen** concebirá»: el _parthenos_ de la Septuaginta en Isaías 7:14.
+
 ## Douay-Rheims, revisión de Challoner (DRC)
 
 La Douay-Rheims fue la respuesta católica a las Biblias protestantes en inglés. La tradujeron eruditos católicos ingleses exiliados en Francia, principalmente **Gregory Martin**, bajo la dirección de **William Allen** en el Colegio Inglés. El Nuevo Testamento se imprimió en **Reims en 1582** y el Antiguo Testamento en **Douai en 1609–1610**, poco antes de la KJV. No se tradujo del hebreo y el griego, sino de la **Vulgata latina**, la Biblia que el Concilio de Trento había declarado «auténtica», y venía con abundantes notas que refutaban la enseñanza protestante.
@@ -137,6 +200,19 @@ La RVG es una revisión de la Reina-Valera preparada por el **Dr. Humberto Góme
 - **1 Pedro 2:2:** RVG «para que por ella crezcáis»; la RV1960 añade «para que por ella crezcáis **para salvación**», una frase que no está en el Textus Receptus.
 
 **¿Por qué «caridad»?** _Caridad_ no es un error por «amor». Viene del latín _caritas_, la palabra que la Vulgata usó para el griego _agápē_: el amor que se entrega, a Dios y al prójimo, distinto de _érōs_ (el deseo) o del simple afecto. Wycliffe, la Douay-Rheims y la KJV escribieron «charity» en 1 Corintios 13 (la KJV usa «charity» 28 veces); la propia Biblia de Reina de 1569 y la RV1909 escribieron «caridad». En el inglés y el español antiguos la palabra significaba justamente eso: el más alto amor cristiano, un amor que actúa. Con el tiempo «charity» y «caridad» pasaron a significar «limosna», y por eso la mayoría de las versiones modernas (incluida la RV1960) cambiaron a «amor». La RVG y la KJV conservan la palabra antigua.
+
+## Reina Valera Ojeda (RVO)
+
+La **Reina Valera Ojeda** es mi propia revisión de la **Reina-Valera 1909**, que es de dominio público. Es una obra en curso: hasta ahora he terminado principalmente el **Evangelio de Mateo**, y a medida que siga escribiendo las notas de estudio seguiré revisando el texto junto con ellas, libro por libro.
+
+Su meta es ser **moderna, comprensible y llena de notas de traducción**, para que el lector obtenga una comprensión más profunda del texto que la que ofrece la RV1960. Los cambios principales hasta ahora:
+
+- **El nombre de Dios se escribe YHWH** en lugar de «Jehová»: «YHWH es mi pastor; nada me faltará» (Salmo 23:1).
+- **Se actualizan palabras y construcciones arcaicas** al español de hoy, y se retoca el texto donde la redacción de 1909 ya no dice con claridad lo que dice el griego: «Libro de la generación de **Jesús el Mesías**, hijo de David» (Mateo 1:1).
+- **Notas del traductor** (marcadas con †) explican palabras y modismos del original —qué significa _mamón_, por qué «añadir un codo a la estatura» es una forma hebrea de hablar de la duración de la vida, cuánto valía un denario— y dónde difieren los textos griegos.
+- **TR, MT y CT.** La base es el Texto Recibido (TR), como la de 1909, pero las notas señalan dónde leen distinto el Texto Mayoritario (MT) y el Texto Crítico (CT), por ejemplo: «El texto crítico (CT) omite "sin razón" (_eikē_, G1500)… El Texto Recibido (TR) y el Texto Mayoritario (MT) lo incluyen» (Mateo 5:22).
+
+Sus palabras llevan números Strong, así que la RVO funciona con el léxico y con el interlineal hebreo y griego como las demás Biblias de la app.
 
 ## Torres Amat (1823–1825)
 

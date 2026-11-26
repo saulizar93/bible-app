@@ -99,6 +99,16 @@ export default function App() {
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [infoPage, setInfoPage] = useState(null); // id from pages.js, or null
   const [lexiconOpen, setLexiconOpen] = useState(false); // Hebrew & Greek Lexicon panel
+  // (i) beside a pane picker: only that Bible's section of Bible Translations
+  const [infoSection, setInfoSection] = useState(null);
+  const openAbout = useCallback((code) => {
+    const key = optionFor(code)?.about;
+    if (!key) return;
+    setSelection(null); // one side panel at a time
+    setLexiconOpen(false);
+    setInfoSection(key);
+    setInfoPage("translations");
+  }, []);
   const [bottomHidden, setBottomHidden] = useState(() => {
     try {
       return localStorage.getItem(STORAGE_KEYS.HIDE_BOTTOM) === "1";
@@ -467,6 +477,7 @@ export default function App() {
         onOpenPage={(id) => {
           setSelection(null); // one side panel at a time
           setLexiconOpen(false);
+          setInfoSection(null); // the whole page, not one Bible's section
           setInfoPage(id);
         }}
         onOpenLexicon={() => {
@@ -538,6 +549,7 @@ export default function App() {
             greekVerses={greekFor(top)}
             onCloseGreek={closeGreek}
             onGo={go}
+            onAbout={openAbout}
             onClearHighlight={() =>
               setRefPos((prev) => ({ ...prev, verse: null }))
             }
@@ -570,6 +582,7 @@ export default function App() {
             greekVerses={greekFor(bottom)}
             onCloseGreek={closeGreek}
             onGo={go}
+            onAbout={openAbout}
             onClearHighlight={() =>
               setRefPos((prev) => ({ ...prev, verse: null }))
             }
@@ -582,9 +595,14 @@ export default function App() {
         {infoPage && (
           <InfoPanel
             pageId={infoPage}
+            section={infoPage === "translations" ? infoSection : null}
+            onShowAll={() => setInfoSection(null)}
             lang={lang || "en"}
             context={`${byId[refPos.book].en} ${refPos.chapter}${refPos.verse ? `:${refPos.verse}` : ""} · ${optionFor(top)?.label || top} / ${optionFor(bottom)?.label || bottom}`}
-            onClose={() => setInfoPage(null)}
+            onClose={() => {
+              setInfoPage(null);
+              setInfoSection(null);
+            }}
           />
         )}
 

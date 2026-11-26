@@ -54,6 +54,8 @@ export const NOTES_BOOKS = [40]; // Matthew
 // One combined list drives both pane dropdowns, so either side can hold
 // a translation or a notes set. `copyright` is shown under the last verse of
 // every chapter (BiblePane).
+// about: text in the "## " heading of this Bible's section of the Bible Translations page
+// (public/data/pages/translations.<lang>.md), shown by the (i) button beside the pane picker.
 export const PANE_OPTIONS = [
   // {
   //   code: "kjv",
@@ -64,6 +66,7 @@ export const PANE_OPTIONS = [
   // },
   {
     code: "kjv-strong",
+    about: "(KJV)",
     label: "KJV (TR)",
     name: "King James Version (TR)", // full name shown on the pane picker once selected
     kind: "bible",
@@ -79,6 +82,7 @@ export const PANE_OPTIONS = [
   },
   {
     code: "bsb-strong",
+    about: "(BSB)",
     label: "BSB (CT)",
     name: "Berean Standard Bible (CT)", // full name shown on the pane picker once selected
     kind: "bible",
@@ -99,6 +103,7 @@ export const PANE_OPTIONS = [
   // },
   {
     code: "msb-strong",
+    about: "(MSB)",
     label: "MSB (MT)",
     name: "Majority Standard Bible (MT)", // full name shown on the pane picker once selected
     kind: "bible",
@@ -120,6 +125,7 @@ export const PANE_OPTIONS = [
   // },
   {
     code: "lsv-strong",
+    about: "(LSV)",
     label: "LSV (TR)",
     name: "Literal Standard Version (TR)", // full name shown on the pane picker once selected
     kind: "bible",
@@ -133,6 +139,7 @@ export const PANE_OPTIONS = [
   },
   {
     code: "ylt-strong",
+    about: "(YLT)",
     label: "YLT (TR)",
     name: "Young's Literal Translation (TR)", // full name shown on the pane picker once selected
     kind: "bible",
@@ -150,6 +157,7 @@ export const PANE_OPTIONS = [
   },
   {
     code: "lxx",
+    about: "(LXX)",
     label: "LXX (+KJV NT)",
     name: "Septuagint (+KJV NT)", // full name shown on the pane picker once selected
     kind: "bible",
@@ -171,6 +179,7 @@ export const PANE_OPTIONS = [
   },
   {
     code: "drc1750",
+    about: "(DRC)",
     label: "DRC (Catholic, Latin)",
     name: "Douay-Rheims Challoner (Catholic, Latin)", // full name shown on the pane picker once selected
     kind: "bible",
@@ -189,6 +198,7 @@ export const PANE_OPTIONS = [
   // },
   {
     code: "rv1909-strong",
+    about: "(RV1909)",
     label: "RV1909 (TR)",
     name: "Reina-Valera 1909 (TR)", // full name shown on the pane picker once selected
     kind: "bible",
@@ -201,6 +211,7 @@ export const PANE_OPTIONS = [
   },
   {
     code: "rvg-strong",
+    about: "(RVG)",
     label: "RVG (TR)",
     name: "Reina Valera Gómez (TR)", // full name shown on the pane picker once selected
     kind: "bible",
@@ -217,6 +228,7 @@ export const PANE_OPTIONS = [
   },
   {
     code: "rvo-strong",
+    about: "(RVO)",
     label: "RVO (TR+MT+CT)",
     name: "Reina Valera Ojeda (TR+MT+CT)", // full name shown on the pane picker once selected
     kind: "bible",
@@ -230,6 +242,7 @@ export const PANE_OPTIONS = [
   },
   {
     code: "torres-amat",
+    about: "Torres Amat",
     label: "BTA (Católica, Latín)",
     name: "Biblia Torres Amat (Católica, Latín)", // full name shown on the pane picker once selected
     kind: "bible",
@@ -240,6 +253,7 @@ export const PANE_OPTIONS = [
   },
   {
     code: "straubinger-strong",
+    about: "Straubinger",
     label: "STR (Católica, TR+CT)",
     name: "Biblia Straubinger (Católica, TR+CT)", // full name shown on the pane picker once selected
     kind: "bible",

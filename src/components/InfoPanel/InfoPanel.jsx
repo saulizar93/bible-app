@@ -21,10 +21,23 @@ import "./InfoPanel.css";
  *   ![description](images/photo.jpg) alone on a line = picture from public/data/pages/
  *   blank line = new paragraph
  */
+/** One "## " section of a page: from the heading that contains `key` up to the next
+ *  "## " or "# " heading. Returns { title, body } or null. */
+function pageSection(md, key) {
+  const lines = String(md || "").split("\n");
+  const start = lines.findIndex((l) => l.startsWith("## ") && l.includes(key));
+  if (start < 0) return null;
+  let end = lines.findIndex((l, i) => i > start && /^#{1,2} /.test(l));
+  if (end < 0) end = lines.length;
+  return { title: lines[start].slice(3).trim(), body: lines.slice(start + 1, end).join("\n").trim() };
+}
+
 export default function InfoPanel({
   pageId,
   lang = "en",
   context = "",
+  section = null, // show only the "## " section whose heading contains this (pane (i) button)
+  onShowAll, // "See every translation": open the whole page
   onClose,
 }) {
   const page = INFO_PAGES.find((p) => p.id === pageId);
@@ -67,7 +80,9 @@ export default function InfoPanel({
     return () => window.removeEventListener("keydown", onKey);
   }, [onClose]);
 
-  const title = page ? page.label[lang] || page.label.en : "";
+  const part = section && text ? pageSection(text, section) : null;
+  const shown = section ? part?.body ?? (text === null ? null : "") : text;
+  const title = part ? part.title : page ? page.label[lang] || page.label.en : "";
 
   // ▲ / ▼ buttons: jump the page to the previous / next heading.
   const headings = () =>
@@ -76,7 +91,7 @@ export default function InfoPanel({
     // Count headings once the page has rendered, to show the buttons only when there are some.
     const id = requestAnimationFrame(() => setHeadingCount(headings().length));
     return () => cancelAnimationFrame(id);
-  }, [text, pageId]);
+  }, [shown, pageId]);
   const jumpHeading = useCallback((dir) => {
     const panel = panelRef.current;
     if (!panel) return;
@@ -135,10 +150,17 @@ export default function InfoPanel({
           <OfflinePanel lang={lang} />
         ) : page?.form ? (
           <ReportBugForm lang={lang} context={context} />
-        ) : text === null ? (
+        ) : shown === null ? (
           <p className="dim">{lang === "es" ? "Cargando…" : "Loading…"}</p>
-        ) : text ? (
-          <div className="info-body">{renderMarkdown(text, lang)}</div>
+        ) : shown ? (
+          <>
+            <div className="info-body">{renderMarkdown(shown, lang)}</div>
+            {section && onShowAll && (
+              <button type="button" className="info-show-all" onClick={onShowAll}>
+                {lang === "es" ? "Ver todas las traducciones" : "See every Bible translation"}
+              </button>
+            )}
+          </>
         ) : (
           <p className="dim">
             {lang === "es" ? "Contenido próximamente." : "Content coming soon."}
