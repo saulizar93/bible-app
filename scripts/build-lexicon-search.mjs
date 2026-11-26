@@ -26,7 +26,7 @@ const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const DATA = path.join(ROOT, "public", "data");
 
 /** Tagged Bibles and their concordance folder (must match PANE_OPTIONS[].concord in data.js;
- *  lsv-strong shares the KJV's). */
+ *  lsv-strong and ylt-strong share the KJV's). */
 export const TAGGED = {
   "kjv-strong": "",
   "bsb-strong": "bsb-strong",

@@ -132,6 +132,23 @@ export const PANE_OPTIONS = [
       "Literal Standard Version © 2020 Covenant Press. Licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0). Old Testament Hebrew parsing and words: original work of the Open Scriptures Hebrew Bible available at https://github.com/openscriptures/morphhb (CC BY 4.0).",
   },
   {
+    code: "ylt-strong",
+    label: "YLT (TR)",
+    name: "Young's Literal Translation (TR)", // full name shown on the pane picker once selected
+    kind: "bible",
+    lang: "en",
+    // Text from the CrossWire SWORD module "YLT" (GBF); Strong's tags copied from kjv-strong
+    // (SOURCE=kjv-strong TARGET=ylt-strong scripts/rvg-strong/transfer.mjs) and Hebrew
+    // parsing from the OSHB (scripts/oshb/apply-oshb.mjs). See docs/AI-LOG.md 2026-11-26.
+    strongs: true,
+    // Words Young supplied (italic in the module) are marked "it": 1.
+    italics: true,
+    concord: "", // KJV concordance (same versification)
+    citation: "YLT",
+    copyright:
+      "Young's Literal Translation, by Robert Young (1862; revised 1887, 1898). Public Domain. Strong's numbers carried over from the KJV (© 2003–2023 CrossWire Bible Society, KJV2003 Project). Old Testament Hebrew parsing and words: original work of the Open Scriptures Hebrew Bible available at https://github.com/openscriptures/morphhb (CC BY 4.0).",
+  },
+  {
     code: "drc1750",
     label: "DRC (Catholic, Latin)",
     name: "Douay-Rheims Challoner (Catholic, Latin)", // full name shown on the pane picker once selected

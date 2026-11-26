@@ -53,6 +53,7 @@ git push
 | `bsb-strong`         | BSB (CT)                 | its own (`concord/bsb-strong`)                                        |
 | `msb-strong`         | MSB (MT)                 | its own (`concord/msb-strong`)                                        |
 | `lsv-strong`         | LSV (TR)                 | KJV's                                                                 |
+| `ylt-strong`         | YLT (TR)                 | KJV's                                                                 |
 | `drc1750`            | Douay-Rheims             | none (no Strong's)                                                    |
 | `rv1909-strong`      | RV1909 (TR)              | its own (`concord/rv1909-strong`)                                     |
 | `rvg-strong`         | RVG (TR)                 | RV1909's                                                              |
@@ -66,7 +67,7 @@ git push
 
 (For the **RVO**, don't edit its files directly — use section 4.)
 
-### The easy way: `scripts/correcciones/correcciones.json` (KJV, BSB, MSB, LSV, RVG, RV1909, Straubinger)
+### The easy way: `scripts/correcciones/correcciones.json` (KJV, BSB, MSB, LSV, YLT, RVG, RV1909, Straubinger)
 
 To fix a Strong's tag or add a translator's note while reading, add it to `scripts/correcciones/correcciones.json` under that Bible, then run:
 
@@ -88,7 +89,7 @@ python3 scripts/correcciones/aplicar.py
 - **etiquetas** (or **tags**): the left side is the words exactly as they read in that Bible (with punctuation); the right side is the same words with `|G####` (or `|H####`) after each word or group. Unmarked words join the next marked word; words after the last mark join the last one; `|-` = no number. The text itself never changes.
 - **notas** (or **notes**): the word(s) the note belongs to (`"*"` = end of the verse); it shows as † in the app, labelled "Note" / "Nota" (only the RVO's notes say "Nota del traductor").
 - References use the full book name in English or Spanish (`"Matthew 5:24"`, `"Mateo 5:24"`). Other marks on a word, such as `r` (words of Jesus in red), are kept.
-- LSV uses the KJV's word search, so an LSV tag fix changes the word you tap but no search list.
+- LSV and YLT use the KJV's word search, so an LSV or YLT tag fix changes the word you tap but no search list.
 - Parsing and the Greek/Hebrew word are copied from a token with that number in the same verse, or from the KJV.
 - The script rebuilds that Bible's word search for you (versions are automatic, section 6). It is safe to run any number of times and prints a `!` line for anything it could not apply.
 
@@ -292,7 +293,7 @@ Main scripts:
 | `scripts/build-bibles.mjs`                                      | An untagged Bible from USFM files                                        |
 | `scripts/add-morph-from-kjv.mjs`                                | Copies Greek parsing from the KJV onto another tagged Bible              |
 | `scripts/oshb/apply-oshb.mjs`                                   | Hebrew parsing from the Open Scriptures Hebrew Bible                     |
-| `scripts/rvg-strong/transfer.mjs`                               | Copies Strong's tags from one Bible onto another (RVG, Straubinger, LSV) |
+| `scripts/rvg-strong/transfer.mjs`                               | Copies Strong's tags from one Bible onto another (RVG, Straubinger, LSV, YLT) |
 | `scripts/fix-strongs.py`                                        | Tag corrections for the Spanish Bibles                                   |
 | `scripts/rvo/transform.py`                                      | The RVO                                                                  |
 | `scripts/build-concordance.mjs`                                 | Word search for a tagged Bible                                           |

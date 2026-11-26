@@ -1,5 +1,5 @@
 """Apply hand-made Strong's corrections and notes to the tagged Bibles whose text is
-not rebuilt by a script: kjv-strong, bsb-strong, msb-strong, lsv-strong, rvg-strong,
+not rebuilt by a script: kjv-strong, bsb-strong, msb-strong, lsv-strong, ylt-strong, rvg-strong,
 rv1909-strong, straubinger-strong (rvo-strong keeps using
 scripts/rvo/ediciones-manuales.json + notas-traductor.json).
 
@@ -40,6 +40,7 @@ CONCORD_OF = {
     'bsb-strong': os.path.join(CONCORD, 'bsb-strong'),
     'msb-strong': os.path.join(CONCORD, 'msb-strong'),
     'lsv-strong': None,
+    'ylt-strong': None,  # uses the KJV's word search too
     'rvg-strong': os.path.join(CONCORD, 'rvg-strong'),
     'rv1909-strong': os.path.join(CONCORD, 'rv1909-strong'),
     'straubinger-strong': os.path.join(CONCORD, 'straubinger-strong'),
