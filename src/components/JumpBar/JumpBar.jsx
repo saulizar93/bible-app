@@ -10,34 +10,61 @@ import "./JumpBar.css";
 
 const T = {
   en: {
-    settings: "Reading settings", lexicon: "Hebrew & Greek Lexicon",
-    pickerAria: "Choose Bible book, chapter, and verse", pickerTitle: "Choose Bible reference",
-    searchAria: "Search verse reference", searchTitle: "Search reference",
-    strongsOT: "Underline Strong's-tagged Hebrew words", strongsNT: "Underline Strong's-tagged Greek words",
-    heb: "Heb", gk: "Gk",
+    settings: "Reading settings",
+    lexicon: "Hebrew & Greek Lexicon",
+    pickerAria: "Choose Bible book, chapter, and verse",
+    pickerTitle: "Choose Bible reference",
+    searchAria: "Search verse reference",
+    searchTitle: "Search reference",
+    strongsOT: "Underline Strong's-tagged Hebrew words",
+    strongsNT: "Underline Strong's-tagged Greek words",
+    heb: "Heb",
+    gk: "Gk",
     dialog: "Search reference or word",
-    placeholder: "Search verse (e.g. Jn 3:16) or word (e.g. grace)...",
-    clear: "Clear search", cancel: "Cancel", in: "In:", activePanes: "Active panes", searching: "Searching…",
+    placeholder: "Search verse ('Jn 3:16') or word ('grace')...",
+    clear: "Clear search",
+    cancel: "Cancel",
+    in: "In:",
+    activePanes: "Active panes",
+    searching: "Searching…",
     info: (n) => `Current book is searched first · Up to ${n} matches`,
-    downloadTip: "Tip: download this Bible (⬇ in its pane header, or Settings ▸ Download App) to make searching much faster.",
-    goTo: "Go to", jumpHint: "Jump directly to this passage",
-    matchesFor: (q, shown, total) => `Matches for “${q}” (${shown}${total != null ? ` of ${total}` : ""})`,
-    none: (q, src) => `No matches found for “${q}” in ${src || "active panes"}.`,
+    downloadTip:
+      "Tip: download this Bible (⬇ in its pane header, or Settings ▸ Download App) to make searching much faster.",
+    goTo: "Go to",
+    jumpHint: "Jump directly to this passage",
+    matchesFor: (q, shown, total) =>
+      `Matches for “${q}” (${shown}${total != null ? ` of ${total}` : ""})`,
+    none: (q, src) =>
+      `No matches found for “${q}” in ${src || "active panes"}.`,
   },
   es: {
-    settings: "Ajustes de lectura", lexicon: "Léxico hebreo y griego",
-    pickerAria: "Elegir libro, capítulo y versículo", pickerTitle: "Elegir referencia bíblica",
-    searchAria: "Buscar referencia de versículo", searchTitle: "Buscar referencia",
-    strongsOT: "Subrayar las palabras hebreas con números Strong", strongsNT: "Subrayar las palabras griegas con números Strong",
-    heb: "Heb", gr: "Gr",
+    settings: "Ajustes de lectura",
+    lexicon: "Léxico hebreo y griego",
+    pickerAria: "Elegir libro, capítulo y versículo",
+    pickerTitle: "Elegir referencia bíblica",
+    searchAria: "Buscar referencia de versículo",
+    searchTitle: "Buscar referencia",
+    strongsOT: "Subrayar las palabras hebreas con números Strong",
+    strongsNT: "Subrayar las palabras griegas con números Strong",
+    heb: "Heb",
+    gr: "Gr",
     dialog: "Buscar referencia o palabra",
-    placeholder: "Buscar versículo (p. ej., Jn 3:16) o palabra (p. ej., gracia)...",
-    clear: "Borrar búsqueda", cancel: "Cancelar", in: "En:", activePanes: "Paneles activos", searching: "Buscando…",
-    info: (n) => `Se busca primero en el libro actual · Hasta ${n} coincidencias`,
-    downloadTip: "Consejo: descargue esta Biblia (⬇ en el encabezado de su panel, o Ajustes ▸ Descargar la aplicación) para que la búsqueda sea mucho más rápida.",
-    goTo: "Ir a", jumpHint: "Ir directamente a este pasaje",
-    matchesFor: (q, shown, total) => `Coincidencias para «${q}» (${shown}${total != null ? ` de ${total}` : ""})`,
-    none: (q, src) => `No se encontraron coincidencias para «${q}» en ${src || "los paneles activos"}.`,
+    placeholder: "Buscar verso ('Jn 3:16') o palabra ('gracia')...",
+    clear: "Borrar búsqueda",
+    cancel: "Cancelar",
+    in: "En:",
+    activePanes: "Paneles activos",
+    searching: "Buscando…",
+    info: (n) =>
+      `Se busca primero en el libro actual · Hasta ${n} coincidencias`,
+    downloadTip:
+      "Consejo: descargue esta Biblia (⬇ en el encabezado de su panel, o Ajustes ▸ Descargar la aplicación) para que la búsqueda sea mucho más rápida.",
+    goTo: "Ir a",
+    jumpHint: "Ir directamente a este pasaje",
+    matchesFor: (q, shown, total) =>
+      `Coincidencias para «${q}» (${shown}${total != null ? ` de ${total}` : ""})`,
+    none: (q, src) =>
+      `No se encontraron coincidencias para «${q}» en ${src || "los paneles activos"}.`,
   },
 };
 
@@ -69,7 +96,9 @@ export default function JumpBar({
   const [searchedQuery, setSearchedQuery] = useState("");
   const searchInputRef = useRef(null);
 
-  const displayTitle = book ? `${bookName(book, lang)} ${chapter}` : placeholder;
+  const displayTitle = book
+    ? `${bookName(book, lang)} ${chapter}`
+    : placeholder;
   const isOT = (book?.n ?? 40) <= 39; // books 1–39: Hebrew/Aramaic; 40–66: Greek
   // Only offer the Strong's toggle when a pane shows a Strong's-tagged translation.
   const hasStrongsPane = (panes || []).some((c) => optionFor(c)?.strongs);
@@ -219,7 +248,17 @@ export default function JumpBar({
           aria-label={t.settings}
           title={t.settings}
         >
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          <svg
+            viewBox="0 0 24 24"
+            width="18"
+            height="18"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            aria-hidden="true"
+          >
             <circle cx="12" cy="12" r="3" />
             <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" />
           </svg>
@@ -276,7 +315,17 @@ export default function JumpBar({
             title={t.lexicon}
           >
             {/* dictionary: a closed book with a bookmark ribbon */}
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <svg
+              viewBox="0 0 24 24"
+              width="18"
+              height="18"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              aria-hidden="true"
+            >
               <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
               <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
               <path d="M14 2v7l2.5-1.5L19 9V2" />
@@ -284,15 +333,15 @@ export default function JumpBar({
           </button>
 
           {hasStrongsPane && (
-          <button
-            type="button"
-            className={strongsOn ? "strongs-toggle on" : "strongs-toggle"}
-            aria-pressed={strongsOn}
-            onClick={onToggleStrongs}
-            title={isOT ? t.strongsOT : t.strongsNT}
-          >
-            {isOT ? t.heb : (t.gr || t.gk)}
-          </button>
+            <button
+              type="button"
+              className={strongsOn ? "strongs-toggle on" : "strongs-toggle"}
+              aria-pressed={strongsOn}
+              onClick={onToggleStrongs}
+              title={isOT ? t.strongsOT : t.strongsNT}
+            >
+              {isOT ? t.heb : t.gr || t.gk}
+            </button>
           )}
         </div>
       </header>
@@ -399,11 +448,13 @@ export default function JumpBar({
             </div>
 
             <div className="search-search-info dim">
-              {t.info(maxResults.toLocaleString(lang === "es" ? "es-MX" : "en-US"))}
-              {/* searching reads every book: much faster once they are stored on the device */}
-              {(panes || []).some((c) => optionFor(c)?.kind === "bible" && !isReady(c)) && (
-                <div className="search-download-tip">{t.downloadTip}</div>
+              {t.info(
+                maxResults.toLocaleString(lang === "es" ? "es-MX" : "en-US"),
               )}
+              {/* searching reads every book: much faster once they are stored on the device */}
+              {(panes || []).some(
+                (c) => optionFor(c)?.kind === "bible" && !isReady(c),
+              ) && <div className="search-download-tip">{t.downloadTip}</div>}
             </div>
 
             <div className="search-results-container">
@@ -425,7 +476,8 @@ export default function JumpBar({
                     <span className="search-jump-icon">📖</span>
                     <div className="search-jump-info">
                       <div className="search-jump-title">
-                        {t.goTo} {bookName(parsedBook, lang)} {parsedRef.chapter}
+                        {t.goTo} {bookName(parsedBook, lang)}{" "}
+                        {parsedRef.chapter}
                         {parsedRef.verse ? `:${parsedRef.verse}` : ""}
                       </div>
                       <div className="dim">{t.jumpHint}</div>
@@ -463,7 +515,8 @@ export default function JumpBar({
                         >
                           <div className="search-match-head">
                             <span className="search-match-ref">
-                              {bookName(byId[m.bookId], lang) || m.bookName} {m.chapter}:{m.verseRange || m.verse}
+                              {bookName(byId[m.bookId], lang) || m.bookName}{" "}
+                              {m.chapter}:{m.verseRange || m.verse}
                             </span>
                             <span className={`search-badge ${m.kind}`}>
                               {m.sourceLabel}
@@ -500,10 +553,14 @@ export default function JumpBar({
                           onClick={() => handleSelectOption(o)}
                         >
                           <span className="search-result-main">
-                            {bookName(o, lang)} {Math.min(o.chapter, o.chapters)}
+                            {bookName(o, lang)}{" "}
+                            {Math.min(o.chapter, o.chapters)}
                             {o.verse ? `:${o.verse}` : ""}
                           </span>
-                          <span className="dim"> · {lang === "es" ? o.en : o.es}</span>
+                          <span className="dim">
+                            {" "}
+                            · {lang === "es" ? o.en : o.es}
+                          </span>
                         </button>
                       </li>
                     ))}
