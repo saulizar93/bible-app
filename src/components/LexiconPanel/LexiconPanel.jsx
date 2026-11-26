@@ -28,7 +28,7 @@ const MAX_RESULTS = 100;
 const T = {
   en: {
     title: "Hebrew & Greek Lexicon",
-    placeholder: "Search a word, transliteration, or Strong's Number",
+    placeholder: "Search word, transliteration, or Strong's #",
     hint: (b) =>
       `Searches every Greek and Hebrew word tagged in the ${b}: the original word (ἐκκλησία), its transliteration (ekklesia), its Strong's number (G1577), or how the ${b} translates it (church). Greek and Hebrew words are also found in any form they take in the Bible (μία, mia → εἷς; hashamayim → שָׁמַיִם).`,
     bible: "Bible",
@@ -38,7 +38,8 @@ const T = {
     renderings: "Translated as",
     none: (q) => `No matches for “${q}”.`,
     loading: "Loading…",
-    more: (n) => `Showing the first ${n} matches; type more to narrow the search.`,
+    more: (n) =>
+      `Showing the first ${n} matches; type more to narrow the search.`,
     back: "Results",
     greek: "Greek",
     hebrew: "Hebrew",
@@ -56,14 +57,17 @@ const T = {
     filteredBy: (w) => `Only verses where it is translated “${w}”.`,
     showAll: "Show all renderings",
     form: "form",
-    forms: (heb) => (heb ? "Forms in the Hebrew Old Testament (WLC)" : "Forms in the Greek Bible (Septuagint and KJTR)"),
+    forms: (heb) =>
+      heb
+        ? "Forms in the Hebrew Old Testament (WLC)"
+        : "Forms in the Greek Bible (Septuagint and KJTR)",
     formBy: (w) => `Show only the verses where the original reads “${w}”`,
     formFiltered: (w) => `Only verses where the original reads “${w}”.`,
     showAllForms: "Show every form again",
   },
   es: {
     title: "Léxico hebreo y griego",
-    placeholder: "Buscar una palabra, transliteración o número Strong",
+    placeholder: "Buscar palabra, transliteración o # Strong",
     hint: (b) =>
       `Busca en todas las palabras griegas y hebreas etiquetadas en la ${b}: la palabra original (ἐκκλησία), su transliteración (ekklesia), su número Strong (G1577), o cómo la traduce la ${b} (iglesia). Las palabras griegas y hebreas también se encuentran en cualquier forma que tengan en la Biblia (μία, mia → εἷς; hashamayim → שָׁמַיִם).`,
     bible: "Biblia",
@@ -73,7 +77,8 @@ const T = {
     renderings: "Traducida como",
     none: (q) => `No hay coincidencias para «${q}».`,
     loading: "Cargando…",
-    more: (n) => `Se muestran las primeras ${n} coincidencias; escriba más para afinar la búsqueda.`,
+    more: (n) =>
+      `Se muestran las primeras ${n} coincidencias; escriba más para afinar la búsqueda.`,
     back: "Resultados",
     greek: "Griego",
     hebrew: "Hebreo",
@@ -91,7 +96,10 @@ const T = {
     filteredBy: (w) => `Solo versículos donde se traduce «${w}».`,
     showAll: "Mostrar todas las traducciones",
     form: "forma",
-    forms: (heb) => (heb ? "Formas en el Antiguo Testamento hebreo (WLC)" : "Formas en la Biblia griega (Septuaginta y KJTR)"),
+    forms: (heb) =>
+      heb
+        ? "Formas en el Antiguo Testamento hebreo (WLC)"
+        : "Formas en la Biblia griega (Septuaginta y KJTR)",
     formBy: (w) => `Mostrar solo los versículos donde el original dice «${w}»`,
     formFiltered: (w) => `Solo versículos donde el original dice «${w}».`,
     showAllForms: "Volver a mostrar todas las formas",
@@ -126,10 +134,12 @@ const langOf = (code) => (code[0] === "H" ? "hebrew" : "greek");
 /** "hashshamayim" -> "hashamayim", "chattat" -> "chatat": transliterations write doubled
  *  letters (dagesh forte), people often don't. */
 const undouble = (s) => s.replace(/(sh|ch|ts|kh|ph|th|.)\1+/g, "$1");
-const translitOf = (code, w) => (code[0] === "H" ? translitHebrew(w) : translitGreek(w));
+const translitOf = (code, w) =>
+  code[0] === "H" ? translitHebrew(w) : translitGreek(w);
 
 /** "church (79), churches (36)" — most frequent first (the data is stored that way). */
-const renderList = (list) => (list || []).map(([w, n]) => `${w} (${n})`).join(", ");
+const renderList = (list) =>
+  (list || []).map(([w, n]) => `${w} (${n})`).join(", ");
 
 /** Text cut to a few lines with "…", and a button to show it all / hide it again
  *  (only when it is actually cut). */
@@ -143,11 +153,19 @@ function Clamp({ children, lines = 3, t }) {
   }, [children, open]);
   return (
     <>
-      <p ref={ref} className={open ? "lexicon-rend" : "lexicon-rend clamp"} style={{ "--lines": lines }}>
+      <p
+        ref={ref}
+        className={open ? "lexicon-rend" : "lexicon-rend clamp"}
+        style={{ "--lines": lines }}
+      >
         {children}
       </p>
       {(cut || open) && (
-        <button type="button" className="lexicon-expand" onClick={() => setOpen((v) => !v)}>
+        <button
+          type="button"
+          className="lexicon-expand"
+          onClick={() => setOpen((v) => !v)}
+        >
           {open ? t.less : t.all}
         </button>
       )}
@@ -157,7 +175,10 @@ function Clamp({ children, lines = 3, t }) {
 
 export default function LexiconPanel({ lang = "en", onClose, onJump }) {
   const t = T[lang] || T.en;
-  const bibles = useMemo(() => PANE_OPTIONS.filter((o) => o.kind === "bible" && o.strongs), []);
+  const bibles = useMemo(
+    () => PANE_OPTIONS.filter((o) => o.kind === "bible" && o.strongs),
+    [],
+  );
   const [source, setSource] = useState(() => {
     const want = lang === "es" ? "rvg-strong" : "kjv-strong";
     return bibles.some((b) => b.code === want) ? want : bibles[0]?.code;
@@ -199,7 +220,10 @@ export default function LexiconPanel({ lang = "en", onClose, onJump }) {
   // Renderings of the chosen Bible, both languages (needed for "church" -> G1577).
   useEffect(() => {
     let alive = true;
-    Promise.all([loadRenderings("greek", source), loadRenderings("hebrew", source)])
+    Promise.all([
+      loadRenderings("greek", source),
+      loadRenderings("hebrew", source),
+    ])
       .then(([greek, hebrew]) => alive && setRend({ greek, hebrew }))
       .catch(() => alive && setRend({}));
     return () => {
@@ -220,13 +244,21 @@ export default function LexiconPanel({ lang = "en", onClose, onJump }) {
   useEffect(() => {
     // Focus the search box only with a mouse/keyboard: on phones the keyboard
     // popping up at once shifts the page.
-    if (!code && window.matchMedia?.("(pointer: fine)").matches) inputRef.current?.focus();
+    if (!code && window.matchMedia?.("(pointer: fine)").matches)
+      inputRef.current?.focus();
     panelRef.current?.scrollTo({ top: 0 });
   }, [code]);
 
   // Folded copies of the index, built once.
   const folded = useMemo(
-    () => (index || []).map(([c, gr, tr]) => ({ c, gr, tr, fgr: fold(gr), ftr: fold(tr) })),
+    () =>
+      (index || []).map(([c, gr, tr]) => ({
+        c,
+        gr,
+        tr,
+        fgr: fold(gr),
+        ftr: fold(tr),
+      })),
     [index],
   );
 
@@ -286,7 +318,11 @@ export default function LexiconPanel({ lang = "en", onClose, onJump }) {
     for (const r of foldedForms) {
       let s = null;
       if (r.f === q || r.ft === q || r.fu === qu) s = 0.5;
-      else if (q.length > 2 && (r.f.startsWith(q) || r.ft.startsWith(q) || r.fu.startsWith(qu))) s = 1.5;
+      else if (
+        q.length > 2 &&
+        (r.f.startsWith(q) || r.ft.startsWith(q) || r.fu.startsWith(qu))
+      )
+        s = 1.5;
       if (s === null) continue;
       if (!scored.has(r.c) || scored.get(r.c) > s) scored.set(r.c, s);
       if (s === 0.5 && !formOf.has(r.c)) formOf.set(r.c, r.form);
@@ -317,8 +353,18 @@ export default function LexiconPanel({ lang = "en", onClose, onJump }) {
   };
 
   return (
-    <aside className="strongs-panel lexicon-panel" role="dialog" aria-label={t.title} ref={panelRef}>
-      <button type="button" className="strongs-close" onClick={onClose} aria-label={t.close}>
+    <aside
+      className="strongs-panel lexicon-panel"
+      role="dialog"
+      aria-label={t.title}
+      ref={panelRef}
+    >
+      <button
+        type="button"
+        className="strongs-close"
+        onClick={onClose}
+        aria-label={t.close}
+      >
         ×
       </button>
       <h2 className="lexicon-title">{t.title}</h2>
@@ -353,7 +399,10 @@ export default function LexiconPanel({ lang = "en", onClose, onJump }) {
             />
             <label className="lexicon-bible">
               <span>{t.bible}</span>
-              <select value={source} onChange={(e) => setSource(e.target.value)}>
+              <select
+                value={source}
+                onChange={(e) => setSource(e.target.value)}
+              >
                 {bibles.map((b) => (
                   <option key={b.code} value={b.code}>
                     {b.label}
@@ -385,32 +434,47 @@ export default function LexiconPanel({ lang = "en", onClose, onJump }) {
                       key={r.c}
                       tabIndex={0}
                       onClick={() => openWord(r)}
-                      onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && (e.preventDefault(), openWord(r))}
+                      onKeyDown={(e) =>
+                        (e.key === "Enter" || e.key === " ") &&
+                        (e.preventDefault(), openWord(r))
+                      }
                     >
                       <td
-                        className={r.c[0] === "H" ? "lex-orig hebrew" : "lex-orig"}
+                        className={
+                          r.c[0] === "H" ? "lex-orig hebrew" : "lex-orig"
+                        }
                         lang={r.c[0] === "H" ? "hbo" : "grc"}
                         dir={r.c[0] === "H" ? "rtl" : undefined}
                       >
                         {r.gr}
                         {r.form && (
-                          <span className="lex-form" lang={r.c[0] === "H" ? "hbo" : "grc"}>
-                            {t.form}: <span dir="auto">{r.form}</span> <i lang="en">({translitOf(r.c, r.form)})</i>
+                          <span
+                            className="lex-form"
+                            lang={r.c[0] === "H" ? "hbo" : "grc"}
+                          >
+                            {t.form}: <span dir="auto">{r.form}</span>{" "}
+                            <i lang="en">({translitOf(r.c, r.form)})</i>
                           </span>
                         )}
                         {/* narrow phones: the transliteration column folds in here */}
-                        <span className="lex-tr-inline" dir="ltr">{r.tr}</span>
+                        <span className="lex-tr-inline" dir="ltr">
+                          {r.tr}
+                        </span>
                       </td>
                       <td className="lex-tr">{r.tr}</td>
                       <td className="lex-code">{r.c}</td>
                       <td className="lex-rend">
-                        <span className="lex-rend-clamp">{renderList(rend[langOf(r.c)]?.[r.c]) || "—"}</span>
+                        <span className="lex-rend-clamp">
+                          {renderList(rend[langOf(r.c)]?.[r.c]) || "—"}
+                        </span>
                       </td>
                     </tr>
                   ))}
                 </tbody>
               </table>
-              {total > results.length && <p className="dim lexicon-more">{t.more(results.length)}</p>}
+              {total > results.length && (
+                <p className="dim lexicon-more">{t.more(results.length)}</p>
+              )}
             </>
           ) : null}
         </>
@@ -421,7 +485,18 @@ export default function LexiconPanel({ lang = "en", onClose, onJump }) {
 
 /** One word: original, transliteration, number + language, definition, how the
  *  chosen Bible renders it, and every verse it occurs in (filter by book; tap to go). */
-function WordPage({ code, source, bibleLabel, renderings, forms, startForm, lang, t, onBack, onJump }) {
+function WordPage({
+  code,
+  source,
+  bibleLabel,
+  renderings,
+  forms,
+  startForm,
+  lang,
+  t,
+  onBack,
+  onJump,
+}) {
   const [entry, setEntry] = useState(undefined);
   const [refs, setRefs] = useState(null);
   const [book, setBook] = useState(null);
@@ -447,7 +522,12 @@ function WordPage({ code, source, bibleLabel, renderings, forms, startForm, lang
           refs.filter((vid) => {
             const { n, c, v } = decodeVid(vid);
             const toks = data.get(n)?.w?.[c]?.[v - 1] || [];
-            return toks.some((tok) => tok.s && normalizeStrong(tok.s) === code && renderingOf(tok.t) === word);
+            return toks.some(
+              (tok) =>
+                tok.s &&
+                normalizeStrong(tok.s) === code &&
+                renderingOf(tok.t) === word,
+            );
           }),
         );
       })
@@ -463,7 +543,9 @@ function WordPage({ code, source, bibleLabel, renderings, forms, startForm, lang
     if (!gform || !refs) return;
     let alive = true;
     const want = fold(gform);
-    const nums = [...new Set(refs.map((v) => Math.floor(v / 1_000_000)))].filter((n) => !isHeb || n <= 39);
+    const nums = [
+      ...new Set(refs.map((v) => Math.floor(v / 1_000_000))),
+    ].filter((n) => !isHeb || n <= 39);
     // Greek numbers: the Septuagint for the Old Testament, the KJTR for the New
     Promise.all(nums.map((n) => loadOriginal(n, !isHeb).then((d) => [n, d])))
       .then((pairs) => {
@@ -476,7 +558,8 @@ function WordPage({ code, source, bibleLabel, renderings, forms, startForm, lang
             return words.some(
               ([w, wc, , main]) =>
                 wc === code &&
-                (fold(w.replace(/[^\p{L}\p{M}]/gu, "")) === want || (isHeb && main && fold(main) === want)),
+                (fold(w.replace(/[^\p{L}\p{M}]/gu, "")) === want ||
+                  (isHeb && main && fold(main) === want)),
             );
           }),
         );
@@ -528,11 +611,22 @@ function WordPage({ code, source, bibleLabel, renderings, forms, startForm, lang
       const n = Math.floor(vid / 1_000_000);
       m.set(n, (m.get(n) || 0) + 1);
     }
-    return [...m].map(([n, c]) => ({ key: n, label: bookName(byNum[n], lang) || `${n}`, count: c })).sort((a, b) => b.count - a.count);
+    return [...m]
+      .map(([n, c]) => ({
+        key: n,
+        label: bookName(byNum[n], lang) || `${n}`,
+        count: c,
+      }))
+      .sort((a, b) => b.count - a.count);
   }, [base, lang]);
 
   const filtered = useMemo(
-    () => (base ? (book ? base.filter((v) => Math.floor(v / 1_000_000) === book) : base) : null),
+    () =>
+      base
+        ? book
+          ? base.filter((v) => Math.floor(v / 1_000_000) === book)
+          : base
+        : null,
     [base, book],
   );
 
@@ -540,7 +634,9 @@ function WordPage({ code, source, bibleLabel, renderings, forms, startForm, lang
   useEffect(() => {
     if (!filtered) return;
     let alive = true;
-    const batch = filtered.slice(0, count).map((vid) => ({ vid, ...decodeVid(vid) }));
+    const batch = filtered
+      .slice(0, count)
+      .map((vid) => ({ vid, ...decodeVid(vid) }));
     const nums = [...new Set(batch.map((d) => d.n))];
     Promise.all(nums.map((n) => loadBook(source, n).then((d) => [n, d])))
       .then((pairs) => {
@@ -554,7 +650,11 @@ function WordPage({ code, source, bibleLabel, renderings, forms, startForm, lang
               ? toks.map((tok) => ({
                   t: tok.t,
                   j: !!tok.j,
-                  hit: !!(tok.s && normalizeStrong(tok.s) === code && (!word || renderingOf(tok.t) === word)),
+                  hit: !!(
+                    tok.s &&
+                    normalizeStrong(tok.s) === code &&
+                    (!word || renderingOf(tok.t) === word)
+                  ),
                 }))
               : [{ t: d?.v?.[c]?.[v - 1] || "", hit: false }];
             return { vid, book: byNum[n], chapter: c, verse: v, segs };
@@ -576,7 +676,11 @@ function WordPage({ code, source, bibleLabel, renderings, forms, startForm, lang
         ‹ {t.back}
       </button>
 
-      <p className={isHeb ? "lexicon-orig hebrew" : "lexicon-orig"} lang={isHeb ? "hbo" : "grc"} dir={isHeb ? "rtl" : undefined}>
+      <p
+        className={isHeb ? "lexicon-orig hebrew" : "lexicon-orig"}
+        lang={isHeb ? "hbo" : "grc"}
+        dir={isHeb ? "rtl" : undefined}
+      >
         {entry?.gr || " "}
       </p>
       {entry?.tr && <p className="lexicon-tr">{entry.tr}</p>}
@@ -596,11 +700,15 @@ function WordPage({ code, source, bibleLabel, renderings, forms, startForm, lang
               <summary>{t.outline}</summary>
               <ul>
                 {entry.outline.map((en, i) => {
-                  const line = (lang === "es" && entry["outline-es"]?.[i]) || en;
+                  const line =
+                    (lang === "es" && entry["outline-es"]?.[i]) || en;
                   const label = en.match(/^(\w+)\)/)?.[1] || "";
                   const depth = (label.match(/\d+|[a-z]+/g) || [""]).length;
                   return (
-                    <li key={i} style={{ paddingLeft: `${(depth - 1) * 14}px` }}>
+                    <li
+                      key={i}
+                      style={{ paddingLeft: `${(depth - 1) * 14}px` }}
+                    >
                       {line}
                     </li>
                   );
@@ -648,7 +756,8 @@ function WordPage({ code, source, bibleLabel, renderings, forms, startForm, lang
                   title={gform === f ? t.showAllForms : t.formBy(f)}
                   onClick={() => pickForm(f)}
                 >
-                  <span dir="auto">{f}</span> <i lang="en">{translitOf(code, f)}</i> ({n})
+                  <span dir="auto">{f}</span>{" "}
+                  <i lang="en">{translitOf(code, f)}</i> ({n})
                 </button>
               </span>
             ))}
@@ -663,7 +772,11 @@ function WordPage({ code, source, bibleLabel, renderings, forms, startForm, lang
       {word && (
         <p className="lexicon-filter">
           {t.filteredBy(word)}{" "}
-          <button type="button" className="lexicon-expand" onClick={() => pickWord(word)}>
+          <button
+            type="button"
+            className="lexicon-expand"
+            onClick={() => pickWord(word)}
+          >
             {t.showAll}
           </button>
         </p>
@@ -671,12 +784,18 @@ function WordPage({ code, source, bibleLabel, renderings, forms, startForm, lang
       {gform && (
         <p className="lexicon-filter">
           {t.formFiltered(gform)}{" "}
-          <button type="button" className="lexicon-expand" onClick={() => pickForm(gform)}>
+          <button
+            type="button"
+            className="lexicon-expand"
+            onClick={() => pickForm(gform)}
+          >
             {t.showAllForms}
           </button>
         </p>
       )}
-      {refs === null || (word && wordRefs === null) || (gform && formRefs === null) ? (
+      {refs === null ||
+      (word && wordRefs === null) ||
+      (gform && formRefs === null) ? (
         <p className="dim">{t.loading}</p>
       ) : base.length === 0 ? (
         <p className="dim">{t.noOcc}</p>
@@ -699,7 +818,16 @@ function WordPage({ code, source, bibleLabel, renderings, forms, startForm, lang
             <ul className="strongs-occurrences">
               {rows.map((r) => (
                 <li key={r.vid}>
-                  <button type="button" onClick={() => onJump({ book: r.book.id, chapter: r.chapter, verse: r.verse })}>
+                  <button
+                    type="button"
+                    onClick={() =>
+                      onJump({
+                        book: r.book.id,
+                        chapter: r.chapter,
+                        verse: r.verse,
+                      })
+                    }
+                  >
                     <span className="occ-ref">
                       {bookName(r.book, lang)} {r.chapter}:{r.verse}
                     </span>
@@ -716,7 +844,11 @@ function WordPage({ code, source, bibleLabel, renderings, forms, startForm, lang
               ))}
               {left > 0 && (
                 <li className="strongs-more-item">
-                  <button type="button" className="strongs-load-more" onClick={() => setCount((c) => c + CHUNK)}>
+                  <button
+                    type="button"
+                    className="strongs-load-more"
+                    onClick={() => setCount((c) => c + CHUNK)}
+                  >
                     {t.loadMore(Math.min(CHUNK, left), left)}
                   </button>
                 </li>
