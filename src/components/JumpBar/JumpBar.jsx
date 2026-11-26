@@ -5,6 +5,7 @@ import MainMenu from "../MainMenu/MainMenu.jsx";
 import { byId, parseRef, bookName } from "../../js/books.js";
 import { searchAvailablePanes, splitSnippet } from "../../js/search.js";
 import { optionFor } from "../../js/data.js";
+import { isReady } from "../../js/offline.js";
 import "./JumpBar.css";
 
 const T = {
@@ -18,6 +19,7 @@ const T = {
     placeholder: "Search verse (e.g. Jn 3:16) or word (e.g. grace)...",
     clear: "Clear search", cancel: "Cancel", in: "In:", activePanes: "Active panes", searching: "Searching…",
     info: (n) => `Current book is searched first · Up to ${n} matches`,
+    downloadTip: "Tip: download this Bible (⬇ in its pane header, or Settings ▸ Download App) to make searching much faster.",
     goTo: "Go to", jumpHint: "Jump directly to this passage",
     matchesFor: (q, shown, total) => `Matches for “${q}” (${shown}${total != null ? ` of ${total}` : ""})`,
     none: (q, src) => `No matches found for “${q}” in ${src || "active panes"}.`,
@@ -32,6 +34,7 @@ const T = {
     placeholder: "Buscar versículo (p. ej., Jn 3:16) o palabra (p. ej., gracia)...",
     clear: "Borrar búsqueda", cancel: "Cancelar", in: "En:", activePanes: "Paneles activos", searching: "Buscando…",
     info: (n) => `Se busca primero en el libro actual · Hasta ${n} coincidencias`,
+    downloadTip: "Consejo: descargue esta Biblia (⬇ en el encabezado de su panel, o Ajustes ▸ Descargar la aplicación) para que la búsqueda sea mucho más rápida.",
     goTo: "Ir a", jumpHint: "Ir directamente a este pasaje",
     matchesFor: (q, shown, total) => `Coincidencias para «${q}» (${shown}${total != null ? ` de ${total}` : ""})`,
     none: (q, src) => `No se encontraron coincidencias para «${q}» en ${src || "los paneles activos"}.`,
@@ -397,6 +400,10 @@ export default function JumpBar({
 
             <div className="search-search-info dim">
               {t.info(maxResults.toLocaleString(lang === "es" ? "es-MX" : "en-US"))}
+              {/* searching reads every book: much faster once they are stored on the device */}
+              {(panes || []).some((c) => optionFor(c)?.kind === "bible" && !isReady(c)) && (
+                <div className="search-download-tip">{t.downloadTip}</div>
+              )}
             </div>
 
             <div className="search-results-container">

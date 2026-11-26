@@ -471,3 +471,9 @@
     padding: 0 8px;
   }
 }
+
+/* "download this Bible to search faster" under the search info line */
+.search-download-tip {
+  margin-top: 3px;
+  font-size: 0.95em;
+}
