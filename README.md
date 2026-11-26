@@ -54,6 +54,7 @@ git push
 | `msb-strong`         | MSB (MT)                 | its own (`concord/msb-strong`)                                        |
 | `lsv-strong`         | LSV (TR)                 | KJV's                                                                 |
 | `ylt-strong`         | YLT (TR)                 | KJV's                                                                 |
+| `lxx`                | LXX (+KJV NT)            | KJV's (its NT is the KJV, `ntFrom` in data.js); OT untagged — built by `scripts/lxx/build-lxx2012.py` |
 | `drc1750`            | Douay-Rheims             | none (no Strong's)                                                    |
 | `rv1909-strong`      | RV1909 (TR)              | its own (`concord/rv1909-strong`)                                     |
 | `rvg-strong`         | RVG (TR)                 | RV1909's                                                              |

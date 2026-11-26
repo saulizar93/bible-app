@@ -156,7 +156,7 @@ function Clamp({ children, lines = 3, t }) {
 
 export default function LexiconPanel({ lang = "en", onClose, onJump }) {
   const t = T[lang] || T.en;
-  const bibles = useMemo(() => PANE_OPTIONS.filter((o) => o.kind === "bible" && o.strongs), []);
+  const bibles = useMemo(() => PANE_OPTIONS.filter((o) => o.kind === "bible" && o.strongs && !o.ntFrom), []); // LXX: its tags are the KJV's
   const [source, setSource] = useState(() => {
     const want = lang === "es" ? "rvg-strong" : "kjv-strong";
     return bibles.some((b) => b.code === want) ? want : bibles[0]?.code;

@@ -86,6 +86,7 @@ const packsOf = (opt) =>
     ? [`notes:${opt.lang}`]
     : [
         `bible:${opt.code}`,
+        ...(opt.ntFrom ? [`bible:${opt.ntFrom}`] : []), // the LXX's New Testament is the KJV's
         ...(opt.strongs ? ["lexicon", `concord:${(opt.concord ?? "").replace(/\/$/, "") || "root"}`] : []),
       ];
 

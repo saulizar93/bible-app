@@ -149,6 +149,23 @@ export const PANE_OPTIONS = [
       "Young's Literal Translation, by Robert Young (1862; revised 1887, 1898). Public Domain. Strong's numbers carried over from the KJV (© 2003–2023 CrossWire Bible Society, KJV2003 Project). Old Testament Hebrew parsing and words: original work of the Open Scriptures Hebrew Bible available at https://github.com/openscriptures/morphhb (CC BY 4.0).",
   },
   {
+    code: "lxx",
+    label: "LXX (+KJV NT)",
+    name: "Septuagint (+KJV NT)", // full name shown on the pane picker once selected
+    kind: "bible",
+    lang: "en",
+    // Old Testament: Brenton's English Septuagint, updated (eBible.org LXX2012, Public
+    // Domain), built by scripts/lxx/build-lxx2012.py. It has no New Testament: books
+    // 40-66 are read from the KJV (ntFrom), Strong's and all.
+    ntFrom: "kjv-strong",
+    strongs: true, // the NT's (the KJV's); the Septuagint text has no Strong's numbers
+    italics: true, // words Brenton supplied (\add in the source) and the KJV's
+    concord: "", // the KJV's (its New Testament is the KJV)
+    citation: "LXX",
+    copyright:
+      "Old Testament: The Septuagint, translated by Sir Lancelot C. L. Brenton (1851), with language updates by Michael Paul Johnson (LXX2012, eBible.org). Public Domain. Psalms renumbered to the Hebrew/KJV chapters; elsewhere the Septuagint's own chapter and verse numbers are kept. New Testament: King James Version (1769), Public Domain, with Strong's numbers © 2003–2023 CrossWire Bible Society (KJV2003 Project).",
+  },
+  {
     code: "drc1750",
     label: "DRC (Catholic, Latin)",
     name: "Douay-Rheims Challoner (Catholic, Latin)", // full name shown on the pane picker once selected
@@ -332,12 +349,19 @@ function cachedFetch(key, url) {
 /* Cache keys + URLs for every kind of data file (shared with src/offline.js). */
 const BASE = import.meta.env.BASE_URL;
 // Key = "<kind>/<path>@<content hash>"; the part before "@" names the file.
+/** Which Bible's files hold book n of `code`: itself, or for the New Testament of a
+ *  Bible that has none (LXX), the Bible named by its ntFrom. */
+export const bookSource = (code, n) => {
+  const o = PANE_OPTIONS.find((x) => x.code === code);
+  return o?.ntFrom && n >= 40 ? o.ntFrom : code;
+};
 const entry = (kind, rel) => [
   `${kind}/${rel}@${fileHash(`${kind === "bible" ? "bibles" : kind}/${rel}.json`)}`,
   `${BASE}data/${kind === "bible" ? "bibles" : kind}/${rel}.json`,
 ];
 export const SRC = {
-  book: (code, n) => entry("bible", `${code}/${n}`),
+  // A Bible with ntFrom (the Septuagint) reads its New Testament from that Bible's files.
+  book: (code, n) => entry("bible", `${bookSource(code, n)}/${n}`),
   notes: (lang, n, ch) => entry("notes", `${lang}/${n}/${ch}`),
   strongs: (lang, shard) => entry("strongs", `${lang}/${shard}`),
   concord: (dir, shard) => entry("concord", `${dir}/${shard}`),
