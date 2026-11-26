@@ -214,6 +214,86 @@ def greek_words(raw):
     return out
 
 
+def fold(s):
+    import unicodedata
+    return "".join(c for c in unicodedata.normalize("NFD", s) if not unicodedata.combining(c)).lower().replace("ς", "σ")
+
+
+# case endings of nouns/adjectives (folded) and dictionary endings to try in their place
+ENDINGS = ("ων", "αισ", "οισ", "ουσ", "ασ", "ησ", "ην", "αν", "ον", "οσ", "ου", "ω", "η", "α", "αι", "οι", "ε", "ι", "εσ", "ει")
+NOMS = ("α", "η", "οσ", "ον", "ησ", "ασ", "ευσ", "ισ", "μα")
+
+
+def fill_numbers(all_units):
+    """The module leaves many words without a Strong's number (εἶπεν, οὕτως, πετρῶν,
+    Δαυιδ ...). Give each the number the same form has elsewhere: in the Septuagint
+    itself (most frequent, if clearly so), else in the KJTR New Testament, else the
+    lexicon entry whose dictionary form is that word. Returns how many were filled."""
+    bare = lambda w: re.sub(r"[^\w]", "", w)
+    seen = defaultdict(Counter)
+    for units in all_units:
+        for u in units:
+            for w, c, _, _ in u:
+                if c:
+                    seen[fold(bare(w))][c] += 1
+    nt = {}
+    fp = os.path.join(DATA, "strongs", "kjtr", "forms.json")
+    if os.path.exists(fp):
+        for c, lst in json.load(open(fp, encoding="utf-8")).items():
+            for f, n in lst:
+                k = fold(f)
+                if k not in nt or nt[k][1] < n:
+                    nt[k] = (c, n)
+    lemma, name = {}, set()
+    for c, gr, _ in json.load(open(os.path.join(DATA, "strongs", "index.json"), encoding="utf-8")):
+        if c[0] == "G":
+            lemma.setdefault(fold(gr), c)
+            if gr[:1].isupper():
+                name.add(c)
+    # a lower-case word never takes a name's number, except entries that are also the
+    # common noun: Strong's G4074 Πέτρος is "a (piece of) rock" as well as Peter, and is
+    # the only entry for πέτρος, the masculine "stone, rock" (πετρῶν, CCAT N2-GPM)
+    common = {"G4074"}
+    ok = lambda w, c: not (c in name and c not in common and w[:1].islower())
+    filled = 0
+    for units in all_units:
+        for u in units:
+            for w in u:
+                if w[1] and not ok(w[0], w[1]):
+                    w[1] = ""  # a name's number on a common word
+                if w[1]:
+                    continue
+                k = fold(bare(w[0]))
+                cnt = Counter({c: n for c, n in (seen.get(k) or {}).items() if ok(w[0], c)})
+                code = None
+                if cnt:
+                    top, n = cnt.most_common(1)[0]
+                    if n / sum(cnt.values()) >= 0.6:
+                        code = top
+                if not code and k in nt and ok(w[0], nt[k][0]):
+                    code = nt[k][0]
+                if not code and k in lemma and ok(w[0], lemma[k]):
+                    code = lemma[k]
+                if not code and w[2][:2] in ("N-", "A-"):
+                    # a noun or adjective: try its dictionary form (πετρῶν -> πέτρα)
+                    found = set()
+                    # dictionary endings that fit the word's gender (πετρῶν masculine -> πέτρος)
+                    g = w[2][-1:]
+                    noms = {"M": ("οσ", "ησ", "ασ", "ευσ"), "F": ("α", "η", "ισ"), "N": ("ον", "μα", "οσ")}.get(g, NOMS)
+                    for end in ENDINGS:
+                        if k.endswith(end) and len(k) > len(end) + 2:
+                            for nom in noms:
+                                c2 = lemma.get(k[: len(k) - len(end)] + nom)
+                                if c2 and ok(w[0], c2):
+                                    found.add(c2)
+                    if len(found) == 1:
+                        code = found.pop()
+                if code:
+                    w[1] = code
+                    filled += 1
+    return filled
+
+
 def greek_units(books, n):
     g = books.get(OSIS[n - 1], {})
     units, refs = [], []
@@ -345,9 +425,17 @@ LEADS = set(("the a an of to in into unto upon on by with from for at his her it
              "and").split())
 
 
-def tag_verse(ewords_, gwords, dice):
-    """ewords_: [[word, italic]]; gwords: [[greek, code, morph, ""]] -> tokens."""
-    ne, ng = len(ewords_), len(gwords)
+def tag_verse(ewords_, gwords, dice, before=(), after=()):
+    """ewords_: [[word, italic]]; gwords: [[greek, code, morph, ""]] -> tokens.
+    before/after: the Greek of the verses either side, used (at a cost) when the two
+    texts divide a verse differently (Ps 104:11-12: Brenton's one verse, Rahlfs' two)."""
+    ne = len(ewords_)
+    pool = [(g, -0.3 - 0.0001 * (len(before) - k)) for k, g in enumerate(before)] + \
+           [(g, j / max(len(gwords) - 1, 1)) for j, g in enumerate(gwords)] + \
+           [(g, 1.3 + 0.0001 * k) for k, g in enumerate(after)]
+    gwords = [g for g, _ in pool]
+    gpos = [p for _, p in pool]
+    ng = len(gwords)
     match = [None] * ne
     if ng:
         pairs = []
@@ -367,7 +455,7 @@ def tag_verse(ewords_, gwords, dice):
                 if not in_gloss and d < 0.15:
                     continue
                 sc = d + (0.5 if in_gloss else 0.0)
-                sc -= 0.4 * abs(i / max(ne - 1, 1) - j / max(ng - 1, 1))
+                sc -= 0.4 * abs(i / max(ne - 1, 1) - gpos[j])
                 pairs.append((sc, i, j))
         used = set()
         for sc, i, j in sorted(pairs, reverse=True):
@@ -375,10 +463,10 @@ def tag_verse(ewords_, gwords, dice):
                 match[i] = j
                 used.add(j)
         # "and" -> καί (G2532) by position
-        kai = [j for j, g in enumerate(gwords) if g[1] == "G2532" and j not in used]
+        kai = [j for j, g in enumerate(gwords) if g[1] == "G2532" and j not in used and 0 <= gpos[j] <= 1]
         for i, (w, it) in enumerate(ewords_):
             if match[i] is None and not it and re.sub(r"[^a-z]", "", w.lower()) == "and" and kai:
-                j = min(kai, key=lambda j: abs(i / max(ne - 1, 1) - j / max(ng - 1, 1)))
+                j = min(kai, key=lambda j: abs(i / max(ne - 1, 1) - gpos[j]))
                 match[i] = j
                 kai.remove(j)
     # small words join the tagged word right after them ("of the heaven")
@@ -417,11 +505,14 @@ def main():
     os.makedirs(out_en, exist_ok=True)
     os.makedirs(out_gr, exist_ok=True)
 
+    greek = {n: greek_units(books, n) for n in range(1, 40)}
+    print("Greek words given a Strong's number from the same form elsewhere:",
+          fill_numbers([gu for gu, _ in greek.values()]))
     slots = {}  # n -> {(c,v): {"en": [[word,it]...], "gr": [...]}}
     for n in range(1, 40):
         kv = json.load(open(os.path.join(DATA, "bibles", "kjv-strong", f"{n}.json"), encoding="utf-8"))["v"]
         eu, er = english_units(a.eng, n)
-        gu, gr = greek_units(books, n)
+        gu, gr = greek[n]
         S = defaultdict(lambda: {"en": [], "gr": []})
         for u, k in zip(eu, align(eu, er, kv, english_score)):
             S[k]["en"] += u
@@ -453,7 +544,9 @@ def main():
             vs, ws, gs = [], [], []
             for v in range(1, len(kv[c]) + 1):
                 s = S.get((int(c), v), {"en": [], "gr": []})
-                toks = tag_verse(s["en"], s["gr"], dice) if s["en"] else []
+                prev_g = S.get((int(c), v - 1), {}).get("gr", [])
+                next_g = S.get((int(c), v + 1), {}).get("gr", [])
+                toks = tag_verse(s["en"], s["gr"], dice, prev_g, next_g) if s["en"] else []
                 vs.append(" ".join(t["t"] for t in toks))
                 ws.append(toks)
                 gs.append(s["gr"])
