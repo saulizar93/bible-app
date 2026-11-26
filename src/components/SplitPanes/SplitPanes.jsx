@@ -57,7 +57,9 @@ export default function SplitPanes({ children, hideSecond = false, overlay = nul
   }
 
   return (
-    <main className="panes" ref={containerRef}>
+    // --split: where the divider is (ChapterNav keeps its ▲▼ above it on phones,
+    // clear of the lower pane's header buttons)
+    <main className="panes" ref={containerRef} style={{ "--split": `${pct}%` }}>
       <div className="pane-slot" style={{ flex: `0 0 ${pct}%` }}>
         {first}
       </div>

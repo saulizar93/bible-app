@@ -89,12 +89,14 @@
 /* ▲ / ▼ verse steppers: a column at the middle of the right edge (phones).
    Side by side, the → chapter arrow sits at the middle with the − / + above it,
    so the verse column goes right underneath the →. */
+/* Phones: right edge, ending a little above the divider (--split, SplitPanes.jsx), so
+   it never covers the lower pane's header (its download button). One pane: centred. */
 .verse-nav {
   position: absolute;
   z-index: 4;
   right: 18px;
-  top: 50%;
-  transform: translateY(-50%);
+  top: calc(var(--split, calc(50% + 50px)) - 16px);
+  transform: translateY(-100%);
   display: flex;
   flex-direction: column;
   gap: 10px;
