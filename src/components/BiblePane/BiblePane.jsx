@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { byId } from "../../js/books.js";
-import { loadBook, optionFor, noteLabelFor, loadOriginal, GREEK_NT_CREDIT, HEBREW_OT_CREDIT } from "../../js/data.js";
+import { loadBook, optionFor, noteLabelFor, loadOriginal, GREEK_NT_CREDIT, GREEK_OT_CREDIT, HEBREW_OT_CREDIT } from "../../js/data.js";
 import Interlinear from "../Interlinear/Interlinear.jsx";
 import { normalizeStrong } from "../../js/strongsCode.js";
 import "./BiblePane.css";
@@ -24,10 +24,15 @@ export default function BiblePane({
   const [greek, setGreek] = useState(null); // { n, w } Hebrew/Greek book, loaded when first needed
   const bookNum = byId[refPos.book].n;
   const isOT = bookNum <= 39;
+  // The Septuagint pane shows its own Greek in the Old Testament, not the Hebrew.
+  const greekOT = isOT && optionFor(code)?.otOriginal === "lxx";
+  const origKey = `${bookNum}:${greekOT ? "lxx" : "std"}`;
   const wantGreek = greekVerses?.size > 0;
   // The interlinear's English/Spanish words always come from one Bible per language,
   // whatever this pane shows: the KJV for English panes, the RVG for Spanish ones.
-  const glossCode = optionFor(code)?.lang === "es" ? "rvg-strong" : "kjv-strong";
+  // (the Septuagint's Old Testament takes them from itself: its words are tagged
+  // with the Greek's numbers, which the KJV's Old Testament doesn't have)
+  const glossCode = greekOT ? code : optionFor(code)?.lang === "es" ? "rvg-strong" : "kjv-strong";
   const [gloss, setGloss] = useState(null); // { key, w } tokens of that Bible's book
   const [error, setError] = useState(null);
   // Translator notes (`n` on a token, e.g. RVO): verses whose note box is open
@@ -61,15 +66,15 @@ export default function BiblePane({
   }, [code, refPos.book, refPos.chapter]);
 
   useEffect(() => {
-    if (!wantGreek || greek?.n === bookNum) return;
+    if (!wantGreek || greek?.n === origKey) return;
     let alive = true;
-    loadOriginal(bookNum)
-      .then((g) => alive && setGreek({ n: bookNum, w: g?.w || {} }))
-      .catch(() => alive && setGreek({ n: bookNum, w: {} }));
+    loadOriginal(bookNum, greekOT)
+      .then((g) => alive && setGreek({ n: origKey, w: g?.w || {} }))
+      .catch(() => alive && setGreek({ n: origKey, w: {} }));
     return () => {
       alive = false;
     };
-  }, [wantGreek, bookNum, greek?.n]);
+  }, [wantGreek, bookNum, greekOT, origKey, greek?.n]);
   const glossKey = `${glossCode}/${bookNum}`;
   useEffect(() => {
     if (!wantGreek || glossCode === code || gloss?.key === glossKey) return;
@@ -81,7 +86,7 @@ export default function BiblePane({
       alive = false;
     };
   }, [wantGreek, glossCode, code, bookNum, glossKey, gloss?.key]);
-  const greekChapter = wantGreek && greek?.n === bookNum ? greek.w[refPos.chapter] || [] : null;
+  const greekChapter = wantGreek && greek?.n === origKey ? greek.w[refPos.chapter] || [] : null;
 
   const verses = book?.v[refPos.chapter];
   const tokensByVerse = strongsOn ? book?.w?.[refPos.chapter] : null;
@@ -186,8 +191,9 @@ export default function BiblePane({
                   ? gloss.w[refPos.chapter]?.[i]
                   : undefined
             }
-            glossLabel={glossCode === "rvg-strong" ? "RVG" : "KJV"}
-            hebrew={isOT}
+            glossLabel={greekOT ? null : glossCode === "rvg-strong" ? "RVG" : "KJV"}
+            hebrew={isOT && !greekOT}
+            greekLabel={greekOT ? "LXX" : "KJTR"}
             lang={uiLang}
             onWordClick={onWordClick}
             onClose={() => onCloseGreek?.(i + 1)}
@@ -208,7 +214,7 @@ export default function BiblePane({
       {verseEls}
       {copyright && <p className="pane-copyright">{copyright}</p>}
       {greekChapter && (
-        <p className="pane-copyright">{(isOT ? HEBREW_OT_CREDIT : GREEK_NT_CREDIT)[uiLang] || GREEK_NT_CREDIT.en}</p>
+        <p className="pane-copyright">{(greekOT ? GREEK_OT_CREDIT : isOT ? HEBREW_OT_CREDIT : GREEK_NT_CREDIT)[uiLang] || GREEK_NT_CREDIT.en}</p>
       )}
     </>
   );

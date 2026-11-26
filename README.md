@@ -54,7 +54,7 @@ git push
 | `msb-strong`         | MSB (MT)                 | its own (`concord/msb-strong`)                                        |
 | `lsv-strong`         | LSV (TR)                 | KJV's                                                                 |
 | `ylt-strong`         | YLT (TR)                 | KJV's                                                                 |
-| `lxx`                | LXX (+KJV NT)            | KJV's (its NT is the KJV, `ntFrom` in data.js); OT untagged — built by `scripts/lxx/build-lxx2012.py` |
+| `lxx`                | LXX (+KJV NT)            | its own (`concord/lxx`: LXX OT + KJV NT); OT built by `scripts/lxx/build-lxx.py`, NT read from the KJV (`ntFrom`) |
 | `drc1750`            | Douay-Rheims             | none (no Strong's)                                                    |
 | `rv1909-strong`      | RV1909 (TR)              | its own (`concord/rv1909-strong`)                                     |
 | `rvg-strong`         | RVG (TR)                 | RV1909's                                                              |
@@ -153,6 +153,18 @@ Each chapter has the plain text of every verse (`v`) and, in tagged Bibles, the 
 
    ```bash
    node scripts/build-oshb-interlinear.mjs
+   ```
+
+   The Septuagint pane (`lxx`) and its Greek interlinear are built together from Brenton's
+   English (eBible.org `eng-lxx2012_usfm`) and Rahlfs' Greek (CrossWire SWORD module `LXX`),
+   renumbered to the KJV's verses, with Strong's numbers carried onto the English:
+
+   ```bash
+   python3 scripts/lxx/build-lxx.py --eng path/to/eng-lxx2012_usfm --greek path/to/LXX
+   # then its word search (LXX Old Testament + KJV New Testament in one folder):
+   mkdir -p /tmp/lxxc && cp public/data/bibles/lxx/*.json /tmp/lxxc/ && \
+     for n in $(seq 40 66); do cp public/data/bibles/kjv-strong/$n.json /tmp/lxxc/; done && \
+     node scripts/build-concordance.mjs /tmp/lxxc public/data/concord/lxx
    ```
 
 2. Run `npm run dev` or `npm run build` once so `public/data/manifest.json` is updated, and commit it with your change (section 6).

@@ -124,6 +124,9 @@ function packFiles(opt) {
     // Hebrew Old Testament, the same.
     files.push(SRC.hebrewForms());
     for (let n = 1; n <= 39; n++) files.push(SRC.hebrewOT(n));
+    // Greek Old Testament (Septuagint), the same.
+    files.push(SRC.greekOTForms());
+    for (let n = 1; n <= 39; n++) files.push(SRC.greekOT(n));
   }
   return files;
 }

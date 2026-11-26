@@ -154,16 +154,20 @@ export const PANE_OPTIONS = [
     name: "Septuagint (+KJV NT)", // full name shown on the pane picker once selected
     kind: "bible",
     lang: "en",
-    // Old Testament: Brenton's English Septuagint, updated (eBible.org LXX2012, Public
-    // Domain), built by scripts/lxx/build-lxx2012.py. It has no New Testament: books
-    // 40-66 are read from the KJV (ntFrom), Strong's and all.
+    // Old Testament: Brenton's English Septuagint (eBible.org LXX2012) in KJV verse
+    // numbers, its words tagged with the Strong's numbers of Rahlfs' Greek (CrossWire
+    // "LXX" module) by scripts/lxx/build-lxx.py. It has no New Testament: books 40-66
+    // are read from the KJV (ntFrom), Strong's and all.
     ntFrom: "kjv-strong",
-    strongs: true, // the NT's (the KJV's); the Septuagint text has no Strong's numbers
-    italics: true, // words Brenton supplied (\add in the source) and the KJV's
-    concord: "", // the KJV's (its New Testament is the KJV)
+    // The interlinear in its Old Testament shows the Septuagint's Greek (strongs/lxx),
+    // not the Hebrew, and its English words come from this Bible itself.
+    otOriginal: "lxx",
+    strongs: true,
+    italics: true, // words Brenton supplied (\add in the source), and the KJV's
+    concord: "lxx/", // data/concord/lxx: the LXX's OT + the KJV's NT
     citation: "LXX",
     copyright:
-      "Old Testament: The Septuagint, translated by Sir Lancelot C. L. Brenton (1851), with language updates by Michael Paul Johnson (LXX2012, eBible.org). Public Domain. Psalms renumbered to the Hebrew/KJV chapters; elsewhere the Septuagint's own chapter and verse numbers are kept. New Testament: King James Version (1769), Public Domain, with Strong's numbers © 2003–2023 CrossWire Bible Society (KJV2003 Project).",
+      "Old Testament: The Septuagint, translated by Sir Lancelot C. L. Brenton (1851), with language updates by Michael Paul Johnson (LXX2012, eBible.org). Public Domain. Verses renumbered to the KJV's where the Septuagint numbers them differently. Strong's numbers and Greek words from Rahlfs' Septuaginta (1935) with morphology from the CCAT (University of Pennsylvania), CrossWire Bible Society SWORD module LXX (free non-commercial distribution). New Testament: King James Version (1769), Public Domain, with Strong's numbers © 2003–2023 CrossWire Bible Society (KJV2003 Project).",
   },
   {
     code: "drc1750",
@@ -376,6 +380,9 @@ export const SRC = {
   // Hebrew Old Testament (OSHB / WLC, scripts/build-oshb-interlinear.mjs), same uses.
   hebrewOT: (n) => entry("strongs", `oshb/${n}`),
   hebrewForms: () => entry("strongs", "oshb/forms"),
+  // Greek Old Testament (Rahlfs' Septuagint, KJV-numbered; scripts/lxx/build-lxx.py).
+  greekOT: (n) => entry("strongs", `lxx/${n}`),
+  greekOTForms: () => entry("strongs", "lxx/forms"),
 };
 
 /** Delete stored copies of files that have a newer version stored, and of files
@@ -506,8 +513,20 @@ export async function loadGreekForms() {
 export const loadHebrewOT = (bookNum) =>
   bookNum >= 1 && bookNum <= 39 ? cachedFetch(...SRC.hebrewOT(bookNum)) : Promise.resolve(null);
 
-/** The original-language words of any book: Hebrew (OT) or Greek (NT). */
-export const loadOriginal = (bookNum) => (bookNum <= 39 ? loadHebrewOT(bookNum) : loadGreekNT(bookNum));
+/** Greek (Septuagint) words of one Old Testament book, in KJV verse numbers; same shape
+ *  as loadGreekNT. null for the New Testament. */
+export const loadGreekOT = (bookNum) =>
+  bookNum >= 1 && bookNum <= 39 ? cachedFetch(...SRC.greekOT(bookNum)) : Promise.resolve(null);
+
+/** Every form of each Greek number in the Septuagint: { "G2316": [["θεὸς",…], …] }. */
+export async function loadGreekOTForms() {
+  return (await cachedFetch(...SRC.greekOTForms())) || {};
+}
+
+/** The original-language words of any book: Hebrew (OT) or Greek (NT); with
+ *  greekOT, the Septuagint's Greek for the Old Testament. */
+export const loadOriginal = (bookNum, greekOT = false) =>
+  bookNum <= 39 ? (greekOT ? loadGreekOT(bookNum) : loadHebrewOT(bookNum)) : loadGreekNT(bookNum);
 
 /** Every form of each Hebrew number in the Old Testament: { "H430": [["אֱלֹהִים",1062], …] }. */
 export async function loadHebrewForms() {
@@ -517,6 +536,11 @@ export async function loadHebrewForms() {
 export const HEBREW_OT_CREDIT = {
   en: "Hebrew: Westminster Leningrad Codex, with Strong's numbers and morphology from the Open Scriptures Hebrew Bible (https://github.com/openscriptures/morphhb, CC BY 4.0).",
   es: "Hebreo: Códice de Leningrado de Westminster, con números Strong y morfología del Open Scriptures Hebrew Bible (https://github.com/openscriptures/morphhb, CC BY 4.0).",
+};
+
+export const GREEK_OT_CREDIT = {
+  en: "Greek: Rahlfs' Septuaginta (1935), morphology from the CCAT (University of Pennsylvania), Strong's numbers by the CrossWire Bible Society (SWORD module LXX).",
+  es: "Griego: Septuaginta de Rahlfs (1935), morfología del CCAT (Universidad de Pensilvania), números Strong de CrossWire Bible Society (módulo SWORD LXX).",
 };
 
 /** Credit line for the Greek text (CC BY 4.0 asks for it wherever it is shown). */

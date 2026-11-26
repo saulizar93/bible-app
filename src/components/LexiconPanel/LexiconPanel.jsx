@@ -11,6 +11,7 @@ import {
   loadBook,
   decodeVid,
   loadGreekForms,
+  loadGreekOTForms,
   loadHebrewForms,
   loadOriginal,
 } from "../../js/data.js";
@@ -55,7 +56,7 @@ const T = {
     filteredBy: (w) => `Only verses where it is translated “${w}”.`,
     showAll: "Show all renderings",
     form: "form",
-    forms: (heb) => (heb ? "Forms in the Hebrew Old Testament (WLC)" : "Forms in the Greek New Testament (KJTR)"),
+    forms: (heb) => (heb ? "Forms in the Hebrew Old Testament (WLC)" : "Forms in the Greek Bible (Septuagint and KJTR)"),
     formBy: (w) => `Show only the verses where the original reads “${w}”`,
     formFiltered: (w) => `Only verses where the original reads “${w}”.`,
     showAllForms: "Show every form again",
@@ -90,7 +91,7 @@ const T = {
     filteredBy: (w) => `Solo versículos donde se traduce «${w}».`,
     showAll: "Mostrar todas las traducciones",
     form: "forma",
-    forms: (heb) => (heb ? "Formas en el Antiguo Testamento hebreo (WLC)" : "Formas en el Nuevo Testamento griego (KJTR)"),
+    forms: (heb) => (heb ? "Formas en el Antiguo Testamento hebreo (WLC)" : "Formas en la Biblia griega (Septuaginta y KJTR)"),
     formBy: (w) => `Mostrar solo los versículos donde el original dice «${w}»`,
     formFiltered: (w) => `Solo versículos donde el original dice «${w}».`,
     showAllForms: "Volver a mostrar todas las formas",
@@ -156,7 +157,7 @@ function Clamp({ children, lines = 3, t }) {
 
 export default function LexiconPanel({ lang = "en", onClose, onJump }) {
   const t = T[lang] || T.en;
-  const bibles = useMemo(() => PANE_OPTIONS.filter((o) => o.kind === "bible" && o.strongs && !o.ntFrom), []); // LXX: its tags are the KJV's
+  const bibles = useMemo(() => PANE_OPTIONS.filter((o) => o.kind === "bible" && o.strongs), []);
   const [source, setSource] = useState(() => {
     const want = lang === "es" ? "rvg-strong" : "kjv-strong";
     return bibles.some((b) => b.code === want) ? want : bibles[0]?.code;
@@ -175,9 +176,21 @@ export default function LexiconPanel({ lang = "en", onClose, onJump }) {
   useEffect(() => {
     let alive = true;
     loadLexiconIndex().then((rows) => alive && setIndex(rows));
-    Promise.all([loadGreekForms().catch(() => ({})), loadHebrewForms().catch(() => ({}))]).then(
-      ([g, h]) => alive && setForms({ ...g, ...h }),
-    );
+    Promise.all([
+      loadGreekForms().catch(() => ({})),
+      loadGreekOTForms().catch(() => ({})),
+      loadHebrewForms().catch(() => ({})),
+    ]).then(([nt, ot, h]) => {
+      if (!alive) return;
+      // Greek forms of the New Testament (KJTR) and the Septuagint, counts added up
+      const g = { ...nt };
+      for (const [c, list] of Object.entries(ot)) {
+        const m = new Map(g[c] || []);
+        for (const [f, n] of list) m.set(f, (m.get(f) || 0) + n);
+        g[c] = [...m].sort((a, b) => b[1] - a[1]);
+      }
+      setForms({ ...g, ...h });
+    });
     return () => {
       alive = false;
     };
@@ -450,8 +463,9 @@ function WordPage({ code, source, bibleLabel, renderings, forms, startForm, lang
     if (!gform || !refs) return;
     let alive = true;
     const want = fold(gform);
-    const nums = [...new Set(refs.map((v) => Math.floor(v / 1_000_000)))].filter((n) => (isHeb ? n <= 39 : n >= 40));
-    Promise.all(nums.map((n) => loadOriginal(n).then((d) => [n, d])))
+    const nums = [...new Set(refs.map((v) => Math.floor(v / 1_000_000)))].filter((n) => !isHeb || n <= 39);
+    // Greek numbers: the Septuagint for the Old Testament, the KJTR for the New
+    Promise.all(nums.map((n) => loadOriginal(n, !isHeb).then((d) => [n, d])))
       .then((pairs) => {
         if (!alive) return;
         const data = new Map(pairs);

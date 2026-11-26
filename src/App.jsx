@@ -636,7 +636,9 @@ export default function App() {
             // in a Bible pane: show the Hebrew (OT) or Greek (NT) of the selected verses
             optionFor(verseSelection.source)?.kind === "bible" ? toggleGreek : undefined
           }
-          original={byId[refPos.book]?.n <= 39 ? "hebrew" : "greek"}
+          original={
+            byId[refPos.book]?.n <= 39 && optionFor(verseSelection.source)?.otOriginal !== "lxx" ? "hebrew" : "greek"
+          }
           onClear={() => setVerseSelection({ source: null, verses: new Set() })}
           lang={lang || "en"}
         />

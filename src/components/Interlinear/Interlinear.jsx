@@ -6,13 +6,13 @@ import "./Interlinear.css";
 
 const T = {
   en: {
-    greek: "Greek (KJTR)",
+    greek: (src) => `Greek (${src})`,
     hebrew: "Hebrew (WLC)",
     close: (h) => `Hide the ${h ? "Hebrew" : "Greek"}`,
     missing: (h) => `No ${h ? "Hebrew" : "Greek"} text for this verse.`,
   },
   es: {
-    greek: "Griego (KJTR)",
+    greek: (src) => `Griego (${src})`,
     hebrew: "Hebreo (WLC)",
     close: (h) => `Ocultar el ${h ? "hebreo" : "griego"}`,
     missing: (h) => `No hay texto ${h ? "hebreo" : "griego"} para este versículo.`,
@@ -75,7 +75,7 @@ function glosses(words, tokens) {
  * to left. Tapping a word opens its definition (same panel as a tagged word of the
  * Bible). Spans only: it sits inside the verse's <p>.
  */
-export default function Interlinear({ words, tokens, glossLabel, hebrew = false, lang = "en", onWordClick, onClose }) {
+export default function Interlinear({ words, tokens, glossLabel, hebrew = false, greekLabel = "KJTR", lang = "en", onWordClick, onClose }) {
   const t = T[lang] || T.en;
   const gl = words ? glosses(words, tokens) : [];
   const translit = hebrew ? translitHebrew : translitGreek;
@@ -87,7 +87,7 @@ export default function Interlinear({ words, tokens, glossLabel, hebrew = false,
     >
       <span className="il-head" lang={lang}>
         <span className="il-title">
-          {hebrew ? t.hebrew : t.greek}
+          {hebrew ? t.hebrew : t.greek(greekLabel)}
           {glossLabel ? ` · ${glossLabel}` : ""}
         </span>
         <button type="button" className="il-close" aria-label={t.close(hebrew)} title={t.close(hebrew)} onClick={onClose}>

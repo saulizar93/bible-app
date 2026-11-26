@@ -1,4 +1,7 @@
-"""Build the English Septuagint (Brenton, updated: eBible.org "LXX2012", Public Domain)
+"""SUPERSEDED by scripts/lxx/build-lxx.py (KJV verse numbers, Strong's from Rahlfs' Greek,
+Greek interlinear). Kept for reference; running it would overwrite those files.
+
+Build the English Septuagint (Brenton, updated: eBible.org "LXX2012", Public Domain)
 from its USFM files into public/data/bibles/lxx/<1-39>.json.
 
     python3 scripts/lxx/build-lxx2012.py "C:/Users/saulo/Downloads/eng-lxx2012_usfm"
